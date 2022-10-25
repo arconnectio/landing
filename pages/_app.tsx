@@ -1,13 +1,12 @@
 import { createGlobalStyle } from "styled-components";
-import { Provider } from "@arconnect/components";
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <Provider theme="light">
+    <>
       <GlobalStyle />
       <Component {...pageProps} />
-    </Provider>
+    </>
   );
 }
 
