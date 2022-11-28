@@ -1,3 +1,5 @@
+import { DownloadIcon, MessageIcon } from "@iconicicons/react";
+import { Button } from "../components/Button";
 import styled from "styled-components";
 import Head from "next/head";
 
@@ -5,18 +7,23 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ArConnect - Witness the Rebirth</title>
+        <title>ArConnect</title>
         <link rel="icon" href="/logo.png" />
       </Head>
       <Wrapper>
         <Title>
-          Witness the Rebirth
+          ArConnect
         </Title>
-        <Counter>
-          2<span>days</span>{" "}
-          10<span>hours</span>{" "}
-          43<span>minutes</span>
-        </Counter>
+        <Buttons>
+          <LandingBtn>
+            <DownloadIcon />
+            Download
+          </LandingBtn>
+          <LandingBtn secondary>
+            <MessageIcon />
+            Discord
+          </LandingBtn>
+        </Buttons>
       </Wrapper>
     </>
   )
@@ -38,17 +45,26 @@ const Title = styled.h1`
   text-align: center;
   margin: 0;
   color: #AB9AFF;
+  margin-bottom: .2rem;
+
+  @media screen and (max-width: 720px) {
+    font-size: 4.2rem;
+    margin-bottom: 1rem;
+  }
 `;
 
-const Counter = styled.h2`
-  font-size: 5.5rem;
-  font-weight: 700;
-  text-align: center;
-  margin: 0;
-  color: rgba(171, 154, 255, .7);
+const Buttons = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+`;
 
-  span {
-    margin-left: .45rem;
-    font-size: 2.75rem;
+const LandingBtn = styled(Button)`
+  padding-left: 0;
+  padding-right: 0;
+  width: 182px;
+
+  @media screen and (max-width: 720px) {
+    width: 40vw;
   }
 `;

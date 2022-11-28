@@ -5,7 +5,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@arconnect/components": "^0.1.18",
+    "@arconnect/components": "^0.1.19",
+    "@iconicicons/react": "^1.5.1",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
