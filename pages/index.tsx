@@ -15,11 +15,11 @@ export default function Home() {
           ArConnect
         </Title>
         <Buttons>
-          <LandingBtn>
+          <LandingBtn onClick={() => window.open("https://chrome.google.com/webstore/detail/arconnect/einnioafmpimabjcddiinlhmijaionap")}>
             <DownloadIcon />
             Download
           </LandingBtn>
-          <LandingBtn secondary>
+          <LandingBtn secondary onClick={() => window.open("https://verto.exchange/chat")}>
             <MessageIcon />
             Discord
           </LandingBtn>
