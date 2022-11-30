@@ -1,5 +1,6 @@
 import { DownloadIcon, MessageIcon } from "@iconicicons/react";
 import { Button } from "../components/Button";
+import Metas from "../components/Metas";
 import styled from "styled-components";
 import Head from "next/head";
 
@@ -10,6 +11,7 @@ export default function Home() {
         <title>ArConnect</title>
         <link rel="icon" href="/logo.png" />
       </Head>
+      <Metas title="ArConnect" description="Secure wallet management for Arweave" image="https://arconnect.io/logo.png" />
       <Wrapper>
         <Title>
           ArConnect
