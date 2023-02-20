@@ -31,14 +31,15 @@ export default function Home() {
   )
 }
 
-const Wrapper = styled.div`
+export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
-  background: linear-gradient(0deg, rgba(171, 154, 255, 0.15), rgba(171, 154, 255, 0.15)), #FFFFFF;;
+  min-height: 100vh;
+  background: linear-gradient(0deg, rgba(171, 154, 255, 0.15), rgba(171, 154, 255, 0.15)), #FFFFFF;
+  overflow: auto;
 `;
 
 const Title = styled.h1`
