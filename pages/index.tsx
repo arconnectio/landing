@@ -3,6 +3,7 @@ import { Button } from "../components/Button";
 import Metas from "../components/Metas";
 import styled from "styled-components";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -26,12 +27,18 @@ export default function Home() {
             Discord
           </LandingBtn>
         </Buttons>
+        <Link href="/pp">
+          <PrivacyPolicy>
+            Privacy Policy
+          </PrivacyPolicy>
+        </Link>
       </Wrapper>
     </>
   )
 }
 
 export const Wrapper = styled.div`
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,4 +77,15 @@ const LandingBtn = styled(Button)`
   @media screen and (max-width: 720px) {
     width: 40vw;
   }
+`;
+
+const PrivacyPolicy = styled.a`
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #AB9AFF;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
 `;
