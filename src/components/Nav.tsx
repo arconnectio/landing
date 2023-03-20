@@ -27,10 +27,12 @@ export default function Nav() {
             Kit
           </NavLink>
         </NavPageLinks>
-        <Button>
-          Download
-          <ArrowUpRightIcon />
-        </Button>
+        <Link href="/download" passHref legacyBehavior>
+          <Button>
+            Download
+            <ArrowUpRightIcon />
+          </Button>
+        </Link>
       </NavElement>
     </Wrapper>
   );

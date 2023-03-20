@@ -1,3 +1,5 @@
+import styled, { css } from "styled-components";
+import Spacer from "~/components/Spacer";
 import Nav from "~/components/Nav";
 import Head from "next/head";
 
@@ -27,6 +29,39 @@ export default function Home() {
         <meta property="og:site_name" content="ArConnect" />
       </Head>
       <Nav />
+      <main>
+        <Hero>
+          <HeroTitle>
+            The only Arweave wallet
+          </HeroTitle>
+          <Spacer y={.8} />
+          <HeroSubtitle>
+            You’ll ever need
+          </HeroSubtitle>
+        </Hero>
+      </main>
     </>
   );
 }
+
+const Hero = styled.section`
+  padding: 6.5rem 0 0;
+`;
+
+const heroText = css`
+  font-size: 5.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+  line-height: 1.1em;
+`;
+
+const HeroTitle = styled.h1`
+  color: rgb(${props => props.theme.accent});
+  ${heroText}
+`;
+
+const HeroSubtitle = styled.h2`
+  color: rgb(${props => props.theme.secondaryText});
+  ${heroText}
+`;
