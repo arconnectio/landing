@@ -34,10 +34,14 @@ export default function Home() {
           <HeroTitle>
             The only Arweave wallet
           </HeroTitle>
-          <Spacer y={.8} />
+          <Spacer y={.75} />
           <HeroSubtitle>
             You’ll ever need
           </HeroSubtitle>
+          <Spacer y={1.9} />
+          <HeroDescription>
+            ArConnect is an Arweave-native wallet extension that provides secure wallet management other things blah blab.
+          </HeroDescription>
         </Hero>
       </main>
     </>
@@ -45,7 +49,7 @@ export default function Home() {
 }
 
 const Hero = styled.section`
-  padding: 6.5rem 0 0;
+  padding: 7rem 0 0;
 `;
 
 const heroText = css`
@@ -64,4 +68,13 @@ const HeroTitle = styled.h1`
 const HeroSubtitle = styled.h2`
   color: rgb(${props => props.theme.secondaryText});
   ${heroText}
+`;
+
+const HeroDescription = styled.p`
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(${props => props.theme.secondaryText});
+  margin: 0 auto;
+  max-width: 60%;
 `;
