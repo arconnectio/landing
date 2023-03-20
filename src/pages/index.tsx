@@ -1,3 +1,4 @@
+import Nav from "~/components/Nav";
 import Head from "next/head";
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         <meta property="og:locale" content="en_IE" />
         <meta property="og:site_name" content="ArConnect" />
       </Head>
+      <Nav />
     </>
   );
 }

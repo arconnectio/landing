@@ -1,3 +1,7 @@
+import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
+import { ThemeProvider, DefaultTheme } from "styled-components";
+import { useServerInsertedHTML } from 'next/navigation';
+import { PropsWithChildren, useState } from "react";
 import { Manrope } from "next/font/google";
 import type { AppProps } from "next/app";
 import Head from "next/head";
@@ -12,7 +16,37 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#AB9AFF" />
         <meta name="msapplication-TileColor" content="#AB9AFF" />
       </Head>
-      <Component {...pageProps} />
+      <StyledComponentsRegistry>
+        <ThemeProvider theme={theme}>
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </StyledComponentsRegistry>
     </div>
+  );
+}
+
+const theme: DefaultTheme = {
+  accent: "171, 154, 255",
+  background: "255, 255, 255",
+  primaryText: "0, 0, 0",
+  secondaryText: "73, 68, 100"
+};
+
+function StyledComponentsRegistry({ children }: PropsWithChildren<{}>) {
+  const [styledComponentsStyleSheet] = useState(() => new ServerStyleSheet());
+
+  useServerInsertedHTML(() => {
+    const styles = styledComponentsStyleSheet.getStyleElement();
+    styledComponentsStyleSheet.instance.clearTag();
+    
+    return <>{styles}</>;
+  });
+
+  if (typeof window !== 'undefined') return <>{children}</>;
+
+  return (
+    <StyleSheetManager sheet={styledComponentsStyleSheet.instance}>
+      {children as React.ReactChild}
+    </StyleSheetManager>
   );
 }
