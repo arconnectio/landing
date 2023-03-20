@@ -10,13 +10,14 @@ const Button = styled.a<{
   secondary?: boolean;
   reverse?: boolean;
   small?: boolean;
+  color?: string;
 }>`
   ${spacegrotesk.style}
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgb(${props => props.theme.accent});
+  background-color: rgb(${props => props.color || props.theme.accent});
   color: #fff;
   font-size: .9rem;
   padding: .9rem 1.2rem;
@@ -31,7 +32,7 @@ const Button = styled.a<{
 
   &:hover:not(:active):not(:disabled) {
     transform: translate3d(0px, -1.4px, 0px);
-    box-shadow: 0px 0px 2px rgba(${props => props.theme.accent}, 0.15), 0px 4px 7px rgba(${props => props.theme.accent}, 0.05), 0px 12px 40px rgba(${props => props.theme.accent}, 0.1);
+    box-shadow: 0px 0px 2px rgba(${props => props.color || props.theme.accent}, 0.15), 0px 4px 7px rgba(${props => props.color || props.theme.accent}, 0.05), 0px 12px 40px rgba(${props => props.color || props.theme.accent}, 0.1);
   }
 
   &:disabled {

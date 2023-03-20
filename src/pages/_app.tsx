@@ -1,4 +1,3 @@
-import StyledComponentsRegistry from "~/components/StyledComponentsRegistry";
 import { ThemeProvider, DefaultTheme } from "styled-components";
 import { Manrope } from "next/font/google";
 import type { AppProps } from "next/app";
@@ -14,11 +13,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#AB9AFF" />
         <meta name="msapplication-TileColor" content="#AB9AFF" />
       </Head>
-      <StyledComponentsRegistry>
-        <ThemeProvider theme={theme}>
-          <Component {...pageProps} />
-        </ThemeProvider>
-      </StyledComponentsRegistry>
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
     </div>
   );
 }
