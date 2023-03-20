@@ -1016,6 +1016,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
+"@iconicicons/react@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@iconicicons/react/-/react-1.5.1.tgz#1ddb561dc51b5b65f8e8f98fdbc019327e658662"
+  integrity sha512-/Y23Y5NBBK7h/1/R8vTdHM0zwX9Yhk8L58QRhpD1Zu8heXDOz89Lqhzb8VQ1DAdYnd0vjfcGcQaUSgZQVbnlOw==
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
