@@ -1,4 +1,5 @@
 import { ArrowUpRightIcon, MapIcon } from "@iconicicons/react";
+import SectionTitle from "./SectionTitle";
 import styled from "styled-components";
 import Button from "../Button";
 import Spacer from "../Spacer";
@@ -7,13 +8,13 @@ import Image from "next/image";
 export default function Features() {
   return (
     <Wrapper>
-      <Title>
+      <SectionTitle>
         Rest assured
         <span>
           Your funds are now protected
         </span>
-      </Title>
-      <Spacer y={2.8} />
+      </SectionTitle>
+      <Spacer y={3.8} />
       <FeaturesWrapper>
         <NoPaddingFeatures>
           <Feature color="#262626">
@@ -108,20 +109,7 @@ export default function Features() {
 }
 
 const Wrapper = styled.section`
-  padding: 5rem 10vw 4rem;
-`;
-
-const Title = styled.h2`
-  font-size: 3rem;
-  text-align: center;
-  font-weight: 750;
-  line-height: 1.15em;
-  color: rgb(${props => props.theme.accent});
-
-  span {
-    display: block;
-    color: rgb(${props => props.theme.secondaryText});
-  }
+  padding: 6rem 10vw 4.5rem;
 `;
 
 const FeaturesWrapper = styled.div`

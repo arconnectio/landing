@@ -1,5 +1,6 @@
 import Background from "~/components/landing/Background";
 import Features from "~/components/landing/Features";
+import Install from "~/components/landing/Install";
 import Hero from "~/components/landing/Hero";
 import styled from "styled-components";
 import Nav from "~/components/Nav";
@@ -49,6 +50,7 @@ export default function Home() {
       <Main>
         <Hero />
         <Features />
+        <Install />
         <Background />
       </Main>
     </>

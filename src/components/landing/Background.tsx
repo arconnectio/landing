@@ -5,6 +5,7 @@ export default function Background() {
     <Wrapper>
       <Gradient1 />
       <Gradient2 />
+      <Gradient3 />
     </Wrapper>
   );
 }
@@ -25,7 +26,7 @@ const Gradient1 = styled.div`
   height: 78vw;
   top: -14vw;
   left: -10vw;
-
+  user-select: none;
   background: rgba(${(props) => props.theme.accent}, 0.1);
   filter: blur(100px);
 `;
@@ -35,4 +36,10 @@ const Gradient2 = styled(Gradient1)`
   right: -12vw;
   left: unset;
   background: rgba(${(props) => props.theme.accent}, 0.06);
+`;
+
+const Gradient3 = styled(Gradient1)`
+  top: 300vh;
+  left: -8vw;
+  background: rgba(${(props) => props.theme.accent}, 0.1);
 `;
