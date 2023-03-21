@@ -54,7 +54,7 @@ const Wrapper = styled.header<{ scroll: 1 | 0 }>`
   right: 0;
   background-color: rgba(
     ${(props) => props.theme.background},
-    ${(props) => (props.scroll === 1 ? ".4" : "0")}
+    ${(props) => (props.scroll === 1 ? ".55" : "0")}
   );
   backdrop-filter: blur(${(props) => (props.scroll === 1 ? "20px" : "0px")});
   padding: 1.2rem 5.25rem;

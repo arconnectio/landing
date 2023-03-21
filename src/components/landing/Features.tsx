@@ -109,7 +109,7 @@ export default function Features() {
 }
 
 const Wrapper = styled.section`
-  padding: 6rem 10vw 4.5rem;
+  padding: 7rem 10vw 4.5rem;
 `;
 
 const FeaturesWrapper = styled.div`

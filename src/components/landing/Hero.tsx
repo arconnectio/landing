@@ -45,7 +45,7 @@ export default function Hero() {
 }
 
 const Wrapper = styled.section`
-  padding: 5.5rem 0 0;
+  padding: 4.5rem 0 0;
 `;
 
 const heroText = css`

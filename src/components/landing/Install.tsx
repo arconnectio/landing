@@ -79,7 +79,7 @@ export default function Install() {
 }
 
 const Wrapper = styled.section`
-  padding: 5rem 10vw 4rem;
+  padding: 5rem 10vw;
 `;
 
 const Browsers = styled.div`
