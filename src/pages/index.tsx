@@ -1,5 +1,7 @@
 import Background from "~/components/landing/Background";
+import Features from "~/components/landing/Features";
 import Hero from "~/components/landing/Hero";
+import styled from "styled-components";
 import Nav from "~/components/Nav";
 import Head from "next/head";
 
@@ -44,10 +46,15 @@ export default function Home() {
         <meta property="og:site_name" content="ArConnect" />
       </Head>
       <Nav />
-      <main>
+      <Main>
         <Hero />
+        <Features />
         <Background />
-      </main>
+      </Main>
     </>
   );
 }
+
+const Main = styled.main`
+  position: relative;
+`;

@@ -1,0 +1,154 @@
+import { ArrowUpRightIcon, MapIcon } from "@iconicicons/react";
+import styled from "styled-components";
+import Button from "../Button";
+import Spacer from "../Spacer";
+
+export default function Features() {
+  return (
+    <Wrapper>
+      <Title>
+        Rest assured
+        <span>
+          Your funds are now protected
+        </span>
+      </Title>
+      <Spacer y={2.8} />
+      <FeaturesWrapper>
+        <div>
+          <Feature color="#262626">
+            <FeatureTitle color="#AB9AFF">
+              A secure place
+            </FeatureTitle>
+            <FeatureTitle color="#fff">
+              For your assets
+            </FeatureTitle>
+            <Spacer y={2.5} />
+            <FeatureParagraph color="#dfdfdf">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis non, modi excepturi dolorem rem voluptatum doloremque explicabo temporibus at cumque, repellat ullam ex tempore aliquid nostrum quaerat libero quos?
+            </FeatureParagraph>
+          </Feature>
+          <Spacer y={3} />
+          <Feature color="#AB9AFF">
+            <FeatureTitle color="#000">
+              Track balances
+            </FeatureTitle>
+            <FeatureTitle color="#fff">
+              See spendings
+            </FeatureTitle>
+            <Spacer y={2.5} />
+            <FeatureParagraph color="#fff">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis non, modi excepturi dolorem rem voluptatum doloremque explicabo temporibus at cumque, repellat ullam ex tempore aliquid nostrum quaerat libero quos?
+            </FeatureParagraph>
+          </Feature>
+        </div>
+        <div>
+          <Spacer y={9} />
+          <Feature color="#fff">
+            <FeatureTitle color="#AB9AFF">
+              Take control
+            </FeatureTitle>
+            <FeatureTitle>
+              Own your wallet
+            </FeatureTitle>
+            <Spacer y={2.5} />
+            <FeatureParagraph>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis non, modi excepturi dolorem rem voluptatum doloremque explicabo temporibus at cumque, repellat ullam ex tempore aliquid nostrum quaerat libero quos?
+            </FeatureParagraph>
+            <Spacer y={2} />
+            <Button>
+              Learn more
+              <ArrowUpRightIcon />
+            </Button>
+          </Feature>
+          <Spacer y={3} />
+          <Feature color="#000">
+            <FeatureTitle color="#AB9AFF">
+              We'll be there
+            </FeatureTitle>
+            <FeatureTitle color="#fff">
+              Along the way
+            </FeatureTitle>
+            <Spacer y={2.5} />
+            <FeatureParagraph color="#fff">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis non, modi excepturi dolorem rem voluptatum doloremque explicabo temporibus at cumque, repellat ullam ex tempore aliquid nostrum quaerat libero quos?
+            </FeatureParagraph>
+            <Spacer y={2} />
+            <Buttons>
+              <Button>
+                Get help
+                <ArrowUpRightIcon />
+              </Button>
+              <Button>
+                Docs
+                <MapIcon />
+              </Button>
+            </Buttons>
+          </Feature>
+        </div>
+      </FeaturesWrapper>
+    </Wrapper>
+  );
+}
+
+const Wrapper = styled.section`
+  padding: 5rem 10vw 3rem;
+`;
+
+const Title = styled.h2`
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 750;
+  line-height: 1.15em;
+  color: rgb(${props => props.theme.accent});
+
+  span {
+    display: block;
+    color: rgb(${props => props.theme.secondaryText});
+  }
+`;
+
+const FeaturesWrapper = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.4rem;
+`;
+
+const Feature = styled.div<{ color: string; }>`
+  padding: 3rem;
+  border-radius: 30px;
+  background-color: ${props => props.color};
+`;
+
+const FeatureTitle = styled.h3<{ color: string; }>`
+  font-size: 3.8rem;
+  font-weight: 650;
+  line-height: 1.15em;
+  margin: 0;
+  color: ${props => props.color || `rgb(${props.theme.secondaryText})`};
+`;
+
+const FeatureParagraph = styled.p<{ color: string; }>`
+  font-size: 1.05rem;
+  font-weight: 550;
+  text-align: justify;
+  margin: 0;
+  color: ${props => props.color || `rgb(${props.theme.secondaryText})`};
+  line-height: 1.55em;
+`;
+
+const Buttons = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  ${Button} {
+    width: 135px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  ${Button}:nth-child(2) {
+    background-color: #fff;
+    color: #000;
+  }
+`;

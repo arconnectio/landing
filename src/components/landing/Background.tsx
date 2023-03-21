@@ -10,11 +10,11 @@ export default function Background() {
 
 const Wrapper = styled.div`
   position: absolute;
-  top: 0;
+  top: -8rem;
   left: 0;
   right: 0;
-  height: 100%;
-  overflow: hidden;
+  bottom: 0;
+  overflow-x: hidden;
   z-index: -1;
 `;
 
