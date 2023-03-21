@@ -1,4 +1,4 @@
-import { ThemeProvider, DefaultTheme } from "styled-components";
+import { ThemeProvider, DefaultTheme, createGlobalStyle } from "styled-components";
 import { Manrope } from "next/font/google";
 import type { AppProps } from "next/app";
 import Head from "next/head";
@@ -14,7 +14,10 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="msapplication-TileColor" content="#AB9AFF" />
       </Head>
       <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
+        <>
+          <GlobalStyles />
+          <Component {...pageProps} />
+        </>
       </ThemeProvider>
     </div>
   );
@@ -26,3 +29,13 @@ const theme: DefaultTheme = {
   primaryText: "0, 0, 0",
   secondaryText: "73, 68, 100"
 };
+
+const GlobalStyles = createGlobalStyle`
+  body {
+    margin: 0;
+  }
+
+  ::selection {
+    background-color: rgba(${props => props.theme.accent}, .35);
+  }
+`;

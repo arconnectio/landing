@@ -28,6 +28,7 @@ const Button = styled.a<{
   border: none;
   text-decoration: none;
   width: max-content;
+  user-select: none;
   transition: all 0.18s ease-in-out;
 
   &:hover:not(:active):not(:disabled) {
