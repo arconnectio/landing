@@ -1,21 +1,26 @@
-import { ArrowUpRightIcon, MapIcon } from "@iconicicons/react";
+import {
+  ArrowUpRightIcon,
+  DownloadIcon,
+  GridIcon,
+  MapIcon,
+  TagIcon,
+  CodeIcon
+} from "@iconicicons/react";
 import styled, { css } from "styled-components";
+import StatPanel from "./StatPanel";
 import Button from "../Button";
 import Spacer from "../Spacer";
 
 export default function Hero() {
   return (
     <Wrapper>
-      <HeroTitle>
-        The only Arweave wallet
-      </HeroTitle>
-      <Spacer y={.75} />
-      <HeroSubtitle>
-        You’ll ever need
-      </HeroSubtitle>
+      <HeroTitle>The only Arweave wallet</HeroTitle>
+      <Spacer y={0.75} />
+      <HeroSubtitle>You’ll ever need</HeroSubtitle>
       <Spacer y={1.9} />
       <HeroDescription>
-        ArConnect is an Arweave-native wallet extension that provides secure wallet management other things blah blab.
+        ArConnect is an Arweave-native wallet extension that provides secure
+        wallet and asset management in your favorite browser.
       </HeroDescription>
       <Spacer y={2.5} />
       <Buttons>
@@ -28,6 +33,13 @@ export default function Hero() {
           <MapIcon />
         </Button>
       </Buttons>
+      <Spacer y={4.5} />
+      <Stats>
+        <StatPanel icon={<DownloadIcon />} name="Installs" value={15600} />
+        <StatPanel icon={<TagIcon />} name="Releases" value={34} />
+        <StatPanel icon={<GridIcon />} name="Apps" value={54} />
+        <StatPanel icon={<CodeIcon />} name="API functions" value={15600} />
+      </Stats>
     </Wrapper>
   );
 }
@@ -45,12 +57,12 @@ const heroText = css`
 `;
 
 const HeroTitle = styled.h1`
-  color: rgb(${props => props.theme.accent});
+  color: rgb(${(props) => props.theme.accent});
   ${heroText}
 `;
 
 const HeroSubtitle = styled.h2`
-  color: rgb(${props => props.theme.secondaryText});
+  color: rgb(${(props) => props.theme.secondaryText});
   ${heroText}
 `;
 
@@ -58,7 +70,7 @@ const HeroDescription = styled.p`
   font-size: 1.3rem;
   font-weight: 600;
   text-align: center;
-  color: rgb(${props => props.theme.secondaryText});
+  color: rgb(${(props) => props.theme.secondaryText});
   margin: 0 auto;
   max-width: 60%;
 `;
@@ -75,4 +87,11 @@ const Buttons = styled.div`
     padding-left: 0;
     padding-right: 0;
   }
+`;
+
+const Stats = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem;
 `;

@@ -26,4 +26,3 @@ const theme: DefaultTheme = {
   primaryText: "0, 0, 0",
   secondaryText: "73, 68, 100"
 };
-
