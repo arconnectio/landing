@@ -10,12 +10,7 @@ export default function Nav() {
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
-    const listener = () => {
-      const newVal = window.scrollY > 40;
-
-      if (scroll === newVal) return;
-      setScroll(newVal);
-    };
+    const listener = () => setScroll(window.scrollY > 40);
 
     window.addEventListener("scroll", listener);
 
@@ -59,11 +54,12 @@ const Wrapper = styled.header<{ scroll: boolean }>`
   right: 0;
   background-color: rgba(
     ${(props) => props.theme.background},
-    ${(props) => (props.scroll ? "0" : ".4")}
+    ${(props) => (props.scroll ? ".4" : "0")}
   );
   backdrop-filter: blur(${(props) => (props.scroll ? "20px" : "0px")});
   padding: 1.2rem 5.25rem;
   z-index: 100;
+  transition: all .23s ease-in-out;
 `;
 
 const LogoSection = styled.div`
