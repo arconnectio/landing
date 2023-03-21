@@ -2,6 +2,7 @@ import { ArrowUpRightIcon, MapIcon } from "@iconicicons/react";
 import styled from "styled-components";
 import Button from "../Button";
 import Spacer from "../Spacer";
+import Image from "next/image";
 
 export default function Features() {
   return (
@@ -14,7 +15,7 @@ export default function Features() {
       </Title>
       <Spacer y={2.8} />
       <FeaturesWrapper>
-        <div>
+        <NoPaddingFeatures>
           <Feature color="#262626">
             <FeatureTitle color="#AB9AFF">
               A secure place
@@ -26,6 +27,14 @@ export default function Features() {
             <FeatureParagraph color="#dfdfdf">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis non, modi excepturi dolorem rem voluptatum doloremque explicabo temporibus at cumque, repellat ullam ex tempore aliquid nostrum quaerat libero quos?
             </FeatureParagraph>
+            <Spacer y={2.5} />
+            <Image
+              src="/collectibles.svg"
+              width={440}
+              height={210}
+              alt="An image of three collectible cards that can be found in the ArConnect extension"
+              draggable={false}
+            />
           </Feature>
           <Spacer y={3} />
           <Feature color="#AB9AFF">
@@ -39,10 +48,18 @@ export default function Features() {
             <FeatureParagraph color="#fff">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis non, modi excepturi dolorem rem voluptatum doloremque explicabo temporibus at cumque, repellat ullam ex tempore aliquid nostrum quaerat libero quos?
             </FeatureParagraph>
+            <Spacer y={2.5} />
+            <Image
+              src="/activity.svg"
+              width={470}
+              height={240}
+              alt="An image of a transaction history for a wallet as shown in the ArConnect extension"
+              draggable={false}
+            />
           </Feature>
-        </div>
+        </NoPaddingFeatures>
         <div>
-          <Spacer y={9} />
+          <Spacer y={12} />
           <Feature color="#fff">
             <FeatureTitle color="#AB9AFF">
               Take control
@@ -63,7 +80,7 @@ export default function Features() {
           <Spacer y={3} />
           <Feature color="#000">
             <FeatureTitle color="#AB9AFF">
-              We'll be there
+              We’ll be there
             </FeatureTitle>
             <FeatureTitle color="#fff">
               Along the way
@@ -91,7 +108,7 @@ export default function Features() {
 }
 
 const Wrapper = styled.section`
-  padding: 5rem 10vw 3rem;
+  padding: 5rem 10vw 4rem;
 `;
 
 const Title = styled.h2`
@@ -117,6 +134,12 @@ const Feature = styled.div<{ color: string; }>`
   padding: 3rem;
   border-radius: 30px;
   background-color: ${props => props.color};
+
+  img {
+    display: block;
+    margin: 0 auto;
+    user-select: none;
+  }
 `;
 
 const FeatureTitle = styled.h3<{ color: string; }>`
@@ -139,10 +162,10 @@ const FeatureParagraph = styled.p<{ color: string; }>`
 const Buttons = styled.div`
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
 
   ${Button} {
-    width: 135px;
+    width: 140px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -150,5 +173,11 @@ const Buttons = styled.div`
   ${Button}:nth-child(2) {
     background-color: #fff;
     color: #000;
+  }
+`;
+
+const NoPaddingFeatures = styled.div`
+  ${Feature} {
+    padding-bottom: 0;
   }
 `;

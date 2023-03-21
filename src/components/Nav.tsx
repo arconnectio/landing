@@ -18,7 +18,7 @@ export default function Nav() {
   }, []);
 
   return (
-    <Wrapper scroll={scroll}>
+    <Wrapper scroll={scroll ? 1 : 0}>
       <LogoSection>
         <Link href="/">
           <Logo />
@@ -44,7 +44,7 @@ export default function Nav() {
   );
 }
 
-const Wrapper = styled.header<{ scroll: boolean }>`
+const Wrapper = styled.header<{ scroll: 1 | 0 }>`
   display: grid;
   align-items: center;
   grid-template-columns: calc(2.5rem + 3rem + 3rem + 0.1rem) auto;
@@ -54,9 +54,9 @@ const Wrapper = styled.header<{ scroll: boolean }>`
   right: 0;
   background-color: rgba(
     ${(props) => props.theme.background},
-    ${(props) => (props.scroll ? ".4" : "0")}
+    ${(props) => (props.scroll === 1 ? ".4" : "0")}
   );
-  backdrop-filter: blur(${(props) => (props.scroll ? "20px" : "0px")});
+  backdrop-filter: blur(${(props) => (props.scroll === 1 ? "20px" : "0px")});
   padding: 1.2rem 5.25rem;
   z-index: 100;
   transition: all .23s ease-in-out;
