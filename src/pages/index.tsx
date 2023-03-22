@@ -53,8 +53,8 @@ export default function Home() {
         <Hero />
         <Features />
         <Install />
-        <Background />
         <Mission />
+        <Background />
       </Main>
       <Footer />
     </>

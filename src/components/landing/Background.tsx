@@ -40,6 +40,7 @@ const Gradient2 = styled(Gradient1)`
 
 const Gradient3 = styled(Gradient1)`
   top: 300vh;
+  height: 30vw;
   left: -8vw;
   background: rgba(${(props) => props.theme.accent}, 0.1);
 `;
