@@ -99,7 +99,7 @@ export default function Mission() {
 }
 
 const Wrapper = styled.section`
-  padding: 4.5rem 10vw;
+  padding: 4.5rem 10vw 7rem;
 `;
 
 const Card = styled.div`

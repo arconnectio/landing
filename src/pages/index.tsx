@@ -3,6 +3,7 @@ import Features from "~/components/landing/Features";
 import Install from "~/components/landing/Install";
 import Mission from "~/components/landing/Mission";
 import Hero from "~/components/landing/Hero";
+import Footer from "~/components/Footer";
 import styled from "styled-components";
 import Nav from "~/components/Nav";
 import Head from "next/head";
@@ -55,6 +56,7 @@ export default function Home() {
         <Background />
         <Mission />
       </Main>
+      <Footer />
     </>
   );
 }

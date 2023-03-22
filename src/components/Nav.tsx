@@ -1,6 +1,7 @@
 import { ArrowUpRightIcon } from "@iconicicons/react";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
+import Image from "next/image";
 import Button from "./Button";
 import Spacer from "./Spacer";
 import Link from "next/link";
@@ -21,7 +22,13 @@ export default function Nav() {
     <Wrapper scroll={scroll ? 1 : 0}>
       <LogoSection>
         <Link href="/">
-          <Logo />
+          <Image
+            src="/logo.png"
+            alt="ArConnect hedgehog logo"
+            draggable={false}
+            width={512}
+            height={512}
+          />
         </Link>
         <Spacer x={3} />
         <Separator />
@@ -65,19 +72,16 @@ const Wrapper = styled.header<{ scroll: 1 | 0 }>`
 const LogoSection = styled.div`
   display: flex;
   align-items: center;
-`;
 
-const Logo = styled.img.attrs({
-  draggable: false,
-  alt: "ArConnect hedgehog logo",
-  src: "/logo.png"
-})`
-  height: 2.5rem;
-  user-select: none;
-  transition: all 0.23s ease-in-out;
+  img {
+    height: 2.5rem;
+    width: 2.5rem;
+    user-select: none;
+    transition: all 0.23s ease-in-out;
 
-  &:hover {
-    opacity: 0.85;
+    &:hover {
+      opacity: 0.85;
+    }
   }
 `;
 
