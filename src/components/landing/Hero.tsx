@@ -10,6 +10,7 @@ import styled, { css } from "styled-components";
 import StatPanel from "./StatPanel";
 import Button from "../Button";
 import Spacer from "../Spacer";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -24,10 +25,12 @@ export default function Hero() {
       </HeroDescription>
       <Spacer y={2.5} />
       <Buttons>
-        <Button>
-          Download
-          <ArrowUpRightIcon />
-        </Button>
+        <Link href="/download" passHref legacyBehavior>
+          <Button>
+            Download
+            <ArrowUpRightIcon />
+          </Button>
+        </Link>
         <Button color="0, 0, 0">
           Docs
           <MapIcon />

@@ -42,9 +42,9 @@ export default function Footer() {
             <Link href="/">
               Home
             </Link>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              Contact
-            </a>
+            <Link href="/download">
+              Download
+            </Link>
             <a href="" target="_blank" rel="noopener noreferrer">
               Blog
             </a>
