@@ -1160,6 +1160,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-youtube-embed@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@types/react-youtube-embed/-/react-youtube-embed-1.0.2.tgz#3c11f7a2071b9f66377be38b2ff73552b66e79b0"
+  integrity sha512-SSV102nLvF/3Sp25VO78U5Bq17IAXKVMUkZJfCP4YPcjdSBn6OLZj55cAhT08ztW8yqRHV2h4h0Yku5C7/nGFg==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@18.0.28":
   version "18.0.28"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.28.tgz#accaeb8b86f4908057ad629a26635fe641480065"
@@ -1212,6 +1219,29 @@ babel-plugin-polyfill-regenerator@^0.4.1:
   integrity sha512-NtQGmyQDXjQqQ+IzRkBVwEOz9lQ4zxAQZgoAYEtU9dJjnl1Oc98qnN7jcp+bE7O7aYzVpavXE3/VKXNzUbh7aw==
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.3"
+
+babel-plugin-syntax-jsx@6.18.0:
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
+  integrity sha512-qrPaCSo9c8RHNRHIotaufGbuOBN8rtdC4QrrFFc43vyWCCz7Kl7GL1PGaXtMGQZUXrkCjNEgxDfmAuAabr/rlw==
+
+babel-runtime@6.26.0, babel-runtime@^6.26.0:
+  version "6.26.0"
+  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  integrity sha512-ITKNuq2wKlW1fJg9sSW52eepoYgZBggvOAHC0u/CYu/qxQ9EVzThCgR69BnSXLHjy2f7SY5zaQ4yt7H9ZVxY2g==
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
+
+babel-types@6.26.0:
+  version "6.26.0"
+  resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-6.26.0.tgz#a3b073f94ab49eb6fa55cd65227a334380632497"
+  integrity sha512-zhe3V/26rCWsEZK8kZN+HaQj5yQ1CilTObixFzKW1UWjqG7618Twz6YEsCnjfg5gBcJh02DrpCkS9h98ZqDY+g==
+  dependencies:
+    babel-runtime "^6.26.0"
+    esutils "^2.0.2"
+    lodash "^4.17.4"
+    to-fast-properties "^1.0.3"
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -1309,6 +1339,11 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
+convert-source-map@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.5.1.tgz#b8278097b9bc229365de5c62cf5fcaed8b5599e5"
+  integrity sha512-LNHI/Ll1UqBTGhrR6vMhtVZmX4kjYdCJUjIM6Ydp7/oJ5w1C0MKrzELuUAmMlU0eKwBGx6PaO0TRZ/KDXAFTBg==
+
 convert-source-map@^1.1.0, convert-source-map@^1.7.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.9.0.tgz#7faae62353fb4213366d0ca98358d22e8368b05f"
@@ -1320,6 +1355,11 @@ core-js-compat@^3.25.1:
   integrity sha512-QmchCua884D8wWskMX8tW5ydINzd8oSJVx38lx/pVkFGqztxt73GYre3pm/hyYq8bPf+MW5In4I/uRShFDsbrA==
   dependencies:
     browserslist "^4.21.5"
+
+core-js@^2.4.0:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+  integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
 css-color-keywords@^1.0.0:
   version "1.0.0"
@@ -1504,6 +1544,11 @@ lodash.debounce@^4.0.8:
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
 
+lodash@^4.17.4:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
 loose-envify@^1.1.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
@@ -1637,6 +1682,13 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-youtube-embed@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-youtube-embed/-/react-youtube-embed-1.0.3.tgz#aae0d6e3bd4b3fe3cf05561b730ce1fd99a4aab1"
+  integrity sha512-QvD9F+im+NvNT4M6OEDMAaWsoPntONHeEP6J079b/wX/VgfYVLKOCbBEEEjpYtv9PuLrjkDsghFWRxdkZRWsig==
+  dependencies:
+    styled-jsx "^2.2.4"
+
 react@18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
@@ -1662,6 +1714,11 @@ regenerate@^1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
+
+regenerator-runtime@^0.11.0:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+  integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
 regenerator-runtime@^0.13.11:
   version "0.13.11"
@@ -1735,6 +1792,16 @@ source-map-js@^1.0.2:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
+source-map@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+  integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+
+string-hash@1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/string-hash/-/string-hash-1.1.3.tgz#e8aafc0ac1855b4666929ed7dd1275df5d6c811b"
+  integrity sha512-kJUvRUFK49aub+a7T1nNE66EJbZBMnBgoC1UbCZ5n6bsZKBRga4KgBRTMn/pFkeCZSYtNeSyMxPDM0AXWELk2A==
+
 styled-components@6.0.0-beta.2:
   version "6.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-6.0.0-beta.2.tgz#83e5b83bb1518a928a2b1238d2fafa4eb6805a2c"
@@ -1762,6 +1829,30 @@ styled-jsx@5.1.1:
   dependencies:
     client-only "0.0.1"
 
+styled-jsx@^2.2.4:
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/styled-jsx/-/styled-jsx-2.2.7.tgz#0ada82e2e4b8b59e38508a8e57258fd1f70e204a"
+  integrity sha512-L67wypf8ULpAFxbVefl7ccE/rutz9w/Q1eJLg8Szm4KyN+bmmmaHYfSyfogfDn2l/CmzOlf8/bHbVSI6EeWYkQ==
+  dependencies:
+    babel-plugin-syntax-jsx "6.18.0"
+    babel-runtime "6.26.0"
+    babel-types "6.26.0"
+    convert-source-map "1.5.1"
+    source-map "0.6.1"
+    string-hash "1.1.3"
+    stylis "3.5.1"
+    stylis-rule-sheet "0.0.10"
+
+stylis-rule-sheet@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/stylis-rule-sheet/-/stylis-rule-sheet-0.0.10.tgz#44e64a2b076643f4b52e5ff71efc04d8c3c4a430"
+  integrity sha512-nTbZoaqoBnmK+ptANthb10ZRZOGC+EmTLLUxeYIuHNkEKcmKgXX1XWKkUBT2Ac4es3NybooPe0SmvKdhKJZAuw==
+
+stylis@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.5.1.tgz#fd341d59f57f9aeb412bc14c9d8a8670b438e03b"
+  integrity sha512-yM4PyeHuwhIOUHNJxi1/Mbq8kVLv4AkyE7IYLP/LK0lIFcr3tRa2H1iZlBYKIxOlf+/jruBTe8DdKSyQX9w4OA==
+
 stylis@^4.1.1:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/stylis/-/stylis-4.1.3.tgz#fd2fbe79f5fed17c55269e16ed8da14c84d069f7"
@@ -1778,6 +1869,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+to-fast-properties@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-1.0.3.tgz#b83571fa4d8c25b82e231b06e3a3055de4ca1a47"
+  integrity sha512-lxrWP8ejsq+7E3nNjwYmUBMAgjMTZoTI+sdBOpvNyijeDLa29LUn9QaoXAHv4+Z578hbmHHJKZknzxVtvo77og==
 
 to-fast-properties@^2.0.0:
   version "2.0.0"

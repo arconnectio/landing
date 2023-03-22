@@ -6,16 +6,20 @@ import Image from "next/image";
 const chromeLink = "https://chrome.google.com/webstore/detail/arconnect/einnioafmpimabjcddiinlhmijaionap";
 const firefoxLink = "https://addons.mozilla.org/en-US/firefox/addon/arconnect/";
 
-export default function Install() {
+export default function Install({ title = true }) {
   return (
     <Wrapper>
-      <SectionTitle>
-        Install now
-        <span>
-          Available for major browsers
-        </span>
-      </SectionTitle>
-      <Spacer y={3.4} />
+      {title && (
+        <>
+          <SectionTitle>
+            Install now
+            <span>
+              Available for major browsers
+            </span>
+          </SectionTitle>
+          <Spacer y={3.4} />
+        </>
+      )}
       <Browsers>
         <BrowserElement>
           <BrowserLogo href={chromeLink}>
