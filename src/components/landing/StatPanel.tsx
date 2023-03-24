@@ -22,6 +22,11 @@ const Wrapper = styled.div`
   background-color: rgb(${(props) => props.theme.background});
   padding: 30px 26px;
   border-radius: 25px;
+
+  @media screen and (max-width: 720px) {
+    width: auto;
+    padding: 30px 20px;
+  }
 `;
 
 const IconWrapper = styled.div`

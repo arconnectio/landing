@@ -49,6 +49,10 @@ export default function Hero() {
 
 const Wrapper = styled.section`
   padding: 4.5rem 0 0;
+
+  @media screen and (max-width: 720px) {
+    padding-top: 3rem;
+  }
 `;
 
 const heroText = css`
@@ -57,6 +61,10 @@ const heroText = css`
   text-align: center;
   margin: 0;
   line-height: 1.1em;
+
+  @media screen and (max-width: 720px) {
+    font-size: 3.25rem;
+  }
 `;
 
 const HeroTitle = styled.h1`
@@ -76,6 +84,11 @@ const HeroDescription = styled.p`
   color: rgb(${(props) => props.theme.secondaryText});
   margin: 0 auto;
   max-width: 60%;
+
+  @media screen and (max-width: 720px) {
+    font-size: 1rem;
+    max-width: 92%;
+  }
 `;
 
 const Buttons = styled.div`
@@ -97,4 +110,12 @@ const Stats = styled.div`
   align-items: center;
   justify-content: center;
   gap: 1.75rem;
+
+  @media screen and (max-width: 720px) {
+    display: grid;
+    justify-content: space-between;
+    padding: 0 5vw;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
 `;
