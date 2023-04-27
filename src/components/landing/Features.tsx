@@ -124,7 +124,7 @@ const Feature = styled.div<{ color: string }>`
   }
 `;
 
-const FeatureTitle = styled.h3<{ color: string }>`
+const FeatureTitle = styled.h3<{ color?: string }>`
   font-size: 3.8rem;
   font-weight: 650;
   line-height: 1.15em;
@@ -132,7 +132,7 @@ const FeatureTitle = styled.h3<{ color: string }>`
   color: ${(props) => props.color || `rgb(${props.theme.secondaryText})`};
 `;
 
-const FeatureParagraph = styled.p<{ color: string }>`
+const FeatureParagraph = styled.p<{ color?: string }>`
   font-size: 1.05rem;
   font-weight: 550;
   text-align: justify;
