@@ -66,7 +66,7 @@ const Wrapper = styled.header<{ scroll: 1 | 0 }>`
   backdrop-filter: blur(${(props) => (props.scroll === 1 ? "20px" : "0px")});
   padding: 1.2rem 5.25rem;
   z-index: 100;
-  transition: all .23s ease-in-out;
+  transition: all 0.23s ease-in-out;
 `;
 
 const LogoSection = styled.div`

@@ -14,12 +14,8 @@ export default function Home() {
       <Nav />
       <Main>
         <TitleSection>
-          <Title>
-            Download ArConnect
-          </Title>
-          <Subtitle>
-            Select your preferred browser
-          </Subtitle>
+          <Title>Download ArConnect</Title>
+          <Subtitle>Select your preferred browser</Subtitle>
         </TitleSection>
         <Install title={false} />
         <TutorialSection>
@@ -45,7 +41,7 @@ const TitleSection = styled.section`
 const Title = styled.h1`
   font-size: 3.55rem;
   font-weight: 750;
-  color: rgb(${props => props.theme.accent});
+  color: rgb(${(props) => props.theme.accent});
   text-align: center;
   margin: 0;
   line-height: 1.4em;
@@ -54,7 +50,7 @@ const Title = styled.h1`
 const Subtitle = styled.h2`
   font-size: 2.2rem;
   font-weight: 700;
-  color: rgb(${props => props.theme.secondaryText});
+  color: rgb(${(props) => props.theme.secondaryText});
   text-align: center;
   margin: 0;
   line-height: 1.1em;

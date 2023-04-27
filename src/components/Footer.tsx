@@ -18,9 +18,7 @@ export default function Footer() {
               width={512}
               height={512}
             />
-            <LogoText>
-              ArConnect
-            </LogoText>
+            <LogoText>ArConnect</LogoText>
           </LogoWrapper>
           <Socials>
             <Social>
@@ -36,40 +34,24 @@ export default function Footer() {
         </LeftSection>
         <Links>
           <LinkColumn>
-            <ColumnTitle>
-              About
-            </ColumnTitle>
-            <Link href="/">
-              Home
-            </Link>
-            <Link href="/download">
-              Download
-            </Link>
+            <ColumnTitle>About</ColumnTitle>
+            <Link href="/">Home</Link>
+            <Link href="/download">Download</Link>
             <a href="" target="_blank" rel="noopener noreferrer">
               Blog
             </a>
-            <Link href="/branding">
-              Branding
-            </Link>
+            <Link href="/branding">Branding</Link>
           </LinkColumn>
           <LinkColumn>
-            <ColumnTitle>
-              Help
-            </ColumnTitle>
+            <ColumnTitle>Help</ColumnTitle>
             <a href="" target="_blank" rel="noopener noreferrer">
               Chat
             </a>
-            <Link href="/faq">
-              FAQ
-            </Link>
+            <Link href="/faq">FAQ</Link>
           </LinkColumn>
           <LinkColumn>
-            <ColumnTitle>
-              Developers
-            </ColumnTitle>
-            <Link href="/">
-              Kit
-            </Link>
+            <ColumnTitle>Developers</ColumnTitle>
+            <Link href="/">Kit</Link>
             <a href="" target="_blank" rel="noopener noreferrer">
               Documentation
             </a>
@@ -112,19 +94,19 @@ const Social = styled.a.attrs({
   position: relative;
   width: 2.45rem;
   height: 2.45rem;
-  background-color: rgba(${props => props.theme.secondaryText}, .15);
+  background-color: rgba(${(props) => props.theme.secondaryText}, 0.15);
   border-radius: 100%;
   cursor: pointer;
-  transition: all .23s ease-in-out;
+  transition: all 0.23s ease-in-out;
 
   &:hover {
-    opacity: .8;
+    opacity: 0.8;
   }
 
   svg {
     position: absolute;
     font-size: 1rem;
-    color: rgb(${props => props.theme.secondaryText});
+    color: rgb(${(props) => props.theme.secondaryText});
     width: 1em;
     height: 1em;
     top: 50%;
@@ -137,13 +119,13 @@ const Links = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 3.5rem;
-  padding-top: .6rem;
+  padding-top: 0.6rem;
 `;
 
 const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
-  gap: .9rem;
+  gap: 0.9rem;
 
   img {
     height: 2.4rem;
@@ -155,7 +137,7 @@ const LogoWrapper = styled.div`
 const LogoText = styled.h2`
   font-size: 1.7rem;
   font-weight: 600;
-  color: rgb(${props => props.theme.accent});
+  color: rgb(${(props) => props.theme.accent});
   line-height: 1.1em;
   margin: 0;
 `;
@@ -168,13 +150,13 @@ const LinkColumn = styled.div`
   a {
     font-size: 1.05rem;
     font-weight: 550;
-    color: rgba(${props => props.theme.secondaryText}, .8);
+    color: rgba(${(props) => props.theme.secondaryText}, 0.8);
     cursor: pointer;
     text-decoration: none;
-    transition: all .23s ease-in-out;
+    transition: all 0.23s ease-in-out;
 
     &:hover {
-      opacity: .75;
+      opacity: 0.75;
     }
   }
 `;
@@ -188,9 +170,9 @@ const ColumnTitle = styled.h3`
 `;
 
 const CopyrightSection = styled.div`
-  border-top: 1px solid rgba(${props => props.theme.secondaryText}, .1);
+  border-top: 1px solid rgba(${(props) => props.theme.secondaryText}, 0.1);
   padding: 2rem 0;
-  font-size: .97rem;
+  font-size: 0.97rem;
   font-weight: 500;
-  color: rgba(${props => props.theme.secondaryText}, .4);
+  color: rgba(${(props) => props.theme.secondaryText}, 0.4);
 `;

@@ -1,4 +1,8 @@
-import { ThemeProvider, DefaultTheme, createGlobalStyle } from "styled-components";
+import {
+  ThemeProvider,
+  DefaultTheme,
+  createGlobalStyle
+} from "styled-components";
 import { Manrope } from "next/font/google";
 import type { AppProps } from "next/app";
 import Head from "next/head";
@@ -36,6 +40,6 @@ const GlobalStyles = createGlobalStyle`
   }
 
   ::selection {
-    background-color: rgba(${props => props.theme.accent}, .35);
+    background-color: rgba(${(props) => props.theme.accent}, .35);
   }
 `;

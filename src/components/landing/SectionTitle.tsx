@@ -5,12 +5,12 @@ const SectionTitle = styled.h2`
   text-align: center;
   font-weight: 750;
   line-height: 1.15em;
-  color: rgb(${props => props.theme.accent});
+  color: rgb(${(props) => props.theme.accent});
   margin: 0;
 
   span {
     display: block;
-    color: rgb(${props => props.theme.secondaryText});
+    color: rgb(${(props) => props.theme.secondaryText});
   }
 `;
 

@@ -3,7 +3,8 @@ import styled from "styled-components";
 import Spacer from "../Spacer";
 import Image from "next/image";
 
-const chromeLink = "https://chrome.google.com/webstore/detail/arconnect/einnioafmpimabjcddiinlhmijaionap";
+const chromeLink =
+  "https://chrome.google.com/webstore/detail/arconnect/einnioafmpimabjcddiinlhmijaionap";
 const firefoxLink = "https://addons.mozilla.org/en-US/firefox/addon/arconnect/";
 
 export default function Install({ title = true }) {
@@ -13,9 +14,7 @@ export default function Install({ title = true }) {
         <>
           <SectionTitle>
             Install now
-            <span>
-              Available for major browsers
-            </span>
+            <span>Available for major browsers</span>
           </SectionTitle>
           <Spacer y={3.4} />
         </>
@@ -31,9 +30,7 @@ export default function Install({ title = true }) {
               draggable={false}
             />
           </BrowserLogo>
-          <BrowserName href={chromeLink}>
-            Chrome
-          </BrowserName>
+          <BrowserName href={chromeLink}>Chrome</BrowserName>
         </BrowserElement>
         <BrowserElement>
           <BrowserLogo href={firefoxLink}>
@@ -45,9 +42,7 @@ export default function Install({ title = true }) {
               draggable={false}
             />
           </BrowserLogo>
-          <BrowserName href={firefoxLink}>
-            Firefox
-          </BrowserName>
+          <BrowserName href={firefoxLink}>Firefox</BrowserName>
         </BrowserElement>
         <BrowserElement>
           <BrowserLogo href={chromeLink}>
@@ -59,9 +54,7 @@ export default function Install({ title = true }) {
               draggable={false}
             />
           </BrowserLogo>
-          <BrowserName href={chromeLink}>
-            Edge
-          </BrowserName>
+          <BrowserName href={chromeLink}>Edge</BrowserName>
         </BrowserElement>
         <BrowserElement>
           <BrowserLogo href={chromeLink}>
@@ -73,9 +66,7 @@ export default function Install({ title = true }) {
               draggable={false}
             />
           </BrowserLogo>
-          <BrowserName href={chromeLink}>
-            Brave
-          </BrowserName>
+          <BrowserName href={chromeLink}>Brave</BrowserName>
         </BrowserElement>
       </Browsers>
     </Wrapper>
@@ -96,14 +87,14 @@ const Browsers = styled.div`
 const BrowserElement = styled.div`
   display: grid;
   gap: 1.25rem;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
-    transform: scale(.96);
+    transform: scale(0.96);
   }
 
   &:active {
-    transform: scale(.98);
+    transform: scale(0.98);
   }
 `;
 
@@ -130,10 +121,10 @@ const BrowserName = styled.a.attrs({
   width: 70%;
   text-align: center;
   background-color: #fff;
-  font-size: .95rem;
-  color: rgb(${props => props.theme.secondaryText});
+  font-size: 0.95rem;
+  color: rgb(${(props) => props.theme.secondaryText});
   font-weight: 650;
-  padding: .375rem .6rem;
+  padding: 0.375rem 0.6rem;
   line-height: 1.1em;
   border-radius: 1rem;
   cursor: pointer;

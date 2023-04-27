@@ -10,23 +10,20 @@ export default function Features() {
     <Wrapper>
       <SectionTitle>
         Rest assured
-        <span>
-          Your funds are now protected
-        </span>
+        <span>Your funds are now protected</span>
       </SectionTitle>
       <Spacer y={3.8} />
       <FeaturesWrapper>
         <NoPaddingFeatures>
           <Feature color="#262626">
-            <FeatureTitle color="#AB9AFF">
-              A secure place
-            </FeatureTitle>
-            <FeatureTitle color="#fff">
-              For your assets
-            </FeatureTitle>
+            <FeatureTitle color="#AB9AFF">A secure place</FeatureTitle>
+            <FeatureTitle color="#fff">For your assets</FeatureTitle>
             <Spacer y={2.5} />
             <FeatureParagraph color="#dfdfdf">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis non, modi excepturi dolorem rem voluptatum doloremque explicabo temporibus at cumque, repellat ullam ex tempore aliquid nostrum quaerat libero quos?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              facilis non, modi excepturi dolorem rem voluptatum doloremque
+              explicabo temporibus at cumque, repellat ullam ex tempore aliquid
+              nostrum quaerat libero quos?
             </FeatureParagraph>
             <Spacer y={2.5} />
             <Image
@@ -39,15 +36,14 @@ export default function Features() {
           </Feature>
           <Spacer y={3} />
           <Feature color="#AB9AFF">
-            <FeatureTitle color="#000">
-              Track balances
-            </FeatureTitle>
-            <FeatureTitle color="#fff">
-              See spendings
-            </FeatureTitle>
+            <FeatureTitle color="#000">Track balances</FeatureTitle>
+            <FeatureTitle color="#fff">See spendings</FeatureTitle>
             <Spacer y={2.5} />
             <FeatureParagraph color="#fff">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis non, modi excepturi dolorem rem voluptatum doloremque explicabo temporibus at cumque, repellat ullam ex tempore aliquid nostrum quaerat libero quos?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              facilis non, modi excepturi dolorem rem voluptatum doloremque
+              explicabo temporibus at cumque, repellat ullam ex tempore aliquid
+              nostrum quaerat libero quos?
             </FeatureParagraph>
             <Spacer y={2.5} />
             <Image
@@ -62,15 +58,14 @@ export default function Features() {
         <div>
           <Spacer y={12} />
           <Feature color="#fff">
-            <FeatureTitle color="#AB9AFF">
-              Take control
-            </FeatureTitle>
-            <FeatureTitle>
-              Own your wallet
-            </FeatureTitle>
+            <FeatureTitle color="#AB9AFF">Take control</FeatureTitle>
+            <FeatureTitle>Own your wallet</FeatureTitle>
             <Spacer y={2.5} />
             <FeatureParagraph>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis non, modi excepturi dolorem rem voluptatum doloremque explicabo temporibus at cumque, repellat ullam ex tempore aliquid nostrum quaerat libero quos?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              facilis non, modi excepturi dolorem rem voluptatum doloremque
+              explicabo temporibus at cumque, repellat ullam ex tempore aliquid
+              nostrum quaerat libero quos?
             </FeatureParagraph>
             <Spacer y={2} />
             <Button>
@@ -80,15 +75,14 @@ export default function Features() {
           </Feature>
           <Spacer y={3} />
           <Feature color="#000">
-            <FeatureTitle color="#AB9AFF">
-              We’ll be there
-            </FeatureTitle>
-            <FeatureTitle color="#fff">
-              Along the way
-            </FeatureTitle>
+            <FeatureTitle color="#AB9AFF">We’ll be there</FeatureTitle>
+            <FeatureTitle color="#fff">Along the way</FeatureTitle>
             <Spacer y={2.5} />
             <FeatureParagraph color="#fff">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis non, modi excepturi dolorem rem voluptatum doloremque explicabo temporibus at cumque, repellat ullam ex tempore aliquid nostrum quaerat libero quos?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              facilis non, modi excepturi dolorem rem voluptatum doloremque
+              explicabo temporibus at cumque, repellat ullam ex tempore aliquid
+              nostrum quaerat libero quos?
             </FeatureParagraph>
             <Spacer y={2} />
             <Buttons>
@@ -118,10 +112,10 @@ const FeaturesWrapper = styled.div`
   gap: 3.4rem;
 `;
 
-const Feature = styled.div<{ color: string; }>`
+const Feature = styled.div<{ color: string }>`
   padding: 3rem;
   border-radius: 30px;
-  background-color: ${props => props.color};
+  background-color: ${(props) => props.color};
 
   img {
     display: block;
@@ -130,20 +124,20 @@ const Feature = styled.div<{ color: string; }>`
   }
 `;
 
-const FeatureTitle = styled.h3<{ color: string; }>`
+const FeatureTitle = styled.h3<{ color: string }>`
   font-size: 3.8rem;
   font-weight: 650;
   line-height: 1.15em;
   margin: 0;
-  color: ${props => props.color || `rgb(${props.theme.secondaryText})`};
+  color: ${(props) => props.color || `rgb(${props.theme.secondaryText})`};
 `;
 
-const FeatureParagraph = styled.p<{ color: string; }>`
+const FeatureParagraph = styled.p<{ color: string }>`
   font-size: 1.05rem;
   font-weight: 550;
   text-align: justify;
   margin: 0;
-  color: ${props => props.color || `rgb(${props.theme.secondaryText})`};
+  color: ${(props) => props.color || `rgb(${props.theme.secondaryText})`};
   line-height: 1.55em;
 `;
 
