@@ -1,3 +1,4 @@
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import { ArrowUpRightIcon } from "@iconicicons/react";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
@@ -5,6 +6,7 @@ import Image from "next/image";
 import Button from "./Button";
 import Spacer from "./Spacer";
 import Link from "next/link";
+import { useMediaQuery } from "react-responsive"
 
 export default function Nav() {
   // scroll effect
@@ -17,6 +19,14 @@ export default function Nav() {
 
     return () => window.removeEventListener("scroll", listener);
   }, []);
+
+  // mobile nav open
+  const [mobileOpen, setMobileOpen] = useState(true);
+
+  // is the display a mobile display
+  const isMobile = useMediaQuery({
+    query: "(max-width: 720px)"
+  });
 
   return (
     <Wrapper scroll={scroll ? 1 : 0}>
@@ -33,20 +43,27 @@ export default function Nav() {
         <Spacer x={3} />
         <Separator />
         <Spacer x={3} />
+        <Hamburger onClick={() => setMobileOpen(val => !val)}>
+          <HamburgerIcon />
+        </Hamburger>
       </LogoSection>
-      <NavElement>
-        <NavPageLinks>
-          <NavLink href="/">Home</NavLink>
-          <NavLink href="/">Support</NavLink>
-          <NavLink href="/">Kit</NavLink>
-        </NavPageLinks>
-        <Link href="/download" passHref legacyBehavior>
-          <Button>
-            Download
-            <ArrowUpRightIcon />
-          </Button>
-        </Link>
-      </NavElement>
+      <AnimatePresence initial={false}>
+        {(mobileOpen || !isMobile) && (
+          <NavElement variants={mobileNavAnimation} initial="closed" animate="open" exit="closed">
+            <NavPageLinks>
+              <NavLink href="/">Home</NavLink>
+              <NavLink href="/">Support</NavLink>
+              <NavLink href="/">Kit</NavLink>
+            </NavPageLinks>
+            <Link href="/download" passHref legacyBehavior>
+              <Button>
+                Download
+                <ArrowUpRightIcon />
+              </Button>
+            </Link>
+          </NavElement>
+        )}
+      </AnimatePresence>
     </Wrapper>
   );
 }
@@ -67,6 +84,11 @@ const Wrapper = styled.header<{ scroll: 1 | 0 }>`
   padding: 1.2rem 5.25rem;
   z-index: 100;
   transition: all 0.23s ease-in-out;
+
+  @media screen and (max-width: 720px) {
+    display: block;
+    padding: 1rem 2rem;
+  }
 `;
 
 const LogoSection = styled.div`
@@ -82,6 +104,15 @@ const LogoSection = styled.div`
     &:hover {
       opacity: 0.85;
     }
+
+    @media screen and (max-width: 720px) {
+      height: 2.35rem;
+      width: 2.35rem;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    justify-content: space-between;
   }
 `;
 
@@ -89,18 +120,36 @@ const Separator = styled.span`
   height: 1.57rem;
   width: 0.1rem;
   background-color: rgba(81, 76, 109, 0.15);
+
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
 `;
 
-const NavElement = styled.nav`
+const NavElement = styled(motion.nav)`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+    overflow: hidden;
+  }
 `;
 
 const NavPageLinks = styled.div`
   display: flex;
   align-items: center;
   gap: 3rem;
+
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+    padding-top: 1.5rem;
+  }
 `;
 
 const NavLink = styled(Link)`
@@ -114,3 +163,47 @@ const NavLink = styled(Link)`
     opacity: 0.8;
   }
 `;
+
+const Hamburger = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgba(${props => props.theme.secondaryText}, .675);
+  transition: all .23s ease-in-out;
+
+  svg {
+    height: 2.3rem;
+    width: 2.3rem;
+  }
+
+  &:hover {
+    opacity: .8;
+  }
+
+  @media screen and (min-width: 720px) {
+    display: none;
+  }
+`;
+
+const HamburgerIcon = () => (
+  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="6" y="13" width="24" height="2" fill="currentColor"/>
+    <rect x="6" y="21" width="24" height="2" fill="currentColor"/>
+  </svg>
+);
+
+const mobileNavAnimation: Variants = {
+  open: {
+    height: "auto",
+    transition: { duration: .210 }
+  },
+  closed: {
+    height: 0,
+    transition: { duration: .210 }
+  }
+};

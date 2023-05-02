@@ -42,4 +42,8 @@ const GlobalStyles = createGlobalStyle`
   ::selection {
     background-color: rgba(${(props) => props.theme.accent}, .35);
   }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
 `;
