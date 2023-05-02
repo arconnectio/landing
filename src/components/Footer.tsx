@@ -67,24 +67,43 @@ export default function Footer() {
 
 const Wrapper = styled.footer`
   padding: 4rem 10vw 0;
+
+  @media screen and (max-width: 720px) {
+    padding: 2rem 7vw 0;
+  }
 `;
 
 const Content = styled.div`
   display: flex;
   justify-content: space-between;
   padding-bottom: 4rem;
+
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+    justify-content: unset;
+    padding-bottom: 2rem;
+    gap: 2rem;
+  }
 `;
 
 const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media screen and (max-width: 720px) {
+    gap: 1.5rem;
+  }
 `;
 
 const Socials = styled.div`
   display: flex;
   align-items: center;
   gap: 1.5rem;
+
+  @media screen and (max-width: 720px) {
+    gap: 1.25rem;
+  }
 `;
 
 const Social = styled.a.attrs({
@@ -103,6 +122,11 @@ const Social = styled.a.attrs({
     opacity: 0.8;
   }
 
+  @media screen and (max-width: 720px) {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
+
   svg {
     position: absolute;
     font-size: 1rem;
@@ -112,6 +136,10 @@ const Social = styled.a.attrs({
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    @media screen and (max-width: 720px) {
+      font-size: .8rem;
+    }
   }
 `;
 
@@ -120,6 +148,10 @@ const Links = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 3.5rem;
   padding-top: 0.6rem;
+
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 
 const LogoWrapper = styled.div`
@@ -131,6 +163,11 @@ const LogoWrapper = styled.div`
     height: 2.4rem;
     width: 2.4rem;
     user-select: none;
+
+    @media screen and (max-width: 720px) {
+      width: 3rem;
+      height: 3rem;
+    }
   }
 `;
 
@@ -140,6 +177,10 @@ const LogoText = styled.h2`
   color: rgb(${(props) => props.theme.accent});
   line-height: 1.1em;
   margin: 0;
+
+  @media screen and (max-width: 720px) {
+    font-size: 2.1rem;
+  }
 `;
 
 const LinkColumn = styled.div`
