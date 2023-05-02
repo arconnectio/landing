@@ -23,6 +23,7 @@ export default function Home() {
             <YouTubeEmbed id="ah1jrMGBUvo" />
           </VideoWrapper>
         </TutorialSection>
+        <Spacer y={4} />
         <Background />
       </Main>
       <Footer />

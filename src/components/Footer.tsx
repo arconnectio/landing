@@ -21,13 +21,13 @@ export default function Footer() {
             <LogoText>ArConnect</LogoText>
           </LogoWrapper>
           <Socials>
-            <Social>
+            <Social href="https://twitter.com/arconnectio">
               <TwitterIcon />
             </Social>
-            <Social>
+            <Social href="https://discord.gg/YGXJbuz44K">
               <DiscordIcon />
             </Social>
-            <Social>
+            <Social href="https://github.com/arconnectio">
               <GithubIcon />
             </Social>
           </Socials>
