@@ -12,18 +12,16 @@ export default function Branding() {
       <Nav />
       <Main>
         <Section>
-          <Title>
-            Branding
-          </Title>
+          <Title>Branding</Title>
           <Spacer y={1} />
           <Description>
-            You are free to use the following assets for promoting ArConnect on websites, articles or any advertising. Please also use one of the logos presented on this page for wallet "connect" buttons.
+            You are free to use the following assets for promoting ArConnect on
+            websites, articles or any advertising. Please also use one of the
+            logos presented on this page for wallet "connect" buttons.
           </Description>
         </Section>
         <Section>
-          <Subtitle>
-            Logo
-          </Subtitle>
+          <Subtitle>Logo</Subtitle>
           <Spacer y={2} />
           <Tiles>
             <LogoWrapper>
@@ -40,10 +38,16 @@ export default function Branding() {
             <LogoWrapper color="255, 255, 255">
               <LogoImage src="/logos/horizontal-black.png" />
               <DownloadLinks>
-                <DownloadLink href="/logos/horizontal-black.svg" color="0, 0, 0">
+                <DownloadLink
+                  href="/logos/horizontal-black.svg"
+                  color="0, 0, 0"
+                >
                   .svg
                 </DownloadLink>
-                <DownloadLink href="/logos/horizontal-black.png" color="0, 0, 0">
+                <DownloadLink
+                  href="/logos/horizontal-black.png"
+                  color="0, 0, 0"
+                >
                   .png
                 </DownloadLink>
               </DownloadLinks>
@@ -51,10 +55,16 @@ export default function Branding() {
             <LogoWrapper color="0, 0, 0">
               <LogoImage src="/logos/horizontal-white.png" />
               <DownloadLinks>
-                <DownloadLink href="/logos/horizontal-white.svg" color="255, 255, 255">
+                <DownloadLink
+                  href="/logos/horizontal-white.svg"
+                  color="255, 255, 255"
+                >
                   .svg
                 </DownloadLink>
-                <DownloadLink href="/logos/horizontal-white.png" color="255, 255, 255">
+                <DownloadLink
+                  href="/logos/horizontal-white.png"
+                  color="255, 255, 255"
+                >
                   .png
                 </DownloadLink>
               </DownloadLinks>
@@ -62,12 +72,8 @@ export default function Branding() {
             <LogoWrapper>
               <LogoImage src="/logos/themed.png" />
               <DownloadLinks>
-                <DownloadLink href="/logos/themed.svg">
-                  .svg
-                </DownloadLink>
-                <DownloadLink href="/logos/themed.png">
-                  .png
-                </DownloadLink>
+                <DownloadLink href="/logos/themed.svg">.svg</DownloadLink>
+                <DownloadLink href="/logos/themed.png">.png</DownloadLink>
               </DownloadLinks>
             </LogoWrapper>
             <LogoWrapper color="255, 255, 255">
@@ -95,58 +101,34 @@ export default function Branding() {
           </Tiles>
         </Section>
         <Section>
-          <Subtitle>
-            Colors
-          </Subtitle>
+          <Subtitle>Colors</Subtitle>
           <Spacer y={2} />
           <Tiles>
             <Color color="171, 154, 255, 1">
-              <ColorName>
-                Accent
-              </ColorName>
-              <ColorCode>
-                RGB 171, 154, 255
-              </ColorCode>
+              <ColorName>Accent</ColorName>
+              <ColorCode>RGB 171, 154, 255</ColorCode>
             </Color>
             <Color color="171, 154, 255, .2">
-              <ColorName color="171, 154, 255">
-                Transparent accent
-              </ColorName>
+              <ColorName color="171, 154, 255">Transparent accent</ColorName>
               <ColorCode color="171, 154, 255">
                 RGBA 171, 154, 255, 0.2
               </ColorCode>
             </Color>
             <Color color="0, 0, 0">
-              <ColorName>
-                Primary text
-              </ColorName>
-              <ColorCode>
-                RGB 0, 0, 0
-              </ColorCode>
+              <ColorName>Primary text</ColorName>
+              <ColorCode>RGB 0, 0, 0</ColorCode>
             </Color>
             <Color color="73, 68, 100">
-              <ColorName>
-                Secondary text
-              </ColorName>
-              <ColorCode>
-                RGB 73, 68, 100
-              </ColorCode> 
+              <ColorName>Secondary text</ColorName>
+              <ColorCode>RGB 73, 68, 100</ColorCode>
             </Color>
             <Color color="0, 230, 0">
-              <ColorName>
-                Success
-              </ColorName>
-              <ColorCode>
-                RGB 0, 230, 0
-              </ColorCode> 
+              <ColorName>Success</ColorName>
+              <ColorCode>RGB 0, 230, 0</ColorCode>
             </Color>
             <Color color="255, 0, 0">
-              <ColorName>
-                Failure
-              </ColorName>
-              <ColorCode>
-                RGB 250, 0, 0
-              </ColorCode> 
+              <ColorName>Failure</ColorName>
+              <ColorCode>RGB 250, 0, 0</ColorCode>
             </Color>
           </Tiles>
         </Section>
@@ -190,7 +172,7 @@ const Description = styled.p`
   font-weight: 550;
   text-align: justify;
   margin: 0;
-  color: rgb(${props => props.theme.secondaryText});
+  color: rgb(${(props) => props.theme.secondaryText});
   line-height: 1.55em;
   width: 42vw;
 
@@ -202,7 +184,7 @@ const Description = styled.p`
 const Subtitle = styled.h2`
   font-size: 2.65rem;
   font-weight: 650;
-  color: rgb(${props => props.theme.secondaryText});
+  color: rgb(${(props) => props.theme.secondaryText});
   line-height: 1.1em;
   margin: 0;
 `;
@@ -224,13 +206,16 @@ const Tiles = styled.div`
   }
 `;
 
-const LogoWrapper = styled.div<{ color?: string; }>`
+const LogoWrapper = styled.div<{ color?: string }>`
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 1.5rem;
-  background-color: rgba(${props => props.color || props.theme.accent}, ${props => !props.color ? ".2" : "1"});
+  background-color: rgba(
+    ${(props) => props.color || props.theme.accent},
+    ${(props) => (!props.color ? ".2" : "1")}
+  );
   padding: 4.2rem 0;
 `;
 
@@ -238,23 +223,23 @@ const DownloadLinks = styled.div`
   position: absolute;
   display: flex;
   align-items: center;
-  gap: .65rem;
-  bottom: .5rem;
-  right: .85rem;
+  gap: 0.65rem;
+  bottom: 0.5rem;
+  right: 0.85rem;
 `;
 
 const DownloadLink = styled.a.attrs({
   download: true
-})<{ color?: string; }>`
-  color: rgb(${props => props.color || props.theme.accent});
-  font-size: .9rem;
+})<{ color?: string }>`
+  color: rgb(${(props) => props.color || props.theme.accent});
+  font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
-  transition: all .23s ease-in-out;
+  transition: all 0.23s ease-in-out;
 
   &:hover {
-    opacity: .8;
+    opacity: 0.8;
   }
 `;
 
@@ -266,27 +251,27 @@ const LogoImage = styled.img.attrs({
   user-select: none;
 `;
 
-const Color = styled.div<{ color: string; }>`
+const Color = styled.div<{ color: string }>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 1.5rem;
-  background-color: rgba(${props => props.color});
+  background-color: rgba(${(props) => props.color});
   height: calc(4.2rem * 2 + 3.5rem - 2rem);
   padding: 1rem 1.25rem;
 `;
 
-const ColorName = styled.h3<{ color?: string; }>`
+const ColorName = styled.h3<{ color?: string }>`
   font-size: 1.6rem;
-  color: rgb(${props => props.color || "255, 255, 255"});
+  color: rgb(${(props) => props.color || "255, 255, 255"});
   font-weight: 550;
   line-height: 1.1em;
   margin: 0;
 `;
 
-const ColorCode = styled.p<{ color?: string; }>`
+const ColorCode = styled.p<{ color?: string }>`
   font-size: 1.1rem;
-  color: rgba(${props => props.color || "255, 255, 255"}, .75);
+  color: rgba(${(props) => props.color || "255, 255, 255"}, 0.75);
   font-weight: 550;
   line-height: 1.1em;
   margin: 0;

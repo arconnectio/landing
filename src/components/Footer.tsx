@@ -21,13 +21,13 @@ export default function Footer() {
             <LogoText>ArConnect</LogoText>
           </LogoWrapper>
           <Socials>
-            <Social href="https://twitter.com/arconnectio">
+            <Social href="/twitter">
               <TwitterIcon />
             </Social>
-            <Social href="https://discord.gg/YGXJbuz44K">
+            <Social href="/discord">
               <DiscordIcon />
             </Social>
-            <Social href="https://github.com/arconnectio">
+            <Social href="/github">
               <GithubIcon />
             </Social>
           </Socials>
@@ -44,7 +44,7 @@ export default function Footer() {
           </LinkColumn>
           <LinkColumn>
             <ColumnTitle>Help</ColumnTitle>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="/support" target="_blank" rel="noopener noreferrer">
               Chat
             </a>
             <Link href="/faq">FAQ</Link>
@@ -54,6 +54,13 @@ export default function Footer() {
             <Link href="/">Kit</Link>
             <a href="" target="_blank" rel="noopener noreferrer">
               Documentation
+            </a>
+            <a
+              href="https://github.com/arconnectio/arconnect"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Codebase
             </a>
           </LinkColumn>
         </Links>
@@ -138,7 +145,7 @@ const Social = styled.a.attrs({
     transform: translate(-50%, -50%);
 
     @media screen and (max-width: 720px) {
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
 `;

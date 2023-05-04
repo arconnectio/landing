@@ -43,13 +43,18 @@ export default function Nav() {
         <Spacer x={3} />
         <Separator />
         <Spacer x={3} />
-        <Hamburger onClick={() => setMobileOpen(val => !val)}>
+        <Hamburger onClick={() => setMobileOpen((val) => !val)}>
           <HamburgerIcon />
         </Hamburger>
       </LogoSection>
       <AnimatePresence initial={false}>
         {(mobileOpen || !isMobile) && (
-          <NavElement variants={mobileNavAnimation} initial="closed" animate="open" exit="closed">
+          <NavElement
+            variants={mobileNavAnimation}
+            initial="closed"
+            animate="open"
+            exit="closed"
+          >
             <NavPageLinks>
               <NavLink href="/">Home</NavLink>
               <NavLink href="/">Support</NavLink>
@@ -173,8 +178,8 @@ const Hamburger = styled.button`
   border: none;
   background-color: transparent;
   cursor: pointer;
-  color: rgba(${props => props.theme.secondaryText}, .675);
-  transition: all .23s ease-in-out;
+  color: rgba(${(props) => props.theme.secondaryText}, 0.675);
+  transition: all 0.23s ease-in-out;
 
   svg {
     height: 2.3rem;
@@ -182,7 +187,7 @@ const Hamburger = styled.button`
   }
 
   &:hover {
-    opacity: .8;
+    opacity: 0.8;
   }
 
   @media screen and (min-width: 720px) {
@@ -191,19 +196,25 @@ const Hamburger = styled.button`
 `;
 
 const HamburgerIcon = () => (
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="6" y="13" width="24" height="2" fill="currentColor"/>
-    <rect x="6" y="21" width="24" height="2" fill="currentColor"/>
+  <svg
+    width="36"
+    height="36"
+    viewBox="0 0 36 36"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect x="6" y="13" width="24" height="2" fill="currentColor" />
+    <rect x="6" y="21" width="24" height="2" fill="currentColor" />
   </svg>
 );
 
 const mobileNavAnimation: Variants = {
   open: {
     height: "auto",
-    transition: { duration: .210 }
+    transition: { duration: 0.21 }
   },
   closed: {
     height: 0,
-    transition: { duration: .210 }
+    transition: { duration: 0.21 }
   }
 };
