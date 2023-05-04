@@ -1,12 +1,12 @@
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import { ArrowUpRightIcon } from "@iconicicons/react";
+import { useMediaQuery } from "react-responsive";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import Image from "next/image";
 import Button from "./Button";
 import Spacer from "./Spacer";
 import Link from "next/link";
-import { useMediaQuery } from "react-responsive"
 
 export default function Nav() {
   // scroll effect
