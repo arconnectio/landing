@@ -82,6 +82,14 @@ const Browsers = styled.div`
   align-items: center;
   justify-content: center;
   gap: 5rem;
+
+  @media screen and (max-width: 720px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+    justify-content: unset;
+    align-items: unset;
+  }
 `;
 
 const BrowserElement = styled.div`
@@ -110,6 +118,7 @@ const BrowserLogo = styled.a.attrs({
     width: 6rem;
     height: 6rem;
     user-select: none;
+    margin: 0 auto;
   }
 `;
 

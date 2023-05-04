@@ -165,6 +165,10 @@ const Title = styled.h1`
   color: rgb(${(props) => props.theme.accent});
   margin: 0;
   line-height: 1.25em;
+
+  @media screen and (max-width: 720px) {
+    margin-top: 4rem;
+  }
 `;
 
 const Description = styled.p`

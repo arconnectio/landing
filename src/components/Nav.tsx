@@ -28,6 +28,14 @@ export default function Nav() {
     query: "(max-width: 720px)"
   });
 
+  useEffect(() => {
+    if (isMobile) {
+      return setMobileOpen(false);
+    }
+
+    return setMobileOpen(true);
+  }, [isMobile]);
+
   return (
     <Wrapper scroll={scroll ? 1 : 0}>
       <LogoSection>
@@ -48,7 +56,7 @@ export default function Nav() {
         </Hamburger>
       </LogoSection>
       <AnimatePresence initial={false}>
-        {(mobileOpen || !isMobile) && (
+        {mobileOpen && (
           <NavElement
             variants={mobileNavAnimation}
             initial="closed"
@@ -91,8 +99,11 @@ const Wrapper = styled.header<{ scroll: 1 | 0 }>`
   transition: all 0.23s ease-in-out;
 
   @media screen and (max-width: 720px) {
+    position: fixed;
     display: block;
     padding: 1rem 2rem;
+    background-color: rgb(${(props) => props.theme.background}, .55);
+    backdrop-filter: blur(20px);
   }
 `;
 

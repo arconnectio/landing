@@ -37,6 +37,10 @@ const Main = styled.main`
 
 const TitleSection = styled.section`
   padding: 3rem 0 0;
+
+  @media screen and (max-width: 720px) {
+    padding: 7.5rem 0 0;
+  }
 `;
 
 const Title = styled.h1`
@@ -46,6 +50,10 @@ const Title = styled.h1`
   text-align: center;
   margin: 0;
   line-height: 1.4em;
+
+  @media screen and (max-width: 720px) {
+    font-size: 2.35rem;
+  }
 `;
 
 const Subtitle = styled.h2`
@@ -55,6 +63,10 @@ const Subtitle = styled.h2`
   text-align: center;
   margin: 0;
   line-height: 1.1em;
+
+  @media screen and (max-width: 720px) {
+    font-size: 2rem;
+  }
 `;
 
 const TutorialSection = styled.section`
@@ -66,4 +78,9 @@ const VideoWrapper = styled.div`
   margin: 0 auto;
   overflow: hidden;
   border-radius: 32px;
+
+  @media screen and (max-width: 720px) {
+    width: 90vw;
+    border-radius: 24px;
+  }
 `;
