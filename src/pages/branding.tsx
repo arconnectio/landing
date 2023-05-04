@@ -17,7 +17,7 @@ export default function Branding() {
           </Title>
           <Spacer y={1} />
           <Description>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta nesciunt quas non ipsam et, distinctio fugiat quae dolorum sequi facilis numquam aperiam eos nihil. Quod molestiae numquam quibusdam sequi asperiores.
+            You are free to use the following assets for promoting ArConnect on websites, articles or any advertising. Please also use one of the logos presented on this page for wallet "connect" buttons.
           </Description>
         </Section>
         <Section>
@@ -25,7 +25,7 @@ export default function Branding() {
             Logo
           </Subtitle>
           <Spacer y={2} />
-          <Logos>
+          <Tiles>
             <LogoWrapper>
               <LogoImage src="/logos/horizontal-themed.png" />
               <DownloadLinks>
@@ -92,7 +92,63 @@ export default function Branding() {
                 </DownloadLink>
               </DownloadLinks>
             </LogoWrapper>
-          </Logos>
+          </Tiles>
+        </Section>
+        <Section>
+          <Subtitle>
+            Colors
+          </Subtitle>
+          <Spacer y={2} />
+          <Tiles>
+            <Color color="171, 154, 255, 1">
+              <ColorName>
+                Accent
+              </ColorName>
+              <ColorCode>
+                RGB 171, 154, 255
+              </ColorCode>
+            </Color>
+            <Color color="171, 154, 255, .2">
+              <ColorName color="171, 154, 255">
+                Transparent accent
+              </ColorName>
+              <ColorCode color="171, 154, 255">
+                RGBA 171, 154, 255, 0.2
+              </ColorCode>
+            </Color>
+            <Color color="0, 0, 0">
+              <ColorName>
+                Primary text
+              </ColorName>
+              <ColorCode>
+                RGB 0, 0, 0
+              </ColorCode>
+            </Color>
+            <Color color="73, 68, 100">
+              <ColorName>
+                Secondary text
+              </ColorName>
+              <ColorCode>
+                RGB 73, 68, 100
+              </ColorCode> 
+            </Color>
+            <Color color="0, 230, 0">
+              <ColorName>
+                Success
+              </ColorName>
+              <ColorCode>
+                RGB 0, 230, 0
+              </ColorCode> 
+            </Color>
+            <Color color="255, 0, 0">
+              <ColorName>
+                Failure
+              </ColorName>
+              <ColorCode>
+                RGB 250, 0, 0
+              </ColorCode> 
+            </Color>
+          </Tiles>
         </Section>
         <Background />
       </Main>
@@ -107,6 +163,14 @@ const Main = styled.main`
 
 const Section = styled.section`
   padding: 3rem 10vw;
+
+  @media screen and (max-width: 1050px) {
+    padding: 3rem 5vw;
+  }
+
+  @media screen and (max-width: 900px) {
+    padding: 3rem 8vw;
+  }
 
   @media screen and (max-width: 720px) {
     padding: 2rem 7vw;
@@ -143,12 +207,21 @@ const Subtitle = styled.h2`
   margin: 0;
 `;
 
-const Logos = styled.div`
+const Tiles = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   align-items: center;
   gap: 5rem;
+
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
 `;
 
 const LogoWrapper = styled.div<{ color?: string; }>`
@@ -191,4 +264,31 @@ const LogoImage = styled.img.attrs({
 })`
   height: 3.5rem;
   user-select: none;
+`;
+
+const Color = styled.div<{ color: string; }>`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1.5rem;
+  background-color: rgba(${props => props.color});
+  height: calc(4.2rem * 2 + 3.5rem - 2rem);
+  padding: 1rem 1.25rem;
+`;
+
+const ColorName = styled.h3<{ color?: string; }>`
+  font-size: 1.6rem;
+  color: rgb(${props => props.color || "255, 255, 255"});
+  font-weight: 550;
+  line-height: 1.1em;
+  margin: 0;
+`;
+
+const ColorCode = styled.p<{ color?: string; }>`
+  font-size: 1.1rem;
+  color: rgba(${props => props.color || "255, 255, 255"}, .75);
+  font-weight: 550;
+  line-height: 1.1em;
+  margin: 0;
+  text-transform: capitalize;
 `;
