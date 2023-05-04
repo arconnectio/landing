@@ -59,6 +59,39 @@ export default function Branding() {
                 </DownloadLink>
               </DownloadLinks>
             </LogoWrapper>
+            <LogoWrapper>
+              <LogoImage src="/logos/themed.png" />
+              <DownloadLinks>
+                <DownloadLink href="/logos/themed.svg">
+                  .svg
+                </DownloadLink>
+                <DownloadLink href="/logos/themed.png">
+                  .png
+                </DownloadLink>
+              </DownloadLinks>
+            </LogoWrapper>
+            <LogoWrapper color="255, 255, 255">
+              <LogoImage src="/logos/black.png" />
+              <DownloadLinks>
+                <DownloadLink href="/logos/black.svg" color="0, 0, 0">
+                  .svg
+                </DownloadLink>
+                <DownloadLink href="/logos/black.png" color="0, 0, 0">
+                  .png
+                </DownloadLink>
+              </DownloadLinks>
+            </LogoWrapper>
+            <LogoWrapper color="0, 0, 0">
+              <LogoImage src="/logos/white.png" />
+              <DownloadLinks>
+                <DownloadLink href="/logos/white.svg" color="255, 255, 255">
+                  .svg
+                </DownloadLink>
+                <DownloadLink href="/logos/white.png" color="255, 255, 255">
+                  .png
+                </DownloadLink>
+              </DownloadLinks>
+            </LogoWrapper>
           </Logos>
         </Section>
         <Background />
