@@ -56,7 +56,7 @@ export default function Features() {
           </Feature>
         </NoPaddingFeatures>
         <div>
-          <Spacer y={12} />
+          <Spacer y={12} mobileY={.05} />
           <Feature color="#fff">
             <FeatureTitle color="#AB9AFF">Take control</FeatureTitle>
             <FeatureTitle>Own your wallet</FeatureTitle>
@@ -104,12 +104,21 @@ export default function Features() {
 
 const Wrapper = styled.section`
   padding: 7rem 10vw 4.5rem;
+
+  @media screen and (max-width: 720px) {
+    padding: 3.75rem 7vw;
+  }
 `;
 
 const FeaturesWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3.4rem;
+
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 `;
 
 const Feature = styled.div<{ color: string }>`
@@ -121,6 +130,16 @@ const Feature = styled.div<{ color: string }>`
     display: block;
     margin: 0 auto;
     user-select: none;
+    
+    @media screen and (max-width: 720px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    padding: 1.5rem;
+    width: calc(100vw - 1.5rem * 2 - 7vw * 2);
   }
 `;
 
@@ -130,6 +149,10 @@ const FeatureTitle = styled.h3<{ color?: string }>`
   line-height: 1.15em;
   margin: 0;
   color: ${(props) => props.color || `rgb(${props.theme.secondaryText})`};
+
+  @media screen and (max-width: 720px) {
+    font-size: 2.2rem;
+  }
 `;
 
 const FeatureParagraph = styled.p<{ color?: string }>`
@@ -139,6 +162,10 @@ const FeatureParagraph = styled.p<{ color?: string }>`
   margin: 0;
   color: ${(props) => props.color || `rgb(${props.theme.secondaryText})`};
   line-height: 1.55em;
+
+  @media screen and (max-width: 720px) {
+    font-size: .95rem;
+  }
 `;
 
 const Buttons = styled.div`
