@@ -10,13 +10,13 @@ export default function Mission() {
     <Wrapper>
       <Card>
         <Title>Our mission</Title>
-        <Spacer y={0.2} />
+        <Spacer y={0.2} mobileY={.4} />
         <Statement>
           We are here to provide you the best possible experience with Arweave
           and the permaweb
         </Statement>
-        <Spacer y={2.6} />
-        <Button>
+        <Spacer y={2.6} mobileY={3} />
+        <Button href="/support" target="_blank" rel="noopener noreferer">
           Chat with us
           <ArrowUpRightIcon />
         </Button>
@@ -81,6 +81,10 @@ export default function Mission() {
 
 const Wrapper = styled.section`
   padding: 4.5rem 10vw 7rem;
+
+  @media screen and (max-width: 720px) {
+    padding: 4rem 7vw 3rem;
+  }
 `;
 
 const Card = styled.div`
@@ -93,6 +97,10 @@ const Card = styled.div`
   ${Button} {
     margin: 0 auto;
   }
+
+  @media screen and (max-width: 720px) {
+    padding: 4rem 0 3rem;
+  }
 `;
 
 const titleFont = Space_Grotesk({ subsets: ["latin"] });
@@ -104,6 +112,10 @@ const Title = styled.h2`
   text-align: center;
   margin: 0;
   ${titleFont.style}
+
+  @media screen and (max-width: 720px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Statement = styled.h3`
@@ -114,6 +126,10 @@ const Statement = styled.h3`
   max-width: 80%;
   margin: 0 auto;
   line-height: 1.15em;
+
+  @media screen and (max-width: 720px) {
+    font-size: 2.2rem;
+  }
 `;
 
 const MissionElement = styled.div<{ top: string; left: string }>`
@@ -125,5 +141,9 @@ const MissionElement = styled.div<{ top: string; left: string }>`
   img {
     display: block;
     user-select: none;
+  }
+
+  @media screen and (max-width: 720px) {
+    display: none;
   }
 `;

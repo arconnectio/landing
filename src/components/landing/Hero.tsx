@@ -31,7 +31,7 @@ export default function Hero() {
             <ArrowUpRightIcon />
           </Button>
         </Link>
-        <Button color="0, 0, 0">
+        <Button color="0, 0, 0" href="https://github.com/arconnectio/ArConnect#arconnect" target="_blank" rel="noopener noreferer">
           Docs
           <MapIcon />
         </Button>
