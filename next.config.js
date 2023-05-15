@@ -25,6 +25,11 @@ const nextConfig = {
         source: "/twitter",
         destination: "https://twitter.com/arconnectio",
         permanent: true
+      },
+      {
+        source: "/pp",
+        destination: "/privacy",
+        permanent: true
       }
     ];
   }

@@ -102,7 +102,7 @@ const Wrapper = styled.header<{ scroll: 1 | 0 }>`
     position: fixed;
     display: block;
     padding: 1rem 2rem;
-    background-color: rgb(${(props) => props.theme.background}, .55);
+    background-color: rgb(${(props) => props.theme.background}, 0.55);
     backdrop-filter: blur(20px);
   }
 `;

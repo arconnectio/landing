@@ -10,7 +10,7 @@ import Nav from "~/components/Nav";
 export default function Home() {
   return (
     <>
-      <Head title="Download ArConnect - Arweave Wallet" />
+      <Head title="Download - ArConnect Arweave Wallet" />
       <Nav />
       <Main>
         <TitleSection>

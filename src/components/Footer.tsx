@@ -41,6 +41,7 @@ export default function Footer() {
               Blog
             </a>
             <Link href="/branding">Branding</Link>
+            <Link href="/privacy">Privacy Policy</Link>
           </LinkColumn>
           <LinkColumn>
             <ColumnTitle>Help</ColumnTitle>

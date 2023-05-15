@@ -56,7 +56,7 @@ export default function Features() {
           </Feature>
         </NoPaddingFeatures>
         <div>
-          <Spacer y={12} mobileY={.05} />
+          <Spacer y={12} mobileY={0.05} />
           <Feature color="#fff">
             <FeatureTitle color="#AB9AFF">Take control</FeatureTitle>
             <FeatureTitle>Own your wallet</FeatureTitle>
@@ -130,7 +130,7 @@ const Feature = styled.div<{ color: string }>`
     display: block;
     margin: 0 auto;
     user-select: none;
-    
+
     @media screen and (max-width: 720px) {
       width: 100%;
       height: auto;
@@ -164,7 +164,7 @@ const FeatureParagraph = styled.p<{ color?: string }>`
   line-height: 1.55em;
 
   @media screen and (max-width: 720px) {
-    font-size: .95rem;
+    font-size: 0.95rem;
   }
 `;
 

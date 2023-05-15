@@ -1,4 +1,6 @@
+import { Description, Subtitle, Title } from "~/components/content/Text";
 import Background from "~/components/landing/Background";
+import Section from "~/components/content/Section";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import styled from "styled-components";
@@ -8,10 +10,10 @@ import Nav from "~/components/Nav";
 export default function Branding() {
   return (
     <>
-      <Head title="ArConnect Branding - Arweave Wallet" />
+      <Head title="Branding - ArConnect Arweave Wallet" />
       <Nav />
       <Main>
-        <Section>
+        <Section extraSpace>
           <Title>Branding</Title>
           <Spacer y={1} />
           <Description>
@@ -20,7 +22,7 @@ export default function Branding() {
             logos presented on this page for wallet "connect" buttons.
           </Description>
         </Section>
-        <Section>
+        <Section extraSpace>
           <Subtitle>Logo</Subtitle>
           <Spacer y={2} />
           <Tiles>
@@ -100,7 +102,7 @@ export default function Branding() {
             </LogoWrapper>
           </Tiles>
         </Section>
-        <Section>
+        <Section extraSpace>
           <Subtitle>Colors</Subtitle>
           <Spacer y={2} />
           <Tiles>
@@ -141,56 +143,6 @@ export default function Branding() {
 
 const Main = styled.main`
   position: relative;
-`;
-
-const Section = styled.section`
-  padding: 3rem 10vw;
-
-  @media screen and (max-width: 1050px) {
-    padding: 3rem 5vw;
-  }
-
-  @media screen and (max-width: 900px) {
-    padding: 3rem 8vw;
-  }
-
-  @media screen and (max-width: 720px) {
-    padding: 2rem 7vw;
-  }
-`;
-
-const Title = styled.h1`
-  font-size: 3.35rem;
-  font-weight: 650;
-  color: rgb(${(props) => props.theme.accent});
-  margin: 0;
-  line-height: 1.25em;
-
-  @media screen and (max-width: 720px) {
-    margin-top: 4rem;
-  }
-`;
-
-const Description = styled.p`
-  font-size: 1.05rem;
-  font-weight: 550;
-  text-align: justify;
-  margin: 0;
-  color: rgb(${(props) => props.theme.secondaryText});
-  line-height: 1.55em;
-  width: 42vw;
-
-  @media screen and (max-width: 720px) {
-    width: auto;
-  }
-`;
-
-const Subtitle = styled.h2`
-  font-size: 2.65rem;
-  font-weight: 650;
-  color: rgb(${(props) => props.theme.secondaryText});
-  line-height: 1.1em;
-  margin: 0;
 `;
 
 const Tiles = styled.div`
