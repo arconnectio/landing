@@ -86,11 +86,11 @@ export default function Features() {
             </FeatureParagraph>
             <Spacer y={2} />
             <Buttons>
-              <Button>
+              <Button href="/support" target="_blank" rel="noopener noreferer">
                 Get help
                 <ArrowUpRightIcon />
               </Button>
-              <Button>
+              <Button href="https://github.com/arconnectio/ArConnect#arconnect" target="_blank" rel="noopener noreferer">
                 Docs
                 <MapIcon />
               </Button>
