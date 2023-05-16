@@ -27,6 +27,11 @@ const Wrapper = styled.div`
     width: auto;
     padding: 30px 20px;
   }
+
+  h3, p {
+    line-height: 1.1em;
+    margin: 0;
+  }
 `;
 
 const IconWrapper = styled.div`
@@ -52,16 +57,12 @@ const MetricName = styled.h3`
   font-size: 0.75rem;
   font-weight: 600;
   color: rgb(${(props) => props.theme.secondaryText});
-  line-height: 1.1em;
-  margin: 0;
 `;
 
 const MetricValue = styled.p`
   font-size: 1.9rem;
   font-weight: 700;
   color: rgb(${(props) => props.theme.accent});
-  line-height: 1.1em;
-  margin: 0;
 `;
 
 interface Props {

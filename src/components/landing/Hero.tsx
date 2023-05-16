@@ -15,13 +15,12 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <Wrapper>
-      <HeroTitle>The only Arweave wallet</HeroTitle>
-      <Spacer y={0.75} />
-      <HeroSubtitle>You’ll ever need</HeroSubtitle>
-      <Spacer y={1.9} />
+      <HeroTitle>
+        Your gateway to <span>Arweave</span>
+      </HeroTitle>
+      <Spacer y={1.55} />
       <HeroDescription>
-        ArConnect is an Arweave-native wallet extension that provides secure
-        wallet and asset management in your favorite browser.
+        A non-custodial Arweave-native wallet with extensive features,<br />all in your favorite browser.
       </HeroDescription>
       <Spacer y={2.5} />
       <Buttons>
@@ -36,23 +35,25 @@ export default function Hero() {
           <MapIcon />
         </Button>
       </Buttons>
-      <Spacer y={4.5} />
+      <Spacer y={7} />
       <Stats>
         <StatPanel icon={<DownloadIcon />} name="Installs" value={15600} />
-        <StatPanel icon={<TagIcon />} name="Releases" value={34} />
-        <StatPanel icon={<GridIcon />} name="Apps" value={54} />
-        <StatPanel icon={<CodeIcon />} name="API functions" value={15600} />
+        <StatPanel icon={<TagIcon />} name="Releases" value={26} />
+        <StatLink href="/apps">
+          <StatPanel icon={<GridIcon />} name="Apps" value={54} />
+        </StatLink>
+        <StatPanel icon={<CodeIcon />} name="API functions" value={16} />
       </Stats>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.section`
-  padding: 4.5rem 0 0;
-
-  @media screen and (max-width: 720px) {
-    padding-top: 7.5rem;
-  }
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `;
 
 const heroText = css`
@@ -70,6 +71,10 @@ const heroText = css`
 const HeroTitle = styled.h1`
   color: rgb(${(props) => props.theme.accent});
   ${heroText}
+
+  span {
+    color: rgb(${(props) => props.theme.secondaryText});
+  }
 `;
 
 const HeroSubtitle = styled.h2`
@@ -83,7 +88,6 @@ const HeroDescription = styled.p`
   text-align: center;
   color: rgb(${(props) => props.theme.secondaryText});
   margin: 0 auto;
-  max-width: 60%;
 
   @media screen and (max-width: 720px) {
     font-size: 1rem;
@@ -118,4 +122,8 @@ const Stats = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 1.25rem;
   }
+`;
+
+const StatLink = styled(Link)`
+  text-decoration: none;
 `;
