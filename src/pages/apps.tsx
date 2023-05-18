@@ -1,15 +1,17 @@
-import { Description, Title } from "~/components/content/Text"
+import Application, { IApplication } from "~/components/landing/Application";
+import { Description, Title } from "~/components/content/Text";
 import Background from "~/components/landing/Background";
 import Section from "~/components/content/Section";
 import Spacer from "~/components/Spacer";
 import Footer from "~/components/Footer";
 import styled from "styled-components";
+import { GetStaticProps } from "next";
 import Head from "~/components/Head";
+import { promises as fs } from "fs";
 import Nav from "~/components/Nav";
-import Image from "next/image";
-import Application from "~/components/landing/Application"
+import path from "path";
 
-export default function Apps() {
+export default function Apps({ applications }: Props) {
   return (
     <>
       <Head title="Applications - ArConnect Arweave Wallet" />
@@ -19,11 +21,21 @@ export default function Apps() {
           <Title>Applications</Title>
           <Spacer y={1} />
           <Description>
-            Here is a list of applications that support ArConnect. Remember this might not be a complete list, as it is community maintained. You can add your application to the list by <a href="https://github.com/arconnectio/landing/issues/new" target="_blank" rel="noopener noreferrer">creating an issue</a>.
+            Here is a list of applications that support ArConnect. Remember this
+            might not be a complete list, as it is community maintained. You can
+            add your application to the list by{" "}
+            <a
+              href="https://github.com/arconnectio/landing/issues/new"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              creating an issue
+            </a>
+            .
           </Description>
         </Section>
         <AppsSection>
-          <Application name="ArDrive" category="Storage" description="ArDrive offers never-ending storage of your most valuable files. Pay once and save your memories forever." logo="/apps/ardrive/logo.png" thumbnail="/apps/ardrive/thumbnail.png" links={{ website: "https://ardrive.io", twitter: "https://twitter.com/ardriveapp", discord: "https://discord.com/invite/ya4hf2H", github: "https://github.com/ardriveapp" }} />
+          {applications.map((app, i) => <Application {...app} key={i} />)}
         </AppsSection>
         <Background />
       </Main>
@@ -31,6 +43,20 @@ export default function Apps() {
     </>
   );
 }
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  // apps file location
+  const appsFileLoc = path.join(process.cwd(), "./public/apps/apps.json");
+
+  // read file
+  const fileContents = await fs.readFile(appsFileLoc, "utf8");
+
+  return {
+    props: {
+      applications: JSON.parse(fileContents)
+    }
+  };
+};
 
 const Main = styled.main`
   position: relative;
@@ -52,3 +78,7 @@ const AppsSection = styled(Section)`
     gap: 2rem;
   }
 `;
+
+interface Props {
+  applications: IApplication[];
+}

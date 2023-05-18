@@ -20,7 +20,9 @@ export default function Hero() {
       </HeroTitle>
       <Spacer y={1.55} />
       <HeroDescription>
-        A non-custodial Arweave-native wallet with extensive features,<br />all in your favorite browser.
+        A non-custodial Arweave-native wallet with extensive features,
+        <br />
+        all in your favorite browser.
       </HeroDescription>
       <Spacer y={2.5} />
       <Buttons>
@@ -30,7 +32,12 @@ export default function Hero() {
             <ArrowUpRightIcon />
           </Button>
         </Link>
-        <Button color="0, 0, 0" href="https://github.com/arconnectio/ArConnect#arconnect" target="_blank" rel="noopener noreferer">
+        <Button
+          color="0, 0, 0"
+          href="https://github.com/arconnectio/ArConnect#arconnect"
+          target="_blank"
+          rel="noopener noreferer"
+        >
           Docs
           <MapIcon />
         </Button>

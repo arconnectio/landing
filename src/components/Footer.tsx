@@ -53,7 +53,11 @@ export default function Footer() {
           <LinkColumn>
             <ColumnTitle>Developers</ColumnTitle>
             {/*<Link href="/">Kit</Link>*/}
-            <a href="https://github.com/arconnectio/ArConnect#arconnect" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/arconnectio/ArConnect#arconnect"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Documentation
             </a>
             <a

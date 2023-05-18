@@ -2,31 +2,37 @@ import { Space_Grotesk } from "next/font/google";
 import TwitterIcon from "../social/TwitterIcon";
 import DiscordIcon from "../social/DiscordIcon";
 import { GlobeIcon } from "@iconicicons/react";
-import GithubIcon from "../social/GithubIcon"
+import GithubIcon from "../social/GithubIcon";
 import styled from "styled-components";
 import Image from "next/image";
-
 
 const spacegrotesk = Space_Grotesk({
   subsets: ["latin"],
   weight: "500"
 });
 
-const Application = ({ name, category, description, logo, thumbnail, links }: Props) => (
+const Application = ({
+  name,
+  category,
+  description,
+  assets,
+  links
+}: IApplication) => (
   <AppWrapper>
     <ThumbnailWrapper>
-      <Thumbnail src={thumbnail} alt={`${name} thumbnail`} width={512} height={422} draggable={false} />
+      <Thumbnail
+        src={assets.thumbnail}
+        alt={`${name} thumbnail`}
+        width={512}
+        height={422}
+        draggable={false}
+      />
     </ThumbnailWrapper>
     <AppData>
       <AppName>
         {name}
-        <Category>
-          {category}
-        </Category>
       </AppName>
-      <AppDescription>
-        {description}
-      </AppDescription>
+      <AppDescription>{description}</AppDescription>
       <Socials>
         {links.website && (
           <SocialLink href={links.website} site>
@@ -86,7 +92,7 @@ const Thumbnail = styled(Image)`
 const AppData = styled.div`
   display: flex;
   flex-direction: column;
-  gap: .4rem;
+  gap: 0.5rem;
   padding: 1rem ${smallSpace};
 `;
 
@@ -95,16 +101,10 @@ const AppName = styled.h2`
   align-items: center;
   font-size: 1.5rem;
   line-height: 1.1em;
-  color: rgb(${props => props.theme.primaryText});
+  color: rgb(${(props) => props.theme.primaryText});
   font-weight: 650;
   margin: 0;
-  gap: .4rem;
-`;
-
-const Category = styled.span`
-  font-size: 1.35rem;
-  text-transform: uppercase;
-  color: rgb(174, 173, 205);
+  gap: 0.4rem;
 `;
 
 const AppDescription = styled.p`
@@ -118,37 +118,39 @@ const AppDescription = styled.p`
 const Socials = styled.div`
   display: flex;
   align-items: center;
-  gap: .7rem;
-  padding-top: .25rem;
+  gap: 0.7rem;
+  padding-top: .15rem;
 `;
 
 const SocialLink = styled.a.attrs({
   target: "_blank",
   rel: "noopener noreferer"
-})<{ site?: boolean; }>`
+})<{ site?: boolean }>`
   display: flex;
   font-size: 1.2rem;
   text-decoration: none;
-  color: rgb(${props => props.theme.accent});
-  transition: all .23s ease-in-out;
+  color: rgb(${(props) => props.theme.accent});
+  transition: all 0.23s ease-in-out;
 
   svg {
-    font-size: ${props => props.site ? "1em" : ".77em"};
+    font-size: ${(props) => (props.site ? "1em" : ".77em")};
     width: 1em;
     height: 1em;
   }
 
   &:hover {
-    opacity: .75;
+    opacity: 0.75;
   }
 `;
 
-interface Props {
+export interface IApplication {
   name: string;
   category: string;
   description: string;
-  logo: string;
-  thumbnail: string;
+  assets: {
+    logo: string;
+    thumbnail: string;
+  };
   links: {
     website?: string;
     discord?: string;

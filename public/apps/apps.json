@@ -1,0 +1,17 @@
+[
+  {
+    "name": "ArDrive",
+    "category": "Storage",
+    "description": "ArDrive offers never-ending storage of your most valuable files. Pay once and save your memories forever.",
+    "assets": {
+      "logo": "/apps/ardrive/logo.png",
+      "thumbnail": "/apps/ardrive/thumbnail.png"
+    },
+    "links": {
+      "website": "https://ardrive.io",
+      "twitter": "https://twitter.com/ardriveapp",
+      "discord": "https://discord.com/invite/ya4hf2H",
+      "github": "https://github.com/ardriveapp"
+    }
+  }
+]

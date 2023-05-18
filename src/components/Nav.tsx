@@ -67,7 +67,13 @@ export default function Nav() {
               <NavLink href="/">Home</NavLink>
               <NavLink href="/support">Support</NavLink>
               {/**<NavLink href="/">Kit</NavLink>*/}
-              <NavLink href="https://chrome.google.com/webstore/detail/ekmpjilfjeghbjgddfgfbakkjmobfhhm" target="_blank" rel="noopener noreferer">Beta</NavLink>
+              <NavLink
+                href="https://chrome.google.com/webstore/detail/ekmpjilfjeghbjgddfgfbakkjmobfhhm"
+                target="_blank"
+                rel="noopener noreferer"
+              >
+                Beta
+              </NavLink>
             </NavPageLinks>
             <Link href="/download" passHref legacyBehavior>
               <Button>

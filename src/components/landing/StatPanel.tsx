@@ -28,7 +28,8 @@ const Wrapper = styled.div`
     padding: 30px 20px;
   }
 
-  h3, p {
+  h3,
+  p {
     line-height: 1.1em;
     margin: 0;
   }
