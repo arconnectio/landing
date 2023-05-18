@@ -66,7 +66,7 @@ const AppsSection = styled(Section)`
   display: grid;
   grid-template-columns: 1fr;
   justify-content: space-between;
-  gap: 1.9rem;
+  gap: 2.5rem;
   padding-bottom: 3.5rem;
 
   @media screen and (max-width: 980px) {

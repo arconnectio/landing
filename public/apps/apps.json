@@ -13,5 +13,35 @@
       "discord": "https://discord.com/invite/ya4hf2H",
       "github": "https://github.com/ardriveapp"
     }
+  },
+  {
+    "name": "Permaswap",
+    "category": "Exchange",
+    "description": "Permaswap is an engineering innovation to refactor AMM. Inspired by Arweave’s SmartWeave, we’ve proposed the SCP theory. By exploring SCP, we’re certain that the approach to building decentralized applications is not limited to the on-chain VM model and that the future of Dapp development will be diverse. The Permaswap Network will prove with a new architecture that decentralization should break the impossible triangle and provide users with a perfect experience.",
+    "assets": {
+      "logo": "/apps/permaswap/logo.png",
+      "thumbnail": "/apps/permaswap/thumbnail.png"
+    },
+    "links": {
+      "website": "https://permaswap.network/",
+      "twitter": "https://twitter.com/permaswap",
+      "discord": "https://discord.gg/WM5MQZGVPF",
+      "github": "https://github.com/permaswap"
+    }
+  },
+  {
+    "name": "Art By City",
+    "category": "NFTs",
+    "description": "Art By City is a chain-agnostic Web3 art and creative content protocol built on Arweave. The protocol is governed by the Art By City DAO. The Art By City DAO is a Profit Sharing Community or PSC. The Art By City community governs development of the Art By City protocol, dApps, and tools artists will need to take control of their Web3 experience.",
+    "assets": {
+      "logo": "/apps/artbycity/logo.png",
+      "thumbnail": "/apps/artbycity/thumbnail.png"
+    },
+    "links": {
+      "website": "https://artby.city",
+      "twitter": "https://twitter.com/artbycity",
+      "discord": "https://discord.gg/w4Yhc95b8p",
+      "github": "https://github.com/art-by-city"
+    }
   }
 ]

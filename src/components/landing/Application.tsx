@@ -79,22 +79,23 @@ const largeSpace = "2.6rem";
 const AppWrapper = styled.div<{ big?: boolean; }>`
   display: grid;
   align-items: center;
-  grid-template-columns: 14fr 30fr;
+  grid-template-columns: ${props => props.big ? "20fr 28fr" : "14fr 30fr"};
   grid-template-rows: 1fr;
   border-radius: ${props => props.big ? "45px" : "25px"};
   background-color: rgb(${(props) => props.theme.background});
   overflow: hidden;
   text-decoration: none;
+  ${props => props.big ? "height: 330px;" : ""}
 `;
 
 const ThumbnailWrapper = styled.div<{ big?: boolean; }>`
   position: relative;
-  height: ${props => props.big ? "300px" : "100%"};
+  height: 100%;
 `;
 
 const Thumbnail = styled(Image)`
   position: absolute;
-  object-fit: contain;
+  object-fit: cover;
   user-select: none;
   top: 0;
   bottom: 0;
