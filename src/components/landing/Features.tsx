@@ -1,5 +1,4 @@
-import { ArrowUpRightIcon, MapIcon } from "@iconicicons/react";
-import SectionTitle from "./SectionTitle";
+import { ArrowDownIcon, ArrowUpRightIcon, MapIcon } from "@iconicicons/react";
 import styled from "styled-components";
 import Button from "../Button";
 import Spacer from "../Spacer";
@@ -8,22 +7,14 @@ import Image from "next/image";
 export default function Features() {
   return (
     <Wrapper>
-      <SectionTitle>
-        Rest assured
-        <span>Your funds are now protected</span>
-      </SectionTitle>
-      <Spacer y={3.8} />
       <FeaturesWrapper>
         <NoPaddingFeatures>
           <Feature color="#262626">
-            <FeatureTitle color="#AB9AFF">A secure place</FeatureTitle>
-            <FeatureTitle color="#fff">For your assets</FeatureTitle>
-            <Spacer y={2.5} />
+            <FeatureTitle color="#AB9AFF">Manage assets</FeatureTitle>
+            <FeatureTitle color="#fff">View your activity</FeatureTitle>
+            <Spacer y={2} />
             <FeatureParagraph color="#dfdfdf">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              facilis non, modi excepturi dolorem rem voluptatum doloremque
-              explicabo temporibus at cumque, repellat ullam ex tempore aliquid
-              nostrum quaerat libero quos?
+              View Arweave-native token balances and NFTs across multiple wallets and seamlessly switch between accounts. Oversee real-time transaction history with access to view block, all in 1-click.
             </FeatureParagraph>
             <Spacer y={2.5} />
             <Image
@@ -36,14 +27,13 @@ export default function Features() {
           </Feature>
           <Spacer y={3} />
           <Feature color="#AB9AFF">
-            <FeatureTitle color="#000">Track balances</FeatureTitle>
-            <FeatureTitle color="#fff">See spendings</FeatureTitle>
-            <Spacer y={2.5} />
+            <FeatureTitle color="#000">Send and receive</FeatureTitle>
+            <FeatureTitle color="#fff">
+              tokens with ease
+            </FeatureTitle>
+            <Spacer y={2} />
             <FeatureParagraph color="#fff">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              facilis non, modi excepturi dolorem rem voluptatum doloremque
-              explicabo temporibus at cumque, repellat ullam ex tempore aliquid
-              nostrum quaerat libero quos?
+              Powerful token management with an easy-to-use interface. All wallet data is backed up by the secure browser extension storage API keeping your assets safe.
             </FeatureParagraph>
             <Spacer y={2.5} />
             <Image
@@ -56,29 +46,12 @@ export default function Features() {
           </Feature>
         </NoPaddingFeatures>
         <div>
-          <Spacer y={12} mobileY={0.05} />
+          <Spacer y={4} mobileY={0.05} />
           <Feature color="#fff">
             <FeatureTitle color="#AB9AFF">Take control</FeatureTitle>
             <FeatureTitle>Own your wallet</FeatureTitle>
-            <Spacer y={2.5} />
-            <FeatureParagraph>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              facilis non, modi excepturi dolorem rem voluptatum doloremque
-              explicabo temporibus at cumque, repellat ullam ex tempore aliquid
-              nostrum quaerat libero quos?
-            </FeatureParagraph>
             <Spacer y={2} />
-            <Button>
-              Learn more
-              <ArrowUpRightIcon />
-            </Button>
-          </Feature>
-          <Spacer y={3} />
-          <Feature color="#000">
-            <FeatureTitle color="#AB9AFF">We’ll be there</FeatureTitle>
-            <FeatureTitle color="#fff">Along the way</FeatureTitle>
-            <Spacer y={2.5} />
-            <FeatureParagraph color="#fff">
+            <FeatureParagraph>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
               facilis non, modi excepturi dolorem rem voluptatum doloremque
               explicabo temporibus at cumque, repellat ullam ex tempore aliquid
@@ -90,11 +63,30 @@ export default function Features() {
                 Get help
                 <ArrowUpRightIcon />
               </Button>
-              <Button href="https://github.com/arconnectio/ArConnect#arconnect" target="_blank" rel="noopener noreferer">
+              <Button
+                href="https://github.com/arconnectio/ArConnect#arconnect"
+                target="_blank"
+                rel="noopener noreferer"
+                color="0, 0, 0"
+              >
                 Docs
                 <MapIcon />
               </Button>
             </Buttons>
+          </Feature>
+          <Spacer y={3} />
+          <Feature color="#000">
+            <FeatureTitle color="#AB9AFF">Interact with</FeatureTitle>
+            <FeatureTitle color="#fff">Arweave apps</FeatureTitle>
+            <Spacer y={2} />
+            <FeatureParagraph color="#fff">
+              ArConnect is the secure gateway to the leading platforms in the growing Arweave ecosystem. Interact with dApps ranging from permanent storage, NFT marketplaces, exchanges and more.
+            </FeatureParagraph>
+            <Spacer y={2} />
+            <Button>
+              Learn more
+              <ArrowDownIcon />
+            </Button>
           </Feature>
         </div>
       </FeaturesWrapper>
@@ -102,11 +94,11 @@ export default function Features() {
   );
 }
 
-const Wrapper = styled.section`
-  padding: 7rem 10vw 4.5rem;
+const Wrapper = styled.div`
+  padding: 5.2rem 10vw 4.5rem;
 
   @media screen and (max-width: 720px) {
-    padding: 3.75rem 7vw;
+    padding: 3.7rem 7vw;
   }
 `;
 
@@ -121,7 +113,7 @@ const FeaturesWrapper = styled.div`
   }
 `;
 
-const Feature = styled.div<{ color: string }>`
+const Feature = styled.section<{ color: string }>`
   padding: 3rem;
   border-radius: 30px;
   background-color: ${(props) => props.color};
@@ -143,8 +135,8 @@ const Feature = styled.div<{ color: string }>`
   }
 `;
 
-const FeatureTitle = styled.h3<{ color?: string }>`
-  font-size: 3.8rem;
+const FeatureTitle = styled.h2<{ color?: string }>`
+  font-size: 3.2rem;
   font-weight: 650;
   line-height: 1.15em;
   margin: 0;
@@ -177,11 +169,6 @@ const Buttons = styled.div`
     width: 140px;
     padding-left: 0;
     padding-right: 0;
-  }
-
-  ${Button}:nth-child(2) {
-    background-color: #fff;
-    color: #000;
   }
 `;
 
