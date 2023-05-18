@@ -44,10 +44,10 @@ export default function Hero() {
       </Buttons>
       <Spacer y={7} />
       <Stats>
-        <StatPanel icon={<DownloadIcon />} name="Installs" value={15600} />
+        <StatPanel icon={<DownloadIcon />} name="Installs" value={17245} />
         <StatPanel icon={<TagIcon />} name="Releases" value={26} />
         <StatLink href="/apps">
-          <StatPanel icon={<GridIcon />} name="Apps" value={54} />
+          <StatPanel icon={<GridIcon />} name="Apps" value={20} plus />
         </StatLink>
         <StatPanel icon={<CodeIcon />} name="API functions" value={16} />
       </Stats>

@@ -48,14 +48,11 @@ export default function Features() {
         <div>
           <Spacer y={4} mobileY={0.05} />
           <Feature color="#fff">
-            <FeatureTitle color="#AB9AFF">Take control</FeatureTitle>
-            <FeatureTitle>Own your wallet</FeatureTitle>
+            <FeatureTitle color="#AB9AFF">Focus on the</FeatureTitle>
+            <FeatureTitle>development</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              facilis non, modi excepturi dolorem rem voluptatum doloremque
-              explicabo temporibus at cumque, repellat ullam ex tempore aliquid
-              nostrum quaerat libero quos?
+              ArConnect makes it simple for developers to spend their time on what matters: coding. It's easy to integrate our API and debug your apps with our selection of developer tools.
             </FeatureParagraph>
             <Spacer y={2} />
             <Buttons>
@@ -63,6 +60,12 @@ export default function Features() {
                 Get help
                 <ArrowUpRightIcon />
               </Button>
+              {/**
+              <Button href="https://docs.arconnect.io/developer-tooling/arconnect-devtools" target="_blank" rel="noopener noreferer">
+                Tooling
+                <ArrowUpRightIcon />
+              </Button>
+              */}
               <Button
                 href="https://github.com/arconnectio/ArConnect#arconnect"
                 target="_blank"
