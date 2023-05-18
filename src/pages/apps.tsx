@@ -1,5 +1,6 @@
-import Application, { IApplication } from "~/components/landing/Application";
+import { Application as ApplicationInterface, getApps } from "../utils/apps";
 import { Description, Title } from "~/components/content/Text";
+import Application from "~/components/landing/Application";
 import Background from "~/components/landing/Background";
 import Section from "~/components/content/Section";
 import Spacer from "~/components/Spacer";
@@ -7,9 +8,7 @@ import Footer from "~/components/Footer";
 import styled from "styled-components";
 import { GetStaticProps } from "next";
 import Head from "~/components/Head";
-import { promises as fs } from "fs";
 import Nav from "~/components/Nav";
-import path from "path";
 
 export default function Apps({ applications }: Props) {
   return (
@@ -45,16 +44,10 @@ export default function Apps({ applications }: Props) {
 }
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  // apps file location
-  const appsFileLoc = path.join(process.cwd(), "./public/apps/apps.json");
-
-  // read file
-  const fileContents = await fs.readFile(appsFileLoc, "utf8");
+  const applications = await getApps();
 
   return {
-    props: {
-      applications: JSON.parse(fileContents)
-    }
+    props: { applications }
   };
 };
 
@@ -80,5 +73,5 @@ const AppsSection = styled(Section)`
 `;
 
 interface Props {
-  applications: IApplication[];
+  applications: ApplicationInterface[];
 }

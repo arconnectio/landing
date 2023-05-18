@@ -86,7 +86,7 @@ export default function Features() {
               ArConnect is the secure gateway to the leading platforms in the growing Arweave ecosystem. Interact with dApps ranging from permanent storage, NFT marketplaces, exchanges and more.
             </FeatureParagraph>
             <Spacer y={2} />
-            <Button>
+            <Button href="#apps">
               Learn more
               <ArrowDownIcon />
             </Button>

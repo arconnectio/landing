@@ -35,6 +35,10 @@ const theme: DefaultTheme = {
 };
 
 const GlobalStyles = createGlobalStyle`
+  * {
+    scroll-behavior: smooth;
+  }
+
   body {
     margin: 0;
   }

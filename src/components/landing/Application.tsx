@@ -1,9 +1,10 @@
+import { Application as ApplicationInterface } from "../../utils/apps";
 import { ArrowRightIcon, GlobeIcon } from "@iconicicons/react";
 import { Space_Grotesk } from "next/font/google";
 import TwitterIcon from "../social/TwitterIcon";
 import DiscordIcon from "../social/DiscordIcon";
 import GithubIcon from "../social/GithubIcon";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import Button from "../Button";
 import Image from "next/image";
 
@@ -21,11 +22,12 @@ const Application = ({
   full = false
 }: Props) => (
   <AppWrapper big={full}>
-    <ThumbnailWrapper big={full}>
+    <ThumbnailWrapper>
       <Thumbnail
-        src={assets.thumbnail}
+        src={!full ? assets.logo : assets.thumbnail}
         alt={`${name} thumbnail`}
         draggable={false}
+        big={full}
       />
     </ThumbnailWrapper>
     <Content big={full}>
@@ -66,7 +68,6 @@ const Application = ({
           </Button>
         )}
       </Footer>
-    
     </Content>
   </AppWrapper>
 );
@@ -86,21 +87,23 @@ const AppWrapper = styled.div<{ big?: boolean; }>`
   ${props => props.big ? "height: 330px;" : ""}
 `;
 
-const ThumbnailWrapper = styled.div<{ big?: boolean; }>`
+const ThumbnailWrapper = styled.div`
   position: relative;
   height: 100%;
 `;
 
-const Thumbnail = styled.img`
+const Thumbnail = styled.img<{ big?: boolean; }>`
   position: absolute;
-  object-fit: cover;
+  object-fit: ${props => props.big ? "cover" : "contain"};
   user-select: none;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
+  padding-left: ${props => props.big ? "0" : smallSpace};
+  top: ${props => props.big ? "0" : "50%"};
+  bottom: ${props => props.big ? "0" : "unset"};
+  left: ${props => props.big ? "0" : "50%"};
+  right: ${props => props.big ? "0" : "unset"};
+  width: ${props => props.big ? "100%" : "80%"};
+  height: ${props => props.big ? "100%" : "80%"};
+  transform: translate(${props => props.big ? "0, 0" : "-50%, -50%"});
 `;
 
 const Content = styled.div<{ big?: boolean; }>`
@@ -138,12 +141,21 @@ const AppName = styled.h2<{ big?: boolean; }>`
   gap: 0.4rem;
 `;
 
+const shortenCss = css`
+  overflow: hidden;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+`;
+
 const AppDescription = styled.p<{ big?: boolean; }>`
   ${spacegrotesk.style}
   font-size: ${props => props.big ? "1rem" : ".8rem"};
   color: rgb(174, 173, 205);
   margin: 0;
   text-align: justify;
+  ${props => !props.big ? shortenCss : ""}
 `;
 
 const Footer = styled.div`
@@ -182,23 +194,7 @@ const SocialLink = styled.a.attrs({
   }
 `;
 
-export interface IApplication {
-  name: string;
-  category: string;
-  description: string;
-  assets: {
-    logo: string;
-    thumbnail: string;
-  };
-  links: {
-    website?: string;
-    discord?: string;
-    twitter?: string;
-    github?: string;
-  };
-}
-
-interface Props extends IApplication {
+interface Props extends ApplicationInterface {
   full?: boolean;
 }
 
