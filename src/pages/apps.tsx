@@ -23,12 +23,7 @@ export default function Apps() {
           </Description>
         </Section>
         <AppsSection>
-          <Application name="ArDrive" description="ArDrive offers never-ending storage of your most valuable files. Pay once and save your memories forever." logo="/apps/ardrive.png" href="https://ardrive.io" />
-          <Application name="ArDrive" description="ArDrive offers never-ending storage of your most valuable files. Pay once and save your memories forever." logo="/apps/ardrive.png" href="https://ardrive.io" />
-          <Application name="ArDrive" description="ArDrive offers never-ending storage of your most valuable files. Pay once and save your memories forever." logo="/apps/ardrive.png" href="https://ardrive.io" />
-          <Application name="ArDrive" description="ArDrive offers never-ending storage of your most valuable files. Pay once and save your memories forever." logo="/apps/ardrive.png" href="https://ardrive.io" />
-          <Application name="ArDrive" description="ArDrive offers never-ending storage of your most valuable files. Pay once and save your memories forever." logo="/apps/ardrive.png" href="https://ardrive.io" />
-          <Application name="ArDrive" description="ArDrive offers never-ending storage of your most valuable files. Pay once and save your memories forever." logo="/apps/ardrive.png" href="https://ardrive.io" />
+          <Application name="ArDrive" category="Storage" description="ArDrive offers never-ending storage of your most valuable files. Pay once and save your memories forever." logo="/apps/ardrive/logo.png" thumbnail="/apps/ardrive/thumbnail.png" links={{ website: "https://ardrive.io", twitter: "https://twitter.com/ardriveapp", discord: "https://discord.com/invite/ya4hf2H", github: "https://github.com/ardriveapp" }} />
         </AppsSection>
         <Background />
       </Main>
