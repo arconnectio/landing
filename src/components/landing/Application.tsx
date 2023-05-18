@@ -1,14 +1,15 @@
+import { ArrowRightIcon, GlobeIcon } from "@iconicicons/react";
 import { Space_Grotesk } from "next/font/google";
 import TwitterIcon from "../social/TwitterIcon";
 import DiscordIcon from "../social/DiscordIcon";
-import { GlobeIcon } from "@iconicicons/react";
 import GithubIcon from "../social/GithubIcon";
 import styled from "styled-components";
+import Button from "../Button";
 import Image from "next/image";
 
 const spacegrotesk = Space_Grotesk({
   subsets: ["latin"],
-  weight: "500"
+  weight: "400"
 });
 
 const Application = ({
@@ -16,10 +17,11 @@ const Application = ({
   category,
   description,
   assets,
-  links
-}: IApplication) => (
-  <AppWrapper>
-    <ThumbnailWrapper>
+  links,
+  full = false
+}: Props) => (
+  <AppWrapper big={full}>
+    <ThumbnailWrapper big={full}>
       <Thumbnail
         src={assets.thumbnail}
         alt={`${name} thumbnail`}
@@ -28,53 +30,66 @@ const Application = ({
         draggable={false}
       />
     </ThumbnailWrapper>
+    <Content big={full}>
     <AppData>
-      <AppName>
+      {full && <AppLogo src={assets.logo} width={1028} height={1028} alt={`${name} logo`} />}
+      <AppName big={full}>
         {name}
       </AppName>
-      <AppDescription>{description}</AppDescription>
-      <Socials>
-        {links.website && (
-          <SocialLink href={links.website} site>
-            <GlobeIcon />
-          </SocialLink>
+      <AppDescription big={full}>{description}</AppDescription>
+      </AppData>
+      <Footer>
+        <Socials big={full}>
+          {links.website && !full && (
+            <SocialLink href={links.website} site>
+              <GlobeIcon />
+            </SocialLink>
+          )}
+          {links.twitter && (
+            <SocialLink href={links.twitter}>
+              <TwitterIcon />
+            </SocialLink>
+          )}
+          {links.discord && (
+            <SocialLink href={links.discord}>
+              <DiscordIcon />
+            </SocialLink>
+          )}
+          {links.github && (
+            <SocialLink href={links.github}>
+              <GithubIcon />
+            </SocialLink>
+          )}
+        </Socials>
+        {full && (
+          <Button href={links.website} target="_blank" rel="noopener noreferer">
+            Learn more
+            <ArrowRightIcon />
+          </Button>
         )}
-        {links.twitter && (
-          <SocialLink href={links.twitter}>
-            <TwitterIcon />
-          </SocialLink>
-        )}
-        {links.discord && (
-          <SocialLink href={links.discord}>
-            <DiscordIcon />
-          </SocialLink>
-        )}
-        {links.github && (
-          <SocialLink href={links.github}>
-            <GithubIcon />
-          </SocialLink>
-        )}
-      </Socials>
-    </AppData>
+      </Footer>
+    
+    </Content>
   </AppWrapper>
 );
 
 const smallSpace = "1.2rem";
+const largeSpace = "2.6rem";
 
-const AppWrapper = styled.div`
+const AppWrapper = styled.div<{ big?: boolean; }>`
   display: grid;
   align-items: center;
   grid-template-columns: 14fr 30fr;
   grid-template-rows: 1fr;
-  border-radius: 25px;
+  border-radius: ${props => props.big ? "45px" : "25px"};
   background-color: rgb(${(props) => props.theme.background});
   overflow: hidden;
   text-decoration: none;
 `;
 
-const ThumbnailWrapper = styled.div`
+const ThumbnailWrapper = styled.div<{ big?: boolean; }>`
   position: relative;
-  height: 100%;
+  height: ${props => props.big ? "300px" : "100%"};
 `;
 
 const Thumbnail = styled(Image)`
@@ -89,17 +104,34 @@ const Thumbnail = styled(Image)`
   height: 100%;
 `;
 
+const Content = styled.div<{ big?: boolean; }>`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.65rem;
+  padding: ${props => props.big ? "1.5rem" : "1rem"} ${props => props.big ? largeSpace : smallSpace};
+  ${props => props.big ? "height: calc(100% - 3rem);" : ""}
+`;
+
 const AppData = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding: 1rem ${smallSpace};
 `;
 
-const AppName = styled.h2`
+const AppLogo = styled(Image).attrs({
+  draggable: false
+})`
+  user-select: none;
+  width: 2.35rem;
+  height: 2.35rem;
+  object-fit: contain;
+`;
+
+const AppName = styled.h2<{ big?: boolean; }>`
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: ${props => props.big ? "1.85rem" : "1.5rem"};
   line-height: 1.1em;
   color: rgb(${(props) => props.theme.primaryText});
   font-weight: 650;
@@ -107,19 +139,28 @@ const AppName = styled.h2`
   gap: 0.4rem;
 `;
 
-const AppDescription = styled.p`
+const AppDescription = styled.p<{ big?: boolean; }>`
   ${spacegrotesk.style}
-  font-size: .8rem;
+  font-size: ${props => props.big ? "1rem" : ".8rem"};
   color: rgb(174, 173, 205);
   margin: 0;
   text-align: justify;
 `;
 
-const Socials = styled.div`
+const Footer = styled.div`
   display: flex;
   align-items: center;
-  gap: 0.7rem;
-  padding-top: .15rem;
+  justify-content: space-between;
+`;
+
+const Socials = styled.div<{ big?: boolean; }>`
+  display: flex;
+  align-items: center;
+  gap: ${props => props.big ? "0.9rem" : "0.7rem"};
+
+  a {
+    font-size: ${props => props.big ? "1.5rem" : "1.2rem"};
+  }
 `;
 
 const SocialLink = styled.a.attrs({
@@ -127,7 +168,6 @@ const SocialLink = styled.a.attrs({
   rel: "noopener noreferer"
 })<{ site?: boolean }>`
   display: flex;
-  font-size: 1.2rem;
   text-decoration: none;
   color: rgb(${(props) => props.theme.accent});
   transition: all 0.23s ease-in-out;
@@ -157,6 +197,10 @@ export interface IApplication {
     twitter?: string;
     github?: string;
   };
+}
+
+interface Props extends IApplication {
+  full?: boolean;
 }
 
 export default Application;

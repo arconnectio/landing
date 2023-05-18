@@ -35,7 +35,7 @@ export default function Apps({ applications }: Props) {
           </Description>
         </Section>
         <AppsSection>
-          {applications.map((app, i) => <Application {...app} key={i} />)}
+          {applications.map((app, i) => <Application {...app} key={i} full />)}
         </AppsSection>
         <Background />
       </Main>
@@ -64,7 +64,7 @@ const Main = styled.main`
 
 const AppsSection = styled(Section)`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   justify-content: space-between;
   gap: 1.9rem;
   padding-bottom: 3.5rem;
