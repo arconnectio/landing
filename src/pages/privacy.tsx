@@ -22,7 +22,7 @@ export default function Privacy() {
         <Section>
           <Title>Privacy Policy</Title>
           <Spacer y={1} />
-          <Description>Last updated: February 20, 2023</Description>
+          <Description>Last updated: May 18, 2023</Description>
           <Spacer y={1.35} />
           <Paragraph>
             ArConnect, a product and company of Th8ta LLC, (hereinafter
@@ -50,7 +50,10 @@ export default function Privacy() {
             controller located at:
           </Paragraph>
           <Spacer y={1} />
-          <Paragraph>Th8ta LLC, 800 Academy Street, Salem, VA, 24153</Paragraph>
+          <Paragraph>
+            C/O Not Community Labs<br />
+            344 Grove St #4038, Jersey City, NJ 07302
+          </Paragraph>
         </Section>
         <Section>
           <Subtitle>Information We Collect and Process</Subtitle>
@@ -366,7 +369,9 @@ export default function Privacy() {
             You may also write to us at the following address:
           </Paragraph>
           <Spacer y={1} />
-          <Paragraph>800 Academy Street, Salem, VA, 24153</Paragraph>
+          <Paragraph>
+            344 Grove St #4038, Jersey City, NJ 07302
+          </Paragraph>
           <Spacer y={1} />
           <Paragraph>
             If you are located in the European Union, United Kingdom, or
