@@ -43,5 +43,49 @@
       "discord": "https://discord.gg/w4Yhc95b8p",
       "github": "https://github.com/art-by-city"
     }
+  },
+  {
+    "name": "ECHO",
+    "category": "Social",
+    "description": "ECHO is the first decentralized social engagement protocol based on Arweave. Its goal is to provide the fundamental infrastructure of Web3 social by introducing the first comment widget that can be deployed on any Web3 website with permanent data storage, so that users can speak up for themselves in a decentralized, permissionless, and censorship-resistant environment. ",
+    "assets": {
+      "logo": "/apps/echo/logo.svg",
+      "thumbnail": "/apps/echo/thumbnail.png"
+    },
+    "links": {
+      "website": "https://0xecho.com",
+      "twitter": "https://twitter.com/0x_ECHO",
+      "discord": "https://discord.gg/KFxyaw9Wdj",
+      "github": "https://github.com/0x-echo"
+    }
+  },
+  {
+    "name": "Permafacts",
+    "category": "Social",
+    "description": "A provably neutral publishing platform, built on top of the #FactsProtocol, aimed at dis-intermediating the truth. Publish assertions, and take your position in the Fact Marketplace!",
+    "assets": {
+      "logo": "/apps/permafacts/logo.svg",
+      "thumbnail": "/apps/permafacts/thumbnail.png"
+    },
+    "links": {
+      "website": "https://permafacts.arweave.dev",
+      "twitter": "https://twitter.com/permafacts",
+      "discord": "https://discord.gg/uGg8VAvqU7",
+      "github": "https://github.com/facts-laboratory"
+    }
+  },
+  {
+    "name": "Pianity",
+    "category": "NFTs",
+    "description": "Pianity is a music NFT platform – built on environmentally-conscious Arweave technology — where musicians and their community gather to create, sell, buy and collect songs in limited editions. Pianity’s pioneering approach, which includes free listening for all, enables deeper connections between artists and their audience.",
+    "assets": {
+      "logo": "/apps/pianity/logo.png",
+      "thumbnail": "/apps/pianity/thumbnail.png"
+    },
+    "links": {
+      "website": "https://pianity.com",
+      "twitter": "https://twitter.com/pianitynft",
+      "discord": "https://discord.gg/pianity"
+    }
   }
 ]

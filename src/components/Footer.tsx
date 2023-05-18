@@ -35,8 +35,7 @@ export default function Footer() {
         <Links>
           <LinkColumn>
             <ColumnTitle>About</ColumnTitle>
-            <Link href="/">Home</Link>
-            <Link href="/download">Download</Link>
+            <Link href="/apps">Apps</Link>
             <a href="" target="_blank" rel="noopener noreferrer">
               Blog
             </a>

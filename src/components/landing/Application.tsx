@@ -25,8 +25,6 @@ const Application = ({
       <Thumbnail
         src={assets.thumbnail}
         alt={`${name} thumbnail`}
-        width={512}
-        height={422}
         draggable={false}
       />
     </ThumbnailWrapper>
@@ -93,7 +91,7 @@ const ThumbnailWrapper = styled.div<{ big?: boolean; }>`
   height: 100%;
 `;
 
-const Thumbnail = styled(Image)`
+const Thumbnail = styled.img`
   position: absolute;
   object-fit: cover;
   user-select: none;
