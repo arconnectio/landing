@@ -34,7 +34,9 @@ export default function Apps({ applications }: Props) {
           </Description>
         </Section>
         <AppsSection>
-          {applications.map((app, i) => <Application {...app} key={i} full />)}
+          {applications.map((app, i) => (
+            <Application {...app} key={i} full />
+          ))}
         </AppsSection>
         <Background />
       </Main>

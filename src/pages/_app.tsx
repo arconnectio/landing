@@ -1,15 +1,29 @@
+import { useAnalytics } from "~/utils/analytics";
+import { Manrope } from "next/font/google";
+import type { AppProps } from "next/app";
+import { useEffect } from "react";
+import ReactGA from "react-ga4";
+import Head from "next/head";
 import {
   ThemeProvider,
   DefaultTheme,
   createGlobalStyle
 } from "styled-components";
-import { Manrope } from "next/font/google";
-import type { AppProps } from "next/app";
-import Head from "next/head";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }: AppProps) {
+  const [optedInGA] = useAnalytics();
+
+  useEffect(() => {
+    // initially "optedInGA" is false, so if the user
+    // opted out from analytics, it will never get
+    // initialized
+    if (!optedInGA) return;
+
+    ReactGA.initialize("G-WQVBVMB5G6");
+  }, [optedInGA]);
+
   return (
     <div className={manrope.className}>
       <Head>
@@ -41,6 +55,10 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     margin: 0;
+
+    @media screen and (max-width: 720px) {
+      background-color: rgba(${(props) => props.theme.accent}, .08);
+    }
   }
 
   ::selection {

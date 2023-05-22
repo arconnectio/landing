@@ -14,7 +14,9 @@ export default function Features() {
             <FeatureTitle color="#fff">View your activity</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph color="#dfdfdf">
-              View Arweave-native token balances and NFTs across multiple wallets and seamlessly switch between accounts. Oversee real-time transaction history with access to view block, all in 1-click.
+              View Arweave-native token balances and NFTs across multiple
+              wallets and seamlessly switch between accounts. Oversee real-time
+              transaction history with access to view block, all in 1-click.
             </FeatureParagraph>
             <Spacer y={2.5} />
             <Image
@@ -28,12 +30,12 @@ export default function Features() {
           <Spacer y={3} />
           <Feature color="#AB9AFF">
             <FeatureTitle color="#000">Send and receive</FeatureTitle>
-            <FeatureTitle color="#fff">
-              tokens with ease
-            </FeatureTitle>
+            <FeatureTitle color="#fff">tokens with ease</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph color="#fff">
-              Powerful token management with an easy-to-use interface. All wallet data is backed up by the secure browser extension storage API keeping your assets safe.
+              Powerful token management with an easy-to-use interface. All
+              wallet data is backed up by the secure browser extension storage
+              API keeping your assets safe.
             </FeatureParagraph>
             <Spacer y={2.5} />
             <Image
@@ -52,7 +54,9 @@ export default function Features() {
             <FeatureTitle>development</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph>
-              ArConnect makes it simple for developers to spend their time on what matters: coding. It's easy to integrate our API and debug your apps with our selection of developer tools.
+              ArConnect makes it simple for developers to spend their time on
+              what matters: coding. It's easy to integrate our API and debug
+              your apps with our selection of developer tools.
             </FeatureParagraph>
             <Spacer y={2} />
             <Buttons>
@@ -83,7 +87,9 @@ export default function Features() {
             <FeatureTitle color="#fff">Arweave apps</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph color="#fff">
-              ArConnect is the secure gateway to the leading platforms in the growing Arweave ecosystem. Interact with dApps ranging from permanent storage, NFT marketplaces, exchanges and more.
+              ArConnect is the secure gateway to the leading platforms in the
+              growing Arweave ecosystem. Interact with dApps ranging from
+              permanent storage, NFT marketplaces, exchanges and more.
             </FeatureParagraph>
             <Spacer y={2} />
             <Button href="#apps">

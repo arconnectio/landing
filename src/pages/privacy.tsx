@@ -7,6 +7,7 @@ import {
 } from "~/components/content/Text";
 import Background from "~/components/landing/Background";
 import Section from "~/components/content/Section";
+import { useAnalytics } from "~/utils/analytics";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import styled from "styled-components";
@@ -14,6 +15,9 @@ import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 
 export default function Privacy() {
+  // google analytics
+  const [optedIn, toggle] = useAnalytics();
+
   return (
     <>
       <Head title="Privacy Policy - ArConnect Arweave Wallet" />
@@ -51,7 +55,8 @@ export default function Privacy() {
           </Paragraph>
           <Spacer y={1} />
           <Paragraph>
-            C/O Not Community Labs<br />
+            C/O Not Community Labs
+            <br />
             344 Grove St #4038, Jersey City, NJ 07302
           </Paragraph>
         </Section>
@@ -273,6 +278,10 @@ export default function Privacy() {
             Our Site is not designed to respond to "do not track" requests from
             browsers.
           </Paragraph>
+          <Paragraph>
+            You can click <OptOutLink onClick={toggle}>here</OptOutLink> to opt{" "}
+            {optedIn ? "out from" : "in to"} Google Analytics.
+          </Paragraph>
           <Spacer y={2} />
           <ParagraphTitle>”Shine the Light” and “Eraser” Laws</ParagraphTitle>
           <Spacer y={1} />
@@ -369,9 +378,7 @@ export default function Privacy() {
             You may also write to us at the following address:
           </Paragraph>
           <Spacer y={1} />
-          <Paragraph>
-            344 Grove St #4038, Jersey City, NJ 07302
-          </Paragraph>
+          <Paragraph>344 Grove St #4038, Jersey City, NJ 07302</Paragraph>
           <Spacer y={1} />
           <Paragraph>
             If you are located in the European Union, United Kingdom, or
@@ -413,4 +420,10 @@ const Table = styled.table`
   tr:nth-child(even) {
     background-color: rgba(${(props) => props.theme.accent}, 0.2);
   }
+`;
+
+const OptOutLink = styled.span`
+  color: rgb(${(props) => props.theme.accent});
+  text-decoration: none;
+  cursor: pointer;
 `;

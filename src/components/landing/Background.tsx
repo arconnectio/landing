@@ -18,6 +18,10 @@ const Wrapper = styled.div`
   bottom: 0;
   overflow-x: hidden;
   z-index: -1;
+
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
 `;
 
 const Gradient1 = styled.div`

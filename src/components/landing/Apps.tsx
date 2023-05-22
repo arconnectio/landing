@@ -21,7 +21,9 @@ export default function Apps({ apps }: Props) {
       </SectionTitle>
       <Spacer y={3.4} />
       <AppsGrid>
-        {apps.slice(0, 3).map((app, i) => <Application {...app} key={i} />)}
+        {apps.slice(0, 3).map((app, i) => (
+          <Application {...app} key={i} />
+        ))}
       </AppsGrid>
       <Spacer y={1.85} />
       <Footer>
@@ -64,10 +66,10 @@ const ViewAllLink = styled(Link)`
   display: flex;
   font-size: 1.1rem;
   align-items: center;
-  color: rgb(${props => props.theme.accent});
+  color: rgb(${(props) => props.theme.accent});
   text-decoration: none;
-  gap: .35rem;
-  transition: all .23s ease-in-out;
+  gap: 0.35rem;
+  transition: all 0.23s ease-in-out;
 
   svg {
     font-size: 1.185em;
@@ -76,7 +78,7 @@ const ViewAllLink = styled(Link)`
   }
 
   &:hover {
-    opacity: .8;
+    opacity: 0.8;
   }
 `;
 

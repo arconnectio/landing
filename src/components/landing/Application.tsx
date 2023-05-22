@@ -31,12 +31,17 @@ const Application = ({
       />
     </ThumbnailWrapper>
     <Content big={full}>
-    <AppData>
-      {full && <AppLogo src={assets.logo} width={1028} height={1028} alt={`${name} logo`} />}
-      <AppName big={full}>
-        {name}
-      </AppName>
-      <AppDescription big={full}>{description}</AppDescription>
+      <AppData>
+        {full && (
+          <AppLogo
+            src={assets.logo}
+            width={1028}
+            height={1028}
+            alt={`${name} logo`}
+          />
+        )}
+        <AppName big={full}>{name}</AppName>
+        <AppDescription big={full}>{description}</AppDescription>
       </AppData>
       <Footer>
         <Socials big={full}>
@@ -75,16 +80,22 @@ const Application = ({
 const smallSpace = "1.2rem";
 const largeSpace = "2.6rem";
 
-const AppWrapper = styled.div<{ big?: boolean; }>`
+const AppWrapper = styled.div<{ big?: boolean }>`
   display: grid;
   align-items: center;
-  grid-template-columns: ${props => props.big ? "20fr 28fr" : "14fr 30fr"};
+  grid-template-columns: ${(props) => (props.big ? "20fr 28fr" : "14fr 30fr")};
   grid-template-rows: 1fr;
-  border-radius: ${props => props.big ? "45px" : "25px"};
+  border-radius: ${(props) => (props.big ? "45px" : "25px")};
   background-color: rgb(${(props) => props.theme.background});
   overflow: hidden;
   text-decoration: none;
-  ${props => props.big ? "height: 330px;" : ""}
+  ${(props) => (props.big ? "height: 330px;" : "")}
+
+  @media screen and (max-width: 720px) {
+    display: ${props => props.big ? "flex" : "grid"};
+    flex-direction: column;
+    height: auto;
+  }
 `;
 
 const ThumbnailWrapper = styled.div`
@@ -92,27 +103,57 @@ const ThumbnailWrapper = styled.div`
   height: 100%;
 `;
 
-const Thumbnail = styled.img<{ big?: boolean; }>`
+const Thumbnail = styled.img<{ big?: boolean }>`
   position: absolute;
-  object-fit: ${props => props.big ? "cover" : "contain"};
+  object-fit: ${(props) => (props.big ? "cover" : "contain")};
   user-select: none;
-  padding-left: ${props => props.big ? "0" : smallSpace};
-  top: ${props => props.big ? "0" : "50%"};
-  bottom: ${props => props.big ? "0" : "unset"};
-  left: ${props => props.big ? "0" : "50%"};
-  right: ${props => props.big ? "0" : "unset"};
-  width: ${props => props.big ? "100%" : "80%"};
-  height: ${props => props.big ? "100%" : "80%"};
-  transform: translate(${props => props.big ? "0, 0" : "-50%, -50%"});
+  padding-left: ${(props) => (props.big ? "0" : smallSpace)};
+  top: ${(props) => (props.big ? "0" : "50%")};
+  bottom: ${(props) => (props.big ? "0" : "unset")};
+  left: ${(props) => (props.big ? "0" : "50%")};
+  right: ${(props) => (props.big ? "0" : "unset")};
+  width: ${(props) => (props.big ? "100%" : "80%")};
+  height: ${(props) => (props.big ? "100%" : "80%")};
+  transform: translate(${(props) => (props.big ? "0, 0" : "-50%, -50%")});
+
+  @media screen and (max-width: 720px) {
+    ${(props) => {
+      if (!props.big) return "";
+
+      return `
+        position: relative;
+        top: unset;
+        bottom: unset;
+        left: unset;
+        right: unset;
+        width: 100%;
+        height: 240px;
+      `;
+    }}
+  }
 `;
 
-const Content = styled.div<{ big?: boolean; }>`
+const Content = styled.div<{ big?: boolean }>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 0.65rem;
-  padding: ${props => props.big ? "1.5rem" : "1rem"} ${props => props.big ? largeSpace : smallSpace};
-  ${props => props.big ? "height: calc(100% - 3rem);" : ""}
+  padding: ${(props) => (props.big ? "1.5rem" : "1rem")}
+    ${(props) => (props.big ? largeSpace : smallSpace)};
+  ${(props) => (props.big ? "height: calc(100% - 3rem);" : "")}
+
+  @media screen and (max-width: 720px) {
+    ${(props) => props.big ? "height: auto;" : ""}
+    ${(props) => {
+      if (!props.big) return "";
+
+      return `
+        padding: 1.5rem;
+        height: auto;
+        gap: 1.5rem;
+      `;
+    }}
+  }
 `;
 
 const AppData = styled.div`
@@ -130,10 +171,10 @@ const AppLogo = styled(Image).attrs({
   object-fit: contain;
 `;
 
-const AppName = styled.h2<{ big?: boolean; }>`
+const AppName = styled.h2<{ big?: boolean }>`
   display: flex;
   align-items: center;
-  font-size: ${props => props.big ? "1.85rem" : "1.5rem"};
+  font-size: ${(props) => (props.big ? "1.85rem" : "1.5rem")};
   line-height: 1.1em;
   color: rgb(${(props) => props.theme.primaryText});
   font-weight: 650;
@@ -149,13 +190,13 @@ const shortenCss = css`
   -webkit-box-orient: vertical;
 `;
 
-const AppDescription = styled.p<{ big?: boolean; }>`
+const AppDescription = styled.p<{ big?: boolean }>`
   ${spacegrotesk.style}
-  font-size: ${props => props.big ? "1rem" : ".8rem"};
+  font-size: ${(props) => (props.big ? "1rem" : ".8rem")};
   color: rgb(174, 173, 205);
   margin: 0;
   text-align: justify;
-  ${props => !props.big ? shortenCss : ""}
+  ${(props) => (!props.big ? shortenCss : "")}
 `;
 
 const Footer = styled.div`
@@ -164,13 +205,13 @@ const Footer = styled.div`
   justify-content: space-between;
 `;
 
-const Socials = styled.div<{ big?: boolean; }>`
+const Socials = styled.div<{ big?: boolean }>`
   display: flex;
   align-items: center;
-  gap: ${props => props.big ? "0.9rem" : "0.7rem"};
+  gap: ${(props) => (props.big ? "0.9rem" : "0.7rem")};
 
   a {
-    font-size: ${props => props.big ? "1.5rem" : "1.2rem"};
+    font-size: ${(props) => (props.big ? "1.5rem" : "1.2rem")};
   }
 `;
 
