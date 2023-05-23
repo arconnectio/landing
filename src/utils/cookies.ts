@@ -26,22 +26,30 @@ export function useAnalytics(): [boolean, () => void] {
   return [optedIn, toggle];
 }
 
-export function useCookies(): [boolean, () => void] {
-  const [optedIn, setOptedIn] = useState(false);
+export function useCookies(): [boolean | undefined, (v?: boolean) => void] {
+  const [optedIn, setOptedIn] = useState<boolean>();
 
   // load stored value
   useEffect(() => {
     const storedVal = localStorage.getItem(COOKIES_STORAGE_KEY);
 
-    setOptedIn(storedVal === "true");
+    setOptedIn(typeof storedVal === "string" ? storedVal === "true" : undefined);
   }, []);
 
-  function toggle() {
+  function toggle(v?: boolean) {
     const storedVal = localStorage.getItem(COOKIES_STORAGE_KEY);
-    const newVal = storedVal !== "true";
+    const newVal = typeof v !== "undefined" ? v : (storedVal !== "true");
 
+    // set consent
+    consentGA("update", newVal);
+    setOptedIn(newVal);
     localStorage.setItem(COOKIES_STORAGE_KEY, newVal.toString());
-    location.reload();
+
+    // remove existing cookies if the user
+    // has declined consent
+    if (!newVal) {
+      document.cookie.split(";").forEach((c) => document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"));
+    }
   }
 
   return [optedIn, toggle];

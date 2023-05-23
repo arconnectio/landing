@@ -1,8 +1,6 @@
-import { ANALYTICS_MEASUREMENT_ID, consentGA, useAnalytics, useCookies } from "~/utils/cookies";
+import CookieConsent from "~/components/CookieConsent";
 import { Manrope } from "next/font/google";
 import type { AppProps } from "next/app";
-import { useEffect, useState } from "react";
-import ReactGA from "react-ga4";
 import Head from "next/head";
 import {
   ThemeProvider,
@@ -13,33 +11,6 @@ import {
 const manrope = Manrope({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }: AppProps) {
-  // init analytics
-  const [optedInGA] = useAnalytics();
-  const [initializedGA, setInitializedGA] = useState(false);
-
-  useEffect(() => {
-    // initially "optedInGA" is false, so if the user
-    // opted out from analytics, it will never get
-    // initialized
-    if (!optedInGA || initializedGA) return;
-
-    // setup consent (no consent to cookies)
-    consentGA("default", false);
-    ReactGA.initialize(ANALYTICS_MEASUREMENT_ID);
-    setInitializedGA(true);
-  }, [optedInGA]);
-
-  // init cookie tracking for analytics
-  const [consentCookies] = useCookies();
-
-  useEffect(() => {
-    // only continue if the user has
-    // is opted into Google Analytics
-    if (!initializedGA) return;
-
-    consentGA("update", consentCookies);
-  }, [initializedGA, consentCookies]);
-
   return (
     <div className={manrope.className}>
       <Head>
@@ -51,6 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <>
           <GlobalStyles />
           <Component {...pageProps} />
+          <CookieConsent />
         </>
       </ThemeProvider>
     </div>
