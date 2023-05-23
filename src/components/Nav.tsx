@@ -16,6 +16,7 @@ export default function Nav() {
     const listener = () => setScroll(window.scrollY > 40);
 
     window.addEventListener("scroll", listener);
+    listener();
 
     return () => window.removeEventListener("scroll", listener);
   }, []);

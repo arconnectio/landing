@@ -69,6 +69,7 @@ export default function Install({ title = true }) {
           <BrowserName href={chromeLink}>Brave</BrowserName>
         </BrowserElement>
       </Browsers>
+      {title && <Spacer y={4} />}
     </Wrapper>
   );
 }
