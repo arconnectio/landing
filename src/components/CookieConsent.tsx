@@ -16,7 +16,8 @@ export default function CookieConsent() {
     // initially "optedInGA" is false, so if the user
     // opted out from analytics, it will never get
     // initialized
-    if (!optedInGA || initializedGA) return;
+    if (!optedInGA) return;
+    if (process.env.NODE_ENV === "development" || initializedGA) return;
 
     // setup consent (no consent to cookies)
     consentGA("default", false);
