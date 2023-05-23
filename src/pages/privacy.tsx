@@ -1,3 +1,11 @@
+import { useAnalytics, useCookies } from "~/utils/cookies";
+import Background from "~/components/landing/Background";
+import Section from "~/components/content/Section";
+import Footer from "~/components/Footer";
+import Spacer from "~/components/Spacer";
+import styled from "styled-components";
+import Head from "~/components/Head";
+import Nav from "~/components/Nav";
 import {
   Description,
   Paragraph,
@@ -5,18 +13,13 @@ import {
   Subtitle,
   Title
 } from "~/components/content/Text";
-import Background from "~/components/landing/Background";
-import Section from "~/components/content/Section";
-import { useAnalytics } from "~/utils/cookies";
-import Footer from "~/components/Footer";
-import Spacer from "~/components/Spacer";
-import styled from "styled-components";
-import Head from "~/components/Head";
-import Nav from "~/components/Nav";
 
 export default function Privacy() {
   // google analytics
-  const [optedIn, toggle] = useAnalytics();
+  const [optedIn, toggleAnalytics] = useAnalytics();
+
+  // cookies
+  const [cookieConsent, toggleCookies] = useCookies();
 
   return (
     <>
@@ -278,9 +281,15 @@ export default function Privacy() {
             Our Site is not designed to respond to "do not track" requests from
             browsers.
           </Paragraph>
+          <Spacer y={.75} />
           <Paragraph>
-            You can click <OptOutLink onClick={toggle}>here</OptOutLink> to opt{" "}
+            You can click <OptOutLink onClick={toggleAnalytics}>here</OptOutLink> to opt{" "}
             {optedIn ? "out from" : "in to"} Google Analytics.
+          </Paragraph>
+          <Spacer y={.5} />
+          <Paragraph>
+            You can click <OptOutLink onClick={() => toggleCookies()}>here</OptOutLink> to {" "}
+            {cookieConsent ? "decline" : "accept"} cookies.
           </Paragraph>
           <Spacer y={2} />
           <ParagraphTitle>”Shine the Light” and “Eraser” Laws</ParagraphTitle>
