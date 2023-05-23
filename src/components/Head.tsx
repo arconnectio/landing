@@ -4,7 +4,7 @@ import NextHead from "next/head";
 export default function Head({
   children,
   title = "ArConnect - Arweave Wallet",
-  description = "ArConnect is the first wallet made for Arweave, providing secure wallet and asset management",
+  description = "ArConnect is a non-custodial Arweave wallet with extensive features, all in your favorite browser.",
   image = "https://arconnect.io/og.png"
 }: PropsWithChildren<Props>) {
   return (
