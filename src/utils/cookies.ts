@@ -62,6 +62,11 @@ export function useCookies(): [boolean | undefined, (v?: boolean) => void] {
               ))
         );
     }
+
+    // cookie analytics
+    ReactGA.gtag("event", "cookie_consent", {
+      status: newVal ? "accepted" : "declined"
+    });
   }
 
   return [optedIn, toggle];
