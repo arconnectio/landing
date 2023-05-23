@@ -7,7 +7,7 @@ import {
 } from "~/components/content/Text";
 import Background from "~/components/landing/Background";
 import Section from "~/components/content/Section";
-import { useAnalytics } from "~/utils/analytics";
+import { useAnalytics } from "~/utils/cookies";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import styled from "styled-components";
