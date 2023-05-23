@@ -62,7 +62,7 @@ const Wrapper = styled.section`
   justify-content: center;
   flex-direction: column;
 
-  @media screen and (max-width: 720px ){
+  @media screen and (max-width: 720px) {
     height: calc(100vh - 100px);
     padding-top: 100px;
   }

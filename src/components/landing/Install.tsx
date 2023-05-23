@@ -1,5 +1,6 @@
 import SectionTitle from "./SectionTitle";
 import styled from "styled-components";
+import ReactGA from "react-ga4";
 import Spacer from "../Spacer";
 import Image from "next/image";
 
@@ -20,7 +21,13 @@ export default function Install({ title = true }) {
         </>
       )}
       <Browsers>
-        <BrowserElement>
+        <BrowserElement
+          onClick={() =>
+            ReactGA.gtag("event", "download_link_click", {
+              browser_name: "chrome"
+            })
+          }
+        >
           <BrowserLogo href={chromeLink}>
             <Image
               src="/browsers/chrome.png"
@@ -32,7 +39,13 @@ export default function Install({ title = true }) {
           </BrowserLogo>
           <BrowserName href={chromeLink}>Chrome</BrowserName>
         </BrowserElement>
-        <BrowserElement>
+        <BrowserElement
+          onClick={() =>
+            ReactGA.gtag("event", "download_link_click", {
+              browser_name: "firefox"
+            })
+          }
+        >
           <BrowserLogo href={firefoxLink}>
             <Image
               src="/browsers/firefox.png"
@@ -44,7 +57,13 @@ export default function Install({ title = true }) {
           </BrowserLogo>
           <BrowserName href={firefoxLink}>Firefox</BrowserName>
         </BrowserElement>
-        <BrowserElement>
+        <BrowserElement
+          onClick={() =>
+            ReactGA.gtag("event", "download_link_click", {
+              browser_name: "edge"
+            })
+          }
+        >
           <BrowserLogo href={chromeLink}>
             <Image
               src="/browsers/edge.png"
@@ -56,7 +75,13 @@ export default function Install({ title = true }) {
           </BrowserLogo>
           <BrowserName href={chromeLink}>Edge</BrowserName>
         </BrowserElement>
-        <BrowserElement>
+        <BrowserElement
+          onClick={() =>
+            ReactGA.gtag("event", "download_link_click", {
+              browser_name: "brave"
+            })
+          }
+        >
           <BrowserLogo href={chromeLink}>
             <Image
               src="/browsers/brave.png"

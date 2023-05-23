@@ -33,12 +33,14 @@ export function useCookies(): [boolean | undefined, (v?: boolean) => void] {
   useEffect(() => {
     const storedVal = localStorage.getItem(COOKIES_STORAGE_KEY);
 
-    setOptedIn(typeof storedVal === "string" ? storedVal === "true" : undefined);
+    setOptedIn(
+      typeof storedVal === "string" ? storedVal === "true" : undefined
+    );
   }, []);
 
   function toggle(v?: boolean) {
     const storedVal = localStorage.getItem(COOKIES_STORAGE_KEY);
-    const newVal = typeof v !== "undefined" ? v : (storedVal !== "true");
+    const newVal = typeof v !== "undefined" ? v : storedVal !== "true";
 
     // set consent
     consentGA("update", newVal);
@@ -48,7 +50,17 @@ export function useCookies(): [boolean | undefined, (v?: boolean) => void] {
     // remove existing cookies if the user
     // has declined consent
     if (!newVal) {
-      document.cookie.split(";").forEach((c) => document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"));
+      document.cookie
+        .split(";")
+        .forEach(
+          (c) =>
+            (document.cookie = c
+              .replace(/^ +/, "")
+              .replace(
+                /=.*/,
+                "=;expires=" + new Date().toUTCString() + ";path=/"
+              ))
+        );
     }
   }
 
@@ -60,7 +72,12 @@ export function consentGA(consentType: "default" | "update", cookies: boolean) {
   const val = cookies ? "granted" : "denied";
 
   // cookies fields
-  const cookieFields = ["ad_storage", "analytics_storage", "functionality_storage", "personalization_storage"];
+  const cookieFields = [
+    "ad_storage",
+    "analytics_storage",
+    "functionality_storage",
+    "personalization_storage"
+  ];
 
   // consent config
   const consentConfig: Record<string, any> = {

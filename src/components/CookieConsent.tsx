@@ -1,4 +1,9 @@
-import { ANALYTICS_MEASUREMENT_ID, consentGA, useAnalytics, useCookies } from "~/utils/cookies";
+import {
+  ANALYTICS_MEASUREMENT_ID,
+  consentGA,
+  useAnalytics,
+  useCookies
+} from "~/utils/cookies";
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import { Manrope } from "next/font/google";
@@ -37,23 +42,26 @@ export default function CookieConsent() {
   }, [initializedGA, consentCookies]);
 
   // show cookie consent
-  const showConsent = useMemo(() => typeof consentCookies !== "boolean", [consentCookies]);
+  const showConsent = useMemo(
+    () => typeof consentCookies !== "boolean",
+    [consentCookies]
+  );
 
   return (
     <AnimatePresence>
-      {showConsent && <ConsentDialog>
-        <ConsentText>
-          We use cookies to better understand customer needs
-        </ConsentText>
-        <Buttons>
-          <Button onClick={() => toggle(true)}>
-            Accept
-          </Button>
-          <Button secondary onClick={() => toggle(false)}>
-            Decline
-          </Button>
-        </Buttons>
-      </ConsentDialog>}
+      {showConsent && (
+        <ConsentDialog>
+          <ConsentText>
+            We use cookies to better understand customer needs
+          </ConsentText>
+          <Buttons>
+            <Button onClick={() => toggle(true)}>Accept</Button>
+            <Button secondary onClick={() => toggle(false)}>
+              Decline
+            </Button>
+          </Buttons>
+        </ConsentDialog>
+      )}
       {showConsent && <BackgroundLayer key="bg" />}
     </AnimatePresence>
   );
@@ -69,7 +77,7 @@ const BackgroundLayer = styled(motion.div).attrs({
   initial: "hidden",
   animate: "shown",
   exit: "hidden",
-  transition: { duration: .18 }
+  transition: { duration: 0.18 }
 })`
   position: fixed;
   top: 0;
@@ -77,7 +85,7 @@ const BackgroundLayer = styled(motion.div).attrs({
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 200;
 `;
 
@@ -91,14 +99,14 @@ const ConsentDialog = styled(motion.div).attrs({
   initial: "hidden",
   animate: "shown",
   exit: "hidden",
-  transition: { duration: .25 }
+  transition: { duration: 0.25 }
 })`
   position: fixed;
   display: flex;
   align-items: center;
   gap: 1.24rem;
-  padding: .75rem 1rem;
-  background-color: rgb(${props => props.theme.background});
+  padding: 0.75rem 1rem;
+  background-color: rgb(${(props) => props.theme.background});
   border-radius: 15px;
   bottom: 1.5rem;
   right: 1.5rem;
@@ -108,47 +116,57 @@ const ConsentDialog = styled(motion.div).attrs({
     left: 1rem;
     right: 1rem;
     bottom: 1rem;
-    padding: .7rem .8rem;
+    padding: 0.7rem 0.8rem;
   }
 `;
 
 const ConsentText = styled.p`
   font-size: 1.05rem;
   font-weight: 500;
-  color: rgb(${props => props.theme.primaryText});
+  color: rgb(${(props) => props.theme.primaryText});
   margin: 0;
 `;
 
 const Buttons = styled.div`
   display: flex;
   align-items: center;
-  gap: .4rem;
+  gap: 0.4rem;
 
   @media screen and (max-width: 720px) {
     flex-direction: column;
-    gap: .6rem;
+    gap: 0.6rem;
   }
 `;
 
-const Button = styled.button<{ secondary?: boolean; }>`
-  background-color: ${props => !props.secondary ? "#000" : "transparent"};
-  color: ${props => !props.secondary ? "#fff" : "#000"};;
-  font-size: .9rem;
+const Button = styled.button<{ secondary?: boolean }>`
+  background-color: ${(props) => (!props.secondary ? "#000" : "transparent")};
+  color: ${(props) => (!props.secondary ? "#fff" : "#000")};
+  font-size: 0.9rem;
   font-weight: 550;
   border-radius: 9px;
-  padding: .5rem 1.2rem;
+  padding: 0.5rem 1.2rem;
   cursor: pointer;
   outline: none;
   border: none;
   text-align: center;
-  transition: all .23s ease-in-out;
+  transition: all 0.23s ease-in-out;
   ${manrope.style}
 
   &:hover {
-    background-color: rgba(0, 0, 0, ${props => !props.secondary ? ".8" : ".05"});
+    background-color: rgba(
+      0,
+      0,
+      0,
+      ${(props) => (!props.secondary ? ".8" : ".05")}
+    );
   }
 
   &:active {
-    background-color: rgba(0, 0, 0, ${props => !props.secondary ? ".75" : ".032"});
+    background-color: rgba(
+      0,
+      0,
+      0,
+      ${(props) => (!props.secondary ? ".75" : ".032")}
+    );
   }
 `;

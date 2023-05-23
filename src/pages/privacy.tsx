@@ -281,14 +281,16 @@ export default function Privacy() {
             Our Site is not designed to respond to "do not track" requests from
             browsers.
           </Paragraph>
-          <Spacer y={.75} />
+          <Spacer y={0.75} />
           <Paragraph>
-            You can click <OptOutLink onClick={toggleAnalytics}>here</OptOutLink> to opt{" "}
+            You can click{" "}
+            <OptOutLink onClick={toggleAnalytics}>here</OptOutLink> to opt{" "}
             {optedIn ? "out from" : "in to"} Google Analytics.
           </Paragraph>
-          <Spacer y={.5} />
+          <Spacer y={0.5} />
           <Paragraph>
-            You can click <OptOutLink onClick={() => toggleCookies()}>here</OptOutLink> to {" "}
+            You can click{" "}
+            <OptOutLink onClick={() => toggleCookies()}>here</OptOutLink> to{" "}
             {cookieConsent ? "decline" : "accept"} cookies.
           </Paragraph>
           <Spacer y={2} />

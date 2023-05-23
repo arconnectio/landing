@@ -92,7 +92,7 @@ const AppWrapper = styled.div<{ big?: boolean }>`
   ${(props) => (props.big ? "height: 330px;" : "")}
 
   @media screen and (max-width: 720px) {
-    display: ${props => props.big ? "flex" : "grid"};
+    display: ${(props) => (props.big ? "flex" : "grid")};
     flex-direction: column;
     height: auto;
   }
@@ -143,7 +143,7 @@ const Content = styled.div<{ big?: boolean }>`
   ${(props) => (props.big ? "height: calc(100% - 3rem);" : "")}
 
   @media screen and (max-width: 720px) {
-    ${(props) => props.big ? "height: auto;" : ""}
+    ${(props) => (props.big ? "height: auto;" : "")}
     ${(props) => {
       if (!props.big) return "";
 
