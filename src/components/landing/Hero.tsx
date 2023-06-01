@@ -49,7 +49,9 @@ export default function Hero() {
         <StatLink href="/apps">
           <StatPanel icon={<GridIcon />} name="Apps" value={20} plus />
         </StatLink>
-        <StatPanel icon={<CodeIcon />} name="API functions" value={16} />
+        <StatLink href="https://docs.arconnect.io/api/intro">
+          <StatPanel icon={<CodeIcon />} name="API functions" value={16} />
+        </StatLink>
       </Stats>
     </Wrapper>
   );
