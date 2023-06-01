@@ -30,6 +30,11 @@ const nextConfig = {
         source: "/pp",
         destination: "/privacy",
         permanent: true
+      },
+      {
+        source: "/docs",
+        destination: "https://docs.arconnect.io",
+        permanent: true
       }
     ];
   }

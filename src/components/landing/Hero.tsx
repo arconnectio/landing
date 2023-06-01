@@ -34,7 +34,7 @@ export default function Hero() {
         </Link>
         <Button
           color="0, 0, 0"
-          href="https://github.com/arconnectio/ArConnect#arconnect"
+          href="https://docs.arconnect.io"
           target="_blank"
           rel="noopener noreferer"
         >
