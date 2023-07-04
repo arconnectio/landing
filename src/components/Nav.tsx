@@ -66,8 +66,10 @@ export default function Nav() {
           >
             <NavPageLinks>
               <NavLink href="/">Home</NavLink>
-              <NavLink href="/support">Support</NavLink>
-              {/**<NavLink href="/">Kit</NavLink>*/}
+              <NavLink href="/help">Help</NavLink>
+              {/** 
+              <NavLink href="https://docs.arweavekit.com/wallets/wallet-kit" target="_blank" rel="noopener noreferer">Kit</NavLink>
+              */}
               <NavLink
                 href="https://chrome.google.com/webstore/detail/ekmpjilfjeghbjgddfgfbakkjmobfhhm"
                 target="_blank"
