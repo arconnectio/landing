@@ -60,7 +60,11 @@ export default function Features() {
             </FeatureParagraph>
             <Spacer y={2} />
             <Buttons>
-              <Button href="https://docs.arconnect.io/developer-tooling/arconnect-devtools" target="_blank" rel="noopener noreferer">
+              <Button
+                href="https://docs.arconnect.io/developer-tooling/arconnect-devtools"
+                target="_blank"
+                rel="noopener noreferer"
+              >
                 Tooling
                 <ArrowUpRightIcon />
               </Button>
