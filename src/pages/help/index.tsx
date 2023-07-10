@@ -1,4 +1,4 @@
-import { ArrowUpRightIcon, SearchIcon, TrendingUpIcon } from "@iconicicons/react";
+import { ArrowUpRightIcon, FastForwardIcon, SearchIcon, SmartphoneIcon, TagIcon, TrendingUpIcon, WalletIcon } from "@iconicicons/react";
 import { Manrope, Space_Grotesk } from "next/font/google";
 import { Subtitle } from "~/components/content/Text";
 import Section from "~/components/content/Section";
@@ -119,6 +119,29 @@ export default function Help() {
             </Article>
           </Articles>
         </Section>
+        <Spacer y={2.5} />
+        <Section>
+          <SectionTitle>
+            <TagIcon />
+            Topics
+          </SectionTitle>
+          <Spacer y={2.4} />
+          <Articles>
+            <Topic href="/help/topic">
+              <FastForwardIcon />
+              Getting started
+            </Topic>
+            <Topic href="/help/topic">
+              <WalletIcon />
+              Wallet management
+            </Topic>
+            <Topic href="/help/topic">
+              <SmartphoneIcon />
+              Apps & connections
+            </Topic>
+          </Articles>
+        </Section>
+        <Spacer y={2.5} />
       </Main>
       <Footer />
     </>
@@ -247,7 +270,7 @@ const Article = styled.article`
 const ArticleTitle = styled.h3`
   font-size: 1.55rem;
   font-weight: 600;
-  color: rgb(${props => props.theme.secondaryText});
+  color: rgb(${props => props.theme.accent});
   margin: 0;
   line-height: 1.1em;
 `;
@@ -255,18 +278,19 @@ const ArticleTitle = styled.h3`
 const ArticlePreview = styled.p`
   font-size: .95rem;
   font-weight: 600;
+  line-height: 1.55em;
   color: rgba(${props => props.theme.secondaryText}, .8);
   margin: 0;
   text-align: justify;
 `;
 
 const ArticleLink = styled(Link)`
+  ${spacegrotesk.style}
   display: flex;
   align-items: center;
   gap: .34rem;
   font-size: 1rem;
-  font-weight: 650;
-  color: rgb(${props => props.theme.primaryText});
+  color: rgb(${props => props.theme.secondaryText});
   text-decoration: none;
   transition: all .23s ease-in-out;
 
@@ -277,5 +301,35 @@ const ArticleLink = styled(Link)`
   svg {
     width: 1.3rem;
     height: 1.3rem;
+  }
+`;
+
+const Topic = styled(Link)`
+  font-size: 1.55rem;
+  font-weight: 550;
+  text-align: center;
+  color: rgb(${props => props.theme.accent});
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 3.35rem 2rem;
+  gap: .4rem;
+  background-color: rgba(${props => props.theme.accent}, .2);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all .17s ease;
+
+  svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  &:hover {
+    transform: scale(.975);
+  }
+
+  &:active {
+    transform: scale(.95);
   }
 `;
