@@ -9,7 +9,7 @@ export default function Location() {
         Knowledge Base
       </LocationLink>
       <ChevronRightIcon />
-      <LocationLink href="/help/getting-started">
+      <LocationLink href="/help/topic/getting-started">
         Getting started
       </LocationLink>
       <ChevronRightIcon />
