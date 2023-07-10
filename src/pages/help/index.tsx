@@ -136,8 +136,9 @@ const TitleSection = styled.section`
   border-radius: 40px;
 
   @media screen and (max-width: 720px) {
-    margin: 0 2rem;
-    padding: 1.5rem 0;
+    margin: 7rem 1.25rem 0;
+    padding: 2.3rem 0;
+    border-radius: 30px;
   }
 `;
 
@@ -147,6 +148,10 @@ const Question = styled.p`
   color: rgb(${props => props.theme.accent});
   text-align: center;
   margin: 0;
+
+  @media screen and (max-width: 720px) {
+    font-size: 1rem;
+  }
 `;
 
 const Title = styled.h1`
@@ -155,6 +160,10 @@ const Title = styled.h1`
   color: rgb(${props => props.theme.primaryText});
   text-align: center;
   margin: 0;
+
+  @media screen and (max-width: 720px) {
+    font-size: 1.85rem;
+  }
 `;
 
 const SearchBox = styled.div`
@@ -195,6 +204,13 @@ const SearchInput = styled.input`
   &::placeholder {
     color: rgba(${(props) => props.theme.secondaryText}, 0.45);
   }
+
+  @media screen and (max-width: 720px) {
+    width: 290px;
+    padding: 1rem .34rem;
+    padding-left: calc(.34rem * 2 + 2.63rem);
+    font-size: .85rem;
+  }
 `;
 
 const SectionTitle = styled(Subtitle)`
@@ -215,6 +231,11 @@ const Articles = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 4.5rem 3.5rem;
+
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
 `;
 
 const Article = styled.article`
