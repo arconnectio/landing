@@ -1,7 +1,8 @@
-import { ArrowUpRightIcon, FastForwardIcon, SearchIcon, SmartphoneIcon, TagIcon, TrendingUpIcon, WalletIcon } from "@iconicicons/react";
+import { FastForwardIcon, SearchIcon, SmartphoneIcon, TagIcon, TrendingUpIcon, WalletIcon } from "@iconicicons/react";
+import { Articles, SectionTitle } from "~/components/artcile/Articles";
 import { Manrope, Space_Grotesk } from "next/font/google";
-import { Subtitle } from "~/components/content/Text";
 import Section from "~/components/content/Section";
+import Article from "~/components/artcile/Article";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import styled from "styled-components";
@@ -45,78 +46,36 @@ export default function Help() {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            <Article>
-              <ArticleTitle>
-                This is the article title
-              </ArticleTitle>
-              <ArticlePreview>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.
-              </ArticlePreview>
-              <ArticleLink href="/help/article/1">
-                Read more
-                <ArrowUpRightIcon />
-              </ArticleLink>
-            </Article>
-            <Article>
-              <ArticleTitle>
-                This is the article title
-              </ArticleTitle>
-              <ArticlePreview>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.
-              </ArticlePreview>
-              <ArticleLink href="/help/article/1">
-                Read more
-                <ArrowUpRightIcon />
-              </ArticleLink>
-            </Article>
-            <Article>
-              <ArticleTitle>
-                This is the article title
-              </ArticleTitle>
-              <ArticlePreview>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.
-              </ArticlePreview>
-              <ArticleLink href="/help/article/1">
-                Read more
-                <ArrowUpRightIcon />
-              </ArticleLink>
-            </Article>
-            <Article>
-              <ArticleTitle>
-                This is the article title
-              </ArticleTitle>
-              <ArticlePreview>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.
-              </ArticlePreview>
-              <ArticleLink href="/help/article/1">
-                Read more
-                <ArrowUpRightIcon />
-              </ArticleLink>
-            </Article>
-            <Article>
-              <ArticleTitle>
-                This is the article title
-              </ArticleTitle>
-              <ArticlePreview>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.
-              </ArticlePreview>
-              <ArticleLink href="/help/article/1">
-                Read more
-                <ArrowUpRightIcon />
-              </ArticleLink>
-            </Article>
-            <Article>
-              <ArticleTitle>
-                This is the article title
-              </ArticleTitle>
-              <ArticlePreview>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.
-              </ArticlePreview>
-              <ArticleLink href="/help/article/1">
-                Read more
-                <ArrowUpRightIcon />
-              </ArticleLink>
-            </Article>
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
           </Articles>
         </Section>
         <Spacer y={2.5} />
@@ -127,15 +86,15 @@ export default function Help() {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            <Topic href="/help/topic">
+            <Topic href="/help/topic/getting-started">
               <FastForwardIcon />
               Getting started
             </Topic>
-            <Topic href="/help/topic">
+            <Topic href="/help/topic/wallet-management">
               <WalletIcon />
               Wallet management
             </Topic>
-            <Topic href="/help/topic">
+            <Topic href="/help/topic/apps-and-connections">
               <SmartphoneIcon />
               Apps & connections
             </Topic>
@@ -233,74 +192,6 @@ const SearchInput = styled.input`
     padding: 1rem .34rem;
     padding-left: calc(.34rem * 2 + 2.63rem);
     font-size: .85rem;
-  }
-`;
-
-const SectionTitle = styled(Subtitle)`
-  display: flex;
-  align-items: center;
-  gap: 1.4rem;
-  font-size: 1.85rem;
-  font-weight: 600;
-  color: rgb(${props => props.theme.primaryText});
-
-  svg {
-    width: 2.63rem;
-    height: 2.63rem;
-  }
-`;
-
-const Articles = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 4.5rem 3.5rem;
-
-  @media screen and (max-width: 720px) {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-`;
-
-const Article = styled.article`
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-`;
-
-const ArticleTitle = styled.h3`
-  font-size: 1.55rem;
-  font-weight: 600;
-  color: rgb(${props => props.theme.accent});
-  margin: 0;
-  line-height: 1.1em;
-`;
-
-const ArticlePreview = styled.p`
-  font-size: .95rem;
-  font-weight: 600;
-  line-height: 1.55em;
-  color: rgba(${props => props.theme.secondaryText}, .8);
-  margin: 0;
-  text-align: justify;
-`;
-
-const ArticleLink = styled(Link)`
-  ${spacegrotesk.style}
-  display: flex;
-  align-items: center;
-  gap: .34rem;
-  font-size: 1rem;
-  color: rgb(${props => props.theme.secondaryText});
-  text-decoration: none;
-  transition: all .23s ease-in-out;
-
-  &:hover {
-    opacity: .77;
-  }
-
-  svg {
-    width: 1.3rem;
-    height: 1.3rem;
   }
 `;
 
