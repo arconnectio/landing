@@ -1,8 +1,8 @@
 import { FastForwardIcon, SearchIcon, SmartphoneIcon, TagIcon, TrendingUpIcon, WalletIcon } from "@iconicicons/react";
-import { Articles, SectionTitle } from "~/components/artcile/Articles";
+import { Articles, SectionTitle } from "~/components/article/Articles";
 import { Manrope, Space_Grotesk } from "next/font/google";
 import Section from "~/components/content/Section";
-import Article from "~/components/artcile/Article";
+import Article from "~/components/article/Article";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import styled from "styled-components";

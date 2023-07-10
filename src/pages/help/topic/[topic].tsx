@@ -1,7 +1,8 @@
-import { Articles, SectionTitle } from "~/components/artcile/Articles";
+import { Articles, SectionTitle } from "~/components/article/Articles";
 import { Description, Title } from "~/components/content/Text";
+import Location from "~/components/article/Location";
 import Section from "~/components/content/Section";
-import Article from "~/components/artcile/Article";
+import Article from "~/components/article/Article";
 import { InboxIcon } from "@iconicicons/react";
 import Spacer from "~/components/Spacer";
 import Footer from "~/components/Footer";
@@ -21,6 +22,8 @@ export default function Topic({ topic }: Props) {
           <Description>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum id suscipit obcaecati distinctio ipsa dolores quam error ab quis earum mollitia deleniti culpa nostrum veniam a dolorem, ullam animi? Officiis.
           </Description>
+          <Spacer y={1.35} />
+          <Location />
         </Section>
         <Section>
           <SectionTitle>
