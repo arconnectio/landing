@@ -51,3 +51,12 @@ export const Description = styled(Paragraph)`
     width: auto;
   }
 `;
+
+export const Date = styled.div`
+  display: flex;
+  gap: 8px;
+  padding: 7px 14px;
+  background-color: #fff;
+  border-radius: 36px;
+  max-width: max-content;
+`;
