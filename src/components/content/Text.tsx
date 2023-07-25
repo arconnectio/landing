@@ -55,6 +55,7 @@ export const Description = styled(Paragraph)`
 export const Date = styled.div`
   display: flex;
   gap: 8px;
+  white-space: nowrap;
   padding: 7px 14px;
   background-color: #fff;
   border-radius: 36px;
