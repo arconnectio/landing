@@ -21,12 +21,11 @@ export default function Branding() {
       <main>
         <Wrapper>
           <Section>
-            {/* FLEX Section */}
             <Title>Blog</Title>
             <Spacer y={1} />
 
-            <FeaturedTiles>
-              <Column>
+            <FeaturedTiles style={{}}>
+              <Column style={{ flex: "6" }}>
                 <Paragraph>
                   Read the latest news and information about ArConnect and
                   discover all that we are working on.
@@ -35,13 +34,11 @@ export default function Branding() {
                   backgroundColor="rgba(35, 117, 239, 0.1)"
                   height="434px"
                 >
-                  <div
-                    style={{ display: "flex", justifyContent: "space-between" }}
-                  >
+                  <DateTitleContainer>
                     <div>
                       <Date>
                         <CalendarIcon />
-                        <div>Jul 7, 2023</div>
+                        <div>July 7, 2023</div>
                       </Date>
                     </div>
                     <div>
@@ -51,7 +48,7 @@ export default function Branding() {
                         <BlogTitle>through Othent.</BlogTitle>
                       </TitleContainer2>
                     </div>
-                  </div>
+                  </DateTitleContainer>
 
                   <ImageContainer>
                     <Image
@@ -74,7 +71,7 @@ export default function Branding() {
                   </div>
                 </FeaturedEntry>
               </Column>
-              <Column>
+              <Column style={{ flex: "4" }}>
                 <FeaturedEntry backgroundColor="rgba(254, 2, 48, 0.20);">
                   <Date>
                     <CalendarIcon />
@@ -124,7 +121,6 @@ export default function Branding() {
             </FeaturedTiles>
           </Section>
           <Section>
-            {/* FLEX Section */}
             <ParagraphTitle
               style={{ fontSize: "3.125rem", paddingBottom: "41.6px" }}
             >
@@ -135,20 +131,30 @@ export default function Branding() {
               backgroundColor="rgba(171, 154, 255, 0.2)"
               height="434px"
             >
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "space-between",
-                  height: "100%"
-                }}
-              >
-                <Date>
-                  <CalendarIcon />
-                  <div>Jul 7, 2023</div>
-                </Date>
+              <AllPostContent>
+                <DateTitleContainer
+                  style={{
+                    flexDirection: "column"
+                  }}
+                >
+                  <Date>
+                    <CalendarIcon />
+                    <div>July 7, 2023</div>
+                  </Date>
+                  <TitleContainer2>
+                    <BlogTitle>ArConnect adds support</BlogTitle>
+                    <BlogTitle>for Google Accounts</BlogTitle>
+                    <BlogTitle>through Othent.</BlogTitle>
+                  </TitleContainer2>
+                </DateTitleContainer>
 
-                <div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center"
+                  }}
+                >
                   <ImageContainer>
                     <Image
                       src="/PlasmoExample.png"
@@ -158,50 +164,50 @@ export default function Branding() {
                       height={151}
                     />
                   </ImageContainer>
-                  <div
-                    style={{ display: "flex", justifyContent: "space-between" }}
-                  >
-                    <TitleContainer2>
-                      <BlogTitle>ArConnect adds support</BlogTitle>
-                      <BlogTitle>for Google Accounts</BlogTitle>
-                      <BlogTitle>through Othent.</BlogTitle>
-                    </TitleContainer2>
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "end",
-                        height: "100%"
-                      }}
-                    >
-                      <WhiteCircle>
-                        <ArrowUpRightIcon />
-                      </WhiteCircle>
-                    </div>
-                  </div>
                 </div>
-              </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end"
+                  }}
+                >
+                  <WhiteCircle>
+                    <ArrowUpRightIcon />
+                  </WhiteCircle>
+                </div>
+              </AllPostContent>
             </FeaturedEntry>
-
             <Spacer y={4} />
+
             <FeaturedEntry
               backgroundColor="rgba(171, 154, 255, 0.2)"
               height="434px"
             >
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "space-between",
-                  height: "100%"
-                }}
-              >
-                <Date>
-                  <CalendarIcon />
-                  <div>Jul 7, 2023</div>
-                </Date>
+              <AllPostContent>
+                <DateTitleContainer
+                  style={{
+                    flexDirection: "column"
+                  }}
+                >
+                  <Date>
+                    <CalendarIcon />
+                    <div>July 7, 2023</div>
+                  </Date>
+                  <TitleContainer2>
+                    <BlogTitle>ArConnect adds support</BlogTitle>
+                    <BlogTitle>for Google Accounts</BlogTitle>
+                    <BlogTitle>through Othent.</BlogTitle>
+                  </TitleContainer2>
+                </DateTitleContainer>
 
-                <div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center"
+                  }}
+                >
                   <ImageContainer>
                     <Image
                       src="/PlasmoExample.png"
@@ -211,85 +217,22 @@ export default function Branding() {
                       height={151}
                     />
                   </ImageContainer>
-                  <div
-                    style={{ display: "flex", justifyContent: "space-between" }}
-                  >
-                    <TitleContainer2>
-                      <BlogTitle>ArConnect adds support</BlogTitle>
-                      <BlogTitle>for Google Accounts</BlogTitle>
-                      <BlogTitle>through Othent.</BlogTitle>
-                    </TitleContainer2>
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "end",
-                        height: "100%"
-                      }}
-                    >
-                      <WhiteCircle>
-                        <ArrowUpRightIcon />
-                      </WhiteCircle>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </FeaturedEntry>
-            <Spacer y={4} />
-            <FeaturedEntry
-              backgroundColor="rgba(171, 154, 255, 0.2)"
-              height="434px"
-            >
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "space-between",
-                  height: "100%"
-                }}
-              >
-                <Date>
-                  <CalendarIcon />
-                  <div>Jul 7, 2023</div>
-                </Date>
-
-                <div>
-                  <ImageContainer>
-                    <Image
-                      src="/PlasmoExample.png"
-                      alt="Othent logo"
-                      draggable={false}
-                      width={521}
-                      height={151}
-                    />
-                  </ImageContainer>
-                  <div
-                    style={{ display: "flex", justifyContent: "space-between" }}
-                  >
-                    <TitleContainer2>
-                      <BlogTitle>ArConnect adds support</BlogTitle>
-                      <BlogTitle>for Google Accounts</BlogTitle>
-                      <BlogTitle>through Othent.</BlogTitle>
-                    </TitleContainer2>
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "end",
-                        height: "100%"
-                      }}
-                    >
-                      <WhiteCircle>
-                        <ArrowUpRightIcon />
-                      </WhiteCircle>
-                    </div>
-                  </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end"
+                  }}
+                >
+                  <WhiteCircle>
+                    <ArrowUpRightIcon />
+                  </WhiteCircle>
                 </div>
-              </div>
+              </AllPostContent>
             </FeaturedEntry>
             <Spacer y={1} />
           </Section>
-          {/* <Background /> */}
         </Wrapper>
       </main>
       <Footer />
@@ -305,6 +248,33 @@ const Wrapper = styled.main`
 const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
+  img {
+    height: auto; // Maintains the aspect ratio of the image.
+    max-width: 100%; // Ensures the image doesn't exceed the width of the parent container.
+  }
+`;
+
+const DateTitleContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+`;
+
+// TODO: Make this a dynamic bg to condense titlecontainer to one
+
+const TitleContainer = styled.div`
+  font-size: 1.875rem;
+  border-radius: 20px 20px 20px 0;
+  padding: 7px 14px;
+  max-width: max-content;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="255" height="100" viewBox="0 0 255 100" fill="none"><path d="M229 71.6875V81C229 90.9411 220.941 99 211 99H19C9.05887 99 1 90.9472 1 81.0061V18.9964C1 9.05532 9.05888 1 19 1H236C245.941 1 254 9.05887 254 19V46.6875C254 53.5911 248.404 59.1875 241.5 59.1875C234.596 59.1875 229 64.7839 229 71.6875Z" fill="white" stroke="white"/></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 `;
 
 const TitleContainer2 = styled.div`
@@ -320,15 +290,14 @@ const TitleContainer2 = styled.div`
   background-position: center;
 `;
 
-const TitleContainer = styled.div`
-  font-size: 1.875rem;
-  border-radius: 20px 20px 20px 0;
-  padding: 7px 14px;
-  max-width: max-content;
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="255" height="100" viewBox="0 0 255 100" fill="none"><path d="M229 71.6875V81C229 90.9411 220.941 99 211 99H19C9.05887 99 1 90.9472 1 81.0061V18.9964C1 9.05532 9.05888 1 19 1H236C245.941 1 254 9.05887 254 19V46.6875C254 53.5911 248.404 59.1875 241.5 59.1875C234.596 59.1875 229 64.7839 229 71.6875Z" fill="white" stroke="white"/></svg>');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+const AllPostContent = styled.div`
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const WhiteCircle = styled.div`
@@ -350,6 +319,10 @@ const BlogTitle = styled.div`
   font-weight: 700;
   white-space: nowrap;
   max-width: max-content;
+
+  @media (max-width: 768px) {
+    font-size: 1.25rem;
+  }
 `;
 
 const Column = styled.div`
@@ -372,13 +345,14 @@ const Title = styled.h1`
   }
 `;
 
-const FeaturedEntry = styled.div<{ backgroundColor?: string; height?: string }>`
+const FeaturedEntry = styled.div<{
+  backgroundColor?: string;
+  height?: string;
+}>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
-  min-width: 350px;
-  width: 100%;
   height: ${(props) => props.height || "350px"};
   border-radius: 40px;
   background: ${(props) => props.backgroundColor || "transparent"};
@@ -391,5 +365,6 @@ const FeaturedTiles = styled.div`
   gap: 4.375rem;
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    gap: 2.5rem;
   }
 `;
