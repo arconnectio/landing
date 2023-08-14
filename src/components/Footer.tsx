@@ -41,6 +41,7 @@ export default function Footer() {
             </a>*/}
             <Link href="/branding">Branding</Link>
             <Link href="/privacy">Privacy Policy</Link>
+            <Link href="/audit.pdf">Security Audit</Link>
           </LinkColumn>
           <LinkColumn>
             <ColumnTitle>Help</ColumnTitle>

@@ -66,7 +66,6 @@ const Wrapper = styled.section`
 
   @media screen and (max-width: 720px) {
     height: calc(100vh - 100px);
-    padding-top: 100px;
   }
 `;
 
