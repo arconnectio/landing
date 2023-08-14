@@ -40,7 +40,7 @@ export default function Nav() {
   return (
     <>
       <Announcement href="/audit.pdf" target="_blank" rel="noopener noreferer" aria-label="Security Audit" title="Security Audit" passHref>
-        Our security audit is ready 🎉
+        Our security audit is complete 🎉
         <ArrowRightIcon />
       </Announcement>
       <Wrapper scroll={scroll ? 1 : 0}>
