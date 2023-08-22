@@ -13,7 +13,7 @@ import {
   ArrowDownIcon
 } from "@iconicicons/react";
 
-export default function Branding() {
+export default function Blog() {
   return (
     <>
       <Head title="Blog - ArConnect Arweave Wallet" />
@@ -240,17 +240,17 @@ export default function Branding() {
   );
 }
 
-const Wrapper = styled.main`
+export const Wrapper = styled.main`
   // max-width: 1518px;
   margin: 0 auto;
 `;
 
-const ImageContainer = styled.div`
+export const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
   img {
-    height: auto; // Maintains the aspect ratio of the image.
-    max-width: 100%; // Ensures the image doesn't exceed the width of the parent container.
+    height: auto;
+    max-width: 100%;
   }
 `;
 
@@ -333,7 +333,7 @@ const Column = styled.div`
   gap: 2.5rem;
 `;
 
-const Title = styled.h1`
+export const Title = styled.h1`
   font-size: 3.75rem;
   font-weight: 700;
   color: rgb(${(props) => props.theme.accent});
