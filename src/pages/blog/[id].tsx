@@ -5,11 +5,9 @@ import Section from "~/components/content/Section";
 import Image from "next/image";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
-
 import { CalendarIcon } from "@iconicicons/react";
 import { Date, Paragraph, Subtitle } from "~/components/content/Text";
 import styled from "styled-components";
-import Spacer from "~/components/Spacer";
 
 export default function BlogPost() {
   return (
