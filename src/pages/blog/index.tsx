@@ -47,7 +47,7 @@ export default function Blog() {
                     <div>
                       <Date>
                         <CalendarIcon />
-                        <div>July 7, 2023</div>
+                        July 7, 2023
                       </Date>
                     </div>
                     <div>
@@ -82,7 +82,7 @@ export default function Blog() {
                 >
                   <Date>
                     <CalendarIcon />
-                    <div>Jul 1, 2023</div>
+                    Jul 1, 2023
                   </Date>
                   <ImageContainer>
                     <Image
@@ -140,7 +140,7 @@ export default function Blog() {
                 <DateTitleContainer flexDirection="column">
                   <Date>
                     <CalendarIcon />
-                    <div>July 7, 2023</div>
+                    July 7, 2023
                   </Date>
                   <TitleContainer background={defaultSVG}>
                     <BlogTitle>ArConnect adds support</BlogTitle>
@@ -149,23 +149,15 @@ export default function Blog() {
                   </TitleContainer>
                 </DateTitleContainer>
 
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center"
-                  }}
-                >
-                  <ImageContainer>
-                    <Image
-                      src="/PlasmoExample.png"
-                      alt="Othent logo"
-                      draggable={false}
-                      width={521}
-                      height={151}
-                    />
-                  </ImageContainer>
-                </div>
+                <ImageContainer>
+                  <Image
+                    src="/PlasmoExample.png"
+                    alt="Othent logo"
+                    draggable={false}
+                    width={521}
+                    height={151}
+                  />
+                </ImageContainer>
                 <div
                   style={{
                     display: "flex",
@@ -186,7 +178,7 @@ export default function Blog() {
                 <DateTitleContainer flexDirection="column">
                   <Date>
                     <CalendarIcon />
-                    <div>July 7, 2023</div>
+                    July 7, 2023
                   </Date>
                   <TitleContainer background={defaultSVG}>
                     <BlogTitle>ArConnect adds support</BlogTitle>
@@ -195,34 +187,20 @@ export default function Blog() {
                   </TitleContainer>
                 </DateTitleContainer>
 
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center"
-                  }}
-                >
-                  <ImageContainer>
-                    <Image
-                      src="/PlasmoExample.png"
-                      alt="Othent logo"
-                      draggable={false}
-                      width={521}
-                      height={151}
-                    />
-                  </ImageContainer>
-                </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "flex-end"
-                  }}
-                >
+                <ImageContainer>
+                  <Image
+                    src="/PlasmoExample.png"
+                    alt="Othent logo"
+                    draggable={false}
+                    width={521}
+                    height={151}
+                  />
+                </ImageContainer>
+                <NavigationIcon flexDirection="column">
                   <WhiteCircle>
                     <ArrowUpRightIcon />
                   </WhiteCircle>
-                </div>
+                </NavigationIcon>
               </AllPostContent>
             </Entry>
             <Spacer y={1} />
@@ -242,8 +220,8 @@ export const Wrapper = styled.main`
 export const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   img {
-    height: auto;
     max-width: 100%;
   }
 `;
@@ -282,23 +260,28 @@ const AllPostContent = styled.div`
   }
 `;
 
-const NavigationIcon = styled.div`
+const NavigationIcon = styled.div<{ flexDirection?: string }>`
   display: flex;
   justify-content: flex-end;
+
+  flex-direction: ${(props) => props.flexDirection || "row"};
 `;
 
 const WhiteCircle = styled.div`
   display: inline-flex;
+
   align-items: center;
   justify-content: center;
   width: 28px;
   height: 28px;
+
   background-color: white;
   border-radius: 50%;
   padding: 14px;
 `;
 
-const BlogTitle = styled.div`
+const BlogTitle = styled.h2`
+  margin: 0;
   font-size: 1.875rem;
   display: flex;
   justify-content: center;
