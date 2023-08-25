@@ -16,11 +16,11 @@ export default function BlogPost() {
       <Nav />
       <main>
         <Section>
-          <Date>
+          <Date padding="17px 0px" secondary>
             <CalendarIcon />
             Jul 7, 2023
           </Date>
-          <Title>
+          <Title style={{ paddingBottom: "27px" }}>
             ArConnect adds support for Google Accounts through Othent.
           </Title>
           <AuthorGroup>
@@ -32,8 +32,10 @@ export default function BlogPost() {
               height={56}
             />
             <div>
-              <div>Marton Lederer</div>
-              <div>6 min read</div>
+              <AuthorText>Marton Lederer</AuthorText>
+              <AuthorText secondary fontSize="16px" fontWeight={600}>
+                8 min read
+              </AuthorText>
             </div>
           </AuthorGroup>
           <ImageContainer style={{ padding: "57px 0" }}>
@@ -46,9 +48,7 @@ export default function BlogPost() {
             />
           </ImageContainer>
         </Section>
-        <Section
-          style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
-        >
+        <BlogSection>
           <Paragraph>
             Lorem ipsum dolor sit amet consectetur. Lacinia congue risus turpis
             ullamcorper cursus mattis. Nunc tellus euismod nisl aliquam
@@ -59,7 +59,7 @@ export default function BlogPost() {
             sed facilisi morbi venenatis pretium donec. Erat quis ut sit neque
             volutpat.
           </Paragraph>
-          <Subtitle>This is a subtitle</Subtitle>
+          <BlogSubtitle>This is a subtitle</BlogSubtitle>
           <Paragraph>
             Lorem ipsum dolor sit amet consectetur. Lacinia congue risus turpis
             ullamcorper cursus mattis. Nunc tellus euismod nisl aliquam
@@ -87,12 +87,37 @@ export default function BlogPost() {
             sed facilisi morbi venenatis pretium donec. Erat quis ut sit neque
             volutpat.
           </Paragraph>
-        </Section>
+        </BlogSection>
       </main>
       <Footer />
     </>
   );
 }
+
+const BlogSubtitle = styled.h2`
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: rgb(${(props) => props.theme.secondaryText});
+  margin: 0;
+`;
+
+const BlogSection = styled(Section)`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+`;
+
+const AuthorText = styled.p<{
+  fontWeight?: number;
+  fontSize?: string;
+  secondary?: boolean;
+}>`
+  color: ${(props) =>
+    props.secondary ? `rgb(${props.theme.secondaryText})` : "#000"};
+  margin: 0;
+  font-size: ${(props) => props.fontSize || "18px"};
+  font-weight: ${(props) => props.fontWeight || 700};
+`;
 
 const AuthorGroup = styled.div`
   display: flex;

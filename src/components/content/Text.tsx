@@ -52,12 +52,15 @@ export const Description = styled(Paragraph)`
   }
 `;
 
-export const Date = styled.div`
+export const Date = styled.p<{ padding?: string; secondary?: boolean }>`
   display: flex;
   gap: 8px;
+  margin: 0;
   white-space: nowrap;
-  padding: 7px 14px;
+  padding: ${(props) => props.padding || "7px 14px"};
   background-color: #fff;
+  color: ${(props) =>
+    props.secondary ? `rgb(${props.theme.secondaryText})` : "#000"};
   border-radius: 36px;
   max-width: max-content;
 `;
