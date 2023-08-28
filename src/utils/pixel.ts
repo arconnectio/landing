@@ -1,7 +1,15 @@
 export function init() {
+  if (process.env.NODE_ENV === "development") return;
+
   addPixelScript();
   initTwq(window, document, "script");
   window.twq("config", "og2vk");
+}
+
+export function sendConversation(id: string, data: Record<string, unknown>) {
+  if (!window.twq) return;
+
+  window.twq("event", id, data);
 }
 
 function addPixelScript() {

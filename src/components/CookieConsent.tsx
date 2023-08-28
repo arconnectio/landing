@@ -7,6 +7,7 @@ import {
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import { Manrope } from "next/font/google";
+import * as pixel from "~/utils/pixel";
 import styled from "styled-components";
 import ReactGA from "react-ga4";
 
@@ -40,6 +41,11 @@ export default function CookieConsent() {
 
     consentGA("update", !!consentCookies);
   }, [initializedGA, consentCookies]);
+
+  useEffect(() => {
+    if (!consentCookies) return;
+    pixel.init();
+  }, [consentCookies]);
 
   // show cookie consent
   const showConsent = useMemo(
