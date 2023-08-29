@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import Image from "next/image";
 import Button from "./Button";
+import { sendConversion } from "../utils/pixel";
 import Spacer from "./Spacer";
 import Link from "next/link";
 
@@ -39,7 +40,14 @@ export default function Nav() {
 
   return (
     <>
-      <Announcement href="/audit.pdf" target="_blank" rel="noopener noreferer" aria-label="Security Audit" title="Security Audit" passHref>
+      <Announcement
+        href="/audit.pdf"
+        target="_blank"
+        rel="noopener noreferer"
+        aria-label="Security Audit"
+        title="Security Audit"
+        passHref
+      >
         Our security audit is complete 🎉
         <ArrowRightIcon />
       </Announcement>
@@ -81,7 +89,13 @@ export default function Nav() {
                 </NavLink>
               </NavPageLinks>
               <Link href="/download" passHref legacyBehavior>
-                <Button>
+                <Button
+                  onClick={() =>
+                    sendConversion("tw-og2vk-og4gq", {
+                      content: []
+                    })
+                  }
+                >
                   Download
                   <ArrowUpRightIcon />
                 </Button>
@@ -243,18 +257,18 @@ const mobileNavAnimation: Variants = {
 };
 
 const Announcement = styled(Link)`
-  font-size: .94rem;
+  font-size: 0.94rem;
   font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .38rem;
+  gap: 0.38rem;
   color: #fff;
   text-decoration: none;
-  padding: .6rem;
+  padding: 0.6rem;
   text-align: center;
   cursor: pointer;
-  background-color: rgb(${props => props.theme.accent});
+  background-color: rgb(${(props) => props.theme.accent});
 
   svg {
     font-size: 1.2em;
