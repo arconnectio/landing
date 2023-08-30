@@ -11,6 +11,7 @@ import StatPanel from "./StatPanel";
 import Button from "../Button";
 import Spacer from "../Spacer";
 import Link from "next/link";
+import { sendConversion } from "~/utils/pixel";
 
 export default function Hero() {
   return (
@@ -27,7 +28,13 @@ export default function Hero() {
       <Spacer y={2.5} />
       <Buttons>
         <Link href="/download" passHref legacyBehavior>
-          <Button>
+          <Button
+            onClick={() =>
+              sendConversion("tw-og2vk-og4gq", {
+                content: []
+              })
+            }
+          >
             Download
             <ArrowUpRightIcon />
           </Button>
