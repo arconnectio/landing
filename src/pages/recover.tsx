@@ -48,7 +48,7 @@ export default function Recover() {
           <Title>Recover wallet</Title>
           <Spacer y={1} />
           <Description>
-            Older versions of ArConnect did't verify that the input 12 word
+            Older versions of ArConnect didn't verify that the input 12 word
             seedphrase did not include any extra line breaks. Unfortunately some
             applications (like Apple Notes), store text content such as
             seedphrases with an extra line break in the end. In older ArConnect
