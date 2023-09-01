@@ -3,7 +3,7 @@ export function init() {
 
   addPixelScript();
   initTwq(window, document, "script");
-  window.twq("config", "og2vk");
+  window.twq("config", "ofnyd");
 }
 
 export function sendConversion(id: string, data: Record<string, unknown>) {

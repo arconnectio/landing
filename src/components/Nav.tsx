@@ -89,13 +89,7 @@ export default function Nav() {
                 </NavLink>
               </NavPageLinks>
               <Link href="/download" passHref legacyBehavior>
-                <Button
-                  onClick={() =>
-                    sendConversion("tw-og2vk-og4gq", {
-                      content: []
-                    })
-                  }
-                >
+                <Button onClick={() => sendConversion("tw-ofnyd-og7tu", {})}>
                   Download
                   <ArrowUpRightIcon />
                 </Button>

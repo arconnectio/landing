@@ -28,13 +28,7 @@ export default function Hero() {
       <Spacer y={2.5} />
       <Buttons>
         <Link href="/download" passHref legacyBehavior>
-          <Button
-            onClick={() =>
-              sendConversion("tw-og2vk-og4gq", {
-                content: []
-              })
-            }
-          >
+          <Button onClick={() => sendConversion("tw-ofnyd-og7tu", {})}>
             Download
             <ArrowUpRightIcon />
           </Button>
