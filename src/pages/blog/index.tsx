@@ -14,6 +14,7 @@ import {
 } from "@iconicicons/react";
 import Link from "next/link";
 import BlogTitle from "~/components/blog/BlogTitle";
+import NavigationIcon from "~/components/blog/NavigationIcon";
 
 export default function Blog() {
   const router = useRouter();
@@ -68,11 +69,7 @@ export default function Blog() {
                       height={151}
                     />
                   </ImageContainer>
-                  <NavigationIcon>
-                    <WhiteCircle>
-                      <ArrowUpRightIcon />
-                    </WhiteCircle>
-                  </NavigationIcon>
+                  <NavigationIcon />
                 </Entry>
               </Column>
               <Column style={{ flex: "4" }}>
@@ -147,17 +144,7 @@ export default function Blog() {
                     height={151}
                   />
                 </ImageContainer>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "flex-end"
-                  }}
-                >
-                  <WhiteCircle>
-                    <ArrowUpRightIcon />
-                  </WhiteCircle>
-                </div>
+                <NavigationIcon alt />
               </AllPostContent>
             </Entry>
             <Spacer y={4} />
@@ -185,11 +172,7 @@ export default function Blog() {
                     height={151}
                   />
                 </ImageContainer>
-                <NavigationIcon flexDirection="column">
-                  <WhiteCircle>
-                    <ArrowUpRightIcon />
-                  </WhiteCircle>
-                </NavigationIcon>
+                <NavigationIcon alt />
               </AllPostContent>
             </Entry>
             <Spacer y={1} />
@@ -235,26 +218,6 @@ const AllPostContent = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
   }
-`;
-
-const NavigationIcon = styled.div<{ flexDirection?: string }>`
-  display: flex;
-  justify-content: flex-end;
-
-  flex-direction: ${(props) => props.flexDirection || "row"};
-`;
-
-const WhiteCircle = styled.div`
-  display: inline-flex;
-
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-
-  background-color: white;
-  border-radius: 50%;
-  padding: 14px;
 `;
 
 const Column = styled.div`

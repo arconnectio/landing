@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { ArrowUpRightIcon } from "@iconicicons/react";
 
-const NavigationIcon: React.FC<{ flexDir?: string }> = ({ flexDir }) => {
+const NavigationIcon: React.FC<{ alt?: boolean }> = ({ alt = false }) => {
   return (
-    <NavigationWrapper>
+    <NavigationWrapper alt={alt}>
       <WhiteCircle>
         <ArrowUpRightIcon />
       </WhiteCircle>
@@ -11,11 +11,11 @@ const NavigationIcon: React.FC<{ flexDir?: string }> = ({ flexDir }) => {
   );
 };
 
-const NavigationWrapper = styled.div<{ flexDirection?: string }>`
+const NavigationWrapper = styled.div<{ alt: boolean }>`
   display: flex;
   justify-content: flex-end;
 
-  flex-direction: ${(props) => props.flexDirection || "row"};
+  flex-direction: ${(props) => (props.alt ? "column" : "row")};
 `;
 
 const WhiteCircle = styled.div`
