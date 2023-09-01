@@ -49,10 +49,10 @@ export default function Recover() {
           <Spacer y={1} />
           <Description>
             Older versions of ArConnect didn't verify that the input 12 word
-            seedphrase did not include any extra line breaks. Unfortunately some
+            seedphrase did not include any extra line breaks. Unfortunately, some
             applications (like Apple Notes), store text content such as
             seedphrases with an extra line break in the end. In older ArConnect
-            versions this could have led to loading a corrupted wallet with a
+            versions, this could have led to loading a corrupted wallet with a
             different address. These wallets are still useable, but cannot be
             loaded with the original seedphrase, without adding the extra
             linebreak at the end.
