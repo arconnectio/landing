@@ -12,7 +12,7 @@ import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 import { useState } from "react";
-import { downloadFile } from "~/utils/file"
+import { downloadFile } from "~/utils/file";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -28,7 +28,11 @@ export default function Recover() {
       const words = mnemonic.replace(/\n/g, "").split(" ");
       const key = await getKeyFromMnemonic(words.join(" ") + "\n");
 
-      downloadFile(JSON.stringify(key, null, 2), "application/json", "private-key.json");
+      downloadFile(
+        JSON.stringify(key, null, 2),
+        "application/json",
+        "private-key.json"
+      );
       setMnemonic(undefined);
     } catch {}
 
@@ -44,19 +48,48 @@ export default function Recover() {
           <Title>Recover wallet</Title>
           <Spacer y={1} />
           <Description>
-            Older versions of ArConnect did't verify that the input 12 word seedphrase did not include any extra line breaks. Unfortunately some applications (like Apple Notes), store text content such as seedphrases with an extra line break in the end. In older ArConnect versions this could have led to loading a corrupted wallet with a different address. These wallets are still useable, but cannot be loaded with the original seedphrase, without adding the extra linebreak at the end.
+            Older versions of ArConnect did't verify that the input 12 word
+            seedphrase did not include any extra line breaks. Unfortunately some
+            applications (like Apple Notes), store text content such as
+            seedphrases with an extra line break in the end. In older ArConnect
+            versions this could have led to loading a corrupted wallet with a
+            different address. These wallets are still useable, but cannot be
+            loaded with the original seedphrase, without adding the extra
+            linebreak at the end.
           </Description>
           <Spacer y={1.5} />
-          <ParagraphTitle>
-            Our advice
-          </ParagraphTitle>
-          <Spacer y={.85} />
+          <ParagraphTitle>Our advice</ParagraphTitle>
+          <Spacer y={0.85} />
           <Description>
-            Use the following tool to load the corrupted wallet from the original seedphrase and download the generated JSON file containing the private key with your funds. Load the private key into ArConnect, by adding a new wallet in the settings or during setup, then <i><b>transfer your funds to a freshly generated wallet</b></i>.<br />This will allow you to use a newly generated, correct seedphrase. Alternatively, you can still access your old wallet with the downloaded keyfile.
+            Use the following tool to load the corrupted wallet from the
+            original seedphrase and download the generated JSON file containing
+            the private key with your funds. Load the private key into
+            ArConnect, by adding a new wallet in the settings or during setup,
+            then{" "}
+            <i>
+              <b>transfer your funds to a freshly generated wallet</b>
+            </i>
+            .<br />
+            This will allow you to use a newly generated, correct seedphrase.
+            Alternatively, you can still access your old wallet with the
+            downloaded keyfile.
+          </Description>
+          <Spacer y={1.5} />
+          <ParagraphTitle>What this tool is not</ParagraphTitle>
+          <Spacer y={0.85} />
+          <Description>
+            This tool does not exist to recover forgotten or lost private
+            keys/seedphrases. Our team does not have access to your wallet, so
+            we cannot help you to recover that.
           </Description>
         </Section>
         <Section>
-          <SeedArea placeholder="Enter seedphrase..." disabled={loading} value={mnemonic} onChange={(e) => setMnemonic(e.target.value)}></SeedArea>
+          <SeedArea
+            placeholder="Enter seedphrase..."
+            disabled={loading}
+            value={mnemonic}
+            onChange={(e) => setMnemonic(e.target.value)}
+          ></SeedArea>
           <Spacer y={1.25} />
           <Button onClick={recover}>
             Recover
@@ -77,11 +110,11 @@ const Main = styled.main`
 const SeedArea = styled.textarea`
   background-color: transparent;
   outline: none;
-  border: 1.75px solid rgb(${props => props.theme.secondaryText}, .2);
-  color: rgb(${props => props.theme.secondaryText});
+  border: 1.75px solid rgb(${(props) => props.theme.secondaryText}, 0.2);
+  color: rgb(${(props) => props.theme.secondaryText});
   border-radius: 18px;
-  padding: .7rem 1.1rem;
-  transition: all .17s ease-in-out;
+  padding: 0.7rem 1.1rem;
+  transition: all 0.17s ease-in-out;
   ${manrope.style}
   font-size: .95rem;
   font-weight: 550;
@@ -95,15 +128,15 @@ const SeedArea = styled.textarea`
   }
 
   &::placeholder {
-    color: rgb(${props => props.theme.secondaryText}, .2);
+    color: rgb(${(props) => props.theme.secondaryText}, 0.2);
   }
 
   &:focus {
-    border-color: rgb(${props => props.theme.accent});
+    border-color: rgb(${(props) => props.theme.accent});
   }
 
   &:disabled {
     cursor: not-allowed;
-    opacity: .7;
+    opacity: 0.7;
   }
 `;

@@ -48,9 +48,7 @@ export default function Footer() {
             <a href="/support" target="_blank" rel="noopener noreferrer">
               Chat
             </a>
-            <Link href="/recover">
-              Recovery
-            </Link>
+            <Link href="/recover">Recovery</Link>
             {/*<Link href="/faq">FAQ</Link>*/}
           </LinkColumn>
           <LinkColumn>
