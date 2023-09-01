@@ -1,7 +1,9 @@
 import { Description, ParagraphTitle, Title } from "~/components/content/Text";
+import { getKeyFromMnemonic } from "arweave-mnemonic-keys";
 import Background from "~/components/landing/Background";
 import Section from "~/components/content/Section";
 import { WalletIcon } from "@iconicicons/react";
+import Loading from "~/components/Loading";
 import { Manrope } from "next/font/google";
 import Button from "~/components/Button";
 import Spacer from "~/components/Spacer";
@@ -9,10 +11,30 @@ import Footer from "~/components/Footer";
 import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
+import { useState } from "react";
+import { downloadFile } from "~/utils/file"
 
 const manrope = Manrope({ subsets: ["latin"] });
 
 export default function Recover() {
+  const [loading, setLoading] = useState(false);
+  const [mnemonic, setMnemonic] = useState<string>();
+
+  async function recover() {
+    if (!mnemonic) return;
+    setLoading(true);
+
+    try {
+      const words = mnemonic.replace(/\n/g, "").split(" ");
+      const key = await getKeyFromMnemonic(words.join(" ") + "\n");
+
+      downloadFile(JSON.stringify(key, null, 2), "application/json", "private-key.json");
+      setMnemonic(undefined);
+    } catch {}
+
+    setLoading(false);
+  }
+
   return (
     <>
       <Head title="Recover corrupt seedphrase - ArConnect Arweave Wallet" />
@@ -34,11 +56,11 @@ export default function Recover() {
           </Description>
         </Section>
         <Section>
-          <SeedArea placeholder="Enter seedphrase..."></SeedArea>
+          <SeedArea placeholder="Enter seedphrase..." disabled={loading} value={mnemonic} onChange={(e) => setMnemonic(e.target.value)}></SeedArea>
           <Spacer y={1.25} />
-          <Button>
+          <Button onClick={recover}>
             Recover
-            <WalletIcon />
+            {(loading && <Loading />) || <WalletIcon />}
           </Button>
         </Section>
         <Background />
@@ -68,11 +90,20 @@ const SeedArea = styled.textarea`
   width: 500px;
   height: 160px;
 
+  @media screen and (max-width: 720px) {
+    width: calc(100% - 1.1rem * 2);
+  }
+
   &::placeholder {
     color: rgb(${props => props.theme.secondaryText}, .2);
   }
 
   &:focus {
     border-color: rgb(${props => props.theme.accent});
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: .7;
   }
 `;
