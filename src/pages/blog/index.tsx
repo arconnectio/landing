@@ -1,5 +1,4 @@
 import { Paragraph, Date, ParagraphTitle } from "~/components/content/Text";
-import Background from "~/components/landing/Background";
 import Section from "~/components/content/Section";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
@@ -13,6 +12,8 @@ import {
   ArrowUpRightIcon,
   ArrowDownIcon
 } from "@iconicicons/react";
+import Link from "next/link";
+import BlogTitle from "~/components/blog/BlogTitle";
 
 export default function Blog() {
   const router = useRouter();
@@ -42,7 +43,12 @@ export default function Blog() {
                   Read the latest news and information about ArConnect and
                   discover all that we are working on.
                 </Paragraph>
-                <Entry backgroundColor="rgba(35, 117, 239, 0.1)" height="434px">
+
+                <Entry
+                  href="/blog/123"
+                  backgroundColor="rgba(35, 117, 239, 0.1)"
+                  height="434px"
+                >
                   <DateTitleContainer>
                     <div>
                       <Date>
@@ -50,13 +56,7 @@ export default function Blog() {
                         July 7, 2023
                       </Date>
                     </div>
-                    <div>
-                      <TitleContainer background={defaultSVG}>
-                        <BlogTitle>ArConnect adds support</BlogTitle>
-                        <BlogTitle>for Google Accounts</BlogTitle>
-                        <BlogTitle>through Othent.</BlogTitle>
-                      </TitleContainer>
-                    </div>
+                    <BlogTitle title="ArConnect adds support for Google Accounts through Othent" />
                   </DateTitleContainer>
 
                   <ImageContainer>
@@ -77,6 +77,7 @@ export default function Blog() {
               </Column>
               <Column style={{ flex: "4" }}>
                 <Entry
+                  href="/blog/123"
                   backgroundColor="rgba(254, 2, 48, 0.20);"
                   onClick={handleClick}
                 >
@@ -93,37 +94,25 @@ export default function Blog() {
                       height={102}
                     />
                   </ImageContainer>
-                  <TitleContainer background={secondarySVG}>
-                    <BlogTitle>A cool new blog</BlogTitle>
-                    <BlogTitle>
-                      comes here
-                      <div className="icon">
-                        <ArrowUpRightIcon />
-                      </div>
-                    </BlogTitle>
-                  </TitleContainer>
+                  <BlogTitle
+                    alternative
+                    width="230px"
+                    title="A cool new blog comes here"
+                    icon={<ArrowUpRightIcon />}
+                  />
                 </Entry>
                 <Entry
+                  href="/blog/123"
                   height="114px"
                   backgroundColor="rgba(171, 154, 255, 0.2)"
+                  justify="center"
                 >
-                  <TitleContainer
-                    background={secondarySVG}
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      height: "100%"
-                    }}
-                  >
-                    <BlogTitle>Read more of</BlogTitle>
-                    <BlogTitle>
-                      our blogs
-                      <div className="icon">
-                        <ArrowDownIcon />
-                      </div>
-                    </BlogTitle>
-                  </TitleContainer>
+                  <BlogTitle
+                    title="Read more of our blogs"
+                    alternative
+                    width="191px"
+                    icon={<ArrowDownIcon />}
+                  />
                 </Entry>
               </Column>
             </FeaturedTiles>
@@ -135,18 +124,18 @@ export default function Blog() {
               All Posts
             </ParagraphTitle>
 
-            <Entry backgroundColor="rgba(171, 154, 255, 0.2)" height="434px">
+            <Entry
+              href="/blog/123"
+              backgroundColor="rgba(171, 154, 255, 0.2)"
+              height="434px"
+            >
               <AllPostContent>
                 <DateTitleContainer flexDirection="column">
                   <Date>
                     <CalendarIcon />
                     July 7, 2023
                   </Date>
-                  <TitleContainer background={defaultSVG}>
-                    <BlogTitle>ArConnect adds support</BlogTitle>
-                    <BlogTitle>for Google Accounts</BlogTitle>
-                    <BlogTitle>through Othent.</BlogTitle>
-                  </TitleContainer>
+                  <BlogTitle title="ArConnect adds support for Google Accounts through Othent" />
                 </DateTitleContainer>
 
                 <ImageContainer>
@@ -173,18 +162,18 @@ export default function Blog() {
             </Entry>
             <Spacer y={4} />
 
-            <Entry backgroundColor="rgba(171, 154, 255, 0.2)" height="434px">
+            <Entry
+              href="/blog/123"
+              backgroundColor="rgba(171, 154, 255, 0.2)"
+              height="434px"
+            >
               <AllPostContent>
                 <DateTitleContainer flexDirection="column">
                   <Date>
                     <CalendarIcon />
                     July 7, 2023
                   </Date>
-                  <TitleContainer background={defaultSVG}>
-                    <BlogTitle>ArConnect adds support</BlogTitle>
-                    <BlogTitle>for Google Accounts</BlogTitle>
-                    <BlogTitle>through Othent.</BlogTitle>
-                  </TitleContainer>
+                  <BlogTitle title="ArConnect adds support for Google Accounts through Othent" />
                 </DateTitleContainer>
 
                 <ImageContainer>
@@ -222,6 +211,7 @@ export const ImageContainer = styled.div`
   justify-content: center;
   align-items: center;
   img {
+    height: auto;
     max-width: 100%;
   }
 `;
@@ -235,19 +225,6 @@ const DateTitleContainer = styled.div<{ flexDirection?: string }>`
     flex-direction: column;
     gap: 1rem;
   }
-`;
-
-const TitleContainer = styled.div<{ background: string }>`
-  font-size: 1.875rem;
-  border-radius: 20px 20px 20px 0;
-  padding: 7px 14px;
-  max-width: max-content;
-
-  background: url(${(props) => props.background});
-
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 `;
 
 const AllPostContent = styled.div`
@@ -280,24 +257,6 @@ const WhiteCircle = styled.div`
   padding: 14px;
 `;
 
-const BlogTitle = styled.h2`
-  margin: 0;
-  font-size: 1.875rem;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  font-weight: 700;
-  white-space: nowrap;
-  max-width: max-content;
-
-  @media (max-width: 768px) {
-    font-size: 1.25rem;
-  }
-  a {
-    text-decoration: none;
-  }
-`;
-
 const Column = styled.div`
   display: flex;
   flex-direction: column;
@@ -318,18 +277,24 @@ export const Title = styled.h1`
   }
 `;
 
-const Entry = styled.div<{
+const Entry = styled(Link)<{
   backgroundColor?: string;
   height?: string;
+  justify?: string;
 }>`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  text-decoration: inherit;
+  justify-content: ${(props) =>
+    props.justify ? props.justify : "space-between"};
   padding: 20px;
   height: ${(props) => props.height || "350px"};
   border-radius: 40px;
   background: ${(props) => props.backgroundColor || "transparent"};
-  cursor: pointer;
+
+  &:visited {
+    color: inherit;
+  }
 `;
 
 const FeaturedTiles = styled.div`
