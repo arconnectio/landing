@@ -1,8 +1,14 @@
-import { Description, ParagraphTitle, Title } from "~/components/content/Text";
+import {
+  Description,
+  Paragraph,
+  ParagraphTitle,
+  Title
+} from "~/components/content/Text";
 import { getKeyFromMnemonic } from "arweave-mnemonic-keys";
 import Background from "~/components/landing/Background";
 import Section from "~/components/content/Section";
 import { WalletIcon } from "@iconicicons/react";
+import { downloadFile } from "~/utils/file";
 import Loading from "~/components/Loading";
 import { Manrope } from "next/font/google";
 import Button from "~/components/Button";
@@ -12,7 +18,6 @@ import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 import { useState } from "react";
-import { downloadFile } from "~/utils/file";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -49,8 +54,8 @@ export default function Recover() {
           <Spacer y={1} />
           <Description>
             Older versions of ArConnect didn't verify that the input 12 word
-            seedphrase did not include any extra line breaks. Unfortunately, some
-            applications (like Apple Notes), store text content such as
+            seedphrase did not include any extra line breaks. Unfortunately,
+            some applications (like Apple Notes), store text content such as
             seedphrases with an extra line break in the end. In older ArConnect
             versions, this could have led to loading a corrupted wallet with a
             different address. These wallets are still useable, but cannot be
@@ -91,10 +96,29 @@ export default function Recover() {
             onChange={(e) => setMnemonic(e.target.value)}
           ></SeedArea>
           <Spacer y={1.25} />
-          <Button onClick={recover}>
-            Recover
-            {(loading && <Loading />) || <WalletIcon />}
-          </Button>
+          <ButtonWithText>
+            <Button onClick={recover}>
+              Recover
+              {(loading && <Loading />) || <WalletIcon />}
+            </Button>
+            {loading && (
+              <LoadingText>This might take a couple of seconds...</LoadingText>
+            )}
+          </ButtonWithText>
+        </Section>
+        <Section>
+          <Description>
+            You can validate the recovery tool or run it yourself at the{" "}
+            <a
+              href="https://github.com/arconnectio/landing/pull/5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github repository
+            </a>
+            .
+          </Description>
+          <Spacer y={1.5} />
         </Section>
         <Background />
       </Main>
@@ -139,4 +163,14 @@ const SeedArea = styled.textarea`
     cursor: not-allowed;
     opacity: 0.7;
   }
+`;
+
+const ButtonWithText = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+`;
+
+const LoadingText = styled(Paragraph)`
+  color: rgba(${(props) => props.theme.secondaryText}, 0.75);
 `;
