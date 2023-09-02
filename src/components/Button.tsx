@@ -1,5 +1,6 @@
 import { Space_Grotesk } from "next/font/google";
 import styled from "styled-components";
+import Loading from "./Loading";
 
 const spacegrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -48,6 +49,10 @@ const Button = styled.a<{
     font-size: 1.385em;
     width: 1em;
     height: 1em;
+  }
+
+  ${Loading} {
+    font-size: 1.1em;
   }
 `;
 
