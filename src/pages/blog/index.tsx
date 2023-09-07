@@ -251,6 +251,7 @@ const Entry = styled(({ dummy, ...rest }) =>
   display: flex;
   flex-direction: column;
   text-decoration: inherit;
+  color: inherit;
   justify-content: ${(props) =>
     props.justify ? props.justify : "space-between"};
   padding: 20px;
