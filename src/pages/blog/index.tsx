@@ -99,10 +99,10 @@ export default function Blog() {
                   />
                 </Entry>
                 <Entry
-                  href="/blog/123"
                   height="114px"
                   backgroundColor="rgba(171, 154, 255, 0.2)"
                   justify="center"
+                  dummy
                 >
                   <BlogTitle
                     title="Read more of our blogs"
@@ -240,10 +240,13 @@ export const Title = styled.h1`
   }
 `;
 
-const Entry = styled(Link)<{
+const Entry = styled(({ dummy, ...rest }) =>
+  dummy ? <div {...rest} /> : <Link {...rest} />
+)<{
   backgroundColor?: string;
   height?: string;
   justify?: string;
+  isLink: boolean;
 }>`
   display: flex;
   flex-direction: column;

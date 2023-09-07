@@ -58,7 +58,7 @@ export const Date = styled.p<{ padding?: string; secondary?: boolean }>`
   margin: 0;
   white-space: nowrap;
   padding: ${(props) => props.padding || "7px 14px"};
-  background-color: #fff;
+  background-color: ${(props) => !props.secondary && "#fff"};
   color: ${(props) =>
     props.secondary ? `rgb(${props.theme.secondaryText})` : "#000"};
   border-radius: 36px;
