@@ -1,15 +1,41 @@
 import Footer from "~/components/Footer";
 
-import { ImageContainer, Title, Wrapper } from "./index";
+import { ImageContainer, Title } from "./index";
 import Section from "~/components/content/Section";
 import Image from "next/image";
 import Head from "~/components/Head";
+import { useRouter } from "next/router";
 import Nav from "~/components/Nav";
 import { CalendarIcon } from "@iconicicons/react";
 import { Date, Paragraph, Subtitle } from "~/components/content/Text";
 import styled from "styled-components";
+import { useEffect, useState } from "react";
 
 export default function BlogPost() {
+  const router = useRouter();
+  const { id } = router.query;
+
+  const blogId = id ? String(id) : null;
+
+  const [blogData, setBlogData] = useState(null);
+
+  useEffect(() => {
+    if (blogId) {
+      fetch(`/blog/blogData.json`)
+        .then((response) => response.json())
+        .then((data) => {
+          const blogData = data[blogId];
+
+          if (blogData) {
+            setBlogData(blogData);
+          }
+        })
+        .catch((error) => {
+          console.error("err", error);
+        });
+    }
+  }, [blogId]);
+
   return (
     <>
       <Head title="Blog - ArConnect Arweave Wallet" />
