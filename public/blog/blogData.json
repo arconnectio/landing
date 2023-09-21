@@ -2,12 +2,12 @@
   "arweave-for-beginners-how-to-buy-arweave-tokens-2": {
     "blogTitle": "Arweave for Beginners: How to Buy Arweave Tokens",
     "subtitle": "A guide on the different ways to purchase AR Tokens",
-    "author": "",
+    "author": "Matthew DiRienzo",
     "datePublished": "",
     "articleID": "arweave-for-beginners-how-to-buy-arweave-tokens-2",
-    "content": [
+    "image": "/arweave-for-beginners-hero.webp",
+    "article": [
       {
-        "type": "section",
         "title": "",
         "content": [
           {
@@ -21,22 +21,20 @@
         ]
       },
       {
-        "type": "section",
         "title": "Before you get started",
         "content": [
           {
-            "type": "orderedList",
+            "type": "unorderedList",
             "items": [
-              "You are going to need an Arweave account",
-              "You are going to need your Arweave address",
-              "Payment method to purchase tokens",
-              "Identification (if necessary)"
+              "1. You are going to need an Arweave account",
+              "2. You are going to need your Arweave address",
+              "3. Payment method to purchase tokens",
+              "4. Identification (if necessary)"
             ]
           }
         ]
       },
       {
-        "type": "section",
         "title": "On ramp services",
         "content": [
           {
@@ -58,11 +56,15 @@
         ]
       },
       {
-        "type": "paragraph",
-        "text": "Unfortunately, for United States residents, no on-ramp service supports the U.S. yet. Always make sure you check the service's country support list before trying to use the service."
+        "title": "",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Unfortunately, for United States residents, no on-ramp service supports the U.S. yet. Always make sure you check the service's country support list before trying to use the service."
+          }
+        ]
       },
       {
-        "type": "section",
         "title": "Centralized exchanges",
         "content": [
           {
@@ -101,7 +103,6 @@
         ]
       },
       {
-        "type": "section",
         "title": "Alternative services",
         "content": [
           {
@@ -119,7 +120,6 @@
         ]
       },
       {
-        "type": "section",
         "title": "One more thing",
         "content": [
           {
