@@ -87,5 +87,19 @@
       "twitter": "https://twitter.com/pianitynft",
       "discord": "https://discord.gg/pianity"
     }
+  },
+  {
+    "name": "Arweave Name Service (ANS)",
+    "category": "domains",
+    "description": "ans.gg is a popular name service built on top of the Arweave blockchain. Buy your domain once, own forever.",
+    "assets": {
+      "logo": "/apps/ans/logo.svg",
+      "thumbnail": "/apps/ans/thumbnail.png"
+    },
+    "links": {
+      "website": "https://ans.gg",
+      "twitter": "https://twitter.com/ArweaveANS",
+      "discord": "https://discord.gg/decentland"
+    }
   }
 ]
