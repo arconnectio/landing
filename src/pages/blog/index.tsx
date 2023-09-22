@@ -22,6 +22,9 @@ export default function Blog() {
   const altSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
     '<svg width="365" height="147" viewBox="0 0 365 147" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M118 146H19C9.05888 146 1 137.941 1 128V19C1 9.05888 9.05887 1 19 1H346C355.941 1 364 9.05888 364 19V43.3836C364 53.3247 355.941 61.3836 346 61.3836H337.289C327.347 61.3836 319.289 69.4424 319.289 79.3836V84.6986C319.289 94.6398 311.23 102.699 301.289 102.699H154C144.059 102.699 136 110.757 136 120.699V128C136 137.941 127.941 146 118 146Z" fill="white" stroke="white"/></svg>'
   )}`;
+  const arconnectSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
+    '<svg width="229" height="100" viewBox="0 0 229 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M149 77.1875V81C149 90.9411 140.941 99 131 99H19C9.05888 99 1 90.9472 1 81.0061V18.9964C1 9.05532 9.05888 1 19 1H210C219.941 1 228 9.05887 228 19V41.1875C228 51.1286 219.941 59.1875 210 59.1875H167C157.059 59.1875 149 67.2464 149 77.1875Z" fill="white" stroke="white"/></svg>'
+  )}`;
 
   return (
     <>
@@ -91,6 +94,8 @@ export default function Blog() {
                   <BlogTitle
                     alternative
                     width="230px"
+                    background={arconnectSVG}
+                    padding="8px 0px"
                     title="ArConnect 1.0 is Here"
                     icon={<ArrowUpRightIcon />}
                   />
@@ -131,9 +136,11 @@ export default function Blog() {
                   </Date>
                   <BlogTitle
                     alternative
+                    background={arconnectSVG}
                     title="ArConnect 1.0 is Here"
                     icon={<ArrowUpRightIcon />}
                     width="230px"
+                    padding="8px 0px"
                   />
                 </DateTitleContainer>
 
