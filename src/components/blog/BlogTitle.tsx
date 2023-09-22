@@ -3,10 +3,12 @@ import { ReactNode } from "react";
 
 const TitleChange: React.FC<{
   title: ReactNode;
+  background?: string;
   alternative?: boolean;
+  padding?: string;
   width?: string;
   icon?: ReactNode;
-}> = ({ title, alternative = false, icon, width }) => {
+}> = ({ title, alternative = false, icon, width, background, padding }) => {
   const defaultSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
     '<svg xmlns="http://www.w3.org/2000/svg" width="387" height="142" viewBox="0 0 387 142" fill="none"><path d="M251.207 141H19C9.05887 141 1 132.941 1 123V19C1 9.05888 9.05887 1 19 1H368C377.941 1 386 9.05887 386 19V41.3014C386 51.2425 377.941 59.3014 368 59.3014H347.696C337.755 59.3014 329.696 67.3603 329.696 77.3014V81.1918C329.696 91.1329 321.637 99.1918 311.696 99.1918H287.207C277.265 99.1918 269.207 107.251 269.207 117.192V123C269.207 132.941 261.148 141 251.207 141Z" fill="white" stroke="white"/></svg>'
   )}`;
@@ -16,8 +18,12 @@ const TitleChange: React.FC<{
 
   return (
     <>
-      <TitleContainer background={!alternative ? defaultSVG : secondarySVG}>
-        <BlogTitle alternative={alternative} width={width}>
+      <TitleContainer
+        background={
+          background ? background : !alternative ? defaultSVG : secondarySVG
+        }
+      >
+        <BlogTitle alternative={alternative} width={width} padding={padding}>
           <span>
             {title}
             {icon && <span>{icon}</span>}
@@ -28,12 +34,17 @@ const TitleChange: React.FC<{
   );
 };
 
-const BlogTitle = styled.h2<{ alternative: boolean; width?: string }>`
+const BlogTitle = styled.h2<{
+  alternative: boolean;
+  width?: string;
+  padding?: string;
+}>`
   margin: 0;
   font-size: 1.875rem;
   display: flex;
   justify-content: center;
   font-weight: 700;
+  padding: ${(props) => props.padding && props.padding};
   width: ${(props) => (props.width ? props.width : "357px")};
 
   & span {

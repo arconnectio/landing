@@ -1,11 +1,17 @@
 {
-  "arweave-for-beginners-how-to-buy-arweave-tokens-2": {
+  "arweave-for-beginners-how-to-buy-arweave-tokens": {
     "blogTitle": "Arweave for Beginners: How to Buy Arweave Tokens",
     "subtitle": "A guide on the different ways to purchase AR Tokens",
     "author": "Matthew DiRienzo",
-    "datePublished": "",
-    "articleID": "arweave-for-beginners-how-to-buy-arweave-tokens-2",
-    "image": "/arweave-for-beginners-hero.webp",
+    "datePublished": "Aug 3, 2023",
+    "articleID": "arweave-for-beginners-how-to-buy-arweave-tokens",
+    "image": {
+      "link": "/arweave-for-beginners-hero.webp",
+      "width": 728,
+      "height": 473,
+      "alt": "Arweave logo"
+    },
+
     "article": [
       {
         "title": "",
@@ -24,7 +30,7 @@
         "title": "Before you get started",
         "content": [
           {
-            "type": "unorderedList",
+            "type": "orderedList",
             "items": [
               "1. You are going to need an Arweave account",
               "2. You are going to need your Arweave address",
@@ -51,7 +57,10 @@
           },
           {
             "type": "unorderedList",
-            "items": ["Onramper", "Transak"]
+            "items": [
+              "<a href='https://onramper.com/try' target='_blank'>Onramper</a>",
+              "<a href='https://global.transak.com/' target='_blank'>Transak</a>"
+            ]
           }
         ]
       },
@@ -60,7 +69,7 @@
         "content": [
           {
             "type": "paragraph",
-            "text": "Unfortunately, for United States residents, no on-ramp service supports the U.S. yet. Always make sure you check the service's country support list before trying to use the service."
+            "text": "Unfortunately, for United States residents, no on-ramp service supports the U.S. yet. Always make sure you check the <a href='https://transak.com/global-coverage' target='_blank'>service's country support list</a> before trying to use the service."
           }
         ]
       },
@@ -93,8 +102,14 @@
             "text": "Examples of centralized exchanges that support AR Tokens are:"
           },
           {
-            "type": "orderedList",
-            "items": ["Binance", "SimpleSwap", "KuCoin", "Gate.io", "Huobi"]
+            "type": "unorderedList",
+            "items": [
+              "<a href='https://www.binance.com/en' target='_blank'>Binance</a>",
+              "<a href='https://simpleswap.io/' target='_blank'>SimpleSwap</a>",
+              "<a href='https://www.kucoin.com/' target='_blank'>KuCoin</a>",
+              "<a href='https://www.gate.io/' target='_blank'>Gate.io</a>",
+              "<a href='https://www.huobi.com/en-us/' target='_blank'>Huobi</a>"
+            ]
           },
           {
             "type": "paragraph",
@@ -107,11 +122,11 @@
         "content": [
           {
             "type": "paragraph",
-            "text": "One alternative service that blends the on-ramp service with the exchange to make an all-in-one solution is everPay. With everPay, you purchase the USDC token and then swap that for AR Tokens. A nice feature is everPay supports multiple Arweave account options. For example, if you are using ArConnect, you can connect that account to the everPay platform for direct deposit of the AR Tokens."
+            "text": "One alternative service that blends the on-ramp service with the exchange to make an all-in-one solution is <a href='https://everpay.io/' target='_blank'>everPay</a>. With everPay, you purchase the USDC token and then swap that for AR Tokens. A nice feature is everPay supports multiple Arweave account options. For example, if you are using ArConnect, you can connect that account to the everPay platform for direct deposit of the AR Tokens."
           },
           {
             "type": "paragraph",
-            "text": "The process for using everPay is slightly different than the other options: Connect your account/wallet to the everPay platform, buy USDC tokens, swap USDC for AR Tokens, done."
+            "text": "The <a href='https://everpay.zendesk.com/hc/en-us/articles/18677901470617-How-to-use-legend-to-buy-crypto-currency-' target='_blank'>process for using everPay</a> is slightly different than the other options: Connect your account/wallet to the everPay platform, buy USDC tokens, swap USDC for AR Tokens, done."
           },
           {
             "type": "paragraph",
@@ -128,11 +143,115 @@
           },
           {
             "type": "paragraph",
-            "text": "Regardless of which method above you used to get your AR Tokens, once they are in your Arweave account, you are all set up to use Arweave applications. You can then decide to discover a new Arweave application or view all the new art on Art By City."
+            "text": "Regardless of which method above you used to get your AR Tokens, once they are in your Arweave account, you are all set up to use Arweave applications. You can then decide to <a href='https://www.communitylabs.com/blog/arweave-for-beginners-getting-started' target='_blank'>discover a new Arweave application</a> or view all the new art on <a href='https://artby.city/discover' target='_blank'>Art By City</a>."
           },
           {
             "type": "paragraph",
-            "text": "If you have any questions or need help, please feel free to reach out to us here at Community Labs via our contact page or in our Discord."
+            "text": "If you have any questions or need help, please feel free to reach out to us here at <a href='https://www.communitylabs.com/contact-us' target='_blank'>Community Labs</a> via our contact page or in our <a href='https://discord.gg/UaBMt24yka' target='_blank'>Discord</a>."
+          }
+        ]
+      }
+    ]
+  },
+  "arconnect-just-leveled-up-to-1-0": {
+    "blogTitle": "ArConnect Just Leveled Up to 1.0",
+    "subtitle": "A completely revamped ArConnect has been released",
+    "author": "ArConnect",
+    "datePublished": "Aug 14, 2023",
+    "articleID": "arconnect-just-leveled-up-to-1-0",
+    "image": {
+      "link": "/arconnect-announcement-hero.webp",
+      "width": 728,
+      "height": 474,
+      "alt": "arconnect announcement"
+    },
+    "article": [
+      {
+        "title": "",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The next evolution of ArConnect is <a href='https://www.arconnect.io/download?utm_source=Blog&utm_medium=Post&utm_campaign=ArConnect+1.0+Release&utm_id=ArConnect+1.0+Release' target='_blank'>here</a>!  The team has been working on the new version of ArConnect for months and today, it’s finally available to everyone.  The undertaking of crafting this new version of ArConnect began with a complete remodel, not just to the user interface, but in the underlying architecture as well.  Additionally, ArConnect 1.0 has taken groundbreaking steps to boosting security."
+          }
+        ]
+      },
+      {
+        "title": "",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The first version of ArConnect has been a steady, dependable wallet for the whole Arweave ecosystem since it launched.  Being supported by almost all the Arweave applications, ArConnect has helped shepard in thousands of new users onto Arweave.  However, to serve the next generation of users, the team knew they needed to rethink the whole ArConnect experience."
+          }
+        ]
+      },
+      {
+        "title": "",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "This is why enhancements have been made in all areas of the application."
+          }
+        ]
+      },
+      {
+        "title": "User Experience and Performance",
+        "content": [
+          { "type": "image", "src": "/ux-p-image.webp" },
+          {
+            "type": "paragraph",
+            "text": "The first thing that should jump out to you when using the new version of ArConnect is the modernized user interface.  Besides general design updates to the main dashboard screen, the whole user onboarding experience has been rethought.  Additionally, users now have more ways to customize their experience such as managing their permissions, allowances, and gateway settings.  Or leverage Warp D.R.E.s for token evaluation.  And to top it off, ArConnect is now the user’s Arweave hub with an integrated feed on token pages from <a href='https://permaweb.news/' target='_blank'>Permaweb.news</a> and the ability to discover new Arweave applications."
+          },
+          {
+            "type": "paragraph",
+            "text": "The look of ArConnect not only is different, but using it should be too.  Under the hood, ArConnect 1.0 uses the revolutionary <a href='https://www.plasmo.com/' target='_blank'>Plasmo</a> browser extension framework.  For ArConnect users, the experience should feel seamless and enjoyable when interacting with the permaweb."
+          }
+        ]
+      },
+      {
+        "title": "Security Enhancements",
+
+        "content": [
+          { "type": "image", "src": "/security-image.webp" },
+          {
+            "type": "paragraph",
+            "text": "Security has been and always will be the number one priority for the ArConnect team.   For this new version of ArConnect, the team wanted to take a next level approach to security which is why the team engaged with <a href='https://spearbit.com/' target='_blank'>SpearBit</a> and <a href='https://opensecurity.io/' target='_blank'>Open Security</a> for a security audit of the new codebase.  After the review completed, the audit team identified a few issues which the team patched immediately.  After the review completed, the audit team identified a few issues which were not directly related to this new version of ArConnect.  In any case, the team patched them immediately.  After confirming the fixes, the security audit was finalized, and so was ArConnect 1.0.  This means ArConnect is the first wallet in the Arweave ecosystem to have gone through a 3rd party security audit!  The full security audit findings and remediations can be found <a href='https://www.arconnect.io/audit.pdf?utm_source=Blog&utm_medium=Post&utm_campaign=ArConnect+1.0+Release+-+Audit&utm_id=ArConnect+1.0+Release' target='_blank'>here</a>."
+          }
+        ]
+      },
+      {
+        "title": "Developer Tools",
+        "content": [
+          { "type": "image", "src": "/developer-image.webp" },
+
+          {
+            "type": "paragraph",
+            "text": "The ArConnect team did not forget about our partners and the developer community.  New developer tools features were a top priority for this new version.  ArConnect Devtools and ArLocal Devtools have been added to make local testing easier than ever."
+          },
+          {
+            "type": "paragraph",
+            "text": "Also, ArConnect added 4 new signature functions.  These functions will allow users to sign bundle data items, generate signatures for messages and verify them, as well as generating private hashes securely through the extension. These functions will replace the now deprecated signature() function."
+          }
+        ]
+      },
+      {
+        "title": "Discover the New ArConnect Today",
+        "content": [
+          { "type": "image", "src": "/update-image.webp" },
+          {
+            "type": "paragraph",
+            "text": "Making sure your <a href='https://www.arconnect.io/?utm_source=Clabs+Blog&utm_medium=Blog&utm_campaign=ArConnect+1.0+Launch&utm_id=ArConnect+1.0+Launch' target='_blank'>ArConnect</a> is up to date is pretty easy.  In your browser, click the 3 dots in the upper right hand corner, then extensions in the drop down.  When you are on the managed extension page, if your ArConnect needs to be updated, please click the Update button.  You may need to turn on Developer Mode to get the Update button to appear.  It is in the upper right hand corner of your managed extensions page.  You will know you are on the latest version because the extension icon is purple hedgehog."
+          },
+          {
+            "type": "paragraph",
+            "text": "If you are installing ArConnect for the first time, all you need to do is download the extension to get started.  You can download the extension <a href='https://www.arconnect.io/download?utm_source=Clabs+Blog&utm_medium=Blog&utm_campaign=ArConnect+1.0+Launch&utm_id=ArConnect+1.0+Launch' target='_blank'>here</a>."
+          },
+          {
+            "type": "paragraph",
+            "text": "If you are a developer and are interested in integrating ArConnect, you can find the integration docs <a href='https://docs.arconnect.io/?utm_source=Clabs+Blog&utm_medium=Blog&utm_campaign=ArConnect+1.0+Launch&utm_id=ArConnect+1.0+Launch' target='_blank'>here.</a>"
+          },
+          {
+            "type": "paragraph",
+            "text": "If you need any help, have any questions, or just want to say hello, please reach out in the ArConnect <a href='https://discord.com/invite/n5aUk776v8' target='_blank'>Discord</a>."
           }
         ]
       }

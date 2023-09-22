@@ -18,15 +18,9 @@ import NavigationIcon from "~/components/blog/NavigationIcon";
 
 export default function Blog() {
   const router = useRouter();
-  const handleClick = () => {
-    router.push("/blog/123"); // Replace '123' with the actual ID
-  };
 
-  const defaultSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
-    '<svg xmlns="http://www.w3.org/2000/svg" width="387" height="142" viewBox="0 0 387 142" fill="none"><path d="M251.207 141H19C9.05887 141 1 132.941 1 123V19C1 9.05888 9.05887 1 19 1H368C377.941 1 386 9.05887 386 19V41.3014C386 51.2425 377.941 59.3014 368 59.3014H347.696C337.755 59.3014 329.696 67.3603 329.696 77.3014V81.1918C329.696 91.1329 321.637 99.1918 311.696 99.1918H287.207C277.265 99.1918 269.207 107.251 269.207 117.192V123C269.207 132.941 261.148 141 251.207 141Z" fill="white" stroke="white"/></svg>'
-  )}`;
-  const secondarySVG = `data:image/svg+xml;utf8,${encodeURIComponent(
-    '<svg xmlns="http://www.w3.org/2000/svg" width="255" height="100" viewBox="0 0 255 100" fill="none"><path d="M229 71.6875V81C229 90.9411 220.941 99 211 99H19C9.05887 99 1 90.9472 1 81.0061V18.9964C1 9.05532 9.05888 1 19 1H236C245.941 1 254 9.05887 254 19V46.6875C254 53.5911 248.404 59.1875 241.5 59.1875C234.596 59.1875 229 64.7839 229 71.6875Z" fill="white" stroke="white"/></svg>'
+  const altSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
+    '<svg width="365" height="147" viewBox="0 0 365 147" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M118 146H19C9.05888 146 1 137.941 1 128V19C1 9.05888 9.05887 1 19 1H346C355.941 1 364 9.05888 364 19V43.3836C364 53.3247 355.941 61.3836 346 61.3836H337.289C327.347 61.3836 319.289 69.4424 319.289 79.3836V84.6986C319.289 94.6398 311.23 102.699 301.289 102.699H154C144.059 102.699 136 110.757 136 120.699V128C136 137.941 127.941 146 118 146Z" fill="white" stroke="white"/></svg>'
   )}`;
 
   return (
@@ -46,7 +40,7 @@ export default function Blog() {
                 </Paragraph>
 
                 <Entry
-                  href="/blog/123"
+                  href="/blog/arweave-for-beginners-how-to-buy-arweave-tokens"
                   backgroundColor="rgba(35, 117, 239, 0.1)"
                   height="434px"
                 >
@@ -54,15 +48,19 @@ export default function Blog() {
                     <div>
                       <Date>
                         <CalendarIcon />
-                        July 7, 2023
+                        Aug 3, 2023
                       </Date>
                     </div>
-                    <BlogTitle title="ArConnect adds support for Google Accounts through Othent" />
+                    <BlogTitle
+                      title="Arweave for Beginners: How to Buy Arweave Tokens"
+                      background={altSVG}
+                      padding="8px 0px"
+                    />
                   </DateTitleContainer>
 
                   <ImageContainer>
                     <Image
-                      src="/OthentExample.png"
+                      src="/arweave-logo.png"
                       alt="Othent logo"
                       draggable={false}
                       width={468}
@@ -74,18 +72,17 @@ export default function Blog() {
               </Column>
               <Column style={{ flex: "4" }}>
                 <Entry
-                  href="/blog/123"
+                  href="/blog/arconnect-just-leveled-up-to-1-0"
                   backgroundColor="rgba(254, 2, 48, 0.20);"
-                  onClick={handleClick}
                 >
                   <Date>
                     <CalendarIcon />
-                    Jul 1, 2023
+                    Aug 14, 2023
                   </Date>
                   <ImageContainer>
                     <Image
-                      src="/placeholder.png"
-                      alt="Placeholder logo"
+                      src="/logo.png"
+                      alt="arconnect logo"
                       draggable={false}
                       width={132}
                       height={102}
@@ -94,7 +91,7 @@ export default function Blog() {
                   <BlogTitle
                     alternative
                     width="230px"
-                    title="A cool new blog comes here"
+                    title="ArConnect 1.0 is Here"
                     icon={<ArrowUpRightIcon />}
                   />
                 </Entry>
@@ -122,7 +119,7 @@ export default function Blog() {
             </ParagraphTitle>
 
             <Entry
-              href="/blog/123"
+              href="/blog/arconnect-just-leveled-up-to-1-0"
               backgroundColor="rgba(171, 154, 255, 0.2)"
               height="434px"
             >
@@ -130,19 +127,25 @@ export default function Blog() {
                 <DateTitleContainer flexDirection="column">
                   <Date>
                     <CalendarIcon />
-                    July 7, 2023
+                    Aug 14, 2023
                   </Date>
-                  <BlogTitle title="ArConnect adds support for Google Accounts through Othent" />
+                  <BlogTitle
+                    alternative
+                    title="ArConnect 1.0 is Here"
+                    icon={<ArrowUpRightIcon />}
+                    width="230px"
+                  />
                 </DateTitleContainer>
 
                 <ImageContainer>
                   <Image
-                    src="/PlasmoExample.png"
-                    alt="Othent logo"
+                    src="/logo.png"
+                    alt="arconnect logo"
                     draggable={false}
-                    width={521}
-                    height={151}
+                    width={132}
+                    height={102}
                   />
+                  <LogoText>ArConnect</LogoText>
                 </ImageContainer>
                 <NavigationIcon alt />
               </AllPostContent>
@@ -150,7 +153,7 @@ export default function Blog() {
             <Spacer y={4} />
 
             <Entry
-              href="/blog/123"
+              href="/blog/arweave-for-beginners-how-to-buy-arweave-tokens"
               backgroundColor="rgba(171, 154, 255, 0.2)"
               height="434px"
             >
@@ -158,14 +161,18 @@ export default function Blog() {
                 <DateTitleContainer flexDirection="column">
                   <Date>
                     <CalendarIcon />
-                    July 7, 2023
+                    Aug 3, 2023
                   </Date>
-                  <BlogTitle title="ArConnect adds support for Google Accounts through Othent" />
+                  <BlogTitle
+                    title="Arweave for Beginners: How to Buy Arweave Tokens"
+                    background={altSVG}
+                    padding="8px 0px"
+                  />
                 </DateTitleContainer>
 
                 <ImageContainer>
                   <Image
-                    src="/PlasmoExample.png"
+                    src="/arweave-logo.png"
                     alt="Othent logo"
                     draggable={false}
                     width={521}
@@ -183,6 +190,19 @@ export default function Blog() {
     </>
   );
 }
+
+const LogoText = styled.h2`
+  font-size: 6rem;
+  padding: 14px;
+  font-weight: 600;
+  color: rgb(${(props) => props.theme.accent});
+  line-height: 1.1em;
+  margin: 0;
+
+  @media screen and (max-width: 720px) {
+    font-size: 2.1rem;
+  }
+`;
 
 export const Wrapper = styled.main`
   // max-width: 1518px;

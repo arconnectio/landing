@@ -16,13 +16,19 @@ type BlogData = {
   subtitle: string;
   author: string;
   datePublished: string;
-  image: string;
+  image: {
+    link: string;
+    width: number;
+    height: number;
+    alt: string;
+  };
   articleID: string;
   article: Array<{
     type: string;
     title: string;
     content: Array<{
       type: string;
+      src?: string;
       text?: string;
       items?: Array<string>;
     }>;
@@ -58,13 +64,13 @@ export default function BlogPost() {
     <>
       {blogData && blogId && (
         <>
-          <Head title="Blog - ArConnect Arweave Wallet" />
+          <Head title={`Blog - ${blogData.blogTitle}`} />
           <Nav />
           <main>
             <Section>
               <Date padding="17px 0px" secondary>
                 <CalendarIcon />
-                Jul 7, 2023
+                {blogData.datePublished}
               </Date>
               <Title style={{ paddingBottom: "27px" }}>
                 {blogData.blogTitle}
@@ -86,27 +92,40 @@ export default function BlogPost() {
               </AuthorGroup>
               <ImageContainer style={{ padding: "57px 0" }}>
                 <Image
-                  src={blogData.image}
-                  alt="Othent logo"
+                  src={blogData.image.link}
+                  alt={blogData.image.alt}
                   draggable={false}
-                  width={468}
-                  height={151}
+                  width={blogData.image.width}
+                  height={blogData.image.height}
                 />
               </ImageContainer>
             </Section>
             <BlogSection>
               {blogData.article.map((section, indx) => (
-                <div key={indx}>
-                  {section.title && (
-                    <BlogSubtitle>{section.title}</BlogSubtitle>
-                  )}
+                <>
+                  {section.title && <Subtitle>{section.title}</Subtitle>}
                   {section.content.map((contentItem, contentIndex) => {
                     switch (contentItem.type) {
+                      case "image":
+                        return (
+                          <ImageContainer style={{ padding: "57px 0" }}>
+                            <Image
+                              src={contentItem.src}
+                              alt={blogData.image.alt}
+                              draggable={false}
+                              width={blogData.image.width}
+                              height={blogData.image.height}
+                            />
+                          </ImageContainer>
+                        );
                       case "paragraph":
                         return (
-                          <Paragraph key={contentIndex}>
-                            {contentItem.text}
-                          </Paragraph>
+                          <Paragraph
+                            key={contentIndex}
+                            dangerouslySetInnerHTML={{
+                              __html: contentItem.text || ""
+                            }}
+                          />
                         );
                       case "orderedList":
                         return (
@@ -120,7 +139,12 @@ export default function BlogPost() {
                         return (
                           <List>
                             {contentItem.items?.map((item, indx) => (
-                              <ListItem key={indx}>{item} yo</ListItem>
+                              <ListItem
+                                key={indx}
+                                dangerouslySetInnerHTML={{
+                                  __html: item || ""
+                                }}
+                              ></ListItem>
                             ))}
                           </List>
                         );
@@ -128,7 +152,7 @@ export default function BlogPost() {
                         return null;
                     }
                   })}
-                </div>
+                </>
               ))}
             </BlogSection>
           </main>
@@ -143,7 +167,6 @@ const List = styled.ul<{ unstyled?: boolean }>`
   list-style-type: ${(props) => props.unstyled && "none"};
 `;
 
-// TODO:
 const ListItem = styled.li`
   ${Paragraph};
   font-size: 1.05rem;
