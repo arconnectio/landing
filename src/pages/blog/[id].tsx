@@ -109,13 +109,15 @@ export default function BlogPost() {
                       case "image":
                         return (
                           <ImageContainer style={{ padding: "57px 0" }}>
-                            <Image
-                              src={contentItem.src}
-                              alt={blogData.image.alt}
-                              draggable={false}
-                              width={blogData.image.width}
-                              height={blogData.image.height}
-                            />
+                            {contentItem.src && (
+                              <Image
+                                src={contentItem.src}
+                                alt={blogData.image.alt}
+                                draggable={false}
+                                width={blogData.image.width}
+                                height={blogData.image.height}
+                              />
+                            )}
                           </ImageContainer>
                         );
                       case "paragraph":
