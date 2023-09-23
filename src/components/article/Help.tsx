@@ -35,8 +35,8 @@ export default function Help() {
         src="/help.png"
         alt="Help Rubber Ring"
         draggable={false}
-        width={606}
-        height={450}
+        width={554}
+        height={478}
       />
     </Wrapper>
   );
@@ -69,9 +69,7 @@ const Title = styled(SectionTitle)`
 
 const HelpImage = styled(Image)`
   position: absolute;
-  height: 110%;
-  right: -14%;
-  top: -12%;
+  right: -10%;
   bottom: -18%;
   user-select: none;
 

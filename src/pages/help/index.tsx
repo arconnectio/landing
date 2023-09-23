@@ -2,6 +2,7 @@ import { Articles, SectionTitle } from "~/components/article/Articles";
 import { Manrope, Space_Grotesk } from "next/font/google";
 import Section from "~/components/content/Section";
 import Article from "~/components/article/Article";
+import Help from "~/components/article/Help";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import styled from "styled-components";
@@ -26,7 +27,7 @@ const manrope = Manrope({
   subsets: ["latin"]
 });
 
-export default function Help() {
+export default function KnowledgeBase() {
   return (
     <>
       <Head title="Help - ArConnect Arweave Wallet" />
