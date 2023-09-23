@@ -81,7 +81,7 @@ export default function Topic({ post }: Props) {
 }
 
 export async function getStaticProps({ params }: Params) {
-  const post = getDocumentBySlug("knowledge-base-articles", params.article, [
+  const post = getDocumentBySlug("knowledge-base-articles", params.slug, [
     "title",
     "content",
     "description"
@@ -207,6 +207,6 @@ const ContentLink = styled(Link)<{
 
 interface Params {
   params: {
-    article: string;
+    slug: string;
   };
 }
