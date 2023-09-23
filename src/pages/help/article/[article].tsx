@@ -60,7 +60,7 @@ export default function Topic({ article }: Props) {
             <ContentNavigatorTitle>
               Content map
             </ContentNavigatorTitle>
-            <ContentLink activeSection href="#">
+            <ContentLink activeSection={true} href="#">
               Article name
             </ContentLink>
             <ContentLink href="#test">
