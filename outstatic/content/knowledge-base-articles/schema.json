@@ -16,6 +16,10 @@
         {
           "value": "walletManagement",
           "label": "Wallet management"
+        },
+        {
+          "value": "apps &Connections",
+          "label": "Apps & connections"
         }
       ]
     }
