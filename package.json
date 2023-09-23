@@ -9,6 +9,7 @@
     "@iconicicons/react": "^1.5.1",
     "framer-motion": "^10.8.5",
     "next": "13.2.4",
+    "outstatic": "^0.0.41",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-ga4": "^2.1.0",
