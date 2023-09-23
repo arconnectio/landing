@@ -2,16 +2,20 @@ import { ChevronRightIcon } from "@iconicicons/react";
 import styled from "styled-components";
 import Link from "next/link";
 
-export default function Location() {
+export default function Location({ category, article }: Props) {
   return (
     <Wrapper>
       <LocationLink href="/help">Knowledge Base</LocationLink>
       <ChevronRightIcon />
-      <LocationLink href="/help/topic/getting-started">
-        Getting started
+      <LocationLink href={`/help/topic/${category.toLowerCase()}`}>
+        {category}
       </LocationLink>
       <ChevronRightIcon />
-      <LocationLink href="/help/article/1">Article name</LocationLink>
+      {article && (
+        <LocationLink href={`/help/article/${article.slug}`}>
+          {article.name}
+        </LocationLink>
+      )}
     </Wrapper>
   );
 }
@@ -40,3 +44,11 @@ const LocationLink = styled(Link)`
     opacity: 0.8;
   }
 `;
+
+interface Props {
+  article?: {
+    slug: string;
+    name: string;
+  };
+  category: string;
+}

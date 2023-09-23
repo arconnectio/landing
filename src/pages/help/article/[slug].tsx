@@ -14,10 +14,10 @@ import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 import Link from "next/link";
 
-export default function Topic({ post }: Props) {
+export default function Topic({ post, slug }: Props) {
   return (
     <>
-      <Head title="Article title - ArConnect Arweave Wallet" />
+      <Head title={`${post.title} - ArConnect Arweave Wallet`} />
       <Nav />
       <Main>
         <Section extraSpace>
@@ -27,7 +27,13 @@ export default function Topic({ post }: Props) {
             {post.description}
           </Description>
           <Spacer y={1.35} />
-          <Location />
+          <Location
+            category={"Test"}
+            article={{
+              name: post.title,
+              slug
+            }}
+          />
         </Section>
         <ContentWrapper>
           <Content dangerouslySetInnerHTML={{ __html: post.content }}></Content>
@@ -93,7 +99,8 @@ export async function getStaticProps({ params }: Params) {
       post: {
         ...post,
         content
-      }
+      },
+      slug: params.slug
     }
   }
 }
@@ -111,6 +118,7 @@ interface Props {
     content: string;
     description: string;
   }
+  slug: string;
 }
 
 const Main = styled.main`

@@ -27,7 +27,7 @@ export default function Topic({ topic }: Props) {
             Officiis.
           </Description>
           <Spacer y={1.35} />
-          <Location />
+          <Location category={topic} />
         </Section>
         <Section>
           <SectionTitle>
