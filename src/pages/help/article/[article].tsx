@@ -81,7 +81,7 @@ export default function Topic({ post }: Props) {
 }
 
 export async function getStaticProps({ params }: Params) {
-  const post = getDocumentBySlug("posts", params.article, [
+  const post = getDocumentBySlug("knowledge-base-articles", params.article, [
     "title",
     "content",
     "description"
@@ -100,7 +100,7 @@ export async function getStaticProps({ params }: Params) {
 
 export async function getStaticPaths() {
   return {
-    paths: getDocumentPaths('posts'),
+    paths: getDocumentPaths("knowledge-base-articles"),
     fallback: false
   }
 }
