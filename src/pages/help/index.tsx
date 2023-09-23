@@ -106,6 +106,8 @@ export default function Help() {
             </Topic>
           </Articles>
         </Section>
+        <Spacer y={3} />
+        <Help />
         <Spacer y={2.5} />
       </Main>
       <Footer />

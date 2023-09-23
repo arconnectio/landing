@@ -27,7 +27,7 @@ export default function Help() {
         Discord.
       </Description>
       <Spacer y={2} />
-      <Button>
+      <Button href={"/discord"}>
         Get help
         <ArrowRightIcon />
       </Button>
