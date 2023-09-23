@@ -1,6 +1,6 @@
 ---
 title: 'How to install and setup ArConnect?'
-status: 'draft'
+status: 'published'
 author:
   name: 'Marton Lederer'
   picture: 'https://avatars.githubusercontent.com/u/30638105?v=4'
