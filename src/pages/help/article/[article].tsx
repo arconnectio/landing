@@ -1,6 +1,6 @@
 import { Description, Paragraph, ParagraphTitle, Title } from "~/components/content/Text";
 import { Articles, SectionTitle } from "~/components/article/Articles";
-import { getDocumentBySlug } from "outstatic/server";
+import { getDocumentBySlug, getDocumentPaths } from "outstatic/server";
 import Location from "~/components/article/Location";
 import Section from "~/components/content/Section";
 import Article from "~/components/article/Article";
@@ -95,6 +95,13 @@ export async function getStaticProps({ params }: Params) {
         content
       }
     }
+  }
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: getDocumentPaths('posts'),
+    fallback: false
   }
 }
 
