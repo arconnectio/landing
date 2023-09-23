@@ -24,11 +24,11 @@ export const paragraphTitleStyles = css`
   font-size: 1.9rem;
   font-weight: 650;
   line-height: 1.1em;
-  margin: 0;
 `;
 
 export const ParagraphTitle = styled.h3`
   font-size: 1.9rem;
+  margin: 0;
   ${paragraphTitleStyles}
 `;
 
@@ -36,13 +36,13 @@ export const paragraphStyles = css`
   font-size: 1.05rem;
   font-weight: 550;
   text-align: justify;
-  margin: 0;
   line-height: 1.55em;
   width: auto;
 `;
 
 export const Paragraph = styled.p`
   ${paragraphStyles}
+  margin: 0;
   color: rgb(${(props) => props.theme.secondaryText});
 
   a {
