@@ -7,6 +7,7 @@ import { InboxIcon } from "@iconicicons/react";
 import Help from "~/components/article/Help";
 import Spacer from "~/components/Spacer";
 import Footer from "~/components/Footer";
+import { load } from "outstatic/server";
 import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
@@ -27,7 +28,12 @@ export default function Topic({ topic }: Props) {
             Officiis.
           </Description>
           <Spacer y={1.35} />
-          <Location category={topic} />
+          <Location
+            category={{
+              name: category.label,
+              slug: category.value
+            }}
+          />
         </Section>
         <Section>
           <SectionTitle>

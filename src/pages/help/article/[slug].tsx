@@ -28,7 +28,10 @@ export default function Topic({ post, slug }: Props) {
           </Description>
           <Spacer y={1.35} />
           <Location
-            category={"Test"}
+            category={{
+              name: post.category.label,
+              slug: post.category.value
+            }}
             article={{
               name: post.title,
               slug
@@ -90,7 +93,8 @@ export async function getStaticProps({ params }: Params) {
   const post = getDocumentBySlug("knowledge-base-articles", params.slug, [
     "title",
     "content",
-    "description"
+    "description",
+    "category"
   ]);
   const content = await markdownToHtml(post.content || "");
 
@@ -98,7 +102,8 @@ export async function getStaticProps({ params }: Params) {
     props: {
       post: {
         ...post,
-        content
+        content,
+        category: post.category[0]
       },
       slug: params.slug
     }
@@ -117,8 +122,14 @@ interface Props {
     title: string;
     content: string;
     description: string;
+    category: Category;
   }
   slug: string;
+}
+
+interface Category {
+  value: string;
+  label: string;
 }
 
 const Main = styled.main`

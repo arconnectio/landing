@@ -7,8 +7,8 @@ export default function Location({ category, article }: Props) {
     <Wrapper>
       <LocationLink href="/help">Knowledge Base</LocationLink>
       <ChevronRightIcon />
-      <LocationLink href={`/help/topic/${category.toLowerCase()}`}>
-        {category}
+      <LocationLink href={`/help/topic/${category.slug}`}>
+        {category.name}
       </LocationLink>
       <ChevronRightIcon />
       {article && (
@@ -46,9 +46,11 @@ const LocationLink = styled(Link)`
 `;
 
 interface Props {
-  article?: {
-    slug: string;
-    name: string;
-  };
-  category: string;
+  article?: Property;
+  category: Property;
+}
+
+interface Property {
+  slug: string;
+  name: string;
 }
