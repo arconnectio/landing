@@ -10,15 +10,15 @@
       "title": "category",
       "values": [
         {
-          "value": "gettingStarted",
+          "value": "getting-started",
           "label": "Getting started"
         },
         {
-          "value": "walletManagement",
+          "value": "wallet-management",
           "label": "Wallet management"
         },
         {
-          "value": "apps &Connections",
+          "value": "apps-and-connections",
           "label": "Apps & connections"
         }
       ]
