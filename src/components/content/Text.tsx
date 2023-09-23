@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Title = styled.h1`
   font-size: 3.35rem;
@@ -20,22 +20,30 @@ export const Subtitle = styled.h2`
   margin: 0;
 `;
 
-export const ParagraphTitle = styled.h3`
+export const paragraphTitleStyles = css`
   font-size: 1.9rem;
   font-weight: 650;
-  color: rgb(${(props) => props.theme.secondaryText});
   line-height: 1.1em;
   margin: 0;
 `;
 
-export const Paragraph = styled.p`
+export const ParagraphTitle = styled.h3`
+  font-size: 1.9rem;
+  ${paragraphTitleStyles}
+`;
+
+export const paragraphStyles = css`
   font-size: 1.05rem;
   font-weight: 550;
   text-align: justify;
   margin: 0;
-  color: rgb(${(props) => props.theme.secondaryText});
   line-height: 1.55em;
   width: auto;
+`;
+
+export const Paragraph = styled.p`
+  ${paragraphStyles}
+  color: rgb(${(props) => props.theme.secondaryText});
 
   a {
     color: rgb(${(props) => props.theme.accent});

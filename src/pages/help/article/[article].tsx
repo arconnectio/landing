@@ -1,4 +1,4 @@
-import { Description, Paragraph, ParagraphTitle, Title } from "~/components/content/Text";
+import { Description, paragraphStyles, paragraphTitleStyles, Title } from "~/components/content/Text";
 import { Articles, SectionTitle } from "~/components/article/Articles";
 import { getDocumentBySlug, getDocumentPaths } from "outstatic/server";
 import Location from "~/components/article/Location";
@@ -143,6 +143,22 @@ const Content = styled.div`
 
   @media screen and (max-width: 720px) {
     width: 100%;
+  }
+
+  a {
+    color: rgb(${(props) => props.theme.accent});
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  p {
+    color: rgb(${(props) => props.theme.secondaryText});
+    ${paragraphStyles}
+  }
+
+  h2 {
+    color: rgb(${(props) => props.theme.secondaryText});
+    ${paragraphTitleStyles}
   }
 `;
 
