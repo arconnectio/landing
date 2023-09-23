@@ -1,67 +1,42 @@
-import { Articles, SectionTitle } from "~/components/article/Articles";
 import { Description, Paragraph, ParagraphTitle, Title } from "~/components/content/Text";
+import { Articles, SectionTitle } from "~/components/article/Articles";
+import { getDocumentBySlug } from "outstatic/server";
 import Location from "~/components/article/Location";
 import Section from "~/components/content/Section";
 import Article from "~/components/article/Article";
 import { InboxIcon } from "@iconicicons/react";
+import markdownToHtml from "~/utils/markdown";
 import Help from "~/components/article/Help";
 import Spacer from "~/components/Spacer";
 import Footer from "~/components/Footer";
 import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
-import Link from "next/link"
+import Link from "next/link";
 
-export default function Topic({ article }: Props) {
+export default function Topic({ post }: Props) {
   return (
     <>
       <Head title="Article title - ArConnect Arweave Wallet" />
       <Nav />
       <Main>
         <Section extraSpace>
-          <Title>Article title</Title>
+          <Title>{post.title}</Title>
           <Spacer y={1} />
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum id
-            suscipit obcaecati distinctio ipsa dolores quam error ab quis earum
-            mollitia deleniti culpa nostrum veniam a dolorem, ullam animi?
-            Officiis.
+            {post.description}
           </Description>
           <Spacer y={1.35} />
           <Location />
         </Section>
         <ContentWrapper>
-          <Content>
-            <Paragraph>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus, velit laudantium nulla suscipit dolorum ipsam est architecto maiores obcaecati consequuntur quae, quod exercitationem voluptatem. Nostrum quos consequatur error facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita quia praesentium odio, vel nihil recusandae itaque maxime, dicta illo obcaecati ullam quod labore quibusdam iusto optio debitis accusamus. Facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum ullam praesentium molestiae quis, eos repellat voluptate necessitatibus assumenda ea ex. Eos sapiente, enim dignissimos sint reprehenderit veritatis itaque assumenda!
-            </Paragraph>
-            <Spacer y={1.35} />
-            <ParagraphTitle>
-              Test
-            </ParagraphTitle>
-            <Spacer y={.8} />
-            <Paragraph>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus, velit laudantium nulla suscipit dolorum ipsam est architecto maiores obcaecati consequuntur quae, quod exercitationem voluptatem. Nostrum quos consequatur error facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita quia praesentium odio, vel nihil recusandae itaque maxime, dicta illo obcaecati ullam quod labore quibusdam iusto optio debitis accusamus. Facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum ullam praesentium molestiae quis, eos repellat voluptate necessitatibus assumenda ea ex. Eos sapiente, enim dignissimos sint reprehenderit veritatis itaque assumenda!
-            </Paragraph>
-            <Spacer y={1.35} />
-            <Paragraph>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus, velit laudantium nulla suscipit dolorum ipsam est architecto maiores obcaecati consequuntur quae, quod exercitationem voluptatem. Nostrum quos consequatur error facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita quia praesentium odio, vel nihil recusandae itaque maxime, dicta illo obcaecati ullam quod labore quibusdam iusto optio debitis accusamus. Facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum ullam praesentium molestiae quis, eos repellat voluptate necessitatibus assumenda ea ex. Eos sapiente, enim dignissimos sint reprehenderit veritatis itaque assumenda!
-            </Paragraph>
-            <Spacer y={1.35} />
-            <ParagraphTitle>
-              Test
-            </ParagraphTitle>
-            <Spacer y={.8} />
-            <Paragraph>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus, velit laudantium nulla suscipit dolorum ipsam est architecto maiores obcaecati consequuntur quae, quod exercitationem voluptatem. Nostrum quos consequatur error facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita quia praesentium odio, vel nihil recusandae itaque maxime, dicta illo obcaecati ullam quod labore quibusdam iusto optio debitis accusamus. Facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum ullam praesentium molestiae quis, eos repellat voluptate necessitatibus assumenda ea ex. Eos sapiente, enim dignissimos sint reprehenderit veritatis itaque assumenda!
-            </Paragraph>
-          </Content>
+          <Content dangerouslySetInnerHTML={{ __html: post.content }}></Content>
           <ContentNavigator>
             <ContentNavigatorTitle>
               Content map
             </ContentNavigatorTitle>
             <ContentLink activeSection={true} href="#">
-              Article name
+              {post.title}
             </ContentLink>
             <ContentLink href="#test">
               Test
@@ -103,6 +78,32 @@ export default function Topic({ article }: Props) {
       <Footer />
     </>
   );
+}
+
+export async function getStaticProps({ params }: Params) {
+  const post = getDocumentBySlug("posts", params.article, [
+    "title",
+    "content",
+    "description"
+  ]);
+  const content = await markdownToHtml(post.content || "");
+
+  return {
+    props: {
+      post: {
+        ...post,
+        content
+      }
+    }
+  }
+}
+
+interface Props {
+  post: {
+    title: string;
+    content: string;
+    description: string;
+  }
 }
 
 const Main = styled.main`
@@ -181,6 +182,8 @@ const ContentLink = styled(Link)<{
   }
 `;
 
-interface Props {
-  article: string;
+interface Params {
+  params: {
+    article: string;
+  };
 }
