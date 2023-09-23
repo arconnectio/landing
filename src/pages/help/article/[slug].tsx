@@ -153,11 +153,13 @@ const Content = styled.div`
 
   p {
     color: rgb(${(props) => props.theme.secondaryText});
+    margin-bottom: 1.35rem;
     ${paragraphStyles}
   }
 
   h2 {
     color: rgb(${(props) => props.theme.secondaryText});
+    margin-bottom: .8rem;
     ${paragraphTitleStyles}
   }
 `;
