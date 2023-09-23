@@ -7,7 +7,7 @@ author:
 slug: 'sending-tokens'
 description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.'
 coverImage: ''
-category: [{"label":"Getting started","value":"gettingStarted"},{"label":"Wallet management","value":"walletManagement"},{"label":"Apps & connections","value":"apps &Connections"}]
+category: [{"label":"Getting started","value":"gettingStarted"},{"label":"Wallet management","value":"walletManagement"}]
 publishedAt: '2023-09-23T12:15:12.411Z'
 ---
 
