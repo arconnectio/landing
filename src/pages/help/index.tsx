@@ -1,11 +1,3 @@
-import {
-  FastForwardIcon,
-  SearchIcon,
-  SmartphoneIcon,
-  TagIcon,
-  TrendingUpIcon,
-  WalletIcon
-} from "@iconicicons/react";
 import { Articles, SectionTitle } from "~/components/article/Articles";
 import { Manrope, Space_Grotesk } from "next/font/google";
 import Section from "~/components/content/Section";
@@ -16,6 +8,15 @@ import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 import Link from "next/link";
+import {
+  FastForwardIcon,
+  PinIcon,
+  SearchIcon,
+  SmartphoneIcon,
+  TagIcon,
+  TrendingUpIcon,
+  WalletIcon
+} from "@iconicicons/react";
 
 const spacegrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -47,26 +48,11 @@ export default function Help() {
         <Spacer y={3} />
         <Section>
           <SectionTitle>
-            <TrendingUpIcon />
-            Popular articles
+            <PinIcon />
+            Pinned articles
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
             <Article
               id={1}
               title="This is the article title"
@@ -104,6 +90,46 @@ export default function Help() {
               <SmartphoneIcon />
               Apps & connections
             </Topic>
+          </Articles>
+        </Section>
+        <Spacer y={2.5} />
+        <Section>
+          <SectionTitle>
+            <TrendingUpIcon />
+            Popular articles
+          </SectionTitle>
+          <Spacer y={2.4} />
+          <Articles>
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
+            <Article
+              id={1}
+              title="This is the article title"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+            />
           </Articles>
         </Section>
         <Spacer y={3} />
