@@ -1,4 +1,11 @@
-import { FastForwardIcon, SearchIcon, SmartphoneIcon, TagIcon, TrendingUpIcon, WalletIcon } from "@iconicicons/react";
+import {
+  FastForwardIcon,
+  SearchIcon,
+  SmartphoneIcon,
+  TagIcon,
+  TrendingUpIcon,
+  WalletIcon
+} from "@iconicicons/react";
 import { Articles, SectionTitle } from "~/components/article/Articles";
 import { Manrope, Space_Grotesk } from "next/font/google";
 import Section from "~/components/content/Section";
@@ -26,15 +33,14 @@ export default function Help() {
       <Main>
         <Spacer y={2} />
         <TitleSection>
-          <Question>
-            How can we help?
-          </Question>
-          <Title>
-            Knowledge Base
-          </Title>
+          <Question>How can we help?</Question>
+          <Title>Knowledge Base</Title>
           <Spacer y={1.6} />
           <SearchBox>
-            <SearchInput type="text" placeholder="Search for questions, articles or keywords..." />
+            <SearchInput
+              type="text"
+              placeholder="Search for questions, articles or keywords..."
+            />
             <SearchIcon />
           </SearchBox>
         </TitleSection>
@@ -114,7 +120,7 @@ const Main = styled.main`
 const TitleSection = styled.section`
   margin: 0 5.75rem;
   padding: 4rem 0;
-  background-color: rgba(${props => props.theme.accent}, .2);
+  background-color: rgba(${(props) => props.theme.accent}, 0.2);
   border-radius: 40px;
 
   @media screen and (max-width: 720px) {
@@ -127,7 +133,7 @@ const TitleSection = styled.section`
 const Question = styled.p`
   ${spacegrotesk.style}
   font-size: 1.45rem;
-  color: rgb(${props => props.theme.accent});
+  color: rgb(${(props) => props.theme.accent});
   text-align: center;
   margin: 0;
 
@@ -139,7 +145,7 @@ const Question = styled.p`
 const Title = styled.h1`
   font-size: 2.85rem;
   font-weight: 700;
-  color: rgb(${props => props.theme.primaryText});
+  color: rgb(${(props) => props.theme.primaryText});
   text-align: center;
   margin: 0;
 
@@ -151,7 +157,7 @@ const Title = styled.h1`
 const SearchBox = styled.div`
   position: relative;
   width: max-content;
-  background-color: rgb(${props => props.theme.background});
+  background-color: rgb(${(props) => props.theme.background});
   overflow: hidden;
   border-radius: 14px;
   margin: 0 auto;
@@ -189,9 +195,9 @@ const SearchInput = styled.input`
 
   @media screen and (max-width: 720px) {
     width: 290px;
-    padding: 1rem .34rem;
-    padding-left: calc(.34rem * 2 + 2.63rem);
-    font-size: .85rem;
+    padding: 1rem 0.34rem;
+    padding-left: calc(0.34rem * 2 + 2.63rem);
+    font-size: 0.85rem;
   }
 `;
 
@@ -199,17 +205,17 @@ const Topic = styled(Link)`
   font-size: 1.55rem;
   font-weight: 550;
   text-align: center;
-  color: rgb(${props => props.theme.accent});
+  color: rgb(${(props) => props.theme.accent});
   display: flex;
   align-items: center;
   flex-direction: column;
   text-decoration: none;
   padding: 3.35rem 2rem;
-  gap: .4rem;
-  background-color: rgba(${props => props.theme.accent}, .2);
+  gap: 0.4rem;
+  background-color: rgba(${(props) => props.theme.accent}, 0.2);
   border-radius: 40px;
   cursor: pointer;
-  transition: all .17s ease;
+  transition: all 0.17s ease;
 
   svg {
     width: 3.5rem;
@@ -217,10 +223,10 @@ const Topic = styled(Link)`
   }
 
   &:hover {
-    transform: scale(.975);
+    transform: scale(0.975);
   }
 
   &:active {
-    transform: scale(.95);
+    transform: scale(0.95);
   }
 `;

@@ -4,10 +4,10 @@ import styled from "styled-components";
 export const SectionTitle = styled(Subtitle)`
   display: flex;
   align-items: center;
-  gap: 1.4rem;
+  gap: 1.15rem;
   font-size: 1.85rem;
   font-weight: 600;
-  color: rgb(${props => props.theme.primaryText});
+  color: rgb(${(props) => props.theme.primaryText});
 
   svg {
     width: 2.63rem;

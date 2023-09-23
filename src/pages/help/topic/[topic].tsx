@@ -4,6 +4,7 @@ import Location from "~/components/article/Location";
 import Section from "~/components/content/Section";
 import Article from "~/components/article/Article";
 import { InboxIcon } from "@iconicicons/react";
+import Help from "~/components/article/Help";
 import Spacer from "~/components/Spacer";
 import Footer from "~/components/Footer";
 import styled from "styled-components";
@@ -20,7 +21,10 @@ export default function Topic({ topic }: Props) {
           <Title>Topic Name</Title>
           <Spacer y={1} />
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum id suscipit obcaecati distinctio ipsa dolores quam error ab quis earum mollitia deleniti culpa nostrum veniam a dolorem, ullam animi? Officiis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum id
+            suscipit obcaecati distinctio ipsa dolores quam error ab quis earum
+            mollitia deleniti culpa nostrum veniam a dolorem, ullam animi?
+            Officiis.
           </Description>
           <Spacer y={1.35} />
           <Location />
@@ -64,6 +68,8 @@ export default function Topic({ topic }: Props) {
             />
           </Articles>
         </Section>
+        <Spacer y={3} />
+        <Help />
         <Spacer y={2.5} />
       </Main>
       <Footer />

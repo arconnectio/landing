@@ -11,12 +11,10 @@ const spacegrotesk = Space_Grotesk({
 export default function Article({ id, title, description }: Props) {
   return (
     <Wrapper>
-      <ArticleTitle>
-        {title}
-      </ArticleTitle>
-      <ArticlePreview>
-        {description}
-      </ArticlePreview>
+      <TitleWrapperLink href={`/help/article/${id}`}>
+        <ArticleTitle>{title}</ArticleTitle>
+      </TitleWrapperLink>
+      <ArticlePreview>{description}</ArticlePreview>
       <ArticleLink href={`/help/article/${id}`}>
         Read more
         <ArrowUpRightIcon />
@@ -31,19 +29,23 @@ const Wrapper = styled.article`
   gap: 1rem;
 `;
 
+const TitleWrapperLink = styled(Link)`
+  text-decoration: none;
+`;
+
 const ArticleTitle = styled.h3`
   font-size: 1.55rem;
   font-weight: 600;
-  color: rgb(${props => props.theme.accent});
+  color: rgb(${(props) => props.theme.accent});
   margin: 0;
   line-height: 1.1em;
 `;
 
 const ArticlePreview = styled.p`
-  font-size: .95rem;
+  font-size: 0.95rem;
   font-weight: 600;
   line-height: 1.55em;
-  color: rgba(${props => props.theme.secondaryText}, .8);
+  color: rgba(${(props) => props.theme.secondaryText}, 0.8);
   margin: 0;
   text-align: justify;
 `;
@@ -52,14 +54,14 @@ const ArticleLink = styled(Link)`
   ${spacegrotesk.style}
   display: flex;
   align-items: center;
-  gap: .34rem;
+  gap: 0.34rem;
   font-size: 1rem;
-  color: rgb(${props => props.theme.secondaryText});
+  color: rgb(${(props) => props.theme.secondaryText});
   text-decoration: none;
-  transition: all .23s ease-in-out;
+  transition: all 0.23s ease-in-out;
 
   &:hover {
-    opacity: .77;
+    opacity: 0.77;
   }
 
   svg {
