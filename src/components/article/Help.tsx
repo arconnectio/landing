@@ -51,8 +51,8 @@ const Wrapper = styled.section`
   overflow: hidden;
 
   @media screen and (max-width: 720px) {
-    margin: 7rem 1.25rem 0;
-    padding: 2.3rem 0;
+    margin: 0 1.25rem;
+    padding: 2.3rem;
     border-radius: 30px;
   }
 `;
@@ -61,6 +61,10 @@ const Title = styled(SectionTitle)`
   ${spacegrotesk.style}
   gap: 1rem;
   font-size: 2.2rem;
+
+  @media screen and (max-width: 720px) {
+    font-size: 1.8rem;
+  }
 `;
 
 const HelpImage = styled(Image)`
