@@ -1,6 +1,6 @@
 {
-  "commit": "95b3cb80d0a8869f50897a501b732aa9e5e90463",
-  "generated": "Sun, 24 Sep 2023 13:31:46 GMT",
+  "commit": "d105f122ac555126389cecb6f1f4511c04d17e5d",
+  "generated": "2023-09-24T21:13:46.265Z",
   "metadata": [
     {
       "__outstatic": {
@@ -81,6 +81,30 @@
       "slug": "install-and-setup",
       "status": "published",
       "title": "How to install and setup ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "d105f122ac555126389cecb6f1f4511c04d17e5d",
+        "hash": "3467811334",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps &Connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-24T21:24:37.348Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
+      "status": "published",
+      "title": "How to use ArConnect with a dApp?"
     }
   ]
 }
