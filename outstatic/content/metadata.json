@@ -1,0 +1,86 @@
+{
+  "commit": "95b3cb80d0a8869f50897a501b732aa9e5e90463",
+  "generated": "Sun, 24 Sep 2023 13:31:46 GMT",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "bb34382a6eff1d8c42db63b29a17bed8808d7a6f",
+        "hash": "129556622",
+        "path": "outstatic/content/knowledge-base-articles/sending-tokens.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "gettingStarted"
+        },
+        {
+          "label": "Wallet management",
+          "value": "walletManagement"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-23T12:15:12.411Z",
+      "slug": "sending-tokens",
+      "status": "published",
+      "title": "Sending tokens from ArConnect to other users"
+    },
+    {
+      "__outstatic": {
+        "commit": "129777cef302e5757789d9d0826fa744910c72ef",
+        "hash": "476181269",
+        "path": "outstatic/content/knowledge-base-articles/operating-arconnect.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "gettingStarted"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-23T12:13:50.100Z",
+      "slug": "operating-arconnect",
+      "status": "published",
+      "title": "How to operate ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "d5e3cb0fff43679765f68e51e43f2a487a9cf467",
+        "hash": "3650912979",
+        "path": "outstatic/content/knowledge-base-articles/install-and-setup.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "gettingStarted"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-23T12:12:26.397Z",
+      "slug": "install-and-setup",
+      "status": "published",
+      "title": "How to install and setup ArConnect?"
+    }
+  ]
+}
