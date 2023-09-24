@@ -15,11 +15,11 @@
       "category": [
         {
           "label": "Getting started",
-          "value": "gettingStarted"
+          "value": "getting-started"
         },
         {
           "label": "Wallet management",
-          "value": "walletManagement"
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -43,7 +43,7 @@
       "category": [
         {
           "label": "Getting started",
-          "value": "gettingStarted"
+          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -67,7 +67,7 @@
       "category": [
         {
           "label": "Getting started",
-          "value": "gettingStarted"
+          "value": "getting-started"
         },
         {
           "label": "Pinned",
@@ -95,7 +95,7 @@
       "category": [
         {
           "label": "Apps & connections",
-          "value": "apps &Connections"
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -119,7 +119,7 @@
       "category": [
         {
           "label": "Wallet management",
-          "value": "walletManagement"
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -143,7 +143,7 @@
       "category": [
         {
           "label": "Getting started",
-          "value": "gettingStarted"
+          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -167,7 +167,7 @@
       "category": [
         {
           "label": "Getting started",
-          "value": "gettingStarted"
+          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
