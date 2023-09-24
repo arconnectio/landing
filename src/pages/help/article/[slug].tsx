@@ -33,7 +33,7 @@ export default function Topic({ post, slug, related }: Props) {
         link: el.id
       }))
     );
-  }, [articleContentEl]);
+  }, [articleContentEl.current]);
 
   return (
     <>
