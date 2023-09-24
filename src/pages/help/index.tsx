@@ -5,6 +5,7 @@ import Article from "~/components/article/Article";
 import Help from "~/components/article/Help";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
+import { load } from "outstatic/server";
 import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
@@ -27,7 +28,7 @@ const manrope = Manrope({
   subsets: ["latin"]
 });
 
-export default function KnowledgeBase() {
+export default function KnowledgeBase({ pinned, last }: Props) {
   return (
     <>
       <Head title="Help - ArConnect Arweave Wallet" />
@@ -54,21 +55,7 @@ export default function KnowledgeBase() {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
+            {pinned.map((article) => <Article {...article} />)}
           </Articles>
         </Section>
         <Spacer y={2.5} />
@@ -101,36 +88,7 @@ export default function KnowledgeBase() {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
+            {last.map((article) => <Article {...article} />)}
           </Articles>
         </Section>
         <Spacer y={3} />
@@ -140,6 +98,61 @@ export default function KnowledgeBase() {
       <Footer />
     </>
   );
+}
+
+export async function getStaticProps() {
+  const db = await load();
+  const requiredFields = [
+    "slug",
+    "title",
+    "description"
+  ];
+  const pinned = await db
+    .find({
+      collection: "knowledge-base-articles",
+      // @ts-expect-error
+      category: {
+        $where: "this.value === 'pinned'"
+      }
+    }).project(requiredFields)
+    // @ts-expect-error
+    .sort([{ publishedAt: -1 }])
+    .limit(3)
+    .toArray();
+  const last = await db
+    .find({
+      collection: "knowledge-base-articles",
+    })
+    // @ts-expect-error
+    .sort([{ publishedAt: -1 }])
+    .limit(6)
+    .project(requiredFields)
+    .toArray();
+
+  return {
+    props: {
+      pinned,
+      last
+    }
+  };
+}
+
+interface Props {
+  pinned: [Article, Article, Article];
+  last: [
+    Article,
+    Article,
+    Article,
+    Article,
+    Article,
+    Article
+  ];
+}
+
+interface Article {
+  slug: string;
+  title: string;
+  description: string;
 }
 
 const Main = styled.main`

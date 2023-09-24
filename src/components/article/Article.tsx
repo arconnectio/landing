@@ -8,14 +8,14 @@ const spacegrotesk = Space_Grotesk({
   weight: "600"
 });
 
-export default function Article({ id, title, description }: Props) {
+export default function Article({ slug, title, description }: Props) {
   return (
     <Wrapper>
-      <TitleWrapperLink href={`/help/article/${id}`}>
+      <TitleWrapperLink href={`/help/article/${slug}`}>
         <ArticleTitle>{title}</ArticleTitle>
       </TitleWrapperLink>
       <ArticlePreview>{description}</ArticlePreview>
-      <ArticleLink href={`/help/article/${id}`}>
+      <ArticleLink href={`/help/article/${slug}`}>
         Read more
         <ArrowUpRightIcon />
       </ArticleLink>
@@ -71,7 +71,7 @@ const ArticleLink = styled(Link)`
 `;
 
 interface Props {
-  id: number;
+  slug: string;
   title: string;
   description: string;
 }
