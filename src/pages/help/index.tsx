@@ -55,7 +55,7 @@ export default function KnowledgeBase({ pinned, last }: Props) {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            {pinned.map((article) => <Article {...article} />)}
+            {pinned.map((article, i) => <Article {...article} key={i} />)}
           </Articles>
         </Section>
         <Spacer y={2.5} />
@@ -88,7 +88,7 @@ export default function KnowledgeBase({ pinned, last }: Props) {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            {last.map((article) => <Article {...article} />)}
+            {last.map((article, i) => <Article {...article} key={i} />)}
           </Articles>
         </Section>
         <Spacer y={3} />

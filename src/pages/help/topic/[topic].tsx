@@ -42,7 +42,7 @@ export default function Topic({ category, articles }: Props) {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            {articles.map((article) => <Article {...article} />)}
+            {articles.map((article, i) => <Article {...article} key={i} />)}
           </Articles>
         </Section>
         <Spacer y={3} />

@@ -13,9 +13,28 @@ import { load } from "outstatic/server";
 import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
+import { RefObject, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 export default function Topic({ post, slug, related }: Props) {
+  // headings
+  const articleContentEl = useRef<HTMLDivElement>();
+  const [headings, setHeadings] = useState<{ title: string; link: string; }[]>([]);
+
+  useEffect(() => {
+    if (!articleContentEl.current) return;
+    const res = Array.from(
+      articleContentEl.current.querySelectorAll("h1, h2, h3, h4, h5, h6")
+    );
+
+    setHeadings(
+      res.map((el) => ({
+        title: el.textContent || "",
+        link: el.id
+      }))
+    );
+  }, [articleContentEl]);
+
   return (
     <>
       <Head title={`${post.title} - ArConnect Arweave Wallet`} />
@@ -40,20 +59,19 @@ export default function Topic({ post, slug, related }: Props) {
           />
         </Section>
         <ContentWrapper>
-          <Content dangerouslySetInnerHTML={{ __html: post.content }}></Content>
+          <Content
+            dangerouslySetInnerHTML={{ __html: post.content }}
+            ref={articleContentEl as RefObject<HTMLDivElement>}
+          ></Content>
           <ContentNavigator>
             <ContentNavigatorTitle>
               Content map
             </ContentNavigatorTitle>
-            <ContentLink activeSection={true} href="#">
-              {post.title}
-            </ContentLink>
-            <ContentLink href="#test">
-              Test
-            </ContentLink>
-            <ContentLink href="#test">
-              Test
-            </ContentLink>
+            {headings.map((heading, i) => (
+              <ContentLink href={"#" + heading.link} activeSection={window.location.hash === ("#" + heading.link)} key={i}>
+                {heading.title}
+              </ContentLink>
+            ))}
           </ContentNavigator>
         </ContentWrapper>
         <Spacer y={2.5} />
@@ -64,7 +82,7 @@ export default function Topic({ post, slug, related }: Props) {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            {related.map((article) => <Article {...article} />)}
+            {related.map((article, i) => <Article {...article} key={i} />)}
           </Articles>
         </Section>
         <Spacer y={3} />
