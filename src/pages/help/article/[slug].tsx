@@ -1,20 +1,21 @@
 import { Description, paragraphStyles, paragraphTitleStyles, Title } from "~/components/content/Text";
 import { Articles, SectionTitle } from "~/components/article/Articles";
-import { getDocumentBySlug, getDocumentPaths } from "outstatic/server";
+import Article, { ArticleProps } from "~/components/article/Article";
 import Location from "~/components/article/Location";
+import { getDocumentPaths } from "outstatic/server";
 import Section from "~/components/content/Section";
-import Article from "~/components/article/Article";
 import { InboxIcon } from "@iconicicons/react";
 import markdownToHtml from "~/utils/markdown";
 import Help from "~/components/article/Help";
 import Spacer from "~/components/Spacer";
 import Footer from "~/components/Footer";
+import { load } from "outstatic/server";
 import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 import Link from "next/link";
 
-export default function Topic({ post, slug }: Props) {
+export default function Topic({ post, slug, related }: Props) {
   return (
     <>
       <Head title={`${post.title} - ArConnect Arweave Wallet`} />
@@ -63,21 +64,7 @@ export default function Topic({ post, slug }: Props) {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
+            {related.map((article) => <Article {...article} />)}
           </Articles>
         </Section>
         <Spacer y={3} />
@@ -90,22 +77,51 @@ export default function Topic({ post, slug }: Props) {
 }
 
 export async function getStaticProps({ params }: Params) {
-  const post = getDocumentBySlug("knowledge-base-articles", params.slug, [
-    "title",
-    "content",
-    "description",
-    "category"
-  ]);
+  const db = await load();
+  const post = await db
+    .find({
+      collection: "knowledge-base-articles",
+      slug: params.slug
+    })
+    .project([
+      "title",
+      "content",
+      "description",
+      "category"
+    ])
+    .first();
   const content = await markdownToHtml(post.content || "");
+  const related = await db
+    .find({
+      collection: "knowledge-base-articles",
+      // @ts-expect-error
+      category: {
+        $where: function() {
+          // @ts-expect-error
+          return !!post.category.find(({ value }: { value: string }) => value === this.value);
+        }
+      },
+      slug: {
+        $ne: params.slug
+      }
+    }).project([
+      "slug",
+      "title",
+      "description"
+    ])
+    .limit(3)
+    .toArray();
 
   return {
     props: {
       post: {
         ...post,
         content,
+        // @ts-expect-error
         category: post.category[0]
       },
-      slug: params.slug
+      slug: params.slug,
+      related
     }
   }
 }
@@ -125,6 +141,11 @@ interface Props {
     category: Category;
   }
   slug: string;
+  related: [
+    ArticleProps,
+    ArticleProps,
+    ArticleProps
+  ]
 }
 
 interface Category {

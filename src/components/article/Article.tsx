@@ -8,7 +8,7 @@ const spacegrotesk = Space_Grotesk({
   weight: "600"
 });
 
-export default function Article({ slug, title, description }: Props) {
+export default function Article({ slug, title, description }: ArticleProps) {
   return (
     <Wrapper>
       <TitleWrapperLink href={`/help/article/${slug}`}>
@@ -70,7 +70,7 @@ const ArticleLink = styled(Link)`
   }
 `;
 
-interface Props {
+export interface ArticleProps {
   slug: string;
   title: string;
   description: string;

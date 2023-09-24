@@ -1,7 +1,7 @@
 import { Articles, SectionTitle } from "~/components/article/Articles";
 import { Manrope, Space_Grotesk } from "next/font/google";
 import Section from "~/components/content/Section";
-import Article from "~/components/article/Article";
+import Article, { ArticleProps } from "~/components/article/Article";
 import Help from "~/components/article/Help";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
@@ -138,21 +138,15 @@ export async function getStaticProps() {
 }
 
 interface Props {
-  pinned: [Article, Article, Article];
+  pinned: [ArticleProps, ArticleProps, ArticleProps];
   last: [
-    Article,
-    Article,
-    Article,
-    Article,
-    Article,
-    Article
+    ArticleProps,
+    ArticleProps,
+    ArticleProps,
+    ArticleProps,
+    ArticleProps,
+    ArticleProps
   ];
-}
-
-interface Article {
-  slug: string;
-  title: string;
-  description: string;
 }
 
 const Main = styled.main`
