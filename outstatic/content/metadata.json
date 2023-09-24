@@ -15,11 +15,11 @@
       "category": [
         {
           "label": "Getting started",
-          "value": "getting-started"
+          "value": "gettingStarted"
         },
         {
           "label": "Wallet management",
-          "value": "wallet-management"
+          "value": "walletManagement"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -43,7 +43,7 @@
       "category": [
         {
           "label": "Getting started",
-          "value": "getting-started"
+          "value": "gettingStarted"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -67,7 +67,7 @@
       "category": [
         {
           "label": "Getting started",
-          "value": "getting-started"
+          "value": "gettingStarted"
         },
         {
           "label": "Pinned",
@@ -143,7 +143,7 @@
       "category": [
         {
           "label": "Getting started",
-          "value": "getting-started"
+          "value": "gettingStarted"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -167,7 +167,7 @@
       "category": [
         {
           "label": "Getting started",
-          "value": "getting-started"
+          "value": "gettingStarted"
         }
       ],
       "collection": "knowledge-base-articles",

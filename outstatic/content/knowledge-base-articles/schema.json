@@ -15,11 +15,11 @@
           "label": "Pinned"
         },
         {
-          "value": "apps &Connections",
+          "value": "apps-and-Connections",
           "label": "Apps & connections"
         },
         {
-          "value": "walletManagement",
+          "value": "wallet-management",
           "label": "Wallet management"
         }
       ],
