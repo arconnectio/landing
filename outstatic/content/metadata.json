@@ -1,6 +1,6 @@
 {
-  "commit": "e1f23b07714548a93c6f3aa87c7a53dc5574efdf",
-  "generated": "2023-09-24T21:14:54.988Z",
+  "commit": "186962ce725b37c93359fe71688191447f776c5a",
+  "generated": "2023-09-24T21:15:44.322Z",
   "metadata": [
     {
       "__outstatic": {
@@ -129,6 +129,30 @@
       "slug": "fees-in-arconnect",
       "status": "published",
       "title": "Fees in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "186962ce725b37c93359fe71688191447f776c5a",
+        "hash": "2331521476",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-24T21:27:09.654Z",
+      "slug": "what-is-arweave",
+      "status": "published",
+      "title": "What is Arweave?"
     }
   ]
 }
