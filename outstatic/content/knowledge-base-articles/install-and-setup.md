@@ -7,7 +7,7 @@ author:
 slug: 'install-and-setup'
 description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.'
 coverImage: ''
-category: [{"value":"gettingStarted","label":"Getting started"}]
+category: [{"value":"gettingStarted","label":"Getting started"},{"label":"Pinned","value":"pinned"}]
 publishedAt: '2023-09-23T12:12:26.397Z'
 ---
 
