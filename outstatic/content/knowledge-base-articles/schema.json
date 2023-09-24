@@ -17,6 +17,10 @@
         {
           "value": "apps &Connections",
           "label": "Apps & connections"
+        },
+        {
+          "value": "walletManagement",
+          "label": "Wallet management"
         }
       ],
       "fieldType": "Tags",
