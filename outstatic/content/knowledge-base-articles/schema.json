@@ -7,7 +7,7 @@
       "description": "Can be: \"Getting started\", \"Wallet management\", \"Apps & connections\" and \"Pinned\"",
       "values": [
         {
-          "value": "gettingStarted",
+          "value": "getting-started",
           "label": "Getting started"
         },
         {

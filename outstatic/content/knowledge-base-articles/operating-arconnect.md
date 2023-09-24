@@ -7,7 +7,7 @@ author:
 slug: 'operating-arconnect'
 description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.'
 coverImage: ''
-category: [{"value":"gettingStarted","label":"Getting started"}]
+category: [{"value":"getting-started","label":"Getting started"}]
 publishedAt: '2023-09-23T12:13:50.100Z'
 ---
 

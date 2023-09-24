@@ -10,11 +10,13 @@ export default function Location({ category, article }: Props) {
       <LocationLink href={`/help/topic/${category.slug}`}>
         {category.name}
       </LocationLink>
-      <ChevronRightIcon />
       {article && (
-        <LocationLink href={`/help/article/${article.slug}`}>
-          {article.name}
-        </LocationLink>
+        <>
+          <ChevronRightIcon />
+          <LocationLink href={`/help/article/${article.slug}`}>
+            {article.name}
+          </LocationLink>
+        </>
       )}
     </Wrapper>
   );

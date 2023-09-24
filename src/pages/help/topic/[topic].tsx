@@ -2,7 +2,7 @@ import { Articles, SectionTitle } from "~/components/article/Articles";
 import { Description, Title } from "~/components/content/Text";
 import Location from "~/components/article/Location";
 import Section from "~/components/content/Section";
-import Article from "~/components/article/Article";
+import Article, { ArticleProps } from "~/components/article/Article";
 import { InboxIcon } from "@iconicicons/react";
 import Help from "~/components/article/Help";
 import Spacer from "~/components/Spacer";
@@ -12,14 +12,14 @@ import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 
-export default function Topic({ topic }: Props) {
+export default function Topic({ category, articles }: Props) {
   return (
     <>
-      <Head title="Topic Name Help - ArConnect Arweave Wallet" />
+      <Head title={`${category.label} Help - ArConnect Arweave Wallet`} />
       <Nav />
       <Main>
         <Section extraSpace>
-          <Title>Topic Name</Title>
+          <Title>{category.label}</Title>
           <Spacer y={1} />
           <Description>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum id
@@ -38,40 +38,11 @@ export default function Topic({ topic }: Props) {
         <Section>
           <SectionTitle>
             <InboxIcon />
-            Related articles
+            Articles
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
-            <Article
-              id={1}
-              title="This is the article title"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-            />
+            {articles.map((article) => <Article {...article} />)}
           </Articles>
         </Section>
         <Spacer y={3} />
@@ -85,15 +56,38 @@ export default function Topic({ topic }: Props) {
 
 export async function getStaticProps({ params }: Params) {
   const db = await load();
-  // TODO
+  const articles = await db
+    .find({
+      collection: "knowledge-base-articles",
+      // @ts-expect-error
+      category: {
+        $where: `this.value === '${params.topic}'`
+      }
+    }).project([
+      "slug",
+      "title",
+      "description",
+      "category"
+    ])
+    // @ts-expect-error
+    .sort([{ publishedAt: -1 }])
+    .toArray();
+
+  return {
+    props: {
+      articles,
+      // @ts-expect-error
+      category: articles[0].category.find((c) => c.value === params.topic)
+    }
+  };
 }
 
 export async function getStaticPaths() {
   return {
     paths: [
-      { topic: "getting-started" },
-      { topic: "wallet-management" },
-      { topic: "apps-and-connections" }
+      { params: { topic: "getting-started" } },
+      { params: { topic: "wallet-management" } },
+      { params: { topic: "apps-and-connections" } }
     ],
     fallback: false
   }
@@ -110,5 +104,9 @@ const Main = styled.main`
 `;
 
 interface Props {
-  topic: string;
+  category: {
+    value: string;
+    label: string;
+  };
+  articles: ArticleProps[];
 }
