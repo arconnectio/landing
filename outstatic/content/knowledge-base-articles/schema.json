@@ -4,24 +4,11 @@
   "properties": {
     "category": {
       "required": true,
-      "description": "Can be: \"Getting started\", \"Wallet management\", \"Apps & connections\"",
+      "description": "Can be: \"Getting started\", \"Wallet management\", \"Apps & connections\" and \"Pinned\"",
+      "values": [],
       "fieldType": "Tags",
       "dataType": "array",
-      "title": "category",
-      "values": [
-        {
-          "value": "getting-started",
-          "label": "Getting started"
-        },
-        {
-          "value": "wallet-management",
-          "label": "Wallet management"
-        },
-        {
-          "value": "apps-and-connections",
-          "label": "Apps & connections"
-        }
-      ]
+      "title": "category"
     }
   }
 }
