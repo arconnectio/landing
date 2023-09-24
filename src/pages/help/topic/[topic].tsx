@@ -83,6 +83,28 @@ export default function Topic({ topic }: Props) {
   );
 }
 
+export async function getStaticProps({ params }: Params) {
+  const db = await load();
+  // TODO
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [
+      { topic: "getting-started" },
+      { topic: "wallet-management" },
+      { topic: "apps-and-connections" }
+    ],
+    fallback: false
+  }
+}
+
+interface Params {
+  params: {
+    topic: string;
+  }
+}
+
 const Main = styled.main`
   position: relative;
 `;
