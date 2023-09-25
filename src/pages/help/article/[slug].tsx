@@ -1,19 +1,20 @@
 import { Description, paragraphStyles, paragraphTitleStyles, Title } from "~/components/content/Text";
 import { Articles, SectionTitle } from "~/components/article/Articles";
 import Article, { ArticleProps } from "~/components/article/Article";
+import { RefObject, useEffect, useRef, useState } from "react";
 import Location from "~/components/article/Location";
 import { getDocumentPaths } from "outstatic/server";
 import Section from "~/components/content/Section";
 import { InboxIcon } from "@iconicicons/react";
 import markdownToHtml from "~/utils/markdown";
 import Help from "~/components/article/Help";
+import { Category } from "../topic/[topic]";
 import Spacer from "~/components/Spacer";
 import Footer from "~/components/Footer";
 import { load } from "outstatic/server";
 import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
-import { RefObject, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 export default function Topic({ post, slug, related }: Props) {
@@ -97,7 +98,10 @@ export default function Topic({ post, slug, related }: Props) {
 export async function getStaticProps({ params }: Params) {
   const db = await load();
   const post = await db
-    .find({
+    .find<{
+      category: Category[];
+      content?: string;
+    }>({
       collection: "knowledge-base-articles",
       slug: params.slug
     })
@@ -114,7 +118,7 @@ export async function getStaticProps({ params }: Params) {
       collection: "knowledge-base-articles",
       // @ts-expect-error
       category: {
-        $where: function() {
+        $where: function(): boolean {
           // @ts-expect-error
           return !!post.category.find(({ value }: { value: string }) => value === this.value);
         }
@@ -135,7 +139,6 @@ export async function getStaticProps({ params }: Params) {
       post: {
         ...post,
         content,
-        // @ts-expect-error
         category: post.category[0]
       },
       slug: params.slug,
@@ -164,11 +167,6 @@ interface Props {
     ArticleProps,
     ArticleProps
   ]
-}
-
-interface Category {
-  value: string;
-  label: string;
 }
 
 const Main = styled.main`

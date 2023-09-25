@@ -57,7 +57,9 @@ export default function Topic({ category, articles }: Props) {
 export async function getStaticProps({ params }: Params) {
   const db = await load();
   const articles = await db
-    .find({
+    .find<{
+      category: Category[]
+    }>({
       collection: "knowledge-base-articles",
       // @ts-expect-error
       category: {
@@ -76,7 +78,6 @@ export async function getStaticProps({ params }: Params) {
   return {
     props: {
       articles,
-      // @ts-expect-error
       category: articles[0].category.find((c) => c.value === params.topic)
     }
   };
@@ -104,9 +105,11 @@ const Main = styled.main`
 `;
 
 interface Props {
-  category: {
-    value: string;
-    label: string;
-  };
+  category: Category;
   articles: ArticleProps[];
+}
+
+export interface Category {
+  value: string;
+  label: string;
 }
