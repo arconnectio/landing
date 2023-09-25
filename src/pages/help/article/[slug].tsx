@@ -139,7 +139,7 @@ export async function getStaticProps({ params }: Params) {
       post: {
         ...post,
         content,
-        category: post.category[0]
+        category: post.category.find(c => c.value !== "pinned")
       },
       slug: params.slug,
       related

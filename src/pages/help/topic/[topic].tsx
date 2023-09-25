@@ -22,10 +22,7 @@ export default function Topic({ category, articles }: Props) {
           <Title>{category.label}</Title>
           <Spacer y={1} />
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum id
-            suscipit obcaecati distinctio ipsa dolores quam error ab quis earum
-            mollitia deleniti culpa nostrum veniam a dolorem, ullam animi?
-            Officiis.
+            {topicDescriptions[category.value]}
           </Description>
           <Spacer y={1.35} />
           <Location
@@ -93,6 +90,12 @@ export async function getStaticPaths() {
     fallback: false
   }
 }
+
+const topicDescriptions: Record<string, string> = {
+  "getting-started": "Essential resources on getting started with the ArConnect Arweave wallet. You should start here and follow these guides to have the most seamless experience possible with the extension.",
+  "wallet-management": "Guides on how to best manage your wallet. This will help you learn how to send and receive tokens and use your wallet every day.",
+  "apps-and-connections": "ArConnect's primary goal is to enable you to securely access dApps. Here you will find guides and helpful articles on doing this securely."
+};
 
 interface Params {
   params: {

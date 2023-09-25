@@ -1,7 +1,7 @@
 import { Articles, SectionTitle } from "~/components/article/Articles";
+import Article, { ArticleProps } from "~/components/article/Article";
 import { Manrope, Space_Grotesk } from "next/font/google";
 import Section from "~/components/content/Section";
-import Article, { ArticleProps } from "~/components/article/Article";
 import Help from "~/components/article/Help";
 import { useEffect, useState } from "react";
 import Footer from "~/components/Footer";
