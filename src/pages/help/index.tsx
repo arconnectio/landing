@@ -3,6 +3,7 @@ import { Manrope, Space_Grotesk } from "next/font/google";
 import Section from "~/components/content/Section";
 import Article, { ArticleProps } from "~/components/article/Article";
 import Help from "~/components/article/Help";
+import { useEffect, useState } from "react";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import { load } from "outstatic/server";
@@ -29,6 +30,25 @@ const manrope = Manrope({
 });
 
 export default function KnowledgeBase({ pinned, last }: Props) {
+  // search
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState<ArticleProps[]>([]);
+
+  useEffect(() => {
+    (async () => {
+      if (!searchQuery || searchQuery === "") {
+        return setSearchResults([]);
+      }
+
+      // fetch results
+      const res = await (
+        await fetch(`/api/help/search?q=${encodeURIComponent(searchQuery)}`)
+      ).json();
+
+      setSearchResults(res.results);
+    })();
+  }, [searchQuery]);
+
   return (
     <>
       <Head title="Help - ArConnect Arweave Wallet" />
@@ -43,54 +63,71 @@ export default function KnowledgeBase({ pinned, last }: Props) {
             <SearchInput
               type="text"
               placeholder="Search for questions, articles or keywords..."
+              onChange={(e) => setSearchQuery(e.target.value)}
+              value={searchQuery}
             />
             <SearchIcon />
           </SearchBox>
         </TitleSection>
         <Spacer y={3} />
-        <Section>
-          <SectionTitle>
-            <PinIcon />
-            Pinned articles
-          </SectionTitle>
-          <Spacer y={2.4} />
-          <Articles>
-            {pinned.map((article, i) => <Article {...article} key={i} />)}
-          </Articles>
-        </Section>
-        <Spacer y={2.5} />
-        <Section>
-          <SectionTitle>
-            <TagIcon />
-            Topics
-          </SectionTitle>
-          <Spacer y={2.4} />
-          <Articles>
-            <Topic href="/help/topic/getting-started">
-              <FastForwardIcon />
-              Getting started
-            </Topic>
-            <Topic href="/help/topic/wallet-management">
-              <WalletIcon />
-              Wallet management
-            </Topic>
-            <Topic href="/help/topic/apps-and-connections">
-              <SmartphoneIcon />
-              Apps & connections
-            </Topic>
-          </Articles>
-        </Section>
-        <Spacer y={2.5} />
-        <Section>
-          <SectionTitle>
-            <TrendingUpIcon />
-            Popular articles
-          </SectionTitle>
-          <Spacer y={2.4} />
-          <Articles>
-            {last.map((article, i) => <Article {...article} key={i} />)}
-          </Articles>
-        </Section>
+        {(searchResults.length > 0 && (
+          <Section>
+            <SectionTitle>
+              <SearchIcon />
+              Search results
+            </SectionTitle>
+            <Spacer y={2.4} />
+              <Articles>
+                {searchResults.map((article, i) => <Article {...article} key={i} />)}
+              </Articles>
+          </Section>
+        )) || (
+          <>
+            <Section>
+              <SectionTitle>
+                <PinIcon />
+                Pinned articles
+              </SectionTitle>
+              <Spacer y={2.4} />
+              <Articles>
+                {pinned.map((article, i) => <Article {...article} key={i} />)}
+              </Articles>
+            </Section>
+            <Spacer y={2.5} />
+            <Section>
+              <SectionTitle>
+                <TagIcon />
+                Topics
+              </SectionTitle>
+              <Spacer y={2.4} />
+              <Articles>
+                <Topic href="/help/topic/getting-started">
+                  <FastForwardIcon />
+                  Getting started
+                </Topic>
+                <Topic href="/help/topic/wallet-management">
+                  <WalletIcon />
+                  Wallet management
+                </Topic>
+                <Topic href="/help/topic/apps-and-connections">
+                  <SmartphoneIcon />
+                  Apps & connections
+                </Topic>
+              </Articles>
+            </Section>
+            <Spacer y={2.5} />
+            <Section>
+              <SectionTitle>
+                <TrendingUpIcon />
+                Popular articles
+              </SectionTitle>
+              <Spacer y={2.4} />
+              <Articles>
+                {last.map((article, i) => <Article {...article} key={i} />)}
+              </Articles>
+            </Section>
+          </>
+        )}
         <Spacer y={3} />
         <Help />
         <Spacer y={2.5} />
