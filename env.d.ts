@@ -10,3 +10,9 @@ declare module "styled-components" {
     secondaryText: string;
   }
 }
+
+declare global {
+  interface Window {
+    twq: (...args: unknown[]) => void;
+  }
+}

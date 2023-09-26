@@ -11,6 +11,7 @@ import StatPanel from "./StatPanel";
 import Button from "../Button";
 import Spacer from "../Spacer";
 import Link from "next/link";
+import { sendConversion } from "~/utils/pixel";
 
 export default function Hero() {
   return (
@@ -27,7 +28,7 @@ export default function Hero() {
       <Spacer y={2.5} />
       <Buttons>
         <Link href="/download" passHref legacyBehavior>
-          <Button>
+          <Button onClick={() => sendConversion("tw-ofnyd-og7tu", {})}>
             Download
             <ArrowUpRightIcon />
           </Button>
@@ -66,7 +67,6 @@ const Wrapper = styled.section`
 
   @media screen and (max-width: 720px) {
     height: calc(100vh - 100px);
-    padding-top: 100px;
   }
 `;
 

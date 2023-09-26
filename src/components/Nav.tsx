@@ -1,10 +1,11 @@
 import { motion, AnimatePresence, Variants } from "framer-motion";
-import { ArrowUpRightIcon } from "@iconicicons/react";
+import { ArrowRightIcon, ArrowUpRightIcon } from "@iconicicons/react";
 import { useMediaQuery } from "react-responsive";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import Image from "next/image";
 import Button from "./Button";
+import { sendConversion } from "../utils/pixel";
 import Spacer from "./Spacer";
 import Link from "next/link";
 
@@ -38,56 +39,66 @@ export default function Nav() {
   }, [isMobile]);
 
   return (
-    <Wrapper scroll={scroll ? 1 : 0}>
-      <LogoSection>
-        <Link href="/">
-          <Image
-            src="/logo.png"
-            alt="ArConnect hedgehog logo"
-            draggable={false}
-            width={512}
-            height={512}
-          />
-        </Link>
-        <Spacer x={3} />
-        <Separator />
-        <Spacer x={3} />
-        <Hamburger onClick={() => setMobileOpen((val) => !val)}>
-          <HamburgerIcon />
-        </Hamburger>
-      </LogoSection>
-      <AnimatePresence initial={false}>
-        {mobileOpen && (
-          <NavElement
-            variants={mobileNavAnimation}
-            initial="closed"
-            animate="open"
-            exit="closed"
-          >
-            <NavPageLinks>
-              <NavLink href="/">Home</NavLink>
-              <NavLink href="/help">Help</NavLink>
-              {/** 
-              <NavLink href="https://docs.arweavekit.com/wallets/wallet-kit" target="_blank" rel="noopener noreferer">Kit</NavLink>
-              */}
-              <NavLink
-                href="https://chrome.google.com/webstore/detail/ekmpjilfjeghbjgddfgfbakkjmobfhhm"
-                target="_blank"
-                rel="noopener noreferer"
-              >
-                Beta
-              </NavLink>
-            </NavPageLinks>
-            <Link href="/download" passHref legacyBehavior>
-              <Button>
-                Download
-                <ArrowUpRightIcon />
-              </Button>
-            </Link>
-          </NavElement>
-        )}
-      </AnimatePresence>
-    </Wrapper>
+    <>
+      <Announcement
+        href="/audit.pdf"
+        target="_blank"
+        rel="noopener noreferer"
+        aria-label="Security Audit"
+        title="Security Audit"
+        passHref
+      >
+        Our security audit is complete 🎉
+        <ArrowRightIcon />
+      </Announcement>
+      <Wrapper scroll={scroll ? 1 : 0}>
+        <LogoSection>
+          <Link href="/">
+            <Image
+              src="/logo.png"
+              alt="ArConnect hedgehog logo"
+              draggable={false}
+              width={512}
+              height={512}
+            />
+          </Link>
+          <Spacer x={3} />
+          <Separator />
+          <Spacer x={3} />
+          <Hamburger onClick={() => setMobileOpen((val) => !val)}>
+            <HamburgerIcon />
+          </Hamburger>
+        </LogoSection>
+        <AnimatePresence initial={false}>
+          {mobileOpen && (
+            <NavElement
+              variants={mobileNavAnimation}
+              initial="closed"
+              animate="open"
+              exit="closed"
+            >
+              <NavPageLinks>
+                <NavLink href="/">Home</NavLink>
+                <NavLink href="/help">Help</NavLink>
+                <NavLink
+                  href="https://docs.arconnect.io"
+                  target="_blank"
+                  rel="noopener noreferer"
+                >
+                  Docs
+                </NavLink>
+              </NavPageLinks>
+              <Link href="/download" passHref legacyBehavior>
+                <Button onClick={() => sendConversion("tw-ofnyd-og7tu", {})}>
+                  Download
+                  <ArrowUpRightIcon />
+                </Button>
+              </Link>
+            </NavElement>
+          )}
+        </AnimatePresence>
+      </Wrapper>
+    </>
   );
 }
 
@@ -109,7 +120,6 @@ const Wrapper = styled.header<{ scroll: 1 | 0 }>`
   transition: all 0.23s ease-in-out;
 
   @media screen and (max-width: 720px) {
-    position: fixed;
     display: block;
     padding: 1rem 2rem;
     background-color: rgb(${(props) => props.theme.background}, 0.55);
@@ -239,3 +249,24 @@ const mobileNavAnimation: Variants = {
     transition: { duration: 0.21 }
   }
 };
+
+const Announcement = styled(Link)`
+  font-size: 0.94rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.38rem;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.6rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(${(props) => props.theme.accent});
+
+  svg {
+    font-size: 1.2em;
+    width: 1em;
+    height: 1em;
+  }
+`;

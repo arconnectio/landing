@@ -36,11 +36,13 @@ export default function Footer() {
           <LinkColumn>
             <ColumnTitle>About</ColumnTitle>
             <Link href="/apps">Apps</Link>
-            {/*<a href="" target="_blank" rel="noopener noreferrer">
+            <Link href="/blog">Blog</Link>
+            {/* <a href="" target="_blank" rel="noopener noreferrer">
               Blog
-            </a>*/}
+            </a> */}
             <Link href="/branding">Branding</Link>
             <Link href="/privacy">Privacy Policy</Link>
+            <Link href="/audit.pdf">Security Audit</Link>
           </LinkColumn>
           <LinkColumn>
             <ColumnTitle>Help</ColumnTitle>
@@ -48,6 +50,8 @@ export default function Footer() {
               Chat
             </a>
             <Link href="/help">Help Center</Link>
+            <Link href="/recover">Recovery</Link>
+            {/*<Link href="/faq">FAQ</Link>*/}
           </LinkColumn>
           <LinkColumn>
             <ColumnTitle>Developers</ColumnTitle>
