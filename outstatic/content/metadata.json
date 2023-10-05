@@ -1,6 +1,6 @@
 {
-  "commit": "4207b4bb1dd211bb241adb2285d313b3f18d6212",
-  "generated": "2023-09-24T21:16:14.329Z",
+  "commit": "3f2bd4a6fbe5973739f32fd5a64db22ab44bce51",
+  "generated": "2023-10-05T16:39:31.078Z",
   "metadata": [
     {
       "__outstatic": {
@@ -177,6 +177,30 @@
       "slug": "what-is-a-json-keyfile",
       "status": "published",
       "title": "What is a JSON keyfile?"
+    },
+    {
+      "__outstatic": {
+        "commit": "3f2bd4a6fbe5973739f32fd5a64db22ab44bce51",
+        "hash": "1657934597",
+        "path": "outstatic/content/knowledge-base-articles/test-article.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Let's give this a description",
+      "publishedAt": "2023-10-05T16:50:55.465Z",
+      "slug": "test-article",
+      "status": "published",
+      "title": "Test article"
     }
   ]
 }
