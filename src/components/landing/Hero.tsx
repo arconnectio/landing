@@ -1,21 +1,32 @@
+import { Space_Grotesk } from "next/font/google";
+import styled, { css } from "styled-components";
+import { sendConversion } from "~/utils/pixel";
+import StatPanel from "./StatPanel";
+import Button from "../Button";
+import Spacer from "../Spacer";
+import Link from "next/link";
 import {
   ArrowUpRightIcon,
   DownloadIcon,
   GridIcon,
   MapIcon,
   TagIcon,
-  CodeIcon
+  CodeIcon,
+  ArrowRightIcon
 } from "@iconicicons/react";
-import styled, { css } from "styled-components";
-import StatPanel from "./StatPanel";
-import Button from "../Button";
-import Spacer from "../Spacer";
-import Link from "next/link";
-import { sendConversion } from "~/utils/pixel";
 
-export default function Hero() {
+export default function Hero({ latestBlog }: Props) {
   return (
     <Wrapper>
+      {latestBlog && (
+        <LatestBlog href={"/blog/" + latestBlog.id}>
+          <p>
+            <b>Our latest blog:</b>{" "}
+            {latestBlog.title}
+          </p>
+          <ArrowRightIcon />
+        </LatestBlog>
+      )}
       <HeroTitle>
         Your gateway to <span>Arweave</span>
       </HeroTitle>
@@ -82,6 +93,42 @@ const heroText = css`
   }
 `;
 
+const titleFont = Space_Grotesk({ subsets: ["latin"] });
+
+const LatestBlog = styled(Link)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: .4rem 1rem;
+  border-radius: 2rem;
+  background-color: rgba(${props => props.theme.accent}, .15);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(${props => props.theme.accent});
+  transition: all .17s ease;
+
+  svg {
+    font-size: 1.05rem;
+    width: 1em;
+    height: 1em;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  b {
+    ${titleFont.style}
+  }
+
+  &:active {
+    transform: scale(.974);
+  }
+`;
+
 const HeroTitle = styled.h1`
   color: rgb(${(props) => props.theme.accent});
   ${heroText}
@@ -141,3 +188,10 @@ const Stats = styled.div`
 const StatLink = styled(Link)`
   text-decoration: none;
 `;
+
+interface Props {
+  latestBlog?: {
+    id: string;
+    title: string;
+  }
+}

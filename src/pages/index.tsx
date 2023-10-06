@@ -10,8 +10,9 @@ import styled from "styled-components";
 import { GetStaticProps } from "next";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
+import { load } from "outstatic/server"
 
-export default function Home({ applications }: Props) {
+export default function Home({ applications, last }: Props) {
   return (
     <>
       <Head />
@@ -35,12 +36,33 @@ const Main = styled.main`
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const applications = await getApps();
+  const db = await load();
+  const last = await db
+    .find({
+      collection: "blogs",
+    })
+    // @ts-expect-error
+    .sort([{ publishedAt: -1 }])
+    .project([
+      "slug",
+      "title",
+      "publishedAt"
+    ])
+    .first();
+    console.log(last)
 
   return {
-    props: { applications }
+    props: {
+      applications,
+      last: // TODO
+    }
   };
 };
 
 interface Props {
   applications: ApplicationInterface[];
+  last?: {
+    id: string;
+    title: string;
+  }
 }
