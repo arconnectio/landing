@@ -1,15 +1,16 @@
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import { ArrowRightIcon, ArrowUpRightIcon } from "@iconicicons/react";
 import { useMediaQuery } from "react-responsive";
+import { sendConversion } from "../utils/pixel";
 import { useEffect, useState } from "react";
+import { LastBlog } from "~/utils/blogs";
 import styled from "styled-components";
 import Image from "next/image";
 import Button from "./Button";
-import { sendConversion } from "../utils/pixel";
 import Spacer from "./Spacer";
 import Link from "next/link";
 
-export default function Nav() {
+export default function Nav({ latestBlog }: Props) {
   // scroll effect
   const [scroll, setScroll] = useState(false);
 
@@ -40,17 +41,17 @@ export default function Nav() {
 
   return (
     <>
-      <Announcement
-        href="/audit.pdf"
-        target="_blank"
-        rel="noopener noreferer"
-        aria-label="Security Audit"
-        title="Security Audit"
-        passHref
-      >
-        Our security audit is complete 🎉
-        <ArrowRightIcon />
-      </Announcement>
+      {latestBlog && (
+        <Announcement
+          href={`/blog/${latestBlog.slug}`}
+          aria-label={latestBlog.title}
+          title={latestBlog.title}
+          passHref
+        >
+          {latestBlog.title}
+          <ArrowRightIcon />
+        </Announcement>
+      )}
       <Wrapper scroll={scroll ? 1 : 0}>
         <LogoSection>
           <Link href="/">
@@ -270,3 +271,7 @@ const Announcement = styled(Link)`
     height: 1em;
   }
 `;
+
+interface Props {
+  latestBlog?: LastBlog;
+}
