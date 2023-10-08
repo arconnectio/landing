@@ -168,7 +168,7 @@ const Content = styled.div`
 
   p {
     color: rgb(${(props) => props.theme.secondaryText});
-    margin: 1rem 0 2.2rem;
+    margin: 1rem 0 1.1rem;
     ${paragraphStyles}
   }
 
