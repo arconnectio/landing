@@ -116,6 +116,13 @@ export async function getStaticProps({ params }: Params) {
     })
     .project(["title", "content", "description", "category"])
     .first();
+
+  if (!post) {
+    return {
+      notFound: true
+    };
+  }
+
   const content = await markdownToHtml(post.content || "");
   const related = await db
     .find({

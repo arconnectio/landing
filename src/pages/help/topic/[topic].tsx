@@ -12,6 +12,12 @@ import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 
+const topics = [
+  "getting-started",
+  "wallet-management",
+  "apps-and-connections"
+];
+
 export default function Topic({ category, articles }: Props) {
   return (
     <>
@@ -52,6 +58,12 @@ export default function Topic({ category, articles }: Props) {
 }
 
 export async function getStaticProps({ params }: Params) {
+  if (!topics.includes(params.topic)) {
+    return {
+      notFound: true
+    };
+  }
+
   const db = await load();
   const articles = await db
     .find<{
@@ -78,11 +90,7 @@ export async function getStaticProps({ params }: Params) {
 
 export async function getStaticPaths() {
   return {
-    paths: [
-      { params: { topic: "getting-started" } },
-      { params: { topic: "wallet-management" } },
-      { params: { topic: "apps-and-connections" } }
-    ],
+    paths: topics.map(topic => ({ params: { topic } })),
     fallback: false
   };
 }
