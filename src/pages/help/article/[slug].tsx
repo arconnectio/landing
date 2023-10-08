@@ -120,7 +120,7 @@ export async function getStaticProps({ params }: Params) {
       category: {
         $where: function(): boolean {
           // @ts-expect-error
-          return !!post.category.find(({ value }: { value: string }) => value === this.value);
+          return !!post.category.find((c) => c.value === this?.value);
         }
       },
       slug: {
