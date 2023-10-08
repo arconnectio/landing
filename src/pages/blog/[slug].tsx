@@ -205,6 +205,19 @@ const Content = styled.div`
       background-color: rgb(${(props) => props.theme.accent});
     }
   }
+
+  li {
+    margin: 1rem 0;
+
+    p {
+      margin: 0;
+      margin-left: 1rem;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
 `;
 
 interface Params {
