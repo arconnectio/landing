@@ -129,11 +129,9 @@ export async function getStaticProps({ params }: Params) {
       collection: "knowledge-base-articles",
       // @ts-expect-error
       category: {
-        $where: function (): boolean {
-          return !!post.category.find(
-            // @ts-expect-error
-            ({ value }: { value: string }) => value === this.value
-          );
+        $where: function(): boolean {
+          // @ts-expect-error
+          return !!post.category.find((c) => c.value === this?.value);
         }
       },
       slug: {

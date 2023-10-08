@@ -1,6 +1,6 @@
 {
-  "commit": "3f2bd4a6fbe5973739f32fd5a64db22ab44bce51",
-  "generated": "2023-10-05T16:39:31.078Z",
+  "commit": "9d490a81e02da1cf5181d84c443158d560a561f4",
+  "generated": "2023-10-08T18:35:01.671Z",
   "metadata": [
     {
       "__outstatic": {
@@ -201,6 +201,26 @@
       "slug": "test-article",
       "status": "published",
       "title": "Test article"
+    },
+    {
+      "__outstatic": {
+        "commit": "9d490a81e02da1cf5181d84c443158d560a561f4",
+        "hash": "1984669019",
+        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
+      },
+      "author": {
+        "name": "Matthew DiRienzo",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arweave-for-beginners-hero-Y3OD.webp",
+      "description": "",
+      "publishedAt": "2023-08-03T18:34:52.000Z",
+      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
+      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
     }
   ]
 }

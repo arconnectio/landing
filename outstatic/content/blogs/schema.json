@@ -1,0 +1,20 @@
+{
+  "title": "blogs",
+  "type": "object",
+  "properties": {
+    "transparentThumbnail": {
+      "required": true,
+      "description": "The thumbnail that will show up in the blog list at arconnect.io/blog",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Transparent thumbnail"
+    },
+    "themeColor": {
+      "required": true,
+      "description": "The color of the article in rgb() or hex",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Theme color"
+    }
+  }
+}
