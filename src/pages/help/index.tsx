@@ -77,9 +77,11 @@ export default function KnowledgeBase({ pinned, last }: Props) {
               Search results
             </SectionTitle>
             <Spacer y={2.4} />
-              <Articles>
-                {searchResults.map((article, i) => <Article {...article} key={i} />)}
-              </Articles>
+            <Articles>
+              {searchResults.map((article, i) => (
+                <Article {...article} key={i} />
+              ))}
+            </Articles>
           </Section>
         )) || (
           <>
@@ -90,7 +92,9 @@ export default function KnowledgeBase({ pinned, last }: Props) {
               </SectionTitle>
               <Spacer y={2.4} />
               <Articles>
-                {pinned.map((article, i) => <Article {...article} key={i} />)}
+                {pinned.map((article, i) => (
+                  <Article {...article} key={i} />
+                ))}
               </Articles>
             </Section>
             <Spacer y={2.5} />
@@ -123,7 +127,9 @@ export default function KnowledgeBase({ pinned, last }: Props) {
               </SectionTitle>
               <Spacer y={2.4} />
               <Articles>
-                {last.map((article, i) => <Article {...article} key={i} />)}
+                {last.map((article, i) => (
+                  <Article {...article} key={i} />
+                ))}
               </Articles>
             </Section>
           </>
@@ -139,11 +145,7 @@ export default function KnowledgeBase({ pinned, last }: Props) {
 
 export async function getStaticProps() {
   const db = await load();
-  const requiredFields = [
-    "slug",
-    "title",
-    "description"
-  ];
+  const requiredFields = ["slug", "title", "description"];
   const pinned = await db
     .find({
       collection: "knowledge-base-articles",
@@ -151,14 +153,15 @@ export async function getStaticProps() {
       category: {
         $where: "this.value === 'pinned'"
       }
-    }).project(requiredFields)
+    })
+    .project(requiredFields)
     // @ts-expect-error
     .sort([{ publishedAt: -1 }])
     .limit(3)
     .toArray();
   const last = await db
     .find({
-      collection: "knowledge-base-articles",
+      collection: "knowledge-base-articles"
     })
     // @ts-expect-error
     .sort([{ publishedAt: -1 }])

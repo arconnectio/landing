@@ -21,9 +21,7 @@ export default function Topic({ category, articles }: Props) {
         <Section extraSpace>
           <Title>{category.label}</Title>
           <Spacer y={1} />
-          <Description>
-            {topicDescriptions[category.value]}
-          </Description>
+          <Description>{topicDescriptions[category.value]}</Description>
           <Spacer y={1.35} />
           <Location
             category={{
@@ -39,7 +37,9 @@ export default function Topic({ category, articles }: Props) {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            {articles.map((article, i) => <Article {...article} key={i} />)}
+            {articles.map((article, i) => (
+              <Article {...article} key={i} />
+            ))}
           </Articles>
         </Section>
         <Spacer y={3} />
@@ -55,19 +55,15 @@ export async function getStaticProps({ params }: Params) {
   const db = await load();
   const articles = await db
     .find<{
-      category: Category[]
+      category: Category[];
     }>({
       collection: "knowledge-base-articles",
       // @ts-expect-error
       category: {
         $where: `this.value === '${params.topic}'`
       }
-    }).project([
-      "slug",
-      "title",
-      "description",
-      "category"
-    ])
+    })
+    .project(["slug", "title", "description", "category"])
     // @ts-expect-error
     .sort([{ publishedAt: -1 }])
     .toArray();
@@ -88,19 +84,22 @@ export async function getStaticPaths() {
       { params: { topic: "apps-and-connections" } }
     ],
     fallback: false
-  }
+  };
 }
 
 const topicDescriptions: Record<string, string> = {
-  "getting-started": "Essential resources on getting started with the ArConnect Arweave wallet. You should start here and follow these guides to have the most seamless experience possible with the extension.",
-  "wallet-management": "Guides on how to best manage your wallet. This will help you learn how to send and receive tokens and use your wallet every day.",
-  "apps-and-connections": "ArConnect's primary goal is to enable you to securely access dApps. Here you will find guides and helpful articles on doing this securely."
+  "getting-started":
+    "Essential resources on getting started with the ArConnect Arweave wallet. You should start here and follow these guides to have the most seamless experience possible with the extension.",
+  "wallet-management":
+    "Guides on how to best manage your wallet. This will help you learn how to send and receive tokens and use your wallet every day.",
+  "apps-and-connections":
+    "ArConnect's primary goal is to enable you to securely access dApps. Here you will find guides and helpful articles on doing this securely."
 };
 
 interface Params {
   params: {
     topic: string;
-  }
+  };
 }
 
 const Main = styled.main`

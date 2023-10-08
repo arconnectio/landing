@@ -10,7 +10,7 @@ import {
   GridIcon,
   MapIcon,
   TagIcon,
-  CodeIcon,
+  CodeIcon
 } from "@iconicicons/react";
 
 export default function Hero() {

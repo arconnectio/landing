@@ -1,4 +1,9 @@
-import { Description, paragraphStyles, paragraphTitleStyles, Title } from "~/components/content/Text";
+import {
+  Description,
+  paragraphStyles,
+  paragraphTitleStyles,
+  Title
+} from "~/components/content/Text";
 import { Articles, SectionTitle } from "~/components/article/Articles";
 import Article, { ArticleProps } from "~/components/article/Article";
 import { RefObject, useEffect, useRef, useState } from "react";
@@ -20,7 +25,9 @@ import Link from "next/link";
 export default function Topic({ post, slug, related }: Props) {
   // headings
   const articleContentEl = useRef<HTMLDivElement>();
-  const [headings, setHeadings] = useState<{ title: string; link: string; }[]>([]);
+  const [headings, setHeadings] = useState<{ title: string; link: string }[]>(
+    []
+  );
 
   useEffect(() => {
     if (!articleContentEl.current) return;
@@ -44,9 +51,7 @@ export default function Topic({ post, slug, related }: Props) {
         <Section extraSpace>
           <Title>{post.title}</Title>
           <Spacer y={1} />
-          <Description>
-            {post.description}
-          </Description>
+          <Description>{post.description}</Description>
           <Spacer y={1.35} />
           <Location
             category={{
@@ -65,11 +70,13 @@ export default function Topic({ post, slug, related }: Props) {
             ref={articleContentEl as RefObject<HTMLDivElement>}
           ></Content>
           <ContentNavigator>
-            <ContentNavigatorTitle>
-              Content map
-            </ContentNavigatorTitle>
+            <ContentNavigatorTitle>Content map</ContentNavigatorTitle>
             {headings.map((heading, i) => (
-              <ContentLink href={"#" + heading.link} activeSection={window.location.hash === ("#" + heading.link)} key={i}>
+              <ContentLink
+                href={"#" + heading.link}
+                activeSection={window.location.hash === "#" + heading.link}
+                key={i}
+              >
                 {heading.title}
               </ContentLink>
             ))}
@@ -83,7 +90,9 @@ export default function Topic({ post, slug, related }: Props) {
           </SectionTitle>
           <Spacer y={2.4} />
           <Articles>
-            {related.map((article, i) => <Article {...article} key={i} />)}
+            {related.map((article, i) => (
+              <Article {...article} key={i} />
+            ))}
           </Articles>
         </Section>
         <Spacer y={3} />
@@ -105,12 +114,7 @@ export async function getStaticProps({ params }: Params) {
       collection: "knowledge-base-articles",
       slug: params.slug
     })
-    .project([
-      "title",
-      "content",
-      "description",
-      "category"
-    ])
+    .project(["title", "content", "description", "category"])
     .first();
   const content = await markdownToHtml(post.content || "");
   const related = await db
@@ -118,19 +122,18 @@ export async function getStaticProps({ params }: Params) {
       collection: "knowledge-base-articles",
       // @ts-expect-error
       category: {
-        $where: function(): boolean {
-          // @ts-expect-error
-          return !!post.category.find(({ value }: { value: string }) => value === this.value);
+        $where: function (): boolean {
+          return !!post.category.find(
+            // @ts-expect-error
+            ({ value }: { value: string }) => value === this.value
+          );
         }
       },
       slug: {
         $ne: params.slug
       }
-    }).project([
-      "slug",
-      "title",
-      "description"
-    ])
+    })
+    .project(["slug", "title", "description"])
     .limit(3)
     .toArray();
 
@@ -139,19 +142,19 @@ export async function getStaticProps({ params }: Params) {
       post: {
         ...post,
         content,
-        category: post.category.find(c => c.value !== "pinned")
+        category: post.category.find((c) => c.value !== "pinned")
       },
       slug: params.slug,
       related
     }
-  }
+  };
 }
 
 export async function getStaticPaths() {
   return {
     paths: getDocumentPaths("knowledge-base-articles"),
     fallback: false
-  }
+  };
 }
 
 interface Props {
@@ -160,13 +163,9 @@ interface Props {
     content: string;
     description: string;
     category: Category;
-  }
+  };
   slug: string;
-  related: [
-    ArticleProps,
-    ArticleProps,
-    ArticleProps
-  ]
+  related: [ArticleProps, ArticleProps, ArticleProps];
 }
 
 const Main = styled.main`
@@ -215,7 +214,7 @@ const Content = styled.div`
 
   h2 {
     color: rgb(${(props) => props.theme.secondaryText});
-    margin-bottom: .8rem;
+    margin-bottom: 0.8rem;
     ${paragraphTitleStyles}
   }
 `;
@@ -229,7 +228,7 @@ const ContentNavigator = styled.section`
 const ContentNavigatorTitle = styled.h3`
   font-size: 1.7rem;
   font-weight: 600;
-  color: rgb(${props => props.theme.primaryText});
+  color: rgb(${(props) => props.theme.primaryText});
   margin: 0;
 `;
 
@@ -239,14 +238,14 @@ const ContentLink = styled(Link)<{
   position: relative;
   font-size: 1rem;
   font-weight: 600;
-  color: rgba(${props => props.theme.accent}, .78);
+  color: rgba(${(props) => props.theme.accent}, 0.78);
   cursor: pointer;
   text-decoration: none;
   padding-left: 1.2rem;
-  transition: all .17s ease;
+  transition: all 0.17s ease;
 
   &:hover {
-    color: rgba(${props => props.theme.accent}, 1);
+    color: rgba(${(props) => props.theme.accent}, 1);
   }
 
   &::after {
@@ -257,9 +256,12 @@ const ContentLink = styled(Link)<{
     border-radius: 100%;
     top: 50%;
     left: 0;
-    background-color: rgba(${props => props.theme.accent}, ${props => props.activeSection ? ".78" : "0"});
+    background-color: rgba(
+      ${(props) => props.theme.accent},
+      ${(props) => (props.activeSection ? ".78" : "0")}
+    );
     transform: translateY(-50%);
-    transition: all .17s ease;
+    transition: all 0.17s ease;
   }
 `;
 

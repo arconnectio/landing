@@ -8,7 +8,10 @@ interface Response {
   results: ArticleProps[];
 }
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse<Response>) {
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse<Response>
+) {
   if (req.method !== "GET" || typeof req.query.q !== "string") {
     return res.status(400).json({
       message: "Invalid request.",
@@ -18,9 +21,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
 
   const db = await load();
   const results = await db
-    .find<{
-      category: Category[]
-    } & ArticleProps>({
+    .find<
+      {
+        category: Category[];
+      } & ArticleProps
+    >({
       $or: [
         {
           title: {
@@ -45,11 +50,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
         }
       ]
     })
-    .project([
-      "title",
-      "description",
-      "slug"
-    ])
+    .project(["title", "description", "slug"])
     .toArray();
 
   return res.status(200).json({ results });

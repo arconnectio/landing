@@ -60,15 +60,13 @@ export const Description = styled(Paragraph)`
   }
 `;
 
-export const Date = styled.p<{ padding?: string; secondary?: boolean }>`
+export const Date = styled.p`
   display: flex;
-  gap: 8px;
+  font-size: 1rem;
+  gap: 0.75rem;
+  align-items: center;
+  font-weight: 500;
   margin: 0;
   white-space: nowrap;
-  padding: ${(props) => props.padding || "7px 14px"};
-  background-color: ${(props) => !props.secondary && "#fff"};
-  color: ${(props) =>
-    props.secondary ? `rgb(${props.theme.secondaryText})` : "#000"};
-  border-radius: 36px;
-  max-width: max-content;
+  color: rgb(${(props) => props.theme.secondaryText});
 `;

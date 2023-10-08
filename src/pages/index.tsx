@@ -13,7 +13,6 @@ import { GetStaticProps } from "next";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 
-
 export default function Home({ applications, last }: Props) {
   return (
     <>
@@ -41,15 +40,11 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
   const db = await load();
   const last = await db
     .find<LastBlog>({
-      collection: "blogs",
+      collection: "blogs"
     })
     // @ts-expect-error
     .sort([{ publishedAt: -1 }])
-    .project([
-      "slug",
-      "title",
-      "publishedAt"
-    ])
+    .project(["slug", "title", "publishedAt"])
     .first();
 
   // check if the blog was published in the last 5 days
@@ -65,7 +60,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
         applications,
         last
       }
-    }
+    };
   }
 
   return {
