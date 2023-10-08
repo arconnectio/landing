@@ -37,7 +37,7 @@ const theme: DefaultTheme = {
 };
 
 const GlobalStyles = createGlobalStyle`
-  * {
+  *, html {
     scroll-behavior: smooth;
   }
 

@@ -70,3 +70,11 @@ export const Date = styled.p`
   white-space: nowrap;
   color: rgb(${(props) => props.theme.secondaryText});
 `;
+
+export const DateBlock = styled(Date)`
+  width: max-content;
+  padding: .4rem .9rem;
+  border-radius: 1.1rem;
+  background-color: #fff;
+  gap: .5rem;
+`;

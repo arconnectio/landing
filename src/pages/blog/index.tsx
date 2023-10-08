@@ -1,4 +1,4 @@
-import { Paragraph, Date, ParagraphTitle } from "~/components/content/Text";
+import { Paragraph, Date, ParagraphTitle, DateBlock } from "~/components/content/Text";
 import Section from "~/components/content/Section";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
@@ -15,8 +15,9 @@ import {
 import Link from "next/link";
 import BlogTitle from "~/components/blog/BlogTitle";
 import NavigationIcon from "~/components/blog/NavigationIcon";
+import { load } from "outstatic/server"
 
-export default function Blog() {
+export default function Blog({ all }: Props) {
   const router = useRouter();
 
   const altSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
@@ -49,10 +50,10 @@ export default function Blog() {
                 >
                   <DateTitleContainer>
                     <div>
-                      <Date>
+                      <DateBlock>
                         <CalendarIcon />
                         Aug 3, 2023
-                      </Date>
+                      </DateBlock>
                     </div>
                     <BlogTitle
                       title="Arweave for Beginners: How to Buy Arweave Tokens"
@@ -78,10 +79,10 @@ export default function Blog() {
                   href="/blog/arconnect-just-leveled-up-to-1-0"
                   backgroundColor="rgba(254, 2, 48, 0.20);"
                 >
-                  <Date>
+                  <DateBlock>
                     <CalendarIcon />
                     Aug 14, 2023
-                  </Date>
+                  </DateBlock>
                   <ImageContainer>
                     <Image
                       src="/logo.png"
@@ -101,10 +102,10 @@ export default function Blog() {
                   />
                 </Entry>
                 <Entry
+                  href="#all"
                   height="114px"
                   backgroundColor="rgba(171, 154, 255, 0.2)"
                   justify="center"
-                  dummy
                 >
                   <BlogTitle
                     title="Read more of our blogs"
@@ -116,7 +117,7 @@ export default function Blog() {
               </Column>
             </FeaturedTiles>
           </Section>
-          <Section>
+          <Section id="all">
             <ParagraphTitle
               style={{ fontSize: "3.125rem", paddingBottom: "41.6px" }}
             >
@@ -130,10 +131,10 @@ export default function Blog() {
             >
               <AllPostContent>
                 <DateTitleContainer flexDirection="column">
-                  <Date>
+                  <DateBlock>
                     <CalendarIcon />
                     Aug 14, 2023
-                  </Date>
+                  </DateBlock>
                   <BlogTitle
                     alternative
                     background={arconnectSVG}
@@ -166,10 +167,10 @@ export default function Blog() {
             >
               <AllPostContent>
                 <DateTitleContainer flexDirection="column">
-                  <Date>
+                  <DateBlock>
                     <CalendarIcon />
                     Aug 3, 2023
-                  </Date>
+                  </DateBlock>
                   <BlogTitle
                     title="Arweave for Beginners: How to Buy Arweave Tokens"
                     background={altSVG}
@@ -196,6 +197,29 @@ export default function Blog() {
       <Footer />
     </>
   );
+}
+
+export async function getStaticProps() {
+  const db = await load();
+  const all = await db
+    .find<Blog>({
+      collection: "blogs",
+    })
+    .project([
+      "publishedAt",
+      "title",
+      "slug",
+      "transparentThumbnail",
+      "themeColor"
+    ])
+    // @ts-expect-error
+    .sort([{ publishedAt: -1 }])
+    .limit(3)
+    .toArray();
+
+  return {
+    props: { all }
+  };
 }
 
 const LogoText = styled.h2`
@@ -301,3 +325,15 @@ const FeaturedTiles = styled.div`
     gap: 2.5rem;
   }
 `;
+
+interface Blog {
+  publishedAt: string;
+  title: string;
+  slug: string;
+  transparentThumbnail: string;
+  themeColor: string;
+}
+
+interface Props {
+  all: Blog[];
+}
