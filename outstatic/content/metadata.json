@@ -1,6 +1,6 @@
 {
-  "commit": "9d490a81e02da1cf5181d84c443158d560a561f4",
-  "generated": "2023-10-08T18:35:01.671Z",
+  "commit": "eca2a7c84f79fb4a4e936cd668830b2b47c0dc3e",
+  "generated": "2023-10-09T07:15:13.095Z",
   "metadata": [
     {
       "__outstatic": {
@@ -221,6 +221,26 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Arweave for Beginners: How to Buy Arweave Tokens",
       "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
+    },
+    {
+      "__outstatic": {
+        "commit": "eca2a7c84f79fb4a4e936cd668830b2b47c0dc3e",
+        "hash": "2195928326",
+        "path": "outstatic/content/blogs/arconnect-just-leveled-up-to-1-0.md"
+      },
+      "author": {
+        "name": "ArConnect",
+        "picture": "/images/logo-IyNj.png"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect-announcement-hero-YzNT.webp",
+      "description": "",
+      "publishedAt": "2023-08-14T07:21:55.000Z",
+      "slug": "arconnect-just-leveled-up-to-1-0",
+      "status": "published",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "ArConnect Just Leveled Up to 1.0",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
