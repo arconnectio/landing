@@ -95,41 +95,43 @@ export default function Blog({ all }: Props) {
               </Column>
             </FeaturedTiles>
           </Section>
-          <Section id="all">
-            <ParagraphTitle
-              style={{ fontSize: "3.125rem", paddingBottom: "41.6px" }}
-            >
-              All Posts
-            </ParagraphTitle>
-            {all.slice(2).map((blog, i) => (
-              <div key={i}>
-                <Entry
-                  href={`/blog/${blog.slug}`}
-                  backgroundColor={blog.themeColor}
-                  height="434px"
-                >
-                  <AllPostContent>
-                    <DateTitleContainer flexDirection="column">
-                      <DateBlock>
-                        <CalendarIcon />
-                        {dayjs(blog.publishedAt).format("DD MMM, YYYY")}
-                      </DateBlock>
-                      <BlogTitle
-                        alternative
-                        background={arconnectSVG}
-                        title={blog.title}
-                        icon={<ArrowUpRightIcon />}
-                        width="230px"
-                      />
-                    </DateTitleContainer>
-                    <Thumbnail src={blog.transparentThumbnail} alt="Thumbnail" draggable={false} />
-                    <NavigationIcon alt />
-                  </AllPostContent>
-                </Entry>
-                <Spacer y={4} />
-              </div>
-            ))}
-          </Section>
+          {all.length > 2 && (
+            <Section id="all">
+              <ParagraphTitle
+                style={{ fontSize: "3.125rem", paddingBottom: "41.6px" }}
+              >
+                All Posts
+              </ParagraphTitle>
+              {all.slice(2).map((blog, i) => (
+                <div key={i}>
+                  <Entry
+                    href={`/blog/${blog.slug}`}
+                    backgroundColor={blog.themeColor}
+                    height="434px"
+                  >
+                    <AllPostContent>
+                      <DateTitleContainer flexDirection="column">
+                        <DateBlock>
+                          <CalendarIcon />
+                          {dayjs(blog.publishedAt).format("DD MMM, YYYY")}
+                        </DateBlock>
+                        <BlogTitle
+                          alternative
+                          background={arconnectSVG}
+                          title={blog.title}
+                          icon={<ArrowUpRightIcon />}
+                          width="230px"
+                        />
+                      </DateTitleContainer>
+                      <Thumbnail src={blog.transparentThumbnail} alt="Thumbnail" draggable={false} />
+                      <NavigationIcon alt />
+                    </AllPostContent>
+                  </Entry>
+                  <Spacer y={4} />
+                </div>
+              ))}
+            </Section>
+          )}
         </Wrapper>
       </main>
       <Footer />
