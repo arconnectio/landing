@@ -4,7 +4,6 @@ import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import styled from "styled-components";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 import {
@@ -16,10 +15,9 @@ import Link from "next/link";
 import BlogTitle from "~/components/blog/BlogTitle";
 import NavigationIcon from "~/components/blog/NavigationIcon";
 import { load } from "outstatic/server"
+import dayjs from "dayjs"
 
 export default function Blog({ all }: Props) {
-  const router = useRouter();
-
   const altSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
     '<svg width="365" height="147" viewBox="0 0 365 147" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M118 146H19C9.05888 146 1 137.941 1 128V19C1 9.05888 9.05887 1 19 1H346C355.941 1 364 9.05888 364 19V43.3836C364 53.3247 355.941 61.3836 346 61.3836H337.289C327.347 61.3836 319.289 69.4424 319.289 79.3836V84.6986C319.289 94.6398 311.23 102.699 301.289 102.699H154C144.059 102.699 136 110.757 136 120.699V128C136 137.941 127.941 146 118 146Z" fill="white" stroke="white"/></svg>'
   )}`;
@@ -42,64 +40,44 @@ export default function Blog({ all }: Props) {
                   Read the latest news and information about ArConnect and
                   discover all that we are working on.
                 </Paragraph>
-
                 <Entry
-                  href="/blog/arweave-for-beginners-how-to-buy-arweave-tokens"
-                  backgroundColor="rgba(35, 117, 239, 0.1)"
+                  href={`/blog/${all[0].slug}`}
+                  backgroundColor={all[0].themeColor}
                   height="434px"
                 >
                   <DateTitleContainer>
                     <div>
                       <DateBlock>
                         <CalendarIcon />
-                        Aug 3, 2023
+                        {dayjs(all[0].publishedAt).format("DD MMM, YYYY")}
                       </DateBlock>
                     </div>
                     <BlogTitle
-                      title="Arweave for Beginners: How to Buy Arweave Tokens"
+                      title={all[0].title}
                       background={altSVG}
-                      padding="8px 0px"
                     />
                   </DateTitleContainer>
-
-                  <ImageContainer>
-                    <Image
-                      src="/arweave-logo.png"
-                      alt="Othent logo"
-                      draggable={false}
-                      width={468}
-                      height={151}
-                    />
-                  </ImageContainer>
+                  <Thumbnail src={all[0].transparentThumbnail} alt="Thumbnail" draggable={false} />
                   <NavigationIcon />
                 </Entry>
               </Column>
               <Column style={{ flex: "4" }}>
                 <Entry
-                  href="/blog/arconnect-just-leveled-up-to-1-0"
-                  backgroundColor="rgba(254, 2, 48, 0.20);"
+                  href={`/blog/${all[1].slug}`}
+                  backgroundColor={all[1].themeColor}
                 >
                   <DateBlock>
                     <CalendarIcon />
-                    Aug 14, 2023
+                    {dayjs(all[1].publishedAt).format("DD MMM, YYYY")}
                   </DateBlock>
-                  <ImageContainer>
-                    <Image
-                      src="/logo.png"
-                      alt="arconnect logo"
-                      draggable={false}
-                      width={132}
-                      height={102}
-                    />
-                  </ImageContainer>
                   <BlogTitle
                     alternative
-                    width="230px"
+                    width="250px"
                     background={arconnectSVG}
-                    padding="8px 0px"
-                    title="ArConnect 1.0 is Here"
+                    title={all[1].title}
                     icon={<ArrowUpRightIcon />}
                   />
+                  <Thumbnail src={all[1].transparentThumbnail} alt="Thumbnail" draggable={false} />
                 </Entry>
                 <Entry
                   href="#all"
@@ -110,7 +88,7 @@ export default function Blog({ all }: Props) {
                   <BlogTitle
                     title="Read more of our blogs"
                     alternative
-                    width="191px"
+                    width="215px"
                     icon={<ArrowDownIcon />}
                   />
                 </Entry>
@@ -123,74 +101,34 @@ export default function Blog({ all }: Props) {
             >
               All Posts
             </ParagraphTitle>
-
-            <Entry
-              href="/blog/arconnect-just-leveled-up-to-1-0"
-              backgroundColor="rgba(171, 154, 255, 0.2)"
-              height="434px"
-            >
-              <AllPostContent>
-                <DateTitleContainer flexDirection="column">
-                  <DateBlock>
-                    <CalendarIcon />
-                    Aug 14, 2023
-                  </DateBlock>
-                  <BlogTitle
-                    alternative
-                    background={arconnectSVG}
-                    title="ArConnect 1.0 is Here"
-                    icon={<ArrowUpRightIcon />}
-                    width="230px"
-                    padding="8px 0px"
-                  />
-                </DateTitleContainer>
-
-                <ImageContainer>
-                  <Image
-                    src="/logo.png"
-                    alt="arconnect logo"
-                    draggable={false}
-                    width={132}
-                    height={102}
-                  />
-                  <LogoText>ArConnect</LogoText>
-                </ImageContainer>
-                <NavigationIcon alt />
-              </AllPostContent>
-            </Entry>
-            <Spacer y={4} />
-
-            <Entry
-              href="/blog/arweave-for-beginners-how-to-buy-arweave-tokens"
-              backgroundColor="rgba(171, 154, 255, 0.2)"
-              height="434px"
-            >
-              <AllPostContent>
-                <DateTitleContainer flexDirection="column">
-                  <DateBlock>
-                    <CalendarIcon />
-                    Aug 3, 2023
-                  </DateBlock>
-                  <BlogTitle
-                    title="Arweave for Beginners: How to Buy Arweave Tokens"
-                    background={altSVG}
-                    padding="8px 0px"
-                  />
-                </DateTitleContainer>
-
-                <ImageContainer>
-                  <Image
-                    src="/arweave-logo.png"
-                    alt="Othent logo"
-                    draggable={false}
-                    width={521}
-                    height={151}
-                  />
-                </ImageContainer>
-                <NavigationIcon alt />
-              </AllPostContent>
-            </Entry>
-            <Spacer y={1} />
+            {all.slice(2).map((blog, i) => (
+              <div key={i}>
+                <Entry
+                  href={`/blog/${blog.slug}`}
+                  backgroundColor={blog.themeColor}
+                  height="434px"
+                >
+                  <AllPostContent>
+                    <DateTitleContainer flexDirection="column">
+                      <DateBlock>
+                        <CalendarIcon />
+                        {dayjs(blog.publishedAt).format("DD MMM, YYYY")}
+                      </DateBlock>
+                      <BlogTitle
+                        alternative
+                        background={arconnectSVG}
+                        title={blog.title}
+                        icon={<ArrowUpRightIcon />}
+                        width="230px"
+                      />
+                    </DateTitleContainer>
+                    <Thumbnail src={blog.transparentThumbnail} alt="Thumbnail" draggable={false} />
+                    <NavigationIcon alt />
+                  </AllPostContent>
+                </Entry>
+                <Spacer y={4} />
+              </div>
+            ))}
           </Section>
         </Wrapper>
       </main>
@@ -222,38 +160,27 @@ export async function getStaticProps() {
   };
 }
 
-const LogoText = styled.h2`
-  font-size: 6rem;
-  padding: 14px;
-  font-weight: 600;
-  color: rgb(${(props) => props.theme.accent});
-  line-height: 1.1em;
-  margin: 0;
-
-  @media screen and (max-width: 720px) {
-    font-size: 2.1rem;
-  }
-`;
-
 export const Wrapper = styled.main`
   // max-width: 1518px;
   margin: 0 auto;
 `;
 
-export const ImageContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  img {
-    height: auto;
-    max-width: 100%;
-  }
+const Thumbnail = styled.img`
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  max-width: 80%;
+  max-height: 80%;
+  user-select: none;
+  z-index: 1;
+  transform: translate(-50%, -50%);
 `;
 
 const DateTitleContainer = styled.div<{ flexDirection?: string }>`
   display: flex;
   justify-content: space-between;
   flex-direction: ${(props) => props.flexDirection || "row"};
+  z-index: 1;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -291,14 +218,12 @@ export const Title = styled.h1`
   }
 `;
 
-const Entry = styled(({ dummy, ...rest }) =>
-  dummy ? <div {...rest} /> : <Link {...rest} />
-)<{
+const Entry = styled(Link)<{
   backgroundColor?: string;
   height?: string;
   justify?: string;
-  isLink: boolean;
 }>`
+  position: relative;
   display: flex;
   flex-direction: column;
   text-decoration: inherit;
