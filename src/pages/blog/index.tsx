@@ -57,12 +57,15 @@ export default function Blog({ all }: Props) {
                   href={`/blog/${all[1].slug}`}
                   backgroundColor={all[1].themeColor}
                 >
-                  <DateBlock>
-                    <CalendarIcon />
-                    {dayjs(all[1].publishedAt).format("DD MMM, YYYY")}
-                  </DateBlock>
+                  <Row>
+                    <DateBlock>
+                      <CalendarIcon />
+                      {dayjs(all[1].publishedAt).format("DD MMM, YYYY")}
+                    </DateBlock>
+                    <NavigationIcon />
+                  </Row>
                   <BlogTitle title={all[1].title} />
-                  <Thumbnail src={all[1].transparentThumbnail} alt="Thumbnail" draggable={false} top="40%" />
+                  <Thumbnail src={all[1].transparentThumbnail} alt="Thumbnail" draggable={false} top="37%" />
                 </Entry>
                 <Entry
                   href="#all"
@@ -70,7 +73,7 @@ export default function Blog({ all }: Props) {
                   backgroundColor="rgba(171, 154, 255, 0.2)"
                   justify="center"
                 >
-                  <BlogTitle title="Read more of our blogs" limit={10} />
+                  <BlogTitle title="Read more of our blogs" limit={16} />
                 </Entry>
               </Column>
             </FeaturedTiles>
@@ -225,6 +228,12 @@ const FeaturedTiles = styled.div`
     flex-direction: column;
     gap: 2.5rem;
   }
+`;
+
+const Row = styled.div`
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 `;
 
 interface Blog {

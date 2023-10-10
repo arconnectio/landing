@@ -3,13 +3,13 @@ import { useMemo } from "react";
 
 const BlogTitle: React.FC<Props> = ({ title, limit }) => {
   const parts = useMemo(() => {
-    const MAX_LINE_LENGTH = limit || 20;
+    const MAX_LINE_LENGTH = limit || 24;
     const words = title.split(" ");
     const finalParts: string[] = [];
     let line = 0;
 
     for (let i = 0; i < words.length; i++) {
-      let lineLenght = (finalParts[line] || "" + " " + words[i]).length;
+      let lineLenght = ((finalParts[line] || "") + " " + words[i]).length;
 
       if (!finalParts[line]) {
         finalParts.push(words[i]);
