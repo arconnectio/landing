@@ -67,14 +67,14 @@ export default function Blog({ all }: Props) {
                   <BlogTitle title={all[1].title} />
                   <Thumbnail src={all[1].transparentThumbnail} alt="Thumbnail" draggable={false} top="37%" />
                 </Entry>
-                <Entry
+                <ReadMore
                   href="#all"
                   height="114px"
                   backgroundColor="rgba(171, 154, 255, 0.2)"
-                  justify="center"
                 >
                   <BlogTitle title="Read more of our blogs" limit={16} />
-                </Entry>
+                  <NavigationIcon icon={<ArrowDownIcon />} />
+                </ReadMore>
               </Column>
             </FeaturedTiles>
           </Section>
@@ -217,6 +217,11 @@ const Entry = styled(Link)<{
   &:visited {
     color: inherit;
   }
+`;
+
+const ReadMore = styled(Entry)`
+  flex-direction: row;
+  align-items: flex-end;
 `;
 
 const FeaturedTiles = styled.div`

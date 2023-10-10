@@ -50,7 +50,6 @@ const BlogTitle: React.FC<Props> = ({ title, limit }) => {
 };
 
 const Title = styled.h2`
-  font-size: 1.875rem;
   margin: 0;
   font-size: 1.875rem;
   font-weight: 700;
@@ -58,7 +57,7 @@ const Title = styled.h2`
   width: max-content;
 
   @media (max-width: 768px) {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 `;
 
