@@ -218,6 +218,12 @@ const Content = styled.div`
       margin-top: 0;
     }
   }
+
+  img {
+    width: 100%;
+    display: block;
+    user-select: none;
+  }
 `;
 
 interface Params {
