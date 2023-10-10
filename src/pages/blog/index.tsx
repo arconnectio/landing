@@ -3,7 +3,6 @@ import Section from "~/components/content/Section";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import styled from "styled-components";
-import Image from "next/image";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 import {
@@ -18,13 +17,6 @@ import { load } from "outstatic/server"
 import dayjs from "dayjs"
 
 export default function Blog({ all }: Props) {
-  const altSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
-    '<svg width="365" height="147" viewBox="0 0 365 147" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M118 146H19C9.05888 146 1 137.941 1 128V19C1 9.05888 9.05887 1 19 1H346C355.941 1 364 9.05888 364 19V43.3836C364 53.3247 355.941 61.3836 346 61.3836H337.289C327.347 61.3836 319.289 69.4424 319.289 79.3836V84.6986C319.289 94.6398 311.23 102.699 301.289 102.699H154C144.059 102.699 136 110.757 136 120.699V128C136 137.941 127.941 146 118 146Z" fill="white" stroke="white"/></svg>'
-  )}`;
-  const arconnectSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
-    '<svg width="229" height="100" viewBox="0 0 229 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M149 77.1875V81C149 90.9411 140.941 99 131 99H19C9.05888 99 1 90.9472 1 81.0061V18.9964C1 9.05532 9.05888 1 19 1H210C219.941 1 228 9.05887 228 19V41.1875C228 51.1286 219.941 59.1875 210 59.1875H167C157.059 59.1875 149 67.2464 149 77.1875Z" fill="white" stroke="white"/></svg>'
-  )}`;
-
   return (
     <>
       <Head title="Blog - ArConnect Arweave Wallet" />
@@ -54,7 +46,6 @@ export default function Blog({ all }: Props) {
                     </div>
                     <BlogTitle
                       title={all[0].title}
-                      background={altSVG}
                     />
                   </DateTitleContainer>
                   <Thumbnail src={all[0].transparentThumbnail} alt="Thumbnail" draggable={false} />
@@ -70,14 +61,8 @@ export default function Blog({ all }: Props) {
                     <CalendarIcon />
                     {dayjs(all[1].publishedAt).format("DD MMM, YYYY")}
                   </DateBlock>
-                  <BlogTitle
-                    alternative
-                    width="250px"
-                    background={arconnectSVG}
-                    title={all[1].title}
-                    icon={<ArrowUpRightIcon />}
-                  />
-                  <Thumbnail src={all[1].transparentThumbnail} alt="Thumbnail" draggable={false} />
+                  <BlogTitle title={all[1].title} />
+                  <Thumbnail src={all[1].transparentThumbnail} alt="Thumbnail" draggable={false} top="40%" />
                 </Entry>
                 <Entry
                   href="#all"
@@ -85,12 +70,7 @@ export default function Blog({ all }: Props) {
                   backgroundColor="rgba(171, 154, 255, 0.2)"
                   justify="center"
                 >
-                  <BlogTitle
-                    title="Read more of our blogs"
-                    alternative
-                    width="215px"
-                    icon={<ArrowDownIcon />}
-                  />
+                  <BlogTitle title="Read more of our blogs" limit={10} />
                 </Entry>
               </Column>
             </FeaturedTiles>
@@ -115,13 +95,7 @@ export default function Blog({ all }: Props) {
                           <CalendarIcon />
                           {dayjs(blog.publishedAt).format("DD MMM, YYYY")}
                         </DateBlock>
-                        <BlogTitle
-                          alternative
-                          background={arconnectSVG}
-                          title={blog.title}
-                          icon={<ArrowUpRightIcon />}
-                          width="230px"
-                        />
+                        <BlogTitle title={blog.title} />
                       </DateTitleContainer>
                       <Thumbnail src={blog.transparentThumbnail} alt="Thumbnail" draggable={false} />
                       <NavigationIcon alt />
@@ -167,9 +141,9 @@ export const Wrapper = styled.main`
   margin: 0 auto;
 `;
 
-const Thumbnail = styled.img`
+const Thumbnail = styled.img<{ top?: string; }>`
   position: absolute;
-  top: 55%;
+  top: ${props => props.top || "55%"};
   left: 50%;
   max-width: 80%;
   max-height: 80%;
