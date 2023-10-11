@@ -26,6 +26,7 @@ export default async function handler(
         category: Category[];
       } & ArticleProps
     >({
+      collection: "knowledge-base-articles",
       $or: [
         {
           title: {

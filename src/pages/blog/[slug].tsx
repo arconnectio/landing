@@ -1,3 +1,4 @@
+import Article, { ArticleProps } from "~/components/article/Article";
 import { getDocumentPaths, load } from "outstatic/server";
 import Section from "~/components/content/Section";
 import { CalendarIcon } from "@iconicicons/react";
@@ -17,7 +18,7 @@ import { useMemo } from "react";
 import { Title } from "./index";
 import dayjs from "dayjs";
 
-export default function BlogPost({ post, content }: Props) {
+export default function BlogPost({ post, content, recommended }: Props) {
   const readTime = useMemo(() => {
     const readTimeForWord = 275;
     const words = content.split(/\s+/);
@@ -40,7 +41,7 @@ export default function BlogPost({ post, content }: Props) {
           <Spacer y={2} />
           <AuthorGroup>
             <AuthorProfile
-              src={post.author.picture}
+              src={post.author.picture || "/logo.png"}
               alt="profile picture"
               draggable={false}
             />
@@ -59,11 +60,23 @@ export default function BlogPost({ post, content }: Props) {
         <BlogSection>
           <Content dangerouslySetInnerHTML={{ __html: content }}></Content>
         </BlogSection>
-        <Section>
-          <ParagraphTitle>
-            Recommended  
-          </ParagraphTitle>          
-        </Section>
+        {recommended.length > 0 && (
+          <BlogSection>
+            <ParagraphTitle>
+              Recommended blog posts
+            </ParagraphTitle>
+            <Spacer y={2.25} />
+            <Recommended>
+              {recommended.map((post, i) => (
+                <Article
+                  {...post}
+                  baseLink="/blog"
+                  key={i}
+                />
+              ))}
+            </Recommended>
+          </BlogSection>
+        )}
       </main>
       <Footer />
     </>
@@ -87,6 +100,23 @@ export async function getStaticProps({ params }: Params) {
     ])
     .first();
 
+  const recommended = await db
+    .find({
+      collection: "blogs",
+      slug: {
+        $ne: params.slug
+      }
+    })
+    .project([
+      "slug",
+      "title",
+      "description",
+      "coverImage",
+      "author"
+    ])
+    .limit(2)
+    .toArray();
+
   if (!post) {
     return {
       notFound: true
@@ -98,7 +128,8 @@ export async function getStaticProps({ params }: Params) {
   return {
     props: {
       post,
-      content
+      content,
+      recommended
     }
   };
 }
@@ -238,6 +269,12 @@ const Content = styled.div`
   }
 `;
 
+const Recommended = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.55rem;
+`;
+
 interface Params {
   params: {
     slug: string;
@@ -247,6 +284,7 @@ interface Params {
 interface Props {
   content: string;
   post: Post;
+  recommended: ArticleProps[];
 }
 
 interface Post {

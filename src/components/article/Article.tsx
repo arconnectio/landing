@@ -8,11 +8,26 @@ const spacegrotesk = Space_Grotesk({
   weight: "600"
 });
 
-export default function Article({ slug, title, description, baseLink = "/help/article", coverImage }: ArticleProps) {
+export default function Article({
+  slug,
+  title,
+  description,
+  baseLink = "/help/article",
+  coverImage,
+  author
+}: ArticleProps) {
   return (
     <Wrapper>
-      {coverImage && <CoverImage src={coverImage} />}
       <TitleWrapperLink href={`${baseLink}/${slug}`}>
+        {coverImage && <CoverImage src={coverImage} />}
+        {author && (
+          <Author>
+            <AuthorPfp src={author.picture || "/logo.png"} />
+            <AuthorName>
+              {"by " + author.name}
+            </AuthorName>
+          </Author>
+        )}
         <ArticleTitle>{title}</ArticleTitle>
       </TitleWrapperLink>
       <ArticlePreview>{description}</ArticlePreview>
@@ -24,13 +39,16 @@ export default function Article({ slug, title, description, baseLink = "/help/ar
   );
 }
 
-const Wrapper = styled.article`
+const Wrapper = styled.article` 
   display: flex;
   flex-direction: column;
   gap: 1rem;
 `;
 
 const TitleWrapperLink = styled(Link)`
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
   text-decoration: none;
 `;
 
@@ -80,6 +98,30 @@ const CoverImage = styled.img.attrs({
   height: 170px;
   object-fit: cover;
   user-select: none;
+  object-position: center;
+`;
+
+const Author = styled.div`
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+`;
+
+const AuthorPfp = styled.img.attrs({
+  draggable: false,
+  alt: "profile picture"
+})`
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 100%;
+  user-select: none;
+`;
+
+const AuthorName = styled(ArticlePreview)`
+  font-size: .84rem;
+  text-align: left;
+  color: rgb(${props => props.theme.primaryText});
+  line-height: 1.2em;
 `;
 
 export interface ArticleProps {
@@ -88,4 +130,8 @@ export interface ArticleProps {
   description: string;
   baseLink?: string;
   coverImage?: string;
+  author?: {
+    name: string;
+    picture: string;
+  };
 }
