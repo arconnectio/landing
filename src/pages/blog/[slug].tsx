@@ -173,9 +173,14 @@ const Content = styled.div`
   }
 
   h2 {
-    color: rgb(${(props) => props.theme.secondaryText});
-    margin-bottom: 0.8rem;
     ${paragraphTitleStyles}
+    font-size: 1.7rem;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.2em;
+    margin-bottom: .9em;
+    color: rgb(${(props) => props.theme.primaryText});
   }
 
   blockquote {
@@ -223,6 +228,7 @@ const Content = styled.div`
     width: 100%;
     display: block;
     user-select: none;
+    margin-bottom: 2rem;
   }
 `;
 
