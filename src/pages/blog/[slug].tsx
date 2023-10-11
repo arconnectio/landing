@@ -9,6 +9,7 @@ import Head from "~/components/Head";
 import {
   Date,
   paragraphStyles,
+  ParagraphTitle,
   paragraphTitleStyles
 } from "~/components/content/Text";
 import Nav from "~/components/Nav";
@@ -58,6 +59,11 @@ export default function BlogPost({ post, content }: Props) {
         <BlogSection>
           <Content dangerouslySetInnerHTML={{ __html: content }}></Content>
         </BlogSection>
+        <Section>
+          <ParagraphTitle>
+            Recommended  
+          </ParagraphTitle>          
+        </Section>
       </main>
       <Footer />
     </>

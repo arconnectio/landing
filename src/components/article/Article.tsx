@@ -8,14 +8,15 @@ const spacegrotesk = Space_Grotesk({
   weight: "600"
 });
 
-export default function Article({ slug, title, description }: ArticleProps) {
+export default function Article({ slug, title, description, baseLink = "/help/article", coverImage }: ArticleProps) {
   return (
     <Wrapper>
-      <TitleWrapperLink href={`/help/article/${slug}`}>
+      {coverImage && <CoverImage src={coverImage} />}
+      <TitleWrapperLink href={`${baseLink}/${slug}`}>
         <ArticleTitle>{title}</ArticleTitle>
       </TitleWrapperLink>
       <ArticlePreview>{description}</ArticlePreview>
-      <ArticleLink href={`/help/article/${slug}`}>
+      <ArticleLink href={`${baseLink}/${slug}`}>
         Read more
         <ArrowUpRightIcon />
       </ArticleLink>
@@ -70,8 +71,21 @@ const ArticleLink = styled(Link)`
   }
 `;
 
+const CoverImage = styled.img.attrs({
+  dragable: false,
+  alt: "Cover image"
+})`
+  display: block;
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  user-select: none;
+`;
+
 export interface ArticleProps {
   slug: string;
   title: string;
   description: string;
+  baseLink?: string;
+  coverImage?: string;
 }
