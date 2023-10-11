@@ -106,7 +106,7 @@ export async function getStaticPaths() {
 
 const BlogTitle = styled(Title)`
   font-weight: 600;
-  line-height: 1.25em;
+  line-height: 1.15em;
 `;
 
 const BlogSection = styled(Section)`
