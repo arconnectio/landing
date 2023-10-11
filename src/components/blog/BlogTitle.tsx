@@ -53,7 +53,7 @@ const Title = styled.h2`
   margin: 0;
   font-size: 1.875rem;
   font-weight: 700;
-  padding: 8px 0;
+  padding: 0;
   width: max-content;
 
   @media (max-width: 768px) {

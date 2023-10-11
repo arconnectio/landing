@@ -37,7 +37,7 @@ export default function Blog({ all }: Props) {
                   backgroundColor={all[0].themeColor}
                   height="434px"
                 >
-                  <DateTitleContainer>
+                  <Row column="mobile">
                     <div>
                       <DateBlock>
                         <CalendarIcon />
@@ -47,7 +47,7 @@ export default function Blog({ all }: Props) {
                     <BlogTitle
                       title={all[0].title}
                     />
-                  </DateTitleContainer>
+                  </Row>
                   <Thumbnail src={all[0].transparentThumbnail} alt="Thumbnail" draggable={false} />
                   <NavigationIcon />
                 </Entry>
@@ -93,14 +93,20 @@ export default function Blog({ all }: Props) {
                     height="434px"
                   >
                     <AllPostContent>
-                      <DateTitleContainer flexDirection="column">
+                      <Row column="always">
                         <DateBlock>
                           <CalendarIcon />
                           {dayjs(blog.publishedAt).format("DD MMM, YYYY")}
                         </DateBlock>
                         <BlogTitle title={blog.title} />
-                      </DateTitleContainer>
-                      <Thumbnail src={blog.transparentThumbnail} alt="Thumbnail" draggable={false} />
+                      </Row>
+                      <Thumbnail
+                        src={blog.transparentThumbnail}
+                        alt="Thumbnail"
+                        draggable={false}
+                        top="43%"
+                        small
+                      />
                       <NavigationIcon alt />
                     </AllPostContent>
                   </Entry>
@@ -144,27 +150,15 @@ export const Wrapper = styled.main`
   margin: 0 auto;
 `;
 
-const Thumbnail = styled.img<{ top?: string; }>`
+const Thumbnail = styled.img<{ top?: string; small?: boolean; }>`
   position: absolute;
   top: ${props => props.top || "55%"};
   left: 50%;
-  max-width: 80%;
-  max-height: 80%;
+  max-width: ${props => !props.small ? "80%" : "65%"};
+  max-height: ${props => !props.small ? "80%" : "65%"};
   user-select: none;
   z-index: 1;
   transform: translate(-50%, -50%);
-`;
-
-const DateTitleContainer = styled.div<{ flexDirection?: string }>`
-  display: flex;
-  justify-content: space-between;
-  flex-direction: ${(props) => props.flexDirection || "row"};
-  z-index: 1;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    gap: 1rem;
-  }
 `;
 
 const AllPostContent = styled.div`
@@ -229,16 +223,23 @@ const FeaturedTiles = styled.div`
   flex-direction: row;
   justify-content: space-between;
   gap: 4.375rem;
-  @media screen and (max-width: 768px) {
+
+  @media screen and (max-width: 720px) {
     flex-direction: column;
     gap: 2.5rem;
   }
 `;
 
-const Row = styled.div`
+const Row = styled.div<{ column?: "mobile" | "always"; }>`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-direction: ${props => props.column === "always" ? "column" : "row"};
+  gap: 1rem;
+
+  @media screen and (max-width: 720px) {
+    flex-direction: ${props => !!props.column ? "column" : "row"};
+  }
 `;
 
 interface Blog {
