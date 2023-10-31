@@ -8,7 +8,7 @@ slug: 'introducing-wayfinder-a-new-era-for-arweaves-permaweb'
 description: 'ArConnect integrates ar.io''s Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.'
 coverImage: '/images/wayfinder-final-v2-k5ND.png'
 transparentThumbnail: 'https://ytqa6qvh6pftcehglc22o5cl2oxtb53kym4dso3yz2pyvmf6igea.arweave.net/xOAPQqfzyzEQ5li1p3RL068w92rDODk7eM6firC-QYg'
-themeColor: 'rgba(0, 0, 0, .15)'
+themeColor: 'rgba(0, 0, 0, .85)'
 publishedAt: '2023-10-31T17:22:52.571Z'
 ---
 
