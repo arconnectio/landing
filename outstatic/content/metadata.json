@@ -1,6 +1,6 @@
 {
-  "commit": "43beb5a85125683f74fb10bef1189afdcf597f2b",
-  "generated": "2023-10-31T19:55:49.636Z",
+  "commit": "ca5d293f99be08b912fa27a899a0ad8db050f043",
+  "generated": "2023-10-31T20:00:08.413Z",
   "metadata": [
     {
       "__outstatic": {
@@ -244,8 +244,8 @@
     },
     {
       "__outstatic": {
-        "commit": "43beb5a85125683f74fb10bef1189afdcf597f2b",
-        "hash": "3945561137",
+        "commit": "ca5d293f99be08b912fa27a899a0ad8db050f043",
+        "hash": "633992790",
         "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
       },
       "author": {
@@ -258,9 +258,9 @@
       "publishedAt": "2023-10-31T17:22:52.571Z",
       "slug": "introducing-wayfinder-a-new-era-for-arweaves-permaweb",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .85)",
-      "title": "Introducing Wayfinder: A New Era for Arweave's Permaweb",
-      "transparentThumbnail": "https://ytqa6qvh6pftcehglc22o5cl2oxtb53kym4dso3yz2pyvmf6igea.arweave.net/xOAPQqfzyzEQ5li1p3RL068w92rDODk7eM6firC-QYg"
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
+      "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
     }
   ]
 }
