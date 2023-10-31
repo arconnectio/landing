@@ -1,6 +1,6 @@
 ---
 title: 'Introducing Wayfinder: A New Era for Arweave''s Permaweb'
-status: 'draft'
+status: 'published'
 author:
   name: 'ropats16'
   picture: 'https://avatars.githubusercontent.com/u/50047129?v=4'

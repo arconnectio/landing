@@ -1,6 +1,6 @@
 {
-  "commit": "61d4acdf8f8b2fa059a68e8230e0d4a64f34055f",
-  "generated": "2023-10-31T17:24:17.956Z",
+  "commit": "19da68ae0bbbd27dc70daded3e7cb1c193064789",
+  "generated": "2023-10-31T17:24:45.509Z",
   "metadata": [
     {
       "__outstatic": {
@@ -244,8 +244,8 @@
     },
     {
       "__outstatic": {
-        "commit": "61d4acdf8f8b2fa059a68e8230e0d4a64f34055f",
-        "hash": "3067589039",
+        "commit": "19da68ae0bbbd27dc70daded3e7cb1c193064789",
+        "hash": "3542834143",
         "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
       },
       "author": {
@@ -257,7 +257,7 @@
       "description": "ArConnect integrates ar.io's Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.",
       "publishedAt": "2023-10-31T17:22:52.571Z",
       "slug": "introducing-wayfinder-a-new-era-for-arweaves-permaweb",
-      "status": "draft",
+      "status": "published",
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Introducing Wayfinder: A New Era for Arweave's Permaweb",
       "transparentThumbnail": "https://ytqa6qvh6pftcehglc22o5cl2oxtb53kym4dso3yz2pyvmf6igea.arweave.net/xOAPQqfzyzEQ5li1p3RL068w92rDODk7eM6firC-QYg"
