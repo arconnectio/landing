@@ -1,6 +1,6 @@
 {
-  "commit": "ed1037260440365c2a03cd87c2508670290c799a",
-  "generated": "Tue, 31 Oct 2023 19:47:39 GMT",
+  "commit": "cd461f015fffedf82404788d17bd2c30d95d010f",
+  "generated": "2023-10-31T19:55:11.905Z",
   "metadata": [
     {
       "__outstatic": {
@@ -97,26 +97,6 @@
       "slug": "fees-in-arconnect",
       "status": "published",
       "title": "Fees in ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "224d31f222b24a6efdd3671f2e2386e76b887dfe",
-        "hash": "3945561137",
-        "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
-      },
-      "author": {
-        "name": "ropats16",
-        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/wayfinder-final-v2-k5ND.png",
-      "description": "ArConnect integrates ar.io's Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.",
-      "publishedAt": "2023-10-31T17:22:52.571Z",
-      "slug": "introducing-wayfinder-a-new-era-for-arweaves-permaweb",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .85)",
-      "title": "Introducing Wayfinder: A New Era for Arweave's Permaweb",
-      "transparentThumbnail": "https://ytqa6qvh6pftcehglc22o5cl2oxtb53kym4dso3yz2pyvmf6igea.arweave.net/xOAPQqfzyzEQ5li1p3RL068w92rDODk7eM6firC-QYg"
     },
     {
       "__outstatic": {
@@ -261,6 +241,26 @@
       "slug": "operating-arconnect",
       "status": "published",
       "title": "How to operate ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "cd461f015fffedf82404788d17bd2c30d95d010f",
+        "hash": "893367272",
+        "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
+      },
+      "author": {
+        "name": "ropats16",
+        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/wayfinder-final-v2-k5ND.png",
+      "description": "ArConnect integrates ar.io's Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.",
+      "publishedAt": "2023-10-31T17:22:52.571Z",
+      "slug": "introducing-wayfinder-a-new-era-for-arweaves-permaweb",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .85)",
+      "title": "Introducing Wayfinder: A New Era for Arweave's Permaweb",
+      "transparentThumbnail": "https://ytqa6qvh6pftcehglc22o5cl2oxtb53kym4dso3yz2pyvmf6igea.arweave.net/xOAPQqfzyzEQ5li1p3RL068w92rDODk7eM6firC-QYg"
     }
   ]
 }
