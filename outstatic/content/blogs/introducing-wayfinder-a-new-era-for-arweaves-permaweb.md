@@ -1,5 +1,5 @@
 ---
-title: 'Introducing Wayfinder: A New Era for Arweave''s Permaweb'
+title: 'ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support'
 status: 'published'
 author:
   name: 'ropats16'
@@ -8,11 +8,9 @@ slug: 'introducing-wayfinder-a-new-era-for-arweaves-permaweb'
 description: 'ArConnect integrates ar.io''s Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.'
 coverImage: '/images/wayfinder-final-v2-k5ND.png'
 transparentThumbnail: 'https://ytqa6qvh6pftcehglc22o5cl2oxtb53kym4dso3yz2pyvmf6igea.arweave.net/xOAPQqfzyzEQ5li1p3RL068w92rDODk7eM6firC-QYg'
-themeColor: 'rgba(0, 0, 0, .85)'
+themeColor: '#FAFAFA'
 publishedAt: '2023-10-31T17:22:52.571Z'
 ---
-
-## ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support
 
 We're thrilled to announce the launch of an integration with [ar.io](https://ar.io/)'s Wayfinder. Born from a collaboration between ArConnect and ar.io, the Wayfinder integration is our latest endeavor to redefine how ArConnect users interact with the permaweb.
 
