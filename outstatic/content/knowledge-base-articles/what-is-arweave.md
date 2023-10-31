@@ -1,0 +1,14 @@
+---
+title: "What is Arweave?"
+status: "published"
+author:
+  name: "Marton Lederer"
+  picture: "https://avatars.githubusercontent.com/u/30638105?v=4"
+slug: "what-is-arweave"
+description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
+coverImage: ""
+category: [{ "value": "getting-started", "label": "Getting started" }]
+publishedAt: "2023-09-24T21:27:09.654Z"
+---
+
+About Arweave...

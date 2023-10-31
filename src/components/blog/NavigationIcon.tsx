@@ -1,11 +1,12 @@
-import styled from "styled-components";
 import { ArrowUpRightIcon } from "@iconicicons/react";
+import styled from "styled-components";
+import { ReactNode } from "react";
 
-const NavigationIcon: React.FC<{ alt?: boolean }> = ({ alt = false }) => {
+const NavigationIcon: React.FC<Props> = ({ alt = false, icon, ...rest }) => {
   return (
-    <NavigationWrapper alt={alt}>
+    <NavigationWrapper alt={alt} {...rest}>
       <WhiteCircle>
-        <ArrowUpRightIcon />
+        {icon || <ArrowUpRightIcon />}
       </WhiteCircle>
     </NavigationWrapper>
   );
@@ -32,3 +33,8 @@ const WhiteCircle = styled.div`
 `;
 
 export default NavigationIcon;
+
+interface Props {
+  alt?: boolean;
+  icon?: ReactNode;
+}

@@ -1,0 +1,246 @@
+{
+  "commit": "eca2a7c84f79fb4a4e936cd668830b2b47c0dc3e",
+  "generated": "2023-10-09T07:15:13.095Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "bb34382a6eff1d8c42db63b29a17bed8808d7a6f",
+        "hash": "129556622",
+        "path": "outstatic/content/knowledge-base-articles/sending-tokens.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-23T12:15:12.411Z",
+      "slug": "sending-tokens",
+      "status": "published",
+      "title": "Sending tokens from ArConnect to other users"
+    },
+    {
+      "__outstatic": {
+        "commit": "129777cef302e5757789d9d0826fa744910c72ef",
+        "hash": "476181269",
+        "path": "outstatic/content/knowledge-base-articles/operating-arconnect.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-23T12:13:50.100Z",
+      "slug": "operating-arconnect",
+      "status": "published",
+      "title": "How to operate ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "d5e3cb0fff43679765f68e51e43f2a487a9cf467",
+        "hash": "3650912979",
+        "path": "outstatic/content/knowledge-base-articles/install-and-setup.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-23T12:12:26.397Z",
+      "slug": "install-and-setup",
+      "status": "published",
+      "title": "How to install and setup ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "d105f122ac555126389cecb6f1f4511c04d17e5d",
+        "hash": "3467811334",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-24T21:24:37.348Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
+      "status": "published",
+      "title": "How to use ArConnect with a dApp?"
+    },
+    {
+      "__outstatic": {
+        "commit": "e1f23b07714548a93c6f3aa87c7a53dc5574efdf",
+        "hash": "930904953",
+        "path": "outstatic/content/knowledge-base-articles/fees-in-arconnect.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-24T21:25:52.814Z",
+      "slug": "fees-in-arconnect",
+      "status": "published",
+      "title": "Fees in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "186962ce725b37c93359fe71688191447f776c5a",
+        "hash": "2331521476",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-24T21:27:09.654Z",
+      "slug": "what-is-arweave",
+      "status": "published",
+      "title": "What is Arweave?"
+    },
+    {
+      "__outstatic": {
+        "commit": "4207b4bb1dd211bb241adb2285d313b3f18d6212",
+        "hash": "3155118389",
+        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-24T21:27:47.445Z",
+      "slug": "what-is-a-json-keyfile",
+      "status": "published",
+      "title": "What is a JSON keyfile?"
+    },
+    {
+      "__outstatic": {
+        "commit": "3f2bd4a6fbe5973739f32fd5a64db22ab44bce51",
+        "hash": "1657934597",
+        "path": "outstatic/content/knowledge-base-articles/test-article.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Let's give this a description",
+      "publishedAt": "2023-10-05T16:50:55.465Z",
+      "slug": "test-article",
+      "status": "published",
+      "title": "Test article"
+    },
+    {
+      "__outstatic": {
+        "commit": "9d490a81e02da1cf5181d84c443158d560a561f4",
+        "hash": "1984669019",
+        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
+      },
+      "author": {
+        "name": "Matthew DiRienzo",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arweave-for-beginners-hero-Y3OD.webp",
+      "description": "",
+      "publishedAt": "2023-08-03T18:34:52.000Z",
+      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
+      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
+    },
+    {
+      "__outstatic": {
+        "commit": "eca2a7c84f79fb4a4e936cd668830b2b47c0dc3e",
+        "hash": "2195928326",
+        "path": "outstatic/content/blogs/arconnect-just-leveled-up-to-1-0.md"
+      },
+      "author": {
+        "name": "ArConnect",
+        "picture": "/images/logo-IyNj.png"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect-announcement-hero-YzNT.webp",
+      "description": "",
+      "publishedAt": "2023-08-14T07:21:55.000Z",
+      "slug": "arconnect-just-leveled-up-to-1-0",
+      "status": "published",
+      "themeColor": "rgba(171, 154, 255, .15)",
+      "title": "ArConnect Just Leveled Up to 1.0",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    }
+  ]
+}

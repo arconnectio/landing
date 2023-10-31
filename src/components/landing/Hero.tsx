@@ -1,3 +1,9 @@
+import styled, { css } from "styled-components";
+import { sendConversion } from "~/utils/pixel";
+import StatPanel from "./StatPanel";
+import Button from "../Button";
+import Spacer from "../Spacer";
+import Link from "next/link";
 import {
   ArrowUpRightIcon,
   DownloadIcon,
@@ -6,12 +12,6 @@ import {
   TagIcon,
   CodeIcon
 } from "@iconicicons/react";
-import styled, { css } from "styled-components";
-import StatPanel from "./StatPanel";
-import Button from "../Button";
-import Spacer from "../Spacer";
-import Link from "next/link";
-import { sendConversion } from "~/utils/pixel";
 
 export default function Hero() {
   return (

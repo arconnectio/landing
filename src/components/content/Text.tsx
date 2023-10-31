@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Title = styled.h1`
   font-size: 3.35rem;
@@ -20,22 +20,30 @@ export const Subtitle = styled.h2`
   margin: 0;
 `;
 
-export const ParagraphTitle = styled.h3`
+export const paragraphTitleStyles = css`
   font-size: 1.9rem;
   font-weight: 650;
-  color: rgb(${(props) => props.theme.secondaryText});
   line-height: 1.1em;
-  margin: 0;
 `;
 
-export const Paragraph = styled.p`
+export const ParagraphTitle = styled.h3`
+  font-size: 1.9rem;
+  margin: 0;
+  ${paragraphTitleStyles}
+`;
+
+export const paragraphStyles = css`
   font-size: 1.05rem;
   font-weight: 550;
   text-align: justify;
-  margin: 0;
-  color: rgb(${(props) => props.theme.secondaryText});
   line-height: 1.55em;
   width: auto;
+`;
+
+export const Paragraph = styled.p`
+  ${paragraphStyles}
+  margin: 0;
+  color: rgb(${(props) => props.theme.secondaryText});
 
   a {
     color: rgb(${(props) => props.theme.accent});
@@ -52,15 +60,21 @@ export const Description = styled(Paragraph)`
   }
 `;
 
-export const Date = styled.p<{ padding?: string; secondary?: boolean }>`
+export const Date = styled.p`
   display: flex;
-  gap: 8px;
+  font-size: 1rem;
+  gap: 0.75rem;
+  align-items: center;
+  font-weight: 500;
   margin: 0;
   white-space: nowrap;
-  padding: ${(props) => props.padding || "7px 14px"};
-  background-color: ${(props) => !props.secondary && "#fff"};
-  color: ${(props) =>
-    props.secondary ? `rgb(${props.theme.secondaryText})` : "#000"};
-  border-radius: 36px;
-  max-width: max-content;
+  color: rgb(${(props) => props.theme.secondaryText});
+`;
+
+export const DateBlock = styled(Date)`
+  width: max-content;
+  padding: .4rem .9rem;
+  border-radius: 1.1rem;
+  background-color: #fff;
+  gap: .5rem;
 `;

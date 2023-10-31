@@ -1,10 +1,8 @@
-import { Paragraph, Date, ParagraphTitle } from "~/components/content/Text";
+import { Paragraph, Date, ParagraphTitle, DateBlock } from "~/components/content/Text";
 import Section from "~/components/content/Section";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import styled from "styled-components";
-import Image from "next/image";
-import { useRouter } from "next/router";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 import {
@@ -15,17 +13,10 @@ import {
 import Link from "next/link";
 import BlogTitle from "~/components/blog/BlogTitle";
 import NavigationIcon from "~/components/blog/NavigationIcon";
+import { load } from "outstatic/server"
+import dayjs from "dayjs"
 
-export default function Blog() {
-  const router = useRouter();
-
-  const altSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
-    '<svg width="365" height="147" viewBox="0 0 365 147" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M118 146H19C9.05888 146 1 137.941 1 128V19C1 9.05888 9.05887 1 19 1H346C355.941 1 364 9.05888 364 19V43.3836C364 53.3247 355.941 61.3836 346 61.3836H337.289C327.347 61.3836 319.289 69.4424 319.289 79.3836V84.6986C319.289 94.6398 311.23 102.699 301.289 102.699H154C144.059 102.699 136 110.757 136 120.699V128C136 137.941 127.941 146 118 146Z" fill="white" stroke="white"/></svg>'
-  )}`;
-  const arconnectSVG = `data:image/svg+xml;utf8,${encodeURIComponent(
-    '<svg width="229" height="100" viewBox="0 0 229 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M149 77.1875V81C149 90.9411 140.941 99 131 99H19C9.05888 99 1 90.9472 1 81.0061V18.9964C1 9.05532 9.05888 1 19 1H210C219.941 1 228 9.05887 228 19V41.1875C228 51.1286 219.941 59.1875 210 59.1875H167C157.059 59.1875 149 67.2464 149 77.1875Z" fill="white" stroke="white"/></svg>'
-  )}`;
-
+export default function Blog({ all }: Props) {
   return (
     <>
       <Head title="Blog - ArConnect Arweave Wallet" />
@@ -41,156 +32,89 @@ export default function Blog() {
                   Read the latest news and information about ArConnect and
                   discover all that we are working on.
                 </Paragraph>
-
                 <Entry
-                  href="/blog/arweave-for-beginners-how-to-buy-arweave-tokens"
-                  backgroundColor="rgba(35, 117, 239, 0.1)"
+                  href={`/blog/${all[0].slug}`}
+                  backgroundColor={all[0].themeColor}
                   height="434px"
                 >
-                  <DateTitleContainer>
+                  <Row column="mobile">
                     <div>
-                      <Date>
+                      <DateBlock>
                         <CalendarIcon />
-                        Aug 3, 2023
-                      </Date>
+                        {dayjs(all[0].publishedAt).format("DD MMM, YYYY")}
+                      </DateBlock>
                     </div>
                     <BlogTitle
-                      title="Arweave for Beginners: How to Buy Arweave Tokens"
-                      background={altSVG}
-                      padding="8px 0px"
+                      title={all[0].title}
                     />
-                  </DateTitleContainer>
-
-                  <ImageContainer>
-                    <Image
-                      src="/arweave-logo.png"
-                      alt="Othent logo"
-                      draggable={false}
-                      width={468}
-                      height={151}
-                    />
-                  </ImageContainer>
+                  </Row>
+                  <Thumbnail src={all[0].transparentThumbnail} alt="Thumbnail" draggable={false} />
                   <NavigationIcon />
                 </Entry>
               </Column>
               <Column style={{ flex: "4" }}>
                 <Entry
-                  href="/blog/arconnect-just-leveled-up-to-1-0"
-                  backgroundColor="rgba(254, 2, 48, 0.20);"
+                  href={`/blog/${all[1].slug}`}
+                  backgroundColor={all[1].themeColor}
                 >
-                  <Date>
-                    <CalendarIcon />
-                    Aug 14, 2023
-                  </Date>
-                  <ImageContainer>
-                    <Image
-                      src="/logo.png"
-                      alt="arconnect logo"
-                      draggable={false}
-                      width={132}
-                      height={102}
-                    />
-                  </ImageContainer>
-                  <BlogTitle
-                    alternative
-                    width="230px"
-                    background={arconnectSVG}
-                    padding="8px 0px"
-                    title="ArConnect 1.0 is Here"
-                    icon={<ArrowUpRightIcon />}
-                  />
+                  <Row>
+                    <DateBlock>
+                      <CalendarIcon />
+                      {dayjs(all[1].publishedAt).format("DD MMM, YYYY")}
+                    </DateBlock>
+                    <NavigationIcon />
+                  </Row>
+                  <BlogTitle title={all[1].title} />
+                  <Thumbnail src={all[1].transparentThumbnail} alt="Thumbnail" draggable={false} top="37%" />
                 </Entry>
-                <Entry
+                <ReadMore
+                  href="#all"
                   height="114px"
                   backgroundColor="rgba(171, 154, 255, 0.2)"
-                  justify="center"
-                  dummy
                 >
-                  <BlogTitle
-                    title="Read more of our blogs"
-                    alternative
-                    width="191px"
-                    icon={<ArrowDownIcon />}
-                  />
-                </Entry>
+                  <BlogTitle title="Read more of our blogs" limit={16} />
+                  <NavigationIcon icon={<ArrowDownIcon />} />
+                </ReadMore>
               </Column>
             </FeaturedTiles>
           </Section>
-          <Section>
-            <ParagraphTitle
-              style={{ fontSize: "3.125rem", paddingBottom: "41.6px" }}
-            >
-              All Posts
-            </ParagraphTitle>
-
-            <Entry
-              href="/blog/arconnect-just-leveled-up-to-1-0"
-              backgroundColor="rgba(171, 154, 255, 0.2)"
-              height="434px"
-            >
-              <AllPostContent>
-                <DateTitleContainer flexDirection="column">
-                  <Date>
-                    <CalendarIcon />
-                    Aug 14, 2023
-                  </Date>
-                  <BlogTitle
-                    alternative
-                    background={arconnectSVG}
-                    title="ArConnect 1.0 is Here"
-                    icon={<ArrowUpRightIcon />}
-                    width="230px"
-                    padding="8px 0px"
-                  />
-                </DateTitleContainer>
-
-                <ImageContainer>
-                  <Image
-                    src="/logo.png"
-                    alt="arconnect logo"
-                    draggable={false}
-                    width={132}
-                    height={102}
-                  />
-                  <LogoText>ArConnect</LogoText>
-                </ImageContainer>
-                <NavigationIcon alt />
-              </AllPostContent>
-            </Entry>
-            <Spacer y={4} />
-
-            <Entry
-              href="/blog/arweave-for-beginners-how-to-buy-arweave-tokens"
-              backgroundColor="rgba(171, 154, 255, 0.2)"
-              height="434px"
-            >
-              <AllPostContent>
-                <DateTitleContainer flexDirection="column">
-                  <Date>
-                    <CalendarIcon />
-                    Aug 3, 2023
-                  </Date>
-                  <BlogTitle
-                    title="Arweave for Beginners: How to Buy Arweave Tokens"
-                    background={altSVG}
-                    padding="8px 0px"
-                  />
-                </DateTitleContainer>
-
-                <ImageContainer>
-                  <Image
-                    src="/arweave-logo.png"
-                    alt="Othent logo"
-                    draggable={false}
-                    width={521}
-                    height={151}
-                  />
-                </ImageContainer>
-                <NavigationIcon alt />
-              </AllPostContent>
-            </Entry>
-            <Spacer y={1} />
-          </Section>
+          {all.length > 2 && (
+            <Section id="all">
+              <ParagraphTitle
+                style={{ fontSize: "3.125rem", paddingBottom: "41.6px" }}
+              >
+                All Posts
+              </ParagraphTitle>
+              {all.slice(2).map((blog, i) => (
+                <div key={i}>
+                  <Entry
+                    href={`/blog/${blog.slug}`}
+                    backgroundColor={blog.themeColor}
+                    height="434px"
+                  >
+                    <AllPostContent>
+                      <Row column="always">
+                        <DateBlock>
+                          <CalendarIcon />
+                          {dayjs(blog.publishedAt).format("DD MMM, YYYY")}
+                        </DateBlock>
+                        <BlogTitle title={blog.title} />
+                      </Row>
+                      <Thumbnail
+                        src={blog.transparentThumbnail}
+                        alt="Thumbnail"
+                        draggable={false}
+                        top="43%"
+                        small
+                      />
+                      <NavigationIcon alt />
+                    </AllPostContent>
+                  </Entry>
+                  <Spacer y={4} />
+                </div>
+              ))}
+            </Section>
+          )}
         </Wrapper>
       </main>
       <Footer />
@@ -198,43 +122,43 @@ export default function Blog() {
   );
 }
 
-const LogoText = styled.h2`
-  font-size: 6rem;
-  padding: 14px;
-  font-weight: 600;
-  color: rgb(${(props) => props.theme.accent});
-  line-height: 1.1em;
-  margin: 0;
+export async function getStaticProps() {
+  const db = await load();
+  const all = await db
+    .find<Blog>({
+      collection: "blogs",
+    })
+    .project([
+      "publishedAt",
+      "title",
+      "slug",
+      "transparentThumbnail",
+      "themeColor"
+    ])
+    // @ts-expect-error
+    .sort([{ publishedAt: -1 }])
+    .limit(3)
+    .toArray();
 
-  @media screen and (max-width: 720px) {
-    font-size: 2.1rem;
-  }
-`;
+  return {
+    props: { all }
+  };
+}
 
 export const Wrapper = styled.main`
   // max-width: 1518px;
   margin: 0 auto;
 `;
 
-export const ImageContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  img {
-    height: auto;
-    max-width: 100%;
-  }
-`;
-
-const DateTitleContainer = styled.div<{ flexDirection?: string }>`
-  display: flex;
-  justify-content: space-between;
-  flex-direction: ${(props) => props.flexDirection || "row"};
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    gap: 1rem;
-  }
+const Thumbnail = styled.img<{ top?: string; small?: boolean; }>`
+  position: absolute;
+  top: ${props => props.top || "55%"};
+  left: 50%;
+  max-width: ${props => !props.small ? "80%" : "65%"};
+  max-height: ${props => !props.small ? "80%" : "65%"};
+  user-select: none;
+  z-index: 1;
+  transform: translate(-50%, -50%);
 `;
 
 const AllPostContent = styled.div`
@@ -267,14 +191,12 @@ export const Title = styled.h1`
   }
 `;
 
-const Entry = styled(({ dummy, ...rest }) =>
-  dummy ? <div {...rest} /> : <Link {...rest} />
-)<{
+const Entry = styled(Link)<{
   backgroundColor?: string;
   height?: string;
   justify?: string;
-  isLink: boolean;
 }>`
+  position: relative;
   display: flex;
   flex-direction: column;
   text-decoration: inherit;
@@ -291,13 +213,43 @@ const Entry = styled(({ dummy, ...rest }) =>
   }
 `;
 
+const ReadMore = styled(Entry)`
+  flex-direction: row;
+  align-items: flex-end;
+`;
+
 const FeaturedTiles = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 4.375rem;
-  @media screen and (max-width: 768px) {
+
+  @media screen and (max-width: 720px) {
     flex-direction: column;
     gap: 2.5rem;
   }
 `;
+
+const Row = styled.div<{ column?: "mobile" | "always"; }>`
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: ${props => props.column === "always" ? "column" : "row"};
+  gap: 1rem;
+
+  @media screen and (max-width: 720px) {
+    flex-direction: ${props => !!props.column ? "column" : "row"};
+  }
+`;
+
+interface Blog {
+  publishedAt: string;
+  title: string;
+  slug: string;
+  transparentThumbnail: string;
+  themeColor: string;
+}
+
+interface Props {
+  all: Blog[];
+}
