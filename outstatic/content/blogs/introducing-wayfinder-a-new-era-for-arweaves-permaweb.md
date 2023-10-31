@@ -16,8 +16,6 @@ publishedAt: '2023-10-31T17:22:52.571Z'
 
 We're thrilled to announce the launch of an integration with [ar.io](https://ar.io/)'s Wayfinder. Born from a collaboration between ArConnect and ar.io, the Wayfinder integration is our latest endeavor to redefine how ArConnect users interact with the permaweb.
 
-...
-
 The Permaweb, built atop Arweave, is a decentralized web ensuring resilience of diverse content, be it images, music or entire web applications. Users can access this vast repository directly from the traditional web through gateways that serve as front doors to the permaweb. And with the introduction of Wayfinder, these gateways are getting a significant upgrade.
 
 ### **Why is Wayfinder Significant?**

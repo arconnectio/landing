@@ -1,6 +1,6 @@
 {
-  "commit": "cd461f015fffedf82404788d17bd2c30d95d010f",
-  "generated": "2023-10-31T19:55:11.905Z",
+  "commit": "43beb5a85125683f74fb10bef1189afdcf597f2b",
+  "generated": "2023-10-31T19:55:49.636Z",
   "metadata": [
     {
       "__outstatic": {
@@ -244,8 +244,8 @@
     },
     {
       "__outstatic": {
-        "commit": "cd461f015fffedf82404788d17bd2c30d95d010f",
-        "hash": "893367272",
+        "commit": "43beb5a85125683f74fb10bef1189afdcf597f2b",
+        "hash": "3945561137",
         "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
       },
       "author": {
