@@ -7,7 +7,7 @@ author:
 slug: "how-to-use-arconnect-with-a-dapp"
 description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
 coverImage: ""
-category: [{ "label": "Apps & connections", "value": "apps &Connections" }]
+category: [{ "label": "Apps & connections", "value": "apps-and-connections" }]
 publishedAt: "2023-09-24T21:24:37.348Z"
 ---
 

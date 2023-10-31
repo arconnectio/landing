@@ -63,7 +63,7 @@
       "category": [
         {
           "label": "Apps & connections",
-          "value": "apps &Connections"
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -87,7 +87,7 @@
       "category": [
         {
           "label": "Wallet management",
-          "value": "walletManagement"
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
