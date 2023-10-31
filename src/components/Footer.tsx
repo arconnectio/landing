@@ -37,9 +37,6 @@ export default function Footer() {
             <ColumnTitle>About</ColumnTitle>
             <Link href="/apps">Apps</Link>
             <Link href="/blog">Blog</Link>
-            {/* <a href="" target="_blank" rel="noopener noreferrer">
-              Blog
-            </a> */}
             <Link href="/branding">Branding</Link>
             <Link href="/privacy">Privacy Policy</Link>
             <Link href="/audit.pdf">Security Audit</Link>
@@ -49,9 +46,9 @@ export default function Footer() {
             <a href="/support" target="_blank" rel="noopener noreferrer">
               Chat
             </a>
-            <Link href="/help">Help Center</Link>
+            {/** Uncomment once knowledge base content is published */}
+            {/*<Link href="/help">Help Center</Link>*/}
             <Link href="/recover">Recovery</Link>
-            {/*<Link href="/faq">FAQ</Link>*/}
           </LinkColumn>
           <LinkColumn>
             <ColumnTitle>Developers</ColumnTitle>

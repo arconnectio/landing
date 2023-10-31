@@ -80,7 +80,10 @@ export default function Nav({ latestBlog }: Props) {
             >
               <NavPageLinks>
                 <NavLink href="/">Home</NavLink>
-                <NavLink href="/help">Help</NavLink>
+                {/** Uncomment the link below once knowledge base content is published */}
+                {/**<NavLink href="/help">Help</NavLink>**/}
+                {/** Remove the link below once knowledge base content is published */}
+                <NavLink href="/support">Support</NavLink>
                 <NavLink
                   href="https://docs.arconnect.io"
                   target="_blank"
