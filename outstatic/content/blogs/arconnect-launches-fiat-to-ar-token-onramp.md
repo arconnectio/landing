@@ -6,15 +6,13 @@ author:
   picture: '/images/matt-E0NT.jpeg'
 slug: 'arconnect-launches-fiat-to-ar-token-onramp'
 description: 'Purchase AR Tokens from your ArConnect wallet with multiple different fiat currencies and payment methods'
-coverImage: ''
+coverImage: '/images/hero-QxNT.jpeg'
 transparentThumbnail: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI'
 themeColor: '#AB9AFF'
 publishedAt: '2023-12-27T15:49:37.577Z'
 ---
 
-ArConnect has partnered with [Onramper](https://onramper.com/) to give users the ability to purchase AR Tokens directly from their ArConnect wallets. Onramper, a leading fiat-to-crypto onramp service, has aggregated 15+ onramp providers and supports >180 payment methods. ArConnect users now have access to Onramper’s partners that support AR.
-
-![null](https://lh7-us.googleusercontent.com/-GqZXRghvpOk8dZJMHNwOegNN5Wx-tEy0DHq5Im85L1J-L5zzawafNsvxniU0ufNv81RfW2MCb1ug6338dqchfP5RcVQfMOQoox4YlBpkAcd7tTMVMEF-FRSZZpmqcSqVSpVyvHw1SqaCJqlRFwug1I)<br>
+ArConnect has partnered with [Onramper](https://onramper.com/) to give users the ability to purchase AR Tokens directly from their ArConnect wallets. Onramper, a leading fiat-to-crypto onramp service, has aggregated 15+ onramp providers and supports >180 payment methods. ArConnect users now have access to Onramper’s partners that support AR.<br>
 
 **How to purchase AR Tokens**
 
