@@ -7,7 +7,7 @@ author:
 slug: 'arconnect-launches-fiat-to-ar-token-onramp'
 description: 'Purchase AR Tokens from your ArConnect wallet with multiple different fiat currencies and payment methods'
 coverImage: ''
-transparentThumbnail: 'n/a'
+transparentThumbnail: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI'
 themeColor: '#AB9AFF'
 publishedAt: '2023-12-27T15:49:37.577Z'
 ---
