@@ -1,6 +1,6 @@
 ---
 title: 'ArConnect launches fiat to AR token onramp '
-status: 'published'
+status: 'draft'
 author:
   name: 'Matt DiRienzo'
   picture: '/images/matt-E0NT.jpeg'
@@ -13,8 +13,6 @@ publishedAt: '2023-12-27T15:49:37.577Z'
 ---
 
 ArConnect has partnered with [Onramper](https://onramper.com/) to give users the ability to purchase AR Tokens directly from their ArConnect wallets. Onramper, a leading fiat-to-crypto onramp service, has aggregated 15+ onramp providers and supports >180 payment methods. ArConnect users now have access to Onramper’s partners that support AR.
-
-
 
 ![null](https://lh7-us.googleusercontent.com/-GqZXRghvpOk8dZJMHNwOegNN5Wx-tEy0DHq5Im85L1J-L5zzawafNsvxniU0ufNv81RfW2MCb1ug6338dqchfP5RcVQfMOQoox4YlBpkAcd7tTMVMEF-FRSZZpmqcSqVSpVyvHw1SqaCJqlRFwug1I)<br>
 
