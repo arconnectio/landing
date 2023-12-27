@@ -1,6 +1,6 @@
 {
-  "commit": "ca5d293f99be08b912fa27a899a0ad8db050f043",
-  "generated": "2023-10-31T20:00:08.413Z",
+  "commit": "e72bcfc4700371e77113aef176dc4c4f0d9de50c",
+  "generated": "2023-12-27T16:43:12.332Z",
   "metadata": [
     {
       "__outstatic": {
@@ -261,6 +261,26 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
       "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
+    },
+    {
+      "__outstatic": {
+        "commit": "e72bcfc4700371e77113aef176dc4c4f0d9de50c",
+        "hash": "1784117994",
+        "path": "outstatic/content/blogs/arconnect-launches-fiat-to-ar-token-onramp.md"
+      },
+      "author": {
+        "name": "Matt DiRienzo",
+        "picture": "/images/matt-E0NT.jpeg"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/hero-U1ND.jpeg",
+      "description": "Purchase AR Tokens from your ArConnect wallet with multiple different fiat currencies and payment methods",
+      "publishedAt": "2023-12-27T15:49:37.577Z",
+      "slug": "arconnect-launches-fiat-to-ar-token-onramp",
+      "status": "draft",
+      "themeColor": "#AB9AFF",
+      "title": "ArConnect launches fiat to AR token onramp ",
+      "transparentThumbnail": "n/a"
     }
   ]
 }
