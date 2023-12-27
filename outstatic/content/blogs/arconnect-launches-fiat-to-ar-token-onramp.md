@@ -1,6 +1,6 @@
 ---
 title: 'ArConnect launches fiat to AR token onramp '
-status: 'draft'
+status: 'published'
 author:
   name: 'Matt DiRienzo'
   picture: '/images/matt-E0NT.jpeg'

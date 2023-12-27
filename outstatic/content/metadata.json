@@ -1,6 +1,6 @@
 {
   "commit": "da33d817c55f5b471d40297686a034bfb54ea648",
-  "generated": "2023-12-27T16:47:25.265Z",
+  "generated": "2023-12-27T16:47:29.737Z",
   "metadata": [
     {
       "__outstatic": {
@@ -265,7 +265,7 @@
     {
       "__outstatic": {
         "commit": "da33d817c55f5b471d40297686a034bfb54ea648",
-        "hash": "535768971",
+        "hash": "3172637873",
         "path": "outstatic/content/blogs/arconnect-launches-fiat-to-ar-token-onramp.md"
       },
       "author": {
@@ -277,7 +277,7 @@
       "description": "Purchase AR Tokens from your ArConnect wallet with multiple different fiat currencies and payment methods",
       "publishedAt": "2023-12-27T15:49:37.577Z",
       "slug": "arconnect-launches-fiat-to-ar-token-onramp",
-      "status": "draft",
+      "status": "published",
       "themeColor": "#AB9AFF",
       "title": "ArConnect launches fiat to AR token onramp ",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
