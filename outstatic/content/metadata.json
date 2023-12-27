@@ -1,6 +1,6 @@
 {
-  "commit": "da33d817c55f5b471d40297686a034bfb54ea648",
-  "generated": "2023-12-27T16:51:26.719Z",
+  "commit": "5b5167f05de4f60ccebd94f139f6723d7763f245",
+  "generated": "2023-12-27T16:54:13.518Z",
   "metadata": [
     {
       "__outstatic": {
@@ -264,8 +264,8 @@
     },
     {
       "__outstatic": {
-        "commit": "da33d817c55f5b471d40297686a034bfb54ea648",
-        "hash": "3062629731",
+        "commit": "5b5167f05de4f60ccebd94f139f6723d7763f245",
+        "hash": "3345073812",
         "path": "outstatic/content/blogs/arconnect-launches-fiat-to-ar-token-onramp.md"
       },
       "author": {
@@ -278,7 +278,7 @@
       "publishedAt": "2023-12-27T15:49:37.577Z",
       "slug": "arconnect-launches-fiat-to-ar-token-onramp",
       "status": "published",
-      "themeColor": "#AB9AFF",
+      "themeColor": "rgb(25, 23, 38)",
       "title": "ArConnect launches fiat to AR token onramp ",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
