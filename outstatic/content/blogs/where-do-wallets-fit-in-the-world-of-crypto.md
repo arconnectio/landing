@@ -1,6 +1,6 @@
 ---
 title: 'Where do wallets fit in the world of crypto?'
-status: 'draft'
+status: 'published'
 author:
   name: 'Rohit Pathare'
   picture: 'https://avatars.githubusercontent.com/u/50047129?v=4'
@@ -38,7 +38,7 @@ The world of crypto is diverse, with various blockchains supporting different pu
 
 Arweave is a blockchain prioritizing permanent data storage, and ArConnect is a browser-based non-custodial wallet for managing accounts on Arweave.
 
-![](/images/optimized-video-g4OD.gif)<br>
+![](/images/optimized-video-g5Nj.gif)<br>
 
 ArConnect enables you to securely generate and manage accounts and their corresponding keys, interact with applications, view and manage assets, and track transaction histories with an easy-to-use interface.
 
