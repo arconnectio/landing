@@ -6,15 +6,13 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/50047129?v=4'
 slug: 'where-do-wallets-fit-in-the-world-of-crypto'
 description: 'This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.'
-coverImage: ''
+coverImage: '/images/blog-image-M0OD.png'
 transparentThumbnail: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI'
 themeColor: 'rgba(0, 0, 0, .15)'
 publishedAt: '2024-01-04T16:01:34.068Z'
 ---
 
 A fundamental question frequently asked by those new to the world of crypto is, “what is a crypto wallet?”
-
-![](/images/blog-image-A2Nz.png)
 
 To manage assets on the blockchain and interact with blockchain-based applications, you need to use “accounts.” These accounts are secured with unique cryptographic “keys.” Just as you need a password for accessing and using your bank accounts or social logins, keys are required to access and use accounts on blockchains.
 
@@ -38,7 +36,7 @@ The world of crypto is diverse, with various blockchains supporting different pu
 
 Arweave is a blockchain prioritizing permanent data storage, and ArConnect is a browser-based non-custodial wallet for managing accounts on Arweave.
 
-![](/images/optimized-video-g5Nj.gif)<br>
+![](/images/optimized-video-ExMz.gif)<br>
 
 ArConnect enables you to securely generate and manage accounts and their corresponding keys, interact with applications, view and manage assets, and track transaction histories with an easy-to-use interface.
 

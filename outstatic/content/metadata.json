@@ -1,6 +1,6 @@
 {
   "commit": "3aadc8419570cc554d4bf0389cb2a52d24d0878e",
-  "generated": "2024-01-04T16:10:46.515Z",
+  "generated": "2024-01-04T16:30:09.007Z",
   "metadata": [
     {
       "__outstatic": {
@@ -285,7 +285,7 @@
     {
       "__outstatic": {
         "commit": "3aadc8419570cc554d4bf0389cb2a52d24d0878e",
-        "hash": "1979051619",
+        "hash": "1795843192",
         "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
       },
       "author": {
@@ -293,7 +293,7 @@
         "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
       },
       "collection": "blogs",
-      "coverImage": "",
+      "coverImage": "/images/blog-image-M0OD.png",
       "description": "This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.",
       "publishedAt": "2024-01-04T16:01:34.068Z",
       "slug": "where-do-wallets-fit-in-the-world-of-crypto",
