@@ -1,6 +1,6 @@
 {
-  "commit": "6a27d08fe0359a85038b9f41a62037c2d697b9f3",
-  "generated": "2023-12-27T16:55:45.693Z",
+  "commit": "12ac599eee19dac0cc78d8be2b9c2f27338bcd53",
+  "generated": "2024-01-04T15:47:21.466Z",
   "metadata": [
     {
       "__outstatic": {
@@ -280,6 +280,26 @@
       "status": "published",
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "ArConnect launches fiat to AR token onramp ",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "12ac599eee19dac0cc78d8be2b9c2f27338bcd53",
+        "hash": "3547066733",
+        "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
+      },
+      "author": {
+        "name": "Rohit Pathare",
+        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "",
+      "description": "This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.",
+      "publishedAt": "2024-01-04T16:01:34.068Z",
+      "slug": "where-do-wallets-fit-in-the-world-of-crypto",
+      "status": "draft",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Where do wallets fit in the world of crypto?",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
