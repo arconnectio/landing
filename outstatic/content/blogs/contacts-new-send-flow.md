@@ -6,10 +6,10 @@ author:
   picture: 'https://www.arconnect.io/images/matt-E0NT.jpeg'
 slug: 'contacts-new-send-flow'
 description: 'Transacting on ArConnect just received its biggest upgrade yet'
-coverImage: '/images/banner-I1MD.png'
+coverImage: '/images/banner-IzMD.png'
 transparentThumbnail: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI'
 themeColor: 'rgba(0, 0, 0, .15)'
-publishedAt: '2024-02-14T02:03:36.689Z'
+publishedAt: '2024-02-15T02:03:36.000Z'
 ---
 
 *Transacting on ArConnect just received its biggest upgrade yet*
