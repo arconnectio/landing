@@ -6,7 +6,7 @@ author:
   picture: 'https://www.arconnect.io/images/matt-E0NT.jpeg'
 slug: 'contacts-new-send-flow'
 description: 'Transacting on ArConnect just received its biggest upgrade yet'
-coverImage: '/images/banner-c0OT.png'
+coverImage: '/images/banner-I1MD.png'
 transparentThumbnail: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI'
 themeColor: 'rgba(0, 0, 0, .15)'
 publishedAt: '2024-02-14T02:03:36.689Z'
@@ -28,11 +28,7 @@ Knowing how important transactions are to ArConnect users, we’ve introduced th
 
 Located in Settings, Contacts allow users to create a saved list of recognized wallet addresses. ArConnect users now have convenient access to a list of their preferred contacts that can include details like the contact’s Arweave address, name, avatar, and custom notes.
 
-
-
 Contacts also come with ArNS support. The [Arweave Name System (ArNS)](https://ar.io/arns/) is a simple way to name and find things stored on the permaweb. When creating a new contact, ArConnect can see all the ArNS names associated with the Arweave address just by filling in the Arweave account address field.
-
-
 
 The Contact feature allows users to quickly and easily access an address without needing to copy and paste or manually type in the address.
 
@@ -44,13 +40,7 @@ The Contact feature allows users to quickly and easily access an address without
 
 Based on feedback from ArConnect users, the send user experience has been upgraded. In order to cut down on steps, inputting the recipient and amount have been shifted to the same location. Users can also select a recipient from their saved contact list directly from the send page to make the process even faster. This automatic process not only saves time but reduces the risk of errors or typos.
 
-
-
 While speed and simplicity are great, so are accuracy and security when transferring funds. ArConnect users now have a better way to review important transaction details and feel confident about executing their transfer. Once the transaction is executed, users can create a new contact directly from the transaction confirmation screen with just one-click.
-
-
-
-
 
 **How to get started**
 

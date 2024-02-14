@@ -1,6 +1,6 @@
 {
-  "commit": "f3f04d16a6cd4cd7a8bd1e65372a3110a3a5699f",
-  "generated": "2024-02-14T03:01:50.118Z",
+  "commit": "2299b274bc8d59d517796e930829c023f7dae5a3",
+  "generated": "2024-02-14T03:02:05.772Z",
   "metadata": [
     {
       "__outstatic": {
@@ -304,8 +304,8 @@
     },
     {
       "__outstatic": {
-        "commit": "f3f04d16a6cd4cd7a8bd1e65372a3110a3a5699f",
-        "hash": "881527510",
+        "commit": "2299b274bc8d59d517796e930829c023f7dae5a3",
+        "hash": "817956125",
         "path": "outstatic/content/blogs/contacts-new-send-flow.md"
       },
       "author": {
@@ -313,7 +313,7 @@
         "picture": "https://www.arconnect.io/images/matt-E0NT.jpeg"
       },
       "collection": "blogs",
-      "coverImage": "/images/banner-c0OT.png",
+      "coverImage": "/images/banner-I1MD.png",
       "description": "Transacting on ArConnect just received its biggest upgrade yet",
       "publishedAt": "2024-02-14T02:03:36.689Z",
       "slug": "contacts-new-send-flow",
