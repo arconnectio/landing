@@ -14,8 +14,6 @@ publishedAt: '2024-02-15T02:03:36.000Z'
 
 *Transacting on ArConnect just received its biggest upgrade yet*
 
-*![null](https://lh7-us.googleusercontent.com/60H8kmRNUn0zpKcTMhyx-Me82aOm1_5hubLQCle3Pl8BwGm_N35Vk8cc_W42WNsHry-4F91YLPqu6lzyWjCNncVYym_cSw7rXE2otrG58wKARB9kPTR7hRyYy-WDPIFHs6J3xpAhz__s6KVc9E0Ccb4)*
-
 Knowing how important transactions are to ArConnect users, we’ve introduced the ability to add contacts, redesigned the send experience, and integrated ArNS support. Together, these improvements make transacting with ArConnect a breeze.
 
 <br>

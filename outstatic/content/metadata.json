@@ -1,6 +1,6 @@
 {
-  "commit": "e8113a04b6828cf45ffa19bb9f7dd15a2d771fa0",
-  "generated": "2024-02-14T06:11:11.353Z",
+  "commit": "76aab42f4fdcc1b576ffe37ccf51315f71a093bd",
+  "generated": "2024-02-14T06:13:22.302Z",
   "metadata": [
     {
       "__outstatic": {
@@ -304,8 +304,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e8113a04b6828cf45ffa19bb9f7dd15a2d771fa0",
-        "hash": "258658805",
+        "commit": "76aab42f4fdcc1b576ffe37ccf51315f71a093bd",
+        "hash": "2930495488",
         "path": "outstatic/content/blogs/contacts-new-send-flow.md"
       },
       "author": {
