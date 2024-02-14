@@ -1,6 +1,6 @@
 {
-  "commit": "2299b274bc8d59d517796e930829c023f7dae5a3",
-  "generated": "2024-02-14T03:03:04.522Z",
+  "commit": "e8113a04b6828cf45ffa19bb9f7dd15a2d771fa0",
+  "generated": "2024-02-14T06:11:11.353Z",
   "metadata": [
     {
       "__outstatic": {
@@ -304,8 +304,8 @@
     },
     {
       "__outstatic": {
-        "commit": "2299b274bc8d59d517796e930829c023f7dae5a3",
-        "hash": "1702713248",
+        "commit": "e8113a04b6828cf45ffa19bb9f7dd15a2d771fa0",
+        "hash": "258658805",
         "path": "outstatic/content/blogs/contacts-new-send-flow.md"
       },
       "author": {
@@ -317,7 +317,7 @@
       "description": "Transacting on ArConnect just received its biggest upgrade yet",
       "publishedAt": "2024-02-15T02:03:36.000Z",
       "slug": "contacts-new-send-flow",
-      "status": "draft",
+      "status": "published",
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"

@@ -1,6 +1,6 @@
 ---
 title: 'Release Announcement: Contacts, New Send Flow, & ArNS Support'
-status: 'draft'
+status: 'published'
 author:
   name: 'Matt DiRenzo'
   picture: 'https://www.arconnect.io/images/matt-E0NT.jpeg'
@@ -39,10 +39,6 @@ The Contact feature allows users to quickly and easily access an address without
 Based on feedback from ArConnect users, the send user experience has been upgraded. In order to cut down on steps, inputting the recipient and amount have been shifted to the same location. Users can also select a recipient from their saved contact list directly from the send page to make the process even faster. This automatic process not only saves time but reduces the risk of errors or typos.
 
 While speed and simplicity are great, so are accuracy and security when transferring funds. ArConnect users now have a better way to review important transaction details and feel confident about executing their transfer. Once the transaction is executed, users can create a new contact directly from the transaction confirmation screen with just one-click.
-
-
-
-
 
 **How to get started**
 
