@@ -1,6 +1,6 @@
 {
-  "commit": "3aadc8419570cc554d4bf0389cb2a52d24d0878e",
-  "generated": "2024-01-04T16:30:09.007Z",
+  "commit": "f3f04d16a6cd4cd7a8bd1e65372a3110a3a5699f",
+  "generated": "2024-02-14T03:01:50.118Z",
   "metadata": [
     {
       "__outstatic": {
@@ -300,6 +300,26 @@
       "status": "published",
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Where do wallets fit in the world of crypto?",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "f3f04d16a6cd4cd7a8bd1e65372a3110a3a5699f",
+        "hash": "881527510",
+        "path": "outstatic/content/blogs/contacts-new-send-flow.md"
+      },
+      "author": {
+        "name": "Matt DiRenzo",
+        "picture": "https://www.arconnect.io/images/matt-E0NT.jpeg"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/banner-c0OT.png",
+      "description": "Transacting on ArConnect just received its biggest upgrade yet",
+      "publishedAt": "2024-02-14T02:03:36.689Z",
+      "slug": "contacts-new-send-flow",
+      "status": "draft",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
