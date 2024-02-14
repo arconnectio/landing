@@ -6,7 +6,7 @@ author:
   picture: 'https://www.arconnect.io/images/matt-E0NT.jpeg'
 slug: 'contacts-new-send-flow'
 description: 'Transacting on ArConnect just received its biggest upgrade yet'
-coverImage: '/images/banner-IzMD.png'
+coverImage: '/images/banner-IxMz.png'
 transparentThumbnail: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI'
 themeColor: 'rgba(0, 0, 0, .15)'
 publishedAt: '2024-02-15T02:03:36.000Z'
@@ -22,9 +22,7 @@ Knowing how important transactions are to ArConnect users, we’ve introduced th
 
 **New contact list**
 
-![null](https://lh7-us.googleusercontent.com/BkzxHqbRfpCXIfhRSCNskMqhgjJXtqqN0znhCDoavKhIP4eTmod-fbfR34920_gvQdsOHhX5XJHsU_lFY5OEtOlzz4kx2s9O0jRlNq9THXcZIVHPACbHE0xPLP1LOeerR6DRJeMxGwHIys4bYqJMQug)<br>
-
-<br>
+![null](https://lh7-us.googleusercontent.com/BkzxHqbRfpCXIfhRSCNskMqhgjJXtqqN0znhCDoavKhIP4eTmod-fbfR34920_gvQdsOHhX5XJHsU_lFY5OEtOlzz4kx2s9O0jRlNq9THXcZIVHPACbHE0xPLP1LOeerR6DRJeMxGwHIys4bYqJMQug)
 
 Located in Settings, Contacts allow users to create a saved list of recognized wallet addresses. ArConnect users now have convenient access to a list of their preferred contacts that can include details like the contact’s Arweave address, name, avatar, and custom notes.
 
@@ -42,15 +40,15 @@ Based on feedback from ArConnect users, the send user experience has been upgrad
 
 While speed and simplicity are great, so are accuracy and security when transferring funds. ArConnect users now have a better way to review important transaction details and feel confident about executing their transfer. Once the transaction is executed, users can create a new contact directly from the transaction confirmation screen with just one-click.
 
+
+
+
+
 **How to get started**
 
-Current ArConnect users can easily access these new features by opening their ArConnect wallet and sending a transaction to someone or click on Settings (⚙️) and selecting Contacts to start creating their first contact. <br>
+Current ArConnect users can easily access these new features by opening their ArConnect wallet and sending a transaction to someone or click on Settings (⚙️) and selecting Contacts to start creating their first contact.
 
-<br>
-
-Not an ArConnect user yet? Install ArConnect [here](https://www.arconnect.io/download?utm_source=Blog&utm_medium=Post&utm_campaign=Contact+%26+Send+Announcement&utm_id=Contact+%26+Send+Announcement)!<br>
-
-<br>
+Not an ArConnect user yet? Install ArConnect [here](https://www.arconnect.io/download?utm_source=Blog&utm_medium=Post&utm_campaign=Contact+%26+Send+Announcement&utm_id=Contact+%26+Send+Announcement)!
 
 Follow us on [X](https://twitter.com/arconnectio) or join our [Discord](https://discord.gg/e6tNzaDESQ) community for more exciting updates in the ecosystem.
 
