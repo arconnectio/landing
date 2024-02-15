@@ -1,6 +1,6 @@
 {
   "commit": "7751dc438252b318e3ecd7f9de048c88a6581786",
-  "generated": "2024-02-15T00:20:11.288Z",
+  "generated": "2024-02-15T00:22:05.145Z",
   "metadata": [
     {
       "__outstatic": {
@@ -325,7 +325,7 @@
     {
       "__outstatic": {
         "commit": "7751dc438252b318e3ecd7f9de048c88a6581786",
-        "hash": "499125034",
+        "hash": "3610416646",
         "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
       },
       "author": {
