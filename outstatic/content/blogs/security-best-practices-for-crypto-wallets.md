@@ -36,7 +36,7 @@ Basic requirements are:
 
 ### *Storing Your Seed Phrase*
 
-Many users tend to forget how important it is to backup the seed phrase. If you do not have a backup, you're at a high risk of losing access to the wallet. The ArConnect team unfortunately cannot assist if this becomes the case.<br>
+Many users tend to forget how important it is to backup the seed phrase. If you do not have a backup, you're at a high risk of losing access to the wallet. The ArConnect team unfortunately cannot assist if this becomes the case.
 
 ArConnect randomly generates a 12-word passphrase seed. Password managers most of the time allow you to save notes. Other options can include using hardware backup tools or even just old school pen and paper.
 
