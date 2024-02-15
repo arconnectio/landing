@@ -1,13 +1,11 @@
 ---
-title: 'Security Best Practices for Crypto Wallets
-'
-status: 'draft'
+title: 'Security Best Practices for Crypto Wallets '
+status: 'published'
 author:
   name: 'Bithiah Koshy'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
 slug: 'security-best-practices-for-crypto-wallets'
-description: 'Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.
-'
+description: 'Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. '
 coverImage: '/images/framer-cms-blog-image-E4Nz.png'
 transparentThumbnail: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI'
 themeColor: 'rgb(171, 154, 255)'

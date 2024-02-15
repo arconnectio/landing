@@ -1,6 +1,6 @@
 {
-  "commit": "e6ea5805c490ba778df0e6e8c0edbae727e272f4",
-  "generated": "2024-02-15T00:08:29.812Z",
+  "commit": "05640d8bfe3e06880ae7bee00322110914af0fad",
+  "generated": "2024-02-15T00:09:25.593Z",
   "metadata": [
     {
       "__outstatic": {
@@ -324,8 +324,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e6ea5805c490ba778df0e6e8c0edbae727e272f4",
-        "hash": "4284830401",
+        "commit": "05640d8bfe3e06880ae7bee00322110914af0fad",
+        "hash": "2371665205",
         "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
       },
       "author": {
@@ -337,7 +337,7 @@
       "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. ",
       "publishedAt": "2024-02-15T00:59:29.172Z",
       "slug": "security-best-practices-for-crypto-wallets",
-      "status": "draft",
+      "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "Security Best Practices for Crypto Wallets ",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
