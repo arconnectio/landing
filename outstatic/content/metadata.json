@@ -1,6 +1,6 @@
 {
-  "commit": "76aab42f4fdcc1b576ffe37ccf51315f71a093bd",
-  "generated": "2024-02-14T06:13:22.302Z",
+  "commit": "e6ea5805c490ba778df0e6e8c0edbae727e272f4",
+  "generated": "2024-02-15T00:08:29.812Z",
   "metadata": [
     {
       "__outstatic": {
@@ -320,6 +320,26 @@
       "status": "published",
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "e6ea5805c490ba778df0e6e8c0edbae727e272f4",
+        "hash": "4284830401",
+        "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/framer-cms-blog-image-E4Nz.png",
+      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. ",
+      "publishedAt": "2024-02-15T00:59:29.172Z",
+      "slug": "security-best-practices-for-crypto-wallets",
+      "status": "draft",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "Security Best Practices for Crypto Wallets ",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
