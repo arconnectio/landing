@@ -72,7 +72,7 @@ ArConnect has been[ audited](https://www.arconnect.io/audit.pdf) by Open Securit
 
 ## **Getting Started with ArConnect**
 
-Ready to dive into the world of Arweave? Join over 20,000 users who are already navigating the world of Arweave with ArConnect. Start by creating an account at [arconnect.io](https://arconnect.io/download?utm_source=ArConnect+Blog&utm_medium=Post&utm_campaign=Where+do+wallets+fit+in+the+world+of+crypto%3F&utm_id=Where+do+wallets+fit+in+the+world+of+crypto%3F).
+Ready to dive into the world of Arweave? Join over 20,000 users who are already navigating the world of Arweave with ArConnect. Start by creating an account at [arconnect.io](https://arconnect.io/download?utm_source=ArConnect+Blog&utm_medium=Post&utm_campaign=Security+best+practices+for+crypto_wallets%3F&utm_id=Security+best+practices+for+crypto+wallets%3F).
 
 Looking for assistance or eager to join the community? Visit our [Discord server](https://discord.gg/sTkgHbkN) for support and engagement.
 
