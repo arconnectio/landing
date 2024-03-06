@@ -1,6 +1,6 @@
 {
   "commit": "cda1bf4ae91dee00482f05c2cc42fed18f3d76ca",
-  "generated": "2024-03-06T19:44:00.821Z",
+  "generated": "2024-03-06T19:44:44.390Z",
   "metadata": [
     {
       "__outstatic": {
@@ -373,7 +373,7 @@
     {
       "__outstatic": {
         "commit": "cda1bf4ae91dee00482f05c2cc42fed18f3d76ca",
-        "hash": "2360872516",
+        "hash": "2256020574",
         "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
       },
       "author": {
