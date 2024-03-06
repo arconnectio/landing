@@ -1,6 +1,6 @@
 ---
 title: 'How to install and setup ArConnect?'
-status: 'draft'
+status: 'published'
 author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
@@ -26,6 +26,8 @@ publishedAt: '2024-03-06T19:47:02.430Z'
     5. The site will redirect you to the Chrome Extension Store or the Firefox Add-on Store.
 
     6. Find the install button on the page and click it.
+
+    <!-- -->
 
     <!-- -->
 
