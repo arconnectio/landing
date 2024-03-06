@@ -1,6 +1,6 @@
 {
-  "commit": "5f3dc8c96be819e1ed6009b1858aa7c43939f64e",
-  "generated": "2024-03-06T19:33:03.103Z",
+  "commit": "d5f0efea495a59012940116017d2b39547c6dcb2",
+  "generated": "2024-03-06T19:35:16.436Z",
   "metadata": [
     {
       "__outstatic": {
@@ -113,30 +113,6 @@
       "slug": "what-is-arweave",
       "status": "published",
       "title": "What is Arweave?"
-    },
-    {
-      "__outstatic": {
-        "commit": "9f0c24dc55bf96d9f17f075fbb5ff4173db933d7",
-        "hash": "1948154287",
-        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
-      "publishedAt": "2023-09-24T21:27:47.445Z",
-      "slug": "what-is-a-json-keyfile",
-      "status": "published",
-      "title": "What is a JSON keyfile?"
     },
     {
       "__outstatic": {
@@ -393,6 +369,30 @@
       "slug": "install-and-setup",
       "status": "published",
       "title": "How to install and setup ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "d5f0efea495a59012940116017d2b39547c6dcb2",
+        "hash": "2311055425",
+        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Find out what a JSON keyfile is.",
+      "publishedAt": "2023-09-24T21:27:47.445Z",
+      "slug": "what-is-a-json-keyfile",
+      "status": "published",
+      "title": "What is a JSON keyfile?"
     }
   ]
 }

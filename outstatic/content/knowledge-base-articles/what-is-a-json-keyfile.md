@@ -1,14 +1,37 @@
 ---
-title: "What is a JSON keyfile?"
-status: "published"
+title: 'What is a JSON keyfile?'
+status: 'published'
 author:
-  name: "Marton Lederer"
-  picture: "https://avatars.githubusercontent.com/u/30638105?v=4"
-slug: "what-is-a-json-keyfile"
-description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt."
-coverImage: ""
-category: [{ "value": "getting-started", "label": "Getting started" }]
-publishedAt: "2023-09-24T21:27:47.445Z"
+  name: 'Marton Lederer'
+  picture: 'https://avatars.githubusercontent.com/u/30638105?v=4'
+slug: 'what-is-a-json-keyfile'
+description: 'Find out what a JSON keyfile is.'
+coverImage: ''
+category: [{"value":"getting-started","label":"Getting started"}]
+publishedAt: '2023-09-24T21:27:47.445Z'
 ---
 
-UUU be careful with that...
+- Arweave uses RSA private keys for wallet generation.
+
+- This means, that private and public keys can generate RSA signatures, etc.
+
+- The very basic way to store your wallet is using a keyfile:
+
+    1. Keyfiles are RSA keys in JWK (Json Web Key) format.
+
+    2. Keyfiles contain information that can be used to access your wallet and funds.
+
+    3. It is important to keep your key files secure:
+
+        - **DO NOT SHARE.**
+
+        - The ArConnect team will never ask for this.
+
+        <!-- -->
+
+    4. These keyfiles make it easy for applications to work with your private keys.
+
+    <!-- -->
+
+
+
