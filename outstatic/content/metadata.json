@@ -1,6 +1,6 @@
 {
-  "commit": "adbabb71f1b3d476e8a13eb53620bea16bdb80e5",
-  "generated": "2024-03-06T17:41:59.489Z",
+  "commit": "ec70c1fada954672679b2be37ee08738e0f9636c",
+  "generated": "2024-03-06T17:46:21.112Z",
   "metadata": [
     {
       "__outstatic": {
@@ -21,34 +21,6 @@
       "themeColor": "rgb(171, 154, 255)",
       "title": "ArConnect Just Leveled Up to 1.0",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "38a667b6b82bc9b1b78ed08e2cc5a0b9dc8c28a8",
-        "hash": "4277594623",
-        "path": "outstatic/content/knowledge-base-articles/install-and-setup.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
-      "publishedAt": "2023-09-23T12:12:26.397Z",
-      "slug": "install-and-setup",
-      "status": "published",
-      "title": "How to install and setup ArConnect?"
     },
     {
       "__outstatic": {
@@ -365,6 +337,34 @@
       "slug": "what-is-arconnect",
       "status": "published",
       "title": "What is ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "ec70c1fada954672679b2be37ee08738e0f9636c",
+        "hash": "1287873516",
+        "path": "outstatic/content/knowledge-base-articles/install-and-setup.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-23T12:12:26.397Z",
+      "slug": "install-and-setup",
+      "status": "draft",
+      "title": "How to install and setup ArConnect?"
     }
   ]
 }
