@@ -1,6 +1,6 @@
 {
-  "commit": "ae4a19c513a98b2507e13404e0ac85bb68caffca",
-  "generated": "2024-02-15T00:48:27.426Z",
+  "commit": "adbabb71f1b3d476e8a13eb53620bea16bdb80e5",
+  "generated": "2024-03-06T17:41:59.489Z",
   "metadata": [
     {
       "__outstatic": {
@@ -341,6 +341,30 @@
       "themeColor": "rgb(171, 154, 255)",
       "title": "Security Best Practices for Crypto Wallets ",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "adbabb71f1b3d476e8a13eb53620bea16bdb80e5",
+        "hash": "2439904334",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "What is ArConnect?",
+      "publishedAt": "2024-03-06T18:44:53.511Z",
+      "slug": "what-is-arconnect",
+      "status": "published",
+      "title": "What is ArConnect?"
     }
   ]
 }
