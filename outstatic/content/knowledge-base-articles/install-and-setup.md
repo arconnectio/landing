@@ -69,7 +69,7 @@ publishedAt: '2023-09-23T12:12:26.397Z'
 
         - Write it down on a piece of paper.
 
-        - We recommend you to also download your keyfile, which holds your actual private key (an RSA JWK). This serves as an additional backup. </aside>
+        - We recommend you to also download your keyfile, which holds your actual private key (an RSA JWK). This serves as an additional backup.
 
         <!-- -->
 

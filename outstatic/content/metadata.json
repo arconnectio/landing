@@ -1,6 +1,6 @@
 {
   "commit": "ec70c1fada954672679b2be37ee08738e0f9636c",
-  "generated": "2024-03-06T17:58:25.097Z",
+  "generated": "2024-03-06T18:08:43.495Z",
   "metadata": [
     {
       "__outstatic": {
@@ -341,7 +341,7 @@
     {
       "__outstatic": {
         "commit": "ec70c1fada954672679b2be37ee08738e0f9636c",
-        "hash": "3097346286",
+        "hash": "843054700",
         "path": "outstatic/content/knowledge-base-articles/install-and-setup.md"
       },
       "author": {
