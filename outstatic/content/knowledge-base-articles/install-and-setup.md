@@ -4,7 +4,7 @@ status: 'draft'
 author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
-slug: 'how-to-install-and-setup-arconnect'
+slug: 'install-and-setup'
 description: ''
 coverImage: ''
 category: [{"value":"getting-started","label":"Getting started"},{"value":"pinned","label":"Pinned"}]
@@ -29,5 +29,5 @@ publishedAt: '2024-03-06T19:47:02.430Z'
 
     <!-- -->
 
-
+    <!-- -->
 

@@ -1,6 +1,6 @@
 {
-  "commit": "8b37d9c3aacaa64d469ce1f0ef037951ad7d9889",
-  "generated": "2024-03-06T19:08:03.660Z",
+  "commit": "5f3dc8c96be819e1ed6009b1858aa7c43939f64e",
+  "generated": "2024-03-06T19:13:13.324Z",
   "metadata": [
     {
       "__outstatic": {
@@ -340,9 +340,9 @@
     },
     {
       "__outstatic": {
-        "commit": "8b37d9c3aacaa64d469ce1f0ef037951ad7d9889",
-        "hash": "150834526",
-        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+        "commit": "5f3dc8c96be819e1ed6009b1858aa7c43939f64e",
+        "hash": "3725620948",
+        "path": "outstatic/content/knowledge-base-articles/install-and-setup.md"
       },
       "author": {
         "name": "Bithiah",
@@ -362,7 +362,7 @@
       "coverImage": "",
       "description": "",
       "publishedAt": "2024-03-06T19:47:02.430Z",
-      "slug": "how-to-install-and-setup-arconnect",
+      "slug": "install-and-setup",
       "status": "draft",
       "title": "How to install and setup ArConnect?"
     }
