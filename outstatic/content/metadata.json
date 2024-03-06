@@ -1,6 +1,6 @@
 {
-  "commit": "d5f0efea495a59012940116017d2b39547c6dcb2",
-  "generated": "2024-03-06T19:35:16.436Z",
+  "commit": "cda1bf4ae91dee00482f05c2cc42fed18f3d76ca",
+  "generated": "2024-03-06T19:43:46.853Z",
   "metadata": [
     {
       "__outstatic": {
@@ -89,30 +89,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Arweave for Beginners: How to Buy Arweave Tokens",
       "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
-    },
-    {
-      "__outstatic": {
-        "commit": "be35b34befe705804d8c2cd415792dc62d4ea349",
-        "hash": "3637387717",
-        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
-      "publishedAt": "2023-09-24T21:27:09.654Z",
-      "slug": "what-is-arweave",
-      "status": "published",
-      "title": "What is Arweave?"
     },
     {
       "__outstatic": {
@@ -393,6 +369,30 @@
       "slug": "what-is-a-json-keyfile",
       "status": "published",
       "title": "What is a JSON keyfile?"
+    },
+    {
+      "__outstatic": {
+        "commit": "cda1bf4ae91dee00482f05c2cc42fed18f3d76ca",
+        "hash": "3123921901",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-24T21:27:09.654Z",
+      "slug": "what-is-arweave",
+      "status": "published",
+      "title": "What is Arweave?"
     }
   ]
 }
