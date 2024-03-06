@@ -1,6 +1,6 @@
 {
-  "commit": "be3348cbf271b3c2b4d99b7a2a802860bf2710a8",
-  "generated": "2024-03-06T18:40:59.474Z",
+  "commit": "8b37d9c3aacaa64d469ce1f0ef037951ad7d9889",
+  "generated": "2024-03-06T19:08:03.660Z",
   "metadata": [
     {
       "__outstatic": {
@@ -337,6 +337,34 @@
       "slug": "what-is-arconnect",
       "status": "published",
       "title": "What is ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "8b37d9c3aacaa64d469ce1f0ef037951ad7d9889",
+        "hash": "150834526",
+        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-06T19:47:02.430Z",
+      "slug": "how-to-install-and-setup-arconnect",
+      "status": "draft",
+      "title": "How to install and setup ArConnect?"
     }
   ]
 }
