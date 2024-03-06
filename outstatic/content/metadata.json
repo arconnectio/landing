@@ -1,6 +1,6 @@
 {
   "commit": "ec70c1fada954672679b2be37ee08738e0f9636c",
-  "generated": "2024-03-06T17:56:01.296Z",
+  "generated": "2024-03-06T17:58:25.097Z",
   "metadata": [
     {
       "__outstatic": {
@@ -341,7 +341,7 @@
     {
       "__outstatic": {
         "commit": "ec70c1fada954672679b2be37ee08738e0f9636c",
-        "hash": "450361630",
+        "hash": "3097346286",
         "path": "outstatic/content/knowledge-base-articles/install-and-setup.md"
       },
       "author": {
@@ -360,7 +360,7 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "description": "",
       "publishedAt": "2023-09-23T12:12:26.397Z",
       "slug": "install-and-setup",
       "status": "published",

@@ -5,7 +5,7 @@ author:
   name: 'Marton Lederer'
   picture: 'https://avatars.githubusercontent.com/u/30638105?v=4'
 slug: 'install-and-setup'
-description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.'
+description: ''
 coverImage: ''
 category: [{"value":"getting-started","label":"Getting started"},{"label":"Pinned","value":"pinned"}]
 publishedAt: '2023-09-23T12:12:26.397Z'
