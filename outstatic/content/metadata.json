@@ -1,6 +1,6 @@
 {
   "commit": "5f3dc8c96be819e1ed6009b1858aa7c43939f64e",
-  "generated": "2024-03-06T19:32:41.600Z",
+  "generated": "2024-03-06T19:33:03.103Z",
   "metadata": [
     {
       "__outstatic": {
@@ -369,7 +369,7 @@
     {
       "__outstatic": {
         "commit": "5f3dc8c96be819e1ed6009b1858aa7c43939f64e",
-        "hash": "937750950",
+        "hash": "3131716636",
         "path": "outstatic/content/knowledge-base-articles/install-and-setup.md"
       },
       "author": {
@@ -388,7 +388,7 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
+      "description": "A step-by-step guide on how to install and setup ArConnect.",
       "publishedAt": "2024-03-06T19:47:02.430Z",
       "slug": "install-and-setup",
       "status": "published",
