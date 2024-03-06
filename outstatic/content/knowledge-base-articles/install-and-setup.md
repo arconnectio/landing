@@ -76,13 +76,11 @@ publishedAt: '2024-03-06T19:47:02.430Z'
 
     4. On the next screen, you’ll need to confirm your seedphrase. Word suggestions will make this a faster and easier process for you.
 
-        ![Screenshot 2023-09-08 at PM 1.12.15.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/76c99ebe-714e-457b-a97c-dfd9010b31b7/Screenshot_2023-09-08_at_PM_1.12.15.png)
-
     5. Next you can choose your UI theme (dark/light/automatic). You can change this later in the settings.
 
     6. And you’re ready! Click “Done” to finish the setup.
 
     <!-- -->
 
-- You’ll now be able to use ArConnect with dApps, as well as to manage your assets. To open the wallet extension’s main page, click ArConnect icon in your extensions list, or its icon if you’ve pinned it previously.
+    You’ll now be able to use ArConnect with dApps, as well as to manage your assets. To open the wallet extension’s main page, click ArConnect icon in your extensions list, or its icon if you’ve pinned it previously.
 
