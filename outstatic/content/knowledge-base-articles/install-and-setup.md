@@ -1,6 +1,6 @@
 ---
 title: 'How to install and setup ArConnect?'
-status: 'draft'
+status: 'published'
 author:
   name: 'Marton Lederer'
   picture: 'https://avatars.githubusercontent.com/u/30638105?v=4'
@@ -21,15 +21,11 @@ publishedAt: '2023-09-23T12:12:26.397Z'
 
     3. You’ll be able to see the browsers ArConnect supports.
 
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/eba94b67-2956-4e3f-8735-86f62fee4fe0/Untitled.png)
-
     4. Depending on what browser you’re using currently and want to install ArConnect to, select your preferred browser.
 
     5. The site will redirect you to the Chrome Extension Store or the Firefox Add-on Store.
 
     6. Find the install button on the page and click it.
-
-        ![Screenshot 2023-09-08 at AM 11.39.11.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/723e2209-711e-4c16-8a62-17415a486ad3/Screenshot_2023-09-08_at_AM_11.39.11.png)
 
     7. The browser will request your confirmation to install ArConnect.
 
@@ -53,21 +49,13 @@ publishedAt: '2023-09-23T12:12:26.397Z'
 
 - Once ArConnect is installed, it will open the onboarding/setup page. You can also open this page manually by clicking the extension or its icon in the extensions list of your browser.
 
-    ![Screenshot 2023-09-08 at AM 11.43.09.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/8fbd550d-7c88-4200-b601-cc03ff4134a6/Screenshot_2023-09-08_at_AM_11.43.09.png)
-
-<aside> ⚠️ We recommend pinning the extension for easier access to your wallet when using dApps.
-
-</aside>
+⚠️ We recommend pinning the extension for easier access to your wallet when using dApps.
 
 - Follow these steps to complete the setup:
 
     1. The setup page will look something like this. If you already have an Arweave wallet, you can click “I have a wallet” to load in your existing private key/ seed phrase. If you don’t have one, click “Get me started”. This will bring you to a page, where you can learn the basics about ArConnect, Arweave and the permaweb or skip the intro.
 
-        ![Screenshot 2023-09-08 at PM 1.05.38.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/4ea2a429-6ecf-4ea6-ac09-330fe489451e/Screenshot_2023-09-08_at_PM_1.05.38.png)
-
     2. Next, you need to create a password. This will be used to encrypt your wallets within the extension.
-
-        ![Screenshot 2023-09-08 at PM 1.08.17.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/cdc38149-2bbc-486c-a52d-0570a64113f6/Screenshot_2023-09-08_at_PM_1.08.17.png)
 
     3. If you’re not loading an existing wallet, the extension will now show you your 12 word seedphrase. This will be the primary way of loading your wallet.
 
@@ -86,8 +74,6 @@ publishedAt: '2023-09-23T12:12:26.397Z'
         <!-- -->
 
     4. On the next screen, you’ll need to confirm your seedphrase. Word suggestions will make this a faster and easier process for you.
-
-        ![Screenshot 2023-09-08 at PM 1.12.15.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/76c99ebe-714e-457b-a97c-dfd9010b31b7/Screenshot_2023-09-08_at_PM_1.12.15.png)
 
     5. Next you can choose your UI theme (dark/light/automatic). You can change this later in the settings.
 
