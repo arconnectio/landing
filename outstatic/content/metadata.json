@@ -1,6 +1,6 @@
 {
   "commit": "cda1bf4ae91dee00482f05c2cc42fed18f3d76ca",
-  "generated": "2024-03-06T19:43:46.853Z",
+  "generated": "2024-03-06T19:44:00.821Z",
   "metadata": [
     {
       "__outstatic": {
@@ -373,7 +373,7 @@
     {
       "__outstatic": {
         "commit": "cda1bf4ae91dee00482f05c2cc42fed18f3d76ca",
-        "hash": "3123921901",
+        "hash": "2360872516",
         "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
       },
       "author": {
@@ -388,7 +388,7 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "description": "",
       "publishedAt": "2023-09-24T21:27:09.654Z",
       "slug": "what-is-arweave",
       "status": "published",
