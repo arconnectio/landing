@@ -1,6 +1,6 @@
 {
-  "commit": "cda1bf4ae91dee00482f05c2cc42fed18f3d76ca",
-  "generated": "2024-03-06T19:44:44.390Z",
+  "commit": "e313e4bf107469b47ac93c0771f797d35c80dd3f",
+  "generated": "2024-03-07T12:15:57.482Z",
   "metadata": [
     {
       "__outstatic": {
@@ -45,30 +45,6 @@
       "slug": "how-to-use-arconnect-with-a-dapp",
       "status": "published",
       "title": "How to use ArConnect with a dApp?"
-    },
-    {
-      "__outstatic": {
-        "commit": "fef8fcc58aaa19131c40a385ef8a6f2add030843",
-        "hash": "1895963094",
-        "path": "outstatic/content/knowledge-base-articles/fees-in-arconnect.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
-      "publishedAt": "2023-09-24T21:25:52.814Z",
-      "slug": "fees-in-arconnect",
-      "status": "published",
-      "title": "Fees in ArConnect"
     },
     {
       "__outstatic": {
@@ -393,6 +369,30 @@
       "slug": "what-is-arweave",
       "status": "published",
       "title": "What is Arweave?"
+    },
+    {
+      "__outstatic": {
+        "commit": "e313e4bf107469b47ac93c0771f797d35c80dd3f",
+        "hash": "2951731129",
+        "path": "outstatic/content/knowledge-base-articles/fees-in-arconnect.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-24T21:25:52.814Z",
+      "slug": "fees-in-arconnect",
+      "status": "draft",
+      "title": "Fees in ArConnect"
     }
   ]
 }
