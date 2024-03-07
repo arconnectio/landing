@@ -23,7 +23,7 @@ All transactions going through ArConnect are subject to network fees. Here’s s
 
 - Prices can be calculated at [https://ar-fees.arweave.dev/](https://ar-fees.arweave.dev/).
 
-- **Network Fee Multiplication**
+    **Network Fee Multiplication**
 
     1. ArConnect allows the user to set a fee multiplier.
 
@@ -37,47 +37,43 @@ All transactions going through ArConnect are subject to network fees. Here’s s
 
 ## ArConnect fees
 
-Here are details regarding how ArConnect works with fees:
+Here are details regarding how ArConnect works with fees.
 
-- What ArConnect **do charge a fee for**:
+What ArConnect **do charge a fee for**:
 
-    - ArConnect charges a small fee after each transaction signed with the `[arweaveWallet.sign()](&lt;https://docs.arconnect.io/api/sign?utm_source=ArConnect+Knowledgebase+Docs&amp;utm_medium=Doc+Page&amp;utm_campaign=ArConnect+Knowledge+Base&amp;utm_id=ArConnect+Knowledgebase&gt;)` API.
+- ArConnect charges a small fee after each transaction signed with the `arweaveWallet.sign()` [API](https://docs.arconnect.io/api/sign?utm_source=ArConnect+Knowledgebase+Docs&utm_medium=Doc+Page&utm_campaign=ArConnect+Knowledge+Base&utm_id=ArConnect+Knowledgebase).
 
-    - This fee is the equivalent of $0.03 USD in AR tokens for the *first 10 ****mined**** transactions* signed with ArConnect\*.\*
+- This fee is the equivalent of $0.03 USD in AR tokens for the *first 10 ****mined**** transactions* signed with ArConnect.
 
-        1. The extension cannot differentiate between signing a transaction that gets mined and one that does not. Because of this, ArConnect will charge the same fee for unmined transactions as well, but can only validate mined transactions.
+    - The extension cannot differentiate between signing a transaction that gets mined and one that does not. Because of this, ArConnect will charge the same fee for unmined transactions as well, but can only validate mined transactions.
 
-        2. Because of this it is possible that the user already signed 10 txs, but still get charged the initial $0.03 USD fee, simply because one or more of the txs has not been mined.
-
-        <!-- -->
-
-    - After the first 10 mined transactions, the fee the equivalent of $0.01 USD in AR tokens
-
-    - The AR tokens charged can differ from time to time, due to fluctuations in the AR to USD exchange rate.
+    - Because of this it is possible that the user already signed 10 txs, but still get charged the initial $0.03 USD fee, simply because one or more of the txs has not been mined.
 
     <!-- -->
 
-- What ArConnect **does not charge a fee for**:
+- After the first 10 mined transactions, the fee the equivalent of $0.01 USD in AR tokens
 
-    - AR or other token transfers within the extension.
+- The AR tokens charged can differ from time to time, due to fluctuations in the AR to USD exchange rate.
 
-    - Signed ANS-104 bundle data items (Layer 2 transactions).
+What ArConnect **does not charge a fee for**:
 
-    - Dispatched transactions (interactions, etc.).
+- AR or other token transfers within the extension.
 
-    - Other interactions with the user’s wallet, such as: data encryption and decryption, message signing, hash generation.
+- Signed ANS-104 bundle data items (Layer 2 transactions).
 
-    - The network and protocol fees still apply such as:
+- Dispatched transactions (interactions, etc.).
 
-        1. Fees for mining rewards.
+- Other interactions with the user’s wallet, such as: data encryption and decryption, message signing, hash generation.
 
-        2. Fees that go to the endowment pool.
+- The network and protocol fees still apply such as:
 
-        3. Fees charged by protocols that bundle L2 transactions/data items (such as Bundlr, arseeding, ArDrive bundler, etc.)
+    1. Fees for mining rewards.
 
-        4. Fees charged by the applications and sites the user interacts with.
+    2. Fees that go to the endowment pool (CC @Tate Berenbaum verify this please)
 
-        <!-- -->
+    3. Fees charged by protocols that bundle L2 transactions/data items (such as Bundlr, arseeding, ArDrive bundler, etc.)
+
+    4. Fees charged by the applications and sites the user interacts with.
 
     <!-- -->
 

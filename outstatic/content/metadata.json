@@ -1,6 +1,6 @@
 {
-  "commit": "e313e4bf107469b47ac93c0771f797d35c80dd3f",
-  "generated": "2024-03-07T12:15:57.482Z",
+  "commit": "988d268c9c80e3e90aa9124330c6ef38dd49efd4",
+  "generated": "2024-03-07T12:43:05.335Z",
   "metadata": [
     {
       "__outstatic": {
@@ -372,8 +372,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e313e4bf107469b47ac93c0771f797d35c80dd3f",
-        "hash": "2951731129",
+        "commit": "988d268c9c80e3e90aa9124330c6ef38dd49efd4",
+        "hash": "3022247714",
         "path": "outstatic/content/knowledge-base-articles/fees-in-arconnect.md"
       },
       "author": {
