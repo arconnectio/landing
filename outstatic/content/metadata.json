@@ -1,6 +1,6 @@
 {
-  "commit": "44172a0c0bf0b87d6a4a5ba1eb1189faf570afb5",
-  "generated": "2024-03-08T11:39:14.732Z",
+  "commit": "a9fea16a10b129bce12d5535cc12ef327fbb8dd2",
+  "generated": "2024-03-08T11:54:36.933Z",
   "metadata": [
     {
       "__outstatic": {
@@ -437,6 +437,34 @@
       "slug": "permission-system-in-arconnect",
       "status": "published",
       "title": "Permission system in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "a9fea16a10b129bce12d5535cc12ef327fbb8dd2",
+        "hash": "183148296",
+        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Find out how to gain access back to your wallet.",
+      "publishedAt": "2024-03-08T12:45:32.352Z",
+      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
+      "status": "published",
+      "title": "How do I access my wallet if I forget my password?"
     }
   ]
 }
