@@ -1,6 +1,6 @@
 {
-  "commit": "987bbee3f6e11239aa6bb2cf3af1662189e3cd0c",
-  "generated": "2024-03-08T03:32:47.906Z",
+  "commit": "6bea51efda6042ce341ba8a0ecb194a43e884d5d",
+  "generated": "2024-03-08T03:37:01.842Z",
   "metadata": [
     {
       "__outstatic": {
@@ -420,8 +420,8 @@
     },
     {
       "__outstatic": {
-        "commit": "987bbee3f6e11239aa6bb2cf3af1662189e3cd0c",
-        "hash": "1608932172",
+        "commit": "6bea51efda6042ce341ba8a0ecb194a43e884d5d",
+        "hash": "1261925800",
         "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
       },
       "author": {

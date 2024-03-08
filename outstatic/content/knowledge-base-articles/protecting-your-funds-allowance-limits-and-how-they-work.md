@@ -17,19 +17,17 @@ Allowance limits are enabled by default so that the extension provides the best 
 
 ## How to disable allowances in ArConnect?
 
-- Allowance limits can be disabled in settings for each individual app with the following steps:
+Allowance limits can be disabled in settings for each individual app with the following steps:
 
-    1. Open ArConnect.
+1. Open ArConnect.
 
-    2. Click the “Settings” icon on the extension’s main view of the ArConnect extension.
+2. Click the “Settings” icon on the extension’s main view of the ArConnect extension.
 
-    3. Select the “Applications” setting from the sidebar on the left hand side of the settings page.
+3. Select the “Applications” setting from the sidebar on the left hand side of the settings page.
 
-    4. Select the application you want to disable allowances for from the list of applications located at the center of the Settings Page.
+4. Select the application you want to disable allowances for from the list of applications located at the center of the Settings Page.
 
-    5. Uncheck the “Allowance” checkbox located at the bottom right of the Settings page to disable allowance for the chosen application.
-
-    <!-- -->
+5. Uncheck the “Allowance” checkbox located at the bottom right of the Settings page to disable allowance for the chosen application.
 
 ## How is setting allowance limits safe?
 
@@ -41,7 +39,7 @@ Allowance limits are enabled by default so that the extension provides the best 
 
 - The user can choose to disable the allowance limits for an app if they find that it is spending too much AR.
 
-- Allowance limits c[an be changed](http://configured.By) and configured.
+- Allowance limits can be changed and configured.
 
 - By default an app is assigned an allowance limit of 1 AR.
 
