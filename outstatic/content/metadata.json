@@ -1,6 +1,6 @@
 {
-  "commit": "a9fea16a10b129bce12d5535cc12ef327fbb8dd2",
-  "generated": "2024-03-08T11:54:36.933Z",
+  "commit": "4786b8d7ae8e412b07fea1772fb38be756947e69",
+  "generated": "2024-03-08T12:09:27.509Z",
   "metadata": [
     {
       "__outstatic": {
@@ -440,7 +440,7 @@
     },
     {
       "__outstatic": {
-        "commit": "a9fea16a10b129bce12d5535cc12ef327fbb8dd2",
+        "commit": "4786b8d7ae8e412b07fea1772fb38be756947e69",
         "hash": "183148296",
         "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
       },
