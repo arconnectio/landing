@@ -1,6 +1,6 @@
 {
-  "commit": "4786b8d7ae8e412b07fea1772fb38be756947e69",
-  "generated": "2024-03-08T12:09:27.509Z",
+  "commit": "557340543402e39557bd650d1388c16949d42fc0",
+  "generated": "2024-03-08T13:33:21.628Z",
   "metadata": [
     {
       "__outstatic": {
@@ -465,6 +465,30 @@
       "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
       "status": "published",
       "title": "How do I access my wallet if I forget my password?"
+    },
+    {
+      "__outstatic": {
+        "commit": "557340543402e39557bd650d1388c16949d42fc0",
+        "hash": "3003580065",
+        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "What are Arweave gateways and its integration with ArConnect?",
+      "publishedAt": "2024-03-08T14:00:57.349Z",
+      "slug": "arweave-gateways-in-arconnect",
+      "status": "published",
+      "title": "Arweave gateways in ArConnect"
     }
   ]
 }
