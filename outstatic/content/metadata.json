@@ -1,6 +1,6 @@
 {
-  "commit": "6bea51efda6042ce341ba8a0ecb194a43e884d5d",
-  "generated": "2024-03-08T03:37:01.842Z",
+  "commit": "74064b3f7ba9398920b91bc8e2ff91a4c094baf0",
+  "generated": "2024-03-08T11:02:19.620Z",
   "metadata": [
     {
       "__outstatic": {
@@ -441,6 +441,30 @@
       "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
       "status": "published",
       "title": "Protecting your funds: allowance limits and how they work"
+    },
+    {
+      "__outstatic": {
+        "commit": "74064b3f7ba9398920b91bc8e2ff91a4c094baf0",
+        "hash": "1836276371",
+        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-08T12:06:47.988Z",
+      "slug": "permission-system-in-arconnect",
+      "status": "published",
+      "title": "Permission system in ArConnect"
     }
   ]
 }
