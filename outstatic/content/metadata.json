@@ -1,6 +1,6 @@
 {
-  "commit": "ae042b88216071a6c767f4f547e3470b7753f8e8",
-  "generated": "2024-03-08T01:26:57.494Z",
+  "commit": "18e37b2ab19b60e915ee6ef4e5800ff341695890",
+  "generated": "2024-03-08T03:02:50.755Z",
   "metadata": [
     {
       "__outstatic": {
@@ -393,6 +393,30 @@
       "slug": "fees-in-arconnect",
       "status": "draft",
       "title": "Fees in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "18e37b2ab19b60e915ee6ef4e5800ff341695890",
+        "hash": "1460158962",
+        "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-08T02:33:21.793Z",
+      "slug": "security-best-practices",
+      "status": "published",
+      "title": "Security Best Practices"
     }
   ]
 }
