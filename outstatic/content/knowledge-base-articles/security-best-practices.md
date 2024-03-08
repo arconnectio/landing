@@ -5,7 +5,7 @@ author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
 slug: 'security-best-practices'
-description: ''
+description: 'Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.'
 coverImage: ''
 category: [{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2024-03-08T02:33:21.793Z'

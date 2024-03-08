@@ -1,6 +1,6 @@
 {
-  "commit": "18e37b2ab19b60e915ee6ef4e5800ff341695890",
-  "generated": "2024-03-08T03:02:50.755Z",
+  "commit": "8db8351ff2414ce8a7024b39185eb48bf0705604",
+  "generated": "2024-03-08T03:28:50.935Z",
   "metadata": [
     {
       "__outstatic": {
@@ -396,8 +396,8 @@
     },
     {
       "__outstatic": {
-        "commit": "18e37b2ab19b60e915ee6ef4e5800ff341695890",
-        "hash": "1460158962",
+        "commit": "8db8351ff2414ce8a7024b39185eb48bf0705604",
+        "hash": "225902703",
         "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
       },
       "author": {
@@ -412,7 +412,7 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
+      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.",
       "publishedAt": "2024-03-08T02:33:21.793Z",
       "slug": "security-best-practices",
       "status": "published",
