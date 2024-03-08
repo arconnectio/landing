@@ -1,6 +1,6 @@
 ---
 title: 'Fees in ArConnect'
-status: 'draft'
+status: 'published'
 author:
   name: 'Marton Lederer'
   picture: 'https://avatars.githubusercontent.com/u/30638105?v=4'
@@ -43,7 +43,7 @@ What ArConnect **do charge a fee for**:
 
 - ArConnect charges a small fee after each transaction signed with the `arweaveWallet.sign()` [API](https://docs.arconnect.io/api/sign?utm_source=ArConnect+Knowledgebase+Docs&utm_medium=Doc+Page&utm_campaign=ArConnect+Knowledge+Base&utm_id=ArConnect+Knowledgebase).
 
-- This fee is the equivalent of $0.03 USD in AR tokens for the *first 10 ****mined**** transactions* signed with ArConnect.
+- This fee is the equivalent of $0.03 USD in AR tokens for the *first 10 ****mined*** transactions signed with ArConnect.
 
     - The extension cannot differentiate between signing a transaction that gets mined and one that does not. Because of this, ArConnect will charge the same fee for unmined transactions as well, but can only validate mined transactions.
 

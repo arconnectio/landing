@@ -1,6 +1,6 @@
 {
-  "commit": "988d268c9c80e3e90aa9124330c6ef38dd49efd4",
-  "generated": "2024-03-07T12:43:05.335Z",
+  "commit": "faea7f920a873351c631647be926c7d11410bd32",
+  "generated": "2024-03-08T01:24:18.051Z",
   "metadata": [
     {
       "__outstatic": {
@@ -372,8 +372,8 @@
     },
     {
       "__outstatic": {
-        "commit": "988d268c9c80e3e90aa9124330c6ef38dd49efd4",
-        "hash": "3022247714",
+        "commit": "faea7f920a873351c631647be926c7d11410bd32",
+        "hash": "1717360745",
         "path": "outstatic/content/knowledge-base-articles/fees-in-arconnect.md"
       },
       "author": {
@@ -391,7 +391,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
       "publishedAt": "2023-09-24T21:25:52.814Z",
       "slug": "fees-in-arconnect",
-      "status": "draft",
+      "status": "published",
       "title": "Fees in ArConnect"
     }
   ]
