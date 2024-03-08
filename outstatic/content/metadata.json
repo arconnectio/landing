@@ -1,6 +1,6 @@
 {
-  "commit": "74064b3f7ba9398920b91bc8e2ff91a4c094baf0",
-  "generated": "2024-03-08T11:02:19.620Z",
+  "commit": "44172a0c0bf0b87d6a4a5ba1eb1189faf570afb5",
+  "generated": "2024-03-08T11:39:04.564Z",
   "metadata": [
     {
       "__outstatic": {
@@ -369,30 +369,6 @@
       "slug": "what-is-arweave",
       "status": "published",
       "title": "What is Arweave?"
-    },
-    {
-      "__outstatic": {
-        "commit": "ae042b88216071a6c767f4f547e3470b7753f8e8",
-        "hash": "4021661761",
-        "path": "outstatic/content/knowledge-base-articles/fees-in-arconnect.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
-      "publishedAt": "2023-09-24T21:25:52.814Z",
-      "slug": "fees-in-arconnect",
-      "status": "draft",
-      "title": "Fees in ArConnect"
     },
     {
       "__outstatic": {
