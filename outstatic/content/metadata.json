@@ -1,6 +1,6 @@
 {
-  "commit": "4c052149a6ae5ef7a781b88877ba84caf1250f91",
-  "generated": "2024-03-09T04:23:35.930Z",
+  "commit": "8f83cebb04dd9ac997605e1b5fe5d6d7d1f1a58a",
+  "generated": "2024-03-09T09:29:27.644Z",
   "metadata": [
     {
       "__outstatic": {
@@ -492,8 +492,8 @@
     },
     {
       "__outstatic": {
-        "commit": "4c052149a6ae5ef7a781b88877ba84caf1250f91",
-        "hash": "3356448573",
+        "commit": "8f83cebb04dd9ac997605e1b5fe5d6d7d1f1a58a",
+        "hash": "1128222929",
         "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
       },
       "author": {
@@ -511,7 +511,7 @@
       "description": "",
       "publishedAt": "2024-03-09T05:26:34.560Z",
       "slug": "arweave-bundles-in-arconnect",
-      "status": "draft",
+      "status": "published",
       "title": "Arweave bundles in ArConnect"
     }
   ]

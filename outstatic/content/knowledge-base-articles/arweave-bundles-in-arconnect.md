@@ -1,6 +1,6 @@
 ---
 title: 'Arweave bundles in ArConnect'
-status: 'draft'
+status: 'published'
 author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
@@ -29,7 +29,7 @@ Arweave bundles or ANS-104 (link to ANS-104) bundles are basically multiple tran
 
 ## Customizing bundlers in ArConnect
 
-ArConnect’s `dispatch() `[API](https://docs.arconnect.io/api/dispatch?utm_source=ArConnect+Knowledgebase+Docs&utm_medium=Doc+Page&utm_campaign=ArConnect+Knowledge+Base&utm_id=ArConnect+Knowledgebase) allows applications to quickly submit transactions to the network.
+ArConnect’s `dispatch()`[API](https://docs.arconnect.io/api/dispatch?utm_source=ArConnect+Knowledgebase+Docs&utm_medium=Doc+Page&utm_campaign=ArConnect+Knowledge+Base&utm_id=ArConnect+Knowledgebase) allows applications to quickly submit transactions to the network.
 
 - These transactions are bundled by default.
 
@@ -55,9 +55,11 @@ ArConnect’s `dispatch() `[API](https://docs.arconnect.io/api/dispatch?utm_sour
 
         <!-- -->
 
+        <!-- -->
+
+    <!-- -->
+
     <!-- -->
 
 - The dispatched transaction will go through the selected bundler node, which will also earn any additional transaction fees.
-
-
 
