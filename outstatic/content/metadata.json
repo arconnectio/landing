@@ -1,6 +1,6 @@
 {
-  "commit": "662e8ec21822ac1cf1f050a0d7e6b6e26d8a4d77",
-  "generated": "2024-03-10T00:27:59.187Z",
+  "commit": "20c5fc3ae83f1329e019bbc6b800341fdd7337e1",
+  "generated": "2024-03-10T01:01:24.348Z",
   "metadata": [
     {
       "__outstatic": {
@@ -21,30 +21,6 @@
       "themeColor": "rgb(171, 154, 255)",
       "title": "ArConnect Just Leveled Up to 1.0",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "6305f511e73749920f802695868b09dd480640de",
-        "hash": "170809633",
-        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
-      "publishedAt": "2023-09-24T21:24:37.348Z",
-      "slug": "how-to-use-arconnect-with-a-dapp",
-      "status": "published",
-      "title": "How to use ArConnect with a dApp?"
     },
     {
       "__outstatic": {
@@ -537,6 +513,30 @@
       "slug": "what-is-the-permaweb",
       "status": "published",
       "title": "What is the Permaweb?"
+    },
+    {
+      "__outstatic": {
+        "commit": "20c5fc3ae83f1329e019bbc6b800341fdd7337e1",
+        "hash": "3460641899",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-10T01:51:41.332Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
+      "status": "published",
+      "title": "How to use ArConnect with a dApp?"
     }
   ]
 }
