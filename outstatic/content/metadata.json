@@ -1,6 +1,6 @@
 {
-  "commit": "8f83cebb04dd9ac997605e1b5fe5d6d7d1f1a58a",
-  "generated": "2024-03-09T09:29:27.644Z",
+  "commit": "662e8ec21822ac1cf1f050a0d7e6b6e26d8a4d77",
+  "generated": "2024-03-10T00:27:59.187Z",
   "metadata": [
     {
       "__outstatic": {
@@ -513,6 +513,30 @@
       "slug": "arweave-bundles-in-arconnect",
       "status": "published",
       "title": "Arweave bundles in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "662e8ec21822ac1cf1f050a0d7e6b6e26d8a4d77",
+        "hash": "3444748539",
+        "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Find out about what the Permaweb is.",
+      "publishedAt": "2024-03-10T01:29:50.760Z",
+      "slug": "what-is-the-permaweb",
+      "status": "published",
+      "title": "What is the Permaweb?"
     }
   ]
 }
