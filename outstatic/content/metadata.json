@@ -1,6 +1,6 @@
 {
-  "commit": "b19911cc8bceca953bd7c36cbccf08110de4c0bf",
-  "generated": "2024-03-11T04:02:12.783Z",
+  "commit": "a2e54b20b157f1deaa4b62ccb0d0f4708f1d6fa1",
+  "generated": "2024-03-11T04:29:10.190Z",
   "metadata": [
     {
       "__outstatic": {
@@ -41,30 +41,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Arweave for Beginners: How to Buy Arweave Tokens",
       "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
-    },
-    {
-      "__outstatic": {
-        "commit": "3ec05ab072f0a4cd6f5aeb46937c1f0c1f62c400",
-        "hash": "1762454718",
-        "path": "outstatic/content/knowledge-base-articles/test-article.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Let's give this a description",
-      "publishedAt": "2023-10-05T16:50:55.465Z",
-      "slug": "test-article",
-      "status": "published",
-      "title": "Test article"
     },
     {
       "__outstatic": {
