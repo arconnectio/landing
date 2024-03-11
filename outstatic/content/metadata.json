@@ -1,6 +1,6 @@
 {
-  "commit": "c8bad3fe8576d2a11bdec1ad2a91f88802317077",
-  "generated": "2024-03-11T03:17:44.126Z",
+  "commit": "4434cbd20eb31cd94b536928107d0e053028e6d8",
+  "generated": "2024-03-11T04:00:56.607Z",
   "metadata": [
     {
       "__outstatic": {
@@ -617,6 +617,30 @@
       "slug": "how-to-add-tokens-to-show-up-in-arconnect",
       "status": "published",
       "title": "How to add tokens to show up in ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "4434cbd20eb31cd94b536928107d0e053028e6d8",
+        "hash": "1496482789",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:29:03.489Z",
+      "slug": "how-to-add-a-contact-in-arconnect",
+      "status": "published",
+      "title": "How to add a contact in ArConnect?"
     }
   ]
 }
