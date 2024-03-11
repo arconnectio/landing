@@ -1,6 +1,6 @@
 {
-  "commit": "d5a91098b9a706eb39bcb52965d0cef95efd5531",
-  "generated": "2024-03-11T00:38:15.751Z",
+  "commit": "32b4bc0e96ac77e05a0b4b717a7d3078ae5ef1aa",
+  "generated": "2024-03-11T03:11:08.652Z",
   "metadata": [
     {
       "__outstatic": {
@@ -565,6 +565,34 @@
       "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
       "status": "published",
       "title": "How to receive tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
+        "commit": "32b4bc0e96ac77e05a0b4b717a7d3078ae5ef1aa",
+        "hash": "3986011821",
+        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:14:16.427Z",
+      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
+      "status": "published",
+      "title": "How to send tokens from ArConnect to other users?"
     }
   ]
 }
