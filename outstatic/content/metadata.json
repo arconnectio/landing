@@ -1,6 +1,6 @@
 {
-  "commit": "32b4bc0e96ac77e05a0b4b717a7d3078ae5ef1aa",
-  "generated": "2024-03-11T03:11:08.652Z",
+  "commit": "c8bad3fe8576d2a11bdec1ad2a91f88802317077",
+  "generated": "2024-03-11T03:17:44.126Z",
   "metadata": [
     {
       "__outstatic": {
@@ -593,6 +593,30 @@
       "slug": "how-to-send-tokens-from-arconnect-to-other-users",
       "status": "published",
       "title": "How to send tokens from ArConnect to other users?"
+    },
+    {
+      "__outstatic": {
+        "commit": "c8bad3fe8576d2a11bdec1ad2a91f88802317077",
+        "hash": "1970000918",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-tokens-to-show-up-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:20:47.772Z",
+      "slug": "how-to-add-tokens-to-show-up-in-arconnect",
+      "status": "published",
+      "title": "How to add tokens to show up in ArConnect?"
     }
   ]
 }
