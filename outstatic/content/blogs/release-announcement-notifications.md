@@ -18,15 +18,11 @@ publishedAt: '2024-03-13T17:29:32.801Z'
 
 The ArConnect team is pleased to announce in-wallet and browser notifications for all Arweave and ao transactions. Notifications will allow ArConnect users to stay up to date on any incoming transfers or ao messages.
 
-
-
-**Transaction types **
+**Transaction types**
 
 Notifications cover all transactions on Arweave and the new ao network. When ArConnect users enable notifications, they will be notified when an asset is added to or moved within their wallet, enabling the tracking of their portfolio more closely. This feature ensures that ArConnect users are always aware of the latest changes to their portfolios, without having to manually monitor their accounts.
 
 The real magic is in the ao message notifications. ao, the new hyper parallel computer, allows for the sending of messages between users and processes on the network. For ArConnect users, this means they will be notified of any ao message sent to their ArConnect wallet, an experience similar to receiving a text message on a phone from a friend.
-
-
 
 **Enabling notifications**
 
@@ -42,17 +38,11 @@ ArConnect users can ensure notifications are turned on by doing the following:
 
 Once notifications are successfully enabled, ArConnect users will receive browser notifications for any incoming transactions. Users can check their notification history by opening their ArConnect wallet and selecting the Bell (🔔) icon in the header of the dashboard screen.
 
-
-
 **Get notified today**
-
-
 
 Notifications are included in the 1.5.1 ArConnect release now live. Not an ArConnect user yet? Install ArConnect [here](https://www.arconnect.io/download?utm_source=Blog&utm_medium=Post&utm_campaign=Notifications+Announcement&utm_id=Notifications+Announcement)!<br>
 
 <br>
 
 Follow us on [X](https://twitter.com/arconnectio) or join our [Discord](https://discord.gg/e6tNzaDESQ) community for more exciting updates in the ecosystem.
-
-
 

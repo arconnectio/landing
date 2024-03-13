@@ -1,6 +1,6 @@
 {
-  "commit": "cd55627f0dc2c004df5f65770532e555bb6ad744",
-  "generated": "2024-03-13T18:15:40.802Z",
+  "commit": "6d0558233be3bf38a4c8973cd3fd52ed6faef387",
+  "generated": "2024-03-13T18:23:47.333Z",
   "metadata": [
     {
       "__outstatic": {
@@ -680,8 +680,8 @@
     },
     {
       "__outstatic": {
-        "commit": "cd55627f0dc2c004df5f65770532e555bb6ad744",
-        "hash": "2091230312",
+        "commit": "6d0558233be3bf38a4c8973cd3fd52ed6faef387",
+        "hash": "127991962",
         "path": "outstatic/content/blogs/release-announcement-notifications.md"
       },
       "author": {
