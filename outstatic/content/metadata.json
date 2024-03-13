@@ -1,6 +1,6 @@
 {
-  "commit": "3229182e8e1aa4c3754965aa2261fa5664bbdc2d",
-  "generated": "2024-03-11T04:47:25.901Z",
+  "commit": "cd55627f0dc2c004df5f65770532e555bb6ad744",
+  "generated": "2024-03-13T18:15:40.802Z",
   "metadata": [
     {
       "__outstatic": {
@@ -677,6 +677,26 @@
       "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
       "status": "published",
       "title": "How to create multiple public addresses with same private key?"
+    },
+    {
+      "__outstatic": {
+        "commit": "cd55627f0dc2c004df5f65770532e555bb6ad744",
+        "hash": "2091230312",
+        "path": "outstatic/content/blogs/release-announcement-notifications.md"
+      },
+      "author": {
+        "name": "Matt DiRenzo",
+        "picture": "/images/matt-e0nt-A4Mz.jpeg"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/main-YxND.png",
+      "description": "Never miss an Arweave or ao transactions with ArConnect notifications",
+      "publishedAt": "2024-03-13T17:29:32.801Z",
+      "slug": "release-announcement-notifications",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Release Announcement: Notifications",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
