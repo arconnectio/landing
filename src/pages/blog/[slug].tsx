@@ -62,17 +62,11 @@ export default function BlogPost({ post, content, recommended }: Props) {
         </BlogSection>
         {recommended.length > 0 && (
           <BlogSection>
-            <ParagraphTitle>
-              Recommended blog posts
-            </ParagraphTitle>
+            <ParagraphTitle>Recommended blog posts</ParagraphTitle>
             <Spacer y={2.25} />
             <Recommended>
               {recommended.map((post, i) => (
-                <Article
-                  {...post}
-                  baseLink="/blog"
-                  key={i}
-                />
+                <Article {...post} baseLink="/blog" key={i} />
               ))}
             </Recommended>
           </BlogSection>
@@ -107,13 +101,7 @@ export async function getStaticProps({ params }: Params) {
         $ne: params.slug
       }
     })
-    .project([
-      "slug",
-      "title",
-      "description",
-      "coverImage",
-      "author"
-    ])
+    .project(["slug", "title", "description", "coverImage", "author"])
     .limit(2)
     .toArray();
 
@@ -144,6 +132,10 @@ export async function getStaticPaths() {
 const BlogTitle = styled(Title)`
   font-weight: 600;
   line-height: 1.15em;
+
+  @media (max-width: 600px) {
+    font-size: 42px;
+  }
 `;
 
 const BlogSection = styled(Section)`
@@ -214,9 +206,14 @@ const Content = styled.div`
     font-size: 1.7rem;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-top: 1.2em;
-    margin-bottom: .9em;
+    margin-bottom: 0.9em;
     color: rgb(${(props) => props.theme.primaryText});
   }
 
