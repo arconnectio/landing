@@ -1,6 +1,6 @@
 {
-  "commit": "9728e7606c0a2571139d8a651e19e69521ad20da",
-  "generated": "2024-03-27T11:34:57.889Z",
+  "commit": "cffd962e41645cf6b34ce2d0d29f5ec08d34deda",
+  "generated": "2024-03-27T12:10:28.634Z",
   "metadata": [
     {
       "__outstatic": {
@@ -572,30 +572,6 @@
     },
     {
       "__outstatic": {
-        "commit": "c8bad3fe8576d2a11bdec1ad2a91f88802317077",
-        "hash": "1970000918",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-tokens-to-show-up-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:20:47.772Z",
-      "slug": "how-to-add-tokens-to-show-up-in-arconnect",
-      "status": "published",
-      "title": "How to add tokens to show up in ArConnect?"
-    },
-    {
-      "__outstatic": {
         "commit": "b19911cc8bceca953bd7c36cbccf08110de4c0bf",
         "hash": "366057026",
         "path": "outstatic/content/knowledge-base-articles/using-the-keystone-hardware-wallet-with-arconnect.md"
@@ -697,6 +673,30 @@
       "slug": "how-to-add-a-contact-in-arconnect",
       "status": "published",
       "title": "How to add a contact in ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "cffd962e41645cf6b34ce2d0d29f5ec08d34deda",
+        "hash": "1057376349",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-tokens-to-show-up-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:20:47.772Z",
+      "slug": "how-to-add-tokens-to-show-up-in-arconnect",
+      "status": "published",
+      "title": "How to add tokens to show up in ArConnect?"
     }
   ]
 }
