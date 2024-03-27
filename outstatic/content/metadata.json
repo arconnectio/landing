@@ -1,6 +1,6 @@
 {
-  "commit": "706129380c7f67a15380ca51fd179c214b96a372",
-  "generated": "2024-03-27T10:21:41.597Z",
+  "commit": "9728e7606c0a2571139d8a651e19e69521ad20da",
+  "generated": "2024-03-27T11:34:57.889Z",
   "metadata": [
     {
       "__outstatic": {
@@ -596,30 +596,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4434cbd20eb31cd94b536928107d0e053028e6d8",
-        "hash": "1496482789",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:29:03.489Z",
-      "slug": "how-to-add-a-contact-in-arconnect",
-      "status": "published",
-      "title": "How to add a contact in ArConnect?"
-    },
-    {
-      "__outstatic": {
         "commit": "b19911cc8bceca953bd7c36cbccf08110de4c0bf",
         "hash": "366057026",
         "path": "outstatic/content/knowledge-base-articles/using-the-keystone-hardware-wallet-with-arconnect.md"
@@ -697,6 +673,30 @@
       "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
       "status": "published",
       "title": "How to create multiple public addresses with same private key?"
+    },
+    {
+      "__outstatic": {
+        "commit": "9728e7606c0a2571139d8a651e19e69521ad20da",
+        "hash": "3959253175",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:29:03.489Z",
+      "slug": "how-to-add-a-contact-in-arconnect",
+      "status": "published",
+      "title": "How to add a contact in ArConnect?"
     }
   ]
 }
