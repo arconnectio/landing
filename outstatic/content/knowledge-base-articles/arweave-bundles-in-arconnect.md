@@ -45,19 +45,23 @@ ArConnect’s `dispatch()`[API](https://docs.arconnect.io/api/dispatch?utm_sourc
 
         2. Click the “Settings” icon on the extension’s main view of the ArConnect extension.
 
+            ![](/images/screen-shot-2024-03-27-at-11.56.49-pm-g4MT.png)
+
         3. Select the “Applications” setting from the sidebar on the left hand side of the settings page.
 
+            ![](/images/screen-shot-2024-03-27-at-11.57.34-pm-g0Mj.png)
+
         4. Select the application you change the bundler node for from the list of applications located at the center of the Settings Page.
+
+            ![](/images/screen-shot-2024-03-27-at-11.57.52-pm-IwNj.png)
 
         5. Scroll to the bottom of the application details section located on the right hand side of the Settings Page.
 
         6. Paste the URL for the custom bundler node in the provided input field.
 
-        <!-- -->
+            ![](/images/screen-shot-2024-03-27-at-11.58.16-pm-A5MT.png)
 
         <!-- -->
-
-    <!-- -->
 
     <!-- -->
 

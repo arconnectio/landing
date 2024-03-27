@@ -1,6 +1,6 @@
 {
-  "commit": "5946d8160f48d3af7fa6d061edafbab8c7e7cb54",
-  "generated": "2024-03-27T12:36:03.791Z",
+  "commit": "b9eb408e27dac7fa9d613abea36d7a5f4395e0d9",
+  "generated": "2024-03-27T12:58:42.905Z",
   "metadata": [
     {
       "__outstatic": {
@@ -420,30 +420,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8f83cebb04dd9ac997605e1b5fe5d6d7d1f1a58a",
-        "hash": "1128222929",
-        "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-09T05:26:34.560Z",
-      "slug": "arweave-bundles-in-arconnect",
-      "status": "published",
-      "title": "Arweave bundles in ArConnect"
-    },
-    {
-      "__outstatic": {
         "commit": "662e8ec21822ac1cf1f050a0d7e6b6e26d8a4d77",
         "hash": "3444748539",
         "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
@@ -697,6 +673,30 @@
       "slug": "arweave-gateways-in-arconnect",
       "status": "published",
       "title": "Arweave gateways in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "b9eb408e27dac7fa9d613abea36d7a5f4395e0d9",
+        "hash": "1203246091",
+        "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-09T05:26:34.560Z",
+      "slug": "arweave-bundles-in-arconnect",
+      "status": "published",
+      "title": "Arweave bundles in ArConnect"
     }
   ]
 }
