@@ -23,11 +23,19 @@ Allowance limits can be disabled in settings for each individual app with the fo
 
 2. Click the “Settings” icon on the extension’s main view of the ArConnect extension.
 
+    ![](/images/screen-shot-2024-03-28-at-12.33.13-am-AxNT.png)
+
 3. Select the “Applications” setting from the sidebar on the left hand side of the settings page.
+
+    ![](/images/screen-shot-2024-03-28-at-12.33.45-am-c0Mz.png)
 
 4. Select the application you want to disable allowances for from the list of applications located at the center of the Settings Page.
 
+    ![](/images/screen-shot-2024-03-28-at-12.34.11-am-c1Nz.png)
+
 5. Uncheck the “Allowance” checkbox located at the bottom right of the Settings page to disable allowance for the chosen application.
+
+    ![](/images/screen-shot-2024-03-28-at-12.34.35-am-U3OD.png)
 
 ## How is setting allowance limits safe?
 
@@ -46,6 +54,4 @@ Allowance limits can be disabled in settings for each individual app with the fo
 - Larger uploads might need more than the allowance configured, this might be the case with storage provider apps, like ArDrive.
 
 - Disabling allowances can be a good way to handle unknown apps that you don’t trust.
-
-
 

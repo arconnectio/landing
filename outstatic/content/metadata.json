@@ -1,6 +1,6 @@
 {
-  "commit": "aedc9f69f349ee2bfd9ebdd051540eb144eb9dcc",
-  "generated": "2024-03-27T13:21:16.901Z",
+  "commit": "790b937b602ba4d95459122917353dfd91689ea1",
+  "generated": "2024-03-27T13:34:57.649Z",
   "metadata": [
     {
       "__outstatic": {
@@ -344,30 +344,6 @@
     },
     {
       "__outstatic": {
-        "commit": "6bea51efda6042ce341ba8a0ecb194a43e884d5d",
-        "hash": "1261925800",
-        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-08T04:37:23.280Z",
-      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
-      "status": "published",
-      "title": "Protecting your funds: allowance limits and how they work"
-    },
-    {
-      "__outstatic": {
         "commit": "74064b3f7ba9398920b91bc8e2ff91a4c094baf0",
         "hash": "1836276371",
         "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
@@ -697,6 +673,30 @@
       "slug": "how-to-use-arconnect-with-a-dapp",
       "status": "published",
       "title": "How to use ArConnect with a dApp?"
+    },
+    {
+      "__outstatic": {
+        "commit": "790b937b602ba4d95459122917353dfd91689ea1",
+        "hash": "1605655808",
+        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-08T04:37:23.280Z",
+      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
+      "status": "published",
+      "title": "Protecting your funds: allowance limits and how they work"
     }
   ]
 }
