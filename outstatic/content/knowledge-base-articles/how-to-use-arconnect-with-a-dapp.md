@@ -49,11 +49,19 @@ publishedAt: '2024-03-10T01:51:41.332Z'
 
     3. Choose the wallet you wish to connect with from the dropdown provided on the Auth view.
 
+        ![](/images/screen-shot-2024-03-28-at-12.14.11-am-MwMD.png)
+
     4. Enter your password for ArConnect in the provided input field.
+
+        ![](/images/screen-shot-2024-03-28-at-12.17.58-am-ExMz.png)
 
     5. Click the “Sign in” button located at the bottom of the Auth view.
 
+        ![](/images/screen-shot-2024-03-28-at-12.18.23-am-AwMz.png)
+
     6. Review the requested permissions.
+
+        ![](/images/screen-shot-2024-03-28-at-12.18.49-am-cwMz.png)
 
         - While reviewing the requested permissions, consider the following:
 
@@ -87,6 +95,8 @@ If you no longer wish to allow an app access to ArConnect, you can disconnect it
 
     - Remember: Malicious apps might not actually disconnect from the extension. Make sure to double check in the main extension view, that the app has indeed been disconnected. You can do this by checking the app status in the top right corner of the main extension page. If there is a greed dot next to the app icon, the app did not disconnect.
 
+        ![](/images/screen-shot-2024-03-28-at-12.19.22-am-kxOT.png)
+
     - When an app has not disconnected correctly, you should disconnect it manually.
 
     <!-- -->
@@ -95,9 +105,15 @@ If you no longer wish to allow an app access to ArConnect, you can disconnect it
 
     1. Right click on the webpage and click the “Disconnect” option.
 
+        ![](/images/screen-shot-2024-03-28-at-12.19.44-am-k1Nj.png)
+
     2. Or open the extension and click the app status icon at the top right of the screen.
 
+        ![](blob:https://www.arconnect.io/76689bb9-9a83-4e81-999e-9d2fb2464f28)
+
         - Then click the “Disconnect” button.
+
+            ![](/images/screen-shot-2024-03-28-at-12.20.51-am-gwND.png)
 
         <!-- -->
 
