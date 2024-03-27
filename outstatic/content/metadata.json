@@ -1,6 +1,6 @@
 {
-  "commit": "6e595249a9b0ec0ca5a3f15da73383a1e2c440c2",
-  "generated": "2024-03-27T12:24:07.518Z",
+  "commit": "5946d8160f48d3af7fa6d061edafbab8c7e7cb54",
+  "generated": "2024-03-27T12:36:03.791Z",
   "metadata": [
     {
       "__outstatic": {
@@ -420,30 +420,6 @@
     },
     {
       "__outstatic": {
-        "commit": "557340543402e39557bd650d1388c16949d42fc0",
-        "hash": "3003580065",
-        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "What are Arweave gateways and its integration with ArConnect?",
-      "publishedAt": "2024-03-08T14:00:57.349Z",
-      "slug": "arweave-gateways-in-arconnect",
-      "status": "published",
-      "title": "Arweave gateways in ArConnect"
-    },
-    {
-      "__outstatic": {
         "commit": "8f83cebb04dd9ac997605e1b5fe5d6d7d1f1a58a",
         "hash": "1128222929",
         "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
@@ -697,6 +673,30 @@
       "slug": "how-to-send-tokens-from-arconnect-to-other-users",
       "status": "published",
       "title": "How to send tokens from ArConnect to other users?"
+    },
+    {
+      "__outstatic": {
+        "commit": "5946d8160f48d3af7fa6d061edafbab8c7e7cb54",
+        "hash": "3400355092",
+        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "What are Arweave gateways and its integration with ArConnect?",
+      "publishedAt": "2024-03-08T14:00:57.349Z",
+      "slug": "arweave-gateways-in-arconnect",
+      "status": "published",
+      "title": "Arweave gateways in ArConnect"
     }
   ]
 }

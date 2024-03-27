@@ -41,13 +41,21 @@ Currently, ArConnect supports customizing the gateway for applications:
 
     2. Click the “Settings” icon on the extension’s main view of the ArConnect extension.
 
+        ![](/images/screen-shot-2024-03-27-at-11.26.09-pm-AzNz.png)
+
     3. Select the “Applications” setting from the sidebar on the left hand side of the settings page.
 
+        ![](/images/screen-shot-2024-03-27-at-11.28.52-pm-I0Nj.png)
+
     4. Select the application you change the gateway for from the list of applications located at the center of the Settings Page.
+
+        ![](/images/screen-shot-2024-03-27-at-11.29.21-pm-c5OD.png)
 
     5. Scroll to the bottom of the application details section located on the right hand side of the Settings Page.
 
     6. Click on the dropdown to choose from the available list of gateways or provide a custom one.
+
+        ![](/images/screen-shot-2024-03-27-at-11.29.50-pm-MxMT.png)
 
     <!-- -->
 
@@ -73,9 +81,15 @@ ArConnect also integrates Wayfinder, that decentralizes gateway access, reducing
 
     1. Click the “Settings” icon on the extension’s main view of the ArConnect extension.
 
+        ![](blob:https://www.arconnect.io/3bc5af21-03a6-4efc-9c04-a25efbb80aa8)
+
     2. Select the “Wayfinder” setting from the sidebar on the left hand side of the settings page.
 
+        ![](/images/screen-shot-2024-03-27-at-11.33.08-pm-QyOT.png)
+
     3. Click the checkbox provided in the center of the Settings page to enable this setting.
+
+        ![](/images/screen-shot-2024-03-27-at-11.33.42-pm-YzND.png)
 
     <!-- -->
 
