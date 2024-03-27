@@ -17,15 +17,25 @@ As ArConnect is a self-custodial crypto wallet, the ArConnect team cannot access
 
 - After a period of inactivity, ArConnect locks itself. You will be prompted to unlock the wallet.
 
+    ![](/images/screen-shot-2024-03-28-at-12.42.59-am-k3NT.png)
+
     1. Uninstall ArConnect browser extension and [reinstall](https://www.notion.so/How-to-install-and-setup-ArConnect-bd56c8cf4d3949c8b8343534a5636547?pvs=21).
 
     2. You will be prompted with the following page. Click **I have a wallet**.
 
+        ![](/images/screen-shot-2024-03-28-at-12.43.09-am-g5OD.png)
+
     3. Create a secure password. Remember to store your password in a password manager to prevent losing it.
+
+        ![](/images/screen-shot-2024-03-28-at-12.43.18-am-gyMj.png)
 
     4. Provide your 12-word passphrase seed.
 
+        ![](/images/screen-shot-2024-03-28-at-12.43.27-am-MzMT.png)
+
     5. You’re all good to go! Wallet can be accessed again.
+
+        ![](/images/screen-shot-2024-03-28-at-12.43.36-am-YzND.png)
 
     <!-- -->
 

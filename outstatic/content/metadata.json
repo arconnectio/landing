@@ -1,6 +1,6 @@
 {
-  "commit": "790b937b602ba4d95459122917353dfd91689ea1",
-  "generated": "2024-03-27T13:34:57.649Z",
+  "commit": "33dad98c336051d1cd37de8c6c5fb8f2fbc0c916",
+  "generated": "2024-03-27T13:45:04.789Z",
   "metadata": [
     {
       "__outstatic": {
@@ -368,34 +368,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4786b8d7ae8e412b07fea1772fb38be756947e69",
-        "hash": "183148296",
-        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Find out how to gain access back to your wallet.",
-      "publishedAt": "2024-03-08T12:45:32.352Z",
-      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
-      "status": "published",
-      "title": "How do I access my wallet if I forget my password?"
-    },
-    {
-      "__outstatic": {
         "commit": "662e8ec21822ac1cf1f050a0d7e6b6e26d8a4d77",
         "hash": "3444748539",
         "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
@@ -697,6 +669,34 @@
       "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
       "status": "published",
       "title": "Protecting your funds: allowance limits and how they work"
+    },
+    {
+      "__outstatic": {
+        "commit": "33dad98c336051d1cd37de8c6c5fb8f2fbc0c916",
+        "hash": "2184516756",
+        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Find out how to gain access back to your wallet.",
+      "publishedAt": "2024-03-08T12:45:32.352Z",
+      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
+      "status": "published",
+      "title": "How do I access my wallet if I forget my password?"
     }
   ]
 }
