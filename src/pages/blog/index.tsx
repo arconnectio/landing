@@ -1,4 +1,9 @@
-import { Paragraph, Date, ParagraphTitle, DateBlock } from "~/components/content/Text";
+import {
+  Paragraph,
+  Date,
+  ParagraphTitle,
+  DateBlock
+} from "~/components/content/Text";
 import Section from "~/components/content/Section";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
@@ -13,8 +18,8 @@ import {
 import Link from "next/link";
 import BlogTitle from "~/components/blog/BlogTitle";
 import NavigationIcon from "~/components/blog/NavigationIcon";
-import { load } from "outstatic/server"
-import dayjs from "dayjs"
+import { load } from "outstatic/server";
+import dayjs from "dayjs";
 
 export default function Blog({ all }: Props) {
   return (
@@ -44,11 +49,13 @@ export default function Blog({ all }: Props) {
                         {dayjs(all[0].publishedAt).format("DD MMM, YYYY")}
                       </DateBlock>
                     </div>
-                    <BlogTitle
-                      title={all[0].title}
-                    />
+                    <BlogTitle title={all[0].title} />
                   </Row>
-                  <Thumbnail src={all[0].transparentThumbnail} alt="Thumbnail" draggable={false} />
+                  <Thumbnail
+                    src={all[0].transparentThumbnail}
+                    alt="Thumbnail"
+                    draggable={false}
+                  />
                   <NavigationIcon />
                 </Entry>
               </Column>
@@ -65,7 +72,12 @@ export default function Blog({ all }: Props) {
                     <NavigationIcon />
                   </Row>
                   <BlogTitle title={all[1].title} />
-                  <Thumbnail src={all[1].transparentThumbnail} alt="Thumbnail" draggable={false} top="37%" />
+                  <Thumbnail
+                    src={all[1].transparentThumbnail}
+                    alt="Thumbnail"
+                    draggable={false}
+                    top="37%"
+                  />
                 </Entry>
                 <ReadMore
                   href="#all"
@@ -126,7 +138,7 @@ export async function getStaticProps() {
   const db = await load();
   const all = await db
     .find<Blog>({
-      collection: "blogs",
+      collection: "blogs"
     })
     .project([
       "publishedAt",
@@ -137,7 +149,6 @@ export async function getStaticProps() {
     ])
     // @ts-expect-error
     .sort([{ publishedAt: -1 }])
-    .limit(3)
     .toArray();
 
   return {
@@ -150,12 +161,12 @@ export const Wrapper = styled.main`
   margin: 0 auto;
 `;
 
-const Thumbnail = styled.img<{ top?: string; small?: boolean; }>`
+const Thumbnail = styled.img<{ top?: string; small?: boolean }>`
   position: absolute;
-  top: ${props => props.top || "55%"};
+  top: ${(props) => props.top || "55%"};
   left: 50%;
-  max-width: ${props => !props.small ? "80%" : "65%"};
-  max-height: ${props => !props.small ? "80%" : "65%"};
+  max-width: ${(props) => (!props.small ? "80%" : "65%")};
+  max-height: ${(props) => (!props.small ? "80%" : "65%")};
   user-select: none;
   z-index: 1;
   transform: translate(-50%, -50%);
@@ -230,15 +241,15 @@ const FeaturedTiles = styled.div`
   }
 `;
 
-const Row = styled.div<{ column?: "mobile" | "always"; }>`
+const Row = styled.div<{ column?: "mobile" | "always" }>`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  flex-direction: ${props => props.column === "always" ? "column" : "row"};
+  flex-direction: ${(props) => (props.column === "always" ? "column" : "row")};
   gap: 1rem;
 
   @media screen and (max-width: 720px) {
-    flex-direction: ${props => !!props.column ? "column" : "row"};
+    flex-direction: ${(props) => (!!props.column ? "column" : "row")};
   }
 `;
 

@@ -165,7 +165,7 @@ export async function getStaticProps() {
     })
     // @ts-expect-error
     .sort([{ publishedAt: -1 }])
-    .limit(6)
+    .limit(9)
     .project(requiredFields)
     .toArray();
 
