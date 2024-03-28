@@ -41,13 +41,13 @@ ArConnect consists of multiple UI views. Here’s a brief overview of the availa
 
     - Allowance popup.
 
-    - See our guide on [how to use ArConnect in a dApp](https://www.notion.so/bac62293e3e94b80a3067280e5d458fb?pvs=21) for more information.
+    - See our guide on [how to use ArConnect in a dApp](https://www.arconnect.io/help/article/how-to-use-arconnect-with-a-dapp) for more information.
 
     <!-- -->
 
 - Setup view - onboarding to the extension
 
-    - Checkout our guide on [how to install and setup ArConnect](https://www.notion.so/bd56c8cf4d3949c8b8343534a5636547?pvs=21) for additional details.
+    - Checkout our guide on [how to install and setup ArConnect](https://www.arconnect.io/help/article/how-to-install-and-setup-arconnect) for additional details.
 
     <!-- -->
 
