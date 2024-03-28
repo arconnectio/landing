@@ -1,6 +1,6 @@
 {
-  "commit": "a9dde360674889ea7b7bacaeed40ea738e4e70d4",
-  "generated": "2024-03-28T02:27:22.750Z",
+  "commit": "42f6cc5a00d4d957c20c9e82993ee2aac4c87461",
+  "generated": "2024-03-28T03:48:22.144Z",
   "metadata": [
     {
       "__outstatic": {
@@ -700,8 +700,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a9dde360674889ea7b7bacaeed40ea738e4e70d4",
-        "hash": "1176999889",
+        "commit": "42f6cc5a00d4d957c20c9e82993ee2aac4c87461",
+        "hash": "690320985",
         "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
       },
       "author": {

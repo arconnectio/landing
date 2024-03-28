@@ -13,9 +13,13 @@ publishedAt: '2023-09-23T12:13:50.100Z'
 
 ## UI views of ArConnect
 
+
+
 ArConnect consists of multiple UI views. Here’s a brief overview of the available views and the features they provide:
 
 - Popover view - the main extension user interface.
+
+    ![](/images/screen-shot-2024-03-28-at-2.35.04-pm-EzMz.png)
 
     - Allows viewing your current wallet data.
 
@@ -26,6 +30,8 @@ ArConnect consists of multiple UI views. Here’s a brief overview of the availa
     <!-- -->
 
 - Settings view - extension settings dashboard.
+
+    ![](/images/screen-shot-2024-03-28-at-2.35.28-pm-YxNj.png)
 
     - Allows the customization and the configuration of the extension.
 
@@ -73,13 +79,19 @@ The main extension view in ArConnect provides quick access to various features a
 
 - The main view allows access to all ArConnect views.
 
+    ![](blob:https://www.arconnect.io/553bcda1-9928-46d5-88d4-bec244d92eda)
+
 - Wallets - view and switch between your wallets.
+
+    ![](/images/screen-shot-2024-03-28-at-2.40.17-pm-E4OD.png)
 
     - On the right side of the address is a button to copy this active address.
 
     <!-- -->
 
 - On the right side you have a few quick actions available, from left to right:
+
+    ![](/images/screen-shot-2024-03-28-at-2.40.41-pm-I0MD.png)
 
     - View your wallet on the Arweave block explorer: Viewblock.
 
@@ -93,17 +105,21 @@ The main extension view in ArConnect provides quick access to various features a
 
 - Main Arweave balance - balance of AR tokens.
 
+    ![](/images/screen-shot-2024-03-28-at-2.41.00-pm-gzNz.png)
+
     - You can also hide your balance here or lock your wallet so it can only be opened next time with your password.
 
     <!-- -->
 
 - Assets & collectibles - balance of different arweave based tokens (NFTs, PSTs, etc.).
 
-    - See our guide on [how to add tokens](https://www.arconnect.io/help/article/how-to-add-tokens-to-show-up-in-arconnect) to view your favorite tokens and collectibles in this list.
+    - See our guide on [how to add tokens](https://www.notion.so/6a932c59849040e2a56bebf579d38759?pvs=21) to view your favorite tokens and collectibles in this list.
 
     <!-- -->
 
 - Menu - links to views, from left to right.
+
+    ![](/images/screen-shot-2024-03-28-at-2.46.38-pm-Q0OT.png)
 
     - Return to Home (main extension view)
 
