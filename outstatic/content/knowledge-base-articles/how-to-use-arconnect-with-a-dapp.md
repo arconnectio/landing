@@ -109,7 +109,7 @@ If you no longer wish to allow an app access to ArConnect, you can disconnect it
 
     2. Or open the extension and click the app status icon at the top right of the screen.
 
-        ![](blob:https://www.arconnect.io/76689bb9-9a83-4e81-999e-9d2fb2464f28)
+        ![](/images/screen-shot-2024-03-28-at-6.14.06-pm-MzNj.png)
 
         - Then click the “Disconnect” button.
 

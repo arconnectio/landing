@@ -1,6 +1,6 @@
 {
-  "commit": "dc5b2b966f309181e45618cc26ea9a57345c0e47",
-  "generated": "2024-03-28T07:03:16.648Z",
+  "commit": "db2a2af744f05652df05b6de338795657cb8ef07",
+  "generated": "2024-03-28T07:14:54.056Z",
   "metadata": [
     {
       "__outstatic": {
@@ -568,30 +568,6 @@
     },
     {
       "__outstatic": {
-        "commit": "aedc9f69f349ee2bfd9ebdd051540eb144eb9dcc",
-        "hash": "3639146429",
-        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-10T01:51:41.332Z",
-      "slug": "how-to-use-arconnect-with-a-dapp",
-      "status": "published",
-      "title": "How to use ArConnect with a dApp?"
-    },
-    {
-      "__outstatic": {
         "commit": "790b937b602ba4d95459122917353dfd91689ea1",
         "hash": "1605655808",
         "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
@@ -721,6 +697,30 @@
       "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
       "status": "published",
       "title": "How to receive tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
+        "commit": "db2a2af744f05652df05b6de338795657cb8ef07",
+        "hash": "534317929",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-10T01:51:41.332Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
+      "status": "published",
+      "title": "How to use ArConnect with a dApp?"
     }
   ]
 }
