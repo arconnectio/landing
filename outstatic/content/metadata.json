@@ -1,6 +1,6 @@
 {
-  "commit": "33dad98c336051d1cd37de8c6c5fb8f2fbc0c916",
-  "generated": "2024-03-27T13:45:04.789Z",
+  "commit": "a9dde360674889ea7b7bacaeed40ea738e4e70d4",
+  "generated": "2024-03-28T01:30:27.766Z",
   "metadata": [
     {
       "__outstatic": {
@@ -41,30 +41,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Arweave for Beginners: How to Buy Arweave Tokens",
       "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
-    },
-    {
-      "__outstatic": {
-        "commit": "7d3ecba5613dbbe1dbaba538c5045ccd1bda5395",
-        "hash": "1522745295",
-        "path": "outstatic/content/knowledge-base-articles/operating-arconnect.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
-      "publishedAt": "2023-09-23T12:13:50.100Z",
-      "slug": "operating-arconnect",
-      "status": "published",
-      "title": "How to operate ArConnect?"
     },
     {
       "__outstatic": {
@@ -189,34 +165,6 @@
       "slug": "what-is-arconnect",
       "status": "published",
       "title": "What is ArConnect?"
-    },
-    {
-      "__outstatic": {
-        "commit": "8b37d9c3aacaa64d469ce1f0ef037951ad7d9889",
-        "hash": "150834526",
-        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-06T19:47:02.430Z",
-      "slug": "how-to-install-and-setup-arconnect",
-      "status": "draft",
-      "title": "How to install and setup ArConnect?"
     },
     {
       "__outstatic": {
@@ -697,6 +645,30 @@
       "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
       "status": "published",
       "title": "How do I access my wallet if I forget my password?"
+    },
+    {
+      "__outstatic": {
+        "commit": "a9dde360674889ea7b7bacaeed40ea738e4e70d4",
+        "hash": "208322276",
+        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-23T12:13:50.100Z",
+      "slug": "how-to-install-and-setup-arconnect",
+      "status": "published",
+      "title": "How to operate ArConnect?"
     }
   ]
 }
