@@ -35,6 +35,8 @@ To copy your address:
 
 - Click on the copy icon next to your wallet name/address at the top of the screen, on the ArConnect extension’s main view.
 
+    ![](/images/screen-shot-2024-03-28-at-6.01.54-pm-E2ND.png)
+
 You can receive tokens with the copied address.
 
 ## Receive tokens by ANS name (.ar) name
@@ -53,7 +55,11 @@ Follow these steps to fetch a QR code for your wallet:
 
 2. Click the button with the “Receive” icon on the ArConnect extension’s main view.
 
+    ![](/images/screen-shot-2024-03-28-at-6.02.31-pm-k2Nj.png)
+
 3. You’ll be able to see the QR code containing your address.
+
+    ![](/images/screen-shot-2024-03-28-at-6.02.52-pm-E3MT.png)
 
 The sender can scan this QR code to send tokens to the associated wallet address.
 

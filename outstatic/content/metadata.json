@@ -1,6 +1,6 @@
 {
-  "commit": "678a01935aa44eefef8fd3b571600873a506e80d",
-  "generated": "2024-03-28T04:09:50.445Z",
+  "commit": "dc5b2b966f309181e45618cc26ea9a57345c0e47",
+  "generated": "2024-03-28T07:03:16.648Z",
   "metadata": [
     {
       "__outstatic": {
@@ -364,34 +364,6 @@
     },
     {
       "__outstatic": {
-        "commit": "d5a91098b9a706eb39bcb52965d0cef95efd5531",
-        "hash": "4273460477",
-        "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T00:46:34.135Z",
-      "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "How to receive tokens in your ArConnect wallet?"
-    },
-    {
-      "__outstatic": {
         "commit": "b19911cc8bceca953bd7c36cbccf08110de4c0bf",
         "hash": "366057026",
         "path": "outstatic/content/knowledge-base-articles/using-the-keystone-hardware-wallet-with-arconnect.md"
@@ -721,6 +693,34 @@
       "slug": "how-to-install-and-setup-arconnect",
       "status": "published",
       "title": "How to install and setup ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "dc5b2b966f309181e45618cc26ea9a57345c0e47",
+        "hash": "1187186172",
+        "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T00:46:34.135Z",
+      "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
+      "status": "published",
+      "title": "How to receive tokens in your ArConnect wallet?"
     }
   ]
 }
