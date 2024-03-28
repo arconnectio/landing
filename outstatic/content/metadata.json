@@ -1,6 +1,6 @@
 {
   "commit": "a9dde360674889ea7b7bacaeed40ea738e4e70d4",
-  "generated": "2024-03-28T01:30:27.766Z",
+  "generated": "2024-03-28T02:22:43.482Z",
   "metadata": [
     {
       "__outstatic": {
@@ -41,6 +41,30 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Arweave for Beginners: How to Buy Arweave Tokens",
       "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
+    },
+    {
+      "__outstatic": {
+        "commit": "7d3ecba5613dbbe1dbaba538c5045ccd1bda5395",
+        "hash": "1522745295",
+        "path": "outstatic/content/knowledge-base-articles/operating-arconnect.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "publishedAt": "2023-09-23T12:13:50.100Z",
+      "slug": "operating-arconnect",
+      "status": "published",
+      "title": "How to operate ArConnect?"
     },
     {
       "__outstatic": {
@@ -649,8 +673,8 @@
     {
       "__outstatic": {
         "commit": "a9dde360674889ea7b7bacaeed40ea738e4e70d4",
-        "hash": "208322276",
-        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+        "hash": "2287071607",
+        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
       },
       "author": {
         "name": "Marton Lederer",
@@ -664,9 +688,9 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
+      "description": "",
       "publishedAt": "2023-09-23T12:13:50.100Z",
-      "slug": "how-to-install-and-setup-arconnect",
+      "slug": "how-to-operate-arconnect",
       "status": "published",
       "title": "How to operate ArConnect?"
     }

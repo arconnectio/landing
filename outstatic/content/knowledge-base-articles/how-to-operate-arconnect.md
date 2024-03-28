@@ -4,8 +4,8 @@ status: 'published'
 author:
   name: 'Marton Lederer'
   picture: 'https://avatars.githubusercontent.com/u/30638105?v=4'
-slug: 'how-to-install-and-setup-arconnect'
-description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.'
+slug: 'how-to-operate-arconnect'
+description: ''
 coverImage: ''
 category: [{"value":"getting-started","label":"Getting started"}]
 publishedAt: '2023-09-23T12:13:50.100Z'
@@ -17,8 +17,6 @@ ArConnect consists of multiple UI views. Here’s a brief overview of the availa
 
 - Popover view - the main extension user interface.
 
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/b461a3ce-f32c-46a1-a5b1-757d034ef23c/Untitled.png)
-
     - Allows viewing your current wallet data.
 
     - Allows viewing and managing your assets and balances.
@@ -28,8 +26,6 @@ ArConnect consists of multiple UI views. Here’s a brief overview of the availa
     <!-- -->
 
 - Settings view - extension settings dashboard.
-
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/c902e232-c115-4ab4-8525-bcc2995b87b0/Untitled.png)
 
     - Allows the customization and the configuration of the extension.
 
@@ -77,8 +73,6 @@ The main extension view in ArConnect provides quick access to various features a
 
 - The main view allows access to all ArConnect views.
 
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/b461a3ce-f32c-46a1-a5b1-757d034ef23c/Untitled.png)
-
 - Wallets - view and switch between your wallets.
 
     - On the right side of the address is a button to copy this active address.
@@ -110,8 +104,6 @@ The main extension view in ArConnect provides quick access to various features a
     <!-- -->
 
 - Menu - links to views, from left to right.
-
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/214b193d-892f-4984-8407-7fdc084a4309/a130229f-542b-44ff-9db0-07c3d8c6b6e5/Untitled.png)
 
     - Return to Home (main extension view)
 
