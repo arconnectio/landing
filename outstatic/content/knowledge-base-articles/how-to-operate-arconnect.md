@@ -99,7 +99,7 @@ The main extension view in ArConnect provides quick access to various features a
 
 - Assets & collectibles - balance of different arweave based tokens (NFTs, PSTs, etc.).
 
-    - See our guide on [how to add tokens](https://www.notion.so/6a932c59849040e2a56bebf579d38759?pvs=21) to view your favorite tokens and collectibles in this list.
+    - See our guide on [how to add tokens](https://www.arconnect.io/help/article/how-to-add-tokens-to-show-up-in-arconnect) to view your favorite tokens and collectibles in this list.
 
     <!-- -->
 
