@@ -4,7 +4,7 @@ status: 'published'
 author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
-slug: 'install-and-setup'
+slug: 'how-to-install-and-setup-arconnect'
 description: 'A step-by-step guide on how to install and setup ArConnect.'
 coverImage: ''
 category: [{"value":"getting-started","label":"Getting started"},{"value":"pinned","label":"Pinned"}]
@@ -35,6 +35,8 @@ publishedAt: '2024-03-06T19:47:02.430Z'
 
     <!-- -->
 
+    <!-- -->
+
 ### Why do you need to download ArConnect from an extension/add-on store?
 
 - ArConnect is a browser extension, meaning that you need to add it to your browser to function.
@@ -48,6 +50,8 @@ publishedAt: '2024-03-06T19:47:02.430Z'
 ## Setup
 
 - Once ArConnect is installed, it will open the onboarding/setup page. You can also open this page manually by clicking the extension or its icon in the extensions list of your browser.
+
+<!-- -->
 
 > ⚠️ We recommend pinning the extension for easier access to your wallet when using dApps.
 
@@ -73,12 +77,16 @@ publishedAt: '2024-03-06T19:47:02.430Z'
         > 
         > 
         > <!-- -->
+        > 
+        > <!-- -->
 
     4. On the next screen, you’ll need to confirm your seedphrase. Word suggestions will make this a faster and easier process for you.
 
     5. Next you can choose your UI theme (dark/light/automatic). You can change this later in the settings.
 
     6. And you’re ready! Click “Done” to finish the setup.
+
+    <!-- -->
 
     <!-- -->
 

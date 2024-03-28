@@ -1,6 +1,6 @@
 {
-  "commit": "a9dde360674889ea7b7bacaeed40ea738e4e70d4",
-  "generated": "2024-03-28T02:22:43.482Z",
+  "commit": "c836e507a42def97f679ff85860adbd8f2386285",
+  "generated": "2024-03-28T02:22:52.187Z",
   "metadata": [
     {
       "__outstatic": {
@@ -41,30 +41,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Arweave for Beginners: How to Buy Arweave Tokens",
       "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
-    },
-    {
-      "__outstatic": {
-        "commit": "7d3ecba5613dbbe1dbaba538c5045ccd1bda5395",
-        "hash": "1522745295",
-        "path": "outstatic/content/knowledge-base-articles/operating-arconnect.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
-      "publishedAt": "2023-09-23T12:13:50.100Z",
-      "slug": "operating-arconnect",
-      "status": "published",
-      "title": "How to operate ArConnect?"
     },
     {
       "__outstatic": {
@@ -189,34 +165,6 @@
       "slug": "what-is-arconnect",
       "status": "published",
       "title": "What is ArConnect?"
-    },
-    {
-      "__outstatic": {
-        "commit": "5f3dc8c96be819e1ed6009b1858aa7c43939f64e",
-        "hash": "3131716636",
-        "path": "outstatic/content/knowledge-base-articles/install-and-setup.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "A step-by-step guide on how to install and setup ArConnect.",
-      "publishedAt": "2024-03-06T19:47:02.430Z",
-      "slug": "install-and-setup",
-      "status": "published",
-      "title": "How to install and setup ArConnect?"
     },
     {
       "__outstatic": {
@@ -672,27 +620,31 @@
     },
     {
       "__outstatic": {
-        "commit": "a9dde360674889ea7b7bacaeed40ea738e4e70d4",
-        "hash": "2287071607",
-        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
+        "commit": "c836e507a42def97f679ff85860adbd8f2386285",
+        "hash": "3014793676",
+        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
       },
       "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
       "category": [
         {
           "label": "Getting started",
           "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2023-09-23T12:13:50.100Z",
-      "slug": "how-to-operate-arconnect",
+      "description": "A step-by-step guide on how to install and setup ArConnect.",
+      "publishedAt": "2024-03-06T19:47:02.430Z",
+      "slug": "how-to-install-and-setup-arconnect",
       "status": "published",
-      "title": "How to operate ArConnect?"
+      "title": "How to install and setup ArConnect?"
     }
   ]
 }
