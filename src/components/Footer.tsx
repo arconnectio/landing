@@ -46,8 +46,7 @@ export default function Footer() {
             <a href="/support" target="_blank" rel="noopener noreferrer">
               Chat
             </a>
-            {/** Uncomment once knowledge base content is published */}
-            {/*<Link href="/help">Help Center</Link>*/}
+            <Link href="/help">Help Center</Link>
             <Link href="/recover">Recovery</Link>
           </LinkColumn>
           <LinkColumn>
