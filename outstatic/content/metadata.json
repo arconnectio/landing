@@ -1,7 +1,27 @@
 {
-  "commit": "db2a2af744f05652df05b6de338795657cb8ef07",
-  "generated": "2024-03-28T07:14:54.056Z",
+  "commit": "eb7394dec94d90bcf7e883689a547b235b3d254a",
+  "generated": "Wed, 17 Apr 2024 16:38:12 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "69a8865f552ccedee04042832d4517075ffdc151",
+        "hash": "428959778",
+        "path": "outstatic/content/blogs/arconnect-launches-fiat-to-ar-token-onramp.md"
+      },
+      "author": {
+        "name": "Matt DiRienzo",
+        "picture": "/images/matt-E0NT.jpeg"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/hero-QxNT.jpeg",
+      "description": "Purchase AR Tokens from your ArConnect wallet with multiple different fiat currencies and payment methods",
+      "publishedAt": "2023-12-27T15:49:37.577Z",
+      "slug": "arconnect-launches-fiat-to-ar-token-onramp",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "ArConnect launches fiat to AR token onramp ",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
     {
       "__outstatic": {
         "commit": "090fc51b683d678f235ed35ccd831f24ea85f044",
@@ -20,6 +40,86 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "ArConnect Just Leveled Up to 1.0",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "ca608ada80e4f3eafb5435921045f29195039022",
+        "hash": "3610416646",
+        "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/framer-cms-blog-image-E4Nz.png",
+      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. ",
+      "publishedAt": "2024-02-15T00:59:29.172Z",
+      "slug": "security-best-practices-for-crypto-wallets",
+      "status": "published",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "Security Best Practices for Crypto Wallets ",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "826f325ca499f8b7d602ca0a3fce166c9686907a",
+        "hash": "127991962",
+        "path": "outstatic/content/blogs/release-announcement-notifications.md"
+      },
+      "author": {
+        "name": "Matt DiRenzo",
+        "picture": "/images/matt-e0nt-A4Mz.jpeg"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/main-YxND.png",
+      "description": "Never miss an Arweave or ao transactions with ArConnect notifications",
+      "publishedAt": "2024-03-13T17:29:32.801Z",
+      "slug": "release-announcement-notifications",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Release Announcement: Notifications",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "dc5f0f252ae27123055f419df8a179ce6b4256b1",
+        "hash": "633992790",
+        "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
+      },
+      "author": {
+        "name": "ropats16",
+        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/wayfinder-final-v2-k5ND.png",
+      "description": "ArConnect integrates ar.io's Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.",
+      "publishedAt": "2023-10-31T17:22:52.571Z",
+      "slug": "introducing-wayfinder-a-new-era-for-arweaves-permaweb",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
+      "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
+    },
+    {
+      "__outstatic": {
+        "commit": "650f686040a39ba167a13a8315a483ab7b032afb",
+        "hash": "2930495488",
+        "path": "outstatic/content/blogs/contacts-new-send-flow.md"
+      },
+      "author": {
+        "name": "Matt DiRenzo",
+        "picture": "https://www.arconnect.io/images/matt-E0NT.jpeg"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/banner-IxMz.png",
+      "description": "Transacting on ArConnect just received its biggest upgrade yet",
+      "publishedAt": "2024-02-15T02:03:36.000Z",
+      "slug": "contacts-new-send-flow",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -44,71 +144,107 @@
     },
     {
       "__outstatic": {
-        "commit": "7d3ecba5613dbbe1dbaba538c5045ccd1bda5395",
-        "hash": "1522745295",
-        "path": "outstatic/content/knowledge-base-articles/operating-arconnect.md"
+        "commit": "43ace850d674d31b6a96ba808731c70b03ed0505",
+        "hash": "3959253175",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
       },
       "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
       "category": [
         {
-          "label": "Getting started",
-          "value": "getting-started"
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
-      "publishedAt": "2023-09-23T12:13:50.100Z",
-      "slug": "operating-arconnect",
+      "description": "",
+      "publishedAt": "2024-03-11T04:29:03.489Z",
+      "slug": "how-to-add-a-contact-in-arconnect",
       "status": "published",
-      "title": "How to operate ArConnect?"
+      "title": "How to add a contact in ArConnect?"
     },
     {
       "__outstatic": {
-        "commit": "ca5d293f99be08b912fa27a899a0ad8db050f043",
-        "hash": "633992790",
-        "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
+        "commit": "23e468443cf3669ec90b0172b4a3f13f5ef1e56c",
+        "hash": "2184516756",
+        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
       },
       "author": {
-        "name": "ropats16",
-        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
-      "collection": "blogs",
-      "coverImage": "/images/wayfinder-final-v2-k5ND.png",
-      "description": "ArConnect integrates ar.io's Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.",
-      "publishedAt": "2023-10-31T17:22:52.571Z",
-      "slug": "introducing-wayfinder-a-new-era-for-arweaves-permaweb",
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Find out how to gain access back to your wallet.",
+      "publishedAt": "2024-03-08T12:45:32.352Z",
+      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
-      "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
+      "title": "How do I access my wallet if I forget my password?"
     },
     {
       "__outstatic": {
-        "commit": "6a27d08fe0359a85038b9f41a62037c2d697b9f3",
-        "hash": "428959778",
-        "path": "outstatic/content/blogs/arconnect-launches-fiat-to-ar-token-onramp.md"
+        "commit": "8dd0f4d4af4c8132e4bfe1c55f8e9d7ef6265d51",
+        "hash": "3400355092",
+        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
       },
       "author": {
-        "name": "Matt DiRienzo",
-        "picture": "/images/matt-E0NT.jpeg"
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
-      "collection": "blogs",
-      "coverImage": "/images/hero-QxNT.jpeg",
-      "description": "Purchase AR Tokens from your ArConnect wallet with multiple different fiat currencies and payment methods",
-      "publishedAt": "2023-12-27T15:49:37.577Z",
-      "slug": "arconnect-launches-fiat-to-ar-token-onramp",
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "What are Arweave gateways and its integration with ArConnect?",
+      "publishedAt": "2024-03-08T14:00:57.349Z",
+      "slug": "arweave-gateways-in-arconnect",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "ArConnect launches fiat to AR token onramp ",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+      "title": "Arweave gateways in ArConnect"
     },
     {
       "__outstatic": {
-        "commit": "3aadc8419570cc554d4bf0389cb2a52d24d0878e",
+        "commit": "73420fca85989cb9bdf088e99160398ce07412bd",
+        "hash": "1203246091",
+        "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-09T05:26:34.560Z",
+      "slug": "arweave-bundles-in-arconnect",
+      "status": "published",
+      "title": "Arweave bundles in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "0cd14a7dfad77b5c3030bb3ad6080e6dd8a98a06",
         "hash": "1795843192",
         "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
       },
@@ -128,53 +264,41 @@
     },
     {
       "__outstatic": {
-        "commit": "76aab42f4fdcc1b576ffe37ccf51315f71a093bd",
-        "hash": "2930495488",
-        "path": "outstatic/content/blogs/contacts-new-send-flow.md"
-      },
-      "author": {
-        "name": "Matt DiRenzo",
-        "picture": "https://www.arconnect.io/images/matt-E0NT.jpeg"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/banner-IxMz.png",
-      "description": "Transacting on ArConnect just received its biggest upgrade yet",
-      "publishedAt": "2024-02-15T02:03:36.000Z",
-      "slug": "contacts-new-send-flow",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "ae4a19c513a98b2507e13404e0ac85bb68caffca",
-        "hash": "3610416646",
-        "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
-      },
-      "author": {
-        "name": "Bithiah Koshy",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/framer-cms-blog-image-E4Nz.png",
-      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. ",
-      "publishedAt": "2024-02-15T00:59:29.172Z",
-      "slug": "security-best-practices-for-crypto-wallets",
-      "status": "published",
-      "themeColor": "rgb(171, 154, 255)",
-      "title": "Security Best Practices for Crypto Wallets ",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "adbabb71f1b3d476e8a13eb53620bea16bdb80e5",
-        "hash": "2439904334",
-        "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
+        "commit": "7e2ed2d2300c4f48767a68d1188d764697ba4568",
+        "hash": "1187186172",
+        "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
       },
       "author": {
         "name": "Bithiah",
         "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T00:46:34.135Z",
+      "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
+      "status": "published",
+      "title": "How to receive tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
+        "commit": "89d399db808857870d381eab08ff06e516836c9e",
+        "hash": "690320985",
+        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
       },
       "category": [
         {
@@ -184,17 +308,17 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "What is ArConnect?",
-      "publishedAt": "2024-03-06T18:44:53.511Z",
-      "slug": "what-is-arconnect",
+      "description": "",
+      "publishedAt": "2023-09-23T12:13:50.100Z",
+      "slug": "how-to-operate-arconnect",
       "status": "published",
-      "title": "What is ArConnect?"
+      "title": "How to operate ArConnect?"
     },
     {
       "__outstatic": {
-        "commit": "5f3dc8c96be819e1ed6009b1858aa7c43939f64e",
-        "hash": "3131716636",
-        "path": "outstatic/content/knowledge-base-articles/install-and-setup.md"
+        "commit": "338a3f578842f1cd40b63a67ff9bc47c10c5ef17",
+        "hash": "2594647516",
+        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -214,205 +338,13 @@
       "coverImage": "",
       "description": "A step-by-step guide on how to install and setup ArConnect.",
       "publishedAt": "2024-03-06T19:47:02.430Z",
-      "slug": "install-and-setup",
+      "slug": "how-to-install-and-setup-arconnect",
       "status": "published",
       "title": "How to install and setup ArConnect?"
     },
     {
       "__outstatic": {
-        "commit": "d5f0efea495a59012940116017d2b39547c6dcb2",
-        "hash": "2311055425",
-        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Find out what a JSON keyfile is.",
-      "publishedAt": "2023-09-24T21:27:47.445Z",
-      "slug": "what-is-a-json-keyfile",
-      "status": "published",
-      "title": "What is a JSON keyfile?"
-    },
-    {
-      "__outstatic": {
-        "commit": "cda1bf4ae91dee00482f05c2cc42fed18f3d76ca",
-        "hash": "2256020574",
-        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2023-09-24T21:27:09.654Z",
-      "slug": "what-is-arweave",
-      "status": "published",
-      "title": "What is Arweave?"
-    },
-    {
-      "__outstatic": {
-        "commit": "ae042b88216071a6c767f4f547e3470b7753f8e8",
-        "hash": "4021661761",
-        "path": "outstatic/content/knowledge-base-articles/fees-in-arconnect.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a ut aliquam maxime assumenda dolor veritatis non blanditiis eos, quisquam facere rem accusantium, error praesentium suscipit eligendi unde ducimus deserunt.",
-      "publishedAt": "2023-09-24T21:25:52.814Z",
-      "slug": "fees-in-arconnect",
-      "status": "draft",
-      "title": "Fees in ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "8db8351ff2414ce8a7024b39185eb48bf0705604",
-        "hash": "225902703",
-        "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.",
-      "publishedAt": "2024-03-08T02:33:21.793Z",
-      "slug": "security-best-practices",
-      "status": "published",
-      "title": "Security Best Practices"
-    },
-    {
-      "__outstatic": {
-        "commit": "74064b3f7ba9398920b91bc8e2ff91a4c094baf0",
-        "hash": "1836276371",
-        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-08T12:06:47.988Z",
-      "slug": "permission-system-in-arconnect",
-      "status": "published",
-      "title": "Permission system in ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "662e8ec21822ac1cf1f050a0d7e6b6e26d8a4d77",
-        "hash": "3444748539",
-        "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Find out about what the Permaweb is.",
-      "publishedAt": "2024-03-10T01:29:50.760Z",
-      "slug": "what-is-the-permaweb",
-      "status": "published",
-      "title": "What is the Permaweb?"
-    },
-    {
-      "__outstatic": {
-        "commit": "b19911cc8bceca953bd7c36cbccf08110de4c0bf",
-        "hash": "366057026",
-        "path": "outstatic/content/knowledge-base-articles/using-the-keystone-hardware-wallet-with-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T05:07:11.108Z",
-      "slug": "using-the-keystone-hardware-wallet-with-arconnect",
-      "status": "published",
-      "title": "Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "6d0558233be3bf38a4c8973cd3fd52ed6faef387",
-        "hash": "127991962",
-        "path": "outstatic/content/blogs/release-announcement-notifications.md"
-      },
-      "author": {
-        "name": "Matt DiRenzo",
-        "picture": "/images/matt-e0nt-A4Mz.jpeg"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/main-YxND.png",
-      "description": "Never miss an Arweave or ao transactions with ArConnect notifications",
-      "publishedAt": "2024-03-13T17:29:32.801Z",
-      "slug": "release-announcement-notifications",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Release Announcement: Notifications",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "706129380c7f67a15380ca51fd179c214b96a372",
+        "commit": "fe3e12320a4022967f530739bf1ec41e879d4882",
         "hash": "1621713588",
         "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
       },
@@ -444,31 +376,7 @@
     },
     {
       "__outstatic": {
-        "commit": "9728e7606c0a2571139d8a651e19e69521ad20da",
-        "hash": "3959253175",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:29:03.489Z",
-      "slug": "how-to-add-a-contact-in-arconnect",
-      "status": "published",
-      "title": "How to add a contact in ArConnect?"
-    },
-    {
-      "__outstatic": {
-        "commit": "cffd962e41645cf6b34ce2d0d29f5ec08d34deda",
+        "commit": "88b22930a29de159344b363c5d843a361e0120ab",
         "hash": "1057376349",
         "path": "outstatic/content/knowledge-base-articles/how-to-add-tokens-to-show-up-in-arconnect.md"
       },
@@ -492,7 +400,103 @@
     },
     {
       "__outstatic": {
-        "commit": "6e595249a9b0ec0ca5a3f15da73383a1e2c440c2",
+        "commit": "6db0cda9c244437f039704b1a5fbb2d47eb7b0b2",
+        "hash": "225902703",
+        "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.",
+      "publishedAt": "2024-03-08T02:33:21.793Z",
+      "slug": "security-best-practices",
+      "status": "published",
+      "title": "Security Best Practices"
+    },
+    {
+      "__outstatic": {
+        "commit": "caf57135631cf370ff4bb3848e9d794ba430dc4f",
+        "hash": "1605655808",
+        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-08T04:37:23.280Z",
+      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
+      "status": "published",
+      "title": "Protecting your funds: allowance limits and how they work"
+    },
+    {
+      "__outstatic": {
+        "commit": "21ecf4118f85f3fea24b4512d88c4368e63e7421",
+        "hash": "1836276371",
+        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-08T12:06:47.988Z",
+      "slug": "permission-system-in-arconnect",
+      "status": "published",
+      "title": "Permission system in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "0fdf0fc8638d3160c194fdad2cf9d1037ef6fdc0",
+        "hash": "534317929",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-10T01:51:41.332Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
+      "status": "published",
+      "title": "How to use ArConnect with a dApp?"
+    },
+    {
+      "__outstatic": {
+        "commit": "8b6881e1bd966dc9d7e3705b5b8d6fc1db6a4506",
         "hash": "3632199309",
         "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
       },
@@ -520,9 +524,9 @@
     },
     {
       "__outstatic": {
-        "commit": "5946d8160f48d3af7fa6d061edafbab8c7e7cb54",
-        "hash": "3400355092",
-        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
+        "commit": "494d85fc1ac6938f066dd3b74b718aff163a4fe2",
+        "hash": "3444748539",
+        "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
       },
       "author": {
         "name": "Bithiah",
@@ -530,99 +534,23 @@
       },
       "category": [
         {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
+          "label": "Getting started",
+          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "What are Arweave gateways and its integration with ArConnect?",
-      "publishedAt": "2024-03-08T14:00:57.349Z",
-      "slug": "arweave-gateways-in-arconnect",
+      "description": "Find out about what the Permaweb is.",
+      "publishedAt": "2024-03-10T01:29:50.760Z",
+      "slug": "what-is-the-permaweb",
       "status": "published",
-      "title": "Arweave gateways in ArConnect"
+      "title": "What is the Permaweb?"
     },
     {
       "__outstatic": {
-        "commit": "b9eb408e27dac7fa9d613abea36d7a5f4395e0d9",
-        "hash": "1203246091",
-        "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-09T05:26:34.560Z",
-      "slug": "arweave-bundles-in-arconnect",
-      "status": "published",
-      "title": "Arweave bundles in ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "790b937b602ba4d95459122917353dfd91689ea1",
-        "hash": "1605655808",
-        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-08T04:37:23.280Z",
-      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
-      "status": "published",
-      "title": "Protecting your funds: allowance limits and how they work"
-    },
-    {
-      "__outstatic": {
-        "commit": "33dad98c336051d1cd37de8c6c5fb8f2fbc0c916",
-        "hash": "2184516756",
-        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Find out how to gain access back to your wallet.",
-      "publishedAt": "2024-03-08T12:45:32.352Z",
-      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
-      "status": "published",
-      "title": "How do I access my wallet if I forget my password?"
-    },
-    {
-      "__outstatic": {
-        "commit": "42f6cc5a00d4d957c20c9e82993ee2aac4c87461",
-        "hash": "690320985",
-        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
+        "commit": "1fc19b6a070a5133a303ebf96c6d69a6fdde76be",
+        "hash": "2256020574",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
       },
       "author": {
         "name": "Marton Lederer",
@@ -637,16 +565,16 @@
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2023-09-23T12:13:50.100Z",
-      "slug": "how-to-operate-arconnect",
+      "publishedAt": "2023-09-24T21:27:09.654Z",
+      "slug": "what-is-arweave",
       "status": "published",
-      "title": "How to operate ArConnect?"
+      "title": "What is Arweave?"
     },
     {
       "__outstatic": {
-        "commit": "678a01935aa44eefef8fd3b571600873a506e80d",
-        "hash": "2594647516",
-        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+        "commit": "12fcba47eeaca2442e8d6755ab47b6b7055f2fa1",
+        "hash": "2439904334",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -656,25 +584,45 @@
         {
           "label": "Getting started",
           "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "A step-by-step guide on how to install and setup ArConnect.",
-      "publishedAt": "2024-03-06T19:47:02.430Z",
-      "slug": "how-to-install-and-setup-arconnect",
+      "description": "What is ArConnect?",
+      "publishedAt": "2024-03-06T18:44:53.511Z",
+      "slug": "what-is-arconnect",
       "status": "published",
-      "title": "How to install and setup ArConnect?"
+      "title": "What is ArConnect?"
     },
     {
       "__outstatic": {
-        "commit": "dc5b2b966f309181e45618cc26ea9a57345c0e47",
-        "hash": "1187186172",
-        "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
+        "commit": "11871c247a0de42ecc7e7468b08800be6723d686",
+        "hash": "2311055425",
+        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Find out what a JSON keyfile is.",
+      "publishedAt": "2023-09-24T21:27:47.445Z",
+      "slug": "what-is-a-json-keyfile",
+      "status": "published",
+      "title": "What is a JSON keyfile?"
+    },
+    {
+      "__outstatic": {
+        "commit": "3c973f9ff0a52584c28101f86f24dcde408f3771",
+        "hash": "366057026",
+        "path": "outstatic/content/knowledge-base-articles/using-the-keystone-hardware-wallet-with-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -686,30 +634,6 @@
           "value": "wallet-management"
         },
         {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T00:46:34.135Z",
-      "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "How to receive tokens in your ArConnect wallet?"
-    },
-    {
-      "__outstatic": {
-        "commit": "db2a2af744f05652df05b6de338795657cb8ef07",
-        "hash": "534317929",
-        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
           "label": "Apps & connections",
           "value": "apps-and-connections"
         }
@@ -717,10 +641,10 @@
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-03-10T01:51:41.332Z",
-      "slug": "how-to-use-arconnect-with-a-dapp",
+      "publishedAt": "2024-03-11T05:07:11.108Z",
+      "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
-      "title": "How to use ArConnect with a dApp?"
+      "title": "Using the Keystone Hardware Wallet with ArConnect"
     }
   ]
 }
