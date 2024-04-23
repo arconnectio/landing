@@ -67,7 +67,7 @@ export default function KnowledgeBase({ pinned, last }: Props) {
           <Question>How can we help?</Question>
           <Title>Knowledge Base</Title>
           <Spacer y={1.6} />
-          <SearchBox>
+          {/* <SearchBox>
             <SearchInput
               type="text"
               placeholder="Search for questions, articles or keywords..."
@@ -75,7 +75,7 @@ export default function KnowledgeBase({ pinned, last }: Props) {
               value={searchQuery}
             />
             <SearchIcon />
-          </SearchBox>
+          </SearchBox> */}
         </TitleSection>
         <Spacer y={3} />
         {(searchResults.length > 0 && (
