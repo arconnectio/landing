@@ -21,15 +21,19 @@ Instead of having to add the recipient details for every transaction, for regula
 
     1. Open ArConnect..
 
-    2. Click the “settings” icon on the extension’s main view. <br>
+    2. Click the “settings” icon on the extension’s main view.
 
-         ![](/images/screen-shot-2024-03-27-at-10.24.09-pm-A5Mz.png)
+        ![](/images/screen-shot-2024-03-27-at-10.24.09-pm-A5Mz.png)
 
-    3. Select the “Contacts” setting from the sidebar.![](/images/screen-shot-2024-03-27-at-10.25.16-pm-g2Mj.png)
+    3. Select the “Contacts” setting from the sidebar.<br>
 
-    4. Click the “Add contact” button located at the center of the Settings Page.
+        <br>
 
-        ![](/images/screen-shot-2024-03-27-at-10.25.58-pm-AxNz.png)
+        ![](/images/screen-shot-2024-03-27-at-10.25.16-pm-g2Mj.png)<br>
+
+    4. Click the “Add contact” button located at the center of the Settings Page.<br>
+
+        ![](/images/screen-shot-2024-03-27-at-10.25.58-pm-AxNz.png)<br>
 
     5. A form is displayed on the right hand side of the Settings Page.
 
@@ -51,7 +55,9 @@ Instead of having to add the recipient details for every transaction, for regula
 
         <!-- -->
 
-    7. Once all details are filled in, click on the "Save New Contact" button located at the bottom of the form to add the contact to your list.![](/images/screen-shot-2024-03-27-at-10.27.07-pm-I3Nz.png)
+    7. Once all details are filled in, click on the "Save New Contact" button located at the bottom of the form to add the contact to your list.
+
+        ![](/images/screen-shot-2024-03-27-at-10.27.07-pm-I3Nz.png)
 
     8. The newly added contact will now appear in the center screen of ArConnect, ready for use in transactions.
 
@@ -63,15 +69,21 @@ Instead of having to add the recipient details for every transaction, for regula
 
 ## How to update a contact in ArConnect?
 
-
-
 - Follow these steps to update an existing contact:
 
     1. Open ArConnect.
 
-    2. Click the “settings” icon on the extension’s main view.![](/images/screen-shot-2024-03-27-at-10.30.13-pm-Y4Mz.png)
+    2. Click the “settings” icon on the extension’s main view.<br>
 
-    3. Select the “Contacts” setting from the sidebar.![](/images/screen-shot-2024-03-27-at-10.30.52-pm-k0Nj.png)
+        <br>
+
+        ![](/images/screen-shot-2024-03-27-at-10.30.13-pm-Y4Mz.png)
+
+    3. Select the “Contacts” setting from the sidebar.<br>
+
+        <br>
+
+        ![](/images/screen-shot-2024-03-27-at-10.30.52-pm-k0Nj.png)
 
     4. Search for the desired contact from the list of contacts located in the center of the Settings Page.
 
@@ -83,7 +95,11 @@ Instead of having to add the recipient details for every transaction, for regula
 
     7. This displays the form to update the details.
 
-    8. Update the details as needed.![](/images/screen-shot-2024-03-27-at-10.33.44-pm-UyNz.png)
+    8. Update the details as needed.<br>
+
+        <br>
+
+        ![](/images/screen-shot-2024-03-27-at-10.33.44-pm-UyNz.png)
 
     9. Click “Save changes” located at the bottom of the form to confirm the updates.
 
@@ -95,11 +111,9 @@ Instead of having to add the recipient details for every transaction, for regula
 
     1. Open ArConnect..
 
-    2. Click the “settings” icon on the extension’s main view.![](blob:https://www.arconnect.io/0f9d7ca3-2afc-41da-abcb-9bb4b89e61ea)
+    2. Click the “settings” icon on the extension’s main view.
 
     3. Select the “Contacts” setting from the sidebar.
-
-        ![](blob:https://www.arconnect.io/a075b38d-8dba-48fe-9f51-19effa66da42)
 
     4. Search for the desired contact from the list of contacts located in the center of the Settings Page.
 
@@ -107,13 +121,11 @@ Instead of having to add the recipient details for every transaction, for regula
 
     6. Click the “edit” icon located at the top right next to the title “Contact Info”.
 
-        ![](blob:https://www.arconnect.io/0f6ae089-8c01-4692-8e36-72738bfda085)
-
     7. This displays the form to update the details.
 
     8. Click “Remove contact” located at the bottom of the form.
 
-    9. The contact is removed from the list located at the center of the Settings Page.![](/images/screen-shot-2024-03-27-at-10.31.57-pm-c1ND.png)
+    9. The contact is removed from the list located at the center of the Settings Page.
 
     <!-- -->
 
