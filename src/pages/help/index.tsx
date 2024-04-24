@@ -40,20 +40,12 @@ export default function KnowledgeBase({ pinned, last }: Props) {
         return setSearchResults([]);
       }
 
-      try {
-        // fetch results
-        const response = await fetch(
-          `/api/help/search?q=${encodeURIComponent(searchQuery)}`
-        );
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
-        setSearchResults(data.results);
-      } catch (error) {
-        console.error("Failed to fetch search results:", error);
-        setSearchResults([]);
-      }
+      // fetch results
+      const res = await (
+        await fetch(`/api/help/search?q=${encodeURIComponent(searchQuery)}`)
+      ).json();
+
+      setSearchResults(res.results);
     })();
   }, [searchQuery]);
 
