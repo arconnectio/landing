@@ -21,7 +21,7 @@ Within [ArConnect](https://www.arconnect.io/), you can create multiple wallets. 
 
 To implement this, go to Settings > Wallets and tap Add wallet.
 
-![](/images/screenshot-2024-04-23-at-7.25.55-pm-M1OD.png)<br>
+![](/images/screenshot-2024-04-23-at-7.25.55-pm-Y3ND.png)<br>
 
 <br>
 
