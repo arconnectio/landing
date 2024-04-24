@@ -1,6 +1,6 @@
 {
-  "commit": "be5f8b57567634928980e270f31896cc10c84fa8",
-  "generated": "Wed, 24 Apr 2024 19:22:09 GMT",
+  "commit": "64555f7af28633fd391632f539cead914cceab14",
+  "generated": "2024-04-24T19:23:24.831Z",
   "metadata": [
     {
       "__outstatic": {
@@ -344,38 +344,6 @@
     },
     {
       "__outstatic": {
-        "commit": "af4fb09d20b980bfc0b2ef712f85190813528d88",
-        "hash": "614717737",
-        "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T05:50:46.792Z",
-      "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
-      "status": "published",
-      "title": "How to create multiple public addresses with same private key?"
-    },
-    {
-      "__outstatic": {
         "commit": "88b22930a29de159344b363c5d843a361e0120ab",
         "hash": "1057376349",
         "path": "outstatic/content/knowledge-base-articles/how-to-add-tokens-to-show-up-in-arconnect.md"
@@ -645,6 +613,38 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "64555f7af28633fd391632f539cead914cceab14",
+        "hash": "4182248099",
+        "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T05:50:46.792Z",
+      "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
+      "status": "published",
+      "title": "How to create multiple public addresses with same private key?"
     }
   ]
 }

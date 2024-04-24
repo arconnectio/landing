@@ -19,11 +19,9 @@ Within [ArConnect](https://www.arconnect.io/), you can create multiple wallets. 
 
 - Different address
 
-To implement this, go to Settings > Wallets and tap Add wallet.
+To implement this, go to Settings > Wallets and tap Add wallet
 
 ![](/images/screenshot-2024-04-23-at-7.25.55-pm-Y3ND.png)<br>
-
-<br>
 
 Make sure to use the same password that you created your ArConnect wallet. You **do not** create a new password despite creating a new seed phrase.
 
