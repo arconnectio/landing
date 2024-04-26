@@ -14,8 +14,6 @@ publishedAt: '2024-04-26T02:16:24.485Z'
 
 Arweave is known for its permanent data storage infrastructure. It offers a revolutionary approach to storing NFTs, ensuring the accessibility of digital assets. Unlike traditional blockchains, Arweave's permaweb guarantees secure and censorship-resistant storage for NFT data. <br>
 
-<br>
-
 There are a variety of [applications](https://www.arconnect.io/apps) that support ArConnect within the Arweave ecosystem. Some NFT marketplaces include but are not limited to [Pianity](https://pianity.com/), [Art by City](https://artby.city/), and [BazAR](https://bazar.arweave.dev/).
 
 - **Preservation on Ownership:** The permanence of data storage is a key advantage of storing NFTs on Arweave. Arweave’s blockchain architecture allows NFTs to be stored permanently, eliminating the risk of data loss or tampering. And with a low-cost storage model, it makes itself very accessible to a wide range of creators and collectors.
@@ -40,7 +38,9 @@ Before acquiring and storing NFTs on Arweave, one must create or obtain them. Af
 
 5\. Go back to your Dashboard and view your new NFT
 
-To view your own minted NFTs onchain, go to [ViewBlock](https://viewblock.io/arweave) and you’ll be able to see all of your own transactions, which includes NFTs. You can also simply enter in the search bar the transaction ID and select the transaction.\*\*![null](https://lh7-us.googleusercontent.com/j36k8Y-tw3nFmDMKa_iER4YQbgGxHiKPxQWOVXAHJdfiJi4jMcfPISnfOdXKOPHiaZIjZhcMuphgTQX2jXUZVVcX-MupSQLbQNN_Fh4dPZrl7au-mBMU0up1JGNMrKHHKSDIDCsrayqv_kk5NiHzCGo)<br>
+To view your own minted NFTs onchain, go to [ViewBlock](https://viewblock.io/arweave) and you’ll be able to see all of your own transactions, which includes NFTs. You can also simply enter in the search bar the transaction ID and select the transaction.
+
+![null](https://lh7-us.googleusercontent.com/j36k8Y-tw3nFmDMKa_iER4YQbgGxHiKPxQWOVXAHJdfiJi4jMcfPISnfOdXKOPHiaZIjZhcMuphgTQX2jXUZVVcX-MupSQLbQNN_Fh4dPZrl7au-mBMU0up1JGNMrKHHKSDIDCsrayqv_kk5NiHzCGo)<br>
 
 <br>
 
