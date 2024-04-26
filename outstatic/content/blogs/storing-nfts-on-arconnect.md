@@ -50,8 +50,6 @@ Ready to dive into the world of Arweave? Join over 20,000 users who are already 
 
 Looking for assistance or eager to join the community? Visit our [Discord server](https://discord.gg/sTkgHbkN) for support and engagement. <br>
 
-<br>
-
 And stay updated with the latest developments by following us on [X](https://twitter.com/arconnectio).
 
 <br>
