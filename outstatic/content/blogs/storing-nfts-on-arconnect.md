@@ -48,7 +48,7 @@ To view your own minted NFTs onchain, go to [ViewBlock](https://viewblock.io/arw
 
 Ready to dive into the world of Arweave? Join over 20,000 users who are already navigating the world of Arweave with ArConnect. Start by creating an account at [ArConnect](https://arconnect.io/download?utm_source=ArConnect+Blog&utm_medium=Post&utm_campaign=Storing+nfts+on+arconnect?utm_id=Storing+nfts+on+arconnect?).
 
-Looking for assistance or eager to join the community? Visit our [Discord server](https://discord.gg/sTkgHbkN) for support and engagement. <br>
+Looking for assistance or eager to join the community? Visit our [Discord server](https://discord.gg/uFkWB5GMfS) for support and engagement. <br>
 
 And stay updated with the latest developments by following us on [X](https://twitter.com/arconnectio).
 
