@@ -1,6 +1,6 @@
 {
-  "commit": "12644ba1fe959b98d1907acdd12860d6fba2d472",
-  "generated": "Wed, 24 Apr 2024 19:23:40 GMT",
+  "commit": "287d7edd3b17a5b854e44e9fb96149716cfb9bdd",
+  "generated": "2024-04-26T02:46:08.744Z",
   "metadata": [
     {
       "__outstatic": {
@@ -645,6 +645,26 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "287d7edd3b17a5b854e44e9fb96149716cfb9bdd",
+        "hash": "1822420930",
+        "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_nft-YxMj.png",
+      "description": "",
+      "publishedAt": "2024-04-26T02:16:24.485Z",
+      "slug": "storing-nfts-on-arconnect",
+      "status": "published",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "Storing NFTs/Collectibles with ArConnect",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
