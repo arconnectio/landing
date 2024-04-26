@@ -1,7 +1,27 @@
 {
-  "commit": "57147466b04ee14d577cd84daafb71bf085a8c38",
-  "generated": "2024-04-26T16:13:10.047Z",
+  "commit": "b50296076cd61da57c987798195bf990a99b5c43",
+  "generated": "Fri, 26 Apr 2024 16:13:20 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "5180f24cc8e8887c9f92e46e4fb794393822ae99",
+        "hash": "1984669019",
+        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
+      },
+      "author": {
+        "name": "Matthew DiRienzo",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arweave-for-beginners-hero-Y3OD.webp",
+      "description": "",
+      "publishedAt": "2023-08-03T18:34:52.000Z",
+      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
+      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
+    },
     {
       "__outstatic": {
         "commit": "090fc51b683d678f235ed35ccd831f24ea85f044",
@@ -24,8 +44,28 @@
     },
     {
       "__outstatic": {
-        "commit": "ca608ada80e4f3eafb5435921045f29195039022",
-        "hash": "3610416646",
+        "commit": "63380f2a68f4baae2622ed1b68135f61c28376c8",
+        "hash": "4284349112",
+        "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_nft-YxMj.png",
+      "description": "",
+      "publishedAt": "2024-04-26T02:16:24.485Z",
+      "slug": "storing-nfts-on-arconnect",
+      "status": "published",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "Storing NFTs/Collectibles with ArConnect",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "5e18bdf605f457e140723ca7841346878a9f702d",
+        "hash": "2686783191",
         "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
       },
       "author": {
@@ -101,26 +141,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "5180f24cc8e8887c9f92e46e4fb794393822ae99",
-        "hash": "1984669019",
-        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
-      },
-      "author": {
-        "name": "Matthew DiRienzo",
-        "picture": ""
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arweave-for-beginners-hero-Y3OD.webp",
-      "description": "",
-      "publishedAt": "2023-08-03T18:34:52.000Z",
-      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
-      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
     },
     {
       "__outstatic": {
@@ -625,26 +645,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "1f4639b722f373bffb97f2d04858f0c39db4538e",
-        "hash": "4284349112",
-        "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah Koshy",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect_nft-YxMj.png",
-      "description": "",
-      "publishedAt": "2024-04-26T02:16:24.485Z",
-      "slug": "storing-nfts-on-arconnect",
-      "status": "published",
-      "themeColor": "rgb(171, 154, 255)",
-      "title": "Storing NFTs/Collectibles with ArConnect",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
