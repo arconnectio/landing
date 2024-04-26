@@ -1,27 +1,7 @@
 {
-  "commit": "1f4639b722f373bffb97f2d04858f0c39db4538e",
-  "generated": "2024-04-26T03:11:12.607Z",
+  "commit": "57147466b04ee14d577cd84daafb71bf085a8c38",
+  "generated": "2024-04-26T16:13:10.047Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "69a8865f552ccedee04042832d4517075ffdc151",
-        "hash": "428959778",
-        "path": "outstatic/content/blogs/arconnect-launches-fiat-to-ar-token-onramp.md"
-      },
-      "author": {
-        "name": "Matt DiRienzo",
-        "picture": "/images/matt-E0NT.jpeg"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/hero-QxNT.jpeg",
-      "description": "Purchase AR Tokens from your ArConnect wallet with multiple different fiat currencies and payment methods",
-      "publishedAt": "2023-12-27T15:49:37.577Z",
-      "slug": "arconnect-launches-fiat-to-ar-token-onramp",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "ArConnect launches fiat to AR token onramp ",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
     {
       "__outstatic": {
         "commit": "090fc51b683d678f235ed35ccd831f24ea85f044",
