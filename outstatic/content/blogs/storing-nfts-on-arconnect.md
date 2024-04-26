@@ -18,9 +18,9 @@ Arweave is known for its permanent data storage infrastructure. It offers a revo
 
 There are a variety of [applications](https://www.arconnect.io/apps) that support ArConnect within the Arweave ecosystem. Some NFT marketplaces include but are not limited to [Pianity](https://pianity.com/), [Art by City](https://artby.city/), and [BazAR](https://bazar.arweave.dev/).
 
-- ***Preservation on Ownership: ***The permanence of data storage is a key advantage of storing NFTs on Arweave. Arweave’s blockchain architecture allows NFTs to be stored permanently, eliminating the risk of data loss or tampering. And with a low-cost storage model, it makes itself very accessible to a wide range of creators and collectors.
+- **Preservation on Ownership:** The permanence of data storage is a key advantage of storing NFTs on Arweave. Arweave’s blockchain architecture allows NFTs to be stored permanently, eliminating the risk of data loss or tampering. And with a low-cost storage model, it makes itself very accessible to a wide range of creators and collectors.
 
-- ***Beyond Traditional Storage: ***The ecosystem offers ways to enhance NFT storage and management. With protocols like the [Universal Data License](https://mirror.xyz/0x64eA438bd2784F2C52a9095Ec0F6158f847182d9/AjNBmiD4A4Sw-ouV9YtCO6RCq0uXXcGwVJMB5cdfbhE) (UDL) and the [Universal Content Marketplace](https://ucm-wiki.g8way.io/#/en/main) (UCM), creators have greater flexibility when monetizing and distributing their NFTs, while collectors benefit from decentralized and transparent trading platforms. These features bring community engagement, which is the key driving force for the NFT experience.
+- **Beyond Traditional Storage:** The ecosystem offers ways to enhance NFT storage and management. With protocols like the [Universal Data License](https://mirror.xyz/0x64eA438bd2784F2C52a9095Ec0F6158f847182d9/AjNBmiD4A4Sw-ouV9YtCO6RCq0uXXcGwVJMB5cdfbhE) (UDL) and the [Universal Content Marketplace](https://ucm-wiki.g8way.io/#/en/main) (UCM), creators have greater flexibility when monetizing and distributing their NFTs, while collectors benefit from decentralized and transparent trading platforms. These features bring community engagement, which is the key driving force for the NFT experience.
 
 ## **Storing and Viewing NFTs with ArConnect**
 
@@ -40,11 +40,9 @@ Before acquiring and storing NFTs on Arweave, one must create or obtain them. Af
 
 5\. Go back to your Dashboard and view your new NFT
 
-To view your own minted NFTs onchain, go to [ViewBlock](https://viewblock.io/arweave) and you’ll be able to see all of your own transactions, which includes NFTs. You can also simply enter in the search bar the transaction ID and select the transaction.**![null](https://lh7-us.googleusercontent.com/j36k8Y-tw3nFmDMKa_iER4YQbgGxHiKPxQWOVXAHJdfiJi4jMcfPISnfOdXKOPHiaZIjZhcMuphgTQX2jXUZVVcX-MupSQLbQNN_Fh4dPZrl7au-mBMU0up1JGNMrKHHKSDIDCsrayqv_kk5NiHzCGo)<br>
+To view your own minted NFTs onchain, go to [ViewBlock](https://viewblock.io/arweave) and you’ll be able to see all of your own transactions, which includes NFTs. You can also simply enter in the search bar the transaction ID and select the transaction.\*\*![null](https://lh7-us.googleusercontent.com/j36k8Y-tw3nFmDMKa_iER4YQbgGxHiKPxQWOVXAHJdfiJi4jMcfPISnfOdXKOPHiaZIjZhcMuphgTQX2jXUZVVcX-MupSQLbQNN_Fh4dPZrl7au-mBMU0up1JGNMrKHHKSDIDCsrayqv_kk5NiHzCGo)<br>
 
 <br>
-
-**
 
 ## **Getting Started with ArConnect**
 

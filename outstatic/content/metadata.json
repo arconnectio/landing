@@ -1,6 +1,6 @@
 {
-  "commit": "287d7edd3b17a5b854e44e9fb96149716cfb9bdd",
-  "generated": "2024-04-26T02:46:08.744Z",
+  "commit": "6d35f29dfc4fe5cf2729be4631a08bc9c371aff4",
+  "generated": "2024-04-26T02:49:58.332Z",
   "metadata": [
     {
       "__outstatic": {
@@ -648,8 +648,8 @@
     },
     {
       "__outstatic": {
-        "commit": "287d7edd3b17a5b854e44e9fb96149716cfb9bdd",
-        "hash": "1822420930",
+        "commit": "6d35f29dfc4fe5cf2729be4631a08bc9c371aff4",
+        "hash": "2414458954",
         "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
       },
       "author": {
