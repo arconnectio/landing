@@ -39,14 +39,15 @@ export default function Footer() {
             <Link href="/blog">Blog</Link>
             <Link href="/branding">Branding</Link>
             <Link href="/privacy">Privacy Policy</Link>
-            <Link href="/audit.pdf">Security Audit</Link>
+            <Link href="/audit.pdf">Security Audit - July 2023</Link>
+            <Link href="/audit-2024.pdf">Security Audit - May 2024</Link>
           </LinkColumn>
           <LinkColumn>
             <ColumnTitle>Help</ColumnTitle>
             <a href="/support" target="_blank" rel="noopener noreferrer">
               Chat
             </a>
-            <Link href="/help">Help Center</Link>
+            {/* <Link href="/help">Help Center</Link> */}
             <Link href="/recover">Recovery</Link>
           </LinkColumn>
           <LinkColumn>
