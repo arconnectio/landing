@@ -7,7 +7,7 @@ title: 'How to create multiple public addresses with same private key?'
 status: 'published'
 slug: 'how-to-create-multiple-public-addresses-with-same-private-key'
 description: ''
-category: [{"value":"wallet-management","label":"Wallet management"},{"value":"getting-started","label":"Getting started"},{"value":"pinned","label":"Pinned"}]
+category: [{"value":"wallet-management","label":"Wallet management"},{"value":"getting-started","label":"Getting started"}]
 publishedAt: '2024-03-11T05:50:46.792Z'
 ---
 

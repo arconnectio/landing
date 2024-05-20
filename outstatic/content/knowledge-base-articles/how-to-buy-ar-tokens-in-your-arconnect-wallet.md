@@ -7,7 +7,7 @@ author:
 slug: 'how-to-buy-ar-tokens-in-your-arconnect-wallet'
 description: ''
 coverImage: ''
-category: [{"value":"getting-started","label":"Getting started"}]
+category: [{"value":"getting-started","label":"Getting started"},{"value":"pinned","label":"Pinned"}]
 publishedAt: '2024-05-20T13:06:34.473Z'
 ---
 
@@ -17,11 +17,11 @@ publishedAt: '2024-05-20T13:06:34.473Z'
 
 - Click the “Buy AR” button located on the extension’s main view above the list of assets.
 
-    ![](/images/screenshot-2024-05-20-at-2.59.24-pm-EwND.png)
+                  ![](/images/screenshot-2024-05-20-at-2.59.24-pm-EwND.png)
 
 - Click on the currency dropdown on the Buy screen to choose the fiat currency you will be using to purchase AR tokens.
 
-![](/images/screenshot-2024-05-20-at-3.02.30-pm-E0ND.png)
+                  ![](/images/screenshot-2024-05-20-at-3.02.30-pm-E0ND.png)
 
 - Enter the amount of your chosen fiat currency that you will exchange for AR tokens.
 
