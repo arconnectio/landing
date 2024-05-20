@@ -1,6 +1,6 @@
 {
-  "commit": "9943b1a49ee79f7b2b7612c26dfeb6bbcc18da1e",
-  "generated": "2024-05-20T15:47:52.774Z",
+  "commit": "92f29455204b4e814cfceb7a68abc5256b95634a",
+  "generated": "Mon, 20 May 2024 15:48:07 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -64,26 +64,6 @@
     },
     {
       "__outstatic": {
-        "commit": "63380f2a68f4baae2622ed1b68135f61c28376c8",
-        "hash": "4284349112",
-        "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah Koshy",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect_nft-YxMj.png",
-      "description": "",
-      "publishedAt": "2024-04-26T02:16:24.485Z",
-      "slug": "storing-nfts-on-arconnect",
-      "status": "published",
-      "themeColor": "rgb(171, 154, 255)",
-      "title": "Storing NFTs/Collectibles with ArConnect",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
         "commit": "0cd14a7dfad77b5c3030bb3ad6080e6dd8a98a06",
         "hash": "1795843192",
         "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
@@ -100,6 +80,26 @@
       "status": "published",
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Where do wallets fit in the world of crypto?",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "63380f2a68f4baae2622ed1b68135f61c28376c8",
+        "hash": "4284349112",
+        "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_nft-YxMj.png",
+      "description": "",
+      "publishedAt": "2024-04-26T02:16:24.485Z",
+      "slug": "storing-nfts-on-arconnect",
+      "status": "published",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "Storing NFTs/Collectibles with ArConnect",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -396,6 +396,34 @@
     },
     {
       "__outstatic": {
+        "commit": "6f1189f436e8d506a95c85ab4e1dcea127b0d1bb",
+        "hash": "1555475755",
+        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-20T13:06:34.473Z",
+      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
+      "status": "published",
+      "title": "How to buy AR Tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
         "commit": "6db0cda9c244437f039704b1a5fbb2d47eb7b0b2",
         "hash": "225902703",
         "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
@@ -641,34 +669,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "9943b1a49ee79f7b2b7612c26dfeb6bbcc18da1e",
-        "hash": "1555475755",
-        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-20T13:06:34.473Z",
-      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "How to buy AR Tokens in your ArConnect wallet?"
     }
   ]
 }
