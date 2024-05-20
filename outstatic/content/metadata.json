@@ -1,6 +1,6 @@
 {
   "commit": "642616f6e173c7c6df8aacd5d181816783de94b1",
-  "generated": "2024-05-20T12:44:40.223Z",
+  "generated": "2024-05-20T12:51:04.731Z",
   "metadata": [
     {
       "__outstatic": {
@@ -629,7 +629,7 @@
     {
       "__outstatic": {
         "commit": "642616f6e173c7c6df8aacd5d181816783de94b1",
-        "hash": "1180603544",
+        "hash": "2741893572",
         "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
       },
       "author": {
@@ -637,7 +637,7 @@
         "picture": ""
       },
       "collection": "blogs",
-      "coverImage": "/images/arweave-for-beginners-hero-Y3OD.webp",
+      "coverImage": "/images/home--dark-mode--IyOD.svg",
       "description": "",
       "publishedAt": "2023-08-03T18:34:52.000Z",
       "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",

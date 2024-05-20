@@ -2,7 +2,7 @@
 author:
   name: 'Matthew DiRienzo'
   picture: ''
-coverImage: '/images/arweave-for-beginners-hero-Y3OD.webp'
+coverImage: '/images/home--dark-mode--IyOD.svg'
 title: 'Arweave for Beginners: How to Buy Arweave Tokens'
 status: 'published'
 slug: 'arweave-for-beginners-how-to-buy-arweave-tokens'
