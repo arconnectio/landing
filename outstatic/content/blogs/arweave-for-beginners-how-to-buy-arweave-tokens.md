@@ -2,11 +2,11 @@
 author:
   name: 'Matthew DiRienzo'
   picture: ''
-coverImage: '/images/home--dark-mode--gxOT.svg'
+coverImage: '/images/home--dark-mode--UyOD.svg'
 title: 'Arweave for Beginners: How to Buy Arweave Tokens'
 status: 'published'
 slug: 'arweave-for-beginners-how-to-buy-arweave-tokens'
-description: ''
+description: 'How to Buy Arweave Tokens'
 transparentThumbnail: 'https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo'
 themeColor: 'rgba(0, 0, 0, .15)'
 publishedAt: '2024-05-19T18:34:52.000Z'
@@ -49,6 +49,8 @@ The process of using one of these services is pretty simple: sign up for an acco
 Some on-ramp services that support AR Tokens are:
 
 - [Onramper](https://onramper.com/try)
+
+<!-- -->
 
 Unfortunately, for United States residents, not all on-ramp service supports the U.S. dollar (yet). Always make sure you check the service's country support list before trying to use the service.
 
