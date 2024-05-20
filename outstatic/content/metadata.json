@@ -1,6 +1,6 @@
 {
-  "commit": "db5b27728d7efd59d4f79700a13e519055094816",
-  "generated": "2024-05-20T13:09:33.309Z",
+  "commit": "3919873def1d88dd9888e75112afc4c5b71ddd45",
+  "generated": "Mon, 20 May 2024 13:09:51 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -60,6 +60,26 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "ArConnect Just Leveled Up to 1.0",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "0cd14a7dfad77b5c3030bb3ad6080e6dd8a98a06",
+        "hash": "1795843192",
+        "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
+      },
+      "author": {
+        "name": "Rohit Pathare",
+        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/blog-image-M0OD.png",
+      "description": "This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.",
+      "publishedAt": "2024-01-04T16:01:34.068Z",
+      "slug": "where-do-wallets-fit-in-the-world-of-crypto",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Where do wallets fit in the world of crypto?",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -141,26 +161,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
       "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
-    },
-    {
-      "__outstatic": {
-        "commit": "0cd14a7dfad77b5c3030bb3ad6080e6dd8a98a06",
-        "hash": "1795843192",
-        "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
-      },
-      "author": {
-        "name": "Rohit Pathare",
-        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/blog-image-M0OD.png",
-      "description": "This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.",
-      "publishedAt": "2024-01-04T16:01:34.068Z",
-      "slug": "where-do-wallets-fit-in-the-world-of-crypto",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Where do wallets fit in the world of crypto?",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
       "__outstatic": {
@@ -397,6 +397,30 @@
       "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
       "status": "published",
       "title": "How to create multiple public addresses with same private key?"
+    },
+    {
+      "__outstatic": {
+        "commit": "abade6b2463ad76c475657955d362c034700f615",
+        "hash": "4026289670",
+        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-20T13:06:34.473Z",
+      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
+      "status": "published",
+      "title": "How to buy AR Tokens in your ArConnect wallet?"
     },
     {
       "__outstatic": {
@@ -645,30 +669,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "db5b27728d7efd59d4f79700a13e519055094816",
-        "hash": "4026289670",
-        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-20T13:06:34.473Z",
-      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "How to buy AR Tokens in your ArConnect wallet?"
     }
   ]
 }
