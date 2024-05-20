@@ -1,6 +1,6 @@
 ---
 title: 'How to buy AR Tokens in your ArConnect wallet?'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/139958714?v=4'
@@ -31,6 +31,8 @@ publishedAt: '2024-05-20T13:06:34.473Z'
 
     <!-- -->
 
+    <!-- -->
+
 - ArConnect display the amount of AR tokens you will receive in exchange of your fiat amount.
 
 - Click the “Payment method” drop down to choose your payment method of choice from the list of available payment methods.
@@ -49,11 +51,9 @@ publishedAt: '2024-05-20T13:06:34.473Z'
 
     <!-- -->
 
-*Please note, ArConnect does not store any personal information or payment method details. Any personal information or payment method details provided is done directly via Transak's user interface. Transak's privacy policy can be found *[*here*](https://transak.com/privacy-policy)*.*
+    <!-- -->
+
+\*Please note, ArConnect does not store any personal information or payment method details. Any personal information or payment method details provided is done directly via Transak's user interface. Transak's privacy policy can be found \*[*here*](https://transak.com/privacy-policy)*.*
 
 *Lastly, this feature is available in ArConnect v1.11.0 or later.*
-
-
-
-
 
