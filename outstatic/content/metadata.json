@@ -1,7 +1,27 @@
 {
-  "commit": "642616f6e173c7c6df8aacd5d181816783de94b1",
-  "generated": "2024-05-20T12:51:35.765Z",
+  "commit": "f8bd0bb972b0d8cb544d1181ae2fc1807f8a8e7e",
+  "generated": "Mon, 20 May 2024 12:51:59 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "c1d27f43b2929a860f06884b2bd45c5c8a08e63f",
+        "hash": "1570967182",
+        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
+      },
+      "author": {
+        "name": "Matthew DiRienzo",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "/images/home--dark-mode--gxOT.svg",
+      "description": "",
+      "publishedAt": "2024-05-19T18:34:52.000Z",
+      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
+      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
+    },
     {
       "__outstatic": {
         "commit": "090fc51b683d678f235ed35ccd831f24ea85f044",
@@ -625,26 +645,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "642616f6e173c7c6df8aacd5d181816783de94b1",
-        "hash": "1570967182",
-        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
-      },
-      "author": {
-        "name": "Matthew DiRienzo",
-        "picture": ""
-      },
-      "collection": "blogs",
-      "coverImage": "/images/home--dark-mode--gxOT.svg",
-      "description": "",
-      "publishedAt": "2024-05-19T18:34:52.000Z",
-      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
-      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
     }
   ]
 }
