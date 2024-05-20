@@ -2,7 +2,7 @@
 author:
   name: 'Matthew DiRienzo'
   picture: ''
-coverImage: '/images/home--dark-mode--k5MD.svg'
+coverImage: '/images/home--dark-mode--gxOT.svg'
 title: 'Arweave for Beginners: How to Buy Arweave Tokens'
 status: 'published'
 slug: 'arweave-for-beginners-how-to-buy-arweave-tokens'
@@ -97,4 +97,6 @@ Whenever using a new service for the first time, please do your research and rea
 Regardless of which method above you used to get your AR Tokens, once they are in your Arweave account, you are all set up to use Arweave applications. You can then decide to [discover a new Arweave application](https://www.communitylabs.com/blog/arweave-for-beginners-getting-started) or view all the new art on [Art By City](https://artby.city/discover).
 
 If you have any questions or need help, please feel free to reach out to us here at [Community Labs](https://www.communitylabs.com/contact-us) via our contact page or in our [Discord](https://discord.gg/UaBMt24yka).
+
+*Updated 20 May 2024*
 
