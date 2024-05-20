@@ -14,9 +14,9 @@ export default function Features() {
             <FeatureTitle color="#fff">View your activity</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph color="#dfdfdf">
-              View Arweave-native token balances and NFTs across multiple
-              wallets and seamlessly switch between accounts. Oversee real-time
-              transaction history with access to view block, all in 1-click.
+              View Arweave & aoComputer token balances and NFTs across multiple 
+              wallets and seamlessly switch between accounts. Oversee real-time 
+              on chain transaction history all in 1-click.
             </FeatureParagraph>
             <Spacer y={2.5} />
             <Image
@@ -85,9 +85,9 @@ export default function Features() {
             <FeatureTitle color="#fff">Arweave apps</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph color="#fff">
-              ArConnect is the secure gateway to the leading platforms in the
-              growing Arweave ecosystem. Interact with dApps ranging from
-              permanent storage, NFT marketplaces, exchanges and more.
+              ArConnect is the secure gateway to the leading platforms in the 
+              growing Arweave and aoComputer ecosystem. Interact with dApps 
+              ranging from permanent storage, NFT marketplaces, exchanges and more.
             </FeatureParagraph>
             <Spacer y={2} />
             <Button href="#apps">
