@@ -28,7 +28,7 @@ export default function Nav({ latestBlog }: Props) {
 
   // is the display a mobile display
   const isMobile = useMediaQuery({
-    query: "(max-width: 720px)"
+    query: "(max-width: 800px)"
   });
 
   useEffect(() => {
