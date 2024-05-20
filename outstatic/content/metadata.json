@@ -1,6 +1,6 @@
 {
-  "commit": "a606576a42efb2129ef3eae8b56d51e516196b62",
-  "generated": "Mon, 20 May 2024 13:12:30 GMT",
+  "commit": "5f3189a891430cbc66013646b8fb5ef4f5842206",
+  "generated": "Mon, 20 May 2024 14:05:28 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -64,26 +64,6 @@
     },
     {
       "__outstatic": {
-        "commit": "0cd14a7dfad77b5c3030bb3ad6080e6dd8a98a06",
-        "hash": "1795843192",
-        "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
-      },
-      "author": {
-        "name": "Rohit Pathare",
-        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/blog-image-M0OD.png",
-      "description": "This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.",
-      "publishedAt": "2024-01-04T16:01:34.068Z",
-      "slug": "where-do-wallets-fit-in-the-world-of-crypto",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Where do wallets fit in the world of crypto?",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
         "commit": "63380f2a68f4baae2622ed1b68135f61c28376c8",
         "hash": "4284349112",
         "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
@@ -100,6 +80,26 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "Storing NFTs/Collectibles with ArConnect",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "0cd14a7dfad77b5c3030bb3ad6080e6dd8a98a06",
+        "hash": "1795843192",
+        "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
+      },
+      "author": {
+        "name": "Rohit Pathare",
+        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/blog-image-M0OD.png",
+      "description": "This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.",
+      "publishedAt": "2024-01-04T16:01:34.068Z",
+      "slug": "where-do-wallets-fit-in-the-world-of-crypto",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Where do wallets fit in the world of crypto?",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -368,8 +368,8 @@
     },
     {
       "__outstatic": {
-        "commit": "bf8e9005e10c2cc0f80a48f0f7da825efcc719fa",
-        "hash": "4182248099",
+        "commit": "519c19ba736f06db074b402f0a1d8430ba590b2a",
+        "hash": "1170780709",
         "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
       },
       "author": {
@@ -384,10 +384,6 @@
         {
           "label": "Getting started",
           "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -400,8 +396,8 @@
     },
     {
       "__outstatic": {
-        "commit": "56f475eeb0142ba29295c1af9b99aacb4b239358",
-        "hash": "3358434359",
+        "commit": "8fa37f6d2540d2a416d042facc96a2fa9f712ee2",
+        "hash": "784931814",
         "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
       },
       "author": {
@@ -412,6 +408,10 @@
         {
           "label": "Getting started",
           "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
         }
       ],
       "collection": "knowledge-base-articles",
