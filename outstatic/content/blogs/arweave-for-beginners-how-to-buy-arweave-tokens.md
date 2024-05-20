@@ -26,7 +26,21 @@ If you are experiencing Arweave for the first time, here is a guide on the diffe
 
 4. Identification (if necessary)
 
-## On ramp services
+## In ArConnect directly via Transak integration
+
+This process is the simplest but may require you to KYC depending on the region where are you located and the amount of AR Tokens you are trying to purchase.
+
+- Open your ArConnect wallet
+
+- Click the "Buy AR" button on the ArConnect dashboard
+
+- Enter the amount of AR Tokens you want to purchase along with the currency you want to pay in and your payment method.
+
+- Follow any additional steps in Transak user interface to complete the transaction.
+
+Please note, ArConnect does not store any personal information or payment method details. Any personal information or payment method details provided is done directly via Transak's user interface. Transak's privacy policy can be found [here](https://transak.com/privacy-policy).
+
+## Additional on ramp services
 
 In general, on ramp services are the most straightforward way to purchase AR Tokens. Most services accept multiple currencies and allow purchases with debit/credit cards, wire transfer, or other local payment methods.
 
@@ -36,9 +50,7 @@ Some on-ramp services that support AR Tokens are:
 
 - [Onramper](https://onramper.com/try)
 
-- [Transak](https://global.transak.com/)
-
-Unfortunately, for United States residents, no on-ramp service supports the U.S. yet. Always make sure you check the [service's country support list](https://transak.com/global-coverage) before trying to use the service.
+Unfortunately, for United States residents, not all on-ramp service supports the U.S. dollar (yet). Always make sure you check the service's country support list before trying to use the service.
 
 ## Centralized exchanges
 
