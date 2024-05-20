@@ -90,6 +90,12 @@ export default function Nav({ latestBlog }: Props) {
                   rel="noopener noreferer"
                 >
                   Docs
+                <NavLink
+                  href="https://www.arconnect.io/blog"
+                  target="_blank"
+                  rel="noopener noreferer"
+                >
+                  Blog
                 </NavLink>
               </NavPageLinks>
               <Link href="/download" passHref legacyBehavior>
