@@ -12,8 +12,8 @@ export default function Mission() {
         <Title>Our mission</Title>
         <Spacer y={0.2} mobileY={0.4} />
         <Statement>
-          We are here to provide you the best possible experience with Arweave
-          and the permaweb
+          We are here to provide you the best possible experience with Arweave, 
+          aoComputer, and the permaweb
         </Statement>
         <Spacer y={2.6} mobileY={3} />
         <Button href="/support" target="_blank" rel="noopener noreferer">

@@ -69,18 +69,6 @@ export default function Topic({ post, slug, related }: Props) {
             dangerouslySetInnerHTML={{ __html: post.content }}
             ref={articleContentEl as RefObject<HTMLDivElement>}
           ></Content>
-          <ContentNavigator>
-            <ContentNavigatorTitle>Content map</ContentNavigatorTitle>
-            {headings.map((heading, i) => (
-              <ContentLink
-                href={"#" + heading.link}
-                activeSection={window.location.hash === "#" + heading.link}
-                key={i}
-              >
-                {heading.title}
-              </ContentLink>
-            ))}
-          </ContentNavigator>
         </ContentWrapper>
         <Spacer y={2.5} />
         <Section>
