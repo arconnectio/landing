@@ -28,7 +28,7 @@ export default function Nav({ latestBlog }: Props) {
 
   // is the display a mobile display
   const isMobile = useMediaQuery({
-    query: "(max-width: 800px)"
+    query: "(max-width: 720px)"
   });
 
   useEffect(() => {
@@ -63,9 +63,9 @@ export default function Nav({ latestBlog }: Props) {
               height={512}
             />
           </Link>
-          <Spacer x={3} />
+          <Spacer x={2} />
           <Separator />
-          <Spacer x={3} />
+          <Spacer x={2} />
           <Hamburger onClick={() => setMobileOpen((val) => !val)}>
             <HamburgerIcon />
           </Hamburger>
@@ -115,7 +115,7 @@ export default function Nav({ latestBlog }: Props) {
 const Wrapper = styled.header<{ scroll: 1 | 0 }>`
   display: grid;
   align-items: center;
-  grid-template-columns: calc(2.5rem + 3rem + 3rem + 0.1rem) auto;
+  grid-template-columns: calc(2.5rem + 2rem + 2rem + 0.1rem) auto;
   position: sticky;
   top: 0;
   left: 0;
@@ -188,7 +188,7 @@ const NavElement = styled(motion.nav)`
 const NavPageLinks = styled.div`
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 
   @media screen and (max-width: 720px) {
     flex-direction: column;
