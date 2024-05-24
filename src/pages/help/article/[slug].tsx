@@ -215,6 +215,7 @@ const Content = styled.div`
     display: block;
     user-select: none;
     width: 100%;
+    margin-bottom: 2rem;
     aspect-ratio: 7/4;
     object-fit: contain;
     object-position: center;

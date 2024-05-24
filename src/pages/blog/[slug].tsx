@@ -262,10 +262,13 @@ const Content = styled.div`
   }
 
   img {
-    width: 100%;
     display: block;
     user-select: none;
-    margin-bottom: 2rem;
+    width: 100%;
+    aspect-ratio: 7/4;
+    object-fit: contain;
+    object-position: center;
+    background-color: rgba(${(props) => props.theme.accent}, .15);
   }
 `;
 
