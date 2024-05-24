@@ -210,6 +210,17 @@ const Content = styled.div`
     margin-bottom: 0.8rem;
     ${paragraphTitleStyles}
   }
+
+  img {
+    display: block;
+    user-select: none;
+    width: 100%;
+    margin-bottom: 2rem;
+    aspect-ratio: 7/4;
+    object-fit: contain;
+    object-position: center;
+    background-color: rgba(${(props) => props.theme.accent}, .15);
+  }
 `;
 
 const ContentNavigator = styled.section`

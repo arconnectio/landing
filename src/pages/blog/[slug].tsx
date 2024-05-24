@@ -158,7 +158,10 @@ const Thumbnail = styled.img`
   display: block;
   user-select: none;
   width: 100%;
-  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  object-position: center;
+  background-color: rgba(${(props) => props.theme.accent}, .15);
 `;
 
 const AuthorGroup = styled.div`
@@ -259,10 +262,13 @@ const Content = styled.div`
   }
 
   img {
-    width: 100%;
     display: block;
     user-select: none;
-    margin-bottom: 2rem;
+    width: 100%;
+    aspect-ratio: 7/4;
+    object-fit: contain;
+    object-position: center;
+    background-color: rgba(${(props) => props.theme.accent}, .15);
   }
 `;
 
@@ -270,6 +276,10 @@ const Recommended = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.55rem;
+
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 interface Params {
