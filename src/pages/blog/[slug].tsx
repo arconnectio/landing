@@ -158,7 +158,10 @@ const Thumbnail = styled.img`
   display: block;
   user-select: none;
   width: 100%;
-  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  object-position: center;
+  background-color: rgba(${(props) => props.theme.accent}, .15);
 `;
 
 const AuthorGroup = styled.div`
