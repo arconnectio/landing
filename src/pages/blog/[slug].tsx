@@ -270,6 +270,10 @@ const Recommended = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.55rem;
+
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 interface Params {
