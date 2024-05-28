@@ -33,9 +33,9 @@ export default function Features() {
             <FeatureTitle color="#fff">tokens with ease</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph color="#fff">
-              Powerful token management with an easy-to-use interface. All
-              wallet data is backed up by the secure browser extension storage
-              API keeping your assets safe.
+              Powerful Arweave and aoComputer token management with an easy-to-use 
+              interface. All wallet data is backed up by the secure browser extension 
+              storage API keeping your assets safe.
             </FeatureParagraph>
             <Spacer y={2.5} />
             <Image
