@@ -1,6 +1,6 @@
 {
-  "commit": "cbc2e4d1fe7c8f9798e54caf8be66477b69f7f38",
-  "generated": "Thu, 30 May 2024 17:29:43 GMT",
+  "commit": "4acfb7ac584136c7b6263d919ff5b2aa0ab4f850",
+  "generated": "Thu, 30 May 2024 17:30:07 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -516,30 +516,6 @@
     },
     {
       "__outstatic": {
-        "commit": "0fdf0fc8638d3160c194fdad2cf9d1037ef6fdc0",
-        "hash": "534317929",
-        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-10T01:51:41.332Z",
-      "slug": "how-to-use-arconnect-with-a-dapp",
-      "status": "published",
-      "title": "How to use ArConnect with a dApp?"
-    },
-    {
-      "__outstatic": {
         "commit": "8b6881e1bd966dc9d7e3705b5b8d6fc1db6a4506",
         "hash": "3632199309",
         "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
@@ -565,6 +541,30 @@
       "slug": "how-to-send-tokens-from-arconnect-to-other-users",
       "status": "published",
       "title": "How to send tokens from ArConnect to other users?"
+    },
+    {
+      "__outstatic": {
+        "commit": "0fdf0fc8638d3160c194fdad2cf9d1037ef6fdc0",
+        "hash": "534317929",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-10T01:51:41.332Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
+      "status": "published",
+      "title": "How to use ArConnect with a dApp?"
     },
     {
       "__outstatic": {
