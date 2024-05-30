@@ -1,6 +1,6 @@
 ---
 title: 'Beyond Transactions: Integration of ArConnect''s Subscription Feature'
-status: 'draft'
+status: 'published'
 author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/139958714?v=4'

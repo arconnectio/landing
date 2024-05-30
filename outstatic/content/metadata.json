@@ -1,6 +1,6 @@
 {
   "commit": "d91327ab5872c04228823a11acd901d0282fb1e2",
-  "generated": "2024-05-30T16:48:36.629Z",
+  "generated": "2024-05-30T16:48:41.050Z",
   "metadata": [
     {
       "__outstatic": {
@@ -673,7 +673,7 @@
     {
       "__outstatic": {
         "commit": "d91327ab5872c04228823a11acd901d0282fb1e2",
-        "hash": "3050125806",
+        "hash": "4254633922",
         "path": "outstatic/content/blogs/beyond-transactions-integration-of-arconnects-subscription-feature.md"
       },
       "author": {
@@ -685,7 +685,7 @@
       "description": "ArConnect's subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription management",
       "publishedAt": "2024-05-30T16:57:25.159Z",
       "slug": "beyond-transactions-integration-of-arconnects-subscription-feature",
-      "status": "draft",
+      "status": "published",
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
