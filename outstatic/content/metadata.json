@@ -1,6 +1,6 @@
 {
   "commit": "543e5fbe87c54323284cffbc5f63aad95909eebe",
-  "generated": "2024-05-30T14:49:14.059Z",
+  "generated": "2024-05-30T14:51:09.553Z",
   "metadata": [
     {
       "__outstatic": {
@@ -669,26 +669,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "543e5fbe87c54323284cffbc5f63aad95909eebe",
-        "hash": "3687506268",
-        "path": "outstatic/content/blogs/integration-of-arconnects-subscription-feature.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/announcement-blog-cover_arconnect-s-subscription-feature-kxOD.png",
-      "description": "Integration and Applications of ArConnect's Subscription Feature",
-      "publishedAt": "2024-05-29T15:18:10.000Z",
-      "slug": "integration-of-arconnects-subscription-feature",
-      "status": "draft",
-      "themeColor": "rgba(171, 154, 255, 0.2)",
-      "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
-      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
     }
   ]
 }
