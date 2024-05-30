@@ -12,8 +12,6 @@ themeColor: 'rgba(0, 0, 0, .15)'
 publishedAt: '2024-05-30T16:57:25.159Z'
 ---
 
-![](/images/announcement-blog-cover_arconnect-s-subscription-feature--1--EzOD.png)
-
 ArConnect's subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription management.
 
 ## API Integration and SDK
