@@ -5,7 +5,7 @@ author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/139958714?v=4'
 slug: 'beyond-transactions-integration-of-arconnects-subscription-feature'
-description: 'ArConnect''s subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription managemen'
+description: 'ArConnect''s subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription management'
 coverImage: '/images/announcement-blog-cover_arconnect-s-subscription-feature--1--k0Nz.png'
 transparentThumbnail: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI'
 themeColor: 'rgba(0, 0, 0, .15)'
