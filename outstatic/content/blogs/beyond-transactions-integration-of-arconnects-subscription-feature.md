@@ -46,7 +46,7 @@ From customizable allowances, auto-renewal options to payment histories, ArConne
 
 ## Getting Started with Subscriptions
 
-Ready to fuel the growth of your business? Start by heading over to the ArConnect developments docs to start your Subscriptions integration [here](https://docs.arconnect.io/?utm_source=Blog&utm_medium=Post&utm_campaign=Subscription+Announcement+-+Dapps&utm_id=Subscription+Announcement+-+Dapps).
+Ready to fuel the growth of your business? Start by heading over to the ArConnect developments docs to start your Subscriptions integration [here](https://docs.arconnect.io/api/subscriptions?utm_source=Blog&utm_medium=Post&utm_campaign=Subscription+Announcement+-+Dapps&utm_id=Subscription+Announcement+-+Dapps).
 
 Looking for assistance or eager to join the community? Visit our [Discord server](https://discord.gg/uFkWB5GMfS) for support and engagement.
 
