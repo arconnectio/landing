@@ -1,6 +1,6 @@
 {
-  "commit": "a661fbae3c57c7c902484262f9f4d99408bcf8aa",
-  "generated": "2024-05-30T14:33:28.806Z",
+  "commit": "3d9b8d9db85a74b306ca1d56675eb839970e2681",
+  "generated": "2024-05-30T14:37:27.503Z",
   "metadata": [
     {
       "__outstatic": {
@@ -21,26 +21,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "445113fca37cab2746fd7a149b9bfd387734edb6",
-        "hash": "2569796045",
-        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
-      },
-      "author": {
-        "name": "Matthew DiRienzo",
-        "picture": ""
-      },
-      "collection": "blogs",
-      "coverImage": "/images/home--dark-mode--UyOD.svg",
-      "description": "How to Buy Arweave Tokens",
-      "publishedAt": "2024-05-19T18:34:52.000Z",
-      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
-      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
     },
     {
       "__outstatic": {
@@ -689,6 +669,26 @@
       "themeColor": "rgb(171, 154, 255)",
       "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "3d9b8d9db85a74b306ca1d56675eb839970e2681",
+        "hash": "2372536785",
+        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
+      },
+      "author": {
+        "name": "Matthew DiRienzo",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "",
+      "description": "How to Buy Arweave Tokens",
+      "publishedAt": "2024-05-19T18:34:52.000Z",
+      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
+      "status": "published",
+      "themeColor": "rgba(171, 154, 255, 0.2)",
+      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
+      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
     }
   ]
 }
