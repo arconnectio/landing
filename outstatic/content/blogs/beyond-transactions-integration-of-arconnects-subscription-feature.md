@@ -2,8 +2,8 @@
 title: 'Beyond Transactions: Integration of ArConnect''s Subscription Feature'
 status: 'published'
 author:
-  name: 'Bithiah'
-  picture: 'https://avatars.githubusercontent.com/u/139958714?v=4'
+  name: 'Bithiah Koshy'
+  picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
 slug: 'beyond-transactions-integration-of-arconnects-subscription-feature'
 description: 'ArConnect''s subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription management'
 coverImage: '/images/announcement-blog-cover_arconnect-s-subscription-feature--1--k0Nz.png'
