@@ -2,7 +2,7 @@
 author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
-coverImage: '/images/announcement-blog-cover_arconnect-s-subscription-feature-Y5ND.png'
+coverImage: ''
 title: 'Beyond Transactions: Integration of ArConnect''s Subscription Feature'
 status: 'published'
 slug: 'integration-of-arconnects-subscription-feature'
