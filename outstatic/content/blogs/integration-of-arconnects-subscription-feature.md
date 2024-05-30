@@ -4,7 +4,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
 coverImage: '/images/announcement-blog-cover_arconnect-s-subscription-feature-kxOD.png'
 title: 'Beyond Transactions: Integration of ArConnect''s Subscription Feature'
-status: 'published'
+status: 'draft'
 slug: 'integration-of-arconnects-subscription-feature'
 description: 'Integration and Applications of ArConnect''s Subscription Feature'
 transparentThumbnail: 'https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo'
