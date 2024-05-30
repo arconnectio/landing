@@ -2,7 +2,7 @@
 author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
-coverImage: ''
+coverImage: '/images/announcement-blog-cover_arconnect-s-subscription-feature-k5ND.png'
 title: 'Beyond Transactions: Integration of ArConnect''s Subscription Feature'
 status: 'published'
 slug: 'integration-of-arconnects-subscription-feature'
@@ -20,13 +20,13 @@ ArConnect's comprehensive [API](https://docs.arconnect.io/api/intro?utm_source=B
 
 By integrating with ArConnect's subscription feature, applications can enhance user experiences and drive business growth.
 
-- ***Flexible Subscription Models****:* Offer a wide range of subscription durations, from daily to annually, catering to diverse user preferences and needs.
+- **Flexible Subscription Models:** Offer a wide range of subscription durations, from daily to annually, catering to diverse user preferences and needs.
 
-- ***Custom Allowances****:* Enabling users to set custom allowances or spending limits for their subscriptions.
+- **Custom Allowances:** Enabling users to set custom allowances or spending limits for their subscriptions.
 
-- ***Auto-Renewal Options:*** Provide users with the flexibility to enable or disable automatic subscription renewals, ensuring a transparent and user-friendly experience.
+- **Auto-Renewal Options:** Provide users with the flexibility to enable or disable automatic subscription renewals, ensuring a transparent and user-friendly experience.
 
-- ***Payment History and Notifications:*** Keep users informed with comprehensive payment histories and timely notifications for upcoming renewal dates, minimizing failure of payment.
+- **Payment History and Notifications:** Keep users informed with comprehensive payment histories and timely notifications for upcoming renewal dates, minimizing failure of payment.
 
 Also, security is always a priority for ArConnect which is why Subscriptions have been audited under our latest [security audit](https://www.arconnect.io/audit-2024.pdf?utm_source=Blog&utm_medium=Post+-+Audit+Link&utm_campaign=Subscription+Announcement&utm_id=Subscription+Announcement) by Open Security.
 
