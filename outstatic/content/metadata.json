@@ -1,6 +1,6 @@
 {
-  "commit": "d91327ab5872c04228823a11acd901d0282fb1e2",
-  "generated": "2024-05-30T16:48:41.050Z",
+  "commit": "4cba41671802ddf6ac2d84005154ce19adc9fad2",
+  "generated": "Thu, 30 May 2024 16:48:52 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -24,8 +24,28 @@
     },
     {
       "__outstatic": {
-        "commit": "445113fca37cab2746fd7a149b9bfd387734edb6",
-        "hash": "2569796045",
+        "commit": "e472516f73d961de86b42f52903763e8d0d9836b",
+        "hash": "4254633922",
+        "path": "outstatic/content/blogs/beyond-transactions-integration-of-arconnects-subscription-feature.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/announcement-blog-cover_arconnect-s-subscription-feature--1--k0Nz.png",
+      "description": "ArConnect's subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription management",
+      "publishedAt": "2024-05-30T16:57:25.159Z",
+      "slug": "beyond-transactions-integration-of-arconnects-subscription-feature",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "22deb1beaf7c5b2a3400d1d10461c9a7cd739098",
+        "hash": "2372536785",
         "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
       },
       "author": {
@@ -33,12 +53,12 @@
         "picture": ""
       },
       "collection": "blogs",
-      "coverImage": "/images/home--dark-mode--UyOD.svg",
+      "coverImage": "",
       "description": "How to Buy Arweave Tokens",
       "publishedAt": "2024-05-19T18:34:52.000Z",
       "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
+      "themeColor": "rgba(171, 154, 255, 0.2)",
       "title": "Arweave for Beginners: How to Buy Arweave Tokens",
       "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
     },
@@ -84,26 +104,6 @@
     },
     {
       "__outstatic": {
-        "commit": "63380f2a68f4baae2622ed1b68135f61c28376c8",
-        "hash": "4284349112",
-        "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah Koshy",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect_nft-YxMj.png",
-      "description": "",
-      "publishedAt": "2024-04-26T02:16:24.485Z",
-      "slug": "storing-nfts-on-arconnect",
-      "status": "published",
-      "themeColor": "rgb(171, 154, 255)",
-      "title": "Storing NFTs/Collectibles with ArConnect",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
         "commit": "5e18bdf605f457e140723ca7841346878a9f702d",
         "hash": "2686783191",
         "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
@@ -120,6 +120,26 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "Security Best Practices for Crypto Wallets ",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "63380f2a68f4baae2622ed1b68135f61c28376c8",
+        "hash": "4284349112",
+        "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_nft-YxMj.png",
+      "description": "",
+      "publishedAt": "2024-04-26T02:16:24.485Z",
+      "slug": "storing-nfts-on-arconnect",
+      "status": "published",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "Storing NFTs/Collectibles with ArConnect",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -669,26 +689,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "d91327ab5872c04228823a11acd901d0282fb1e2",
-        "hash": "4254633922",
-        "path": "outstatic/content/blogs/beyond-transactions-integration-of-arconnects-subscription-feature.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/announcement-blog-cover_arconnect-s-subscription-feature--1--k0Nz.png",
-      "description": "ArConnect's subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription management",
-      "publishedAt": "2024-05-30T16:57:25.159Z",
-      "slug": "beyond-transactions-integration-of-arconnects-subscription-feature",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
