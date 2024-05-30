@@ -1,6 +1,6 @@
 {
   "commit": "a661fbae3c57c7c902484262f9f4d99408bcf8aa",
-  "generated": "2024-05-30T14:41:55.986Z",
+  "generated": "2024-05-30T14:42:22.304Z",
   "metadata": [
     {
       "__outstatic": {
@@ -673,7 +673,7 @@
     {
       "__outstatic": {
         "commit": "a661fbae3c57c7c902484262f9f4d99408bcf8aa",
-        "hash": "1591700160",
+        "hash": "765344510",
         "path": "outstatic/content/blogs/integration-of-arconnects-subscription-feature.md"
       },
       "author": {
@@ -681,8 +681,8 @@
         "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
       "collection": "blogs",
-      "coverImage": "/images/announcement-blog-cover_arconnect-s-subscription-feature-M2MD.png",
-      "description": "",
+      "coverImage": "/images/announcement-blog-cover_arconnect-s-subscription-feature-kxOD.png",
+      "description": "Integration and Applications of ArConnect's Subscription Feature",
       "publishedAt": "2024-05-29T15:18:10.000Z",
       "slug": "integration-of-arconnects-subscription-feature",
       "status": "published",

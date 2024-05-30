@@ -2,11 +2,11 @@
 author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
-coverImage: '/images/announcement-blog-cover_arconnect-s-subscription-feature-M2MD.png'
+coverImage: '/images/announcement-blog-cover_arconnect-s-subscription-feature-kxOD.png'
 title: 'Beyond Transactions: Integration of ArConnect''s Subscription Feature'
 status: 'published'
 slug: 'integration-of-arconnects-subscription-feature'
-description: ''
+description: 'Integration and Applications of ArConnect''s Subscription Feature'
 transparentThumbnail: 'https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo'
 themeColor: 'rgba(171, 154, 255, 0.2)'
 publishedAt: '2024-05-29T15:18:10.000Z'
