@@ -109,7 +109,7 @@ publishedAt: '2024-03-11T04:20:47.772Z'
 
     3. Select the “Tokens” setting from the sidebar.
 
-        ![](blob:https://www.arconnect.io/28a7798b-ac53-4063-9c5a-ad0266dcd526)
+        ![](/images/screen-shot-2024-05-31-at-9.52.32-pm-cyND.png)
 
     4. Select the token you want to remove from the list of tokens located in the center of the Settings page.
 
