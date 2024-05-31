@@ -1,6 +1,6 @@
 {
-  "commit": "4749c2ed6664814d93f54cd0a4a6ffad159a0d8f",
-  "generated": "2024-05-30T17:58:49.432Z",
+  "commit": "4b3c0d3db575b1f732c96a6997f5af3d81561009",
+  "generated": "2024-05-31T01:40:22.413Z",
   "metadata": [
     {
       "__outstatic": {
@@ -672,8 +672,8 @@
     },
     {
       "__outstatic": {
-        "commit": "4749c2ed6664814d93f54cd0a4a6ffad159a0d8f",
-        "hash": "1555945277",
+        "commit": "4b3c0d3db575b1f732c96a6997f5af3d81561009",
+        "hash": "2445259923",
         "path": "outstatic/content/blogs/beyond-transactions-integration-of-arconnects-subscription-feature.md"
       },
       "author": {

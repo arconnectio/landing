@@ -20,9 +20,9 @@ ArConnect's comprehensive [API](https://docs.arconnect.io/api/intro?utm_source=B
 
 By integrating with ArConnect's subscription feature, applications can enhance user experiences and drive business growth.
 
-- ***Flexible Subscription Models****:* Offer a wide range of subscription durations, from daily to annually, catering to diverse user preferences and needs.
+- ***Flexible Subscription Models:*** Offer a wide range of subscription durations, from daily to annually, catering to diverse user preferences and needs.
 
-- ***Custom Allowances****:* Enabling users to set custom allowances or spending limits for their subscriptions.
+- ***Custom Allowances:*** Enabling users to set custom allowances or spending limits for their subscriptions.
 
 - ***Auto-Renewal Options:*** Provide users with the flexibility to enable or disable automatic subscription renewals, ensuring a transparent and user-friendly experience.
 
