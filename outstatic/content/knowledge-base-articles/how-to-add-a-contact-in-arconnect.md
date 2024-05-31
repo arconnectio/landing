@@ -25,9 +25,7 @@ Instead of having to add the recipient details for every transaction, for regula
 
         ![](/images/screen-shot-2024-03-27-at-10.24.09-pm-A5Mz.png)
 
-    3. Select the “Contacts” setting from the sidebar.<br>
-
-        <br>
+    3. Select the “Contacts” setting from the sidebar.
 
         ![](/images/screen-shot-2024-03-27-at-10.25.16-pm-g2Mj.png)<br>
 
@@ -73,15 +71,11 @@ Instead of having to add the recipient details for every transaction, for regula
 
     1. Open ArConnect.
 
-    2. Click the “settings” icon on the extension’s main view.<br>
-
-        <br>
+    2. Click the “settings” icon on the extension’s main view.
 
         ![](/images/screen-shot-2024-03-27-at-10.30.13-pm-Y4Mz.png)
 
     3. Select the “Contacts” setting from the sidebar.<br>
-
-        <br>
 
         ![](/images/screen-shot-2024-03-27-at-10.30.52-pm-k0Nj.png)
 
@@ -95,9 +89,7 @@ Instead of having to add the recipient details for every transaction, for regula
 
     7. This displays the form to update the details.
 
-    8. Update the details as needed.<br>
-
-        <br>
+    8. Update the details as needed.
 
         ![](/images/screen-shot-2024-03-27-at-10.33.44-pm-UyNz.png)
 

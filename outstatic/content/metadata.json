@@ -1,6 +1,6 @@
 {
-  "commit": "9ec77b4d3f0bb07ad1c6610bc36a93ca16551648",
-  "generated": "2024-05-31T12:28:16.005Z",
+  "commit": "a83df8380db35236bea0514a6f9d53576c6d9049",
+  "generated": "2024-05-31T13:02:23.075Z",
   "metadata": [
     {
       "__outstatic": {
@@ -161,30 +161,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
       "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
-    },
-    {
-      "__outstatic": {
-        "commit": "5b550aad0259a9a9cac6ce1f13aee1d043429a86",
-        "hash": "2324062511",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:29:03.489Z",
-      "slug": "how-to-add-a-contact-in-arconnect",
-      "status": "published",
-      "title": "How to add a contact in ArConnect?"
     },
     {
       "__outstatic": {
@@ -689,6 +665,30 @@
       "slug": "how-to-add-tokens-to-show-up-in-arconnect",
       "status": "published",
       "title": "How to add tokens to show up in ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "a83df8380db35236bea0514a6f9d53576c6d9049",
+        "hash": "1060416131",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:29:03.489Z",
+      "slug": "how-to-add-a-contact-in-arconnect",
+      "status": "published",
+      "title": "How to add a contact in ArConnect?"
     }
   ]
 }
