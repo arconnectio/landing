@@ -1,6 +1,6 @@
 {
-  "commit": "4b3c0d3db575b1f732c96a6997f5af3d81561009",
-  "generated": "2024-05-31T01:40:22.413Z",
+  "commit": "4d2d8f730f0f792ec661c503e919d4ad42b6c052",
+  "generated": "2024-05-31T12:25:48.452Z",
   "metadata": [
     {
       "__outstatic": {
@@ -161,30 +161,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
       "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
-    },
-    {
-      "__outstatic": {
-        "commit": "88b22930a29de159344b363c5d843a361e0120ab",
-        "hash": "1057376349",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-tokens-to-show-up-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:20:47.772Z",
-      "slug": "how-to-add-tokens-to-show-up-in-arconnect",
-      "status": "published",
-      "title": "How to add tokens to show up in ArConnect?"
     },
     {
       "__outstatic": {
@@ -689,6 +665,30 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "4d2d8f730f0f792ec661c503e919d4ad42b6c052",
+        "hash": "1119643367",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-tokens-to-show-up-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:20:47.772Z",
+      "slug": "how-to-add-tokens-to-show-up-in-arconnect",
+      "status": "published",
+      "title": "How to add tokens to show up in ArConnect?"
     }
   ]
 }

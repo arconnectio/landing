@@ -85,11 +85,9 @@ publishedAt: '2024-03-11T04:20:47.772Z'
 
     2. Click the “settings” icon on the extension’s main view.
 
-        ![](blob:https://www.arconnect.io/e0d009e2-8eca-4516-9b0e-58cdeacc344c)
-
     3. Select the “Tokens” setting from the sidebar.
 
-        ![](blob:https://www.arconnect.io/817d349f-b657-40cc-8d84-dc7662a7bf1f)
+        ![](/images/screen-shot-2024-05-31-at-9.52.32-pm-cyND.png)
 
     4. Select the token whose type you wish to change from the list of tokens located in the center of the Settings page.
 
@@ -109,15 +107,13 @@ publishedAt: '2024-03-11T04:20:47.772Z'
 
     2. Click the “settings” icon on the extension’s main view.
 
-        ![](blob:https://www.arconnect.io/e0d009e2-8eca-4516-9b0e-58cdeacc344c)
-
     3. Select the “Tokens” setting from the sidebar.
 
-        ![](blob:https://www.arconnect.io/817d349f-b657-40cc-8d84-dc7662a7bf1f)
+        ![](blob:https://www.arconnect.io/28a7798b-ac53-4063-9c5a-ad0266dcd526)
 
     4. Select the token you want to remove from the list of tokens located in the center of the Settings page.
 
-        ![](blob:https://www.arconnect.io/f22798cb-707a-499a-aa42-e981a17932cf)
+        ![](/images/screen-shot-2024-05-31-at-10.23.56-pm-g3NT.png)
 
     5. Click “Remove token” button located at the bottom right of the Settings page.
 
