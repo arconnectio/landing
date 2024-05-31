@@ -13,13 +13,9 @@ publishedAt: '2023-09-23T12:13:50.100Z'
 
 ## UI views of ArConnect
 
-
-
 ArConnect consists of multiple UI views. Here’s a brief overview of the available views and the features they provide:
 
 - Popover view - the main extension user interface.
-
-    ![](/images/screen-shot-2024-03-28-at-2.35.04-pm-EzMz.png)
 
     - Allows viewing your current wallet data.
 
@@ -79,7 +75,7 @@ The main extension view in ArConnect provides quick access to various features a
 
 - The main view allows access to all ArConnect views.
 
-    ![](blob:https://www.arconnect.io/553bcda1-9928-46d5-88d4-bec244d92eda)
+    ![](/images/screen-shot-2024-05-31-at-11.04.53-pm-c4ND.png)
 
 - Wallets - view and switch between your wallets.
 

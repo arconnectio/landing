@@ -1,6 +1,6 @@
 {
-  "commit": "a83df8380db35236bea0514a6f9d53576c6d9049",
-  "generated": "2024-05-31T13:02:23.075Z",
+  "commit": "3af50bc50ef4d1069aaed1455e965bd3dbc7c274",
+  "generated": "2024-05-31T13:05:26.388Z",
   "metadata": [
     {
       "__outstatic": {
@@ -265,30 +265,6 @@
       "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
       "status": "published",
       "title": "How to receive tokens in your ArConnect wallet?"
-    },
-    {
-      "__outstatic": {
-        "commit": "89d399db808857870d381eab08ff06e516836c9e",
-        "hash": "690320985",
-        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2023-09-23T12:13:50.100Z",
-      "slug": "how-to-operate-arconnect",
-      "status": "published",
-      "title": "How to operate ArConnect?"
     },
     {
       "__outstatic": {
@@ -689,6 +665,30 @@
       "slug": "how-to-add-a-contact-in-arconnect",
       "status": "published",
       "title": "How to add a contact in ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "3af50bc50ef4d1069aaed1455e965bd3dbc7c274",
+        "hash": "1806086049",
+        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2023-09-23T12:13:50.100Z",
+      "slug": "how-to-operate-arconnect",
+      "status": "published",
+      "title": "How to operate ArConnect?"
     }
   ]
 }
