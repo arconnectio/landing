@@ -81,7 +81,7 @@ ArConnect also integrates Wayfinder, that decentralizes gateway access, reducing
 
     1. Click the “Settings” icon on the extension’s main view of the ArConnect extension.
 
-        ![](blob:https://www.arconnect.io/3bc5af21-03a6-4efc-9c04-a25efbb80aa8)
+        ![](/images/screen-shot-2024-05-31-at-11.13.00-pm-Y5NT.png)
 
     2. Select the “Wayfinder” setting from the sidebar on the left hand side of the settings page.
 

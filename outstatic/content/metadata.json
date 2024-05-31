@@ -1,6 +1,6 @@
 {
-  "commit": "3af50bc50ef4d1069aaed1455e965bd3dbc7c274",
-  "generated": "2024-05-31T13:05:26.388Z",
+  "commit": "b2308a62e930d9993db0793cc367cf556c4225fd",
+  "generated": "2024-05-31T13:14:50.259Z",
   "metadata": [
     {
       "__outstatic": {
@@ -189,30 +189,6 @@
       "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
       "status": "published",
       "title": "How do I access my wallet if I forget my password?"
-    },
-    {
-      "__outstatic": {
-        "commit": "8dd0f4d4af4c8132e4bfe1c55f8e9d7ef6265d51",
-        "hash": "3400355092",
-        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "What are Arweave gateways and its integration with ArConnect?",
-      "publishedAt": "2024-03-08T14:00:57.349Z",
-      "slug": "arweave-gateways-in-arconnect",
-      "status": "published",
-      "title": "Arweave gateways in ArConnect"
     },
     {
       "__outstatic": {
@@ -689,6 +665,30 @@
       "slug": "how-to-operate-arconnect",
       "status": "published",
       "title": "How to operate ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "b2308a62e930d9993db0793cc367cf556c4225fd",
+        "hash": "1970251660",
+        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "What are Arweave gateways and its integration with ArConnect?",
+      "publishedAt": "2024-03-08T14:00:57.349Z",
+      "slug": "arweave-gateways-in-arconnect",
+      "status": "published",
+      "title": "Arweave gateways in ArConnect"
     }
   ]
 }
