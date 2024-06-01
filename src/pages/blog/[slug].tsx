@@ -28,7 +28,11 @@ export default function BlogPost({ post, content, recommended }: Props) {
 
   return (
     <>
-      <Head title={`${post.title} - ArConnect Arweave Wallet`} />
+      <Head
+        title={`${post.title} - ArConnect Arweave Wallet`}
+        description={post.description}
+        image={post.coverImage ? `https://arconnect.io${post.coverImage}` : undefined}
+      />
       <Nav />
       <main>
         <BlogSection>
