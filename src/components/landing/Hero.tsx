@@ -13,7 +13,7 @@ import {
   CodeIcon
 } from "@iconicicons/react";
 
-export default function Hero() {
+export default function Hero({ appCount }: Props) {
   return (
     <Wrapper>
       <HeroTitle>
@@ -48,7 +48,7 @@ export default function Hero() {
         <StatPanel icon={<DownloadIcon />} name="Installs" value={17245} />
         <StatPanel icon={<TagIcon />} name="Releases" value={26} />
         <StatLink href="/apps">
-          <StatPanel icon={<GridIcon />} name="Apps" value={20} plus />
+          <StatPanel icon={<GridIcon />} name="Apps" value={appCount} plus />
         </StatLink>
         <StatLink href="https://docs.arconnect.io/api/intro">
           <StatPanel icon={<CodeIcon />} name="API functions" value={16} />
@@ -141,3 +141,7 @@ const Stats = styled.div`
 const StatLink = styled(Link)`
   text-decoration: none;
 `;
+
+interface Props {
+  appCount: number;
+}

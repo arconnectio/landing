@@ -19,7 +19,9 @@ export default function Home({ applications, last }: Props) {
       <Head />
       <Nav latestBlog={last} />
       <Main>
-        <Hero />
+        <Hero
+          appCount={applications.length}
+        />
         <Features />
         <Apps apps={applications} />
         <Install />
@@ -36,36 +38,42 @@ const Main = styled.main`
 `;
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const applications = await getApps();
-  const db = await load();
-  const last = await db
-    .find<LastBlog>({
-      collection: "blogs"
-    })
-    // @ts-expect-error
-    .sort([{ publishedAt: -1 }])
-    .project(["slug", "title", "publishedAt"])
-    .first();
+  try {
+    const applications = await getApps();
+    const db = await load();
+    const last = await db
+      .find<LastBlog>({
+        collection: "blogs"
+      })
+      // @ts-expect-error
+      .sort([{ publishedAt: -1 }])
+      .project(["slug", "title", "publishedAt"])
+      .first();
 
-  // check if the blog was published in the last 5 days
-  const fiveDaysAgo = new Date();
-  const publishedDate = new Date(last?.publishedAt);
+    // check if the blog was published in the last 5 days
+    const fiveDaysAgo = new Date();
+    const publishedDate = new Date(last?.publishedAt);
 
-  fiveDaysAgo.setDate(fiveDaysAgo.getDate() - 5);
+    fiveDaysAgo.setDate(fiveDaysAgo.getDate() - 5);
 
-  // return last blog if it was posted recently
-  if (publishedDate.getTime() > fiveDaysAgo.getTime() && last) {
+    // return last blog if it was posted recently
+    if (publishedDate.getTime() > fiveDaysAgo.getTime() && last) {
+      return {
+        props: {
+          applications,
+          last
+        }
+      };
+    }
+
     return {
-      props: {
-        applications,
-        last
-      }
+      props: { applications }
     };
+  } catch {
+    return {
+      props: { applications: [] }
+    }
   }
-
-  return {
-    props: { applications }
-  };
 };
 
 interface Props {
