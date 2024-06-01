@@ -239,6 +239,23 @@ const Content = styled.div`
     color: rgb(${(props) => props.theme.accent});
     text-decoration: none;
     cursor: pointer;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      right: 0;
+      height: 2px;
+      width: 0;
+      background-color: rgb(${(props) => props.theme.accent});
+      transition: all .17s ease;
+    }
+
+    &:hover::after {
+      width: 100%;
+      left: 0;
+      right: unset;
+    }
   }
 
   p {
