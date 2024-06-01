@@ -54,12 +54,16 @@ export default function BlogPost({ post, content, recommended }: Props) {
               <ReadTime>{readTime + " min read"}</ReadTime>
             </div>
           </AuthorGroup>
-          <Spacer y={3} />
-          <Thumbnail
-            src={post.coverImage}
-            alt="Post cover image"
-            draggable={false}
-          />
+          {post.coverImage && (
+            <>
+              <Spacer y={3} />
+              <Thumbnail
+                src={post.coverImage}
+                alt="Post cover image"
+                draggable={false}
+              />
+            </>
+          )}
         </BlogSection>
         <BlogSection>
           <Content dangerouslySetInnerHTML={{ __html: content }}></Content>
