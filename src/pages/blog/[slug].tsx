@@ -32,7 +32,14 @@ export default function BlogPost({ post, content, recommended }: Props) {
         title={`${post.title} - ArConnect Arweave Wallet`}
         description={post.description}
         image={post.coverImage ? `https://arconnect.io${post.coverImage}` : undefined}
-      />
+      >
+        {post.tags && post.tags.length > 0 && (
+          <>
+            <meta name="keywords" content={post.tags.join(",")} />
+            <meta name="tags" content={post.tags.join(",")} />
+          </>
+        )}
+      </Head>
       <Nav />
       <main>
         <BlogSection>
