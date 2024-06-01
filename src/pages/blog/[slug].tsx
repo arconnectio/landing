@@ -54,6 +54,18 @@ export default function BlogPost({ post, content, recommended }: Props) {
               <ReadTime>{readTime + " min read"}</ReadTime>
             </div>
           </AuthorGroup>
+          {post.tags && post.tags.length > 0 && (
+            <>
+              <Spacer y={1} />
+              <Tags>
+                {post.tags.map((tag, i) => (
+                  <Tag key={i}>
+                    {tag}
+                  </Tag>
+                ))}
+              </Tags>
+            </>
+          )}
           {post.coverImage && (
             <>
               <Spacer y={3} />
@@ -98,7 +110,8 @@ export async function getStaticProps({ params }: Params) {
       "publishedAt",
       "coverImage",
       "content",
-      "description"
+      "description",
+      "tags"
     ])
     .first();
 
@@ -176,6 +189,23 @@ const AuthorGroup = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
+`;
+
+const Tags = styled.ul`
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  list-style: none;
+  padding: 0;
+`;
+
+const Tag = styled.li`
+  background-color: rgba(${props => props.theme.accent}, .11);
+  color: rgb(${props => props.theme.secondaryText});
+  border-radius: 9px;
+  padding: .5rem 1.1rem;
+  font-size: .88rem;
+  font-weight: 600;
 `;
 
 const AuthorProfile = styled.img`
@@ -312,4 +342,5 @@ interface Post {
   coverImage: string;
   description: string;
   content: string;
+  tags?: string[];
 }
