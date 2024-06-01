@@ -86,7 +86,12 @@ export default function BlogPost({ post, content, recommended }: Props) {
             <Spacer y={2.25} />
             <Recommended>
               {recommended.map((post, i) => (
-                <Article {...post} baseLink="/blog" key={i} />
+                <Article
+                  {...post}
+                  coverImage={post.coverImage || "https://arconnect.io/og.png"}
+                  baseLink="/blog"
+                  key={i}
+                />
               ))}
             </Recommended>
           </BlogSection>
