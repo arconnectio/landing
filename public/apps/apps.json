@@ -16,7 +16,7 @@
   },
   {
     "name": "Permaswap",
-    "category": "Exchange",
+    "category": "Finance",
     "description": "Permaswap is an engineering innovation to refactor AMM. Inspired by Arweave’s SmartWeave, we’ve proposed the SCP theory. By exploring SCP, we’re certain that the approach to building decentralized applications is not limited to the on-chain VM model and that the future of Dapp development will be diverse. The Permaswap Network will prove with a new architecture that decentralization should break the impossible triangle and provide users with a perfect experience.",
     "assets": {
       "logo": "/apps/permaswap/logo.png",
@@ -27,6 +27,62 @@
       "twitter": "https://twitter.com/permaswap",
       "discord": "https://discord.gg/WM5MQZGVPF",
       "github": "https://github.com/permaswap"
+    }
+  },
+  {
+    "name": "Astro",
+    "category": "Finance",
+    "description": "Astro USD (USDA) is the very first stablecoin in the Arweave (and AO Computer) ecosystem.",
+    "assets": {
+      "logo": "/apps/astro/logo.png",
+      "thumbnail": "/apps/astro/thumbnail.png"
+    },
+    "links": {
+      "website": "https://astrousd.com",
+      "twitter": "https://twitter.com/AstroUSD",
+      "discord": "https://discord.gg/NpNRtNE6PN"
+    }
+  },
+  {
+    "name": "Bark",
+    "category": "Finance",
+    "description": "Bark is the AO Computer's first decentralized Finance. It supports AMM trading pairs and extreme scalability.",
+    "assets": {
+      "logo": "/apps/bark/logo.png",
+      "thumbnail": "/apps/bark/thumbnail.png"
+    },
+    "links": {
+      "website": "https://bark.arweave.dev"
+    }
+  },
+  {
+    "name": "Protocol.Land",
+    "category": "Development",
+    "description": "Code collaboration, reimagined. Protocol.Land is a decentralized, source controlled, code collaboration where you own your code.",
+    "assets": {
+      "logo": "/apps/protocolland/logo.svg",
+      "thumbnail": "/apps/protocolland/thumbnail.png"
+    },
+    "links": {
+      "website": "https://protocol.land",
+      "twitter": "https://twitter.com/ProtocolLand",
+      "discord": "https://discord.com/invite/GqxX2vtwRj",
+      "github": "https://github.com/labscommunity/protocol-land"
+    }
+  },
+  {
+    "name": "Arweave Name System",
+    "category": "Social",
+    "description": "The Arweave Name System (ArNS) works similarly to traditional Domain Name Services - but with ArNS, the registry is decentralized, permanent, and stored on Arweave. It’s a simple way to name and help you - and your users - find your data, apps, or websites on Arweave.",
+    "assets": {
+      "logo": "/apps/arns/logo.svg",
+      "thumbnail": "/apps/arns/thumbnail.jpeg"
+    },
+    "links": {
+      "website": "https://arns.app",
+      "twitter": "https://twitter.com/ar_io_network",
+      "discord": "https://discord.com/invite/HGG52EtTc2",
+      "github": "https://github.com/ar-io"
     }
   },
   {
@@ -90,7 +146,7 @@
   },
   {
     "name": "Arweave Name Service (ANS)",
-    "category": "domains",
+    "category": "Social",
     "description": "ans.gg is a popular name service built on top of the Arweave blockchain. Buy your domain once, own forever.",
     "assets": {
       "logo": "/apps/ans/logo.svg",
@@ -100,6 +156,45 @@
       "website": "https://ans.gg",
       "twitter": "https://twitter.com/ArweaveANS",
       "discord": "https://discord.gg/decentland"
+    }
+  },
+  {
+    "name": "Permapages",
+    "category": "Social",
+    "description": "Create and manage your own permanent web3 profile and permaweb pages built on Arweave.",
+    "assets": {
+      "logo": "/apps/permapages/logo.svg",
+      "thumbnail": "/apps/permapages/thumbnail.png"
+    },
+    "links": {
+      "website": "https://permapages.app",
+      "twitter": "https://twitter.com/permapages"
+    }
+  },
+  {
+    "name": "ArCode Studio",
+    "category": "Development",
+    "description": "ArCode Studio is an online IDE for smartweave contracts. As ArCode works on the browser all the files are saved in cache memory and removed when the cache is cleared.",
+    "assets": {
+      "logo": "/apps/arcode/logo.png",
+      "thumbnail": "/apps/arcode/thumbnail.jpeg"
+    },
+    "links": {
+      "website": "https://arcode.ar-io.dev",
+      "github": "https://github.com/luckyr13/arcode"
+    }
+  },
+  {
+    "name": "Arwiki",
+    "category": "Social",
+    "description": "As MediaWiki is the software that powers Wikipedia, ArWiki is the software that powers the Arweave Wiki. However, ArWiki is a Web3 platform -- it is completely decentralized, and is hosted on and served from the Arweave permaweb itself.",
+    "assets": {
+      "logo": "/apps/arwiki/logo.png",
+      "thumbnail": "/apps/arwiki/thumbnail.jpeg"
+    },
+    "links": {
+      "website": "https://arwiki.wik",
+      "twitter": "https://x.com/TheArWiki"
     }
   }
 ]
