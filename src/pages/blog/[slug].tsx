@@ -8,7 +8,7 @@ import Footer from "~/components/Footer";
 import styled from "styled-components";
 import Head from "~/components/Head";
 import {
-  Date,
+  Date as DateWrapper,
   paragraphStyles,
   ParagraphTitle,
   paragraphTitleStyles
@@ -18,7 +18,7 @@ import { useMemo } from "react";
 import { Title } from "./index";
 import dayjs from "dayjs";
 
-export default function BlogPost({ post, content, recommended }: Props) {
+export default function BlogPost({ post, content, recommended, structuredData }: Props) {
   const readTime = useMemo(() => {
     const readTimeForWord = 275;
     const words = content.split(/\s+/);
@@ -39,14 +39,18 @@ export default function BlogPost({ post, content, recommended }: Props) {
             <meta name="tags" content={post.tags.join(",")} />
           </>
         )}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
       </Head>
       <Nav />
       <main>
         <BlogSection>
-          <Date>
+          <DateWrapper>
             <CalendarIcon />
             {dayjs(post.publishedAt).format("DD MMM, YYYY")}
-          </Date>
+          </DateWrapper>
           <Spacer y={1} />
           <BlogTitle>{post.title}</BlogTitle>
           <Spacer y={2} />
@@ -146,11 +150,35 @@ export async function getStaticProps({ params }: Params) {
 
   const content = await markdownToHtml(post.content || "");
 
+  const structuredData: Record<string, any> = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: post.title,
+    title: post.title,
+    description: post.description,
+    image: [`https://arconnect.io/${post.coverImage}`],
+    datePublished: new Date(post.publishedAt).toISOString(),
+    author: [{
+      "@type": post.author.name == "ArConnect" ? "Organization" : "Person",
+      name: post.author.name,
+      image: post.author.picture
+    }],
+    publisher: {
+      "@type": "Organization",
+      name: "ArConnect Blogs",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://arconnect.io/logo.png"
+      }
+    }
+  };
+
   return {
     props: {
       post,
       content,
-      recommended
+      recommended,
+      structuredData
     }
   };
 }
@@ -359,6 +387,7 @@ interface Props {
   content: string;
   post: Post;
   recommended: ArticleProps[];
+  structuredData: Record<string, any>;
 }
 
 interface Post {
