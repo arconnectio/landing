@@ -45,13 +45,13 @@ export default function Hero({ appCount }: Props) {
       </Buttons>
       <Spacer y={7} />
       <Stats>
-        <StatPanel icon={<DownloadIcon />} name="Installs" value={17245} />
+        <StatPanel icon={<DownloadIcon />} name="Installs" value={41369} />
         <StatPanel icon={<TagIcon />} name="Releases" value={26} />
         <StatLink href="/apps">
           <StatPanel icon={<GridIcon />} name="Apps" value={appCount} plus />
         </StatLink>
         <StatLink href="https://docs.arconnect.io/api/intro">
-          <StatPanel icon={<CodeIcon />} name="API functions" value={16} />
+          <StatPanel icon={<CodeIcon />} name="API functions" value={22} />
         </StatLink>
       </Stats>
     </Wrapper>
