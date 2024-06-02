@@ -196,5 +196,46 @@
       "website": "https://arwiki.wik",
       "twitter": "https://x.com/TheArWiki"
     }
+  },
+  {
+    "name": "Alex",
+    "category": "Storage",
+    "description": "A decentralized archival platform that preserves human history and culture digitally.",
+    "assets": {
+      "logo": "/apps/alex/logo.svg",
+      "thumbnail": "/apps/alex/thumbnail.png"
+    },
+    "links": {
+      "website": "https://alex.arweave.dev/",
+      "twitter": "https://twitter.com/thealexarchive",
+      "discord": "http://discord.gg/2uZsWuTNvN"
+    }
+  },
+  {
+    "name": "Bazar",
+    "category": "NFTs",
+    "description": "The first fully decentralized atomic asset exchange built on the permaweb. Through the power of the Universal Content Marketplace (UCM) protocol and the Universal Data License (UDL) content creators can trade digital assets with real world rights.",
+    "assets": {
+      "logo": "/apps/bazar/logo.png",
+      "thumbnail": "/apps/bazar/thumbnail.gif"
+    },
+    "links": {
+      "website": "https://bazar.arweave.dev",
+      "twitter": "https://twitter.com/OurBazAR"
+    }
+  },
+  {
+    "name": "AFTR Market",
+    "category": "Finance",
+    "description": "AFTR Market provides asset management and governance on-chain for Arweave assets.",
+    "assets": {
+      "logo": "/apps/aftr/logo.png",
+      "thumbnail": "/apps/aftr/thumbnail.png"
+    },
+    "links": {
+      "website": "https://www.aftr.market/",
+      "twitter": "https://twitter.com/AftrMarket",
+      "discord": "https://discord.gg/YEy8VpuNXR"
+    }
   }
 ]
