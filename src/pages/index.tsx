@@ -16,7 +16,24 @@ import Nav from "~/components/Nav";
 export default function Home({ applications, last }: Props) {
   return (
     <>
-      <Head />
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              url: "https://arconnect.io",
+              sameAs: ["https://twitter.com/arconnectio", "https://github.com/arconnectio"],
+              logo: "https://arconnect.io/logo.png",
+              name: "ArConnect",
+              description: "ArConnect is a non-custodial Arweave wallet with extensive features, all in your favorite browser.",
+              email: "hello@arconnect.io",
+              foundingDate: "2021-02-13T23:00:00.000Z"
+            })
+          }}
+        />
+      </Head>
       <Nav latestBlog={last} />
       <Main>
         <Hero
