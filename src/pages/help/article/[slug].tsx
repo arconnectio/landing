@@ -22,7 +22,7 @@ import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 import Link from "next/link";
 
-export default function Topic({ post, slug, related }: Props) {
+export default function Topic({ post, slug, related, structuredData }: Props) {
   // headings
   const articleContentEl = useRef<HTMLDivElement>();
   const [headings, setHeadings] = useState<{ title: string; link: string }[]>(
@@ -45,7 +45,12 @@ export default function Topic({ post, slug, related }: Props) {
 
   return (
     <>
-      <Head title={`${post.title} - ArConnect Arweave Wallet`} />
+      <Head title={`${post.title} - ArConnect Arweave Wallet`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </Head>
       <Nav />
       <Main>
         <Section extraSpace>
@@ -95,14 +100,11 @@ export default function Topic({ post, slug, related }: Props) {
 export async function getStaticProps({ params }: Params) {
   const db = await load();
   const post = await db
-    .find<{
-      category: Category[];
-      content?: string;
-    }>({
+    .find<Article & { category: Category[] }>({
       collection: "knowledge-base-articles",
       slug: params.slug
     })
-    .project(["title", "content", "description", "category"])
+    .project(["title", "content", "description", "category", "publishedAt", "author"])
     .first();
 
   if (!post) {
@@ -130,6 +132,32 @@ export async function getStaticProps({ params }: Params) {
     .limit(3)
     .toArray();
 
+  const structuredData: Record<string, any> = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    title: post.title,
+    description: post.description,
+    datePublished: new Date(post.publishedAt).toISOString(),
+    author: [{
+      "@type": post.author.name == "ArConnect" ? "Organization" : "Person",
+      name: post.author.name,
+      image: post.author.picture
+    }],
+    publisher: {
+      "@type": "Organization",
+      name: "ArConnect Blogs",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://arconnect.io/logo.png"
+      }
+    },
+    about: {
+      "@type": "Thing",
+      name: post.category[0].label
+    }
+  };
+
   return {
     props: {
       post: {
@@ -138,7 +166,8 @@ export async function getStaticProps({ params }: Params) {
         category: post.category.find((c) => c.value !== "pinned")
       },
       slug: params.slug,
-      related
+      related,
+      structuredData
     }
   };
 }
@@ -151,14 +180,10 @@ export async function getStaticPaths() {
 }
 
 interface Props {
-  post: {
-    title: string;
-    content: string;
-    description: string;
-    category: Category;
-  };
+  post: Article;
   slug: string;
   related: [ArticleProps, ArticleProps, ArticleProps];
+  structuredData: Record<string, any>;
 }
 
 const Main = styled.main`
@@ -272,5 +297,17 @@ const ContentLink = styled(Link)<{
 interface Params {
   params: {
     slug: string;
+  };
+}
+
+interface Article {
+  title: string;
+  content: string;
+  description: string;
+  category: Category;
+  publishedAt: string;
+  author: {
+    name: string;
+    picture: string;
   };
 }

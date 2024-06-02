@@ -152,7 +152,7 @@ export async function getStaticProps({ params }: Params) {
 
   const structuredData: Record<string, any> = {
     "@context": "https://schema.org",
-    "@type": "NewsArticle",
+    "@type": "BlogPosting",
     headline: post.title,
     title: post.title,
     description: post.description,
