@@ -36,9 +36,7 @@ export default function Home({ applications, last }: Props) {
       </Head>
       <Nav latestBlog={last} />
       <Main>
-        <Hero
-          appCount={applications.length}
-        />
+        <Hero />
         <Features />
         <Apps apps={applications} />
         <Install />

@@ -13,7 +13,7 @@ import {
   CodeIcon
 } from "@iconicicons/react";
 
-export default function Hero({ appCount }: Props) {
+export default function Hero() {
   return (
     <Wrapper>
       <HeroTitle>
@@ -141,7 +141,3 @@ const Stats = styled.div`
 const StatLink = styled(Link)`
   text-decoration: none;
 `;
-
-interface Props {
-  appCount: number;
-}
