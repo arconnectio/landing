@@ -8,7 +8,7 @@ import Footer from "~/components/Footer";
 import styled from "styled-components";
 import Head from "~/components/Head";
 import {
-  Date,
+  Date as DateWrapper,
   paragraphStyles,
   ParagraphTitle,
   paragraphTitleStyles
@@ -18,7 +18,7 @@ import { useMemo } from "react";
 import { Title } from "./index";
 import dayjs from "dayjs";
 
-export default function BlogPost({ post, content, recommended }: Props) {
+export default function BlogPost({ post, content, recommended, structuredData }: Props) {
   const readTime = useMemo(() => {
     const readTimeForWord = 275;
     const words = content.split(/\s+/);
@@ -28,14 +28,29 @@ export default function BlogPost({ post, content, recommended }: Props) {
 
   return (
     <>
-      <Head title={`${post.title} - ArConnect Arweave Wallet`} />
+      <Head
+        title={`${post.title} - ArConnect Arweave Wallet`}
+        description={post.description}
+        image={post.coverImage ? `https://arconnect.io${post.coverImage}` : undefined}
+      >
+        {post.tags && post.tags.length > 0 && (
+          <>
+            <meta name="keywords" content={post.tags.join(",")} />
+            <meta name="tags" content={post.tags.join(",")} />
+          </>
+        )}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </Head>
       <Nav />
       <main>
         <BlogSection>
-          <Date>
+          <DateWrapper>
             <CalendarIcon />
             {dayjs(post.publishedAt).format("DD MMM, YYYY")}
-          </Date>
+          </DateWrapper>
           <Spacer y={1} />
           <BlogTitle>{post.title}</BlogTitle>
           <Spacer y={2} />
@@ -50,12 +65,28 @@ export default function BlogPost({ post, content, recommended }: Props) {
               <ReadTime>{readTime + " min read"}</ReadTime>
             </div>
           </AuthorGroup>
-          <Spacer y={3} />
-          <Thumbnail
-            src={post.coverImage}
-            alt="Post cover image"
-            draggable={false}
-          />
+          {post.tags && post.tags.length > 0 && (
+            <>
+              <Spacer y={1} />
+              <Tags>
+                {post.tags.map((tag, i) => (
+                  <Tag key={i}>
+                    {tag}
+                  </Tag>
+                ))}
+              </Tags>
+            </>
+          )}
+          {post.coverImage && (
+            <>
+              <Spacer y={3} />
+              <Thumbnail
+                src={post.coverImage}
+                alt="Post cover image"
+                draggable={false}
+              />
+            </>
+          )}
         </BlogSection>
         <BlogSection>
           <Content dangerouslySetInnerHTML={{ __html: content }}></Content>
@@ -66,7 +97,12 @@ export default function BlogPost({ post, content, recommended }: Props) {
             <Spacer y={2.25} />
             <Recommended>
               {recommended.map((post, i) => (
-                <Article {...post} baseLink="/blog" key={i} />
+                <Article
+                  {...post}
+                  coverImage={post.coverImage || "https://arconnect.io/og.png"}
+                  baseLink="/blog"
+                  key={i}
+                />
               ))}
             </Recommended>
           </BlogSection>
@@ -90,7 +126,8 @@ export async function getStaticProps({ params }: Params) {
       "publishedAt",
       "coverImage",
       "content",
-      "description"
+      "description",
+      "tags"
     ])
     .first();
 
@@ -113,11 +150,35 @@ export async function getStaticProps({ params }: Params) {
 
   const content = await markdownToHtml(post.content || "");
 
+  const structuredData: Record<string, any> = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    title: post.title,
+    description: post.description,
+    image: [`https://arconnect.io/${post.coverImage}`],
+    datePublished: new Date(post.publishedAt).toISOString(),
+    author: [{
+      "@type": post.author.name == "ArConnect" ? "Organization" : "Person",
+      name: post.author.name,
+      image: post.author.picture
+    }],
+    publisher: {
+      "@type": "Organization",
+      name: "ArConnect Blogs",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://arconnect.io/logo.png"
+      }
+    }
+  };
+
   return {
     props: {
       post,
       content,
-      recommended
+      recommended,
+      structuredData
     }
   };
 }
@@ -170,6 +231,23 @@ const AuthorGroup = styled.div`
   gap: 1rem;
 `;
 
+const Tags = styled.ul`
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  list-style: none;
+  padding: 0;
+`;
+
+const Tag = styled.li`
+  background-color: rgba(${props => props.theme.accent}, .11);
+  color: rgb(${props => props.theme.secondaryText});
+  border-radius: 9px;
+  padding: .5rem 1.1rem;
+  font-size: .88rem;
+  font-weight: 600;
+`;
+
 const AuthorProfile = styled.img`
   border-radius: 100%;
   width: 3.475rem;
@@ -196,6 +274,23 @@ const Content = styled.div`
     color: rgb(${(props) => props.theme.accent});
     text-decoration: none;
     cursor: pointer;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      right: 0;
+      height: 2px;
+      width: 0;
+      background-color: rgb(${(props) => props.theme.accent});
+      transition: all .17s ease;
+    }
+
+    &:hover::after {
+      width: 100%;
+      left: 0;
+      right: unset;
+    }
   }
 
   p {
@@ -292,6 +387,7 @@ interface Props {
   content: string;
   post: Post;
   recommended: ArticleProps[];
+  structuredData: Record<string, any>;
 }
 
 interface Post {
@@ -304,4 +400,5 @@ interface Post {
   coverImage: string;
   description: string;
   content: string;
+  tags?: string[];
 }

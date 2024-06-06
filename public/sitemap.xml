@@ -16,5 +16,22 @@
       <loc>http://www.arconnect.io/support</loc>
       <lastmod>2023-05-22T01:30:53.125Z</lastmod>
     </url>
+    <url>
+      <loc>http://www.arconnect.io/blog</loc>
+      <changefreq>monthly</changefreq>
+      <lastmod>2024-06-02T08:44:08.259Z</lastmod>
+    </url>
+    <url>
+      <loc>http://www.arconnect.io/branding</loc>
+      <lastmod>2023-05-22T01:30:53.125Z</lastmod>
+    </url>
+    <url>
+      <loc>http://www.arconnect.io/audit.pdf</loc>
+      <lastmod>2023-07-31T00:00:00.000Z</lastmod>
+    </url>
+    <url>
+      <loc>http://www.arconnect.io/audit-2024.pdf</loc>
+      <lastmod>2024-05-06T00:00:00.000Z</lastmod>
+    </url>
   </urlset>
 </xml>

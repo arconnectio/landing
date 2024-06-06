@@ -34,7 +34,7 @@ export default function Blog({ all }: Props) {
                 </Paragraph>
                 <Entry
                   href={`/blog/${all[0].slug}`}
-                  backgroundColor={all[0].themeColor}
+                  thumbnail={all[0].coverImage}
                   height="434px"
                 >
                   <Row column="mobile">
@@ -48,14 +48,13 @@ export default function Blog({ all }: Props) {
                       title={all[0].title}
                     />
                   </Row>
-                  <Thumbnail src={all[0].transparentThumbnail} alt="Thumbnail" draggable={false} />
                   <NavigationIcon />
                 </Entry>
               </Column>
               <Column style={{ flex: "4" }}>
                 <Entry
                   href={`/blog/${all[1].slug}`}
-                  backgroundColor={all[1].themeColor}
+                  thumbnail={all[1].coverImage}
                 >
                   <Row>
                     <DateBlock>
@@ -65,12 +64,10 @@ export default function Blog({ all }: Props) {
                     <NavigationIcon />
                   </Row>
                   <BlogTitle title={all[1].title} />
-                  <Thumbnail src={all[1].transparentThumbnail} alt="Thumbnail" draggable={false} top="37%" />
                 </Entry>
                 <ReadMore
                   href="#all"
                   height="114px"
-                  backgroundColor="rgba(171, 154, 255, 0.2)"
                 >
                   <BlogTitle title="Read more of our blogs" limit={16} />
                   <NavigationIcon icon={<ArrowDownIcon />} />
@@ -85,12 +82,13 @@ export default function Blog({ all }: Props) {
               >
                 All Posts
               </ParagraphTitle>
-              {all.slice(2).map((blog, i) => (
-                <div key={i}>
+              <BlogGrid>
+                {all.slice(2).map((blog, i) => (
                   <Entry
                     href={`/blog/${blog.slug}`}
-                    backgroundColor={blog.themeColor}
+                    thumbnail={blog.coverImage}
                     height="434px"
+                    key={i}
                   >
                     <AllPostContent>
                       <Row column="always">
@@ -100,19 +98,11 @@ export default function Blog({ all }: Props) {
                         </DateBlock>
                         <BlogTitle title={blog.title} />
                       </Row>
-                      <Thumbnail
-                        src={blog.transparentThumbnail}
-                        alt="Thumbnail"
-                        draggable={false}
-                        top="43%"
-                        small
-                      />
                       <NavigationIcon alt />
                     </AllPostContent>
                   </Entry>
-                  <Spacer y={4} />
-                </div>
-              ))}
+                ))}
+              </BlogGrid>
             </Section>
           )}
         </Wrapper>
@@ -132,12 +122,10 @@ export async function getStaticProps() {
       "publishedAt",
       "title",
       "slug",
-      "transparentThumbnail",
-      "themeColor"
+      "coverImage"
     ])
     // @ts-expect-error
     .sort([{ publishedAt: -1 }])
-    .limit(3)
     .toArray();
 
   return {
@@ -148,17 +136,6 @@ export async function getStaticProps() {
 export const Wrapper = styled.main`
   // max-width: 1518px;
   margin: 0 auto;
-`;
-
-const Thumbnail = styled.img<{ top?: string; small?: boolean; }>`
-  position: absolute;
-  top: ${props => props.top || "55%"};
-  left: 50%;
-  max-width: ${props => !props.small ? "80%" : "65%"};
-  max-height: ${props => !props.small ? "80%" : "65%"};
-  user-select: none;
-  z-index: 1;
-  transform: translate(-50%, -50%);
 `;
 
 const AllPostContent = styled.div`
@@ -192,7 +169,7 @@ export const Title = styled.h1`
 `;
 
 const Entry = styled(Link)<{
-  backgroundColor?: string;
+  thumbnail?: string;
   height?: string;
   justify?: string;
 }>`
@@ -206,10 +183,20 @@ const Entry = styled(Link)<{
   padding: 20px;
   height: ${(props) => props.height || "350px"};
   border-radius: 40px;
-  background: ${(props) => props.backgroundColor || "transparent"};
+  background-color: rgba(${props => props.theme.accent}, .2);
+  background-image: ${props => `url(${props.thumbnail})` || "none"};
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all .17s ease;
+
+  &:hover {
+    opacity: .97;
+    transform: scale(.98);
+  }
 
   &:visited {
-    color: inherit;
+    color: inherit; 
   }
 `;
 
@@ -242,12 +229,23 @@ const Row = styled.div<{ column?: "mobile" | "always"; }>`
   }
 `;
 
+const BlogGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+`;
+
 interface Blog {
   publishedAt: string;
   title: string;
   slug: string;
-  transparentThumbnail: string;
   themeColor: string;
+  coverImage: string;
 }
 
 interface Props {
