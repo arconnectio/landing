@@ -39,7 +39,7 @@ export default function Install({ title = true }) {
           </BrowserLogo>
           <BrowserName href={chromeLink}>Chrome</BrowserName>
         </BrowserElement>
-        <BrowserElement
+        {/* <BrowserElement
           onClick={() =>
             ReactGA.gtag("event", "download_link_click", {
               browser_name: "firefox"
@@ -56,7 +56,7 @@ export default function Install({ title = true }) {
             />
           </BrowserLogo>
           <BrowserName href={firefoxLink}>Firefox</BrowserName>
-        </BrowserElement>
+        </BrowserElement> */}
         <BrowserElement
           onClick={() =>
             ReactGA.gtag("event", "download_link_click", {
