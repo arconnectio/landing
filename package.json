@@ -10,6 +10,7 @@
     "arweave-mnemonic-keys": "^0.0.9",
     "dayjs": "^1.11.10",
     "framer-motion": "^10.8.5",
+    "fuse.js": "^7.0.0",
     "next": "13.2.4",
     "outstatic": "^0.0.41",
     "react": "18.2.0",

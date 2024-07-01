@@ -10,6 +10,7 @@ const spacegrotesk = Space_Grotesk({
 const Button = styled.a<{
   secondary?: boolean;
   reverse?: boolean;
+  padding?: string;
   small?: boolean;
   color?: string;
 }>`
@@ -21,7 +22,7 @@ const Button = styled.a<{
   background-color: rgb(${(props) => props.color || props.theme.accent});
   color: #fff;
   font-size: 0.9rem;
-  padding: 0.9rem 1.2rem;
+  padding: ${(props) => (props.padding ? props.padding : "0.9rem 1.2rem")};
   gap: 0.5rem;
   border-radius: ${(props) => (props.small ? "25px" : "30px")};
   cursor: pointer;
