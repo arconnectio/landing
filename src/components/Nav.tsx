@@ -91,11 +91,11 @@ export default function Nav({ latestBlog }: Props) {
                 >
                   Docs
                 </NavLink>
-                <NavLink
-                  href="/blog"
-                  rel="noopener noreferer"
-                >
+                <NavLink href="/blog" rel="noopener noreferer">
                   Blog
+                </NavLink>
+                <NavLink href="/apps" rel="noopener noreferer">
+                  Apps
                 </NavLink>
               </NavPageLinks>
               <Link href="/download" passHref legacyBehavior>

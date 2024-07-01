@@ -33,7 +33,8 @@ const theme: DefaultTheme = {
   accent: "171, 154, 255",
   background: "255, 255, 255",
   primaryText: "0, 0, 0",
-  secondaryText: "73, 68, 100"
+  secondaryText: "73, 68, 100",
+  secondaryTextv2: "102, 102, 102"
 };
 
 const GlobalStyles = createGlobalStyle`
