@@ -52,7 +52,7 @@ export const Paragraph = styled.p`
   }
 `;
 
-export const Description = styled(Paragraph)<{ secondary: boolean }>`
+export const Description = styled(Paragraph)<{ secondary?: boolean }>`
   ${(props) =>
     props.secondary
       ? css`
