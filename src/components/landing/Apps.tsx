@@ -41,17 +41,13 @@ const Wrapper = styled.section`
 `;
 
 const AppsGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   justify-content: space-between;
   gap: 1.9rem;
 
-  @media screen and (max-width: 980px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
   @media screen and (max-width: 720px) {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    justify-content: center;
     gap: 2rem;
   }
 `;
