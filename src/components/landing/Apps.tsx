@@ -22,7 +22,7 @@ export default function Apps({ apps }: Props) {
       <Spacer y={3.4} />
       <AppsGrid>
         {apps.slice(0, 3).map((app, i) => (
-          <Application {...app} key={i} />
+          <Application {...app} key={i} full />
         ))}
       </AppsGrid>
       <Spacer y={1.85} />

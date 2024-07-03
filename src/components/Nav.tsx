@@ -129,6 +129,10 @@ const Wrapper = styled.header<{ scroll: 1 | 0 }>`
   z-index: 100;
   transition: all 0.23s ease-in-out;
 
+  @media screen and (max-width: 800px) {
+    padding: 1.2rem 4rem;
+  }
+
   @media screen and (max-width: 720px) {
     display: block;
     padding: 1rem 2rem;
