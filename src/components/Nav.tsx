@@ -91,11 +91,11 @@ export default function Nav({ latestBlog }: Props) {
                 >
                   Docs
                 </NavLink>
-                <NavLink
-                  href="/blog"
-                  rel="noopener noreferer"
-                >
+                <NavLink href="/blog" rel="noopener noreferer">
                   Blog
+                </NavLink>
+                <NavLink href="/apps" rel="noopener noreferer">
+                  Apps
                 </NavLink>
               </NavPageLinks>
               <Link href="/download" passHref legacyBehavior>
@@ -128,6 +128,10 @@ const Wrapper = styled.header<{ scroll: 1 | 0 }>`
   padding: 1.2rem 5.25rem;
   z-index: 100;
   transition: all 0.23s ease-in-out;
+
+  @media screen and (max-width: 800px) {
+    padding: 1.2rem 4rem;
+  }
 
   @media screen and (max-width: 720px) {
     display: block;

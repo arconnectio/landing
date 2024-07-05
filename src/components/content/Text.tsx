@@ -52,8 +52,16 @@ export const Paragraph = styled.p`
   }
 `;
 
-export const Description = styled(Paragraph)`
-  width: 42vw;
+export const Description = styled(Paragraph)<{ secondary?: boolean }>`
+  ${(props) =>
+    props.secondary
+      ? css`
+          width: 52vw;
+          text-align: center;
+        `
+      : css`
+          width: 42vw;
+        `}
 
   @media screen and (max-width: 720px) {
     width: auto;
@@ -73,8 +81,8 @@ export const Date = styled.p`
 
 export const DateBlock = styled(Date)`
   width: max-content;
-  padding: .4rem .9rem;
+  padding: 0.4rem 0.9rem;
   border-radius: 1.1rem;
   background-color: #fff;
-  gap: .5rem;
+  gap: 0.5rem;
 `;
