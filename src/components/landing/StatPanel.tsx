@@ -2,13 +2,14 @@ import { formatStateVal } from "~/utils/format";
 import styled from "styled-components";
 import { ReactNode } from "react";
 
-export default function StatPanel({ icon, name, value, plus = false }: Props) {
+export default function StatPanel({ icon, name, value, greater = false, plus = false }: Props) {
   return (
     <Wrapper>
       <IconWrapper>{icon}</IconWrapper>
       <div>
         <MetricName>{name}</MetricName>
         <MetricValue>
+          {greater && ">"}
           {formatStateVal(value)}
           {plus && "+"}
         </MetricValue>
@@ -73,5 +74,6 @@ interface Props {
   icon: ReactNode;
   name: string;
   value: number;
+  greater?: boolean;
   plus?: boolean;
 }
