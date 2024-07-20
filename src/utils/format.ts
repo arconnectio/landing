@@ -7,8 +7,8 @@ export function formatStateVal(val: number) {
   if (val < 1000) {
     return val;
   } else if (val >= 1000 && val < 1_000_000) {
-    return (val / 1000).toFixed(1) + "K";
-  } else if (val >= 1_000_000 && val < 1_000_000_000) {
-    return (val / 1_000_000).toFixed(1) + "M";
+    return (val / 1000).toFixed() + "K";
+  } else if (val >= 1_000_000) {
+    return (val / 1_000_000).toFixed() + "M";
   }
 }

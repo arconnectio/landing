@@ -45,8 +45,8 @@ export default function Hero() {
       </Buttons>
       <Spacer y={7} />
       <Stats>
-        <StatPanel icon={<DownloadIcon />} name="Installs" value={71400} />
-        <StatPanel icon={<TagIcon />} name="Releases" value={27} />
+        <StatPanel icon={<DownloadIcon />} name="Installs" value={70000} greater />
+        <StatPanel icon={<TagIcon />} name="Transactions" value={500000} />
         <StatLink href="/apps">
           <StatPanel icon={<GridIcon />} name="Apps" value={100} plus />
         </StatLink>
