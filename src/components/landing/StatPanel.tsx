@@ -2,7 +2,13 @@ import { formatStateVal } from "~/utils/format";
 import styled from "styled-components";
 import { ReactNode } from "react";
 
-export default function StatPanel({ icon, name, value, greater = false, plus = false }: Props) {
+export default function StatPanel({
+  icon,
+  name,
+  value,
+  greater = false,
+  plus = false
+}: Props) {
   return (
     <Wrapper>
       <IconWrapper>{icon}</IconWrapper>

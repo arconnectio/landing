@@ -17,13 +17,13 @@ export default function Hero() {
   return (
     <Wrapper>
       <HeroTitle>
-        Your gateway to <span>Arweave</span>
+        Your gateway to <span>Arweave and AO</span>
       </HeroTitle>
       <Spacer y={1.55} />
       <HeroDescription>
-        A non-custodial Arweave-native wallet with extensive features,
+        A non-custodial Arweave and AO native wallet with extensive features
         <br />
-        all in your favorite browser.
+        all in your favorite browser and mobile device
       </HeroDescription>
       <Spacer y={2.5} />
       <Buttons>
@@ -45,7 +45,12 @@ export default function Hero() {
       </Buttons>
       <Spacer y={7} />
       <Stats>
-        <StatPanel icon={<DownloadIcon />} name="Installs" value={70000} greater />
+        <StatPanel
+          icon={<DownloadIcon />}
+          name="Installs"
+          value={70000}
+          greater
+        />
         <StatPanel icon={<TagIcon />} name="Transactions" value={500000} />
         <StatLink href="/apps">
           <StatPanel icon={<GridIcon />} name="Apps" value={100} plus />
