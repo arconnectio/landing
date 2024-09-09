@@ -41,14 +41,6 @@ const Wrapper = styled.section`
   flex-direction: row;
   flex-wrap: wrap;
   padding: 7rem 10vw 7rem;
-  background: linear-gradient(
-    270deg,
-    #fdfcff 0%,
-    #fcfbff 14.44%,
-    #f8f6ff 43.31%,
-    #f6f4ff 72.18%,
-    #f8f6ff 96.25%
-  );
 
   @media screen and (max-width: 720px) {
     justify-content: center;
