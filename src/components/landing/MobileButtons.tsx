@@ -67,6 +67,11 @@ const Buttons = styled.div<ButtonsProps>`
       display: flex;
     }
   `}
+
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 `;
 
 const ButtonImage = styled(Image)`

@@ -73,6 +73,11 @@ const Wrapper = styled.section`
   @media screen and (max-width: 720px) {
     height: calc(100vh - 100px);
   }
+
+  @media screen and (max-width: 320px) {
+    height: max-content;
+    padding-top: 60px;
+  }
 `;
 
 const heroText = css`
@@ -126,6 +131,10 @@ const Buttons = styled.div`
     padding-left: 0;
     padding-right: 0;
   }
+
+  @media screen and (max-width: 320px) {
+    gap: 1rem;
+  }
 `;
 
 const Stats = styled.div`
@@ -140,6 +149,10 @@ const Stats = styled.div`
     padding: 0 5vw;
     grid-template-columns: 1fr 1fr;
     gap: 1.25rem;
+  }
+
+  @media screen and (max-width: 320px) {
+    grid-template-columns: 1fr;
   }
 `;
 

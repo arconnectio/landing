@@ -176,6 +176,10 @@ const ThumbnailImage = styled.img`
   height: 100%;
   object-fit: cover;
   object-position: center;
+
+  @media screen and (max-width: 320px) {
+    // object-fit: ;
+  }
 `;
 
 interface Props extends ApplicationInterface {

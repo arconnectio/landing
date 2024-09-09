@@ -25,7 +25,7 @@ export default function Mobile() {
           alt="Arconnect Mobile"
           draggable={false}
         />
-        <MobileButtons style={{ paddingTop: 16 }} showOnlyOnMobile />
+        <MobileButtons style={{ paddingTop: 32 }} showOnlyOnMobile />
       </RightColumn>
 
       <Gradient />
@@ -53,6 +53,8 @@ const Wrapper = styled.section`
   @media screen and (max-width: 720px) {
     justify-content: center;
   }
+
+  border: 1px solid red;
 `;
 
 const LeftColumn = styled.div`
