@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from "../Button";
 import Spacer from "../Spacer";
 import Image from "next/image";
+import { Gradient } from "./Gradient";
 
 export default function Features() {
   return (
@@ -103,11 +104,13 @@ export default function Features() {
           </Feature>
         </div>
       </FeaturesWrapper>
+      <Gradient />
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
+  position: relative;
   padding: 5.2rem 10vw 4.5rem;
 
   @media screen and (max-width: 720px) {

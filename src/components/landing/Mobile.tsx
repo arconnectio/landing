@@ -2,10 +2,15 @@ import styled from "styled-components";
 import Spacer from "../Spacer";
 import Image from "next/image";
 import MobileButtons from "./MobileButtons";
+import { Gradient } from "./Gradient";
 
-export default function Mobile() {
+interface MobileProps {
+  showBackground?: boolean;
+}
+
+export default function Mobile({ showBackground = false }: MobileProps) {
   return (
-    <Wrapper>
+    <Wrapper showBackground={showBackground}>
       <LeftColumn>
         <MobileTag>
           ArConnect mobile <span>now available!</span>
@@ -33,7 +38,7 @@ export default function Mobile() {
   );
 }
 
-const Wrapper = styled.section`
+const Wrapper = styled.section<{ showBackground?: boolean }>`
   position: relative;
   display: flex;
   align-items: center;
@@ -41,6 +46,16 @@ const Wrapper = styled.section`
   flex-direction: row;
   flex-wrap: wrap;
   padding: 7rem 10vw 7rem;
+  ${(props) =>
+    props.showBackground &&
+    `background: linear-gradient(	
+    270deg,	
+    #fdfcff 0%,	
+    #fcfbff 14.44%,	
+    #f8f6ff 43.31%,	
+    #f6f4ff 72.18%,	
+    #f8f6ff 96.25%	
+  );`}
 
   @media screen and (max-width: 720px) {
     justify-content: center;
@@ -104,18 +119,6 @@ const Title = styled.h1`
     text-align: center;
     font-size: 2rem;
   }
-`;
-
-const Gradient = styled.div`
-  height: 80px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.7;
-  background: linear-gradient(180deg, rgba(234, 230, 253, 0) 0%, #f0f0ff 100%);
-  mix-blend-mode: plus-darker;
 `;
 
 const ArConnectMobileImage = styled(Image)`

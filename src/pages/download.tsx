@@ -7,6 +7,7 @@ import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 import Mobile from "~/components/landing/Mobile";
 import Browsers from "~/components/landing/Browsers";
+import { Gradient } from "~/components/landing/Gradient";
 
 export default function Home() {
   return (
@@ -23,8 +24,9 @@ export default function Home() {
           <Subtitle>Download the ArConnect Extension</Subtitle>
           <Spacer y={3} />
           <Browsers />
+          <Gradient />
         </TitleSection>
-        <Mobile />
+        <Mobile showBackground />
         <TutorialSection>
           <VideoWrapper>
             <YouTubeEmbed id="ah1jrMGBUvo" />
@@ -43,6 +45,7 @@ const Main = styled.main`
 `;
 
 const TitleSection = styled.section`
+  position: relative;
   padding: 7rem 0 7rem;
 
   @media screen and (max-width: 720px) {
