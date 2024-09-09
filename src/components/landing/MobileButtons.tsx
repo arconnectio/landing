@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Image from "next/image";
-import Button from "../Button";
 
 interface MobileButtonsProps {
   style?: React.CSSProperties;
@@ -19,20 +18,16 @@ export default function MobileButtons({
       hideOnMobile={hideOnMobile}
       showOnlyOnMobile={showOnlyOnMobile}
     >
-      <Button
-        padding="0"
-        as={ButtonImage}
+      <ButtonImage
         src="/logos/app-store.svg"
         height={50}
         width={150}
         alt="App store badge"
         draggable={false}
       />
-      <Button
-        padding="0"
-        as={ButtonImage}
+      <ButtonImage
         src="/logos/google-playstore.png"
-        height={36}
+        height={50}
         width={168}
         alt="App store badge"
         draggable={false}
@@ -80,4 +75,13 @@ const ButtonImage = styled(Image)`
   cursor: pointer;
   border-radius: 10px;
   z-index: 9999;
+  transition: all 0.18s ease-in-out;
+
+  &:hover:not(:active):not(:disabled) {
+    transform: translate3d(0px, -1.4px, 0px);
+    box-shadow: 0px 0px 2px
+        rgba(${(props) => props.color || props.theme.accent}, 0.15),
+      0px 4px 7px rgba(${(props) => props.color || props.theme.accent}, 0.05),
+      0px 12px 40px rgba(${(props) => props.color || props.theme.accent}, 0.1);
+  }
 `;
