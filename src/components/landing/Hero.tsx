@@ -74,7 +74,7 @@ const Wrapper = styled.section`
     height: calc(100vh - 100px);
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 375px) {
     height: max-content;
     padding-top: 60px;
   }
@@ -151,7 +151,7 @@ const Stats = styled.div`
     gap: 1.25rem;
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 375px) {
     grid-template-columns: 1fr;
   }
 `;

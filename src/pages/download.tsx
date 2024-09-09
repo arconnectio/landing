@@ -82,7 +82,7 @@ const Subtitle = styled.h2`
 `;
 
 const TutorialSection = styled.section`
-  padding: 7rem 4rem;
+  padding: 7rem 0;
 `;
 
 const VideoWrapper = styled.div`

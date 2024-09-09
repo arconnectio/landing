@@ -20,8 +20,8 @@ export default function Mobile() {
       <RightColumn>
         <ArConnectMobileImage
           src="/images/arconnect-mobile.png"
-          height={450}
-          width={468}
+          height={530}
+          width={550}
           alt="Arconnect Mobile"
           draggable={false}
         />
@@ -53,13 +53,12 @@ const Wrapper = styled.section`
   @media screen and (max-width: 720px) {
     justify-content: center;
   }
-
-  border: 1px solid red;
 `;
 
 const LeftColumn = styled.div`
   flex: 1;
   height: 100%;
+  z-index: 2;
 `;
 
 const RightColumn = styled.div`
@@ -87,6 +86,8 @@ const MobileTag = styled.div`
 
   @media screen and (max-width: 720px) {
     font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   span {
@@ -114,7 +115,7 @@ const Title = styled.h1`
 `;
 
 const Gradient = styled.div`
-  height: 164px;
+  height: 80px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -128,9 +129,15 @@ const Gradient = styled.div`
 const ArConnectMobileImage = styled(Image)`
   position: absolute;
   bottom: 0;
-  right: 6vw;
+  right: 5vw;
 
   @media screen and (max-width: 720px) {
+    position: initial;
+    height: 450px;
+    width: 450px;
+  }
+
+  @media screen and (max-width: 480px) {
     position: initial;
     height: 300px;
     width: 300px;

@@ -38,7 +38,7 @@ const Wrapper = styled.div`
     padding: 30px 20px;
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 375px) {
     justify-content: space-between;
     width: calc(100vw - 28vw);
   }
