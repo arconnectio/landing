@@ -142,11 +142,11 @@ const Stats = styled.div`
   align-items: center;
   justify-content: center;
   gap: 1.75rem;
+  flex-wrap: wrap;
 
   @media screen and (max-width: 720px) {
     display: grid;
     justify-content: space-between;
-    padding: 0 5vw;
     grid-template-columns: 1fr 1fr;
     gap: 1.25rem;
   }

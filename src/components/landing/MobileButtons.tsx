@@ -50,7 +50,7 @@ const Buttons = styled.div<ButtonsProps>`
   ${(props) =>
     props.hideOnMobile &&
     `
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 950px) {
       display: none;
     }
   `}
@@ -58,7 +58,7 @@ const Buttons = styled.div<ButtonsProps>`
   ${(props) =>
     props.showOnlyOnMobile &&
     `
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 950px) {
       display: flex;
     }
   `}
@@ -74,7 +74,6 @@ const ButtonImage = styled(Image)`
   width: max-content;
   cursor: pointer;
   border-radius: 10px;
-  z-index: 9999;
   transition: all 0.18s ease-in-out;
 
   &:hover:not(:active):not(:disabled) {

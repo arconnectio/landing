@@ -124,7 +124,11 @@ const Title = styled.h1`
 const ArConnectMobileImage = styled(Image)`
   position: absolute;
   bottom: 0;
-  right: 5vw;
+  right: 3vw;
+
+  @media screen and (min-width: 1440px) {
+    right: 5vw;
+  }
 
   @media screen and (max-width: 720px) {
     position: initial;
@@ -136,5 +140,9 @@ const ArConnectMobileImage = styled(Image)`
     position: initial;
     height: 300px;
     width: 300px;
+  }
+
+  @media screen and (max-width: 950px) and (min-width: 720px) {
+    position: initial;
   }
 `;

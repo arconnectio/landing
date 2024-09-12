@@ -111,6 +111,10 @@ export default function Features() {
 
 const Wrapper = styled.div`
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 5.2rem 10vw 4.5rem;
 
   @media screen and (max-width: 720px) {
@@ -147,7 +151,7 @@ const FeaturesWrapper = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 3.4rem;
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 1050px) {
     grid-template-columns: 1fr;
     width: 100%;
   }
