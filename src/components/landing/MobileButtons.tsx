@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
+import ReactGA from "react-ga4";
 
 interface MobileButtonsProps {
   style?: React.CSSProperties;
@@ -18,20 +19,31 @@ export default function MobileButtons({
       hideOnMobile={hideOnMobile}
       showOnlyOnMobile={showOnlyOnMobile}
     >
-      <ButtonImage
-        src="/logos/app-store.svg"
-        height={50}
-        width={150}
-        alt="App store badge"
-        draggable={false}
-      />
-      <ButtonImage
-        src="/logos/google-playstore.png"
-        height={50}
-        width={168}
-        alt="App store badge"
-        draggable={false}
-      />
+      <ButtonLink>
+        <StyledImage
+          src="/logos/app-store.svg"
+          height={50}
+          width={150}
+          alt="App store button"
+          draggable={false}
+        />
+      </ButtonLink>
+      <ButtonLink
+        onClick={() =>
+          ReactGA.gtag("event", "download_link_click", {
+            device_name: "android"
+          })
+        }
+        href="https://play.google.com/store/apps/details?id=io.arconnect.app"
+      >
+        <StyledImage
+          src="/logos/google-playstore.png"
+          height={50}
+          width={168}
+          alt="Play store button"
+          draggable={false}
+        />
+      </ButtonLink>
     </Buttons>
   );
 }
@@ -69,7 +81,7 @@ const Buttons = styled.div<ButtonsProps>`
   }
 `;
 
-const ButtonImage = styled(Image)`
+const StyledImage = styled(Image)`
   height: 50px;
   width: max-content;
   cursor: pointer;
@@ -83,4 +95,12 @@ const ButtonImage = styled(Image)`
       0px 4px 7px rgba(${(props) => props.color || props.theme.accent}, 0.05),
       0px 12px 40px rgba(${(props) => props.color || props.theme.accent}, 0.1);
   }
+`;
+
+const ButtonLink = styled.a.attrs({
+  target: "_blank",
+  rel: "noopener noreferer"
+})`
+  cursor: pointer;
+  text-decoration: none;
 `;
