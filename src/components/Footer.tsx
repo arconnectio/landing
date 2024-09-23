@@ -38,6 +38,7 @@ export default function Footer() {
             <Link href="/apps">Apps</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/branding">Branding</Link>
+            <Link href="/ArConnect Terms of Service.pdf">Terms of Service</Link>
             <Link href="/privacy">Privacy Policy</Link>
             <Link href="/audit.pdf">Security Audit - July 2023</Link>
             <Link href="/audit-2024.pdf">Security Audit - May 2024</Link>
