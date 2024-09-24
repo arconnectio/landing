@@ -22,6 +22,14 @@
           "value": "wallet-management",
           "label": "Wallet management"
         }
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
       ],
       "fieldType": "Tags",
       "dataType": "array",
