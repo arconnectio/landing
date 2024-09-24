@@ -4,7 +4,7 @@
   "properties": {
     "category": {
       "required": true,
-      "description": "Can be: \"Getting started\", \"Wallet management\", \"Apps & connections\" and \"Pinned\"",
+      "description": "Can be: \"Getting started\", \"Wallet management\", \"Apps & connections\", \"Mobile App\", \"Browser Extension\", and \"Pinned\"",
       "values": [
         {
           "value": "getting-started",
@@ -21,11 +21,11 @@
         {
           "value": "wallet-management",
           "label": "Wallet management"
-        }
+        },
         {
           "label": "Mobile app",
           "value": "mobile-app"
-        }
+        },
         {
           "label": "Browser Extension",
           "value": "browser-extension"
