@@ -289,6 +289,14 @@
           "label": "Getting started",
           "value": "getting-started"
         }
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
