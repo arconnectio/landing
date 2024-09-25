@@ -1,6 +1,6 @@
 ---
 title: 'How to buy AR Tokens in your ArConnect wallet?'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/139958714?v=4'
