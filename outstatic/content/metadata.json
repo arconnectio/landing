@@ -1,6 +1,6 @@
 {
-  "commit": "9572d5439671701eb4417a47be642440f626da90",
-  "generated": "2024-09-25T01:04:31.237Z",
+  "commit": "64a40a0a7e2730f21ad73f177933c068b7bd28cb",
+  "generated": "2024-09-25T01:06:25.164Z",
   "metadata": [
     {
       "__outstatic": {
@@ -297,34 +297,6 @@
       "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
       "status": "published",
       "title": "How to create multiple public addresses with same private key?"
-    },
-    {
-      "__outstatic": {
-        "commit": "6f1189f436e8d506a95c85ab4e1dcea127b0d1bb",
-        "hash": "1555475755",
-        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-20T13:06:34.473Z",
-      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "How to buy AR Tokens in your ArConnect wallet?"
     },
     {
       "__outstatic": {
@@ -709,6 +681,34 @@
       "slug": "how-to-import-your-wallet-to-arconnect-mobile",
       "status": "draft",
       "title": "How to import your wallet to ArConnect Mobile"
+    },
+    {
+      "__outstatic": {
+        "commit": "64a40a0a7e2730f21ad73f177933c068b7bd28cb",
+        "hash": "1455868081",
+        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-20T13:06:34.473Z",
+      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
+      "status": "draft",
+      "title": "How to buy AR Tokens in your ArConnect wallet?"
     }
   ]
 }
