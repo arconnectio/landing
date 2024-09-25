@@ -1,6 +1,6 @@
 {
-  "commit": "06bb1632b89394aa79b016c5f95da2b7f0d8387d",
-  "generated": "2024-09-25T16:04:11.621Z",
+  "commit": "f45f28c21ce71ba93b74a1bcce7cad98c5b0b3db",
+  "generated": "2024-09-25T16:04:25.605Z",
   "metadata": [
     {
       "__outstatic": {
@@ -709,30 +709,6 @@
       "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
       "status": "published",
       "title": "How to buy AR Tokens in your ArConnect wallet?"
-    },
-    {
-      "__outstatic": {
-        "commit": "06bb1632b89394aa79b016c5f95da2b7f0d8387d",
-        "hash": "2270820350",
-        "path": "outstatic/content/knowledge-base-articles/test.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-25T16:16:02.610Z",
-      "slug": "test",
-      "status": "draft",
-      "title": "test"
     }
   ]
 }
