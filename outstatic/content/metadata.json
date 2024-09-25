@@ -1,6 +1,6 @@
 {
-  "commit": "b2308a62e930d9993db0793cc367cf556c4225fd",
-  "generated": "2024-05-31T13:14:50.259Z",
+  "commit": "34acf548fbfa4cc07a95c523cb9d895c7a726f2b",
+  "generated": "2024-09-25T01:03:40.241Z",
   "metadata": [
     {
       "__outstatic": {
@@ -689,6 +689,30 @@
       "slug": "arweave-gateways-in-arconnect",
       "status": "published",
       "title": "Arweave gateways in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "34acf548fbfa4cc07a95c523cb9d895c7a726f2b",
+        "hash": "2190070197",
+        "path": "outstatic/content/knowledge-base-articles/how-to-import-your-wallet-to-arconnect-mobile.md"
+      },
+      "author": {
+        "name": "nicholas ma",
+        "picture": "https://avatars.githubusercontent.com/u/23609833?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-25T00:20:49.046Z",
+      "slug": "how-to-import-your-wallet-to-arconnect-mobile",
+      "status": "draft",
+      "title": "How to import your wallet to ArConnect Mobile"
     }
   ]
 }
