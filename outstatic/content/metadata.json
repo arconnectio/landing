@@ -1,6 +1,6 @@
 {
-  "commit": "34acf548fbfa4cc07a95c523cb9d895c7a726f2b",
-  "generated": "2024-09-25T01:03:40.241Z",
+  "commit": "9572d5439671701eb4417a47be642440f626da90",
+  "generated": "2024-09-25T01:04:31.237Z",
   "metadata": [
     {
       "__outstatic": {
@@ -692,8 +692,8 @@
     },
     {
       "__outstatic": {
-        "commit": "34acf548fbfa4cc07a95c523cb9d895c7a726f2b",
-        "hash": "2190070197",
+        "commit": "9572d5439671701eb4417a47be642440f626da90",
+        "hash": "3964872117",
         "path": "outstatic/content/knowledge-base-articles/how-to-import-your-wallet-to-arconnect-mobile.md"
       },
       "author": {
@@ -701,10 +701,6 @@
         "picture": "https://avatars.githubusercontent.com/u/23609833?v=4"
       },
       "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",

@@ -7,7 +7,7 @@ author:
 slug: 'how-to-import-your-wallet-to-arconnect-mobile'
 description: ''
 coverImage: ''
-category: [{"value":"getting-started","label":"Getting started"}]
+category: []
 publishedAt: '2024-09-25T00:20:49.046Z'
 ---
 
