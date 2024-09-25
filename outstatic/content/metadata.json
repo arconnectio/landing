@@ -1,6 +1,6 @@
 {
   "commit": "f45f28c21ce71ba93b74a1bcce7cad98c5b0b3db",
-  "generated": "2024-09-25T16:04:25.605Z",
+  "generated": "2024-09-25T16:04:30.691Z",
   "metadata": [
     {
       "__outstatic": {
@@ -664,26 +664,6 @@
     },
     {
       "__outstatic": {
-        "commit": "9572d5439671701eb4417a47be642440f626da90",
-        "hash": "3964872117",
-        "path": "outstatic/content/knowledge-base-articles/how-to-import-your-wallet-to-arconnect-mobile.md"
-      },
-      "author": {
-        "name": "nicholas ma",
-        "picture": "https://avatars.githubusercontent.com/u/23609833?v=4"
-      },
-      "category": [
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-25T00:20:49.046Z",
-      "slug": "how-to-import-your-wallet-to-arconnect-mobile",
-      "status": "draft",
-      "title": "How to import your wallet to ArConnect Mobile"
-    },
-    {
-      "__outstatic": {
         "commit": "64a40a0a7e2730f21ad73f177933c068b7bd28cb",
         "hash": "182691533",
         "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
@@ -709,6 +689,30 @@
       "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
       "status": "published",
       "title": "How to buy AR Tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
+        "commit": "06bb1632b89394aa79b016c5f95da2b7f0d8387d",
+        "hash": "2270820350",
+        "path": "outstatic/content/knowledge-base-articles/test.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-25T16:16:02.610Z",
+      "slug": "test",
+      "status": "draft",
+      "title": "test"
     }
   ]
 }
