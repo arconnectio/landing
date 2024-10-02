@@ -19,7 +19,14 @@ export default function MobileButtons({
       hideOnMobile={hideOnMobile}
       showOnlyOnMobile={showOnlyOnMobile}
     >
-      <ButtonLink>
+      <ButtonLink
+        onClick={() =>
+          ReactGA.gtag("event", "download_link_click", {
+            device_name: "apple"
+          })
+        }
+        href="https://apps.apple.com/us/app/arconnect-wallet/id6642716869"
+      >
         <StyledImage
           src="/logos/app-store.svg"
           height={50}
