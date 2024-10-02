@@ -41,20 +41,28 @@ const Wrapper = styled.section`
 `;
 
 const AppsGrid = styled.div`
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.9rem;
 
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   @media screen and (max-width: 720px) {
-    flex-direction: column;
-    justify-content: center;
+    grid-template-columns: 1fr;
     gap: 2rem;
+    justify-items: center;
   }
 `;
 
 const Footer = styled.div`
   display: flex;
   justify-content: flex-end;
+
+  @media screen and (max-width: 720px) {
+    justify-content: center;
+  }
 `;
 
 const ViewAllLink = styled(Link)`

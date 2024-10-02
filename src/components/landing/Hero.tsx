@@ -17,13 +17,13 @@ export default function Hero() {
   return (
     <Wrapper>
       <HeroTitle>
-        Your gateway to <span>Arweave</span>
+        Your gateway to <span>Arweave and AO</span>
       </HeroTitle>
       <Spacer y={1.55} />
       <HeroDescription>
-        A non-custodial Arweave-native wallet with extensive features,
+        A non-custodial Arweave and AO native wallet with extensive features
         <br />
-        all in your favorite browser.
+        all in your favorite browser and mobile device
       </HeroDescription>
       <Spacer y={2.5} />
       <Buttons>
@@ -45,7 +45,12 @@ export default function Hero() {
       </Buttons>
       <Spacer y={7} />
       <Stats>
-        <StatPanel icon={<DownloadIcon />} name="Installs" value={70000} greater />
+        <StatPanel
+          icon={<DownloadIcon />}
+          name="Installs"
+          value={70000}
+          greater
+        />
         <StatPanel icon={<TagIcon />} name="Transactions" value={500000} />
         <StatLink href="/apps">
           <StatPanel icon={<GridIcon />} name="Apps" value={100} plus />
@@ -67,6 +72,11 @@ const Wrapper = styled.section`
 
   @media screen and (max-width: 720px) {
     height: calc(100vh - 100px);
+  }
+
+  @media screen and (max-width: 375px) {
+    height: max-content;
+    padding-top: 60px;
   }
 `;
 
@@ -121,6 +131,10 @@ const Buttons = styled.div`
     padding-left: 0;
     padding-right: 0;
   }
+
+  @media screen and (max-width: 320px) {
+    gap: 1rem;
+  }
 `;
 
 const Stats = styled.div`
@@ -128,13 +142,17 @@ const Stats = styled.div`
   align-items: center;
   justify-content: center;
   gap: 1.75rem;
+  flex-wrap: wrap;
 
   @media screen and (max-width: 720px) {
     display: grid;
     justify-content: space-between;
-    padding: 0 5vw;
     grid-template-columns: 1fr 1fr;
     gap: 1.25rem;
+  }
+
+  @media screen and (max-width: 375px) {
+    grid-template-columns: 1fr;
   }
 `;
 

@@ -1,11 +1,13 @@
 import Background from "~/components/landing/Background";
-import Install from "~/components/landing/Install";
 import YouTubeEmbed from "react-youtube-embed";
 import Footer from "~/components/Footer";
 import Spacer from "~/components/Spacer";
 import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
+import Mobile from "~/components/landing/Mobile";
+import Browsers from "~/components/landing/Browsers";
+import { Gradient } from "~/components/landing/Gradient";
 
 export default function Home() {
   return (
@@ -14,10 +16,17 @@ export default function Home() {
       <Nav />
       <Main>
         <TitleSection>
-          <Title>Download ArConnect</Title>
-          <Subtitle>Select your preferred browser</Subtitle>
+          <Title>
+            Arconnect Wallet Extension <br />
+            <span>now on mobile</span>
+          </Title>
+          <Spacer y={5} />
+          <Subtitle>Download the ArConnect Extension</Subtitle>
+          <Spacer y={3} />
+          <Browsers />
+          <Gradient />
         </TitleSection>
-        <Install title={false} />
+        <Mobile showBackground />
         <TutorialSection>
           <VideoWrapper>
             <YouTubeEmbed id="ah1jrMGBUvo" />
@@ -36,33 +45,39 @@ const Main = styled.main`
 `;
 
 const TitleSection = styled.section`
-  padding: 3rem 0 0;
+  position: relative;
+  padding: 7rem 0 7rem;
 
   @media screen and (max-width: 720px) {
-    padding: 7.5rem 0 0;
+    padding: 7.5rem 0 7rem;
   }
 `;
 
 const Title = styled.h1`
-  font-size: 3.55rem;
-  font-weight: 750;
-  color: rgb(${(props) => props.theme.accent});
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: rgb(${(props) => props.theme.secondaryText});
   text-align: center;
   margin: 0;
-  line-height: 1.4em;
+  line-height: normal;
+  letter-spacing: -2px;
 
   @media screen and (max-width: 720px) {
     font-size: 2.35rem;
   }
+
+  span {
+    color: #ab9aff;
+  }
 `;
 
 const Subtitle = styled.h2`
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: rgb(${(props) => props.theme.secondaryText});
   text-align: center;
   margin: 0;
-  line-height: 1.1em;
+  line-height: normal;
 
   @media screen and (max-width: 720px) {
     font-size: 2rem;
@@ -70,7 +85,7 @@ const Subtitle = styled.h2`
 `;
 
 const TutorialSection = styled.section`
-  padding: 1.5rem 0 3rem;
+  padding: 7rem 0;
 `;
 
 const VideoWrapper = styled.div`

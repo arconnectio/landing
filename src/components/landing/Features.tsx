@@ -3,10 +3,16 @@ import styled from "styled-components";
 import Button from "../Button";
 import Spacer from "../Spacer";
 import Image from "next/image";
+import { Gradient } from "./Gradient";
 
 export default function Features() {
   return (
     <Wrapper>
+      <TitleWrapper>
+        <Title>Rest assured</Title>
+        <Subtitle>Your funds are now protected</Subtitle>
+      </TitleWrapper>
+      <Spacer y={4.375} />
       <FeaturesWrapper>
         <NoPaddingFeatures>
           <Feature color="#262626">
@@ -14,8 +20,8 @@ export default function Features() {
             <FeatureTitle color="#fff">View your activity</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph color="#dfdfdf">
-              View Arweave & aoComputer token balances and NFTs across multiple 
-              wallets and seamlessly switch between accounts. Oversee real-time 
+              View Arweave & aoComputer token balances and NFTs across multiple
+              wallets and seamlessly switch between accounts. Oversee real-time
               on chain transaction history all in 1-click.
             </FeatureParagraph>
             <Spacer y={2.5} />
@@ -33,9 +39,9 @@ export default function Features() {
             <FeatureTitle color="#fff">tokens with ease</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph color="#fff">
-              Powerful Arweave and aoComputer token management with an easy-to-use 
-              interface. All wallet data is backed up by the secure browser extension 
-              storage API keeping your assets safe.
+              Powerful Arweave and aoComputer token management with an
+              easy-to-use interface. All wallet data is backed up by the secure
+              browser extension storage API keeping your assets safe.
             </FeatureParagraph>
             <Spacer y={2.5} />
             <Image
@@ -85,9 +91,10 @@ export default function Features() {
             <FeatureTitle color="#fff">Arweave apps</FeatureTitle>
             <Spacer y={2} />
             <FeatureParagraph color="#fff">
-              ArConnect is the secure gateway to the leading platforms in the 
-              growing Arweave and aoComputer ecosystem. Interact with dApps 
-              ranging from permanent storage, NFT marketplaces, exchanges and more.
+              ArConnect is the secure gateway to the leading platforms in the
+              growing Arweave and aoComputer ecosystem. Interact with dApps
+              ranging from permanent storage, NFT marketplaces, exchanges and
+              more.
             </FeatureParagraph>
             <Spacer y={2} />
             <Button href="#apps">
@@ -97,11 +104,17 @@ export default function Features() {
           </Feature>
         </div>
       </FeaturesWrapper>
+      <Gradient />
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 5.2rem 10vw 4.5rem;
 
   @media screen and (max-width: 720px) {
@@ -109,12 +122,36 @@ const Wrapper = styled.div`
   }
 `;
 
+const TitleWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const Title = styled.h1`
+  color: #ab9aff;
+  text-align: center;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.15em;
+  margin: 0;
+
+  @media screen and (max-width: 720px) {
+    font-size: 2.2rem;
+  }
+`;
+
+const Subtitle = styled(Title)`
+  color: #494464;
+`;
+
 const FeaturesWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3.4rem;
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 1050px) {
     grid-template-columns: 1fr;
     width: 100%;
   }

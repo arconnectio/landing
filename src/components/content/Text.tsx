@@ -10,6 +10,10 @@ export const Title = styled.h1`
   @media screen and (max-width: 720px) {
     margin-top: 4rem;
   }
+
+  @media screen and (max-width: 320px) {
+    font-size: 3rem;
+  }
 `;
 
 export const Subtitle = styled.h2`

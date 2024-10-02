@@ -12,7 +12,7 @@ export default function Mission() {
         <Title>Our mission</Title>
         <Spacer y={0.2} mobileY={0.4} />
         <Statement>
-          We are here to provide you the best possible experience with Arweave, 
+          We are here to provide you the best possible experience with Arweave,
           aoComputer, and the permaweb
         </Statement>
         <Spacer y={2.6} mobileY={3} />
@@ -143,7 +143,7 @@ const MissionElement = styled.div<{ top: string; left: string }>`
     user-select: none;
   }
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 1130px) {
     display: none;
   }
 `;

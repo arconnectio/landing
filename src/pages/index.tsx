@@ -12,6 +12,7 @@ import styled from "styled-components";
 import { GetStaticProps } from "next";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
+import Mobile from "~/components/landing/Mobile";
 
 export default function Home({ applications, last }: Props) {
   return (
@@ -24,10 +25,14 @@ export default function Home({ applications, last }: Props) {
               "@context": "https://schema.org",
               "@type": "Organization",
               url: "https://arconnect.io",
-              sameAs: ["https://twitter.com/arconnectio", "https://github.com/arconnectio"],
+              sameAs: [
+                "https://twitter.com/arconnectio",
+                "https://github.com/arconnectio"
+              ],
               logo: "https://arconnect.io/logo.png",
               name: "ArConnect",
-              description: "ArConnect is a non-custodial Arweave wallet with extensive features, all in your favorite browser.",
+              description:
+                "ArConnect is a non-custodial Arweave wallet with extensive features, all in your favorite browser.",
               email: "hello@arconnect.io",
               foundingDate: "2021-02-13T23:00:00.000Z"
             })
@@ -37,6 +42,7 @@ export default function Home({ applications, last }: Props) {
       <Nav latestBlog={last} />
       <Main>
         <Hero />
+        <Mobile />
         <Features />
         <Apps apps={applications} />
         <Install />
@@ -87,7 +93,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
   } catch {
     return {
       props: { applications: [] }
-    }
+    };
   }
 };
 
