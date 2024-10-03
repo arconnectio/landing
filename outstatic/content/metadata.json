@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:14:12.867Z",
+  "generated": "2024-10-03T12:14:23.793Z",
   "metadata": [
     {
       "__outstatic": {
@@ -736,15 +736,19 @@
     },
     {
       "__outstatic": {
-        "commit": "faa33dc88ba4095aa9bf9c239b99c63d1c5d7870",
-        "hash": "3371955589",
-        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
+        "commit": "09a1f89a9c6d48e22cee6736a45c1fba2c1b8d02",
+        "hash": "2206015014",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
       },
       "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
       "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
         {
           "label": "Mobile app",
           "value": "mobile-app"
@@ -756,11 +760,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Find out what a JSON keyfile is.",
-      "publishedAt": "2023-09-24T21:27:47.445Z",
-      "slug": "what-is-a-json-keyfile",
+      "description": "What is ArConnect?",
+      "publishedAt": "2024-03-06T18:44:53.511Z",
+      "slug": "what-is-arconnect",
       "status": "published",
-      "title": "What is a JSON keyfile?"
+      "title": "What is ArConnect?"
     },
     {
       "__outstatic": {
@@ -793,18 +797,14 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "3351363290",
-        "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
+        "hash": "918185485",
+        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
       },
       "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
       },
       "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
         {
           "label": "Mobile app",
           "value": "mobile-app"
@@ -816,19 +816,15 @@
         {
           "label": "Wallet management",
           "value": "wallet-management"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "What is ArConnect?",
-      "publishedAt": "2024-03-06T18:44:53.511Z",
-      "slug": "what-is-arconnect",
+      "description": "Find out what a JSON keyfile is.",
+      "publishedAt": "2023-09-24T21:27:47.445Z",
+      "slug": "what-is-a-json-keyfile",
       "status": "published",
-      "title": "What is ArConnect?"
+      "title": "What is a JSON keyfile?"
     }
   ]
 }

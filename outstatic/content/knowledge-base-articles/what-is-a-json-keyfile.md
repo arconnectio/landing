@@ -7,7 +7,7 @@ author:
 slug: 'what-is-a-json-keyfile'
 description: 'Find out what a JSON keyfile is.'
 coverImage: ''
-category: [{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2023-09-24T21:27:47.445Z'
 ---
 
@@ -31,7 +31,11 @@ publishedAt: '2023-09-24T21:27:47.445Z'
 
         <!-- -->
 
+        <!-- -->
+
     4. These keyfiles make it easy for applications to work with your private keys.
+
+    <!-- -->
 
     <!-- -->
 
