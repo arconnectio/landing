@@ -7,7 +7,7 @@ author:
 slug: 'arweave-bundles-in-arconnect'
 description: ''
 coverImage: ''
-category: [{"value":"apps-and-connections","label":"Apps & connections"}]
+category: [{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-09T05:26:34.560Z'
 ---
 
@@ -20,8 +20,6 @@ Arweave bundles or ANS-104 (link to ANS-104) bundles are basically multiple tran
 - These transactions are pieces of data with tags.
 
 - Bundle items cannot transfer AR tokens.
-
-- Bundle items can also be used to interact with SmartWeave contracts.
 
 - They’re free (subsidized) for sizes under 100 Kbs, so these interactions or any other data smaller than 100 Kbs don’t need any AR tokens to be held.
 
