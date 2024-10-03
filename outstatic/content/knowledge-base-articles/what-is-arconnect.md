@@ -7,7 +7,7 @@ author:
 slug: 'what-is-arconnect'
 description: 'What is ArConnect?'
 coverImage: ''
-category: [{"value":"getting-started","label":"Getting started"},{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"value":"getting-started","label":"Getting started"},{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"},{"value":"apps-and-connections","label":"Apps & connections"}]
 publishedAt: '2024-03-06T18:44:53.511Z'
 ---
 
@@ -27,7 +27,13 @@ publishedAt: '2024-03-06T18:44:53.511Z'
 
             <!-- -->
 
+            <!-- -->
+
         <!-- -->
+
+        <!-- -->
+
+    <!-- -->
 
     <!-- -->
 
@@ -43,6 +49,8 @@ publishedAt: '2024-03-06T18:44:53.511Z'
 
     <!-- -->
 
+    <!-- -->
+
 - What ArConnect cannot do?
 
     - We cannot determinate for you if an app is secure.
@@ -52,6 +60,8 @@ publishedAt: '2024-03-06T18:44:53.511Z'
     - We cannot protect your wallet if you’ve installed malware or your system security is corrupted.
 
     - We cannot recover your wallets or funds if you’ve lost them, misplaced your key files or seedphrases.
+
+    <!-- -->
 
     <!-- -->
 

@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:13:30.518Z",
+  "generated": "2024-10-03T12:14:12.867Z",
   "metadata": [
     {
       "__outstatic": {
@@ -329,6 +329,34 @@
       "slug": "how-to-operate-arconnect",
       "status": "published",
       "title": "Browser Extension - How to operate ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "152f8db631d5b369719a19ce24ad5ae7a4304f76",
+        "hash": "1063698882",
+        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "A step-by-step guide on how to install and setup ArConnect.",
+      "publishedAt": "2024-03-06T19:47:02.430Z",
+      "slug": "how-to-install-and-setup-arconnect",
+      "status": "published",
+      "title": "Browser Extension - How to install and setup ArConnect?"
     },
     {
       "__outstatic": {
@@ -708,38 +736,6 @@
     },
     {
       "__outstatic": {
-        "commit": "09a1f89a9c6d48e22cee6736a45c1fba2c1b8d02",
-        "hash": "2206015014",
-        "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "What is ArConnect?",
-      "publishedAt": "2024-03-06T18:44:53.511Z",
-      "slug": "what-is-arconnect",
-      "status": "published",
-      "title": "What is ArConnect?"
-    },
-    {
-      "__outstatic": {
         "commit": "faa33dc88ba4095aa9bf9c239b99c63d1c5d7870",
         "hash": "3371955589",
         "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
@@ -797,8 +793,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "2231644611",
-        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+        "hash": "3351363290",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -806,29 +802,33 @@
       },
       "category": [
         {
-          "label": "Pinned",
-          "value": "pinned"
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
         },
         {
           "label": "Browser Extension",
           "value": "browser-extension"
         },
         {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
           "label": "Wallet management",
           "value": "wallet-management"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "A step-by-step guide on how to install and setup ArConnect.",
-      "publishedAt": "2024-03-06T19:47:02.430Z",
-      "slug": "how-to-install-and-setup-arconnect",
+      "description": "What is ArConnect?",
+      "publishedAt": "2024-03-06T18:44:53.511Z",
+      "slug": "what-is-arconnect",
       "status": "published",
-      "title": "Browser Extension - How to install and setup ArConnect?"
+      "title": "What is ArConnect?"
     }
   ]
 }
