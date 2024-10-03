@@ -1,6 +1,6 @@
 {
   "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-  "generated": "2024-10-03T09:41:41.656Z",
+  "generated": "2024-10-03T09:42:07.409Z",
   "metadata": [
     {
       "__outstatic": {
@@ -184,6 +184,34 @@
     },
     {
       "__outstatic": {
+        "commit": "23e468443cf3669ec90b0172b4a3f13f5ef1e56c",
+        "hash": "2184516756",
+        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Find out how to gain access back to your wallet.",
+      "publishedAt": "2024-03-08T12:45:32.352Z",
+      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
+      "status": "published",
+      "title": "How do I access my wallet if I forget my password?"
+    },
+    {
+      "__outstatic": {
         "commit": "30d6c434ac8a78d282d796b0506a7d36fd264aa2",
         "hash": "1970251660",
         "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
@@ -329,30 +357,6 @@
       "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
       "status": "published",
       "title": "Protecting your funds: allowance limits and how they work"
-    },
-    {
-      "__outstatic": {
-        "commit": "21ecf4118f85f3fea24b4512d88c4368e63e7421",
-        "hash": "1836276371",
-        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-08T12:06:47.988Z",
-      "slug": "permission-system-in-arconnect",
-      "status": "published",
-      "title": "Permission system in ArConnect"
     },
     {
       "__outstatic": {
@@ -641,8 +645,8 @@
     {
       "__outstatic": {
         "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-        "hash": "1109938286",
-        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
+        "hash": "1155517102",
+        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -656,11 +660,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Find out how to gain access back to your wallet.",
-      "publishedAt": "2024-03-08T12:45:32.352Z",
-      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
+      "description": "",
+      "publishedAt": "2024-03-08T12:06:47.988Z",
+      "slug": "permission-system-in-arconnect",
       "status": "published",
-      "title": "How do I access my wallet if I forget my password?"
+      "title": "Browser Extension Permission system in ArConnect"
     }
   ]
 }

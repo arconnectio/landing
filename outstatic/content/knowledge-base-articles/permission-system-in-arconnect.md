@@ -1,5 +1,5 @@
 ---
-title: 'Permission system in ArConnect'
+title: 'Browser Extension Permission system in ArConnect'
 status: 'published'
 author:
   name: 'Bithiah'
@@ -7,7 +7,7 @@ author:
 slug: 'permission-system-in-arconnect'
 description: ''
 coverImage: ''
-category: [{"value":"wallet-management","label":"Wallet management"}]
+category: [{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-08T12:06:47.988Z'
 ---
 
@@ -46,6 +46,4 @@ ArConnect needs constant communication with connected dApps in the background.
 - Apps cannot access your wallet when they’re not open.
 
 - You can always remove permissions from an app in settings or disconnect to remove all permission completely (see our guide on [how to use ArConnect with a dApp](https://www.notion.so/bac62293e3e94b80a3067280e5d458fb?pvs=21) for more details).
-
-
 
