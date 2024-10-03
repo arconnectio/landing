@@ -11,7 +11,7 @@ category: [{"value":"getting-started","label":"Getting started"}]
 publishedAt: '2024-03-10T01:29:50.760Z'
 ---
 
-The Permaweb is a permanent and decentralized web built on top of Arweave.
+The Permaweb is a permanent and decentralized web built on top of Arweave and AO.
 
 - Unlike the traditional web, where information and applications can be altered, censored or even removed, Permaweb ensures resilience.
 
@@ -29,17 +29,13 @@ Permaweb applications
 
 - The applications can use ArConnect and other wallets to communicate with the users’ wallets.
 
-    - [Cookbook](https://cookbook.arweave.dev/): A curated collection of developer guides & more to build on the Permaweb. All in one place.
-
-    - [Permapages](https://permapages.app/): An app to create and manage your own permanent web3 profile and Permaweb pages on Arweave.
-
-    <!-- -->
-
 ## Development on the Permaweb
 
 Here’s the stack you need to develop applications on the Permaweb;
 
-- [SmartWeave](https://github.com/ArweaveTeam/SmartWeave) enables users to develop smart contracts on Arweave that can be used implement the functionality for the applications and the data they work with. It supports popular languages like JavaScript.
+- [Arweave Cookbook](https://cookbook.arweave.dev/): A curated collection of developer guides & more to build on the Permaweb. All in one place.
+
+- [AO Cookbook](https://cookbook_ao.g8way.io/): a developer guide for building applications on AO.
 
 - [GraphQL](https://arweave.net/graphql) helps create custom queries to retrieve specific data from the Arweave network as per the applications needs.
 
@@ -47,9 +43,7 @@ Here’s the stack you need to develop applications on the Permaweb;
 
 - [Bundlers](https://www.notion.so/1eb56846c7714052bac7eaf4e3f6e9c9?pvs=21) package multiple data items into one single transaction that help reduce the transaction fees and boost scalability of applications.
 
-The Arweave ecosystem has numerous community driven specifications that serve as best practices for various common features like formatting of data, on-chain licensing, interaction between contracts, building layer 2 services etc.
+The Arweave and AO ecosystem has numerous community driven specifications that serve as best practices for various common features like formatting of data, on-chain licensing, interaction between contracts, building layer 2 services etc.
 
 Learn more about the various specifications on Arweave [here](https://specs.g8way.io/).
-
-
 

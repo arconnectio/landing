@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:07:11.719Z",
+  "generated": "2024-10-03T12:09:26.285Z",
   "metadata": [
     {
       "__outstatic": {
@@ -508,6 +508,30 @@
     },
     {
       "__outstatic": {
+        "commit": "859dc7a1e634dcd7ccbde48c008bef0c71539420",
+        "hash": "2769958411",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-10T01:51:41.332Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
+      "status": "published",
+      "title": "Browser Extension - How to use ArConnect with a dApp?"
+    },
+    {
+      "__outstatic": {
         "commit": "ea1d09736a2f80b811475d292dcf3ad314626f40",
         "hash": "1085678023",
         "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
@@ -660,30 +684,6 @@
     },
     {
       "__outstatic": {
-        "commit": "494d85fc1ac6938f066dd3b74b718aff163a4fe2",
-        "hash": "3444748539",
-        "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Find out about what the Permaweb is.",
-      "publishedAt": "2024-03-10T01:29:50.760Z",
-      "slug": "what-is-the-permaweb",
-      "status": "published",
-      "title": "What is the Permaweb?"
-    },
-    {
-      "__outstatic": {
         "commit": "0f9fc7389f66ff36106c2e05ec85c8a5cb2c828d",
         "hash": "2746454872",
         "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
@@ -801,8 +801,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "725046375",
-        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+        "hash": "3508145953",
+        "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
       },
       "author": {
         "name": "Bithiah",
@@ -810,21 +810,17 @@
       },
       "category": [
         {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
+          "label": "Getting started",
+          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-10T01:51:41.332Z",
-      "slug": "how-to-use-arconnect-with-a-dapp",
+      "description": "Find out about what the Permaweb is.",
+      "publishedAt": "2024-03-10T01:29:50.760Z",
+      "slug": "what-is-the-permaweb",
       "status": "published",
-      "title": "Browser Extension - How to use ArConnect with a dApp?"
+      "title": "What is the Permaweb?"
     }
   ]
 }
