@@ -1,6 +1,6 @@
 {
   "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-  "generated": "2024-10-03T09:42:07.409Z",
+  "generated": "2024-10-03T09:42:13.148Z",
   "metadata": [
     {
       "__outstatic": {
@@ -645,7 +645,7 @@
     {
       "__outstatic": {
         "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-        "hash": "1155517102",
+        "hash": "3837140889",
         "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
       },
       "author": {
@@ -664,7 +664,7 @@
       "publishedAt": "2024-03-08T12:06:47.988Z",
       "slug": "permission-system-in-arconnect",
       "status": "published",
-      "title": "Browser Extension Permission system in ArConnect"
+      "title": "Browser Extension - Permission system in ArConnect"
     }
   ]
 }

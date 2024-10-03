@@ -1,5 +1,5 @@
 ---
-title: 'Browser Extension Permission system in ArConnect'
+title: 'Browser Extension - Permission system in ArConnect'
 status: 'published'
 author:
   name: 'Bithiah'
