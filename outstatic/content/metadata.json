@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:01:41.606Z",
+  "generated": "2024-10-03T12:01:55.382Z",
   "metadata": [
     {
       "__outstatic": {
@@ -476,38 +476,6 @@
     },
     {
       "__outstatic": {
-        "commit": "564a5a90568a1ad1442ea68c5a886d54cca00f65",
-        "hash": "1737293612",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to create a new wallet using the ArConnect Mobile App",
-      "publishedAt": "2024-10-03T09:58:30.693Z",
-      "slug": "mobile-app-creating-a-new-wallet",
-      "status": "published",
-      "title": "Mobile App - Onboarding: Creating a new wallet"
-    },
-    {
-      "__outstatic": {
         "commit": "859dc7a1e634dcd7ccbde48c008bef0c71539420",
         "hash": "2769958411",
         "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
@@ -656,6 +624,34 @@
     },
     {
       "__outstatic": {
+        "commit": "ce89ca2e9abe6ff07b229eee188405660ec70c41",
+        "hash": "3243765478",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to add an existing ArConnect wallet via a QR code during ArConnect mobile app onboarding",
+      "publishedAt": "2024-10-03T10:01:53.012Z",
+      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
+      "status": "published",
+      "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
+    },
+    {
+      "__outstatic": {
         "commit": "494d85fc1ac6938f066dd3b74b718aff163a4fe2",
         "hash": "3444748539",
         "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
@@ -797,8 +793,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "40961685",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
+        "hash": "2394377207",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
       },
       "author": {
         "name": "Matt",
@@ -806,12 +802,16 @@
       },
       "category": [
         {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
           "label": "Getting started",
           "value": "getting-started"
         },
         {
-          "label": "Mobile app",
-          "value": "mobile-app"
+          "label": "Pinned",
+          "value": "pinned"
         },
         {
           "label": "Apps & connections",
@@ -820,11 +820,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "How to add an existing ArConnect wallet via a QR code during ArConnect mobile app onboarding",
-      "publishedAt": "2024-10-03T10:01:53.012Z",
-      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
+      "description": "How to create a new wallet using the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T09:58:30.693Z",
+      "slug": "mobile-app-creating-a-new-wallet",
       "status": "published",
-      "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
+      "title": "Mobile App - Onboarding: Creating a new wallet"
     }
   ]
 }
