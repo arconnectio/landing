@@ -1,6 +1,6 @@
 {
-  "commit": "e409d67c7c7876b3baa47ab9c382256666ee9fce",
-  "generated": "Thu, 03 Oct 2024 09:48:50 GMT",
+  "commit": "dbf962c253a8e167c990fd2d494fe76f80c5add6",
+  "generated": "2024-10-03T09:52:07.078Z",
   "metadata": [
     {
       "__outstatic": {
@@ -713,6 +713,34 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "dbf962c253a8e167c990fd2d494fe76f80c5add6",
+        "hash": "905202476",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to add an existing ArConnect wallet via a QR code during ArConnect mobile app onboarding",
+      "publishedAt": "2024-10-03T10:01:53.012Z",
+      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
+      "status": "published",
+      "title": "Mobile App: Onboarding - Add an existing wallet by QR Code"
     }
   ]
 }
