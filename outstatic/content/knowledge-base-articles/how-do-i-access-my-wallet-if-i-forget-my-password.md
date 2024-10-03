@@ -7,7 +7,7 @@ author:
 slug: 'how-do-i-access-my-wallet-if-i-forget-my-password'
 description: 'Find out how to gain access back to your wallet.'
 coverImage: ''
-category: [{"value":"wallet-management","label":"Wallet management"},{"value":"pinned","label":"Pinned"}]
+category: [{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-08T12:45:32.352Z'
 ---
 
@@ -36,6 +36,8 @@ As ArConnect is a self-custodial crypto wallet, the ArConnect team cannot access
     5. You’re all good to go! Wallet can be accessed again.
 
         ![](/images/screen-shot-2024-03-28-at-12.43.36-am-YzND.png)
+
+    <!-- -->
 
     <!-- -->
 

@@ -1,6 +1,6 @@
 {
   "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-  "generated": "2024-10-03T09:40:45.179Z",
+  "generated": "2024-10-03T09:41:41.656Z",
   "metadata": [
     {
       "__outstatic": {
@@ -184,9 +184,9 @@
     },
     {
       "__outstatic": {
-        "commit": "23e468443cf3669ec90b0172b4a3f13f5ef1e56c",
-        "hash": "2184516756",
-        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
+        "commit": "30d6c434ac8a78d282d796b0506a7d36fd264aa2",
+        "hash": "1970251660",
+        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -194,21 +194,17 @@
       },
       "category": [
         {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Find out how to gain access back to your wallet.",
-      "publishedAt": "2024-03-08T12:45:32.352Z",
-      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
+      "description": "What are Arweave gateways and its integration with ArConnect?",
+      "publishedAt": "2024-03-08T14:00:57.349Z",
+      "slug": "arweave-gateways-in-arconnect",
       "status": "published",
-      "title": "How do I access my wallet if I forget my password?"
+      "title": "Arweave gateways in ArConnect"
     },
     {
       "__outstatic": {
@@ -645,8 +641,8 @@
     {
       "__outstatic": {
         "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-        "hash": "1061266478",
-        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
+        "hash": "1109938286",
+        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
       },
       "author": {
         "name": "Bithiah",
@@ -660,11 +656,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "What are Arweave gateways and its integration with ArConnect?",
-      "publishedAt": "2024-03-08T14:00:57.349Z",
-      "slug": "arweave-gateways-in-arconnect",
+      "description": "Find out how to gain access back to your wallet.",
+      "publishedAt": "2024-03-08T12:45:32.352Z",
+      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
       "status": "published",
-      "title": "Browser Extension - Arweave gateways in ArConnect"
+      "title": "How do I access my wallet if I forget my password?"
     }
   ]
 }
