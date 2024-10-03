@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:02:44.151Z",
+  "generated": "2024-10-03T12:02:53.625Z",
   "metadata": [
     {
       "__outstatic": {
@@ -161,6 +161,30 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "f86c27deed5d9d780ccfc09d3b66d892ef28eff4",
+        "hash": "3208616688",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:29:03.489Z",
+      "slug": "how-to-add-a-contact-in-arconnect",
+      "status": "published",
+      "title": "Browser Extension - How to add a contact in ArConnect?"
     },
     {
       "__outstatic": {
@@ -508,30 +532,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ea1d09736a2f80b811475d292dcf3ad314626f40",
-        "hash": "1085678023",
-        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:14:16.427Z",
-      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
-      "status": "published",
-      "title": "Browser Extension - How to send tokens from ArConnect to other users?"
-    },
-    {
-      "__outstatic": {
         "commit": "f4a68cc5c2a9ea1258ff6c3a3245b4f0b504ae02",
         "hash": "1123881878",
         "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
@@ -801,8 +801,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "4188192428",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
+        "hash": "3764320787",
+        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
       },
       "author": {
         "name": "Bithiah",
@@ -821,10 +821,10 @@
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-03-11T04:29:03.489Z",
-      "slug": "how-to-add-a-contact-in-arconnect",
+      "publishedAt": "2024-03-11T04:14:16.427Z",
+      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
       "status": "published",
-      "title": "Browser Extension - How to add a contact in ArConnect?"
+      "title": "Browser Extension - How to send tokens from ArConnect to other users?"
     }
   ]
 }

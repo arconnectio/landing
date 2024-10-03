@@ -7,7 +7,7 @@ author:
 slug: 'how-to-send-tokens-from-arconnect-to-other-users'
 description: ''
 coverImage: ''
-category: [{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2024-03-11T04:14:16.427Z'
 ---
 
@@ -49,6 +49,8 @@ Follow these steps to send tokens to other users from ArConnect:
 
     <!-- -->
 
+    <!-- -->
+
 7. Proceed by clicking on the "Next" button.
 
     ![](/images/screen-shot-2024-03-27-at-11.21.40-pm-Q0ND.png)
@@ -62,6 +64,8 @@ Follow these steps to send tokens to other users from ArConnect:
     ![](/images/screen-shot-2024-03-27-at-11.22.45-pm-M3Mj.png)
 
     - Wait a few seconds for the transaction to be picked up by the gateway and complete its execution.
+
+    <!-- -->
 
     <!-- -->
 
@@ -84,6 +88,10 @@ Follow these steps to send tokens to other users from ArConnect:
         <!-- -->
 
         <!-- -->
+
+        <!-- -->
+
+    <!-- -->
 
     <!-- -->
 
