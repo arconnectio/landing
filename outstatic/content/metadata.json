@@ -1,6 +1,6 @@
 {
-  "commit": "12c827ab28eeec7856d0bd28efee5e38df0a6a19",
-  "generated": "2024-10-03T11:56:26.314Z",
+  "commit": "0184b24bc18c872397bf1a5b43852b3340d45287",
+  "generated": "2024-10-03T11:57:12.542Z",
   "metadata": [
     {
       "__outstatic": {
@@ -337,38 +337,6 @@
       "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
       "status": "published",
       "title": "How do I access my wallet if I forget my password?"
-    },
-    {
-      "__outstatic": {
-        "commit": "845e9ada068e7e93267625d1401bf3551a499e94",
-        "hash": "223496729",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to create a new wallet using the ArConnect Mobile App",
-      "publishedAt": "2024-10-03T09:58:30.693Z",
-      "slug": "mobile-app-creating-a-new-wallet",
-      "status": "published",
-      "title": "Mobile App: Onboarding - Creating a new wallet"
     },
     {
       "__outstatic": {
@@ -793,6 +761,38 @@
       "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
       "status": "published",
       "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
+    },
+    {
+      "__outstatic": {
+        "commit": "0184b24bc18c872397bf1a5b43852b3340d45287",
+        "hash": "1737293612",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to create a new wallet using the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T09:58:30.693Z",
+      "slug": "mobile-app-creating-a-new-wallet",
+      "status": "published",
+      "title": "Mobile App - Onboarding: Creating a new wallet"
     }
   ]
 }
