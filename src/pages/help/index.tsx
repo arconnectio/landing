@@ -109,13 +109,13 @@ export default function KnowledgeBase({ pinned, last }: Props) {
                   <FastForwardIcon />
                   Getting started
                 </Topic>
-                <Topic href="/help/topic/wallet-management">
+                <Topic href="/help/topic/browser-extension">
                   <WalletIcon />
-                  Wallet management
+                  Browser Extension
                 </Topic>
-                <Topic href="/help/topic/apps-and-connections">
+                <Topic href="/help/topic/mobile-app">
                   <SmartphoneIcon />
-                  Apps & connections
+                  Mobile App
                 </Topic>
               </Articles>
             </Section>

@@ -12,11 +12,7 @@ import styled from "styled-components";
 import Head from "~/components/Head";
 import Nav from "~/components/Nav";
 
-const topics = [
-  "getting-started",
-  "wallet-management",
-  "apps-and-connections"
-];
+const topics = ["getting-started", "browser-extension", "mobile-app"];
 
 export default function Topic({ category, articles }: Props) {
   return (
@@ -90,7 +86,7 @@ export async function getStaticProps({ params }: Params) {
 
 export async function getStaticPaths() {
   return {
-    paths: topics.map(topic => ({ params: { topic } })),
+    paths: topics.map((topic) => ({ params: { topic } })),
     fallback: false
   };
 }
@@ -100,8 +96,7 @@ const topicDescriptions: Record<string, string> = {
     "Essential resources on getting started with the ArConnect wallet. You should start here to learn some basics about ArConnect, Arweave, and AO.",
   "browser-extension":
     "Guides on how to best manage your ArConnect browser extension wallet.",
-  "mobile-app":
-    "Guides on how to best manage your ArConnect Mobile App wallet."
+  "mobile-app": "Guides on how to best manage your ArConnect Mobile App wallet."
 };
 
 interface Params {
