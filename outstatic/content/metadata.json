@@ -1,7 +1,27 @@
 {
-  "commit": "26a33c5c9b339b138fa5a3933da7c6372b4539c1",
-  "generated": "Thu, 03 Oct 2024 09:48:31 GMT",
+  "commit": "e409d67c7c7876b3baa47ab9c382256666ee9fce",
+  "generated": "Thu, 03 Oct 2024 09:48:50 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "650f686040a39ba167a13a8315a483ab7b032afb",
+        "hash": "2930495488",
+        "path": "outstatic/content/blogs/contacts-new-send-flow.md"
+      },
+      "author": {
+        "name": "Matt DiRenzo",
+        "picture": "https://www.arconnect.io/images/matt-E0NT.jpeg"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/banner-IxMz.png",
+      "description": "Transacting on ArConnect just received its biggest upgrade yet",
+      "publishedAt": "2024-02-15T02:03:36.000Z",
+      "slug": "contacts-new-send-flow",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
     {
       "__outstatic": {
         "commit": "a5807fd79ad2e72060f350ef13c98e2b6f7fd6c9",
@@ -60,6 +80,26 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "ArConnect Just Leveled Up to 1.0",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "0cd14a7dfad77b5c3030bb3ad6080e6dd8a98a06",
+        "hash": "1795843192",
+        "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
+      },
+      "author": {
+        "name": "Rohit Pathare",
+        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/blog-image-M0OD.png",
+      "description": "This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.",
+      "publishedAt": "2024-01-04T16:01:34.068Z",
+      "slug": "where-do-wallets-fit-in-the-world-of-crypto",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Where do wallets fit in the world of crypto?",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -144,23 +184,35 @@
     },
     {
       "__outstatic": {
-        "commit": "650f686040a39ba167a13a8315a483ab7b032afb",
-        "hash": "2930495488",
-        "path": "outstatic/content/blogs/contacts-new-send-flow.md"
+        "commit": "7b4d5540862bc3267806b2d08ab69ac161f45c73",
+        "hash": "3600568995",
+        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
       },
       "author": {
-        "name": "Matt DiRenzo",
-        "picture": "https://www.arconnect.io/images/matt-E0NT.jpeg"
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
       },
-      "collection": "blogs",
-      "coverImage": "/images/banner-IxMz.png",
-      "description": "Transacting on ArConnect just received its biggest upgrade yet",
-      "publishedAt": "2024-02-15T02:03:36.000Z",
-      "slug": "contacts-new-send-flow",
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-20T13:06:34.473Z",
+      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+      "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
     },
     {
       "__outstatic": {
@@ -260,23 +312,27 @@
     },
     {
       "__outstatic": {
-        "commit": "0cd14a7dfad77b5c3030bb3ad6080e6dd8a98a06",
-        "hash": "1795843192",
-        "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
+        "commit": "ea1d09736a2f80b811475d292dcf3ad314626f40",
+        "hash": "1085678023",
+        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
       },
       "author": {
-        "name": "Rohit Pathare",
-        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
-      "collection": "blogs",
-      "coverImage": "/images/blog-image-M0OD.png",
-      "description": "This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.",
-      "publishedAt": "2024-01-04T16:01:34.068Z",
-      "slug": "where-do-wallets-fit-in-the-world-of-crypto",
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:14:16.427Z",
+      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Where do wallets fit in the world of crypto?",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+      "title": "Browser Extension - How to send tokens from ArConnect to other users?"
     },
     {
       "__outstatic": {
@@ -308,8 +364,8 @@
     },
     {
       "__outstatic": {
-        "commit": "7c26fd931b378bffbbcb55ee91b039bf5c46b4f3",
-        "hash": "1806086049",
+        "commit": "a2dc8a43bec9e6265c606e5b23474375e3c5f5af",
+        "hash": "3412486971",
         "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
       },
       "author": {
@@ -328,7 +384,7 @@
       "publishedAt": "2023-09-23T12:13:50.100Z",
       "slug": "how-to-operate-arconnect",
       "status": "published",
-      "title": "How to operate ArConnect?"
+      "title": "Browser Extension - How to operate ArConnect?"
     },
     {
       "__outstatic": {
@@ -385,38 +441,6 @@
       "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
       "status": "published",
       "title": "Browser Extension - How to create multiple public addresses with same private key?"
-    },
-    {
-      "__outstatic": {
-        "commit": "7b4d5540862bc3267806b2d08ab69ac161f45c73",
-        "hash": "3600568995",
-        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-20T13:06:34.473Z",
-      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
     },
     {
       "__outstatic": {
@@ -496,6 +520,38 @@
     },
     {
       "__outstatic": {
+        "commit": "2680b61e651208e9cd54ec213e55fe746f6b7f37",
+        "hash": "1409527182",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to create a new wallet using the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T09:58:30.693Z",
+      "slug": "mobile-app-creating-a-new-wallet",
+      "status": "published",
+      "title": "Mobile App - Creating a new wallet"
+    },
+    {
+      "__outstatic": {
         "commit": "859dc7a1e634dcd7ccbde48c008bef0c71539420",
         "hash": "2769958411",
         "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
@@ -517,30 +573,6 @@
       "slug": "how-to-use-arconnect-with-a-dapp",
       "status": "published",
       "title": "Browser Extension - How to use ArConnect with a dApp?"
-    },
-    {
-      "__outstatic": {
-        "commit": "ea1d09736a2f80b811475d292dcf3ad314626f40",
-        "hash": "1085678023",
-        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:14:16.427Z",
-      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
-      "status": "published",
-      "title": "Browser Extension - How to send tokens from ArConnect to other users?"
     },
     {
       "__outstatic": {
