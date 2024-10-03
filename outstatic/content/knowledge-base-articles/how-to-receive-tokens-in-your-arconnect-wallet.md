@@ -1,5 +1,5 @@
 ---
-title: 'How to receive tokens in your ArConnect wallet?'
+title: 'Browser Extension - How to receive tokens in your ArConnect wallet?'
 status: 'published'
 author:
   name: 'Bithiah'
@@ -7,11 +7,11 @@ author:
 slug: 'how-to-receive-tokens-in-your-arconnect-wallet'
 description: ''
 coverImage: ''
-category: [{"value":"wallet-management","label":"Wallet management"},{"value":"getting-started","label":"Getting started"}]
+category: [{"value":"getting-started","label":"Getting started"},{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-11T00:46:34.135Z'
 ---
 
-There are three ways for receiving tokens in your ArConnect wallet. A recipient can be selected by their Arweave wallet address, an associated ANS name or a QR code.
+There are three ways for receiving tokens in your ArConnect wallet. A recipient can be selected by their Arweave wallet address or a QR code.
 
 ## Receive tokens by Arweave address
 

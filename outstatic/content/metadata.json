@@ -1,6 +1,6 @@
 {
-  "commit": "78ffbb12ddd7478fd690e224771dc548c417dc44",
-  "generated": "2024-10-03T09:37:17.962Z",
+  "commit": "a3ab34e2e9bd103353bafd97db76072e30496f2c",
+  "generated": "2024-10-03T09:38:13.935Z",
   "metadata": [
     {
       "__outstatic": {
@@ -257,34 +257,6 @@
       "slug": "arweave-bundles-in-arconnect",
       "status": "published",
       "title": "Arweave bundles in ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "7e2ed2d2300c4f48767a68d1188d764697ba4568",
-        "hash": "1187186172",
-        "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T00:46:34.135Z",
-      "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "How to receive tokens in your ArConnect wallet?"
     },
     {
       "__outstatic": {
@@ -665,6 +637,34 @@
       "slug": "how-to-send-tokens-from-arconnect-to-other-users",
       "status": "published",
       "title": "Browser Extension - How to send tokens from ArConnect to other users?"
+    },
+    {
+      "__outstatic": {
+        "commit": "a3ab34e2e9bd103353bafd97db76072e30496f2c",
+        "hash": "399095047",
+        "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T00:46:34.135Z",
+      "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
+      "status": "published",
+      "title": "Browser Extension - How to receive tokens in your ArConnect wallet?"
     }
   ]
 }
