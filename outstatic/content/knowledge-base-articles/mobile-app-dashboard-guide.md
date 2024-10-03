@@ -7,7 +7,7 @@ author:
 slug: 'mobile-app-dashboard-guide'
 description: ''
 coverImage: ''
-category: [{"value":"getting-started","label":"Getting started"},{"label":"Mobile app","value":"mobile-app"}]
+category: [{"value":"getting-started","label":"Getting started"},{"label":"Mobile app","value":"mobile-app"},{"value":"apps-and-connections","label":"Apps & connections"}]
 publishedAt: '2024-10-03T12:04:25.609Z'
 ---
 
