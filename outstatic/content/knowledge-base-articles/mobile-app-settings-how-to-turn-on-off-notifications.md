@@ -11,9 +11,7 @@ category: [{"value":"apps-and-connections","label":"Apps & connections"},{"label
 publishedAt: '2024-10-03T16:48:04.620Z'
 ---
 
-During onboarding, ArConnect users will have the opportunity to enable notifications. However, if an ArConnect user changes their mind and wants to enable or disable notifications in the future, it can be done via the mobile app Settings:<br>
-
-<br>
+During onboarding, ArConnect users will have the opportunity to enable notifications. However, if an ArConnect user changes their mind and wants to enable or disable notifications in the future, it can be done via the mobile app Settings:
 
 ArConnect users can enable or disable notifications by:
 

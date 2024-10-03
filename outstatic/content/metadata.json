@@ -1,6 +1,6 @@
 {
-  "commit": "6b029b549de341252d25730e45bf9f9852fde987",
-  "generated": "2024-10-03T16:37:09.703Z",
+  "commit": "69221a658c28a9332abca561818e8dcb41912b1e",
+  "generated": "2024-10-03T16:37:17.667Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1068,8 +1068,8 @@
     },
     {
       "__outstatic": {
-        "commit": "6b029b549de341252d25730e45bf9f9852fde987",
-        "hash": "459829644",
+        "commit": "69221a658c28a9332abca561818e8dcb41912b1e",
+        "hash": "2177621139",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-turn-on-off-notifications.md"
       },
       "author": {
