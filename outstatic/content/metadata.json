@@ -1,6 +1,6 @@
 {
-  "commit": "438fe74e32771ea6509c7278b033c75783492875",
-  "generated": "2024-10-03T09:52:24.990Z",
+  "commit": "df3dc90314219831f2b6df70c13a84a6ed33353a",
+  "generated": "2024-10-03T09:54:08.030Z",
   "metadata": [
     {
       "__outstatic": {
@@ -741,6 +741,30 @@
       "slug": "mobile-app-creating-a-new-wallet",
       "status": "published",
       "title": "Mobile App: Onboarding - Creating a new wallet"
+    },
+    {
+      "__outstatic": {
+        "commit": "df3dc90314219831f2b6df70c13a84a6ed33353a",
+        "hash": "695521639",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T10:04:47.466Z",
+      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
+      "status": "published",
+      "title": "Mobile App: Onboarding - Add an existing wallet by Seedphrase or Keyfile"
     }
   ]
 }
