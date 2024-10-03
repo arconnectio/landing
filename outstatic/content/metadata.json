@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:04:13.000Z",
+  "generated": "2024-10-03T12:05:55.030Z",
   "metadata": [
     {
       "__outstatic": {
@@ -797,7 +797,7 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "71337033",
+        "hash": "784911816",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
       },
       "author": {

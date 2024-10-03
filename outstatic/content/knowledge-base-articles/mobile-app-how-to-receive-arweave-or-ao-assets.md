@@ -15,6 +15,16 @@ In order to receive Arweave or AO assets to your ArConnect Mobile Wallet, you ne
 
 If you are not familiar with what a wallet address is, it is very similar to your bank account number. In order to send you Arweave or AO assets, a person or application needs to know what wallet address to send the assets to.
 
+Each Arweave and AO wallet is associated with an Arweave and AO address. Here are some details about Arweave and AO wallet addresses:
+
+- The address doesn’t necessary start with “0x” like on other chains.
+
+- The address is exactly 43 characters long.
+
+- It can only include normal and capitalized letters, number, “-” and “\_”.
+
+- Addresses are case sensitive.
+
 > ⚠️ Remember: you cannot receive tokens from Ethereum or any other chain. Arweave and AO are its own chain, meaning that you cannot hold tokens from other blockchains. However, you can use the same address for Arweave and AO assets
 
 **How to get your wallet address instructions**
