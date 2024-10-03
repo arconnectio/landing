@@ -1,6 +1,6 @@
 {
-  "commit": "f45f28c21ce71ba93b74a1bcce7cad98c5b0b3db",
-  "generated": "2024-09-25T16:04:30.691Z",
+  "commit": "11e92b4759b4a7740d0eee46ce77636b8a5e12cd",
+  "generated": "Thu, 03 Oct 2024 09:31:51 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -20,6 +20,26 @@
       "status": "published",
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "a5807fd79ad2e72060f350ef13c98e2b6f7fd6c9",
+        "hash": "2445259923",
+        "path": "outstatic/content/blogs/beyond-transactions-integration-of-arconnects-subscription-feature.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/announcement-blog-cover_arconnect-s-subscription-feature--1--k0Nz.png",
+      "description": "ArConnect's subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription management",
+      "publishedAt": "2024-05-30T16:57:25.159Z",
+      "slug": "beyond-transactions-integration-of-arconnects-subscription-feature",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -164,6 +184,54 @@
     },
     {
       "__outstatic": {
+        "commit": "dfa491b0eab8a2d281151a913472029378927381",
+        "hash": "594789861",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-tokens-to-show-up-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:20:47.772Z",
+      "slug": "how-to-add-tokens-to-show-up-in-arconnect",
+      "status": "published",
+      "title": "How to add tokens to show up in ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "83cb3ea146bd186bfcf413635d78e78521819d3b",
+        "hash": "1060416131",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:29:03.489Z",
+      "slug": "how-to-add-a-contact-in-arconnect",
+      "status": "published",
+      "title": "How to add a contact in ArConnect?"
+    },
+    {
+      "__outstatic": {
         "commit": "23e468443cf3669ec90b0172b4a3f13f5ef1e56c",
         "hash": "2184516756",
         "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
@@ -189,6 +257,30 @@
       "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
       "status": "published",
       "title": "How do I access my wallet if I forget my password?"
+    },
+    {
+      "__outstatic": {
+        "commit": "30d6c434ac8a78d282d796b0506a7d36fd264aa2",
+        "hash": "1970251660",
+        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "What are Arweave gateways and its integration with ArConnect?",
+      "publishedAt": "2024-03-08T14:00:57.349Z",
+      "slug": "arweave-gateways-in-arconnect",
+      "status": "published",
+      "title": "Arweave gateways in ArConnect"
     },
     {
       "__outstatic": {
@@ -241,6 +333,30 @@
       "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
       "status": "published",
       "title": "How to receive tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
+        "commit": "7c26fd931b378bffbbcb55ee91b039bf5c46b4f3",
+        "hash": "1806086049",
+        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2023-09-23T12:13:50.100Z",
+      "slug": "how-to-operate-arconnect",
+      "status": "published",
+      "title": "How to operate ArConnect?"
     },
     {
       "__outstatic": {
@@ -297,6 +413,34 @@
       "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
       "status": "published",
       "title": "How to create multiple public addresses with same private key?"
+    },
+    {
+      "__outstatic": {
+        "commit": "916cdeeb409c9cfd8772d630e5f05ab85bed2650",
+        "hash": "182691533",
+        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-20T13:06:34.473Z",
+      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
+      "status": "published",
+      "title": "How to buy AR Tokens in your ArConnect wallet?"
     },
     {
       "__outstatic": {
@@ -372,6 +516,30 @@
     },
     {
       "__outstatic": {
+        "commit": "0fdf0fc8638d3160c194fdad2cf9d1037ef6fdc0",
+        "hash": "534317929",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-10T01:51:41.332Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
+      "status": "published",
+      "title": "How to use ArConnect with a dApp?"
+    },
+    {
+      "__outstatic": {
         "commit": "8b6881e1bd966dc9d7e3705b5b8d6fc1db6a4506",
         "hash": "3632199309",
         "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
@@ -397,30 +565,6 @@
       "slug": "how-to-send-tokens-from-arconnect-to-other-users",
       "status": "published",
       "title": "How to send tokens from ArConnect to other users?"
-    },
-    {
-      "__outstatic": {
-        "commit": "0fdf0fc8638d3160c194fdad2cf9d1037ef6fdc0",
-        "hash": "534317929",
-        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-10T01:51:41.332Z",
-      "slug": "how-to-use-arconnect-with-a-dapp",
-      "status": "published",
-      "title": "How to use ArConnect with a dApp?"
     },
     {
       "__outstatic": {
@@ -545,174 +689,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "4b3c0d3db575b1f732c96a6997f5af3d81561009",
-        "hash": "2445259923",
-        "path": "outstatic/content/blogs/beyond-transactions-integration-of-arconnects-subscription-feature.md"
-      },
-      "author": {
-        "name": "Bithiah Koshy",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/announcement-blog-cover_arconnect-s-subscription-feature--1--k0Nz.png",
-      "description": "ArConnect's subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription management",
-      "publishedAt": "2024-05-30T16:57:25.159Z",
-      "slug": "beyond-transactions-integration-of-arconnects-subscription-feature",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "9ec77b4d3f0bb07ad1c6610bc36a93ca16551648",
-        "hash": "594789861",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-tokens-to-show-up-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:20:47.772Z",
-      "slug": "how-to-add-tokens-to-show-up-in-arconnect",
-      "status": "published",
-      "title": "How to add tokens to show up in ArConnect?"
-    },
-    {
-      "__outstatic": {
-        "commit": "a83df8380db35236bea0514a6f9d53576c6d9049",
-        "hash": "1060416131",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:29:03.489Z",
-      "slug": "how-to-add-a-contact-in-arconnect",
-      "status": "published",
-      "title": "How to add a contact in ArConnect?"
-    },
-    {
-      "__outstatic": {
-        "commit": "3af50bc50ef4d1069aaed1455e965bd3dbc7c274",
-        "hash": "1806086049",
-        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2023-09-23T12:13:50.100Z",
-      "slug": "how-to-operate-arconnect",
-      "status": "published",
-      "title": "How to operate ArConnect?"
-    },
-    {
-      "__outstatic": {
-        "commit": "b2308a62e930d9993db0793cc367cf556c4225fd",
-        "hash": "1970251660",
-        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "What are Arweave gateways and its integration with ArConnect?",
-      "publishedAt": "2024-03-08T14:00:57.349Z",
-      "slug": "arweave-gateways-in-arconnect",
-      "status": "published",
-      "title": "Arweave gateways in ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "64a40a0a7e2730f21ad73f177933c068b7bd28cb",
-        "hash": "182691533",
-        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-20T13:06:34.473Z",
-      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "How to buy AR Tokens in your ArConnect wallet?"
-    },
-    {
-      "__outstatic": {
-        "commit": "06bb1632b89394aa79b016c5f95da2b7f0d8387d",
-        "hash": "2270820350",
-        "path": "outstatic/content/knowledge-base-articles/test.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-25T16:16:02.610Z",
-      "slug": "test",
-      "status": "draft",
-      "title": "test"
     }
   ]
 }
