@@ -18,7 +18,7 @@ export default function Home() {
         <Mobile />
         <TitleSection>
           <Title>Arconnect Wallet Extension</Title>
-          <Spacer y={5} />
+          <Spacer y={3} />
           <Subtitle>Download the ArConnect Extension</Subtitle>
           <Spacer y={3} />
           <Browsers />
