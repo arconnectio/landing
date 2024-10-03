@@ -7,7 +7,7 @@ author:
 slug: 'what-is-arweave'
 description: ''
 coverImage: ''
-category: [{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"},{"value":"getting-started","label":"Getting started"},{"value":"wallet-management","label":"Wallet management"},{"value":"apps-and-connections","label":"Apps & connections"}]
 publishedAt: '2023-09-24T21:27:09.654Z'
 ---
 

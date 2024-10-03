@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:14:28.574Z",
+  "generated": "2024-10-03T12:14:43.732Z",
   "metadata": [
     {
       "__outstatic": {
@@ -708,34 +708,6 @@
     },
     {
       "__outstatic": {
-        "commit": "0f9fc7389f66ff36106c2e05ec85c8a5cb2c828d",
-        "hash": "2746454872",
-        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2023-09-24T21:27:09.654Z",
-      "slug": "what-is-arweave",
-      "status": "published",
-      "title": "What is Arweave?"
-    },
-    {
-      "__outstatic": {
         "commit": "09a1f89a9c6d48e22cee6736a45c1fba2c1b8d02",
         "hash": "2206015014",
         "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
@@ -768,6 +740,34 @@
     },
     {
       "__outstatic": {
+        "commit": "faa33dc88ba4095aa9bf9c239b99c63d1c5d7870",
+        "hash": "3371955589",
+        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Find out what a JSON keyfile is.",
+      "publishedAt": "2023-09-24T21:27:47.445Z",
+      "slug": "what-is-a-json-keyfile",
+      "status": "published",
+      "title": "What is a JSON keyfile?"
+    },
+    {
+      "__outstatic": {
         "commit": "e544f309d956a82ea0a18dcc627b87ea873e0f6a",
         "hash": "2264981725",
         "path": "outstatic/content/knowledge-base-articles/using-the-keystone-hardware-wallet-with-arconnect.md"
@@ -797,8 +797,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "775406693",
-        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
+        "hash": "4252030528",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
       },
       "author": {
         "name": "Marton Lederer",
@@ -814,6 +814,10 @@
           "value": "browser-extension"
         },
         {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
           "label": "Wallet management",
           "value": "wallet-management"
         },
@@ -824,11 +828,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Find out what a JSON keyfile is.",
-      "publishedAt": "2023-09-24T21:27:47.445Z",
-      "slug": "what-is-a-json-keyfile",
+      "description": "",
+      "publishedAt": "2023-09-24T21:27:09.654Z",
+      "slug": "what-is-arweave",
       "status": "published",
-      "title": "What is a JSON keyfile?"
+      "title": "What is Arweave?"
     }
   ]
 }
