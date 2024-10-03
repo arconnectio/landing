@@ -7,7 +7,7 @@ author:
 slug: 'security-best-practices'
 description: 'Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.'
 coverImage: ''
-category: [{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"},{"value":"getting-started","label":"Getting started"}]
 publishedAt: '2024-03-08T02:33:21.793Z'
 ---
 

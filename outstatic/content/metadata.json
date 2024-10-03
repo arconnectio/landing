@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:12:39.271Z",
+  "generated": "2024-10-03T12:12:59.393Z",
   "metadata": [
     {
       "__outstatic": {
@@ -556,9 +556,9 @@
     },
     {
       "__outstatic": {
-        "commit": "f4a68cc5c2a9ea1258ff6c3a3245b4f0b504ae02",
-        "hash": "1123881878",
-        "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
+        "commit": "77de3e20a1c3ab264962656997130f5805f55e6b",
+        "hash": "1391768400",
+        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
       },
       "author": {
         "name": "Bithiah",
@@ -566,21 +566,17 @@
       },
       "category": [
         {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
           "label": "Browser Extension",
           "value": "browser-extension"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.",
-      "publishedAt": "2024-03-08T02:33:21.793Z",
-      "slug": "security-best-practices",
+      "description": "",
+      "publishedAt": "2024-03-08T04:37:23.280Z",
+      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
       "status": "published",
-      "title": "Security Best Practices"
+      "title": "Browser Extension - Protecting your funds: allowance limits and how they work"
     },
     {
       "__outstatic": {
@@ -801,8 +797,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "3522294270",
-        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
+        "hash": "2913068175",
+        "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
       },
       "author": {
         "name": "Bithiah",
@@ -810,21 +806,25 @@
       },
       "category": [
         {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
           "label": "Browser Extension",
           "value": "browser-extension"
         },
         {
-          "label": "Wallet management",
-          "value": "wallet-management"
+          "label": "Getting started",
+          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-08T04:37:23.280Z",
-      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
+      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.",
+      "publishedAt": "2024-03-08T02:33:21.793Z",
+      "slug": "security-best-practices",
       "status": "published",
-      "title": "Browser Extension - Protecting your funds: allowance limits and how they work"
+      "title": "Security Best Practices"
     }
   ]
 }
