@@ -7,7 +7,7 @@ author:
 slug: 'how-to-receive-tokens-in-your-arconnect-wallet'
 description: ''
 coverImage: ''
-category: [{"value":"getting-started","label":"Getting started"},{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"value":"getting-started","label":"Getting started"},{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2024-03-11T00:46:34.135Z'
 ---
 
