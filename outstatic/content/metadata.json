@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:14:23.793Z",
+  "generated": "2024-10-03T12:14:28.574Z",
   "metadata": [
     {
       "__outstatic": {
@@ -797,7 +797,7 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "918185485",
+        "hash": "775406693",
         "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
       },
       "author": {
@@ -816,6 +816,10 @@
         {
           "label": "Wallet management",
           "value": "wallet-management"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",

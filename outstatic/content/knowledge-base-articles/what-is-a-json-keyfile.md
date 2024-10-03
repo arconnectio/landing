@@ -7,7 +7,7 @@ author:
 slug: 'what-is-a-json-keyfile'
 description: 'Find out what a JSON keyfile is.'
 coverImage: ''
-category: [{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
+category: [{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"},{"value":"apps-and-connections","label":"Apps & connections"}]
 publishedAt: '2023-09-24T21:27:47.445Z'
 ---
 
