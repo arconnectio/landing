@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:01:08.522Z",
+  "generated": "2024-10-03T12:01:27.260Z",
   "metadata": [
     {
       "__outstatic": {
@@ -448,6 +448,34 @@
     },
     {
       "__outstatic": {
+        "commit": "54111ca5165a371a1259c1268cab2b2eac8f2a14",
+        "hash": "3597189712",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-dashboard-guide.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:04:25.609Z",
+      "slug": "mobile-app-dashboard-guide",
+      "status": "published",
+      "title": "Mobile App - Dashboard Guide"
+    },
+    {
+      "__outstatic": {
         "commit": "564a5a90568a1ad1442ea68c5a886d54cca00f65",
         "hash": "1737293612",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
@@ -601,30 +629,6 @@
       "slug": "permission-system-in-arconnect",
       "status": "published",
       "title": "Browser Extension - Permission system in ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "45a23e7428dff878a3fa47c0415d4892dddc571f",
-        "hash": "105823338",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-03T10:04:47.466Z",
-      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
-      "status": "published",
-      "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
     },
     {
       "__outstatic": {
@@ -797,8 +801,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "833009807",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-dashboard-guide.md"
+        "hash": "1454346054",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
       },
       "author": {
         "name": "Matt",
@@ -806,25 +810,25 @@
       },
       "category": [
         {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
           "label": "Mobile app",
           "value": "mobile-app"
         },
         {
           "label": "Apps & connections",
           "value": "apps-and-connections"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-10-03T12:04:25.609Z",
-      "slug": "mobile-app-dashboard-guide",
+      "publishedAt": "2024-10-03T10:04:47.466Z",
+      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
       "status": "published",
-      "title": "Mobile App - Dashboard Guide"
+      "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
     }
   ]
 }

@@ -7,7 +7,7 @@ author:
 slug: 'mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile'
 description: ''
 coverImage: ''
-category: [{"label":"Mobile app","value":"mobile-app"}]
+category: [{"label":"Mobile app","value":"mobile-app"},{"value":"apps-and-connections","label":"Apps & connections"},{"value":"getting-started","label":"Getting started"}]
 publishedAt: '2024-10-03T10:04:47.466Z'
 ---
 
@@ -25,11 +25,15 @@ Add an existing wallet by Seedphrase or Keyfile during onboarding instructions:
 
     <!-- -->
 
+    <!-- -->
+
 4. Select “Seedphrase or Keyfile”
 
 5. By Seedphrase
 
     1. Enter your twelve word seedphrase and then click next
+
+    <!-- -->
 
     <!-- -->
 
@@ -47,6 +51,8 @@ Add an existing wallet by Seedphrase or Keyfile during onboarding instructions:
 
     <!-- -->
 
+    <!-- -->
+
 7. Create a password
 
     1. IMPORTANT - There is no reset password. Please make sure to save your password someplace secure
@@ -57,9 +63,13 @@ Add an existing wallet by Seedphrase or Keyfile during onboarding instructions:
 
     <!-- -->
 
+    <!-- -->
+
 8. Enable biometric authentication
 
     1. This is optional and does not impact the functionality of the wallet
+
+    <!-- -->
 
     <!-- -->
 
