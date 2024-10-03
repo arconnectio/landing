@@ -78,7 +78,8 @@ const Subtitle = styled.h2`
   line-height: normal;
 
   @media screen and (max-width: 720px) {
-    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 `;
 
