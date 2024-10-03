@@ -3,7 +3,7 @@ author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
 coverImage: ''
-title: 'Browser Extension - How to create multiple public addresses with same private key?'
+title: 'Browser Extension - How to create multiple wallets?'
 status: 'published'
 slug: 'how-to-create-multiple-public-addresses-with-same-private-key'
 description: ''
