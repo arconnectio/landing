@@ -1,6 +1,6 @@
 {
-  "commit": "43befc7ca36bba51cd6da6842ed23961809be7ad",
-  "generated": "2024-10-03T12:43:14.269Z",
+  "commit": "f293c56dc848327d2b6fe6cdeab8169180dc4dbf",
+  "generated": "2024-10-03T13:19:30.052Z",
   "metadata": [
     {
       "__outstatic": {
@@ -953,6 +953,34 @@
       "slug": "mobile-app-how-to-send-arweave-and-ao-assets",
       "status": "published",
       "title": "Mobile App - How to Send Arweave and AO assets"
+    },
+    {
+      "__outstatic": {
+        "commit": "f293c56dc848327d2b6fe6cdeab8169180dc4dbf",
+        "hash": "1711763380",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-buy-ar-tokens-with-fiat.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to purchase AR Tokens with multiple fiat currencies in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:29:37.769Z",
+      "slug": "mobile-app-how-to-buy-ar-tokens-with-fiat",
+      "status": "published",
+      "title": "Mobile App - How to buy AR Tokens with fiat"
     }
   ]
 }
