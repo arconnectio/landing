@@ -1,6 +1,6 @@
 {
-  "commit": "0fbbcb540cfb25a6cbf082a1cda8cee9874b4527",
-  "generated": "Thu, 03 Oct 2024 09:54:26 GMT",
+  "commit": "7e995e83b07f35ed8534b79ceef56505dd61ba40",
+  "generated": "2024-10-03T11:54:29.560Z",
   "metadata": [
     {
       "__outstatic": {
@@ -765,6 +765,34 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "7e995e83b07f35ed8534b79ceef56505dd61ba40",
+        "hash": "3597189712",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-dashboard-guide.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:04:25.609Z",
+      "slug": "mobile-app-dashboard-guide",
+      "status": "published",
+      "title": "Mobile App - Dashboard Guide"
     }
   ]
 }
