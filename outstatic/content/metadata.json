@@ -1,6 +1,6 @@
 {
-  "commit": "b8d6fbbf175a17365c2fb0f2cfb12d4a0242ddff",
-  "generated": "2024-10-03T09:36:39.719Z",
+  "commit": "78ffbb12ddd7478fd690e224771dc548c417dc44",
+  "generated": "2024-10-03T09:37:17.962Z",
   "metadata": [
     {
       "__outstatic": {
@@ -436,34 +436,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8b6881e1bd966dc9d7e3705b5b8d6fc1db6a4506",
-        "hash": "3632199309",
-        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:14:16.427Z",
-      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
-      "status": "published",
-      "title": "How to send tokens from ArConnect to other users?"
-    },
-    {
-      "__outstatic": {
         "commit": "494d85fc1ac6938f066dd3b74b718aff163a4fe2",
         "hash": "3444748539",
         "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
@@ -669,6 +641,30 @@
       "slug": "how-to-add-a-contact-in-arconnect",
       "status": "published",
       "title": "Browser Extension - How to add a contact in ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "78ffbb12ddd7478fd690e224771dc548c417dc44",
+        "hash": "1085678023",
+        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:14:16.427Z",
+      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
+      "status": "published",
+      "title": "Browser Extension - How to send tokens from ArConnect to other users?"
     }
   ]
 }

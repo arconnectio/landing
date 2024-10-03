@@ -1,5 +1,5 @@
 ---
-title: 'How to send tokens from ArConnect to other users?'
+title: 'Browser Extension - How to send tokens from ArConnect to other users?'
 status: 'published'
 author:
   name: 'Bithiah'
@@ -7,7 +7,7 @@ author:
 slug: 'how-to-send-tokens-from-arconnect-to-other-users'
 description: ''
 coverImage: ''
-category: [{"value":"wallet-management","label":"Wallet management"},{"value":"getting-started","label":"Getting started"}]
+category: [{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-11T04:14:16.427Z'
 ---
 
@@ -47,6 +47,8 @@ Follow these steps to send tokens to other users from ArConnect:
 
     <!-- -->
 
+    <!-- -->
+
 7. Proceed by clicking on the "Next" button.
 
     ![](/images/screen-shot-2024-03-27-at-11.21.40-pm-Q0ND.png)
@@ -60,6 +62,8 @@ Follow these steps to send tokens to other users from ArConnect:
     ![](/images/screen-shot-2024-03-27-at-11.22.45-pm-M3Mj.png)
 
     - Wait a few seconds for the transaction to be picked up by the gateway and complete its execution.
+
+    <!-- -->
 
     <!-- -->
 
@@ -78,6 +82,10 @@ Follow these steps to send tokens to other users from ArConnect:
         - Clicking the link redirects you to the contact creation flow within the Settings page to help you quickly add the recipient as a contact. See our guide on [adding a contact](https://www.notion.so/755217db1fa248bcae1831c7b01cba93?pvs=21) to learn more.
 
         <!-- -->
+
+        <!-- -->
+
+    <!-- -->
 
     <!-- -->
 
