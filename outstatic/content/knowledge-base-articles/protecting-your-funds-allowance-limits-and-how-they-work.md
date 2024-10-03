@@ -7,7 +7,7 @@ author:
 slug: 'protecting-your-funds-allowance-limits-and-how-they-work'
 description: ''
 coverImage: ''
-category: [{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2024-03-08T04:37:23.280Z'
 ---
 
