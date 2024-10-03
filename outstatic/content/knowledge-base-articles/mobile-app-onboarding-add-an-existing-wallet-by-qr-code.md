@@ -1,5 +1,5 @@
 ---
-title: 'Mobile App: Onboarding - Add an existing wallet by QR Code'
+title: 'Mobile App - Onboarding: Add an existing wallet by QR Code'
 status: 'published'
 author:
   name: 'Matt'
@@ -25,9 +25,13 @@ publishedAt: '2024-10-03T10:01:53.012Z'
 
     <!-- -->
 
+    <!-- -->
+
 4. Select “QR Code”
 
     1. IMPORTANT - Make sure to grant the ArConnect Mobile App the ability to use your mobile device’s camera. If you don’t, you will not be able to import via QR Code
+
+    <!-- -->
 
     <!-- -->
 
@@ -53,9 +57,13 @@ publishedAt: '2024-10-03T10:01:53.012Z'
 
     <!-- -->
 
+    <!-- -->
+
 13. Enable biometric authentication
 
     1. This is optional and does not impact the functionality of the wallet
+
+    <!-- -->
 
     <!-- -->
 

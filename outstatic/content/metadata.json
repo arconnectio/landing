@@ -1,6 +1,6 @@
 {
-  "commit": "d1b88572b562bf56a71f543a8742f057f9881a02",
-  "generated": "2024-10-03T11:56:13.916Z",
+  "commit": "12c827ab28eeec7856d0bd28efee5e38df0a6a19",
+  "generated": "2024-10-03T11:56:26.314Z",
   "metadata": [
     {
       "__outstatic": {
@@ -548,34 +548,6 @@
     },
     {
       "__outstatic": {
-        "commit": "36968fa843af0331dc32597b2c99389cb56a4f27",
-        "hash": "905202476",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to add an existing ArConnect wallet via a QR code during ArConnect mobile app onboarding",
-      "publishedAt": "2024-10-03T10:01:53.012Z",
-      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
-      "status": "published",
-      "title": "Mobile App: Onboarding - Add an existing wallet by QR Code"
-    },
-    {
-      "__outstatic": {
         "commit": "494d85fc1ac6938f066dd3b74b718aff163a4fe2",
         "hash": "3444748539",
         "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
@@ -793,6 +765,34 @@
       "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
       "status": "published",
       "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
+    },
+    {
+      "__outstatic": {
+        "commit": "12c827ab28eeec7856d0bd28efee5e38df0a6a19",
+        "hash": "3243765478",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to add an existing ArConnect wallet via a QR code during ArConnect mobile app onboarding",
+      "publishedAt": "2024-10-03T10:01:53.012Z",
+      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
+      "status": "published",
+      "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
     }
   ]
 }
