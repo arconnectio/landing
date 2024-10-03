@@ -1,6 +1,6 @@
 {
-  "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:15:01.314Z",
+  "commit": "4b9614037765affec662add67b299bb914893b8c",
+  "generated": "Thu, 03 Oct 2024 12:17:26 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -164,8 +164,8 @@
     },
     {
       "__outstatic": {
-        "commit": "f86c27deed5d9d780ccfc09d3b66d892ef28eff4",
-        "hash": "3208616688",
+        "commit": "cc804965815e0495efb9c5e96e128493bfd26695",
+        "hash": "4188192428",
         "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
       },
       "author": {
@@ -176,6 +176,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -188,8 +192,8 @@
     },
     {
       "__outstatic": {
-        "commit": "b151ea1364e5673bfbaf6c62caa457ac9fe7e58f",
-        "hash": "1109938286",
+        "commit": "dba8bc8c6a49dbbb06068821ab82cb3779cdd548",
+        "hash": "3067606806",
         "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
       },
       "author": {
@@ -200,6 +204,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -212,8 +220,8 @@
     },
     {
       "__outstatic": {
-        "commit": "6d2500cc8810a9d35bbd21670845aa27581d74ed",
-        "hash": "1061266478",
+        "commit": "b9a62612e525e5091b72c795d5322f7c07adfc52",
+        "hash": "2221397112",
         "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
       },
       "author": {
@@ -224,6 +232,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -236,8 +248,8 @@
     },
     {
       "__outstatic": {
-        "commit": "2ae2e8f3ae12b8aa5a8a7f61575f9a2355beed3d",
-        "hash": "1299851044",
+        "commit": "1fdd909145721caea1913c3756aaeecd0fe19ee2",
+        "hash": "3479901999",
         "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
       },
       "author": {
@@ -248,6 +260,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -280,8 +296,8 @@
     },
     {
       "__outstatic": {
-        "commit": "ead46b60cde437de5a71654ba642809684a5aaa0",
-        "hash": "399095047",
+        "commit": "94a55cc9d827742b1b6b8974cba2e2563650c1a3",
+        "hash": "2467258067",
         "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
       },
       "author": {
@@ -296,6 +312,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -308,8 +328,36 @@
     },
     {
       "__outstatic": {
-        "commit": "152f8db631d5b369719a19ce24ad5ae7a4304f76",
-        "hash": "1063698882",
+        "commit": "53bbef059b0ff02fc408ac0c8f4d979c6ef6b41a",
+        "hash": "1053755690",
+        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2023-09-23T12:13:50.100Z",
+      "slug": "how-to-operate-arconnect",
+      "status": "published",
+      "title": "Browser Extension - How to operate ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "b8226b557792884d71797245c6b91c34c0afd3c0",
+        "hash": "2231644611",
         "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
       },
       "author": {
@@ -324,6 +372,14 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -364,8 +420,8 @@
     },
     {
       "__outstatic": {
-        "commit": "7b4d5540862bc3267806b2d08ab69ac161f45c73",
-        "hash": "3600568995",
+        "commit": "3719ed2d1344e468e0aca37439d68fa3d520d795",
+        "hash": "1408841579",
         "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
       },
       "author": {
@@ -384,6 +440,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -396,8 +456,8 @@
     },
     {
       "__outstatic": {
-        "commit": "232a8871f2c680859dd8f19a5079b9d182c0f353",
-        "hash": "515729095",
+        "commit": "1f931e4e379fc2f5b15c2920b01849e5215727c1",
+        "hash": "784911816",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
       },
       "author": {
@@ -424,8 +484,8 @@
     },
     {
       "__outstatic": {
-        "commit": "54111ca5165a371a1259c1268cab2b2eac8f2a14",
-        "hash": "3597189712",
+        "commit": "672407a26275f1adf4641eef7f970547d85e16bf",
+        "hash": "833009807",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-dashboard-guide.md"
       },
       "author": {
@@ -440,6 +500,10 @@
         {
           "label": "Mobile app",
           "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -452,8 +516,8 @@
     },
     {
       "__outstatic": {
-        "commit": "564a5a90568a1ad1442ea68c5a886d54cca00f65",
-        "hash": "1737293612",
+        "commit": "6b58289e6f3113fe1d6f4b7d31dca63db0b45b5e",
+        "hash": "2394377207",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
       },
       "author": {
@@ -472,6 +536,10 @@
         {
           "label": "Pinned",
           "value": "pinned"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -484,8 +552,8 @@
     },
     {
       "__outstatic": {
-        "commit": "859dc7a1e634dcd7ccbde48c008bef0c71539420",
-        "hash": "2769958411",
+        "commit": "d148fbd6ffd2b0bf7dc3dae9f8d8c41dfce1bdef",
+        "hash": "725046375",
         "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
       },
       "author": {
@@ -496,6 +564,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -508,8 +580,8 @@
     },
     {
       "__outstatic": {
-        "commit": "ea1d09736a2f80b811475d292dcf3ad314626f40",
-        "hash": "1085678023",
+        "commit": "d035962df6b160fccba95a949f712787c865ff65",
+        "hash": "3764320787",
         "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
       },
       "author": {
@@ -520,6 +592,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -532,8 +608,8 @@
     },
     {
       "__outstatic": {
-        "commit": "f4a68cc5c2a9ea1258ff6c3a3245b4f0b504ae02",
-        "hash": "1123881878",
+        "commit": "95f1334a1cc00959403d6e5229eca7d87715daa8",
+        "hash": "2913068175",
         "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
       },
       "author": {
@@ -548,6 +624,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -560,8 +640,8 @@
     },
     {
       "__outstatic": {
-        "commit": "77de3e20a1c3ab264962656997130f5805f55e6b",
-        "hash": "1391768400",
+        "commit": "8c25b47d7442bad2ec69810cfe0cd80034988ab6",
+        "hash": "3522294270",
         "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
       },
       "author": {
@@ -572,6 +652,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -584,8 +668,8 @@
     },
     {
       "__outstatic": {
-        "commit": "48b998f6f0d4cd40ef337a40c27f1a70ffc104ae",
-        "hash": "3837140889",
+        "commit": "e1710c79f87bdd6fd190f2691f4cb206c4c3389e",
+        "hash": "783863072",
         "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
       },
       "author": {
@@ -596,6 +680,10 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -608,8 +696,8 @@
     },
     {
       "__outstatic": {
-        "commit": "45a23e7428dff878a3fa47c0415d4892dddc571f",
-        "hash": "105823338",
+        "commit": "93319bc8518410b4873dcb6fb3d1f1b14f9c2e5b",
+        "hash": "1454346054",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
       },
       "author": {
@@ -620,6 +708,14 @@
         {
           "label": "Mobile app",
           "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -632,8 +728,8 @@
     },
     {
       "__outstatic": {
-        "commit": "ce89ca2e9abe6ff07b229eee188405660ec70c41",
-        "hash": "3243765478",
+        "commit": "2d0efe0285589a39365794a4ae8d0dc149b0361f",
+        "hash": "40961685",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
       },
       "author": {
@@ -648,6 +744,10 @@
         {
           "label": "Mobile app",
           "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -660,8 +760,8 @@
     },
     {
       "__outstatic": {
-        "commit": "494d85fc1ac6938f066dd3b74b718aff163a4fe2",
-        "hash": "3444748539",
+        "commit": "106463ce084fd82de516abccd6fca5ec141a4cb4",
+        "hash": "3508145953",
         "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
       },
       "author": {
@@ -684,8 +784,8 @@
     },
     {
       "__outstatic": {
-        "commit": "0f9fc7389f66ff36106c2e05ec85c8a5cb2c828d",
-        "hash": "2746454872",
+        "commit": "cc0de2db61d191bfb66ef8d1cc40cc17b74f14c6",
+        "hash": "4252030528",
         "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
       },
       "author": {
@@ -700,6 +800,18 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -712,8 +824,8 @@
     },
     {
       "__outstatic": {
-        "commit": "09a1f89a9c6d48e22cee6736a45c1fba2c1b8d02",
-        "hash": "2206015014",
+        "commit": "c46a25909c2c7b4d6222f411e3ac1e2e15c5bb62",
+        "hash": "3351363290",
         "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
       },
       "author": {
@@ -732,6 +844,14 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -744,8 +864,8 @@
     },
     {
       "__outstatic": {
-        "commit": "faa33dc88ba4095aa9bf9c239b99c63d1c5d7870",
-        "hash": "3371955589",
+        "commit": "627361b5cc1306f16bab4b85674ea9085f19bd1b",
+        "hash": "775406693",
         "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
       },
       "author": {
@@ -760,6 +880,14 @@
         {
           "label": "Browser Extension",
           "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
@@ -797,34 +925,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "1053755690",
-        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2023-09-23T12:13:50.100Z",
-      "slug": "how-to-operate-arconnect",
-      "status": "published",
-      "title": "Browser Extension - How to operate ArConnect?"
     }
   ]
 }
