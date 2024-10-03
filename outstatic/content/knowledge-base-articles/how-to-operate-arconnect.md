@@ -7,7 +7,7 @@ author:
 slug: 'how-to-operate-arconnect'
 description: ''
 coverImage: ''
-category: [{"value":"getting-started","label":"Getting started"}]
+category: [{"value":"getting-started","label":"Getting started"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2023-09-23T12:13:50.100Z'
 ---
 
@@ -27,6 +27,8 @@ ArConnect consists of multiple UI views. Here’s a brief overview of the availa
 
     <!-- -->
 
+    <!-- -->
+
 - Settings view - extension settings dashboard.
 
     ![](/images/screen-shot-2024-03-28-at-2.35.28-pm-YxNj.png)
@@ -36,6 +38,8 @@ ArConnect consists of multiple UI views. Here’s a brief overview of the availa
     - Provides an interface to add and remove wallets.
 
     - Provides useful information about the extension.
+
+    <!-- -->
 
     <!-- -->
 
@@ -53,9 +57,13 @@ ArConnect consists of multiple UI views. Here’s a brief overview of the availa
 
     <!-- -->
 
+    <!-- -->
+
 - Setup view - onboarding to the extension
 
     - Checkout our guide on [how to install and setup ArConnect](https://www.arconnect.io/help/article/how-to-install-and-setup-arconnect) for additional details.
+
+    <!-- -->
 
     <!-- -->
 
@@ -74,6 +82,10 @@ ArConnect consists of multiple UI views. Here’s a brief overview of the availa
         <!-- -->
 
         <!-- -->
+
+        <!-- -->
+
+    <!-- -->
 
     <!-- -->
 
@@ -99,6 +111,8 @@ The main extension view in ArConnect provides quick access to various features a
 
     <!-- -->
 
+    <!-- -->
+
 - On the right side you have a few quick actions available, from left to right:
 
     ![](/images/screen-shot-2024-03-28-at-2.40.41-pm-I0MD.png)
@@ -115,6 +129,8 @@ The main extension view in ArConnect provides quick access to various features a
 
     <!-- -->
 
+    <!-- -->
+
 - Main Arweave balance - balance of AR tokens.
 
     ![](/images/screen-shot-2024-03-28-at-2.41.00-pm-gzNz.png)
@@ -125,9 +141,13 @@ The main extension view in ArConnect provides quick access to various features a
 
     <!-- -->
 
+    <!-- -->
+
 - Assets & collectibles - balance of different arweave based tokens (NFTs, PSTs, etc.).
 
     - See our guide on [how to add tokens](https://www.notion.so/6a932c59849040e2a56bebf579d38759?pvs=21) to view your favorite tokens and collectibles in this list.
+
+    <!-- -->
 
     <!-- -->
 
@@ -144,6 +164,8 @@ The main extension view in ArConnect provides quick access to various features a
     - Receive tokens.
 
     - Explore the ecosystem (news and price info).
+
+    <!-- -->
 
     <!-- -->
 

@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:14:43.732Z",
+  "generated": "2024-10-03T12:15:01.314Z",
   "metadata": [
     {
       "__outstatic": {
@@ -305,30 +305,6 @@
       "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
       "status": "published",
       "title": "Browser Extension - How to receive tokens in your ArConnect wallet?"
-    },
-    {
-      "__outstatic": {
-        "commit": "a2dc8a43bec9e6265c606e5b23474375e3c5f5af",
-        "hash": "3412486971",
-        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2023-09-23T12:13:50.100Z",
-      "slug": "how-to-operate-arconnect",
-      "status": "published",
-      "title": "Browser Extension - How to operate ArConnect?"
     },
     {
       "__outstatic": {
@@ -708,6 +684,34 @@
     },
     {
       "__outstatic": {
+        "commit": "0f9fc7389f66ff36106c2e05ec85c8a5cb2c828d",
+        "hash": "2746454872",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2023-09-24T21:27:09.654Z",
+      "slug": "what-is-arweave",
+      "status": "published",
+      "title": "What is Arweave?"
+    },
+    {
+      "__outstatic": {
         "commit": "09a1f89a9c6d48e22cee6736a45c1fba2c1b8d02",
         "hash": "2206015014",
         "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
@@ -797,8 +801,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "4252030528",
-        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
+        "hash": "1053755690",
+        "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
       },
       "author": {
         "name": "Marton Lederer",
@@ -806,33 +810,21 @@
       },
       "category": [
         {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
           "label": "Getting started",
           "value": "getting-started"
         },
         {
           "label": "Wallet management",
           "value": "wallet-management"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2023-09-24T21:27:09.654Z",
-      "slug": "what-is-arweave",
+      "publishedAt": "2023-09-23T12:13:50.100Z",
+      "slug": "how-to-operate-arconnect",
       "status": "published",
-      "title": "What is Arweave?"
+      "title": "Browser Extension - How to operate ArConnect?"
     }
   ]
 }
