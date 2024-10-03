@@ -1,6 +1,6 @@
 {
-  "commit": "a3ab34e2e9bd103353bafd97db76072e30496f2c",
-  "generated": "2024-10-03T09:38:13.935Z",
+  "commit": "ab373bbda00f7051e41c560117861966310ec279",
+  "generated": "2024-10-03T09:38:39.506Z",
   "metadata": [
     {
       "__outstatic": {
@@ -384,30 +384,6 @@
     },
     {
       "__outstatic": {
-        "commit": "0fdf0fc8638d3160c194fdad2cf9d1037ef6fdc0",
-        "hash": "534317929",
-        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-10T01:51:41.332Z",
-      "slug": "how-to-use-arconnect-with-a-dapp",
-      "status": "published",
-      "title": "How to use ArConnect with a dApp?"
-    },
-    {
-      "__outstatic": {
         "commit": "494d85fc1ac6938f066dd3b74b718aff163a4fe2",
         "hash": "3444748539",
         "path": "outstatic/content/knowledge-base-articles/what-is-the-permaweb.md"
@@ -665,6 +641,30 @@
       "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
       "status": "published",
       "title": "Browser Extension - How to receive tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
+        "commit": "ab373bbda00f7051e41c560117861966310ec279",
+        "hash": "2769958411",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-10T01:51:41.332Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
+      "status": "published",
+      "title": "Browser Extension - How to use ArConnect with a dApp?"
     }
   ]
 }

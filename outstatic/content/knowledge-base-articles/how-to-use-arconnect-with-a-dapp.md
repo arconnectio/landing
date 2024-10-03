@@ -3,11 +3,11 @@ author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
 coverImage: ''
-title: 'How to use ArConnect with a dApp?'
+title: 'Browser Extension - How to use ArConnect with a dApp?'
 status: 'published'
 slug: 'how-to-use-arconnect-with-a-dapp'
 description: ''
-category: [{"value":"apps-and-connections","label":"Apps & connections"}]
+category: [{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-10T01:51:41.332Z'
 ---
 
@@ -43,6 +43,10 @@ publishedAt: '2024-03-10T01:51:41.332Z'
 
             <!-- -->
 
+            <!-- -->
+
+        <!-- -->
+
         <!-- -->
 
     2. The ArConnect auth view will show up.
@@ -77,9 +81,15 @@ publishedAt: '2024-03-10T01:51:41.332Z'
 
             <!-- -->
 
+            <!-- -->
+
+        <!-- -->
+
         <!-- -->
 
     7. Approve the connection with the “Connect” button located at the bottom of the permissions screen.
+
+    <!-- -->
 
     <!-- -->
 
@@ -101,6 +111,8 @@ If you no longer wish to allow an app access to ArConnect, you can disconnect it
 
     <!-- -->
 
+    <!-- -->
+
 - You can also manually disconnect from the app as follows:
 
     1. Right click on the webpage and click the “Disconnect” option.
@@ -116,6 +128,10 @@ If you no longer wish to allow an app access to ArConnect, you can disconnect it
             ![](/images/screen-shot-2024-03-28-at-12.20.51-am-gwND.png)
 
         <!-- -->
+
+        <!-- -->
+
+    <!-- -->
 
     <!-- -->
 
