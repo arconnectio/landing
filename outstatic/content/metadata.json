@@ -1,6 +1,6 @@
 {
-  "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-  "generated": "2024-10-03T09:45:50.062Z",
+  "commit": "a9fcece1387029bd1236e54556030ed9c6407214",
+  "generated": "2024-10-03T09:48:16.178Z",
   "metadata": [
     {
       "__outstatic": {
@@ -665,6 +665,38 @@
       "slug": "how-to-operate-arconnect",
       "status": "published",
       "title": "Browser Extension - How to operate ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "a9fcece1387029bd1236e54556030ed9c6407214",
+        "hash": "1409527182",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to create a new wallet using the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T09:58:30.693Z",
+      "slug": "mobile-app-creating-a-new-wallet",
+      "status": "published",
+      "title": "Mobile App - Creating a new wallet"
     }
   ]
 }
