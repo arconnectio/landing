@@ -1,7 +1,47 @@
 {
-  "commit": "6ae3db6b31cf968f570fe7fbd09591d440ae0b36",
-  "generated": "2024-10-03T16:52:06.330Z",
+  "commit": "958794802c15a057d81aa2a0c95ccc097551d0ae",
+  "generated": "Thu, 03 Oct 2024 16:52:18 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "dc5f0f252ae27123055f419df8a179ce6b4256b1",
+        "hash": "633992790",
+        "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
+      },
+      "author": {
+        "name": "ropats16",
+        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/wayfinder-final-v2-k5ND.png",
+      "description": "ArConnect integrates ar.io's Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.",
+      "publishedAt": "2023-10-31T17:22:52.571Z",
+      "slug": "introducing-wayfinder-a-new-era-for-arweaves-permaweb",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
+      "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
+    },
+    {
+      "__outstatic": {
+        "commit": "650f686040a39ba167a13a8315a483ab7b032afb",
+        "hash": "2930495488",
+        "path": "outstatic/content/blogs/contacts-new-send-flow.md"
+      },
+      "author": {
+        "name": "Matt DiRenzo",
+        "picture": "https://www.arconnect.io/images/matt-E0NT.jpeg"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/banner-IxMz.png",
+      "description": "Transacting on ArConnect just received its biggest upgrade yet",
+      "publishedAt": "2024-02-15T02:03:36.000Z",
+      "slug": "contacts-new-send-flow",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
     {
       "__outstatic": {
         "commit": "a5807fd79ad2e72060f350ef13c98e2b6f7fd6c9",
@@ -60,6 +100,54 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "ArConnect Just Leveled Up to 1.0",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "1fdd909145721caea1913c3756aaeecd0fe19ee2",
+        "hash": "3479901999",
+        "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-09T05:26:34.560Z",
+      "slug": "arweave-bundles-in-arconnect",
+      "status": "published",
+      "title": "Arweave bundles in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "0cd14a7dfad77b5c3030bb3ad6080e6dd8a98a06",
+        "hash": "1795843192",
+        "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
+      },
+      "author": {
+        "name": "Rohit Pathare",
+        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/blog-image-M0OD.png",
+      "description": "This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.",
+      "publishedAt": "2024-01-04T16:01:34.068Z",
+      "slug": "where-do-wallets-fit-in-the-world-of-crypto",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Where do wallets fit in the world of crypto?",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -124,43 +212,67 @@
     },
     {
       "__outstatic": {
-        "commit": "dc5f0f252ae27123055f419df8a179ce6b4256b1",
-        "hash": "633992790",
-        "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
+        "commit": "4abd3703c59856140e3cf24b852a02987bc2423e",
+        "hash": "127575035",
+        "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
       },
       "author": {
-        "name": "ropats16",
-        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
-      "collection": "blogs",
-      "coverImage": "/images/wayfinder-final-v2-k5ND.png",
-      "description": "ArConnect integrates ar.io's Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.",
-      "publishedAt": "2023-10-31T17:22:52.571Z",
-      "slug": "introducing-wayfinder-a-new-era-for-arweaves-permaweb",
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T05:50:46.792Z",
+      "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
-      "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
+      "title": "Browser Extension - How to create multiple wallets?"
     },
     {
       "__outstatic": {
-        "commit": "650f686040a39ba167a13a8315a483ab7b032afb",
-        "hash": "2930495488",
-        "path": "outstatic/content/blogs/contacts-new-send-flow.md"
+        "commit": "3719ed2d1344e468e0aca37439d68fa3d520d795",
+        "hash": "1408841579",
+        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
       },
       "author": {
-        "name": "Matt DiRenzo",
-        "picture": "https://www.arconnect.io/images/matt-E0NT.jpeg"
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
       },
-      "collection": "blogs",
-      "coverImage": "/images/banner-IxMz.png",
-      "description": "Transacting on ArConnect just received its biggest upgrade yet",
-      "publishedAt": "2024-02-15T02:03:36.000Z",
-      "slug": "contacts-new-send-flow",
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-20T13:06:34.473Z",
+      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+      "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
     },
     {
       "__outstatic": {
@@ -248,9 +360,9 @@
     },
     {
       "__outstatic": {
-        "commit": "1fdd909145721caea1913c3756aaeecd0fe19ee2",
-        "hash": "3479901999",
-        "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
+        "commit": "d148fbd6ffd2b0bf7dc3dae9f8d8c41dfce1bdef",
+        "hash": "725046375",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
       },
       "author": {
         "name": "Bithiah",
@@ -269,30 +381,38 @@
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-03-09T05:26:34.560Z",
-      "slug": "arweave-bundles-in-arconnect",
+      "publishedAt": "2024-03-10T01:51:41.332Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
       "status": "published",
-      "title": "Arweave bundles in ArConnect"
+      "title": "Browser Extension - How to use ArConnect with a dApp?"
     },
     {
       "__outstatic": {
-        "commit": "0cd14a7dfad77b5c3030bb3ad6080e6dd8a98a06",
-        "hash": "1795843192",
-        "path": "outstatic/content/blogs/where-do-wallets-fit-in-the-world-of-crypto.md"
+        "commit": "d035962df6b160fccba95a949f712787c865ff65",
+        "hash": "3764320787",
+        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
       },
       "author": {
-        "name": "Rohit Pathare",
-        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
-      "collection": "blogs",
-      "coverImage": "/images/blog-image-M0OD.png",
-      "description": "This blog explains the role of crypto wallets in the decentralized world and how they can facilitate secure and easy management of crypto tokens.",
-      "publishedAt": "2024-01-04T16:01:34.068Z",
-      "slug": "where-do-wallets-fit-in-the-world-of-crypto",
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:14:16.427Z",
+      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Where do wallets fit in the world of crypto?",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+      "title": "Browser Extension - How to send tokens from ArConnect to other users?"
     },
     {
       "__outstatic": {
@@ -392,67 +512,59 @@
     },
     {
       "__outstatic": {
-        "commit": "4abd3703c59856140e3cf24b852a02987bc2423e",
-        "hash": "127575035",
-        "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
+        "commit": "1f931e4e379fc2f5b15c2920b01849e5215727c1",
+        "hash": "784911816",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
       },
       "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T05:50:46.792Z",
-      "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
-      "status": "published",
-      "title": "Browser Extension - How to create multiple wallets?"
-    },
-    {
-      "__outstatic": {
-        "commit": "3719ed2d1344e468e0aca37439d68fa3d520d795",
-        "hash": "1408841579",
-        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "",
+        "name": "Matt",
         "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
       },
       "category": [
         {
-          "label": "Getting started",
-          "value": "getting-started"
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         },
         {
-          "label": "Pinned",
-          "value": "pinned"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
+          "label": "Mobile app",
+          "value": "mobile-app"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-05-20T13:06:34.473Z",
-      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
+      "publishedAt": "2024-10-03T12:09:27.765Z",
+      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
       "status": "published",
-      "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
+      "title": "Mobile App - How to receive Arweave or AO Assets"
+    },
+    {
+      "__outstatic": {
+        "commit": "76012d4dd8ba21424fdff1b7ca3689d534e733fd",
+        "hash": "2706855043",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-manage-assets-dashboard-asset-list.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to manage and view your assets in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:31:47.001Z",
+      "slug": "mobile-app-how-to-manage-assets-dashboard-asset-list",
+      "status": "published",
+      "title": "Mobile App - How to Manage Assets: Dashboard Asset List"
     },
     {
       "__outstatic": {
@@ -552,59 +664,67 @@
     },
     {
       "__outstatic": {
-        "commit": "d148fbd6ffd2b0bf7dc3dae9f8d8c41dfce1bdef",
-        "hash": "725046375",
-        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+        "commit": "93319bc8518410b4873dcb6fb3d1f1b14f9c2e5b",
+        "hash": "1454346054",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
       },
       "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
       },
       "category": [
         {
-          "label": "Browser Extension",
-          "value": "browser-extension"
+          "label": "Mobile app",
+          "value": "mobile-app"
         },
         {
-          "label": "Wallet management",
-          "value": "wallet-management"
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-03-10T01:51:41.332Z",
-      "slug": "how-to-use-arconnect-with-a-dapp",
+      "publishedAt": "2024-10-03T10:04:47.466Z",
+      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
       "status": "published",
-      "title": "Browser Extension - How to use ArConnect with a dApp?"
+      "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
     },
     {
       "__outstatic": {
-        "commit": "d035962df6b160fccba95a949f712787c865ff65",
-        "hash": "3764320787",
-        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
+        "commit": "2d0efe0285589a39365794a4ae8d0dc149b0361f",
+        "hash": "40961685",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
       },
       "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
       },
       "category": [
         {
-          "label": "Browser Extension",
-          "value": "browser-extension"
+          "label": "Getting started",
+          "value": "getting-started"
         },
         {
-          "label": "Wallet management",
-          "value": "wallet-management"
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:14:16.427Z",
-      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
+      "description": "How to add an existing ArConnect wallet via a QR code during ArConnect mobile app onboarding",
+      "publishedAt": "2024-10-03T10:01:53.012Z",
+      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
       "status": "published",
-      "title": "Browser Extension - How to send tokens from ArConnect to other users?"
+      "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
     },
     {
       "__outstatic": {
@@ -689,62 +809,6 @@
       "slug": "mobile-app-how-to-send-arweave-and-ao-assets",
       "status": "published",
       "title": "Mobile App - How to Send Arweave and AO assets"
-    },
-    {
-      "__outstatic": {
-        "commit": "1f931e4e379fc2f5b15c2920b01849e5215727c1",
-        "hash": "784911816",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-03T12:09:27.765Z",
-      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
-      "status": "published",
-      "title": "Mobile App - How to receive Arweave or AO Assets"
-    },
-    {
-      "__outstatic": {
-        "commit": "76012d4dd8ba21424fdff1b7ca3689d534e733fd",
-        "hash": "2706855043",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-manage-assets-dashboard-asset-list.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to manage and view your assets in the ArConnect mobile app",
-      "publishedAt": "2024-10-03T13:31:47.001Z",
-      "slug": "mobile-app-how-to-manage-assets-dashboard-asset-list",
-      "status": "published",
-      "title": "Mobile App - How to Manage Assets: Dashboard Asset List"
     },
     {
       "__outstatic": {
@@ -836,9 +900,9 @@
     },
     {
       "__outstatic": {
-        "commit": "93319bc8518410b4873dcb6fb3d1f1b14f9c2e5b",
-        "hash": "1454346054",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
+        "commit": "1a69ad7f0ded2304b8bcc80561e6adaee67db41b",
+        "hash": "2177621139",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-turn-on-off-notifications.md"
       },
       "author": {
         "name": "Matt",
@@ -846,31 +910,27 @@
       },
       "category": [
         {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
           "label": "Apps & connections",
           "value": "apps-and-connections"
         },
         {
-          "label": "Getting started",
-          "value": "getting-started"
+          "label": "Mobile app",
+          "value": "mobile-app"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-03T10:04:47.466Z",
-      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
+      "description": "How to enable or disable notifications in the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T16:48:04.620Z",
+      "slug": "mobile-app-settings-how-to-turn-on-off-notifications",
       "status": "published",
-      "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
+      "title": "Mobile App - Settings: How to turn on/off Notifications"
     },
     {
       "__outstatic": {
-        "commit": "2d0efe0285589a39365794a4ae8d0dc149b0361f",
-        "hash": "40961685",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
+        "commit": "667d91000323a336d08857d5fde7ce1141e63306",
+        "hash": "3003551608",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-guide.md"
       },
       "author": {
         "name": "Matt",
@@ -878,25 +938,21 @@
       },
       "category": [
         {
-          "label": "Getting started",
-          "value": "getting-started"
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         },
         {
           "label": "Mobile app",
           "value": "mobile-app"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "How to add an existing ArConnect wallet via a QR code during ArConnect mobile app onboarding",
-      "publishedAt": "2024-10-03T10:01:53.012Z",
-      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
+      "description": "A guide to all the ArConnect Mobile App Settings and Advanced Settings",
+      "publishedAt": "2024-10-03T17:01:40.026Z",
+      "slug": "mobile-app-settings-guide",
       "status": "published",
-      "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
+      "title": "Mobile App - Settings Guide"
     },
     {
       "__outstatic": {
@@ -1065,62 +1121,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "69221a658c28a9332abca561818e8dcb41912b1e",
-        "hash": "2177621139",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-turn-on-off-notifications.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to enable or disable notifications in the ArConnect Mobile App",
-      "publishedAt": "2024-10-03T16:48:04.620Z",
-      "slug": "mobile-app-settings-how-to-turn-on-off-notifications",
-      "status": "published",
-      "title": "Mobile App - Settings: How to turn on/off Notifications"
-    },
-    {
-      "__outstatic": {
-        "commit": "6ae3db6b31cf968f570fe7fbd09591d440ae0b36",
-        "hash": "3003551608",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-guide.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "A guide to all the ArConnect Mobile App Settings and Advanced Settings",
-      "publishedAt": "2024-10-03T17:01:40.026Z",
-      "slug": "mobile-app-settings-guide",
-      "status": "published",
-      "title": "Mobile App - Settings Guide"
     }
   ]
 }
