@@ -15,15 +15,16 @@ export default function Home() {
       <Head title="Download - ArConnect Arweave Wallet" />
       <Nav />
       <Main>
+        <Mobile />
         <TitleSection>
           <Title>Arconnect Wallet Extension</Title>
-          <Spacer y={5} />
+          <Spacer y={3} />
           <Subtitle>Download the ArConnect Extension</Subtitle>
           <Spacer y={3} />
           <Browsers />
           <Gradient />
         </TitleSection>
-        <Mobile showBackground />
+
         <TutorialSection>
           <VideoWrapper>
             <YouTubeEmbed id="ah1jrMGBUvo" />
@@ -77,7 +78,8 @@ const Subtitle = styled.h2`
   line-height: normal;
 
   @media screen and (max-width: 720px) {
-    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 `;
 

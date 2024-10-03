@@ -98,7 +98,7 @@ const MobileTag = styled.div`
   }
 
   span {
-    color: #684cf1;
+    color: #8e7bea;
     font-weight: 700;
   }
 `;
