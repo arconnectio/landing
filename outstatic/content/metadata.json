@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:12:59.393Z",
+  "generated": "2024-10-03T12:13:30.518Z",
   "metadata": [
     {
       "__outstatic": {
@@ -332,34 +332,6 @@
     },
     {
       "__outstatic": {
-        "commit": "152f8db631d5b369719a19ce24ad5ae7a4304f76",
-        "hash": "1063698882",
-        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "A step-by-step guide on how to install and setup ArConnect.",
-      "publishedAt": "2024-03-06T19:47:02.430Z",
-      "slug": "how-to-install-and-setup-arconnect",
-      "status": "published",
-      "title": "Browser Extension - How to install and setup ArConnect?"
-    },
-    {
-      "__outstatic": {
         "commit": "4abd3703c59856140e3cf24b852a02987bc2423e",
         "hash": "127575035",
         "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
@@ -553,6 +525,34 @@
       "slug": "how-to-send-tokens-from-arconnect-to-other-users",
       "status": "published",
       "title": "Browser Extension - How to send tokens from ArConnect to other users?"
+    },
+    {
+      "__outstatic": {
+        "commit": "f4a68cc5c2a9ea1258ff6c3a3245b4f0b504ae02",
+        "hash": "1123881878",
+        "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.",
+      "publishedAt": "2024-03-08T02:33:21.793Z",
+      "slug": "security-best-practices",
+      "status": "published",
+      "title": "Security Best Practices"
     },
     {
       "__outstatic": {
@@ -797,8 +797,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "2913068175",
-        "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
+        "hash": "2231644611",
+        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -806,8 +806,8 @@
       },
       "category": [
         {
-          "label": "Mobile app",
-          "value": "mobile-app"
+          "label": "Pinned",
+          "value": "pinned"
         },
         {
           "label": "Browser Extension",
@@ -816,15 +816,19 @@
         {
           "label": "Getting started",
           "value": "getting-started"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.",
-      "publishedAt": "2024-03-08T02:33:21.793Z",
-      "slug": "security-best-practices",
+      "description": "A step-by-step guide on how to install and setup ArConnect.",
+      "publishedAt": "2024-03-06T19:47:02.430Z",
+      "slug": "how-to-install-and-setup-arconnect",
       "status": "published",
-      "title": "Security Best Practices"
+      "title": "Browser Extension - How to install and setup ArConnect?"
     }
   ]
 }
