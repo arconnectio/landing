@@ -82,7 +82,7 @@ const MobileTag = styled.div`
   gap: 4px;
   padding: 8px 18px;
   border-radius: 50px;
-  border: 1.5px solid #5836fb;
+  border: 1.5px solid #8e7bea;
   width: max-content;
 
   color: #000;
