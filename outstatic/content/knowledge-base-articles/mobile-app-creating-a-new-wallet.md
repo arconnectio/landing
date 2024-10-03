@@ -3,7 +3,7 @@ author:
   name: 'Matt'
   picture: 'https://avatars.githubusercontent.com/u/139958714?v=4'
 coverImage: ''
-title: 'Mobile App - Creating a new wallet'
+title: 'Mobile App: Onboarding - Creating a new wallet'
 status: 'published'
 slug: 'mobile-app-creating-a-new-wallet'
 description: 'How to create a new wallet using the ArConnect Mobile App'
@@ -27,11 +27,15 @@ When creating an ArConnect wallet or any self custody wallet, it is extremely im
 
     <!-- -->
 
+    <!-- -->
+
 4. Create a password
 
     1. IMPORTANT - There is no reset password. Please make sure to save your password someplace secure
 
     2. Password requirements is a 5 character minimum
+
+    <!-- -->
 
     <!-- -->
 
@@ -41,9 +45,13 @@ When creating an ArConnect wallet or any self custody wallet, it is extremely im
 
     <!-- -->
 
+    <!-- -->
+
 6. Backup your wallet
 
     1. IMPORTANT - You will only be shown your 12 word seed phrase once. Saving your 12 word seed phrase is the most important security and recovery step you can take in protecting your wallet. Never share it with anyone.
+
+    <!-- -->
 
     <!-- -->
 
