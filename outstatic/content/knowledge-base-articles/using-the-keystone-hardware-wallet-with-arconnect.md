@@ -1,5 +1,5 @@
 ---
-title: 'Using the Keystone Hardware Wallet with ArConnect'
+title: 'Browser Extension - Using the Keystone Hardware Wallet with ArConnect'
 status: 'published'
 author:
   name: 'Bithiah'
@@ -7,9 +7,11 @@ author:
 slug: 'using-the-keystone-hardware-wallet-with-arconnect'
 description: ''
 coverImage: ''
-category: [{"value":"wallet-management","label":"Wallet management"},{"value":"apps-and-connections","label":"Apps & connections"}]
+category: [{"value":"wallet-management","label":"Wallet management"},{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-11T05:07:11.108Z'
 ---
+
+Note - The Keystone integration is only available with the ArConnect Browser Extension.
 
 ## What is Keystone?
 

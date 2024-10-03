@@ -1,6 +1,6 @@
 {
-  "commit": "650041b26afe535b2d3b107feb640233c25b7171",
-  "generated": "2024-10-03T09:32:58.165Z",
+  "commit": "a8c435635c06312bfa3b111dce88e65c9d802b59",
+  "generated": "2024-10-03T09:34:14.900Z",
   "metadata": [
     {
       "__outstatic": {
@@ -608,34 +608,6 @@
     },
     {
       "__outstatic": {
-        "commit": "3c973f9ff0a52584c28101f86f24dcde408f3771",
-        "hash": "366057026",
-        "path": "outstatic/content/knowledge-base-articles/using-the-keystone-hardware-wallet-with-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T05:07:11.108Z",
-      "slug": "using-the-keystone-hardware-wallet-with-arconnect",
-      "status": "published",
-      "title": "Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
         "commit": "cee2532c17ccdffc0ce16b7992c655da6a1588b4",
         "hash": "3600568995",
         "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
@@ -693,6 +665,34 @@
       "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
       "status": "published",
       "title": "Browser Extension - How to create multiple public addresses with same private key?"
+    },
+    {
+      "__outstatic": {
+        "commit": "a8c435635c06312bfa3b111dce88e65c9d802b59",
+        "hash": "2264981725",
+        "path": "outstatic/content/knowledge-base-articles/using-the-keystone-hardware-wallet-with-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T05:07:11.108Z",
+      "slug": "using-the-keystone-hardware-wallet-with-arconnect",
+      "status": "published",
+      "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
     }
   ]
 }
