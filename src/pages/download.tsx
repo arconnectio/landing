@@ -15,6 +15,7 @@ export default function Home() {
       <Head title="Download - ArConnect Arweave Wallet" />
       <Nav />
       <Main>
+        <Mobile />
         <TitleSection>
           <Title>Arconnect Wallet Extension</Title>
           <Spacer y={5} />
@@ -23,7 +24,7 @@ export default function Home() {
           <Browsers />
           <Gradient />
         </TitleSection>
-        <Mobile showBackground />
+
         <TutorialSection>
           <VideoWrapper>
             <YouTubeEmbed id="ah1jrMGBUvo" />
