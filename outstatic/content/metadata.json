@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:05:55.030Z",
+  "generated": "2024-10-03T12:06:15.131Z",
   "metadata": [
     {
       "__outstatic": {
@@ -280,34 +280,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ead46b60cde437de5a71654ba642809684a5aaa0",
-        "hash": "399095047",
-        "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T00:46:34.135Z",
-      "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "Browser Extension - How to receive tokens in your ArConnect wallet?"
-    },
-    {
-      "__outstatic": {
         "commit": "a2dc8a43bec9e6265c606e5b23474375e3c5f5af",
         "hash": "3412486971",
         "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
@@ -417,6 +389,34 @@
       "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
       "status": "published",
       "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
+        "commit": "232a8871f2c680859dd8f19a5079b9d182c0f353",
+        "hash": "515729095",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:09:27.765Z",
+      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
+      "status": "published",
+      "title": "Mobile App - How to receive Arweave or AO Assets"
     },
     {
       "__outstatic": {
@@ -797,30 +797,34 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "784911816",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
+        "hash": "3495745495",
+        "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
       },
       "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
       "category": [
         {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
+          "label": "Getting started",
+          "value": "getting-started"
         },
         {
-          "label": "Mobile app",
-          "value": "mobile-app"
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-10-03T12:09:27.765Z",
-      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
+      "publishedAt": "2024-03-11T00:46:34.135Z",
+      "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
       "status": "published",
-      "title": "Mobile App - How to receive Arweave or AO Assets"
+      "title": "Browser Extension - How to receive tokens in your ArConnect wallet?"
     }
   ]
 }

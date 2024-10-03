@@ -11,11 +11,11 @@ category: [{"value":"getting-started","label":"Getting started"},{"label":"Brows
 publishedAt: '2024-03-11T00:46:34.135Z'
 ---
 
-There are three ways for receiving tokens in your ArConnect wallet. A recipient can be selected by their Arweave wallet address or a QR code.
+There are three ways for receiving tokens in your ArConnect wallet. A recipient can be selected by their Arweave and AO wallet address or a QR code.
 
-## Receive tokens by Arweave address
+## Receive tokens by Arweave and AO address
 
-Each Arweave wallet is associated with an Arweave address. Here are some details about Arweave wallet addresses:
+Each Arweave wallet is associated with an Arweave and AO address. Here are some details about Arweave wallet addresses:
 
 - The address doesn’t necessary start with “0x” like on other chains.
 
@@ -27,11 +27,11 @@ Each Arweave wallet is associated with an Arweave address. Here are some details
 
 You can receive any type of Arweave tokens on this address.
 
-> ⚠️ Remember: you cannot receive tokens from Ethereum or any other chain. Arweave is its own chain, meaning that you cannot hold tokens from other blockchains.
+> ⚠️ Remember: you cannot receive tokens from Ethereum or any other chain. Arweave and AO are its own chain, meaning that you cannot hold tokens from other blockchains. However, you can use the same address for Arweave and AO assets
 
 To copy your address:
 
-- Open ArConnect.
+- Open the ArConnect browser extension.
 
 - Click on the copy icon next to your wallet name/address at the top of the screen, on the ArConnect extension’s main view.
 
