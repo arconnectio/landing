@@ -1,6 +1,6 @@
 {
-  "commit": "8d992e7f64e8af0ff197b8433fdf3d2d28593727",
-  "generated": "2024-10-03T13:25:48.041Z",
+  "commit": "e623c5eab50b80875b85f7970fd2ad8b0968dfb8",
+  "generated": "Thu, 03 Oct 2024 13:26:05 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -456,9 +456,9 @@
     },
     {
       "__outstatic": {
-        "commit": "1f931e4e379fc2f5b15c2920b01849e5215727c1",
-        "hash": "784911816",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
+        "commit": "e83430b66a26548fb6b2b3bda58de0a5b73bf421",
+        "hash": "1711763380",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-buy-ar-tokens-with-fiat.md"
       },
       "author": {
         "name": "Matt",
@@ -476,11 +476,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-03T12:09:27.765Z",
-      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
+      "description": "How to purchase AR Tokens with multiple fiat currencies in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:29:37.769Z",
+      "slug": "mobile-app-how-to-buy-ar-tokens-with-fiat",
       "status": "published",
-      "title": "Mobile App - How to receive Arweave or AO Assets"
+      "title": "Mobile App - How to buy AR Tokens with fiat"
     },
     {
       "__outstatic": {
@@ -605,6 +605,146 @@
       "slug": "how-to-send-tokens-from-arconnect-to-other-users",
       "status": "published",
       "title": "Browser Extension - How to send tokens from ArConnect to other users?"
+    },
+    {
+      "__outstatic": {
+        "commit": "8fbf394b16f698dffe20dfb2a0b0d7cabed38574",
+        "hash": "2123300883",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to view your transaction history in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:34:16.954Z",
+      "slug": "mobile-app-how-to-view-your-transaction-history",
+      "status": "published",
+      "title": "Mobile App - How to view your Transaction History"
+    },
+    {
+      "__outstatic": {
+        "commit": "f9238d38551f02e9858c1fff59e9482946663244",
+        "hash": "3013524243",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-notifications.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to view your notifications in the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T13:36:34.684Z",
+      "slug": "mobile-app-how-to-view-notifications",
+      "status": "published",
+      "title": "Mobile App - How to view Notifications"
+    },
+    {
+      "__outstatic": {
+        "commit": "30dcd2f38b1bf58d02c82a250e48932e472cdcc9",
+        "hash": "2832976060",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-send-arweave-and-ao-assets.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:53:58.842Z",
+      "slug": "mobile-app-how-to-send-arweave-and-ao-assets",
+      "status": "published",
+      "title": "Mobile App - How to Send Arweave and AO assets"
+    },
+    {
+      "__outstatic": {
+        "commit": "1f931e4e379fc2f5b15c2920b01849e5215727c1",
+        "hash": "784911816",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:09:27.765Z",
+      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
+      "status": "published",
+      "title": "Mobile App - How to receive Arweave or AO Assets"
+    },
+    {
+      "__outstatic": {
+        "commit": "76012d4dd8ba21424fdff1b7ca3689d534e733fd",
+        "hash": "2706855043",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-manage-assets-dashboard-asset-list.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to manage and view your assets in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:31:47.001Z",
+      "slug": "mobile-app-how-to-manage-assets-dashboard-asset-list",
+      "status": "published",
+      "title": "Mobile App - How to Manage Assets: Dashboard Asset List"
     },
     {
       "__outstatic": {
@@ -925,146 +1065,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "43befc7ca36bba51cd6da6842ed23961809be7ad",
-        "hash": "2832976060",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-send-arweave-and-ao-assets.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-03T12:53:58.842Z",
-      "slug": "mobile-app-how-to-send-arweave-and-ao-assets",
-      "status": "published",
-      "title": "Mobile App - How to Send Arweave and AO assets"
-    },
-    {
-      "__outstatic": {
-        "commit": "f293c56dc848327d2b6fe6cdeab8169180dc4dbf",
-        "hash": "1711763380",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-buy-ar-tokens-with-fiat.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to purchase AR Tokens with multiple fiat currencies in the ArConnect mobile app",
-      "publishedAt": "2024-10-03T13:29:37.769Z",
-      "slug": "mobile-app-how-to-buy-ar-tokens-with-fiat",
-      "status": "published",
-      "title": "Mobile App - How to buy AR Tokens with fiat"
-    },
-    {
-      "__outstatic": {
-        "commit": "0aca8b6e2d1e669ba928118b87f1890b7ecec394",
-        "hash": "2706855043",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-manage-assets-dashboard-asset-list.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to manage and view your assets in the ArConnect mobile app",
-      "publishedAt": "2024-10-03T13:31:47.001Z",
-      "slug": "mobile-app-how-to-manage-assets-dashboard-asset-list",
-      "status": "published",
-      "title": "Mobile App - How to Manage Assets: Dashboard Asset List"
-    },
-    {
-      "__outstatic": {
-        "commit": "1d7584bb17cf4e94fde3b2996d93b3705a42cbf5",
-        "hash": "2123300883",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to view your transaction history in the ArConnect mobile app",
-      "publishedAt": "2024-10-03T13:34:16.954Z",
-      "slug": "mobile-app-how-to-view-your-transaction-history",
-      "status": "published",
-      "title": "Mobile App - How to view your Transaction History"
-    },
-    {
-      "__outstatic": {
-        "commit": "8d992e7f64e8af0ff197b8433fdf3d2d28593727",
-        "hash": "3013524243",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-notifications.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to view your notifications in the ArConnect Mobile App",
-      "publishedAt": "2024-10-03T13:36:34.684Z",
-      "slug": "mobile-app-how-to-view-notifications",
-      "status": "published",
-      "title": "Mobile App - How to view Notifications"
     }
   ]
 }
