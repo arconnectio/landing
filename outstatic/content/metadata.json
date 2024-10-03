@@ -1,6 +1,6 @@
 {
-  "commit": "a8c435635c06312bfa3b111dce88e65c9d802b59",
-  "generated": "2024-10-03T09:34:14.900Z",
+  "commit": "fcc618de87fcc60836d7debe8e40ce2a0b75e8b3",
+  "generated": "2024-10-03T09:35:39.626Z",
   "metadata": [
     {
       "__outstatic": {
@@ -205,30 +205,6 @@
       "slug": "how-to-add-tokens-to-show-up-in-arconnect",
       "status": "published",
       "title": "How to add tokens to show up in ArConnect?"
-    },
-    {
-      "__outstatic": {
-        "commit": "83cb3ea146bd186bfcf413635d78e78521819d3b",
-        "hash": "1060416131",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:29:03.489Z",
-      "slug": "how-to-add-a-contact-in-arconnect",
-      "status": "published",
-      "title": "How to add a contact in ArConnect?"
     },
     {
       "__outstatic": {
@@ -693,6 +669,30 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "fcc618de87fcc60836d7debe8e40ce2a0b75e8b3",
+        "hash": "3208616688",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:29:03.489Z",
+      "slug": "how-to-add-a-contact-in-arconnect",
+      "status": "published",
+      "title": "Browser Extension - How to add a contact in ArConnect?"
     }
   ]
 }
