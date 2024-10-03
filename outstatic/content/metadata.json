@@ -1,6 +1,6 @@
 {
-  "commit": "0aca8b6e2d1e669ba928118b87f1890b7ecec394",
-  "generated": "2024-10-03T13:21:20.628Z",
+  "commit": "1d7584bb17cf4e94fde3b2996d93b3705a42cbf5",
+  "generated": "2024-10-03T13:23:27.206Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1009,6 +1009,34 @@
       "slug": "mobile-app-how-to-manage-assets-dashboard-asset-list",
       "status": "published",
       "title": "Mobile App - How to Manage Assets: Dashboard Asset List"
+    },
+    {
+      "__outstatic": {
+        "commit": "1d7584bb17cf4e94fde3b2996d93b3705a42cbf5",
+        "hash": "2123300883",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to view your transaction history in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:34:16.954Z",
+      "slug": "mobile-app-how-to-view-your-transaction-history",
+      "status": "published",
+      "title": "Mobile App - How to view your Transaction History"
     }
   ]
 }
