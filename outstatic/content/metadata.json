@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:01:27.260Z",
+  "generated": "2024-10-03T12:01:41.606Z",
   "metadata": [
     {
       "__outstatic": {
@@ -632,9 +632,9 @@
     },
     {
       "__outstatic": {
-        "commit": "ce89ca2e9abe6ff07b229eee188405660ec70c41",
-        "hash": "3243765478",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
+        "commit": "45a23e7428dff878a3fa47c0415d4892dddc571f",
+        "hash": "105823338",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
       },
       "author": {
         "name": "Matt",
@@ -642,21 +642,17 @@
       },
       "category": [
         {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
           "label": "Mobile app",
           "value": "mobile-app"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "How to add an existing ArConnect wallet via a QR code during ArConnect mobile app onboarding",
-      "publishedAt": "2024-10-03T10:01:53.012Z",
-      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
+      "description": "",
+      "publishedAt": "2024-10-03T10:04:47.466Z",
+      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
       "status": "published",
-      "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
+      "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
     },
     {
       "__outstatic": {
@@ -801,8 +797,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "1454346054",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
+        "hash": "40961685",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
       },
       "author": {
         "name": "Matt",
@@ -810,25 +806,25 @@
       },
       "category": [
         {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
           "label": "Mobile app",
           "value": "mobile-app"
         },
         {
           "label": "Apps & connections",
           "value": "apps-and-connections"
-        },
-        {
-          "label": "Getting started",
-          "value": "getting-started"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-03T10:04:47.466Z",
-      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
+      "description": "How to add an existing ArConnect wallet via a QR code during ArConnect mobile app onboarding",
+      "publishedAt": "2024-10-03T10:01:53.012Z",
+      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
       "status": "published",
-      "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
+      "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
     }
   ]
 }
