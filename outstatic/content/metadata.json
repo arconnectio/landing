@@ -1,6 +1,6 @@
 {
-  "commit": "4b9614037765affec662add67b299bb914893b8c",
-  "generated": "Thu, 03 Oct 2024 12:17:26 GMT",
+  "commit": "43befc7ca36bba51cd6da6842ed23961809be7ad",
+  "generated": "2024-10-03T12:43:14.269Z",
   "metadata": [
     {
       "__outstatic": {
@@ -925,6 +925,34 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "43befc7ca36bba51cd6da6842ed23961809be7ad",
+        "hash": "2832976060",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-send-arweave-and-ao-assets.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:53:58.842Z",
+      "slug": "mobile-app-how-to-send-arweave-and-ao-assets",
+      "status": "published",
+      "title": "Mobile App - How to Send Arweave and AO assets"
     }
   ]
 }
