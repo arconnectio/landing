@@ -1,6 +1,6 @@
 {
-  "commit": "69221a658c28a9332abca561818e8dcb41912b1e",
-  "generated": "2024-10-03T16:37:17.667Z",
+  "commit": "6ae3db6b31cf968f570fe7fbd09591d440ae0b36",
+  "generated": "2024-10-03T16:52:06.330Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1093,6 +1093,34 @@
       "slug": "mobile-app-settings-how-to-turn-on-off-notifications",
       "status": "published",
       "title": "Mobile App - Settings: How to turn on/off Notifications"
+    },
+    {
+      "__outstatic": {
+        "commit": "6ae3db6b31cf968f570fe7fbd09591d440ae0b36",
+        "hash": "3003551608",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-guide.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "A guide to all the ArConnect Mobile App Settings and Advanced Settings",
+      "publishedAt": "2024-10-03T17:01:40.026Z",
+      "slug": "mobile-app-settings-guide",
+      "status": "published",
+      "title": "Mobile App - Settings Guide"
     }
   ]
 }
