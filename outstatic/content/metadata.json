@@ -1,6 +1,6 @@
 {
-  "commit": "cee2532c17ccdffc0ce16b7992c655da6a1588b4",
-  "generated": "2024-10-03T09:32:27.631Z",
+  "commit": "650041b26afe535b2d3b107feb640233c25b7171",
+  "generated": "2024-10-03T09:32:58.165Z",
   "metadata": [
     {
       "__outstatic": {
@@ -388,34 +388,6 @@
     },
     {
       "__outstatic": {
-        "commit": "519c19ba736f06db074b402f0a1d8430ba590b2a",
-        "hash": "1170780709",
-        "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T05:50:46.792Z",
-      "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
-      "status": "published",
-      "title": "How to create multiple public addresses with same private key?"
-    },
-    {
-      "__outstatic": {
         "commit": "6db0cda9c244437f039704b1a5fbb2d47eb7b0b2",
         "hash": "225902703",
         "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
@@ -693,6 +665,34 @@
       "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
       "status": "published",
       "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
+        "commit": "650041b26afe535b2d3b107feb640233c25b7171",
+        "hash": "1889209544",
+        "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T05:50:46.792Z",
+      "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
+      "status": "published",
+      "title": "Browser Extension - How to create multiple public addresses with same private key?"
     }
   ]
 }

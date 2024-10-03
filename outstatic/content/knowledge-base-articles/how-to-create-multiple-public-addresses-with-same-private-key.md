@@ -3,11 +3,11 @@ author:
   name: 'Bithiah'
   picture: 'https://avatars.githubusercontent.com/u/63845509?v=4'
 coverImage: ''
-title: 'How to create multiple public addresses with same private key?'
+title: 'Browser Extension - How to create multiple public addresses with same private key?'
 status: 'published'
 slug: 'how-to-create-multiple-public-addresses-with-same-private-key'
 description: ''
-category: [{"value":"wallet-management","label":"Wallet management"},{"value":"getting-started","label":"Getting started"}]
+category: [{"value":"wallet-management","label":"Wallet management"},{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-11T05:50:46.792Z'
 ---
 
