@@ -1,6 +1,6 @@
 {
-  "commit": "6eef7a22c29fdf17f2765e0166af02046a39d177",
-  "generated": "2024-10-03T11:55:53.740Z",
+  "commit": "d1b88572b562bf56a71f543a8742f057f9881a02",
+  "generated": "2024-10-03T11:56:13.916Z",
   "metadata": [
     {
       "__outstatic": {
@@ -548,30 +548,6 @@
     },
     {
       "__outstatic": {
-        "commit": "589c0d6de5f6416994323e5d0c5f08c8396a63ed",
-        "hash": "695521639",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-03T10:04:47.466Z",
-      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
-      "status": "published",
-      "title": "Mobile App: Onboarding - Add an existing wallet by Seedphrase or Keyfile"
-    },
-    {
-      "__outstatic": {
         "commit": "36968fa843af0331dc32597b2c99389cb56a4f27",
         "hash": "905202476",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
@@ -793,6 +769,30 @@
       "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
       "status": "published",
       "title": "Browser Extension - How to create multiple wallets?"
+    },
+    {
+      "__outstatic": {
+        "commit": "d1b88572b562bf56a71f543a8742f057f9881a02",
+        "hash": "105823338",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T10:04:47.466Z",
+      "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
+      "status": "published",
+      "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
     }
   ]
 }
