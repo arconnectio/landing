@@ -7,7 +7,7 @@ author:
 slug: 'permission-system-in-arconnect'
 description: ''
 coverImage: ''
-category: [{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2024-03-08T12:06:47.988Z'
 ---
 

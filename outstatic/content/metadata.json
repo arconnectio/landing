@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:10:51.194Z",
+  "generated": "2024-10-03T12:11:53.113Z",
   "metadata": [
     {
       "__outstatic": {
@@ -185,6 +185,30 @@
       "slug": "how-to-add-a-contact-in-arconnect",
       "status": "published",
       "title": "Browser Extension - How to add a contact in ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "b151ea1364e5673bfbaf6c62caa457ac9fe7e58f",
+        "hash": "1109938286",
+        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Find out how to gain access back to your wallet.",
+      "publishedAt": "2024-03-08T12:45:32.352Z",
+      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
+      "status": "published",
+      "title": "How do I access my wallet if I forget my password?"
     },
     {
       "__outstatic": {
@@ -584,30 +608,6 @@
     },
     {
       "__outstatic": {
-        "commit": "48b998f6f0d4cd40ef337a40c27f1a70ffc104ae",
-        "hash": "3837140889",
-        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-08T12:06:47.988Z",
-      "slug": "permission-system-in-arconnect",
-      "status": "published",
-      "title": "Browser Extension - Permission system in ArConnect"
-    },
-    {
-      "__outstatic": {
         "commit": "45a23e7428dff878a3fa47c0415d4892dddc571f",
         "hash": "105823338",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
@@ -801,8 +801,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "3067606806",
-        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
+        "hash": "783863072",
+        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -820,11 +820,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Find out how to gain access back to your wallet.",
-      "publishedAt": "2024-03-08T12:45:32.352Z",
-      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
+      "description": "",
+      "publishedAt": "2024-03-08T12:06:47.988Z",
+      "slug": "permission-system-in-arconnect",
       "status": "published",
-      "title": "How do I access my wallet if I forget my password?"
+      "title": "Browser Extension - Permission system in ArConnect"
     }
   ]
 }
