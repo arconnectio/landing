@@ -1,6 +1,6 @@
 {
   "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-  "generated": "2024-10-03T09:42:13.148Z",
+  "generated": "2024-10-03T09:42:30.659Z",
   "metadata": [
     {
       "__outstatic": {
@@ -336,9 +336,9 @@
     },
     {
       "__outstatic": {
-        "commit": "caf57135631cf370ff4bb3848e9d794ba430dc4f",
-        "hash": "1605655808",
-        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
+        "commit": "21ecf4118f85f3fea24b4512d88c4368e63e7421",
+        "hash": "1836276371",
+        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -353,10 +353,10 @@
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-03-08T04:37:23.280Z",
-      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
+      "publishedAt": "2024-03-08T12:06:47.988Z",
+      "slug": "permission-system-in-arconnect",
       "status": "published",
-      "title": "Protecting your funds: allowance limits and how they work"
+      "title": "Permission system in ArConnect"
     },
     {
       "__outstatic": {
@@ -645,8 +645,8 @@
     {
       "__outstatic": {
         "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-        "hash": "3837140889",
-        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
+        "hash": "1391768400",
+        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
       },
       "author": {
         "name": "Bithiah",
@@ -661,10 +661,10 @@
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-03-08T12:06:47.988Z",
-      "slug": "permission-system-in-arconnect",
+      "publishedAt": "2024-03-08T04:37:23.280Z",
+      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
       "status": "published",
-      "title": "Browser Extension - Permission system in ArConnect"
+      "title": "Browser Extension - Protecting your funds: allowance limits and how they work"
     }
   ]
 }

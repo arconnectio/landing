@@ -1,5 +1,5 @@
 ---
-title: 'Protecting your funds: allowance limits and how they work'
+title: 'Browser Extension - Protecting your funds: allowance limits and how they work'
 status: 'published'
 author:
   name: 'Bithiah'
@@ -7,7 +7,7 @@ author:
 slug: 'protecting-your-funds-allowance-limits-and-how-they-work'
 description: ''
 coverImage: ''
-category: [{"value":"wallet-management","label":"Wallet management"}]
+category: [{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-08T04:37:23.280Z'
 ---
 
