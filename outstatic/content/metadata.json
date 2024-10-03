@@ -1,6 +1,6 @@
 {
   "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-  "generated": "2024-10-03T09:43:11.519Z",
+  "generated": "2024-10-03T09:44:23.432Z",
   "metadata": [
     {
       "__outstatic": {
@@ -284,6 +284,34 @@
     },
     {
       "__outstatic": {
+        "commit": "338a3f578842f1cd40b63a67ff9bc47c10c5ef17",
+        "hash": "2594647516",
+        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "A step-by-step guide on how to install and setup ArConnect.",
+      "publishedAt": "2024-03-06T19:47:02.430Z",
+      "slug": "how-to-install-and-setup-arconnect",
+      "status": "published",
+      "title": "How to install and setup ArConnect?"
+    },
+    {
+      "__outstatic": {
         "commit": "6db0cda9c244437f039704b1a5fbb2d47eb7b0b2",
         "hash": "225902703",
         "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
@@ -401,30 +429,6 @@
       "slug": "what-is-arweave",
       "status": "published",
       "title": "What is Arweave?"
-    },
-    {
-      "__outstatic": {
-        "commit": "12fcba47eeaca2442e8d6755ab47b6b7055f2fa1",
-        "hash": "2439904334",
-        "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "What is ArConnect?",
-      "publishedAt": "2024-03-06T18:44:53.511Z",
-      "slug": "what-is-arconnect",
-      "status": "published",
-      "title": "What is ArConnect?"
     },
     {
       "__outstatic": {
@@ -641,8 +645,8 @@
     {
       "__outstatic": {
         "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-        "hash": "1063698882",
-        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+        "hash": "2206015014",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -650,8 +654,12 @@
       },
       "category": [
         {
-          "label": "Pinned",
-          "value": "pinned"
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
         },
         {
           "label": "Browser Extension",
@@ -660,11 +668,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "A step-by-step guide on how to install and setup ArConnect.",
-      "publishedAt": "2024-03-06T19:47:02.430Z",
-      "slug": "how-to-install-and-setup-arconnect",
+      "description": "What is ArConnect?",
+      "publishedAt": "2024-03-06T18:44:53.511Z",
+      "slug": "what-is-arconnect",
       "status": "published",
-      "title": "Browser Extension - How to install and setup ArConnect?"
+      "title": "What is ArConnect?"
     }
   ]
 }

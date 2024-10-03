@@ -7,21 +7,25 @@ author:
 slug: 'what-is-arconnect'
 description: 'What is ArConnect?'
 coverImage: ''
-category: [{"value":"getting-started","label":"Getting started"}]
+category: [{"value":"getting-started","label":"Getting started"},{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-06T18:44:53.511Z'
 ---
 
-- [ArConnect](https://www.arconnect.io/?utm_source=ArConnect+Knowledgebase+Docs&utm_medium=Doc+Page&utm_campaign=ArConnect+Knowledge+Base&utm_id=ArConnect+Knowledgebase) is a browser extension on custodial wallet.
+- [ArConnect](https://www.arconnect.io/?utm_source=ArConnect+Knowledgebase+Docs&utm_medium=Doc+Page&utm_campaign=ArConnect+Knowledge+Base&utm_id=ArConnect+Knowledgebase) is a browser extension and mobile app self custody wallet.
 
-    - We use the browser’s native extension API to create a secure bridge between your wallet and applications.
+    - Browser Extension
 
-        - This makes the wallet environment isolated and safe.
+        - We use the browser’s native extension API to create a secure bridge between your wallet and applications.
 
-        - Provides indirect, regulated access to your wallet, instead of direct unsafe access.
+            - This makes the wallet environment isolated and safe.
 
-        - Allows the implementation of middlewares to further secure the connection with your wallet.
+            - Provides indirect, regulated access to your wallet, instead of direct unsafe access.
 
-        - This requires implementation from the applications.
+            - Allows the implementation of middlewares to further secure the connection with your wallet.
+
+            - This requires implementation from the applications.
+
+            <!-- -->
 
         <!-- -->
 
