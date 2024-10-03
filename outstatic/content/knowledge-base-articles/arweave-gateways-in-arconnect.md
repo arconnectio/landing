@@ -7,7 +7,7 @@ author:
 slug: 'arweave-gateways-in-arconnect'
 description: 'What are Arweave gateways and its integration with ArConnect?'
 coverImage: ''
-category: [{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2024-03-08T14:00:57.349Z'
 ---
 
@@ -61,6 +61,8 @@ Currently, ArConnect supports customizing the gateway for applications:
 
     <!-- -->
 
+    <!-- -->
+
 ## ArConnect Wayfinder Integration
 
 ArConnect also integrates Wayfinder, that decentralizes gateway access, reducing reliance on single entities.
@@ -74,6 +76,8 @@ ArConnect also integrates Wayfinder, that decentralizes gateway access, reducing
     - When fetching extensive datasets, it leans towards gateways known for high bandwidth.
 
     - For popular dApps, a less congested gateway might be chosen to ensure a smooth experience.
+
+    <!-- -->
 
     <!-- -->
 
@@ -94,6 +98,8 @@ ArConnect also integrates Wayfinder, that decentralizes gateway access, reducing
     3. Click the checkbox provided in the center of the Settings page to enable this setting.
 
         ![](/images/screen-shot-2024-03-27-at-11.33.42-pm-YzND.png)
+
+    <!-- -->
 
     <!-- -->
 

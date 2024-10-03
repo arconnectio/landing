@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:09:51.533Z",
+  "generated": "2024-10-03T12:10:04.835Z",
   "metadata": [
     {
       "__outstatic": {
@@ -212,9 +212,9 @@
     },
     {
       "__outstatic": {
-        "commit": "6d2500cc8810a9d35bbd21670845aa27581d74ed",
-        "hash": "1061266478",
-        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
+        "commit": "2ae2e8f3ae12b8aa5a8a7f61575f9a2355beed3d",
+        "hash": "1299851044",
+        "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -228,11 +228,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "What are Arweave gateways and its integration with ArConnect?",
-      "publishedAt": "2024-03-08T14:00:57.349Z",
-      "slug": "arweave-gateways-in-arconnect",
+      "description": "",
+      "publishedAt": "2024-03-09T05:26:34.560Z",
+      "slug": "arweave-bundles-in-arconnect",
       "status": "published",
-      "title": "Browser Extension - Arweave gateways in ArConnect"
+      "title": "Arweave bundles in ArConnect"
     },
     {
       "__outstatic": {
@@ -801,8 +801,8 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "3479901999",
-        "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
+        "hash": "2221397112",
+        "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -820,11 +820,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-09T05:26:34.560Z",
-      "slug": "arweave-bundles-in-arconnect",
+      "description": "What are Arweave gateways and its integration with ArConnect?",
+      "publishedAt": "2024-03-08T14:00:57.349Z",
+      "slug": "arweave-gateways-in-arconnect",
       "status": "published",
-      "title": "Arweave bundles in ArConnect"
+      "title": "Browser Extension - Arweave gateways in ArConnect"
     }
   ]
 }
