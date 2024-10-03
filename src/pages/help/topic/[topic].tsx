@@ -97,11 +97,11 @@ export async function getStaticPaths() {
 
 const topicDescriptions: Record<string, string> = {
   "getting-started":
-    "Essential resources on getting started with the ArConnect Arweave wallet. You should start here and follow these guides to have the most seamless experience possible with the extension.",
-  "wallet-management":
-    "Guides on how to best manage your wallet. This will help you learn how to send and receive tokens and use your wallet every day.",
-  "apps-and-connections":
-    "ArConnect's primary goal is to enable you to securely access dApps. Here you will find guides and helpful articles on doing this securely."
+    "Essential resources on getting started with the ArConnect wallet. You should start here to learn some basics about ArConnect, Arweave, and AO.",
+  "browser-extension":
+    "Guides on how to best manage your ArConnect browser extension wallet.",
+  "mobile-app":
+    "Guides on how to best manage your ArConnect Mobile App wallet."
 };
 
 interface Params {
