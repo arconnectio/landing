@@ -1,7 +1,47 @@
 {
-  "commit": "0fbbcb540cfb25a6cbf082a1cda8cee9874b4527",
-  "generated": "Thu, 03 Oct 2024 11:59:28 GMT",
+  "commit": "a7f6d2853d929e6fccf83dfe09693c62c8c7677c",
+  "generated": "Thu, 03 Oct 2024 11:59:41 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "a5807fd79ad2e72060f350ef13c98e2b6f7fd6c9",
+        "hash": "2445259923",
+        "path": "outstatic/content/blogs/beyond-transactions-integration-of-arconnects-subscription-feature.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/announcement-blog-cover_arconnect-s-subscription-feature--1--k0Nz.png",
+      "description": "ArConnect's subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription management",
+      "publishedAt": "2024-05-30T16:57:25.159Z",
+      "slug": "beyond-transactions-integration-of-arconnects-subscription-feature",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "22deb1beaf7c5b2a3400d1d10461c9a7cd739098",
+        "hash": "2372536785",
+        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
+      },
+      "author": {
+        "name": "Matthew DiRienzo",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "",
+      "description": "How to Buy Arweave Tokens",
+      "publishedAt": "2024-05-19T18:34:52.000Z",
+      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
+      "status": "published",
+      "themeColor": "rgba(171, 154, 255, 0.2)",
+      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
+      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
+    },
     {
       "__outstatic": {
         "commit": "090fc51b683d678f235ed35ccd831f24ea85f044",
@@ -20,6 +60,46 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "ArConnect Just Leveled Up to 1.0",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "63380f2a68f4baae2622ed1b68135f61c28376c8",
+        "hash": "4284349112",
+        "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_nft-YxMj.png",
+      "description": "",
+      "publishedAt": "2024-04-26T02:16:24.485Z",
+      "slug": "storing-nfts-on-arconnect",
+      "status": "published",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "Storing NFTs/Collectibles with ArConnect",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "5e18bdf605f457e140723ca7841346878a9f702d",
+        "hash": "2686783191",
+        "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/framer-cms-blog-image-E4Nz.png",
+      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. ",
+      "publishedAt": "2024-02-15T00:59:29.172Z",
+      "slug": "security-best-practices-for-crypto-wallets",
+      "status": "published",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "Security Best Practices for Crypto Wallets ",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -84,43 +164,51 @@
     },
     {
       "__outstatic": {
-        "commit": "a5807fd79ad2e72060f350ef13c98e2b6f7fd6c9",
-        "hash": "2445259923",
-        "path": "outstatic/content/blogs/beyond-transactions-integration-of-arconnects-subscription-feature.md"
+        "commit": "f86c27deed5d9d780ccfc09d3b66d892ef28eff4",
+        "hash": "3208616688",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
       },
       "author": {
-        "name": "Bithiah Koshy",
+        "name": "Bithiah",
         "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
-      "collection": "blogs",
-      "coverImage": "/images/announcement-blog-cover_arconnect-s-subscription-feature--1--k0Nz.png",
-      "description": "ArConnect's subscription integration provides a comprehensive solution for managing subscriptions, enabling applications to focus on their core offerings while streamlining the complexities of subscription management",
-      "publishedAt": "2024-05-30T16:57:25.159Z",
-      "slug": "beyond-transactions-integration-of-arconnects-subscription-feature",
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:29:03.489Z",
+      "slug": "how-to-add-a-contact-in-arconnect",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+      "title": "Browser Extension - How to add a contact in ArConnect?"
     },
     {
       "__outstatic": {
-        "commit": "22deb1beaf7c5b2a3400d1d10461c9a7cd739098",
-        "hash": "2372536785",
-        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
+        "commit": "b151ea1364e5673bfbaf6c62caa457ac9fe7e58f",
+        "hash": "1109938286",
+        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
       },
       "author": {
-        "name": "Matthew DiRienzo",
-        "picture": ""
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
-      "collection": "blogs",
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "How to Buy Arweave Tokens",
-      "publishedAt": "2024-05-19T18:34:52.000Z",
-      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
+      "description": "Find out how to gain access back to your wallet.",
+      "publishedAt": "2024-03-08T12:45:32.352Z",
+      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
       "status": "published",
-      "themeColor": "rgba(171, 154, 255, 0.2)",
-      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
-      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
+      "title": "How do I access my wallet if I forget my password?"
     },
     {
       "__outstatic": {
@@ -192,262 +280,6 @@
     },
     {
       "__outstatic": {
-        "commit": "63380f2a68f4baae2622ed1b68135f61c28376c8",
-        "hash": "4284349112",
-        "path": "outstatic/content/blogs/storing-nfts-on-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah Koshy",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect_nft-YxMj.png",
-      "description": "",
-      "publishedAt": "2024-04-26T02:16:24.485Z",
-      "slug": "storing-nfts-on-arconnect",
-      "status": "published",
-      "themeColor": "rgb(171, 154, 255)",
-      "title": "Storing NFTs/Collectibles with ArConnect",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "5e18bdf605f457e140723ca7841346878a9f702d",
-        "hash": "2686783191",
-        "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
-      },
-      "author": {
-        "name": "Bithiah Koshy",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/framer-cms-blog-image-E4Nz.png",
-      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. ",
-      "publishedAt": "2024-02-15T00:59:29.172Z",
-      "slug": "security-best-practices-for-crypto-wallets",
-      "status": "published",
-      "themeColor": "rgb(171, 154, 255)",
-      "title": "Security Best Practices for Crypto Wallets ",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "152f8db631d5b369719a19ce24ad5ae7a4304f76",
-        "hash": "1063698882",
-        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "A step-by-step guide on how to install and setup ArConnect.",
-      "publishedAt": "2024-03-06T19:47:02.430Z",
-      "slug": "how-to-install-and-setup-arconnect",
-      "status": "published",
-      "title": "Browser Extension - How to install and setup ArConnect?"
-    },
-    {
-      "__outstatic": {
-        "commit": "b530b0863021ab110115e6ee44c29b2a38e5be69",
-        "hash": "1889209544",
-        "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T05:50:46.792Z",
-      "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
-      "status": "published",
-      "title": "Browser Extension - How to create multiple public addresses with same private key?"
-    },
-    {
-      "__outstatic": {
-        "commit": "7b4d5540862bc3267806b2d08ab69ac161f45c73",
-        "hash": "3600568995",
-        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-20T13:06:34.473Z",
-      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
-    },
-    {
-      "__outstatic": {
-        "commit": "f86c27deed5d9d780ccfc09d3b66d892ef28eff4",
-        "hash": "3208616688",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:29:03.489Z",
-      "slug": "how-to-add-a-contact-in-arconnect",
-      "status": "published",
-      "title": "Browser Extension - How to add a contact in ArConnect?"
-    },
-    {
-      "__outstatic": {
-        "commit": "b151ea1364e5673bfbaf6c62caa457ac9fe7e58f",
-        "hash": "1109938286",
-        "path": "outstatic/content/knowledge-base-articles/how-do-i-access-my-wallet-if-i-forget-my-password.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Find out how to gain access back to your wallet.",
-      "publishedAt": "2024-03-08T12:45:32.352Z",
-      "slug": "how-do-i-access-my-wallet-if-i-forget-my-password",
-      "status": "published",
-      "title": "How do I access my wallet if I forget my password?"
-    },
-    {
-      "__outstatic": {
-        "commit": "845e9ada068e7e93267625d1401bf3551a499e94",
-        "hash": "223496729",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to create a new wallet using the ArConnect Mobile App",
-      "publishedAt": "2024-10-03T09:58:30.693Z",
-      "slug": "mobile-app-creating-a-new-wallet",
-      "status": "published",
-      "title": "Mobile App: Onboarding - Creating a new wallet"
-    },
-    {
-      "__outstatic": {
-        "commit": "859dc7a1e634dcd7ccbde48c008bef0c71539420",
-        "hash": "2769958411",
-        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-10T01:51:41.332Z",
-      "slug": "how-to-use-arconnect-with-a-dapp",
-      "status": "published",
-      "title": "Browser Extension - How to use ArConnect with a dApp?"
-    },
-    {
-      "__outstatic": {
-        "commit": "ea1d09736a2f80b811475d292dcf3ad314626f40",
-        "hash": "1085678023",
-        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:14:16.427Z",
-      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
-      "status": "published",
-      "title": "Browser Extension - How to send tokens from ArConnect to other users?"
-    },
-    {
-      "__outstatic": {
         "commit": "ead46b60cde437de5a71654ba642809684a5aaa0",
         "hash": "399095047",
         "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
@@ -497,6 +329,230 @@
       "slug": "how-to-operate-arconnect",
       "status": "published",
       "title": "Browser Extension - How to operate ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "152f8db631d5b369719a19ce24ad5ae7a4304f76",
+        "hash": "1063698882",
+        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "A step-by-step guide on how to install and setup ArConnect.",
+      "publishedAt": "2024-03-06T19:47:02.430Z",
+      "slug": "how-to-install-and-setup-arconnect",
+      "status": "published",
+      "title": "Browser Extension - How to install and setup ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "4abd3703c59856140e3cf24b852a02987bc2423e",
+        "hash": "127575035",
+        "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-public-addresses-with-same-private-key.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T05:50:46.792Z",
+      "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
+      "status": "published",
+      "title": "Browser Extension - How to create multiple wallets?"
+    },
+    {
+      "__outstatic": {
+        "commit": "7b4d5540862bc3267806b2d08ab69ac161f45c73",
+        "hash": "3600568995",
+        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-20T13:06:34.473Z",
+      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
+      "status": "published",
+      "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
+        "commit": "232a8871f2c680859dd8f19a5079b9d182c0f353",
+        "hash": "515729095",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:09:27.765Z",
+      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
+      "status": "published",
+      "title": "Mobile App - How to receive Arweave or AO Assets"
+    },
+    {
+      "__outstatic": {
+        "commit": "54111ca5165a371a1259c1268cab2b2eac8f2a14",
+        "hash": "3597189712",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-dashboard-guide.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:04:25.609Z",
+      "slug": "mobile-app-dashboard-guide",
+      "status": "published",
+      "title": "Mobile App - Dashboard Guide"
+    },
+    {
+      "__outstatic": {
+        "commit": "564a5a90568a1ad1442ea68c5a886d54cca00f65",
+        "hash": "1737293612",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to create a new wallet using the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T09:58:30.693Z",
+      "slug": "mobile-app-creating-a-new-wallet",
+      "status": "published",
+      "title": "Mobile App - Onboarding: Creating a new wallet"
+    },
+    {
+      "__outstatic": {
+        "commit": "859dc7a1e634dcd7ccbde48c008bef0c71539420",
+        "hash": "2769958411",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-10T01:51:41.332Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
+      "status": "published",
+      "title": "Browser Extension - How to use ArConnect with a dApp?"
+    },
+    {
+      "__outstatic": {
+        "commit": "ea1d09736a2f80b811475d292dcf3ad314626f40",
+        "hash": "1085678023",
+        "path": "outstatic/content/knowledge-base-articles/how-to-send-tokens-from-arconnect-to-other-users.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:14:16.427Z",
+      "slug": "how-to-send-tokens-from-arconnect-to-other-users",
+      "status": "published",
+      "title": "Browser Extension - How to send tokens from ArConnect to other users?"
     },
     {
       "__outstatic": {
@@ -576,8 +632,8 @@
     },
     {
       "__outstatic": {
-        "commit": "589c0d6de5f6416994323e5d0c5f08c8396a63ed",
-        "hash": "695521639",
+        "commit": "45a23e7428dff878a3fa47c0415d4892dddc571f",
+        "hash": "105823338",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
       },
       "author": {
@@ -596,12 +652,12 @@
       "publishedAt": "2024-10-03T10:04:47.466Z",
       "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
       "status": "published",
-      "title": "Mobile App: Onboarding - Add an existing wallet by Seedphrase or Keyfile"
+      "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
     },
     {
       "__outstatic": {
-        "commit": "36968fa843af0331dc32597b2c99389cb56a4f27",
-        "hash": "905202476",
+        "commit": "ce89ca2e9abe6ff07b229eee188405660ec70c41",
+        "hash": "3243765478",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
       },
       "author": {
@@ -624,7 +680,7 @@
       "publishedAt": "2024-10-03T10:01:53.012Z",
       "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
       "status": "published",
-      "title": "Mobile App: Onboarding - Add an existing wallet by QR Code"
+      "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
     },
     {
       "__outstatic": {
