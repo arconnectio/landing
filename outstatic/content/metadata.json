@@ -1,6 +1,6 @@
 {
   "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-  "generated": "2024-10-03T09:42:54.009Z",
+  "generated": "2024-10-03T09:43:11.519Z",
   "metadata": [
     {
       "__outstatic": {
@@ -284,9 +284,9 @@
     },
     {
       "__outstatic": {
-        "commit": "338a3f578842f1cd40b63a67ff9bc47c10c5ef17",
-        "hash": "2594647516",
-        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
+        "commit": "6db0cda9c244437f039704b1a5fbb2d47eb7b0b2",
+        "hash": "225902703",
+        "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
       },
       "author": {
         "name": "Bithiah",
@@ -294,21 +294,17 @@
       },
       "category": [
         {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
+          "label": "Wallet management",
+          "value": "wallet-management"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "A step-by-step guide on how to install and setup ArConnect.",
-      "publishedAt": "2024-03-06T19:47:02.430Z",
-      "slug": "how-to-install-and-setup-arconnect",
+      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.",
+      "publishedAt": "2024-03-08T02:33:21.793Z",
+      "slug": "security-best-practices",
       "status": "published",
-      "title": "How to install and setup ArConnect?"
+      "title": "Security Best Practices"
     },
     {
       "__outstatic": {
@@ -645,8 +641,8 @@
     {
       "__outstatic": {
         "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-        "hash": "1123881878",
-        "path": "outstatic/content/knowledge-base-articles/security-best-practices.md"
+        "hash": "1063698882",
+        "path": "outstatic/content/knowledge-base-articles/how-to-install-and-setup-arconnect.md"
       },
       "author": {
         "name": "Bithiah",
@@ -654,8 +650,8 @@
       },
       "category": [
         {
-          "label": "Mobile app",
-          "value": "mobile-app"
+          "label": "Pinned",
+          "value": "pinned"
         },
         {
           "label": "Browser Extension",
@@ -664,11 +660,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet.",
-      "publishedAt": "2024-03-08T02:33:21.793Z",
-      "slug": "security-best-practices",
+      "description": "A step-by-step guide on how to install and setup ArConnect.",
+      "publishedAt": "2024-03-06T19:47:02.430Z",
+      "slug": "how-to-install-and-setup-arconnect",
       "status": "published",
-      "title": "Security Best Practices"
+      "title": "Browser Extension - How to install and setup ArConnect?"
     }
   ]
 }

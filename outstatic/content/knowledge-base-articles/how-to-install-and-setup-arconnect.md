@@ -1,5 +1,5 @@
 ---
-title: 'How to install and setup ArConnect?'
+title: 'Browser Extension - How to install and setup ArConnect?'
 status: 'published'
 author:
   name: 'Bithiah'
@@ -7,13 +7,11 @@ author:
 slug: 'how-to-install-and-setup-arconnect'
 description: 'A step-by-step guide on how to install and setup ArConnect.'
 coverImage: ''
-category: [{"value":"getting-started","label":"Getting started"},{"value":"pinned","label":"Pinned"}]
+category: [{"value":"pinned","label":"Pinned"},{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-06T19:47:02.430Z'
 ---
 
 ## Installation
-
-
 
 - To install the ArConnect extension in your web browser, follow these steps:
 
@@ -40,6 +38,8 @@ publishedAt: '2024-03-06T19:47:02.430Z'
     8. Once you confirmed the installation, the extension will be added to the browser in a few seconds.
 
     9. The extension will now ask you to proceed with the setup procedure.
+
+    <!-- -->
 
     <!-- -->
 
@@ -87,6 +87,8 @@ publishedAt: '2024-03-06T19:47:02.430Z'
         > 
         > 
         > <!-- -->
+        > 
+        > <!-- -->
 
     4. On the next screen, you’ll need to confirm your seedphrase. Word suggestions will make this a faster and easier process for you.
 
@@ -95,6 +97,8 @@ publishedAt: '2024-03-06T19:47:02.430Z'
     5. Next you can choose your UI theme (dark/light/automatic). You can change this later in the settings.
 
     6. And you’re ready! Click “Done” to finish the setup.
+
+    <!-- -->
 
     <!-- -->
 
