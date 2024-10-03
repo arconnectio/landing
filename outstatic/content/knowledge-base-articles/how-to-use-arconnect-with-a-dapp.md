@@ -7,7 +7,7 @@ title: 'Browser Extension - How to use ArConnect with a dApp?'
 status: 'published'
 slug: 'how-to-use-arconnect-with-a-dapp'
 description: ''
-category: [{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2024-03-10T01:51:41.332Z'
 ---
 
@@ -15,9 +15,9 @@ publishedAt: '2024-03-10T01:51:41.332Z'
 
 - For an application to interact with your wallet, it first needs to connect with ArConnect.
 
-- However, not all apps are designed for this. Only apps designed for the Arweave blockchain are able to use ArConnect. Apps on other networks like Ethereum cannot use ArConnect.
+- However, not all apps are designed for this. Only apps designed for the Arweave and AO blockchain are able to use ArConnect. Apps on other networks like Ethereum cannot use ArConnect.
 
-- In rare cases, some Arweave apps also don’t support ArConnect, but 99% do.
+- In rare cases, some Arweave and AO apps also don’t support ArConnect, but 99% do.
 
 - To interact with an app, you first need to set up ArConnect. Checkout this [guide](https://www.notion.so/How-to-install-and-setup-ArConnect-bd56c8cf4d3949c8b8343534a5636547?pvs=21) for help with setup.
 
@@ -42,10 +42,6 @@ publishedAt: '2024-03-10T01:51:41.332Z'
             - “Enter app”
 
             <!-- -->
-
-            <!-- -->
-
-        <!-- -->
 
         <!-- -->
 
@@ -81,15 +77,9 @@ publishedAt: '2024-03-10T01:51:41.332Z'
 
             <!-- -->
 
-            <!-- -->
-
-        <!-- -->
-
         <!-- -->
 
     7. Approve the connection with the “Connect” button located at the bottom of the permissions screen.
-
-    <!-- -->
 
     <!-- -->
 
@@ -111,8 +101,6 @@ If you no longer wish to allow an app access to ArConnect, you can disconnect it
 
     <!-- -->
 
-    <!-- -->
-
 - You can also manually disconnect from the app as follows:
 
     1. Right click on the webpage and click the “Disconnect” option.
@@ -128,10 +116,6 @@ If you no longer wish to allow an app access to ArConnect, you can disconnect it
             ![](/images/screen-shot-2024-03-28-at-12.20.51-am-gwND.png)
 
         <!-- -->
-
-        <!-- -->
-
-    <!-- -->
 
     <!-- -->
 

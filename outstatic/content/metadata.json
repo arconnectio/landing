@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:06:27.392Z",
+  "generated": "2024-10-03T12:07:11.719Z",
   "metadata": [
     {
       "__outstatic": {
@@ -280,6 +280,34 @@
     },
     {
       "__outstatic": {
+        "commit": "ead46b60cde437de5a71654ba642809684a5aaa0",
+        "hash": "399095047",
+        "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T00:46:34.135Z",
+      "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
+      "status": "published",
+      "title": "Browser Extension - How to receive tokens in your ArConnect wallet?"
+    },
+    {
+      "__outstatic": {
         "commit": "a2dc8a43bec9e6265c606e5b23474375e3c5f5af",
         "hash": "3412486971",
         "path": "outstatic/content/knowledge-base-articles/how-to-operate-arconnect.md"
@@ -477,30 +505,6 @@
       "slug": "mobile-app-creating-a-new-wallet",
       "status": "published",
       "title": "Mobile App - Onboarding: Creating a new wallet"
-    },
-    {
-      "__outstatic": {
-        "commit": "859dc7a1e634dcd7ccbde48c008bef0c71539420",
-        "hash": "2769958411",
-        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-10T01:51:41.332Z",
-      "slug": "how-to-use-arconnect-with-a-dapp",
-      "status": "published",
-      "title": "Browser Extension - How to use ArConnect with a dApp?"
     },
     {
       "__outstatic": {
@@ -797,18 +801,14 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "2467258067",
-        "path": "outstatic/content/knowledge-base-articles/how-to-receive-tokens-in-your-arconnect-wallet.md"
+        "hash": "725046375",
+        "path": "outstatic/content/knowledge-base-articles/how-to-use-arconnect-with-a-dapp.md"
       },
       "author": {
         "name": "Bithiah",
         "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
       "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
         {
           "label": "Browser Extension",
           "value": "browser-extension"
@@ -821,10 +821,10 @@
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-03-11T00:46:34.135Z",
-      "slug": "how-to-receive-tokens-in-your-arconnect-wallet",
+      "publishedAt": "2024-03-10T01:51:41.332Z",
+      "slug": "how-to-use-arconnect-with-a-dapp",
       "status": "published",
-      "title": "Browser Extension - How to receive tokens in your ArConnect wallet?"
+      "title": "Browser Extension - How to use ArConnect with a dApp?"
     }
   ]
 }
