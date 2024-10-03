@@ -1,6 +1,6 @@
 {
-  "commit": "0184b24bc18c872397bf1a5b43852b3340d45287",
-  "generated": "2024-10-03T11:57:12.542Z",
+  "commit": "c8376f753b145a22ad22910e57dc5a039380f69b",
+  "generated": "2024-10-03T11:59:20.554Z",
   "metadata": [
     {
       "__outstatic": {
@@ -793,6 +793,34 @@
       "slug": "mobile-app-creating-a-new-wallet",
       "status": "published",
       "title": "Mobile App - Onboarding: Creating a new wallet"
+    },
+    {
+      "__outstatic": {
+        "commit": "c8376f753b145a22ad22910e57dc5a039380f69b",
+        "hash": "515729095",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:09:27.765Z",
+      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
+      "status": "published",
+      "title": "Mobile App - How to receive Arweave or AO Assets"
     }
   ]
 }
