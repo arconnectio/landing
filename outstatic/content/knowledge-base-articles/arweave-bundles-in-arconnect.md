@@ -7,7 +7,7 @@ author:
 slug: 'arweave-bundles-in-arconnect'
 description: ''
 coverImage: ''
-category: [{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2024-03-09T05:26:34.560Z'
 ---
 
@@ -60,6 +60,10 @@ ArConnect’s `dispatch()`[API](https://docs.arconnect.io/api/dispatch?utm_sourc
             ![](/images/screen-shot-2024-03-27-at-11.58.16-pm-A5MT.png)
 
         <!-- -->
+
+        <!-- -->
+
+    <!-- -->
 
     <!-- -->
 
