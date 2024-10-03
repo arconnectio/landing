@@ -1,6 +1,6 @@
 {
-  "commit": "fcc618de87fcc60836d7debe8e40ce2a0b75e8b3",
-  "generated": "2024-10-03T09:35:39.626Z",
+  "commit": "b8d6fbbf175a17365c2fb0f2cfb12d4a0242ddff",
+  "generated": "2024-10-03T09:36:39.719Z",
   "metadata": [
     {
       "__outstatic": {
@@ -181,30 +181,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
       "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
-    },
-    {
-      "__outstatic": {
-        "commit": "dfa491b0eab8a2d281151a913472029378927381",
-        "hash": "594789861",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-tokens-to-show-up-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:20:47.772Z",
-      "slug": "how-to-add-tokens-to-show-up-in-arconnect",
-      "status": "published",
-      "title": "How to add tokens to show up in ArConnect?"
     },
     {
       "__outstatic": {
