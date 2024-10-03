@@ -1,6 +1,6 @@
 {
   "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-  "generated": "2024-10-03T09:44:48.074Z",
+  "generated": "2024-10-03T09:45:13.373Z",
   "metadata": [
     {
       "__outstatic": {
@@ -408,30 +408,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1fc19b6a070a5133a303ebf96c6d69a6fdde76be",
-        "hash": "2256020574",
-        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
-      },
-      "author": {
-        "name": "Marton Lederer",
-        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2023-09-24T21:27:09.654Z",
-      "slug": "what-is-arweave",
-      "status": "published",
-      "title": "What is Arweave?"
-    },
-    {
-      "__outstatic": {
         "commit": "12fcba47eeaca2442e8d6755ab47b6b7055f2fa1",
         "hash": "2439904334",
         "path": "outstatic/content/knowledge-base-articles/what-is-arconnect.md"
@@ -453,6 +429,30 @@
       "slug": "what-is-arconnect",
       "status": "published",
       "title": "What is ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "11871c247a0de42ecc7e7468b08800be6723d686",
+        "hash": "2311055425",
+        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
+      },
+      "author": {
+        "name": "Marton Lederer",
+        "picture": "https://avatars.githubusercontent.com/u/30638105?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Find out what a JSON keyfile is.",
+      "publishedAt": "2023-09-24T21:27:47.445Z",
+      "slug": "what-is-a-json-keyfile",
+      "status": "published",
+      "title": "What is a JSON keyfile?"
     },
     {
       "__outstatic": {
@@ -645,8 +645,8 @@
     {
       "__outstatic": {
         "commit": "f4d81c2d329728e67d9b48e3c77ab0851a3f7b41",
-        "hash": "3371955589",
-        "path": "outstatic/content/knowledge-base-articles/what-is-a-json-keyfile.md"
+        "hash": "2746454872",
+        "path": "outstatic/content/knowledge-base-articles/what-is-arweave.md"
       },
       "author": {
         "name": "Marton Lederer",
@@ -664,11 +664,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "Find out what a JSON keyfile is.",
-      "publishedAt": "2023-09-24T21:27:47.445Z",
-      "slug": "what-is-a-json-keyfile",
+      "description": "",
+      "publishedAt": "2023-09-24T21:27:09.654Z",
+      "slug": "what-is-arweave",
       "status": "published",
-      "title": "What is a JSON keyfile?"
+      "title": "What is Arweave?"
     }
   ]
 }

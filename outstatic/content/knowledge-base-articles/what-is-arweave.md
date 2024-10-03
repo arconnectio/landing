@@ -7,7 +7,7 @@ author:
 slug: 'what-is-arweave'
 description: ''
 coverImage: ''
-category: [{"value":"getting-started","label":"Getting started"}]
+category: [{"label":"Mobile app","value":"mobile-app"},{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2023-09-24T21:27:09.654Z'
 ---
 
@@ -21,7 +21,7 @@ Arweave is a global network storing data and information. Its unique solution in
 
 - It uses much less computing power than other blockchains, making it greener and more efficient.
 
-## Projects and Initiatives that use Arweave 
+## Projects and Initiatives that use Arweave
 
 Arweave's distinctive features have drawn a wide array of projects and initiatives within its ecosystem. Here are some noteworthy accomplishments that highlight the diverse utility of Arweave:
 
