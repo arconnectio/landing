@@ -48,8 +48,8 @@ export default function Hero() {
         <StatPanel
           icon={<DownloadIcon />}
           name="Installs"
-          value={70000}
-          greater
+          value={100000}
+          plus
         />
         <StatPanel icon={<TagIcon />} name="Transactions" value={500000} />
         <StatLink href="/apps">
