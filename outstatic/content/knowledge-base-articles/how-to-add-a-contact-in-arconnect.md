@@ -7,7 +7,7 @@ author:
 slug: 'how-to-add-a-contact-in-arconnect'
 description: ''
 coverImage: ''
-category: [{"label":"Browser Extension","value":"browser-extension"}]
+category: [{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2024-03-11T04:29:03.489Z'
 ---
 
@@ -41,6 +41,8 @@ Instead of having to add the recipient details for every transaction, for regula
 
         <!-- -->
 
+        <!-- -->
+
     6. Fill in the details requested in the form as you wish
 
         - Enter the wallet address if not specified. This is the only detail that is required.
@@ -57,6 +59,8 @@ Instead of having to add the recipient details for every transaction, for regula
 
         <!-- -->
 
+        <!-- -->
+
     7. Once all details are filled in, click on the "Save New Contact" button located at the bottom of the form to add the contact to your list.
 
         ![](/images/screen-shot-2024-03-27-at-10.27.07-pm-I3Nz.png)
@@ -68,6 +72,10 @@ Instead of having to add the recipient details for every transaction, for regula
         <!-- -->
 
         <!-- -->
+
+        <!-- -->
+
+    <!-- -->
 
     <!-- -->
 
@@ -107,6 +115,8 @@ Instead of having to add the recipient details for every transaction, for regula
 
     <!-- -->
 
+    <!-- -->
+
 ## How to remove a contact in ArConnect?
 
 - Follow these steps to update an existing contact:
@@ -128,6 +138,8 @@ Instead of having to add the recipient details for every transaction, for regula
     8. Click “Remove contact” located at the bottom of the form.
 
     9. The contact is removed from the list located at the center of the Settings Page.
+
+    <!-- -->
 
     <!-- -->
 

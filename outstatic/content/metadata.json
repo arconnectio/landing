@@ -1,6 +1,6 @@
 {
   "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-  "generated": "2024-10-03T12:02:09.303Z",
+  "generated": "2024-10-03T12:02:44.151Z",
   "metadata": [
     {
       "__outstatic": {
@@ -161,30 +161,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "f86c27deed5d9d780ccfc09d3b66d892ef28eff4",
-        "hash": "3208616688",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:29:03.489Z",
-      "slug": "how-to-add-a-contact-in-arconnect",
-      "status": "published",
-      "title": "Browser Extension - How to add a contact in ArConnect?"
     },
     {
       "__outstatic": {
@@ -385,6 +361,38 @@
       "slug": "how-to-create-multiple-public-addresses-with-same-private-key",
       "status": "published",
       "title": "Browser Extension - How to create multiple wallets?"
+    },
+    {
+      "__outstatic": {
+        "commit": "7b4d5540862bc3267806b2d08ab69ac161f45c73",
+        "hash": "3600568995",
+        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-20T13:06:34.473Z",
+      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
+      "status": "published",
+      "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
     },
     {
       "__outstatic": {
@@ -793,22 +801,14 @@
     {
       "__outstatic": {
         "commit": "a738381bf74a26a9b278745ac8f248aa86c588e9",
-        "hash": "1408841579",
-        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
+        "hash": "4188192428",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
       },
       "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
       },
       "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        },
         {
           "label": "Browser Extension",
           "value": "browser-extension"
@@ -821,10 +821,10 @@
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-05-20T13:06:34.473Z",
-      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
+      "publishedAt": "2024-03-11T04:29:03.489Z",
+      "slug": "how-to-add-a-contact-in-arconnect",
       "status": "published",
-      "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
+      "title": "Browser Extension - How to add a contact in ArConnect?"
     }
   ]
 }
