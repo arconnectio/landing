@@ -16,10 +16,7 @@ export default function Home() {
       <Nav />
       <Main>
         <TitleSection>
-          <Title>
-            Arconnect Wallet Extension <br />
-            <span>now on mobile</span>
-          </Title>
+          <Title>Arconnect Wallet Extension</Title>
           <Spacer y={5} />
           <Subtitle>Download the ArConnect Extension</Subtitle>
           <Spacer y={3} />
