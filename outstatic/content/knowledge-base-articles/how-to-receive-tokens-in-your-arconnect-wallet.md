@@ -51,7 +51,7 @@ If you want to quickly receive tokens and the platform you’re receiving your t
 
 Follow these steps to fetch a QR code for your wallet:
 
-1. Open ArConnect.
+1. Open the ArConnect browser extension.
 
 2. Click the button with the “Receive” icon on the ArConnect extension’s main view.
 
