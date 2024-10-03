@@ -1,6 +1,6 @@
 {
-  "commit": "1d7584bb17cf4e94fde3b2996d93b3705a42cbf5",
-  "generated": "2024-10-03T13:23:27.206Z",
+  "commit": "8d992e7f64e8af0ff197b8433fdf3d2d28593727",
+  "generated": "2024-10-03T13:25:48.041Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1037,6 +1037,34 @@
       "slug": "mobile-app-how-to-view-your-transaction-history",
       "status": "published",
       "title": "Mobile App - How to view your Transaction History"
+    },
+    {
+      "__outstatic": {
+        "commit": "8d992e7f64e8af0ff197b8433fdf3d2d28593727",
+        "hash": "3013524243",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-notifications.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to view your notifications in the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T13:36:34.684Z",
+      "slug": "mobile-app-how-to-view-notifications",
+      "status": "published",
+      "title": "Mobile App - How to view Notifications"
     }
   ]
 }
