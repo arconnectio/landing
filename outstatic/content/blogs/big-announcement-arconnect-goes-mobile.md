@@ -42,7 +42,7 @@ The AO and Arweave ecosystem stands out for its commitment to accessibility and 
 
 ArConnect’s mission is to ensure that users can experience all Arweave has to offer, with an emphasis on security, simplicity, and trust. With the mobile app now available, we hope to empower even more users to explore the full potential of Arweave and AO.
 
-Download ArConnect on mobile today and carry the power of Arweave wherever you go!
+[Download ArConnect](https://www.arconnect.io/download?utm_source=Download&utm_medium=Blog&utm_campaign=Mobile&utm_id=ArConnect) on mobile today and carry the power of Arweave wherever you go!
 
-[https://www.arconnect.io/download?utm\_source=Download&utm\_medium=Blog&utm\_campaign=Mobile&utm\_id=ArConnect](https://www.arconnect.io/download?utm_source=Download&utm_medium=Blog&utm_campaign=Mobile&utm_id=ArConnect)
+
 
