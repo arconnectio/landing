@@ -1,6 +1,6 @@
 {
-  "commit": "b28f0b0a080ed54209eb1bd6bcc08bfd0f2ddb5c",
-  "generated": "2024-10-04T16:44:30.562Z",
+  "commit": "77fd72863136c72dfed417c231b07097445699a2",
+  "generated": "Fri, 04 Oct 2024 16:44:44 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -44,26 +44,6 @@
     },
     {
       "__outstatic": {
-        "commit": "826f325ca499f8b7d602ca0a3fce166c9686907a",
-        "hash": "127991962",
-        "path": "outstatic/content/blogs/release-announcement-notifications.md"
-      },
-      "author": {
-        "name": "Matt DiRenzo",
-        "picture": "/images/matt-e0nt-A4Mz.jpeg"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/main-YxND.png",
-      "description": "Never miss an Arweave or ao transactions with ArConnect notifications",
-      "publishedAt": "2024-03-13T17:29:32.801Z",
-      "slug": "release-announcement-notifications",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Release Announcement: Notifications",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
         "commit": "dc5f0f252ae27123055f419df8a179ce6b4256b1",
         "hash": "633992790",
         "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
@@ -84,6 +64,26 @@
     },
     {
       "__outstatic": {
+        "commit": "826f325ca499f8b7d602ca0a3fce166c9686907a",
+        "hash": "127991962",
+        "path": "outstatic/content/blogs/release-announcement-notifications.md"
+      },
+      "author": {
+        "name": "Matt DiRenzo",
+        "picture": "/images/matt-e0nt-A4Mz.jpeg"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/main-YxND.png",
+      "description": "Never miss an Arweave or ao transactions with ArConnect notifications",
+      "publishedAt": "2024-03-13T17:29:32.801Z",
+      "slug": "release-announcement-notifications",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Release Announcement: Notifications",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
         "commit": "650f686040a39ba167a13a8315a483ab7b032afb",
         "hash": "2930495488",
         "path": "outstatic/content/blogs/contacts-new-send-flow.md"
@@ -101,6 +101,26 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "69d5eb03fe2d99133195a26d15d9bc53b25e653e",
+        "hash": "3463664535",
+        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
+      },
+      "author": {
+        "name": "Ashlyn Pugh",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_mobile-U5Nz.png",
+      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
+      "publishedAt": "2024-10-04T16:12:37.179Z",
+      "slug": "big-announcement-arconnect-goes-mobile",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Big Announcement: ArConnect Goes Mobile!",
+      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
       "__outstatic": {
@@ -900,34 +920,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1a69ad7f0ded2304b8bcc80561e6adaee67db41b",
-        "hash": "2177621139",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-turn-on-off-notifications.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to enable or disable notifications in the ArConnect Mobile App",
-      "publishedAt": "2024-10-03T16:48:04.620Z",
-      "slug": "mobile-app-settings-how-to-turn-on-off-notifications",
-      "status": "published",
-      "title": "Mobile App - Settings: How to turn on/off Notifications"
-    },
-    {
-      "__outstatic": {
         "commit": "e1710c79f87bdd6fd190f2691f4cb206c4c3389e",
         "hash": "783863072",
         "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
@@ -953,6 +945,34 @@
       "slug": "permission-system-in-arconnect",
       "status": "published",
       "title": "Browser Extension - Permission system in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "1a69ad7f0ded2304b8bcc80561e6adaee67db41b",
+        "hash": "2177621139",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-turn-on-off-notifications.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to enable or disable notifications in the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T16:48:04.620Z",
+      "slug": "mobile-app-settings-how-to-turn-on-off-notifications",
+      "status": "published",
+      "title": "Mobile App - Settings: How to turn on/off Notifications"
     },
     {
       "__outstatic": {
@@ -1149,26 +1169,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "b28f0b0a080ed54209eb1bd6bcc08bfd0f2ddb5c",
-        "hash": "3463664535",
-        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
-      },
-      "author": {
-        "name": "Ashlyn Pugh",
-        "picture": ""
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect_mobile-U5Nz.png",
-      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
-      "publishedAt": "2024-10-04T16:12:37.179Z",
-      "slug": "big-announcement-arconnect-goes-mobile",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Big Announcement: ArConnect Goes Mobile!",
-      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
