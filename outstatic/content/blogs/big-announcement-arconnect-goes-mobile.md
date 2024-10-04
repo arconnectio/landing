@@ -14,7 +14,7 @@ publishedAt: '2024-10-04T16:12:37.179Z'
 
 ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.
 
-From its inception, ArConnect has been the first point of contact for many users entering the Arweave ecosystem. It's now the leading wallet in the ecosystem, with easy API integration and tools that make it indispensable for developers. To date, millions of AR tokens have passed through ArConnect, and 95% of applications in the Arweave ecosystem are utilizing it. Built with security, simplicity, and trust at its core, ArConnect continues to serve as a reliable, user-friendly gateway to the limitless possibilities of AO and Arweave.
+From its inception, ArConnect has been the first point of contact for many users entering the Arweave ecosystem. It's now the leading wallet in the ecosystem, with easy API integration and tools that make it indispensable for developers. To date, millions of AR tokens have passed through ArConnect, and 95% of applications in the Arweave ecosystem are utilizing it.
 
 Because ArConnect was built to address community needs, listening to user feedback is crucial in shaping its roadmap. We strive to consistently enhance the wallet's features and functionality based on what our community values most.
 
@@ -43,6 +43,4 @@ The AO and Arweave ecosystem stands out for its commitment to accessibility and 
 ArConnect’s mission is to ensure that users can experience all Arweave has to offer, with an emphasis on security, simplicity, and trust. With the mobile app now available, we hope to empower even more users to explore the full potential of Arweave and AO.
 
 [Download ArConnect](https://www.arconnect.io/download?utm_source=Download&utm_medium=Blog&utm_campaign=Mobile&utm_id=ArConnect) on mobile today and carry the power of Arweave wherever you go!
-
-
 
