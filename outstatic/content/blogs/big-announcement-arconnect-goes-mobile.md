@@ -6,7 +6,7 @@ author:
   picture: ''
 slug: 'big-announcement-arconnect-goes-mobile'
 description: 'ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.'
-coverImage: '/images/arconnect_mobile-U5Nz.png'
+coverImage: '/images/arconnect_image-g1MT.png'
 transparentThumbnail: 'https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI'
 themeColor: 'rgba(0, 0, 0, .15)'
 publishedAt: '2024-10-04T16:12:37.179Z'
