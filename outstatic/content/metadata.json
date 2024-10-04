@@ -1,6 +1,6 @@
 {
-  "commit": "6ef0bae77d418b03c95d30d23e1a9d3ee8f8be33",
-  "generated": "2024-10-04T16:03:01.704Z",
+  "commit": "f99bcd5f4357e5c2c3e8655cc73f42557d5dca3b",
+  "generated": "Fri, 04 Oct 2024 16:03:15 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -101,6 +101,26 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "998f296517767cbe7d3833833fd52dcce5a46ac3",
+        "hash": "766649970",
+        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
+      },
+      "author": {
+        "name": "Ashlyn Pugh",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_mobile-U5Nz.png",
+      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
+      "publishedAt": "2024-10-04T16:12:37.179Z",
+      "slug": "big-announcement-arconnect-goes-mobile",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Big Announcement: ArConnect Goes Mobile!",
+      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
       "__outstatic": {
@@ -900,34 +920,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e1710c79f87bdd6fd190f2691f4cb206c4c3389e",
-        "hash": "783863072",
-        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-08T12:06:47.988Z",
-      "slug": "permission-system-in-arconnect",
-      "status": "published",
-      "title": "Browser Extension - Permission system in ArConnect"
-    },
-    {
-      "__outstatic": {
         "commit": "1a69ad7f0ded2304b8bcc80561e6adaee67db41b",
         "hash": "2177621139",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-turn-on-off-notifications.md"
@@ -953,6 +945,34 @@
       "slug": "mobile-app-settings-how-to-turn-on-off-notifications",
       "status": "published",
       "title": "Mobile App - Settings: How to turn on/off Notifications"
+    },
+    {
+      "__outstatic": {
+        "commit": "e1710c79f87bdd6fd190f2691f4cb206c4c3389e",
+        "hash": "783863072",
+        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-08T12:06:47.988Z",
+      "slug": "permission-system-in-arconnect",
+      "status": "published",
+      "title": "Browser Extension - Permission system in ArConnect"
     },
     {
       "__outstatic": {
@@ -1149,26 +1169,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "6ef0bae77d418b03c95d30d23e1a9d3ee8f8be33",
-        "hash": "766649970",
-        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
-      },
-      "author": {
-        "name": "Ashlyn Pugh",
-        "picture": ""
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect_mobile-U5Nz.png",
-      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
-      "publishedAt": "2024-10-04T16:12:37.179Z",
-      "slug": "big-announcement-arconnect-goes-mobile",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Big Announcement: ArConnect Goes Mobile!",
-      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
