@@ -1,6 +1,6 @@
 ---
 title: 'Big Announcement: ArConnect Goes Mobile!'
-status: 'draft'
+status: 'published'
 author:
   name: 'Ashlyn Pugh'
   picture: ''

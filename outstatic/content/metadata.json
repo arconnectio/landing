@@ -1,6 +1,6 @@
 {
-  "commit": "8b152237a33494837282bf55cea39073769fd3b9",
-  "generated": "2024-10-04T15:53:54.927Z",
+  "commit": "c85fc3f64335e14c1e076a20b39a30adbe03532d",
+  "generated": "2024-10-04T16:00:18.855Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1152,8 +1152,8 @@
     },
     {
       "__outstatic": {
-        "commit": "8b152237a33494837282bf55cea39073769fd3b9",
-        "hash": "1847434058",
+        "commit": "c85fc3f64335e14c1e076a20b39a30adbe03532d",
+        "hash": "3786656337",
         "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
       },
       "author": {
@@ -1165,7 +1165,7 @@
       "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
       "publishedAt": "2024-10-04T16:12:37.179Z",
       "slug": "big-announcement-arconnect-goes-mobile",
-      "status": "draft",
+      "status": "published",
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Big Announcement: ArConnect Goes Mobile!",
       "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
