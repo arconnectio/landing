@@ -1,6 +1,6 @@
 {
-  "commit": "8a1810a6d9b730917f98efebf261f3e7766b5dea",
-  "generated": "2024-10-04T16:58:48.842Z",
+  "commit": "6608e09845d311c178f8384cc5cc30bfe556abd5",
+  "generated": "Fri, 04 Oct 2024 16:59:04 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -44,26 +44,6 @@
     },
     {
       "__outstatic": {
-        "commit": "dc5f0f252ae27123055f419df8a179ce6b4256b1",
-        "hash": "633992790",
-        "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
-      },
-      "author": {
-        "name": "ropats16",
-        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/wayfinder-final-v2-k5ND.png",
-      "description": "ArConnect integrates ar.io's Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.",
-      "publishedAt": "2023-10-31T17:22:52.571Z",
-      "slug": "introducing-wayfinder-a-new-era-for-arweaves-permaweb",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
-      "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
-    },
-    {
-      "__outstatic": {
         "commit": "826f325ca499f8b7d602ca0a3fce166c9686907a",
         "hash": "127991962",
         "path": "outstatic/content/blogs/release-announcement-notifications.md"
@@ -84,6 +64,26 @@
     },
     {
       "__outstatic": {
+        "commit": "dc5f0f252ae27123055f419df8a179ce6b4256b1",
+        "hash": "633992790",
+        "path": "outstatic/content/blogs/introducing-wayfinder-a-new-era-for-arweaves-permaweb.md"
+      },
+      "author": {
+        "name": "ropats16",
+        "picture": "https://avatars.githubusercontent.com/u/50047129?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/wayfinder-final-v2-k5ND.png",
+      "description": "ArConnect integrates ar.io's Wayfinder, revolutionizing access to information on Arweave. This collaboration ensures optimal, uninterrupted user connectivity by intelligently selecting the best gateways based on user requests.",
+      "publishedAt": "2023-10-31T17:22:52.571Z",
+      "slug": "introducing-wayfinder-a-new-era-for-arweaves-permaweb",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
+      "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
+    },
+    {
+      "__outstatic": {
         "commit": "650f686040a39ba167a13a8315a483ab7b032afb",
         "hash": "2930495488",
         "path": "outstatic/content/blogs/contacts-new-send-flow.md"
@@ -101,6 +101,26 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "883c5b5f91668e43ab9f7cbc96f86298079c387f",
+        "hash": "1299863064",
+        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
+      },
+      "author": {
+        "name": "Ashlyn Pugh",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_image-g1MT.png",
+      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
+      "publishedAt": "2024-10-04T16:12:37.179Z",
+      "slug": "big-announcement-arconnect-goes-mobile",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Big Announcement: ArConnect Goes Mobile!",
+      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
       "__outstatic": {
@@ -752,6 +772,34 @@
     },
     {
       "__outstatic": {
+        "commit": "8fbf394b16f698dffe20dfb2a0b0d7cabed38574",
+        "hash": "2123300883",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to view your transaction history in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:34:16.954Z",
+      "slug": "mobile-app-how-to-view-your-transaction-history",
+      "status": "published",
+      "title": "Mobile App - How to view your Transaction History"
+    },
+    {
+      "__outstatic": {
         "commit": "2d0efe0285589a39365794a4ae8d0dc149b0361f",
         "hash": "40961685",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-qr-code.md"
@@ -781,34 +829,6 @@
       "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
       "status": "published",
       "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
-    },
-    {
-      "__outstatic": {
-        "commit": "8fbf394b16f698dffe20dfb2a0b0d7cabed38574",
-        "hash": "2123300883",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to view your transaction history in the ArConnect mobile app",
-      "publishedAt": "2024-10-03T13:34:16.954Z",
-      "slug": "mobile-app-how-to-view-your-transaction-history",
-      "status": "published",
-      "title": "Mobile App - How to view your Transaction History"
     },
     {
       "__outstatic": {
@@ -1149,26 +1169,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "8a1810a6d9b730917f98efebf261f3e7766b5dea",
-        "hash": "1299863064",
-        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
-      },
-      "author": {
-        "name": "Ashlyn Pugh",
-        "picture": ""
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect_image-g1MT.png",
-      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
-      "publishedAt": "2024-10-04T16:12:37.179Z",
-      "slug": "big-announcement-arconnect-goes-mobile",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Big Announcement: ArConnect Goes Mobile!",
-      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
