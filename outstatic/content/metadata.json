@@ -1,7 +1,27 @@
 {
-  "commit": "8b3e2e30ea025f27d54f6c736d618859fceb6493",
-  "generated": "2024-10-24T14:07:20.395Z",
+  "commit": "a676bdfa908881ea19d6c24545dbbc054d49aeac",
+  "generated": "Thu, 24 Oct 2024 14:07:39 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "4a78a78950783cdb02949d552d622e32e4ad5319",
+        "hash": "2022125372",
+        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
+      },
+      "author": {
+        "name": "Ashlyn Pugh",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_image-g1MT.png",
+      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
+      "publishedAt": "2024-10-24T16:12:37.000Z",
+      "slug": "big-announcement-arconnect-goes-mobile",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Big Announcement: ArConnect Goes Mobile!",
+      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
     {
       "__outstatic": {
         "commit": "a5807fd79ad2e72060f350ef13c98e2b6f7fd6c9",
@@ -60,6 +80,26 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "ArConnect Just Leveled Up to 1.0",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "5e18bdf605f457e140723ca7841346878a9f702d",
+        "hash": "2686783191",
+        "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/framer-cms-blog-image-E4Nz.png",
+      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. ",
+      "publishedAt": "2024-02-15T00:59:29.172Z",
+      "slug": "security-best-practices-for-crypto-wallets",
+      "status": "published",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "Security Best Practices for Crypto Wallets ",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -144,23 +184,27 @@
     },
     {
       "__outstatic": {
-        "commit": "4a78a78950783cdb02949d552d622e32e4ad5319",
-        "hash": "2022125372",
-        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
+        "commit": "db44c89f12ad523269b313bda53fb3b4e0e01c20",
+        "hash": "2396077871",
+        "path": "outstatic/content/knowledge-base-articles/browser-extension-how-to-print-to-arweave.md"
       },
       "author": {
-        "name": "Ashlyn Pugh",
-        "picture": ""
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
       },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect_image-g1MT.png",
-      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
-      "publishedAt": "2024-10-24T16:12:37.000Z",
-      "slug": "big-announcement-arconnect-goes-mobile",
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Learn how to upload any webpage to Arweave with Print to Arweave",
+      "publishedAt": "2024-10-24T14:18:23.107Z",
+      "slug": "browser-extension-how-to-print-to-arweave",
       "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Big Announcement: ArConnect Goes Mobile!",
-      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+      "title": "Browser Extension - How to Print to Arweave"
     },
     {
       "__outstatic": {
@@ -256,26 +300,6 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "Storing NFTs/Collectibles with ArConnect",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "5e18bdf605f457e140723ca7841346878a9f702d",
-        "hash": "2686783191",
-        "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
-      },
-      "author": {
-        "name": "Bithiah Koshy",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/framer-cms-blog-image-E4Nz.png",
-      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. ",
-      "publishedAt": "2024-02-15T00:59:29.172Z",
-      "slug": "security-best-practices-for-crypto-wallets",
-      "status": "published",
-      "themeColor": "rgb(171, 154, 255)",
-      "title": "Security Best Practices for Crypto Wallets ",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -1189,30 +1213,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "8b3e2e30ea025f27d54f6c736d618859fceb6493",
-        "hash": "2396077871",
-        "path": "outstatic/content/knowledge-base-articles/browser-extension-how-to-print-to-arweave.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Learn how to upload any webpage to Arweave with Print to Arweave",
-      "publishedAt": "2024-10-24T14:18:23.107Z",
-      "slug": "browser-extension-how-to-print-to-arweave",
-      "status": "published",
-      "title": "Browser Extension - How to Print to Arweave"
     }
   ]
 }
