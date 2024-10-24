@@ -1,6 +1,6 @@
 {
-  "commit": "7d5f88271e538c5234d09c7087fab798539c4b2d",
-  "generated": "2024-10-24T14:01:48.988Z",
+  "commit": "b3f99a2f7c955bdde3de1b4ace21705cac56a774",
+  "generated": "Thu, 24 Oct 2024 14:02:02 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -144,6 +144,26 @@
     },
     {
       "__outstatic": {
+        "commit": "4a78a78950783cdb02949d552d622e32e4ad5319",
+        "hash": "2022125372",
+        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
+      },
+      "author": {
+        "name": "Ashlyn Pugh",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_image-g1MT.png",
+      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
+      "publishedAt": "2024-10-24T16:12:37.000Z",
+      "slug": "big-announcement-arconnect-goes-mobile",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Big Announcement: ArConnect Goes Mobile!",
+      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
         "commit": "b9a62612e525e5091b72c795d5322f7c07adfc52",
         "hash": "2221397112",
         "path": "outstatic/content/knowledge-base-articles/arweave-gateways-in-arconnect.md"
@@ -169,34 +189,6 @@
       "slug": "arweave-gateways-in-arconnect",
       "status": "published",
       "title": "Browser Extension - Arweave gateways in ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "1fdd909145721caea1913c3756aaeecd0fe19ee2",
-        "hash": "3479901999",
-        "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-09T05:26:34.560Z",
-      "slug": "arweave-bundles-in-arconnect",
-      "status": "published",
-      "title": "Arweave bundles in ArConnect"
     },
     {
       "__outstatic": {
@@ -257,6 +249,34 @@
       "themeColor": "rgb(171, 154, 255)",
       "title": "Security Best Practices for Crypto Wallets ",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "1fdd909145721caea1913c3756aaeecd0fe19ee2",
+        "hash": "3479901999",
+        "path": "outstatic/content/knowledge-base-articles/arweave-bundles-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-09T05:26:34.560Z",
+      "slug": "arweave-bundles-in-arconnect",
+      "status": "published",
+      "title": "Arweave bundles in ArConnect"
     },
     {
       "__outstatic": {
@@ -804,34 +824,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8fbf394b16f698dffe20dfb2a0b0d7cabed38574",
-        "hash": "2123300883",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to view your transaction history in the ArConnect mobile app",
-      "publishedAt": "2024-10-03T13:34:16.954Z",
-      "slug": "mobile-app-how-to-view-your-transaction-history",
-      "status": "published",
-      "title": "Mobile App - How to view your Transaction History"
-    },
-    {
-      "__outstatic": {
         "commit": "f9238d38551f02e9858c1fff59e9482946663244",
         "hash": "3013524243",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-notifications.md"
@@ -857,6 +849,34 @@
       "slug": "mobile-app-how-to-view-notifications",
       "status": "published",
       "title": "Mobile App - How to view Notifications"
+    },
+    {
+      "__outstatic": {
+        "commit": "8fbf394b16f698dffe20dfb2a0b0d7cabed38574",
+        "hash": "2123300883",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to view your transaction history in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:34:16.954Z",
+      "slug": "mobile-app-how-to-view-your-transaction-history",
+      "status": "published",
+      "title": "Mobile App - How to view your Transaction History"
     },
     {
       "__outstatic": {
@@ -920,34 +940,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e1710c79f87bdd6fd190f2691f4cb206c4c3389e",
-        "hash": "783863072",
-        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-08T12:06:47.988Z",
-      "slug": "permission-system-in-arconnect",
-      "status": "published",
-      "title": "Browser Extension - Permission system in ArConnect"
-    },
-    {
-      "__outstatic": {
         "commit": "1a69ad7f0ded2304b8bcc80561e6adaee67db41b",
         "hash": "2177621139",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-turn-on-off-notifications.md"
@@ -973,6 +965,34 @@
       "slug": "mobile-app-settings-how-to-turn-on-off-notifications",
       "status": "published",
       "title": "Mobile App - Settings: How to turn on/off Notifications"
+    },
+    {
+      "__outstatic": {
+        "commit": "e1710c79f87bdd6fd190f2691f4cb206c4c3389e",
+        "hash": "783863072",
+        "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-08T12:06:47.988Z",
+      "slug": "permission-system-in-arconnect",
+      "status": "published",
+      "title": "Browser Extension - Permission system in ArConnect"
     },
     {
       "__outstatic": {
@@ -1169,26 +1189,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "7d5f88271e538c5234d09c7087fab798539c4b2d",
-        "hash": "2022125372",
-        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
-      },
-      "author": {
-        "name": "Ashlyn Pugh",
-        "picture": ""
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect_image-g1MT.png",
-      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
-      "publishedAt": "2024-10-24T16:12:37.000Z",
-      "slug": "big-announcement-arconnect-goes-mobile",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Big Announcement: ArConnect Goes Mobile!",
-      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
