@@ -1,6 +1,6 @@
 {
-  "commit": "a676bdfa908881ea19d6c24545dbbc054d49aeac",
-  "generated": "Thu, 24 Oct 2024 14:07:39 GMT",
+  "commit": "2a3a339e2fad2e0826e5727fe9734569c75fa953",
+  "generated": "2024-10-24T14:09:15.942Z",
   "metadata": [
     {
       "__outstatic": {
@@ -161,50 +161,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Release Announcement: Contacts, New Send Flow, & ArNS Support",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "432f551a7e9889665d27bdff2d4ba1971dcf3c9a",
-        "hash": "3630304890",
-        "path": "outstatic/content/blogs/browser-extension-how-to-print-to-arweave.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "",
-      "description": "How to upload a webpage to Arweave with the Print to Arweave feature",
-      "publishedAt": "2024-10-24T14:02:06.694Z",
-      "slug": "browser-extension-how-to-print-to-arweave",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Browser Extension - How to Print to Arweave",
-      "transparentThumbnail": "https://wtngtpd7q3lb356icuknm5yvrrd7cqcidujdbn4t2klrgrzfs4nq.arweave.net/tNppvH-G1h33yBUU1ncVjEfxQEgdEjC3k9KXE0cllxs"
-    },
-    {
-      "__outstatic": {
-        "commit": "db44c89f12ad523269b313bda53fb3b4e0e01c20",
-        "hash": "2396077871",
-        "path": "outstatic/content/knowledge-base-articles/browser-extension-how-to-print-to-arweave.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "Learn how to upload any webpage to Arweave with Print to Arweave",
-      "publishedAt": "2024-10-24T14:18:23.107Z",
-      "slug": "browser-extension-how-to-print-to-arweave",
-      "status": "published",
-      "title": "Browser Extension - How to Print to Arweave"
     },
     {
       "__outstatic": {
