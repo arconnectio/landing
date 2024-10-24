@@ -1,6 +1,6 @@
 {
-  "commit": "17b245369bcede2ad9465504148f6ec4de35c379",
-  "generated": "Thu, 24 Oct 2024 14:04:28 GMT",
+  "commit": "8b3e2e30ea025f27d54f6c736d618859fceb6493",
+  "generated": "2024-10-24T14:07:20.395Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1189,6 +1189,30 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "8b3e2e30ea025f27d54f6c736d618859fceb6493",
+        "hash": "2396077871",
+        "path": "outstatic/content/knowledge-base-articles/browser-extension-how-to-print-to-arweave.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Learn how to upload any webpage to Arweave with Print to Arweave",
+      "publishedAt": "2024-10-24T14:18:23.107Z",
+      "slug": "browser-extension-how-to-print-to-arweave",
+      "status": "published",
+      "title": "Browser Extension - How to Print to Arweave"
     }
   ]
 }
