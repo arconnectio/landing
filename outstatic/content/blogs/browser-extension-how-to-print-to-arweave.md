@@ -7,7 +7,7 @@ author:
 slug: 'browser-extension-how-to-print-to-arweave'
 description: 'How to upload a webpage to Arweave with the Print to Arweave feature'
 coverImage: ''
-transparentThumbnail: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI'
+transparentThumbnail: 'https://wtngtpd7q3lb356icuknm5yvrrd7cqcidujdbn4t2klrgrzfs4nq.arweave.net/tNppvH-G1h33yBUU1ncVjEfxQEgdEjC3k9KXE0cllxs'
 themeColor: 'rgba(0, 0, 0, .15)'
 publishedAt: '2024-10-24T14:02:06.694Z'
 ---
@@ -32,11 +32,11 @@ You can do so by:
 
     <!-- -->
 
+    <!-- -->
+
 - If the transaction is successful, you will be able to see it in your Transaction History in your ArConnect wallet.
 
 - Click on Viewblock in the transaction details to view the upload on Arweave.
-
-
 
 ![Image](https://pbs.twimg.com/media/GZ56i5xWQAAXBGC?format=png&name=small)
 
