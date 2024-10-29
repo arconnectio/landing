@@ -54,7 +54,7 @@ For backing up your seed phrase, as we’ve already mentioned, there are a coupl
 
 **\-** Avoid third-party involvement as much as possible.
 
-**\-** Never upload your seed phrase online, it will be at risk of exposure.
+**\-** Never upload your seed phrase or keyfile online, it will be at risk of exposure. This includes giving your seed phrase or keyfile to a support person asking for it. No support person ever needs your seed phrase or keyfile to provide support
 
 ### *Beware of Scams and Phishing*
 

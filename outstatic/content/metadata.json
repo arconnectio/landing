@@ -1,6 +1,6 @@
 {
-  "commit": "1afe746901ad30573a737bb19b6966f14653aa96",
-  "generated": "Thu, 24 Oct 2024 14:09:29 GMT",
+  "commit": "ab8747f3fbc0f3958b5f345da5e6706113aa44c2",
+  "generated": "2024-10-29T19:47:06.044Z",
   "metadata": [
     {
       "__outstatic": {
@@ -60,26 +60,6 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "ArConnect Just Leveled Up to 1.0",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
-        "commit": "5e18bdf605f457e140723ca7841346878a9f702d",
-        "hash": "2686783191",
-        "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
-      },
-      "author": {
-        "name": "Bithiah Koshy",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/framer-cms-blog-image-E4Nz.png",
-      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. ",
-      "publishedAt": "2024-02-15T00:59:29.172Z",
-      "slug": "security-best-practices-for-crypto-wallets",
-      "status": "published",
-      "themeColor": "rgb(171, 154, 255)",
-      "title": "Security Best Practices for Crypto Wallets ",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -1193,6 +1173,26 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "ab8747f3fbc0f3958b5f345da5e6706113aa44c2",
+        "hash": "648577496",
+        "path": "outstatic/content/blogs/security-best-practices-for-crypto-wallets.md"
+      },
+      "author": {
+        "name": "Bithiah Koshy",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/framer-cms-blog-image-E4Nz.png",
+      "description": "Security in crypto is paramount. Learn how to stay vigilant against hacks and crypto theft by securing your wallet. ",
+      "publishedAt": "2024-02-15T00:59:29.172Z",
+      "slug": "security-best-practices-for-crypto-wallets",
+      "status": "published",
+      "themeColor": "rgb(171, 154, 255)",
+      "title": "Security Best Practices for Crypto Wallets ",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
