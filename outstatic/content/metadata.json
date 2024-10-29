@@ -1,6 +1,6 @@
 {
-  "commit": "1b9c1b21de72acb0becb3fd1b6874e43adcb6aec",
-  "generated": "2024-10-29T19:49:28.684Z",
+  "commit": "ffa440a2f2c6f51f727c89efba201d23d3765f9e",
+  "generated": "Tue, 29 Oct 2024 19:49:46 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -317,6 +317,34 @@
       "slug": "how-to-install-and-setup-arconnect",
       "status": "published",
       "title": "Browser Extension - How to install and setup ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "1e27db79962f34f1a5a9488666bcd563f93503e5",
+        "hash": "122327705",
+        "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-wallets.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T05:50:46.792Z",
+      "slug": "how-to-create-multiple-wallets",
+      "status": "published",
+      "title": "Browser Extension - How to create multiple wallets?"
     },
     {
       "__outstatic": {
@@ -1165,34 +1193,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "1b9c1b21de72acb0becb3fd1b6874e43adcb6aec",
-        "hash": "122327705",
-        "path": "outstatic/content/knowledge-base-articles/how-to-create-multiple-wallets.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T05:50:46.792Z",
-      "slug": "how-to-create-multiple-wallets",
-      "status": "published",
-      "title": "Browser Extension - How to create multiple wallets?"
     }
   ]
 }
