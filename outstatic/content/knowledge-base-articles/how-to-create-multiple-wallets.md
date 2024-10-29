@@ -5,7 +5,7 @@ author:
 coverImage: ''
 title: 'Browser Extension - How to create multiple wallets?'
 status: 'published'
-slug: 'how-to-create-multiple-public-addresses-with-same-private-key'
+slug: 'how-to-create-multiple-wallets'
 description: ''
 category: [{"value":"wallet-management","label":"Wallet management"},{"label":"Browser Extension","value":"browser-extension"}]
 publishedAt: '2024-03-11T05:50:46.792Z'
