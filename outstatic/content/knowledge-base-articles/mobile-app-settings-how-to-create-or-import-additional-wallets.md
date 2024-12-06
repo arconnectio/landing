@@ -21,11 +21,11 @@ ArConnect users can create or import additional wallets by:
 
 - Click on the Settings menu in the upper left hand corner of the Dashboard
 
-- Select Wallet Settings under the Wallet section at the top of the Settings screen
+- Select Manage Accounts on the Settings screen
 
-- Click the *Add a wallet* button at the bottom of the Wallet Setting screen
+- Click the *Add a account* button at the bottom of the Manage Accounts screen
 
-- Select *Create a new wallet*,* Seedphrase or Keyfile*, or *QR Code*
+- Select *Create a new wallet*, *Seedphrase or Keyfile*, or *QR Code*
 
     - Instructions for each option are below
 

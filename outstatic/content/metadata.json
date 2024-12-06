@@ -1,6 +1,6 @@
 {
   "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
-  "generated": "2024-12-06T09:44:57.701Z",
+  "generated": "2024-12-06T09:46:58.910Z",
   "metadata": [
     {
       "__outstatic": {
@@ -732,6 +732,38 @@
     },
     {
       "__outstatic": {
+        "commit": "672407a26275f1adf4641eef7f970547d85e16bf",
+        "hash": "833009807",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-dashboard-guide.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:04:25.609Z",
+      "slug": "mobile-app-dashboard-guide",
+      "status": "published",
+      "title": "Mobile App - Dashboard Guide"
+    },
+    {
+      "__outstatic": {
         "commit": "93319bc8518410b4873dcb6fb3d1f1b14f9c2e5b",
         "hash": "1454346054",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
@@ -909,34 +941,6 @@
       "slug": "permission-system-in-arconnect",
       "status": "published",
       "title": "Browser Extension - Permission system in ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "5e4e13370908faf5a2d7047e6383dd0faf397b2e",
-        "hash": "805260101",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-create-or-import-additional-wallets.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to create or import additional wallets into your ArConnect Mobile App",
-      "publishedAt": "2024-10-04T13:42:30.540Z",
-      "slug": "mobile-app-settings-how-to-create-or-import-additional-wallets",
-      "status": "published",
-      "title": "Mobile App - Settings: How to create or import additional wallets "
     },
     {
       "__outstatic": {
@@ -1193,18 +1197,14 @@
     {
       "__outstatic": {
         "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
-        "hash": "3532582024",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-dashboard-guide.md"
+        "hash": "3582321681",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-create-or-import-additional-wallets.md"
       },
       "author": {
         "name": "Matt",
         "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
       },
       "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
         {
           "label": "Mobile app",
           "value": "mobile-app"
@@ -1216,11 +1216,11 @@
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-03T12:04:25.609Z",
-      "slug": "mobile-app-dashboard-guide",
+      "description": "How to create or import additional wallets into your ArConnect Mobile App",
+      "publishedAt": "2024-10-04T13:42:30.540Z",
+      "slug": "mobile-app-settings-how-to-create-or-import-additional-wallets",
       "status": "published",
-      "title": "Mobile App - Dashboard Guide"
+      "title": "Mobile App - Settings: How to create or import additional wallets "
     }
   ]
 }
