@@ -19,7 +19,7 @@ ArConnect users can enable or disable notifications by:
 
 - Click on the Settings menu in the upper left hand corner of the Dashboard
 
-- Select Notifications in the Quick Settings menu
+- Select Preferences then Notifications
 
 - Enable or disable notifications with the notifications toggle
 
