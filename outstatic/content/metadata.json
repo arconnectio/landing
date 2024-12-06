@@ -1,6 +1,6 @@
 {
-  "commit": "b78d6049e1cbc5b069b4a9a3dd8be6c77fecfb56",
-  "generated": "Fri, 06 Dec 2024 09:47:23 GMT",
+  "commit": "2b2b097fc8548737165331191dd9d5ed23019b1c",
+  "generated": "2024-12-06T09:59:40.434Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1221,6 +1221,34 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "2b2b097fc8548737165331191dd9d5ed23019b1c",
+        "hash": "2499358448",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-connect-your-arconnect-mobile-to-ao-arweave-apps.md"
+      },
+      "author": {
+        "name": "ArConnect Team",
+        "picture": "/images/icon-dark-512x512--1--M1MT.png"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "Users can use their ArConnect Mobile to connect to any AO or Arweave application that supports ArConnect.",
+      "publishedAt": "2024-12-06T09:59:49.497Z",
+      "slug": "mobile-app-connect-your-arconnect-mobile-to-ao-arweave-apps",
+      "status": "published",
+      "title": "Mobile App - Connect your ArConnect Mobile to AO & Arweave apps"
     }
   ]
 }
