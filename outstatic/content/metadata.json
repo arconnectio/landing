@@ -1,6 +1,6 @@
 {
-  "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
-  "generated": "2024-12-06T09:46:58.910Z",
+  "commit": "b78d6049e1cbc5b069b4a9a3dd8be6c77fecfb56",
+  "generated": "Fri, 06 Dec 2024 09:47:23 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -620,8 +620,8 @@
     },
     {
       "__outstatic": {
-        "commit": "30dcd2f38b1bf58d02c82a250e48932e472cdcc9",
-        "hash": "2832976060",
+        "commit": "8e90cfb80421ad74adee82a1ca105491de0c43d1",
+        "hash": "732261310",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-send-arweave-and-ao-assets.md"
       },
       "author": {
@@ -648,8 +648,8 @@
     },
     {
       "__outstatic": {
-        "commit": "1f931e4e379fc2f5b15c2920b01849e5215727c1",
-        "hash": "784911816",
+        "commit": "f5404c62955720231da25a9ec15ea3d8d445ea79",
+        "hash": "3670498511",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
       },
       "author": {
@@ -676,8 +676,8 @@
     },
     {
       "__outstatic": {
-        "commit": "76012d4dd8ba21424fdff1b7ca3689d534e733fd",
-        "hash": "2706855043",
+        "commit": "75a4dd2557a186ecc7dd7d73f2658a7858d3fb72",
+        "hash": "3222405677",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-manage-assets-dashboard-asset-list.md"
       },
       "author": {
@@ -732,8 +732,8 @@
     },
     {
       "__outstatic": {
-        "commit": "672407a26275f1adf4641eef7f970547d85e16bf",
-        "hash": "833009807",
+        "commit": "77b440c875ad22a408834c0da85a0ad2842b46c5",
+        "hash": "3532582024",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-dashboard-guide.md"
       },
       "author": {
@@ -761,6 +761,34 @@
       "slug": "mobile-app-dashboard-guide",
       "status": "published",
       "title": "Mobile App - Dashboard Guide"
+    },
+    {
+      "__outstatic": {
+        "commit": "24d8cfa542d4546bf5e0c3262e6031e7e466fb6f",
+        "hash": "3106646060",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-guide.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "A guide to all the ArConnect Mobile App Settings and Advanced Settings",
+      "publishedAt": "2024-10-03T17:01:40.026Z",
+      "slug": "mobile-app-settings-guide",
+      "status": "published",
+      "title": "Mobile App - Settings Guide"
     },
     {
       "__outstatic": {
@@ -825,6 +853,34 @@
       "slug": "mobile-app-onboarding-add-an-existing-wallet-by-qr-code",
       "status": "published",
       "title": "Mobile App - Onboarding: Add an existing wallet by QR Code"
+    },
+    {
+      "__outstatic": {
+        "commit": "73453a8e5be3b3c3990e9de740e36d1bf3b55091",
+        "hash": "3193699982",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to view your transaction history in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:34:16.954Z",
+      "slug": "mobile-app-how-to-view-your-transaction-history",
+      "status": "published",
+      "title": "Mobile App - How to view your Transaction History"
     },
     {
       "__outstatic": {
@@ -941,6 +997,62 @@
       "slug": "permission-system-in-arconnect",
       "status": "published",
       "title": "Browser Extension - Permission system in ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "1c40f7a4ea6c2c4fb0c6bb00db7bf6f422d19bd1",
+        "hash": "1443910016",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-turn-on-off-notifications.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to enable or disable notifications in the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T16:48:04.620Z",
+      "slug": "mobile-app-settings-how-to-turn-on-off-notifications",
+      "status": "published",
+      "title": "Mobile App - Settings: How to turn on/off Notifications"
+    },
+    {
+      "__outstatic": {
+        "commit": "7011b143af8cd37f79f45754a51d1fca731c5294",
+        "hash": "3582321681",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-create-or-import-additional-wallets.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to create or import additional wallets into your ArConnect Mobile App",
+      "publishedAt": "2024-10-04T13:42:30.540Z",
+      "slug": "mobile-app-settings-how-to-create-or-import-additional-wallets",
+      "status": "published",
+      "title": "Mobile App - Settings: How to create or import additional wallets "
     },
     {
       "__outstatic": {
@@ -1109,118 +1221,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "d45561732af63323012973f0c1092b11d257bbfc",
-        "hash": "3106646060",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-guide.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "A guide to all the ArConnect Mobile App Settings and Advanced Settings",
-      "publishedAt": "2024-10-03T17:01:40.026Z",
-      "slug": "mobile-app-settings-guide",
-      "status": "published",
-      "title": "Mobile App - Settings Guide"
-    },
-    {
-      "__outstatic": {
-        "commit": "65c320ac0235f0434faf1ed8aa8a9a8c19678356",
-        "hash": "1443910016",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-turn-on-off-notifications.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to enable or disable notifications in the ArConnect Mobile App",
-      "publishedAt": "2024-10-03T16:48:04.620Z",
-      "slug": "mobile-app-settings-how-to-turn-on-off-notifications",
-      "status": "published",
-      "title": "Mobile App - Settings: How to turn on/off Notifications"
-    },
-    {
-      "__outstatic": {
-        "commit": "87b0f1fe249e7ce2374b768b192d1d08d4316547",
-        "hash": "3193699982",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to view your transaction history in the ArConnect mobile app",
-      "publishedAt": "2024-10-03T13:34:16.954Z",
-      "slug": "mobile-app-how-to-view-your-transaction-history",
-      "status": "published",
-      "title": "Mobile App - How to view your Transaction History"
-    },
-    {
-      "__outstatic": {
-        "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
-        "hash": "3582321681",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-how-to-create-or-import-additional-wallets.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to create or import additional wallets into your ArConnect Mobile App",
-      "publishedAt": "2024-10-04T13:42:30.540Z",
-      "slug": "mobile-app-settings-how-to-create-or-import-additional-wallets",
-      "status": "published",
-      "title": "Mobile App - Settings: How to create or import additional wallets "
     }
   ]
 }
