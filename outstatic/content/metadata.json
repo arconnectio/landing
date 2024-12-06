@@ -1,6 +1,6 @@
 {
-  "commit": "2b2b097fc8548737165331191dd9d5ed23019b1c",
-  "generated": "2024-12-06T09:59:40.434Z",
+  "commit": "2fa94063e5295d87849c7f40fcc6bb365487be9f",
+  "generated": "2024-12-06T09:59:51.216Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1224,8 +1224,8 @@
     },
     {
       "__outstatic": {
-        "commit": "2b2b097fc8548737165331191dd9d5ed23019b1c",
-        "hash": "2499358448",
+        "commit": "2fa94063e5295d87849c7f40fcc6bb365487be9f",
+        "hash": "3262194058",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-connect-your-arconnect-mobile-to-ao-arweave-apps.md"
       },
       "author": {
@@ -1240,6 +1240,10 @@
         {
           "label": "Mobile app",
           "value": "mobile-app"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
         }
       ],
       "collection": "knowledge-base-articles",

@@ -7,7 +7,7 @@ author:
 slug: 'mobile-app-connect-your-arconnect-mobile-to-ao-arweave-apps'
 description: 'Users can use their ArConnect Mobile to connect to any AO or Arweave application that supports ArConnect.'
 coverImage: ''
-category: [{"value":"apps-and-connections","label":"Apps & connections"},{"label":"Mobile app","value":"mobile-app"}]
+category: [{"value":"apps-and-connections","label":"Apps & connections"},{"label":"Mobile app","value":"mobile-app"},{"value":"pinned","label":"Pinned"}]
 publishedAt: '2024-12-06T09:59:49.497Z'
 ---
 
@@ -28,6 +28,8 @@ Users can connect to any AO or Arweave application by:
     - Find the application in the Apps list; OR
 
     - Enter the URL of the app in the "Search or enter URL bar"
+
+    <!-- -->
 
     <!-- -->
 
