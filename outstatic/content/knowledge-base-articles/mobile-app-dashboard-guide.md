@@ -23,11 +23,15 @@ Here is a quick guide to all the features on the Dashboard:
 
 - *Buy AR button* \- For starting the process of purchasing AR Tokens with fiat currencies
 
-- *Asset list* \- A list of your top 5 Arweave and AO assets ranked by asset balance amount.
+- *Explore *\- For finding new Arweave and AO applications. Also, how you connect your mobile app to Arweave and AO Applications
 
-- *Transaction history* \- A list of your last fix transactions associated with the active wallet address
+- *Asset list* \- A list of the AR Token and/or AO Tokens you have in your walet
 
-- *Eyeball button* \- Hides and unhides your AR Token balance
+- *Activity* \- A list of your transactions associated with the active wallet address
+
+- *Collectibles *\- A list of your NFTs associated with your active wallet address
+
+- *Fiat balance* \- Clicking the fiat balance at the top of your Dashboard hides and unhides your balance
 
 - *Notifications button* \- To view all your Arweave and AO transactions and messages
 

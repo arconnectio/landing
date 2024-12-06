@@ -1,6 +1,6 @@
 {
   "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
-  "generated": "2024-12-06T09:42:48.330Z",
+  "generated": "2024-12-06T09:44:57.701Z",
   "metadata": [
     {
       "__outstatic": {
@@ -648,6 +648,34 @@
     },
     {
       "__outstatic": {
+        "commit": "1f931e4e379fc2f5b15c2920b01849e5215727c1",
+        "hash": "784911816",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T12:09:27.765Z",
+      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
+      "status": "published",
+      "title": "Mobile App - How to receive Arweave or AO Assets"
+    },
+    {
+      "__outstatic": {
         "commit": "76012d4dd8ba21424fdff1b7ca3689d534e733fd",
         "hash": "2706855043",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-manage-assets-dashboard-asset-list.md"
@@ -701,38 +729,6 @@
       "slug": "mobile-app-how-to-buy-ar-tokens-with-fiat",
       "status": "published",
       "title": "Mobile App - How to buy AR Tokens with fiat"
-    },
-    {
-      "__outstatic": {
-        "commit": "672407a26275f1adf4641eef7f970547d85e16bf",
-        "hash": "833009807",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-dashboard-guide.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-03T12:04:25.609Z",
-      "slug": "mobile-app-dashboard-guide",
-      "status": "published",
-      "title": "Mobile App - Dashboard Guide"
     },
     {
       "__outstatic": {
@@ -1197,8 +1193,8 @@
     {
       "__outstatic": {
         "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
-        "hash": "3670498511",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
+        "hash": "3532582024",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-dashboard-guide.md"
       },
       "author": {
         "name": "Matt",
@@ -1206,21 +1202,25 @@
       },
       "category": [
         {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
+          "label": "Getting started",
+          "value": "getting-started"
         },
         {
           "label": "Mobile app",
           "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-10-03T12:09:27.765Z",
-      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
+      "publishedAt": "2024-10-03T12:04:25.609Z",
+      "slug": "mobile-app-dashboard-guide",
       "status": "published",
-      "title": "Mobile App - How to receive Arweave or AO Assets"
+      "title": "Mobile App - Dashboard Guide"
     }
   ]
 }
