@@ -1,6 +1,6 @@
 {
-  "commit": "514fca17abd2c96a37c502f11b4f31adb841c610",
-  "generated": "2024-12-06T14:27:39.187Z",
+  "commit": "ea869e378df2b8c8f1b148aa65e1a9ffb6db33f6",
+  "generated": "2024-12-06T14:35:16.995Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1253,6 +1253,30 @@
       "slug": "how-to-add-a-contact-in-arconnect",
       "status": "published",
       "title": "Browser Extension - How to add a contact in ArConnect?"
+    },
+    {
+      "__outstatic": {
+        "commit": "ea869e378df2b8c8f1b148aa65e1a9ffb6db33f6",
+        "hash": "593671619",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-security-and-privacy-settings-overview.md"
+      },
+      "author": {
+        "name": "ArConnect Team",
+        "picture": "/images/icon-dark-512x512--1--YzOD.png"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "ArConnect Mobile lets users customize the security and privacy settings.  Any setting can be adjusted to fit the user's preference",
+      "publishedAt": "2024-12-06T14:34:03.156Z",
+      "slug": "mobile-app-security-and-privacy-settings-overview",
+      "status": "published",
+      "title": "Mobile App - Security and Privacy settings overview"
     }
   ]
 }
