@@ -1,5 +1,5 @@
 ---
-title: 'How to update the version of ArConnect'
+title: 'Browser Extension - How to update the version of ArConnect'
 status: 'published'
 author:
   name: 'ArConnect Team'
@@ -11,7 +11,7 @@ category: [{"label":"Browser Extension","value":"browser-extension"},{"value":"a
 publishedAt: '2024-12-06T09:24:11.494Z'
 ---
 
-Most ArConnect wallets will automatically update when a new update is released. However, there might be certain times where you may need to manually update your ArConnect to be on the latest version.
+Most ArConnect browser extension wallets will automatically update when a new update is released. However, there might be certain times where you may need to manually update your ArConnect to be on the latest version.
 
 You can manually update your ArConnnect browser extension by:
 

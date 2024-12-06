@@ -1,6 +1,6 @@
 {
-  "commit": "2fa94063e5295d87849c7f40fcc6bb365487be9f",
-  "generated": "2024-12-06T09:59:51.216Z",
+  "commit": "c7e44f052a62f7267ca3c462113027b5b0cc3d22",
+  "generated": "2024-12-06T10:01:06.811Z",
   "metadata": [
     {
       "__outstatic": {
@@ -529,34 +529,6 @@
       "slug": "how-to-use-arconnect-with-a-dapp",
       "status": "published",
       "title": "Browser Extension - How to use ArConnect with a dApp?"
-    },
-    {
-      "__outstatic": {
-        "commit": "0f10160600f6821fdb137eb0e2739bb2b086734c",
-        "hash": "666697306",
-        "path": "outstatic/content/knowledge-base-articles/how-to-update-the-version-of-arconnect.md"
-      },
-      "author": {
-        "name": "ArConnect Team",
-        "picture": "/images/icon-dark-512x512--1--E4OD.png"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to update the version of ArConnect to the latest version ",
-      "publishedAt": "2024-12-06T09:24:11.494Z",
-      "slug": "how-to-update-the-version-of-arconnect",
-      "status": "published",
-      "title": "How to update the version of ArConnect"
     },
     {
       "__outstatic": {
@@ -1253,6 +1225,34 @@
       "slug": "mobile-app-connect-your-arconnect-mobile-to-ao-arweave-apps",
       "status": "published",
       "title": "Mobile App - Connect your ArConnect Mobile to AO & Arweave apps"
+    },
+    {
+      "__outstatic": {
+        "commit": "c7e44f052a62f7267ca3c462113027b5b0cc3d22",
+        "hash": "1031186604",
+        "path": "outstatic/content/knowledge-base-articles/how-to-update-the-version-of-arconnect.md"
+      },
+      "author": {
+        "name": "ArConnect Team",
+        "picture": "/images/icon-dark-512x512--1--E4OD.png"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to update the version of ArConnect to the latest version ",
+      "publishedAt": "2024-12-06T09:24:11.494Z",
+      "slug": "how-to-update-the-version-of-arconnect",
+      "status": "published",
+      "title": "Browser Extension - How to update the version of ArConnect"
     }
   ]
 }
