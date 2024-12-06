@@ -1,6 +1,6 @@
 {
-  "commit": "c7e44f052a62f7267ca3c462113027b5b0cc3d22",
-  "generated": "2024-12-06T10:01:06.811Z",
+  "commit": "5b99e15083ab84a6b00d18ece18f36692f5f61e1",
+  "generated": "2024-12-06T10:02:34.189Z",
   "metadata": [
     {
       "__outstatic": {
@@ -401,42 +401,6 @@
       "slug": "how-to-create-multiple-wallets",
       "status": "published",
       "title": "Browser Extension - How to create multiple wallets?"
-    },
-    {
-      "__outstatic": {
-        "commit": "3719ed2d1344e468e0aca37439d68fa3d520d795",
-        "hash": "1408841579",
-        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        },
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-20T13:06:34.473Z",
-      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
-      "status": "published",
-      "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
     },
     {
       "__outstatic": {
@@ -1253,6 +1217,42 @@
       "slug": "how-to-update-the-version-of-arconnect",
       "status": "published",
       "title": "Browser Extension - How to update the version of ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "5b99e15083ab84a6b00d18ece18f36692f5f61e1",
+        "hash": "466895552",
+        "path": "outstatic/content/knowledge-base-articles/how-to-buy-ar-tokens-in-your-arconnect-wallet.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        },
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to purchase AR Tokens with multiple fiat currencies in the ArConnect browser extension",
+      "publishedAt": "2024-05-20T13:06:34.473Z",
+      "slug": "how-to-buy-ar-tokens-in-your-arconnect-wallet",
+      "status": "published",
+      "title": "Browser Extension - How to buy AR Tokens in your ArConnect wallet?"
     }
   ]
 }

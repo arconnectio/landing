@@ -5,7 +5,7 @@ author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/139958714?v=4'
 slug: 'how-to-buy-ar-tokens-in-your-arconnect-wallet'
-description: ''
+description: 'How to purchase AR Tokens with multiple fiat currencies in the ArConnect browser extension'
 coverImage: ''
 category: [{"value":"getting-started","label":"Getting started"},{"value":"pinned","label":"Pinned"},{"label":"Browser Extension","value":"browser-extension"},{"value":"wallet-management","label":"Wallet management"}]
 publishedAt: '2024-05-20T13:06:34.473Z'
@@ -33,6 +33,8 @@ publishedAt: '2024-05-20T13:06:34.473Z'
 
     <!-- -->
 
+    <!-- -->
+
 - ArConnect display the amount of AR tokens you will receive in exchange of your fiat amount.
 
 - Click the “Payment method” drop down to choose your payment method of choice from the list of available payment methods.
@@ -48,6 +50,8 @@ publishedAt: '2024-05-20T13:06:34.473Z'
 - Once your purchase has been processed, the AR tokens will be reflected in your wallet.
 
     - This may take up to 30-60 mins.
+
+    <!-- -->
 
     <!-- -->
 
