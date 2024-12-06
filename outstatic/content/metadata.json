@@ -1,6 +1,6 @@
 {
-  "commit": "87b0f1fe249e7ce2374b768b192d1d08d4316547",
-  "generated": "2024-12-06T09:38:11.204Z",
+  "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
+  "generated": "2024-12-06T09:41:17.828Z",
   "metadata": [
     {
       "__outstatic": {
@@ -676,34 +676,6 @@
     },
     {
       "__outstatic": {
-        "commit": "76012d4dd8ba21424fdff1b7ca3689d534e733fd",
-        "hash": "2706855043",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-manage-assets-dashboard-asset-list.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to manage and view your assets in the ArConnect mobile app",
-      "publishedAt": "2024-10-03T13:31:47.001Z",
-      "slug": "mobile-app-how-to-manage-assets-dashboard-asset-list",
-      "status": "published",
-      "title": "Mobile App - How to Manage Assets: Dashboard Asset List"
-    },
-    {
-      "__outstatic": {
         "commit": "e83430b66a26548fb6b2b3bda58de0a5b73bf421",
         "hash": "1711763380",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-buy-ar-tokens-with-fiat.md"
@@ -1221,6 +1193,34 @@
       "slug": "mobile-app-how-to-view-your-transaction-history",
       "status": "published",
       "title": "Mobile App - How to view your Transaction History"
+    },
+    {
+      "__outstatic": {
+        "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
+        "hash": "3222405677",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-manage-assets-dashboard-asset-list.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to manage and view your assets in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:31:47.001Z",
+      "slug": "mobile-app-how-to-manage-assets-dashboard-asset-list",
+      "status": "published",
+      "title": "Mobile App - How to Manage Assets: Dashboard Asset List"
     }
   ]
 }

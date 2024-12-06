@@ -13,15 +13,11 @@ publishedAt: '2024-10-03T13:31:47.001Z'
 
 ArConnect gives users the ability to have a complete overview of their AR and AO assets. Any new AO asset that an ArConnect user receives will automatically be added to the Asset list once confirmed on chain.
 
-On the main Dashboard screen, ArConnect users can view the following:
+On the main Dashboard screen, ArConnect users can view the balance for all their AR Token and AO Tokens.
 
-- View AR Token balance - AR Token amounts are listed at the top of the dashboard along with a balance chart
+Users can access their full token list by clicking the Manage asset list button at the bottom of their token list
 
-- View AO Tokens - A list of your top 5 AO assets ranked by asset balance amount.
-
-Users can access their full token list by clicking the View All button above the AO Token list.
-
-In the full AO assets list, ArConnect users can view the following:
+In the full AR & AO assets list, ArConnect users can view the following:
 
 - All AO assets that have at least one transaction
 
@@ -29,15 +25,9 @@ In the full AO assets list, ArConnect users can view the following:
 
 - Assets the user has hidden from the main AO assets list
 
-In the full AO assets list, ArConnect users can manage the following:
+In the full AR & AO assets list, ArConnect users can manage the following:
 
-- Send any asset by clicking on the asset
-
-- Hide assets by swiping swiping left on the asset and clicking the eyeball
-
-- View asset settings by swiping lift on the asset and clicking the setting gear
+- Remove an asset from the Dashboard by enabling or disabling the toggle for the specific asset
 
 - Import an AO asset by clicking the Import Asset button
-
-- Unhide an asset by going to the Hidden Assets list, swiping left on the asset and clicking the eyeball
 
