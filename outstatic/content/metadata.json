@@ -1,6 +1,6 @@
 {
-  "commit": "ffa440a2f2c6f51f727c89efba201d23d3765f9e",
-  "generated": "Tue, 29 Oct 2024 19:49:46 GMT",
+  "commit": "48ec37068efd50b34f1da9e878cbab6e0e363c21",
+  "generated": "2024-12-06T09:22:59.948Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1193,6 +1193,34 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "48ec37068efd50b34f1da9e878cbab6e0e363c21",
+        "hash": "666697306",
+        "path": "outstatic/content/knowledge-base-articles/how-to-update-the-version-of-arconnect.md"
+      },
+      "author": {
+        "name": "ArConnect Team",
+        "picture": "/images/icon-dark-512x512--1--E4OD.png"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to update the version of ArConnect to the latest version ",
+      "publishedAt": "2024-12-06T09:24:11.494Z",
+      "slug": "how-to-update-the-version-of-arconnect",
+      "status": "published",
+      "title": "How to update the version of ArConnect"
     }
   ]
 }
