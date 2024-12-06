@@ -1,6 +1,6 @@
 {
   "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
-  "generated": "2024-12-06T09:41:17.828Z",
+  "generated": "2024-12-06T09:42:28.488Z",
   "metadata": [
     {
       "__outstatic": {
@@ -620,34 +620,6 @@
     },
     {
       "__outstatic": {
-        "commit": "30dcd2f38b1bf58d02c82a250e48932e472cdcc9",
-        "hash": "2832976060",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-send-arweave-and-ao-assets.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-03T12:53:58.842Z",
-      "slug": "mobile-app-how-to-send-arweave-and-ao-assets",
-      "status": "published",
-      "title": "Mobile App - How to Send Arweave and AO assets"
-    },
-    {
-      "__outstatic": {
         "commit": "1f931e4e379fc2f5b15c2920b01849e5215727c1",
         "hash": "784911816",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
@@ -673,6 +645,34 @@
       "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
       "status": "published",
       "title": "Mobile App - How to receive Arweave or AO Assets"
+    },
+    {
+      "__outstatic": {
+        "commit": "76012d4dd8ba21424fdff1b7ca3689d534e733fd",
+        "hash": "2706855043",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-manage-assets-dashboard-asset-list.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to manage and view your assets in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:31:47.001Z",
+      "slug": "mobile-app-how-to-manage-assets-dashboard-asset-list",
+      "status": "published",
+      "title": "Mobile App - How to Manage Assets: Dashboard Asset List"
     },
     {
       "__outstatic": {
@@ -1197,8 +1197,8 @@
     {
       "__outstatic": {
         "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
-        "hash": "3222405677",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-manage-assets-dashboard-asset-list.md"
+        "hash": "732261310",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-send-arweave-and-ao-assets.md"
       },
       "author": {
         "name": "Matt",
@@ -1206,21 +1206,21 @@
       },
       "category": [
         {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
           "label": "Apps & connections",
           "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
         }
       ],
       "collection": "knowledge-base-articles",
       "coverImage": "",
-      "description": "How to manage and view your assets in the ArConnect mobile app",
-      "publishedAt": "2024-10-03T13:31:47.001Z",
-      "slug": "mobile-app-how-to-manage-assets-dashboard-asset-list",
+      "description": "",
+      "publishedAt": "2024-10-03T12:53:58.842Z",
+      "slug": "mobile-app-how-to-send-arweave-and-ao-assets",
       "status": "published",
-      "title": "Mobile App - How to Manage Assets: Dashboard Asset List"
+      "title": "Mobile App - How to Send Arweave and AO assets"
     }
   ]
 }

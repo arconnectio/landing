@@ -27,7 +27,7 @@ Once you have those three pieces of information, you can follow the steps below 
 
 1. Open the ArConnect mobile app
 
-2. On your dashboard, click the Send button in the main navigation on the bottom of the screen
+2. On your dashboard, click the Send button
 
 3. Enter in the Arweave address of the recipient, then click Next
 
