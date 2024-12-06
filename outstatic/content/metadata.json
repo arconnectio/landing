@@ -1,6 +1,6 @@
 {
-  "commit": "8b80464967ae7c6f57690a95cea6cadc8a611941",
-  "generated": "2024-12-06T14:24:13.843Z",
+  "commit": "514fca17abd2c96a37c502f11b4f31adb841c610",
+  "generated": "2024-12-06T14:27:39.187Z",
   "metadata": [
     {
       "__outstatic": {
@@ -201,34 +201,6 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "ArConnect Integrates ar.io’s Wayfinder for Enhanced Gateway Support",
       "transparentThumbnail": "https://u2hyhgglc4egidq3zkthnzdruyatqwql5lk5foen3zv5zf5fo2wa.arweave.net/po-DmMsXCGQOG8qmduRxpgE4Wgvq1dK4jd5r3Jeldqw"
-    },
-    {
-      "__outstatic": {
-        "commit": "cc804965815e0495efb9c5e96e128493bfd26695",
-        "hash": "4188192428",
-        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-11T04:29:03.489Z",
-      "slug": "how-to-add-a-contact-in-arconnect",
-      "status": "published",
-      "title": "Browser Extension - How to add a contact in ArConnect?"
     },
     {
       "__outstatic": {
@@ -1253,6 +1225,34 @@
       "slug": "mobile-app-how-to-buy-ar-tokens-with-fiat",
       "status": "published",
       "title": "Mobile App - How to buy AR Tokens with fiat"
+    },
+    {
+      "__outstatic": {
+        "commit": "514fca17abd2c96a37c502f11b4f31adb841c610",
+        "hash": "868773733",
+        "path": "outstatic/content/knowledge-base-articles/how-to-add-a-contact-in-arconnect.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-11T04:29:03.489Z",
+      "slug": "how-to-add-a-contact-in-arconnect",
+      "status": "published",
+      "title": "Browser Extension - How to add a contact in ArConnect?"
     }
   ]
 }
