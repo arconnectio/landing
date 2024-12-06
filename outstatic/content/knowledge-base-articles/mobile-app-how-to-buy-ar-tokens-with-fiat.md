@@ -17,7 +17,7 @@ ArConnect is integrated with Transak, a fiat to crypto onramp provider. Transak 
 
 1. Open the ArConnect mobile app
 
-2. On your dashboard, click the Buy AR button
+2. On your dashboard, click the Buy button
 
 3. Select the fiat currency you want to paid with along with the amount of AR Tokens you want to purchase
 
