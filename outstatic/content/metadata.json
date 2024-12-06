@@ -1,6 +1,6 @@
 {
   "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
-  "generated": "2024-12-06T09:42:28.488Z",
+  "generated": "2024-12-06T09:42:48.330Z",
   "metadata": [
     {
       "__outstatic": {
@@ -620,9 +620,9 @@
     },
     {
       "__outstatic": {
-        "commit": "1f931e4e379fc2f5b15c2920b01849e5215727c1",
-        "hash": "784911816",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
+        "commit": "30dcd2f38b1bf58d02c82a250e48932e472cdcc9",
+        "hash": "2832976060",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-send-arweave-and-ao-assets.md"
       },
       "author": {
         "name": "Matt",
@@ -641,10 +641,10 @@
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-10-03T12:09:27.765Z",
-      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
+      "publishedAt": "2024-10-03T12:53:58.842Z",
+      "slug": "mobile-app-how-to-send-arweave-and-ao-assets",
       "status": "published",
-      "title": "Mobile App - How to receive Arweave or AO Assets"
+      "title": "Mobile App - How to Send Arweave and AO assets"
     },
     {
       "__outstatic": {
@@ -1197,8 +1197,8 @@
     {
       "__outstatic": {
         "commit": "a2cd7b2dd6898c831c8797e70c57d6da9f5d4d30",
-        "hash": "732261310",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-send-arweave-and-ao-assets.md"
+        "hash": "3670498511",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-receive-arweave-or-ao-assets.md"
       },
       "author": {
         "name": "Matt",
@@ -1217,10 +1217,10 @@
       "collection": "knowledge-base-articles",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-10-03T12:53:58.842Z",
-      "slug": "mobile-app-how-to-send-arweave-and-ao-assets",
+      "publishedAt": "2024-10-03T12:09:27.765Z",
+      "slug": "mobile-app-how-to-receive-arweave-or-ao-assets",
       "status": "published",
-      "title": "Mobile App - How to Send Arweave and AO assets"
+      "title": "Mobile App - How to receive Arweave or AO Assets"
     }
   ]
 }

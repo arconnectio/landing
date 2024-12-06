@@ -33,7 +33,7 @@ IMPORTANT - your address is going to be a long string of letters, numbers, and/o
 
 1. Open the ArConnect mobile app
 
-2. On your dashboard, click the Receive button in the main navigation on the bottom of the screen
+2. On your dashboard, click the Receive button
 
 3. Click the copy button next to your address and send that to the person or application what wants to transfer you Arweave or AO assets; OR
 
