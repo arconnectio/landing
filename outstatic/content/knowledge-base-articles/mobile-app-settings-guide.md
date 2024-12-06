@@ -15,39 +15,43 @@ The ArConnect Mobile App has numerous settings that users can use to customize t
 
 Here is a quick guide to all the Settings:
 
-- Wallets - A simple overview of all your wallets as well as access to Wallet Settings
+- Manage Accounts - A simple overview of all your Accounts as well as access to Accounts Settings
 
 - Tokens - A quick action to get to the token management screen
 
-- Viewblock - An easy way to view your Arweave assets directly onchain for your active address
+- Connected Apps - A list of all the dApps you have connected to with your ArConnect Mobile App
 
-- AO Link - An easy way to view your AO assets directly onchain for your active address
+- Preferences - A subsetting of different customizations you can make to your ArConnect Mobile App. You can customize:
 
-- Theme - Change the UI between light mode, dark mode, or sync with your device settings
+    - Theme - Change the UI between light mode, dark mode, or sync with your device setting
 
-- Notifications - Enable or disable ArConnect Mobile App notifications
+    - Notifications - Enable or disable ArConnect Mobile App notifications
 
-- Currency - Switch the default fiat currency
+    - Currency - Switch the default fiat currency
 
-- Language - Change the text in the app between English and simplified Chinese
+    - Language - Change the text in the app between English and simplified Chinese
+
+    - ArConfetti effect - Select the confetti animation for certain wallet actions
+
+    - Gateways - Catch the Areave / AO gateway your ArConnect Mobile App is using
+
+    <!-- -->
+
+- Security & Privacy - A subsetting of different security and privacy customizations you can make to your ArConnect Mobile App. You can customize:
+
+    - Transfer settings - Set the amount that requires you to enter your password to send assets
+
+    - Biometrics settings - Enable or disable biometrics
+
+    - Fee multiplier - Increase or decrease the network fee limit for transactions
+
+    - Analytics - Turn off or on autonomous analytic trackings
+
+    <!-- -->
 
 - About - View the version number and device permissions
 
-- Advanced Settings - Access all the advanced settings
-
 - Sign out - Log out of the mobile app
-
-Advanced Settings quick guide:
-
-- Transfer settings - Set the amount that requires you to enter your password to send assets
-
-- Biometrics settings - Enable or disable biometrics
-
-- Fee multiplier - Increase or decrease the network fee limit for transactions
-
-- ArConfetti effect - Select the confetti animation for certain wallet actions
-
-- Analytics - Enable or disable anonymized analytic tracking
 
 - Reset - Wipes all data and removes all wallets from the mobile app
 

@@ -1,6 +1,6 @@
 {
-  "commit": "6e6220c58dc4cf9a0b7a13c74032b50335d62cd4",
-  "generated": "Fri, 06 Dec 2024 09:23:14 GMT",
+  "commit": "d45561732af63323012973f0c1092b11d257bbfc",
+  "generated": "2024-12-06T09:36:34.781Z",
   "metadata": [
     {
       "__outstatic": {
@@ -764,34 +764,6 @@
     },
     {
       "__outstatic": {
-        "commit": "667d91000323a336d08857d5fde7ce1141e63306",
-        "hash": "3003551608",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-guide.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "A guide to all the ArConnect Mobile App Settings and Advanced Settings",
-      "publishedAt": "2024-10-03T17:01:40.026Z",
-      "slug": "mobile-app-settings-guide",
-      "status": "published",
-      "title": "Mobile App - Settings Guide"
-    },
-    {
-      "__outstatic": {
         "commit": "93319bc8518410b4873dcb6fb3d1f1b14f9c2e5b",
         "hash": "1454346054",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
@@ -1221,6 +1193,34 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "d45561732af63323012973f0c1092b11d257bbfc",
+        "hash": "3106646060",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-settings-guide.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "A guide to all the ArConnect Mobile App Settings and Advanced Settings",
+      "publishedAt": "2024-10-03T17:01:40.026Z",
+      "slug": "mobile-app-settings-guide",
+      "status": "published",
+      "title": "Mobile App - Settings Guide"
     }
   ]
 }
