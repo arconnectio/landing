@@ -1,6 +1,6 @@
 {
-  "commit": "ea869e378df2b8c8f1b148aa65e1a9ffb6db33f6",
-  "generated": "2024-12-06T14:35:16.995Z",
+  "commit": "6f27c65216b6dc148c4f7f629e3d8806d86da25b",
+  "generated": "2024-12-06T14:39:38.899Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1277,6 +1277,30 @@
       "slug": "mobile-app-security-and-privacy-settings-overview",
       "status": "published",
       "title": "Mobile App - Security and Privacy settings overview"
+    },
+    {
+      "__outstatic": {
+        "commit": "6f27c65216b6dc148c4f7f629e3d8806d86da25b",
+        "hash": "411668141",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-preferences-setting-overview.md"
+      },
+      "author": {
+        "name": "ArConnect Team",
+        "picture": "/images/icon-dark-512x512--1--QzNj.png"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "ArConnect Mobile lets users customize specific application preferences. ",
+      "publishedAt": "2024-12-06T14:41:51.525Z",
+      "slug": "mobile-app-preferences-setting-overview",
+      "status": "published",
+      "title": "Mobile App - Preferences setting overview"
     }
   ]
 }
