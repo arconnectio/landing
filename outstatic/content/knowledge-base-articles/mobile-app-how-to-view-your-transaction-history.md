@@ -15,9 +15,7 @@ ArConnect users are able to view their incoming and outgoing transactions direct
 
 - Opening the ArConnect Mobile App
 
-- Scroll down to the Transaction History section
-
-- The Dashboard will show the 5 most recent transactions
+- Click on the Activity tab on your Dashboard
 
 - To view all transactions, click the View All button
 
@@ -26,6 +24,4 @@ Users can view more details of individual transactions by:
 - Clicking on any transaction in the Transaction History
 
 - On the Transaction details screen, users can view the transaction on chain by clicking the Viewblock button for AR token transactions and ao.link button for AO asset transactions.
-
-
 

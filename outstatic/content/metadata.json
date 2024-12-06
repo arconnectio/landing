@@ -1,6 +1,6 @@
 {
-  "commit": "65c320ac0235f0434faf1ed8aa8a9a8c19678356",
-  "generated": "2024-12-06T09:37:26.190Z",
+  "commit": "87b0f1fe249e7ce2374b768b192d1d08d4316547",
+  "generated": "2024-12-06T09:38:11.204Z",
   "metadata": [
     {
       "__outstatic": {
@@ -828,34 +828,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8fbf394b16f698dffe20dfb2a0b0d7cabed38574",
-        "hash": "2123300883",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        },
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to view your transaction history in the ArConnect mobile app",
-      "publishedAt": "2024-10-03T13:34:16.954Z",
-      "slug": "mobile-app-how-to-view-your-transaction-history",
-      "status": "published",
-      "title": "Mobile App - How to view your Transaction History"
-    },
-    {
-      "__outstatic": {
         "commit": "f9238d38551f02e9858c1fff59e9482946663244",
         "hash": "3013524243",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-notifications.md"
@@ -1221,6 +1193,34 @@
       "slug": "mobile-app-settings-how-to-turn-on-off-notifications",
       "status": "published",
       "title": "Mobile App - Settings: How to turn on/off Notifications"
+    },
+    {
+      "__outstatic": {
+        "commit": "87b0f1fe249e7ce2374b768b192d1d08d4316547",
+        "hash": "3193699982",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-how-to-view-your-transaction-history.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        },
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to view your transaction history in the ArConnect mobile app",
+      "publishedAt": "2024-10-03T13:34:16.954Z",
+      "slug": "mobile-app-how-to-view-your-transaction-history",
+      "status": "published",
+      "title": "Mobile App - How to view your Transaction History"
     }
   ]
 }
