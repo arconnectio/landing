@@ -1,6 +1,6 @@
 {
-  "commit": "2f7ec609a59496a457c7503e94f9e0fae991453f",
-  "generated": "Fri, 06 Dec 2024 14:40:06 GMT",
+  "commit": "053b95a17fea97b7da7a41b74ade0526b6a5c3d2",
+  "generated": "2024-12-17T10:25:43.229Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1301,6 +1301,26 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
+    },
+    {
+      "__outstatic": {
+        "commit": "053b95a17fea97b7da7a41b74ade0526b6a5c3d2",
+        "hash": "2493830521",
+        "path": "outstatic/content/blogs/all-the-arconnect-mobile-updates-you-might-have-missed.md"
+      },
+      "author": {
+        "name": "ArConnect Team",
+        "picture": "/images/icon-dark-512x512--1--Q0MT.png"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect-mobile---missed-updates-MzND.jpg",
+      "description": "Learn about all the updates that were shipped with the Connect to Apps feature",
+      "publishedAt": "2024-12-17T10:24:52.018Z",
+      "slug": "all-the-arconnect-mobile-updates-you-might-have-missed",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "All the ArConnect Mobile Updates You Might Have Missed",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
