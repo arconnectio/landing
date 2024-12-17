@@ -1,6 +1,6 @@
 {
-  "commit": "053b95a17fea97b7da7a41b74ade0526b6a5c3d2",
-  "generated": "2024-12-17T10:25:43.229Z",
+  "commit": "c179feeac77a8e2a053cec98d6e917522d3961e4",
+  "generated": "Tue, 17 Dec 2024 10:26:02 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -40,6 +40,26 @@
       "status": "published",
       "themeColor": "rgb(171, 154, 255)",
       "title": "ArConnect Just Leveled Up to 1.0",
+      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "d3fdeb6f24cd502cd1dae8093323eb3844f92623",
+        "hash": "2493830521",
+        "path": "outstatic/content/blogs/all-the-arconnect-mobile-updates-you-might-have-missed.md"
+      },
+      "author": {
+        "name": "ArConnect Team",
+        "picture": "/images/icon-dark-512x512--1--Q0MT.png"
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect-mobile---missed-updates-MzND.jpg",
+      "description": "Learn about all the updates that were shipped with the Connect to Apps feature",
+      "publishedAt": "2024-12-17T10:24:52.018Z",
+      "slug": "all-the-arconnect-mobile-updates-you-might-have-missed",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "All the ArConnect Mobile Updates You Might Have Missed",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
@@ -616,6 +636,42 @@
     },
     {
       "__outstatic": {
+        "commit": "6b58289e6f3113fe1d6f4b7d31dca63db0b45b5e",
+        "hash": "2394377207",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
+      },
+      "author": {
+        "name": "Matt",
+        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        },
+        {
+          "label": "Getting started",
+          "value": "getting-started"
+        },
+        {
+          "label": "Pinned",
+          "value": "pinned"
+        },
+        {
+          "label": "Apps & connections",
+          "value": "apps-and-connections"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "How to create a new wallet using the ArConnect Mobile App",
+      "publishedAt": "2024-10-03T09:58:30.693Z",
+      "slug": "mobile-app-creating-a-new-wallet",
+      "status": "published",
+      "title": "Mobile App - Onboarding: Creating a new wallet"
+    },
+    {
+      "__outstatic": {
         "commit": "28656864fa35f505acebb97bdf1aa1435294dedb",
         "hash": "3262194058",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-connect-your-arconnect-mobile-to-ao-arweave-apps.md"
@@ -673,42 +729,6 @@
       "slug": "how-to-use-arconnect-with-a-dapp",
       "status": "published",
       "title": "Browser Extension - How to use ArConnect with a dApp?"
-    },
-    {
-      "__outstatic": {
-        "commit": "6b58289e6f3113fe1d6f4b7d31dca63db0b45b5e",
-        "hash": "2394377207",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-creating-a-new-wallet.md"
-      },
-      "author": {
-        "name": "Matt",
-        "picture": "https://avatars.githubusercontent.com/u/139958714?v=4"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        },
-        {
-          "label": "Getting started",
-          "value": "getting-started"
-        },
-        {
-          "label": "Pinned",
-          "value": "pinned"
-        },
-        {
-          "label": "Apps & connections",
-          "value": "apps-and-connections"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "How to create a new wallet using the ArConnect Mobile App",
-      "publishedAt": "2024-10-03T09:58:30.693Z",
-      "slug": "mobile-app-creating-a-new-wallet",
-      "status": "published",
-      "title": "Mobile App - Onboarding: Creating a new wallet"
     },
     {
       "__outstatic": {
@@ -904,30 +924,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4e4bc8345972ce27e2ca0010bda4551768eaa5dd",
-        "hash": "411668141",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-preferences-setting-overview.md"
-      },
-      "author": {
-        "name": "ArConnect Team",
-        "picture": "/images/icon-dark-512x512--1--QzNj.png"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "ArConnect Mobile lets users customize specific application preferences. ",
-      "publishedAt": "2024-12-06T14:41:51.525Z",
-      "slug": "mobile-app-preferences-setting-overview",
-      "status": "published",
-      "title": "Mobile App - Preferences setting overview"
-    },
-    {
-      "__outstatic": {
         "commit": "93319bc8518410b4873dcb6fb3d1f1b14f9c2e5b",
         "hash": "1454346054",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
@@ -957,6 +953,30 @@
       "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
       "status": "published",
       "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
+    },
+    {
+      "__outstatic": {
+        "commit": "4e4bc8345972ce27e2ca0010bda4551768eaa5dd",
+        "hash": "411668141",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-preferences-setting-overview.md"
+      },
+      "author": {
+        "name": "ArConnect Team",
+        "picture": "/images/icon-dark-512x512--1--QzNj.png"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "ArConnect Mobile lets users customize specific application preferences. ",
+      "publishedAt": "2024-12-06T14:41:51.525Z",
+      "slug": "mobile-app-preferences-setting-overview",
+      "status": "published",
+      "title": "Mobile App - Preferences setting overview"
     },
     {
       "__outstatic": {
@@ -1301,26 +1321,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "053b95a17fea97b7da7a41b74ade0526b6a5c3d2",
-        "hash": "2493830521",
-        "path": "outstatic/content/blogs/all-the-arconnect-mobile-updates-you-might-have-missed.md"
-      },
-      "author": {
-        "name": "ArConnect Team",
-        "picture": "/images/icon-dark-512x512--1--Q0MT.png"
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect-mobile---missed-updates-MzND.jpg",
-      "description": "Learn about all the updates that were shipped with the Connect to Apps feature",
-      "publishedAt": "2024-12-17T10:24:52.018Z",
-      "slug": "all-the-arconnect-mobile-updates-you-might-have-missed",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "All the ArConnect Mobile Updates You Might Have Missed",
-      "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     }
   ]
 }
