@@ -1,7 +1,27 @@
 {
-  "commit": "cfc3ea5eaa49488c1f57d3a59d393434298ee6b8",
-  "generated": "2025-01-21T17:53:49.591Z",
+  "commit": "d3f098f69cc18dd0ed926128ae2c278df4cdb235",
+  "generated": "Tue, 21 Jan 2025 17:54:03 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "af595b4af598be76e2b384a1c273ef7f71525a00",
+        "hash": "3074274426",
+        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
+      },
+      "author": {
+        "name": "Matthew DiRienzo",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "",
+      "description": "How to Buy Arweave Tokens",
+      "publishedAt": "2024-05-19T18:34:52.000Z",
+      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
+      "status": "published",
+      "themeColor": "rgba(171, 154, 255, 0.2)",
+      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
+      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
+    },
     {
       "__outstatic": {
         "commit": "090fc51b683d678f235ed35ccd831f24ea85f044",
@@ -904,6 +924,30 @@
     },
     {
       "__outstatic": {
+        "commit": "4e4bc8345972ce27e2ca0010bda4551768eaa5dd",
+        "hash": "411668141",
+        "path": "outstatic/content/knowledge-base-articles/mobile-app-preferences-setting-overview.md"
+      },
+      "author": {
+        "name": "ArConnect Team",
+        "picture": "/images/icon-dark-512x512--1--QzNj.png"
+      },
+      "category": [
+        {
+          "label": "Mobile app",
+          "value": "mobile-app"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "ArConnect Mobile lets users customize specific application preferences. ",
+      "publishedAt": "2024-12-06T14:41:51.525Z",
+      "slug": "mobile-app-preferences-setting-overview",
+      "status": "published",
+      "title": "Mobile App - Preferences setting overview"
+    },
+    {
+      "__outstatic": {
         "commit": "93319bc8518410b4873dcb6fb3d1f1b14f9c2e5b",
         "hash": "1454346054",
         "path": "outstatic/content/knowledge-base-articles/mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile.md"
@@ -933,30 +977,6 @@
       "slug": "mobile-app-onboarding-add-an-existing-wallet-by-seedphrase-or-keyfile",
       "status": "published",
       "title": "Mobile App - Onboarding: Add an existing wallet by Seedphrase or Keyfile"
-    },
-    {
-      "__outstatic": {
-        "commit": "4e4bc8345972ce27e2ca0010bda4551768eaa5dd",
-        "hash": "411668141",
-        "path": "outstatic/content/knowledge-base-articles/mobile-app-preferences-setting-overview.md"
-      },
-      "author": {
-        "name": "ArConnect Team",
-        "picture": "/images/icon-dark-512x512--1--QzNj.png"
-      },
-      "category": [
-        {
-          "label": "Mobile app",
-          "value": "mobile-app"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "ArConnect Mobile lets users customize specific application preferences. ",
-      "publishedAt": "2024-12-06T14:41:51.525Z",
-      "slug": "mobile-app-preferences-setting-overview",
-      "status": "published",
-      "title": "Mobile App - Preferences setting overview"
     },
     {
       "__outstatic": {
@@ -1021,34 +1041,6 @@
       "slug": "security-best-practices",
       "status": "published",
       "title": "Security Best Practices"
-    },
-    {
-      "__outstatic": {
-        "commit": "8c25b47d7442bad2ec69810cfe0cd80034988ab6",
-        "hash": "3522294270",
-        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-08T04:37:23.280Z",
-      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
-      "status": "published",
-      "title": "Browser Extension - Protecting your funds: allowance limits and how they work"
     },
     {
       "__outstatic": {
@@ -1133,6 +1125,34 @@
       "slug": "mobile-app-settings-how-to-create-or-import-additional-wallets",
       "status": "published",
       "title": "Mobile App - Settings: How to create or import additional wallets "
+    },
+    {
+      "__outstatic": {
+        "commit": "8c25b47d7442bad2ec69810cfe0cd80034988ab6",
+        "hash": "3522294270",
+        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-08T04:37:23.280Z",
+      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
+      "status": "published",
+      "title": "Browser Extension - Protecting your funds: allowance limits and how they work"
     },
     {
       "__outstatic": {
@@ -1301,26 +1321,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "cfc3ea5eaa49488c1f57d3a59d393434298ee6b8",
-        "hash": "3074274426",
-        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
-      },
-      "author": {
-        "name": "Matthew DiRienzo",
-        "picture": ""
-      },
-      "collection": "blogs",
-      "coverImage": "",
-      "description": "How to Buy Arweave Tokens",
-      "publishedAt": "2024-05-19T18:34:52.000Z",
-      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
-      "status": "published",
-      "themeColor": "rgba(171, 154, 255, 0.2)",
-      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
-      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
     }
   ]
 }
