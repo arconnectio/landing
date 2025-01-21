@@ -40,6 +40,14 @@ This process is the simplest but may require you to KYC depending on the region 
 
 Please note, ArConnect does not store any personal information or payment method details. Any personal information or payment method details provided is done directly via Transak's user interface. Transak's privacy policy can be found [here](https://transak.com/privacy-policy).
 
+## everPay & Permaswap
+
+One alternative service that blends the on-ramp service with the exchange to make an all-in-one solution is [everPay](https://everpay.io/). With everPay, you purchase the USDC token and then swap that for AR Tokens. A nice feature is everPay supports multiple Arweave account options. For example, if you are using ArConnect, you can connect that account to the everPay platform for direct deposit of the AR Tokens.
+
+The [process for using everPay](https://everpay.zendesk.com/hc/en-us/articles/18677901470617-How-to-use-legend-to-buy-crypto-currency-) is slightly different than the other options: Connect your account/wallet to the everPay platform, buy USDC tokens, swap USDC for AR Tokens, done.
+
+everPay has close to worldwide support for their services.
+
 ## Additional on ramp services
 
 In general, on ramp services are the most straightforward way to purchase AR Tokens. Most services accept multiple currencies and allow purchases with debit/credit cards, wire transfer, or other local payment methods.
@@ -49,10 +57,6 @@ The process of using one of these services is pretty simple: sign up for an acco
 Some on-ramp services that support AR Tokens are:
 
 - [Onramper](https://onramper.com/try)
-
-<!-- -->
-
-<!-- -->
 
 Unfortunately, for United States residents, not all on-ramp service supports the U.S. dollar (yet). Always make sure you check the service's country support list before trying to use the service.
 
@@ -66,17 +70,15 @@ You will most likely need to purchase another token first and swap that for AR T
 
 - Create USDC to AR token trade on SimpleSwap
 
-- Send USDC from Coinbase to the deposit address provided by SimpleSwap
+- Send USDC from Coinbase to the deposit address provided by SimpleSwap or [Stealthex.io](http://Stealthex.io)
 
-- SimpleSwap completes swap, and you receive AR tokens to your preferred AR address
+- SimpleSwap or [Stealthex.io](http://Stealthex.io) completes swap, and you receive AR tokens to your preferred AR address
 
 The process will be similar to the on ramp services with some additional steps: Sign up for an account, make a deposit into your account, purchase tokens that can be swapped for AR Tokens, swap tokens for AR Tokens, send AR Tokens to your Arweave account like ArConnect or some other similar solution.
 
 Examples of centralized exchanges that support AR Tokens are:
 
 - [Binance](https://www.binance.com/en)
-
-- [SimpleSwap](https://simpleswap.io/)
 
 - [KuCoin](https://www.kucoin.com/)
 
@@ -85,14 +87,6 @@ Examples of centralized exchanges that support AR Tokens are:
 - [Huobi](https://www.huobi.com/en-us/)
 
 Centralized exchanges may or may not be supported in your country of residence.
-
-## Alternative services
-
-One alternative service that blends the on-ramp service with the exchange to make an all-in-one solution is [everPay](https://everpay.io/). With everPay, you purchase the USDC token and then swap that for AR Tokens. A nice feature is everPay supports multiple Arweave account options. For example, if you are using ArConnect, you can connect that account to the everPay platform for direct deposit of the AR Tokens.
-
-The [process for using everPay](https://everpay.zendesk.com/hc/en-us/articles/18677901470617-How-to-use-legend-to-buy-crypto-currency-) is slightly different than the other options: Connect your account/wallet to the everPay platform, buy USDC tokens, swap USDC for AR Tokens, done.
-
-everPay has close to worldwide support for their services.
 
 ## One more thing
 
