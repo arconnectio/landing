@@ -1,7 +1,27 @@
 {
-  "commit": "964ae4c1df6c0965fa1f3b2c92670a4fbd6183e4",
-  "generated": "2025-01-31T14:39:09.376Z",
+  "commit": "a5e899e2b0097386fd781915d0e0abde3f9ce8e0",
+  "generated": "Fri, 31 Jan 2025 14:39:24 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "eb1985a0fba296fabd5d8b0292646bdddfdb002f",
+        "hash": "1098421653",
+        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
+      },
+      "author": {
+        "name": "Matthew DiRienzo",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "",
+      "description": "How to Buy Arweave Tokens",
+      "publishedAt": "2024-05-19T18:34:52.000Z",
+      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
+      "status": "published",
+      "themeColor": "rgba(171, 154, 255, 0.2)",
+      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
+      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
+    },
     {
       "__outstatic": {
         "commit": "090fc51b683d678f235ed35ccd831f24ea85f044",
@@ -104,26 +124,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4a78a78950783cdb02949d552d622e32e4ad5319",
-        "hash": "2022125372",
-        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
-      },
-      "author": {
-        "name": "Ashlyn Pugh",
-        "picture": ""
-      },
-      "collection": "blogs",
-      "coverImage": "/images/arconnect_image-g1MT.png",
-      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
-      "publishedAt": "2024-10-24T16:12:37.000Z",
-      "slug": "big-announcement-arconnect-goes-mobile",
-      "status": "published",
-      "themeColor": "rgba(0, 0, 0, .15)",
-      "title": "Big Announcement: ArConnect Goes Mobile!",
-      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
-    },
-    {
-      "__outstatic": {
         "commit": "a5807fd79ad2e72060f350ef13c98e2b6f7fd6c9",
         "hash": "2445259923",
         "path": "outstatic/content/blogs/beyond-transactions-integration-of-arconnects-subscription-feature.md"
@@ -141,6 +141,26 @@
       "themeColor": "rgba(0, 0, 0, .15)",
       "title": "Beyond Transactions: Integration of ArConnect's Subscription Feature",
       "transparentThumbnail": "https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
+    },
+    {
+      "__outstatic": {
+        "commit": "4a78a78950783cdb02949d552d622e32e4ad5319",
+        "hash": "2022125372",
+        "path": "outstatic/content/blogs/big-announcement-arconnect-goes-mobile.md"
+      },
+      "author": {
+        "name": "Ashlyn Pugh",
+        "picture": ""
+      },
+      "collection": "blogs",
+      "coverImage": "/images/arconnect_image-g1MT.png",
+      "description": "ArConnect, the community-built wallet, has come a long way since its humble beginnings as a weekend project. It was created to solve a simple but significant problem: the hassle of dragging and dropping private keys just to log into Arweave applications. Fast forward to today, and ArConnect has become the go-to wallet for the Arweave and AO ecosystem, with a core focus on security plus organic growth driven by meeting a critical user need.",
+      "publishedAt": "2024-10-24T16:12:37.000Z",
+      "slug": "big-announcement-arconnect-goes-mobile",
+      "status": "published",
+      "themeColor": "rgba(0, 0, 0, .15)",
+      "title": "Big Announcement: ArConnect Goes Mobile!",
+      "transparentThumbnail": "https://b4uvjf66hstemwvumdkbiwzvtwpbkwovf3ae4zc6pxfnhoajh4za.arweave.net/DylUl948pkZatGDUFFs1nZ4VWdUuwE5kXn3K07gJPzI"
     },
     {
       "__outstatic": {
@@ -1024,6 +1044,34 @@
     },
     {
       "__outstatic": {
+        "commit": "8c25b47d7442bad2ec69810cfe0cd80034988ab6",
+        "hash": "3522294270",
+        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
+      },
+      "author": {
+        "name": "Bithiah",
+        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
+      },
+      "category": [
+        {
+          "label": "Browser Extension",
+          "value": "browser-extension"
+        },
+        {
+          "label": "Wallet management",
+          "value": "wallet-management"
+        }
+      ],
+      "collection": "knowledge-base-articles",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-08T04:37:23.280Z",
+      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
+      "status": "published",
+      "title": "Browser Extension - Protecting your funds: allowance limits and how they work"
+    },
+    {
+      "__outstatic": {
         "commit": "e1710c79f87bdd6fd190f2691f4cb206c4c3389e",
         "hash": "783863072",
         "path": "outstatic/content/knowledge-base-articles/permission-system-in-arconnect.md"
@@ -1105,34 +1153,6 @@
       "slug": "mobile-app-settings-how-to-create-or-import-additional-wallets",
       "status": "published",
       "title": "Mobile App - Settings: How to create or import additional wallets "
-    },
-    {
-      "__outstatic": {
-        "commit": "8c25b47d7442bad2ec69810cfe0cd80034988ab6",
-        "hash": "3522294270",
-        "path": "outstatic/content/knowledge-base-articles/protecting-your-funds-allowance-limits-and-how-they-work.md"
-      },
-      "author": {
-        "name": "Bithiah",
-        "picture": "https://avatars.githubusercontent.com/u/63845509?v=4"
-      },
-      "category": [
-        {
-          "label": "Browser Extension",
-          "value": "browser-extension"
-        },
-        {
-          "label": "Wallet management",
-          "value": "wallet-management"
-        }
-      ],
-      "collection": "knowledge-base-articles",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-08T04:37:23.280Z",
-      "slug": "protecting-your-funds-allowance-limits-and-how-they-work",
-      "status": "published",
-      "title": "Browser Extension - Protecting your funds: allowance limits and how they work"
     },
     {
       "__outstatic": {
@@ -1301,26 +1321,6 @@
       "slug": "using-the-keystone-hardware-wallet-with-arconnect",
       "status": "published",
       "title": "Browser Extension - Using the Keystone Hardware Wallet with ArConnect"
-    },
-    {
-      "__outstatic": {
-        "commit": "964ae4c1df6c0965fa1f3b2c92670a4fbd6183e4",
-        "hash": "1098421653",
-        "path": "outstatic/content/blogs/arweave-for-beginners-how-to-buy-arweave-tokens.md"
-      },
-      "author": {
-        "name": "Matthew DiRienzo",
-        "picture": ""
-      },
-      "collection": "blogs",
-      "coverImage": "",
-      "description": "How to Buy Arweave Tokens",
-      "publishedAt": "2024-05-19T18:34:52.000Z",
-      "slug": "arweave-for-beginners-how-to-buy-arweave-tokens",
-      "status": "published",
-      "themeColor": "rgba(171, 154, 255, 0.2)",
-      "title": "Arweave for Beginners: How to Buy Arweave Tokens",
-      "transparentThumbnail": "https://42md3mwuihuk7vbuec4bjctbjmgkfwp4jj37v3efkqvkhbjdix5a.arweave.net/5pg9stRB6K_UNCC4FIphSwyi2fxKd_rshVQqo4UjRfo"
     }
   ]
 }
