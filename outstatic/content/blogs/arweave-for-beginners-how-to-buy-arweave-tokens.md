@@ -70,11 +70,9 @@ You will most likely need to purchase another token first and swap that for AR T
 
 - Create USDC to AR token trade on SimpleSwap
 
-- Send USDC from Coinbase to the deposit address provided by SimpleSwap or [Stealthex.io](http://Stealthex.io)
+- Send USDC from Coinbase to the deposit address provided by SimpleSwap
 
-- SimpleSwap or [Stealthex.io](http://Stealthex.io) completes swap, and you receive AR tokens to your preferred AR address
-
-The process will be similar to the on ramp services with some additional steps: Sign up for an account, make a deposit into your account, purchase tokens that can be swapped for AR Tokens, swap tokens for AR Tokens, send AR Tokens to your Arweave account like ArConnect or some other similar solution.
+- SimpleSwap completes swap, and you receive AR tokens to your preferred AR address
 
 Examples of centralized exchanges that support AR Tokens are:
 
