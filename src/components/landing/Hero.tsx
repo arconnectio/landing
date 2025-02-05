@@ -52,7 +52,7 @@ export default function Hero() {
           plus
         />
         <StatPanel icon={<TagIcon />} name="Transactions" value={500000} />
-        <StatLink href="/apps">
+        <StatLink href="https://www.wander.app/apps">
           <StatPanel icon={<GridIcon />} name="Apps" value={100} plus />
         </StatLink>
         <StatLink href="https://docs.wander.app/api/intro">

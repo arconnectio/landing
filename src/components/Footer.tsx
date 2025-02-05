@@ -78,7 +78,7 @@ export default function Footer() {
           <LinkColumn>
             <ColumnTitle>Developers</ColumnTitle>
             <Link
-              href="https://docs.arweavekit.com/wallets/wallet-kit"
+              href="https://docs.arweavekit.com/arweave-wallet-kit/introduction"
               target="_blank"
               rel="noopener noreferer"
             >
