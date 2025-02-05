@@ -27,7 +27,7 @@ export default function Apps({ apps }: Props) {
       </AppsGrid>
       <Spacer y={1.85} />
       <Footer>
-        <ViewAllLink href="/apps">
+        <ViewAllLink href="https://www.wander.app/apps">
           View all
           <ArrowUpRightIcon />
         </ViewAllLink>
