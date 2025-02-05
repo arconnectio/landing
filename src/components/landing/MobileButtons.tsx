@@ -25,7 +25,7 @@ export default function MobileButtons({
             device_name: "apple"
           })
         }
-        href="https://apps.apple.com/us/app/arconnect-wallet/id6642716869"
+        href="https://www.wander.app/download"
       >
         <StyledImage
           src="/logos/app-store.svg"
@@ -41,7 +41,7 @@ export default function MobileButtons({
             device_name: "android"
           })
         }
-        href="https://play.google.com/store/apps/details?id=io.arconnect.app"
+        href="https://www.wander.app/download"
       >
         <StyledImage
           src="/logos/google-playstore.png"
