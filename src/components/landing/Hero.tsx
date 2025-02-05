@@ -32,6 +32,7 @@ export default function Hero() {
         <br />
         all in your favorite browser and mobile device
       </HeroDescription>
+      <Buttons>
         <Button
           color="0, 0, 0"
           href="https://www.wander.app/"
