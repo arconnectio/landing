@@ -5,10 +5,10 @@ import Button from "../Button";
 import Spacer from "../Spacer";
 import Link from "next/link";
 import {
-  ArrowUpRightIcon,
+//   ArrowUpRightIcon,
   DownloadIcon,
   GridIcon,
-  MapIcon,
+//   MapIcon,
   TagIcon,
   CodeIcon
 } from "@iconicicons/react";
@@ -18,14 +18,20 @@ export default function Hero() {
     <Wrapper>
       <HeroTitle>
         ArConnect is now&nbsp;
-        <Link
+        <HeroLink
             href="https://www.wander.app/"
             target="_blank"
             rel="noopener noreferer"
           >
           Wander
-        </Link>
+        </HeroLink>
       </HeroTitle>
+      <Spacer y={1.55} />
+      <HeroDescription>
+        A non-custodial Arweave and AO native wallet with extensive features
+        <br />
+        all in your favorite browser and mobile device
+      </HeroDescription>
       <Spacer y={1.55} />
       <Buttons>
         <Button
@@ -49,13 +55,17 @@ export default function Hero() {
         <StatLink href="/apps">
           <StatPanel icon={<GridIcon />} name="Apps" value={100} plus />
         </StatLink>
-        <StatLink href="https://docs.arconnect.io/api/intro">
+        <StatLink href="https://docs.wander.app/api/intro">
           <StatPanel icon={<CodeIcon />} name="API functions" value={20} />
         </StatLink>
       </Stats>
     </Wrapper>
   );
 }
+
+const HeroLink = styled.a`
+  text-decoration: none;
+`;
 
 const Wrapper = styled.section`
   height: 90vh;

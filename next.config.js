@@ -33,7 +33,7 @@ const nextConfig = {
       },
       {
         source: "/docs",
-        destination: "https://docs.arconnect.io",
+        destination: "https://docs.wander.app",
         permanent: true
       }
     ];
