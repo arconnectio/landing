@@ -35,7 +35,7 @@ export default function Hero() {
           target="_blank"
           rel="noopener noreferer"
         >
-          Take me to Wander!
+          Go to Wander
         </Button>
       </Buttons>
       <Spacer y={5} />
