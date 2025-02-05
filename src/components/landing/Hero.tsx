@@ -17,7 +17,7 @@ export default function Hero() {
   return (
     <Wrapper>
       <HeroTitle>
-        Your gateway to <span>Arweave and AO</span>
+        ArConnect is now <span>Wander</span>
       </HeroTitle>
       <Spacer y={1.55} />
       <HeroDescription>
