@@ -91,14 +91,26 @@ export default function Nav({ latestBlog }: Props) {
                 >
                   Docs
                 </NavLink>
-                <NavLink href="/blog" rel="noopener noreferer">
+                <NavLink 
+                  href="https://www.wander.app/blog"
+                  target="_blank"
+                  rel="noopener noreferer"
+                >
                   Blog
                 </NavLink>
-                <NavLink href="/apps" rel="noopener noreferer">
+                <NavLink 
+                  href="https://www.wander.app/apps"
+                  target="_blank"
+                  rel="noopener noreferer"
+                >
                   Apps
                 </NavLink>
               </NavPageLinks>
-              <Link href="/download" passHref legacyBehavior>
+              <Link  
+                  href="https://www.wander.app/download"
+                  target="_blank"
+                  rel="noopener noreferer"
+                >
                 <Button onClick={() => sendConversion("tw-ofnyd-og7tu", {})}>
                   Download
                   <ArrowUpRightIcon />
