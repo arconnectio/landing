@@ -27,11 +27,6 @@ export default function Hero() {
         </HeroLink>
       </HeroTitle>
       <Spacer y={1.55} />
-      <HeroDescription>
-        A non-custodial Arweave and AO native wallet with extensive features
-        <br />
-        all in your favorite browser and mobile device
-      </HeroDescription>
       <Spacer y={1.55} />
       <Buttons>
         <Button
@@ -40,7 +35,7 @@ export default function Hero() {
           target="_blank"
           rel="noopener noreferer"
         >
-          Go to Wander
+          Take me to Wander!
         </Button>
       </Buttons>
       <Spacer y={5} />
