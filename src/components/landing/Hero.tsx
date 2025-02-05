@@ -25,25 +25,16 @@ export default function Hero() {
         <br />
         all in your favorite browser and mobile device
       </HeroDescription>
-      <Spacer y={2.5} />
-      <Buttons>
-        <Link href="/download" passHref legacyBehavior>
-          <Button onClick={() => sendConversion("tw-ofnyd-og7tu", {})}>
-            Download
-            <ArrowUpRightIcon />
-          </Button>
-        </Link>
         <Button
           color="0, 0, 0"
-          href="https://docs.arconnect.io"
+          href="https://www.wander.app/"
           target="_blank"
           rel="noopener noreferer"
         >
-          Docs
-          <MapIcon />
+          Go to Wander
         </Button>
       </Buttons>
-      <Spacer y={7} />
+      <Spacer y={5} />
       <Stats>
         <StatPanel
           icon={<DownloadIcon />}
