@@ -17,7 +17,14 @@ export default function Hero() {
   return (
     <Wrapper>
       <HeroTitle>
-        ArConnect is now <span>Wander</span>
+        ArConnect is now&nbsp;
+        <Link
+            href="https://www.wander.app/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+          Wander
+        </Link>
       </HeroTitle>
       <Spacer y={1.55} />
       <HeroDescription>
