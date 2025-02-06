@@ -83,22 +83,40 @@ export default function Nav({ latestBlog }: Props) {
                 {/** Uncomment the link below once knowledge base content is published */}
                 {/**<NavLink href="/help">Help</NavLink>**/}
                 {/** Remove the link below once knowledge base content is published */}
-                <NavLink href="/support">Support</NavLink>
+                <NavLink 
+                  href="https://www.wander.app/help"
+                  target="_blank"
+                  rel="noopener noreferer"
+                  >
+                  Support
+                </NavLink>
                 <NavLink
-                  href="https://docs.arconnect.io"
+                  href="https://docs.wander.app"
                   target="_blank"
                   rel="noopener noreferer"
                 >
                   Docs
                 </NavLink>
-                <NavLink href="/blog" rel="noopener noreferer">
+                <NavLink 
+                  href="https://www.wander.app/blog"
+                  target="_blank"
+                  rel="noopener noreferer"
+                >
                   Blog
                 </NavLink>
-                <NavLink href="/apps" rel="noopener noreferer">
+                <NavLink 
+                  href="https://www.wander.app/apps"
+                  target="_blank"
+                  rel="noopener noreferer"
+                >
                   Apps
                 </NavLink>
               </NavPageLinks>
-              <Link href="/download" passHref legacyBehavior>
+              <Link  
+                  href="https://www.wander.app/download"
+                  target="_blank"
+                  rel="noopener noreferer"
+                >
                 <Button onClick={() => sendConversion("tw-ofnyd-og7tu", {})}>
                   Download
                   <ArrowUpRightIcon />

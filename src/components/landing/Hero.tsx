@@ -5,10 +5,10 @@ import Button from "../Button";
 import Spacer from "../Spacer";
 import Link from "next/link";
 import {
-  ArrowUpRightIcon,
+//   ArrowUpRightIcon,
   DownloadIcon,
   GridIcon,
-  MapIcon,
+//   MapIcon,
   TagIcon,
   CodeIcon
 } from "@iconicicons/react";
@@ -17,33 +17,28 @@ export default function Hero() {
   return (
     <Wrapper>
       <HeroTitle>
-        Your gateway to <span>Arweave and AO</span>
+        ArConnect is now&nbsp;
+        <HeroLink
+            href="https://www.wander.app/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+          Wander
+        </HeroLink>
       </HeroTitle>
       <Spacer y={1.55} />
-      <HeroDescription>
-        A non-custodial Arweave and AO native wallet with extensive features
-        <br />
-        all in your favorite browser and mobile device
-      </HeroDescription>
-      <Spacer y={2.5} />
+      <Spacer y={1.55} />
       <Buttons>
-        <Link href="/download" passHref legacyBehavior>
-          <Button onClick={() => sendConversion("tw-ofnyd-og7tu", {})}>
-            Download
-            <ArrowUpRightIcon />
-          </Button>
-        </Link>
         <Button
           color="0, 0, 0"
-          href="https://docs.arconnect.io"
+          href="https://www.wander.app/"
           target="_blank"
           rel="noopener noreferer"
         >
-          Docs
-          <MapIcon />
+          Go to Wander
         </Button>
       </Buttons>
-      <Spacer y={7} />
+      <Spacer y={5} />
       <Stats>
         <StatPanel
           icon={<DownloadIcon />}
@@ -52,16 +47,20 @@ export default function Hero() {
           plus
         />
         <StatPanel icon={<TagIcon />} name="Transactions" value={500000} />
-        <StatLink href="/apps">
+        <StatLink href="https://www.wander.app/apps">
           <StatPanel icon={<GridIcon />} name="Apps" value={100} plus />
         </StatLink>
-        <StatLink href="https://docs.arconnect.io/api/intro">
+        <StatLink href="https://docs.wander.app/api/intro">
           <StatPanel icon={<CodeIcon />} name="API functions" value={20} />
         </StatLink>
       </Stats>
     </Wrapper>
   );
 }
+
+const HeroLink = styled.a`
+  text-decoration: none;
+`;
 
 const Wrapper = styled.section`
   height: 90vh;

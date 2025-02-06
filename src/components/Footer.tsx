@@ -35,11 +35,31 @@ export default function Footer() {
         <Links>
           <LinkColumn>
             <ColumnTitle>About</ColumnTitle>
-            <Link href="/apps">Apps</Link>
-            <Link href="/blog">Blog</Link>
-            <Link href="/branding">Branding</Link>
-            <Link href="/ArConnect Terms of Service.pdf">Terms of Service</Link>
-            <Link href="/privacy">Privacy Policy</Link>
+            <Link  
+              href="https://www.wander.app/apps"
+              target="_blank"
+              rel="noopener noreferer"
+            >Apps</Link>
+            <Link  
+              href="https://www.wander.app/blog"
+              target="_blank"
+              rel="noopener noreferer"
+              >Blog</Link>
+            <Link  
+              href="https://www.wander.app/brand"
+              target="_blank"
+              rel="noopener noreferer"
+              >Branding</Link>
+            <Link 
+              href="https://www.wander.app/legal/terms-of-service"
+              target="_blank"
+              rel="noopener noreferer"
+              >Terms of Service</Link>
+            <Link 
+              href="https://www.wander.app/legal/privacy-policy"
+              target="_blank"
+              rel="noopener noreferer"
+              >Privacy Policy</Link>
             <Link href="/audit.pdf">Security Audit - July 2023</Link>
             <Link href="/audit-2024.pdf">Security Audit - May 2024</Link>
           </LinkColumn>
@@ -48,20 +68,24 @@ export default function Footer() {
             <a href="/support" target="_blank" rel="noopener noreferrer">
               Chat
             </a>
-            <Link href="/help">Help Center</Link>
+            <Link 
+              href="https://www.wander.app/help"
+              target="_blank"
+              rel="noopener noreferer"
+              >Help Center</Link>
             <Link href="/recover">Recovery</Link>
           </LinkColumn>
           <LinkColumn>
             <ColumnTitle>Developers</ColumnTitle>
             <Link
-              href="https://docs.arweavekit.com/wallets/wallet-kit"
+              href="https://docs.arweavekit.com/arweave-wallet-kit/introduction"
               target="_blank"
               rel="noopener noreferer"
             >
               Kit
             </Link>
             <a
-              href="https://docs.arconnect.io"
+              href="https://docs.wander.app"
               target="_blank"
               rel="noopener noreferrer"
             >

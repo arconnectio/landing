@@ -16,7 +16,7 @@ export default function Mission() {
           aoComputer, and the permaweb
         </Statement>
         <Spacer y={2.6} mobileY={3} />
-        <Button href="/support" target="_blank" rel="noopener noreferer">
+        <Button href="https://www.wander.app/help" target="_blank" rel="noopener noreferer">
           Chat with us
           <ArrowUpRightIcon />
         </Button>

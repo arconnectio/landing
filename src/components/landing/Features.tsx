@@ -67,7 +67,7 @@ export default function Features() {
             <Spacer y={2} />
             <Buttons>
               <Button
-                href="https://docs.arconnect.io/developer-tooling/arconnect-devtools"
+                href="https://docs.wander.app/developer-tooling"
                 target="_blank"
                 rel="noopener noreferer"
               >
@@ -75,7 +75,7 @@ export default function Features() {
                 <ArrowUpRightIcon />
               </Button>
               <Button
-                href="https://docs.arconnect.io"
+                href="https://docs.wander.app"
                 target="_blank"
                 rel="noopener noreferer"
                 color="0, 0, 0"
